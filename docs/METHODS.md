@@ -6,9 +6,9 @@ signal-to-noise statistics are not discovery probabilities.
 ## Targets
 
 Tables 3 and 5 of [Kaltenegger et al. (2021)](https://arxiv.org/abs/2101.07898)
-provide 6,492 distinct stars. Initial cuts: radius 0.10–0.65 solar radii;
-temperature 2,600–4,500 K; distance at most 100 pc; TESS magnitude at most 14;
-positive mass; recomputed Earth-irradiation period 3–90 days. A heuristic ranking
+provide 6,492 distinct stars. Initial cuts: radius 0.10-0.65 solar radii;
+temperature 2,600-4,500 K; distance at most 100 pc; TESS magnitude at most 14;
+positive mass; recomputed Earth-irradiation period 3-90 days. A heuristic ranking
 favors bright, small, nearby stars and deeper Earth-sized transits. Initial batches
 exclude hosts listed in downloaded TOI and community-TOI snapshots; this does not
 establish that the remaining hosts or signals are unknown.
@@ -35,8 +35,8 @@ the holdout; otherwise there is no independent holdout. Detrending is segment-lo
 
 Astropy box least squares searches a logarithmic period grid limiting approximate
 phase drift to one quarter of the shortest trial duration. The range is 0.85 times
-the inner empirical HZ period to 1.15 times the outer period, bounded by 1–100 days
-and 0.48 times the discovery baseline. Durations span 0.025–0.25 days. Peaks are
+the inner empirical HZ period to 1.15 times the outer period, bounded by 1-100 days
+and 0.48 times the discovery baseline. Durations span 0.025-0.25 days. Peaks are
 refined on discovery data, then masked for up to four iterative searches. Known
 short-period TOI transits are explicitly masked and documented when present.
 
@@ -47,7 +47,7 @@ can miss real planets, so failure of this strict test does not disprove a planet
 ## Preliminary gates
 
 Flags cover known periods/harmonics; fewer than three discovery events; one event
-dominating; odd/even depth differences; approximate radius outside 0.5–2 Earth
+dominating; odd/even depth differences; approximate radius outside 0.5-2 Earth
 radii; period outside the empirical HZ; duration exceeding 1.6 times a central
 circular transit; absent/insufficient holdout; holdout nominal S/N below 5; and BLS
 nominal S/N below 7. Duration is a diagnostic; eccentric transits can be longer.
@@ -60,7 +60,7 @@ parameters and propagate uncertainties. Independent observations may still be ne
 
 ## Physical HZ estimates and catalogue consistency
 
-`physics.py` implements Table 1 and equations 1–3 of the 2021 paper. Luminosity is
+`physics.py` implements Table 1 and equations 1-3 of the 2021 paper. Luminosity is
 recomputed from stellar radius and temperature. Solar temperature is 5,772 K for
 luminosity; the polynomial uses the paper's 5,780 K reference.
 
@@ -97,3 +97,47 @@ those residuals diagnostic rather than untouched confirmation evidence.
 
 HZ membership describes irradiation under stated atmospheric assumptions. It does
 not establish rocky composition, water, habitability or life.
+
+## Sector-local periodic variability model
+
+`variability.py` fits each observing sector independently. A Lomb-Scargle scan
+searches 0.5-25 cycles/day, with the lower frequency also constrained to periods
+shorter than half the inner HZ period. Only peaks explaining at least 10% of the
+weighted variance trigger a three-harmonic fit. Four rounds of symmetric
+three-sigma clipping limit the influence of deep dips and flares. Subtract the
+model, renormalize, and retain the original error floor. This is an exploratory
+preprocessing alternative; stellar variability and contaminating light are not
+distinguished by this operation.
+
+Signals are injected before our detrending and variability removal. An offline
+test checks transit-depth preservation and verifies that changing one sector's
+flux cannot change another sector's cleaned flux. When no model meets the
+threshold, the original light curve and existing timing refinement are reused.
+Running several preprocessing choices increases the search's trial count.
+
+## Combined-season search
+
+`longbaseline.py` sorts observing sectors and reserves the second, fifth, eighth,
+and subsequent every-third sector. All remaining sectors train the search.
+Targets with fewer than three sectors are skipped. No sector contributes to both
+training and the holdout, including during sector-local variability fitting.
+
+Thirty-minute weighted bins accelerate the initial BLS grid. The logarithmic
+grid limits drift over the full training baseline to about one third of the
+shortest coarse duration (0.04 day). Coarse durations are 0.04-0.25 day. Retain up
+to two iterative peaks, refining period and duration using the ten-minute samples.
+The final duration grid includes shorter boxes and the approximate circular
+transit duration. Freeze all trial ephemerides before evaluating reserved sectors.
+The existing physical and nominal S/N gates apply, including at least three
+training events, two holdout events, and 60% positive holdout event depths.
+
+An offline recovery test inverts held-back flux while verifying the trained
+ephemeris remains identical. A fresh 27-case real-data injection plan is separately
+recorded. This plan's periods are selected using the original single-season
+feasibility limits, so it does not test the full added long-period search range.
+Thirty-minute coarse bins and a two-peak cap can miss short or weak transits.
+
+This is another analysis of previously inspected observations, not a globally
+blind experiment or independent replication of earlier searches. Nominal S/N does
+not account for correlated noise, selected peaks, or multiple analysis variants.
+Full false-alarm rates and survey completeness have not been established.

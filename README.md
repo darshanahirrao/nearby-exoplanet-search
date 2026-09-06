@@ -19,11 +19,14 @@ python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.lock.txt
 python -m unittest discover -s tests -v
+# Optional: use the inputs from the published run in a clean checkout.
+python scripts/catalogue_snapshot.py restore
 python scripts/catalogs.py
 
 # Known TOI-700 calibration; never a discovery.
 python scripts/download.py --tics 150428135 --max-sectors 0 --workers 1
-python scripts/search.py --tics 150428135 --max-signals 5 --tag _calibration
+python scripts/search.py --tics 150428135 --max-signals 5 --tag _calibration_v2
+python scripts/refine.py --folders results/150428135_calibration_v2 --workers 1
 
 # Begin with a small discovery batch.
 python scripts/download.py --count 10 --max-sectors 18 --workers 3
@@ -31,6 +34,8 @@ python scripts/batch.py --target-list target_batch_0_10.csv --workers 2
 
 # Freeze timing refinement before checking the remaining observations.
 python scripts/refine.py --all-screened --workers 2
+python scripts/variability.py --all-screened --workers 2
+python scripts/longbaseline.py --all-screened --workers 2
 python scripts/summarize.py
 ```
 
@@ -38,6 +43,10 @@ Outputs under `results/<TIC>/` include the processed light curve, frozen discove
 fit, held-back checks, catalogue matches and screening flags. Unflagged signals
 still require detailed astrophysical vetting. Exact reruns require matching
 catalogue snapshots and FITS hashes; upstream catalogues change over time.
+The checked catalogue restore includes every field used by the pipeline, with
+ExoFOP free-text columns omitted. It refuses to replace differing local inputs.
+Raw FITS files are retrieved from MAST, with exact product identifiers and hashes
+listed in the observation manifest.
 
 The initial pilot and the fresh refinement tests can be reproduced with:
 
@@ -45,6 +54,9 @@ The initial pilot and the fresh refinement tests can be reproduced with:
 python scripts/download.py --tics 219223742 397098265 232970271 --max-sectors 18
 python scripts/injections.py --tics 219223742 397098265 232970271 --seed 20260907
 python scripts/injections.py --tics 219223742 397098265 232970271 --seed 20260908 --refine --suite injections_refined_fresh
+python scripts/injections.py --tics 219223742 397098265 232970271 --seed 20260908 --refine --clean --suite injections_clean_paired
+python scripts/injections.py --tics 219223742 397098265 232970271 --seed 20260909 --refine --clean --suite injections_clean_fresh
+python scripts/injections.py --tics 219223742 397098265 232970271 --seed 20260910 --clean --longbaseline --suite injections_longbaseline_fresh
 ```
 
 To overlap downloads and screening for a bounded tranche, use

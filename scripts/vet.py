@@ -126,7 +126,7 @@ def vet(tic, iteration, refined=False, variant="base"):
         ds, vs, _ = split_campaigns(sap)
     rows = 3 if variant in ["variability", "longbaseline"] else 2
     fig, axes = plt.subplots(rows, 2, figsize=(12, 3.5 * rows), constrained_layout=True)
-    suffix = " after periodic model (where selected)" if rows == 3 else ""
+    suffix = "\nPeriodic model where selected" if rows == 3 else ""
     for ax, data, title in [
         (axes[0, 0], dis, "Discovery: PDC"),
         (axes[0, 1], val, "Held-back observations: PDC"),
@@ -145,7 +145,7 @@ def vet(tic, iteration, refined=False, variant="base"):
     fig.suptitle(
         f"TIC {tic} | trial period {s['period_days']:.6f} days\nPreliminary diagnostics; no planet claim"
     )
-    fig.savefig(out / "phase_diagnostics.png", dpi=160)
+    fig.savefig(out / "phase_diagnostics.png", dpi=160, bbox_inches="tight")
     plt.close(fig)
     print(
         tic,

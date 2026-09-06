@@ -1,12 +1,30 @@
 {
-  "updated_utc": "2026-09-06T20:06:01.032175+00:00",
-  "processed_targets": 233,
-  "period_searched_targets": 233,
-  "initial_trial_fits": 831,
-  "refinement_attempts": 233,
-  "refined_targets_with_trial_fits": 233,
-  "initial_unflagged": 1,
+  "updated_utc": "2026-09-06T20:47:40.624913+00:00",
+  "processed_targets": 514,
+  "period_searched_targets": 514,
+  "initial_trial_fits": 1840,
+  "refinement_attempts": 492,
+  "refined_targets_with_trial_fits": 492,
+  "initial_unflagged": 2,
   "refined_unflagged": 2,
+  "additional_searches": {
+    "variability": {
+      "attempts": 492,
+      "skipped": 0,
+      "trial_fits": 1731,
+      "unflagged": 0,
+      "targets_with_periodic_model": 167,
+      "reused_refinement": 260
+    },
+    "longbaseline": {
+      "attempts": 6,
+      "skipped": 1,
+      "trial_fits": 10,
+      "unflagged": 0,
+      "targets_with_periodic_model": 3,
+      "reused_refinement": 0
+    }
+  },
   "confirmed_new_planets": 0,
   "experiments": [
     {
@@ -14,6 +32,24 @@
       "finished": 27,
       "recovered": 17,
       "strict_holdout": 8
+    },
+    {
+      "suite": "injections_clean_fresh",
+      "finished": 27,
+      "recovered": 23,
+      "strict_holdout": 23
+    },
+    {
+      "suite": "injections_clean_paired",
+      "finished": 27,
+      "recovered": 22,
+      "strict_holdout": 17
+    },
+    {
+      "suite": "injections_longbaseline_fresh",
+      "finished": 27,
+      "recovered": 23,
+      "strict_holdout": 23
     },
     {
       "suite": "injections_refined_fresh",

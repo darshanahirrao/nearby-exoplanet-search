@@ -1,11 +1,11 @@
-# Research status — 2026-09-07
+# Research status , 2026-09-07
 
 **No newly discovered or validated planet. The search continues.**
 
-The first 240-target tranche has finished downloading and initial processing:
-233 targets supplied at least two sectors; seven had fewer. All 233 processed
-targets supported the configured period search. We retained 831 trial fits, including
-weak and rejected fits. These are not 831 planet candidates.
+The first 500-target tranche has finished downloading and initial processing:
+492 targets supplied at least two sectors; eight had fewer. All 492 processed
+targets supported the configured period search. We retained 1,762 trial fits, including
+weak and rejected fits. These are not 1,762 planet candidates.
 
 The timing-refined screen produced two unflagged trial periods. Both show
 hour-scale variability aliases and have been rejected as evidence for temperate
@@ -24,20 +24,26 @@ signal-to-noise about **11.8** in the final held-back observations. Discovery,
 timing-refinement and final holdout data have distinct roles. This is a known-planet
 calibration, not a new discovery.
 
-| Experiment | Synthetic cases | Recovered among three trial fits | Also passed strict holdout check |
+| Experiment | Synthetic cases | Recovered by configured search | Also passed strict holdout check |
 | --- | --- | --- | --- |
 | Initial pilot | 27 | 17 | 8 |
 | Fresh timing-refined suite | 27 | 18 | 13 |
+| Periodic filtering, same cases as timing-refined suite | 27 | 22 | 17 |
+| Periodic filtering, fresh cases | 27 | 23 | 23 |
+| Combined seasons with periodic filtering, fresh cases | 27 | 23 | 23 |
 
-These suites use different deterministic periods/phases on the same three selected
-stars, so the table is not a controlled measurement of improvement. Trials inject
+Only the explicitly paired suites use identical periods and phases; the other
+suites use different deterministic plans on the same three selected stars.
+Combined-season trials retain two peaks; the other suites retain three. These
+counts cannot be interpreted as a controlled comparison across all rows. Trials inject
 0.8, 1.0 and 1.5 Earth-radius box signals before our binning/detrending. Box shapes
 favor the BLS search and do not include upstream SPOC signal losses. This small
 sample does not establish survey completeness or false-positive probabilities.
-The faint, variable control TIC 232970271 yielded no recovered injections in either
-suite; non-detections in such data cannot exclude small planets.
+The faint, variable control TIC 232970271 yielded no recovered injections in the
+first two suites. Periodic filtering improves this limited sensitivity check;
+non-detections still cannot exclude small planets.
 
-Five offline numerical checks pass, including a test that changing final-holdout
+Seven offline numerical checks pass, including a test that changing final-holdout
 flux leaves the fitted ephemeris unchanged while reversing the measured holdout
 signal. Local execution, code, data-product references and failure records are
 retained for independent inspection.
@@ -53,7 +59,18 @@ retained for independent inspection.
 - [Fresh injection plan](calibration/injections_refined_fresh/plan.json) and [recovery results](calibration/injections_refined_fresh/recovery.csv)
 - [Known-planet calibration](calibration/150428135_calibration_v2_refined.json)
 
-Further target batches and sensitivity improvements remain in progress. Pixel
+The search has expanded to 1,000 selected targets. Downloads, first-pass screening
+and combined-season searches remain in progress. The tables and machine summary
+are checkpoints and may include partially completed later batches.
+
+The combined-season control recovers known TOI-700 d near 37.42340 days, with
+nominal held-sector S/N 10.1. It does not recover known TOI-700 e among its two
+retained peaks, although a catalogue-ephemeris diagnostic shows a weak signal.
+This explicitly demonstrates incomplete sensitivity. Fifteen additional targets
+are undergoing diagnostic review with approximate physical cuts relaxed; none
+has been established as a new planet.
+
+Pixel
 localization, full astrophysical validation and new observations would be required
 for any serious surviving candidate. HZ irradiation alone does not establish water,
 habitability or life.
