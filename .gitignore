@@ -1,0 +1,15 @@
+/data/
+/results/
+/logs/
+/target_batch_*.csv
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.part
