@@ -102,15 +102,28 @@ def main():
     pd.DataFrame(signal_rows).to_csv(reports / "tables/initial_screening.csv", index=False)
     pd.DataFrame(refined_rows).to_csv(reports / "tables/refined_screening.csv", index=False)
     (provenance / "observations.json").write_text(json.dumps(observations, indent=2))
-    (provenance / "analysis_runs.json").write_text(json.dumps(analysis_runs, indent=2))
     variants = {}
-    for variant in ["variability", "longbaseline"]:
+    all_searched_stars = {r["tic"] for r in target_rows if r["period_grid_searched"]}
+    for variant in ["variability", "longbaseline", "known_residual"]:
         rows, attempts, skipped, model_targets, reused = [], 0, 0, 0, 0
         for source in sorted((ROOT / "results").glob(f"*_{variant}/result.json")):
             stem = source.parent.name.removesuffix("_" + variant)
-            if not stem.isdigit() or stem == "150428135":
+            if not stem.isdigit() or (stem == "150428135" and variant != "known_residual"):
                 continue
             r = json.loads(source.read_text())
+            if variant == "known_residual":
+                if r.get("search_config"):
+                    all_searched_stars.add(r["tic"])
+                analysis_runs.append(
+                    dict(
+                        tic=r["tic"],
+                        variant=variant,
+                        result_path=str(source.relative_to(ROOT)),
+                        result_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
+                        status=r.get("status"),
+                        provenance={k: v for k, v in r.items() if "sha256" in k},
+                    )
+                )
             attempts += 1
             skipped += str(r.get("status", "")).startswith("skipped")
             model_targets += any(x["applied"] for x in r.get("variability_models", []))
@@ -148,6 +161,7 @@ def main():
             targets_with_periodic_model=model_targets,
             reused_refinement=reused,
         )
+    (provenance / "analysis_runs.json").write_text(json.dumps(analysis_runs, indent=2))
     experiments = []
     for folder in sorted((ROOT / "results").glob("injections*")):
         plan = folder / "plan.json"
@@ -211,6 +225,7 @@ def main():
         initial_unflagged=sum(not r["flags"] for r in signal_rows),
         refined_unflagged=sum(not r["flags"] for r in refined_rows),
         additional_searches=variants,
+        distinct_stars_with_a_period_search=len(all_searched_stars),
         confirmed_new_planets=0,
         experiments=experiments,
         claims="Screening and calibration results only. Unflagged does not mean validated. Consult individual vetting records.",
