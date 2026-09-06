@@ -70,5 +70,30 @@ labels show the same apparent reversal. Original columns are preserved, while
 search boundaries are calculated independently. This is a metadata consistency
 observation, not a claimed scientific discovery.
 
+## Separate timing refinement (added after initial calibration)
+
+The initial pilot showed that discovery-season timing errors can miss injected
+transits years later. `refine.py` therefore adds a third, distinct data role:
+discovery, timing refinement, and final holdout. It preserves the original search.
+
+From sectors outside discovery, select one to three evenly spaced sector indices
+for timing refinement (at most one third of those sectors). Remaining sectors
+form the final holdout. If only one other sector exists, split it at its median
+time with a 0.5-day guard gap; this provides weaker independence than separate
+campaigns. A narrow period/duration refit combines discovery and timing data only.
+Write `frozen_refinement.json` before evaluating the final holdout.
+
+This recovers TOI-700 d near 37.42362 days with a nominal final-holdout S/N about
+11.8 in the initial calibration. It is a recovery of an already known planet.
+The new method is tested on a fresh, deterministic injection plan. Those small,
+selected box-transit trials are sensitivity diagnostics, not survey completeness.
+Box injections omit limb darkening and occur after upstream SPOC processing, so
+they cannot measure transits suppressed by that upstream pipeline.
+
+`vet.py` checks strong short-period variability and integer period aliases and
+plots SAP and PDC flux around the trial ephemeris. These flux products share pixels.
+Its sinusoidal residual checks fit amplitude and phase in held-back data, making
+those residuals diagnostic rather than untouched confirmation evidence.
+
 HZ membership describes irradiation under stated atmospheric assumptions. It does
 not establish rocky composition, water, habitability or life.

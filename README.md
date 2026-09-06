@@ -28,12 +28,29 @@ python scripts/search.py --tics 150428135 --max-signals 5 --tag _calibration
 # Begin with a small discovery batch.
 python scripts/download.py --count 10 --max-sectors 18 --workers 3
 python scripts/batch.py --target-list target_batch_0_10.csv --workers 2
+
+# Freeze timing refinement before checking the remaining observations.
+python scripts/refine.py --all-screened --workers 2
+python scripts/summarize.py
 ```
 
 Outputs under `results/<TIC>/` include the processed light curve, frozen discovery
 fit, held-back checks, catalogue matches and screening flags. Unflagged signals
 still require detailed astrophysical vetting. Exact reruns require matching
 catalogue snapshots and FITS hashes; upstream catalogues change over time.
+
+The initial pilot and the fresh refinement tests can be reproduced with:
+
+```sh
+python scripts/download.py --tics 219223742 397098265 232970271 --max-sectors 18
+python scripts/injections.py --tics 219223742 397098265 232970271 --seed 20260907
+python scripts/injections.py --tics 219223742 397098265 232970271 --seed 20260908 --refine --suite injections_refined_fresh
+```
+
+To overlap downloads and screening for a bounded tranche, use
+`python scripts/run_campaign.py --offset 0 --count 10`. It then runs timing
+refinement, preliminary variability diagnostics, and local evidence exports.
+It does not assign planet validation or publish results automatically.
 
 ## Repository map
 

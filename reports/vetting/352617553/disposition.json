@@ -1,0 +1,9 @@
+{
+  "tic": 352617553,
+  "disposition": "hour-scale variability alias; trial period rejected as evidence for a temperate planet",
+  "trial_period_days": 8.1883120226,
+  "approximate_multiple_of_short_variability": 74,
+  "evidence": "The broad phase diagnostic shows repeating peaks and troughs every few hours throughout the purported out-of-transit interval. Lomb-Scargle finds a short period close to an integer subdivision of the trial period. Both SAP and PDC show this behavior.",
+  "limits": "Origin of the variable flux is not localized. This does not establish intrinsic pulsation of the target star and does not rule out additional planets.",
+  "reproduce": "python scripts/vet.py --tic 352617553 --signal 3"
+}

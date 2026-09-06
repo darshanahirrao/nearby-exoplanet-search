@@ -1,0 +1,26 @@
+{
+  "updated_utc": "2026-09-06T20:03:02.028359+00:00",
+  "processed_targets": 233,
+  "period_searched_targets": 233,
+  "initial_trial_fits": 831,
+  "refinement_attempts": 233,
+  "refined_targets_with_trial_fits": 233,
+  "initial_unflagged": 1,
+  "refined_unflagged": 2,
+  "confirmed_new_planets": 0,
+  "experiments": [
+    {
+      "suite": "injections",
+      "finished": 27,
+      "recovered": 17,
+      "strict_holdout": 8
+    },
+    {
+      "suite": "injections_refined_fresh",
+      "finished": 27,
+      "recovered": 18,
+      "strict_holdout": 13
+    }
+  ],
+  "claims": "Screening and calibration results only. Unflagged does not mean validated. Consult individual vetting records."
+}

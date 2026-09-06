@@ -1,0 +1,24 @@
+{
+  "tic": 328463799,
+  "files": [
+    {
+      "path": "data/lightcurves/328463799/tess2018292075959-s0004-0000000328463799-0124-s_lc.fits",
+      "uri": "mast:TESS/product/tess2018292075959-s0004-0000000328463799-0124-s_lc.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3ATESS%2Fproduct%2Ftess2018292075959-s0004-0000000328463799-0124-s_lc.fits",
+      "bytes": 1897920,
+      "sha256": "5d0c0bd3d0d62ef3434002ed2703b62757e054e1342aa88a3b1640b026e60449"
+    },
+    {
+      "path": "data/lightcurves/328463799/tess2020294194027-s0031-0000000328463799-0198-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020294194027-s0031-0000000328463799-0198-s_lc.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3ATESS%2Fproduct%2Ftess2020294194027-s0031-0000000328463799-0198-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "fa275245a9cfc8f3e9706c93213cc6e88b34262ad449aab1aaa22c40b31daae1"
+    }
+  ],
+  "errors": [],
+  "available_products": 2,
+  "state": "downloaded",
+  "updated_utc": "2026-09-06T19:42:11.262171+00:00",
+  "elapsed_seconds": 9.57
+}

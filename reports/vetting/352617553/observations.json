@@ -1,0 +1,59 @@
+{
+  "tic": 352617553,
+  "files": [
+    {
+      "path": "data/lightcurves/352617553/tess2019226182529-s0015-0000000352617553-0151-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019226182529-s0015-0000000352617553-0151-s_lc.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3ATESS%2Fproduct%2Ftess2019226182529-s0015-0000000352617553-0151-s_lc.fits",
+      "bytes": 1906560,
+      "sha256": "08940d6c27e5064a5ad4cc873e944b4701111bf3654d2247cebe45245003ee96"
+    },
+    {
+      "path": "data/lightcurves/352617553/tess2019253231442-s0016-0000000352617553-0152-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019253231442-s0016-0000000352617553-0152-s_lc.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3ATESS%2Fproduct%2Ftess2019253231442-s0016-0000000352617553-0152-s_lc.fits",
+      "bytes": 1805760,
+      "sha256": "3d2049c3710d04daf6b36d88f77ec6cec2c7962b17a26893b14caa3e798e7906"
+    },
+    {
+      "path": "data/lightcurves/352617553/tess2019279210107-s0017-0000000352617553-0161-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019279210107-s0017-0000000352617553-0161-s_lc.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3ATESS%2Fproduct%2Ftess2019279210107-s0017-0000000352617553-0161-s_lc.fits",
+      "bytes": 1831680,
+      "sha256": "0da365304254e5f653ef16c3303dbe48e7cc3a5f7da56620054754bdd15e68c8"
+    },
+    {
+      "path": "data/lightcurves/352617553/tess2021204101404-s0041-0000000352617553-0212-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021204101404-s0041-0000000352617553-0212-s_lc.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3ATESS%2Fproduct%2Ftess2021204101404-s0041-0000000352617553-0212-s_lc.fits",
+      "bytes": 1944000,
+      "sha256": "81d4827b2587a35d6adbdd4c761bb9262dd8ee990221ca2f0ea22b39e722d479"
+    },
+    {
+      "path": "data/lightcurves/352617553/tess2022217014003-s0055-0000000352617553-0242-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022217014003-s0055-0000000352617553-0242-s_lc.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3ATESS%2Fproduct%2Ftess2022217014003-s0055-0000000352617553-0242-s_lc.fits",
+      "bytes": 1987200,
+      "sha256": "78ee8a48a5fc345adfd01928aaea9e3746a3115e74623d0c09162654ff4248dc"
+    },
+    {
+      "path": "data/lightcurves/352617553/tess2022244194134-s0056-0000000352617553-0243-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022244194134-s0056-0000000352617553-0243-s_lc.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3ATESS%2Fproduct%2Ftess2022244194134-s0056-0000000352617553-0243-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "4b4b7a1b7772320da24cc5f5aea9347349d27748001625cf23808ef245c43d12"
+    },
+    {
+      "path": "data/lightcurves/352617553/tess2022273165103-s0057-0000000352617553-0245-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022273165103-s0057-0000000352617553-0245-s_lc.fits",
+      "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast%3ATESS%2Fproduct%2Ftess2022273165103-s0057-0000000352617553-0245-s_lc.fits",
+      "bytes": 2102400,
+      "sha256": "7875958800f74a0455799377d38b20cbb20da2d38f9d9fd5982f8bfacb484147"
+    }
+  ],
+  "errors": [],
+  "available_products": 7,
+  "state": "downloaded",
+  "updated_utc": "2026-09-06T19:30:16.999677+00:00",
+  "elapsed_seconds": 24.65
+}

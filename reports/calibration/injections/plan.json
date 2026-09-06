@@ -1,0 +1,303 @@
+{
+  "created_utc": "2026-09-06T19:46:01.240111+00:00",
+  "cases": [
+    {
+      "id": "219223742_orbit0_radius0.8",
+      "tic": 219223742,
+      "seed": 20260907,
+      "period_days": 7.105978756407755,
+      "epoch_btjd": 1389.745441300237,
+      "radius_earth": 0.8,
+      "depth": 0.0029449997446145395,
+      "duration_days": 0.03274719898286145,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "219223742_orbit0_radius1",
+      "tic": 219223742,
+      "seed": 20260907,
+      "period_days": 7.105978756407755,
+      "epoch_btjd": 1389.745441300237,
+      "radius_earth": 1.0,
+      "depth": 0.0046015621009602185,
+      "duration_days": 0.0331686499738599,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "219223742_orbit0_radius1.5",
+      "tic": 219223742,
+      "seed": 20260907,
+      "period_days": 7.105978756407755,
+      "epoch_btjd": 1389.745441300237,
+      "radius_earth": 1.5,
+      "depth": 0.010353514727160493,
+      "duration_days": 0.03422228421197332,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "219223742_orbit1_radius0.8",
+      "tic": 219223742,
+      "seed": 20260907,
+      "period_days": 11.844542916617902,
+      "epoch_btjd": 1391.9623004221853,
+      "radius_earth": 0.8,
+      "depth": 0.0029449997446145395,
+      "duration_days": 0.03882656456290096,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "219223742_orbit1_radius1",
+      "tic": 219223742,
+      "seed": 20260907,
+      "period_days": 11.844542916617902,
+      "epoch_btjd": 1391.9623004221853,
+      "radius_earth": 1.0,
+      "depth": 0.0046015621009602185,
+      "duration_days": 0.039326232530344854,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "219223742_orbit1_radius1.5",
+      "tic": 219223742,
+      "seed": 20260907,
+      "period_days": 11.844542916617902,
+      "epoch_btjd": 1391.9623004221853,
+      "radius_earth": 1.5,
+      "depth": 0.010353514727160493,
+      "duration_days": 0.040575406504025635,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "219223742_orbit2_radius0.8",
+      "tic": 219223742,
+      "seed": 20260907,
+      "period_days": 9.0137569855672,
+      "epoch_btjd": 1389.8384593348326,
+      "radius_earth": 0.8,
+      "depth": 0.0029449997446145395,
+      "duration_days": 0.03544834590240368,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "219223742_orbit2_radius1",
+      "tic": 219223742,
+      "seed": 20260907,
+      "period_days": 9.0137569855672,
+      "epoch_btjd": 1389.8384593348326,
+      "radius_earth": 1.0,
+      "depth": 0.0046015621009602185,
+      "duration_days": 0.03590454842941442,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "219223742_orbit2_radius1.5",
+      "tic": 219223742,
+      "seed": 20260907,
+      "period_days": 9.0137569855672,
+      "epoch_btjd": 1389.8384593348326,
+      "radius_earth": 1.5,
+      "depth": 0.010353514727160493,
+      "duration_days": 0.037045060076030506,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "397098265_orbit0_radius0.8",
+      "tic": 397098265,
+      "seed": 20260907,
+      "period_days": 11.946467204509844,
+      "epoch_btjd": 1992.8488207599871,
+      "radius_earth": 0.8,
+      "depth": 0.0026996941977566525,
+      "duration_days": 0.04001769609361871,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "397098265_orbit0_radius1",
+      "tic": 397098265,
+      "seed": 20260907,
+      "period_days": 11.946467204509844,
+      "epoch_btjd": 1992.8488207599871,
+      "radius_earth": 1.0,
+      "depth": 0.004218272183994769,
+      "duration_days": 0.04051186169433526,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "397098265_orbit0_radius1.5",
+      "tic": 397098265,
+      "seed": 20260907,
+      "period_days": 11.946467204509844,
+      "epoch_btjd": 1992.8488207599871,
+      "radius_earth": 1.5,
+      "depth": 0.009491112413988232,
+      "duration_days": 0.04174727971153118,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "397098265_orbit1_radius0.8",
+      "tic": 397098265,
+      "seed": 20260907,
+      "period_days": 11.010686803319212,
+      "epoch_btjd": 1993.5810914280453,
+      "radius_earth": 0.8,
+      "depth": 0.0026996941977566525,
+      "duration_days": 0.03894439377931963,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "397098265_orbit1_radius1",
+      "tic": 397098265,
+      "seed": 20260907,
+      "period_days": 11.010686803319212,
+      "epoch_btjd": 1993.5810914280453,
+      "radius_earth": 1.0,
+      "depth": 0.004218272183994769,
+      "duration_days": 0.03942530828704543,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "397098265_orbit1_radius1.5",
+      "tic": 397098265,
+      "seed": 20260907,
+      "period_days": 11.010686803319212,
+      "epoch_btjd": 1993.5810914280453,
+      "radius_earth": 1.5,
+      "depth": 0.009491112413988232,
+      "duration_days": 0.04062759891314223,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "397098265_orbit2_radius0.8",
+      "tic": 397098265,
+      "seed": 20260907,
+      "period_days": 7.279806162775784,
+      "epoch_btjd": 1987.1652668055729,
+      "radius_earth": 0.8,
+      "depth": 0.0026996941977566525,
+      "duration_days": 0.03392778623750876,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "397098265_orbit2_radius1",
+      "tic": 397098265,
+      "seed": 20260907,
+      "period_days": 7.279806162775784,
+      "epoch_btjd": 1987.1652668055729,
+      "radius_earth": 1.0,
+      "depth": 0.004218272183994769,
+      "duration_days": 0.03434676916645443,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "397098265_orbit2_radius1.5",
+      "tic": 397098265,
+      "seed": 20260907,
+      "period_days": 7.279806162775784,
+      "epoch_btjd": 1987.1652668055729,
+      "radius_earth": 1.5,
+      "depth": 0.009491112413988232,
+      "duration_days": 0.03539423307968323,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "232970271_orbit0_radius0.8",
+      "tic": 232970271,
+      "seed": 20260907,
+      "period_days": 4.03943712007846,
+      "epoch_btjd": 1871.890350201205,
+      "radius_earth": 0.8,
+      "depth": 0.00460156210096022,
+      "duration_days": 0.02351299593391955,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "232970271_orbit0_radius1",
+      "tic": 232970271,
+      "seed": 20260907,
+      "period_days": 4.03943712007846,
+      "epoch_btjd": 1871.890350201205,
+      "radius_earth": 1.0,
+      "depth": 0.0071899407827503425,
+      "duration_days": 0.02388647188762908,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "232970271_orbit0_radius1.5",
+      "tic": 232970271,
+      "seed": 20260907,
+      "period_days": 4.03943712007846,
+      "epoch_btjd": 1871.890350201205,
+      "radius_earth": 1.5,
+      "depth": 0.01617736676118827,
+      "duration_days": 0.024820173621625315,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "232970271_orbit1_radius0.8",
+      "tic": 232970271,
+      "seed": 20260907,
+      "period_days": 6.66636591761839,
+      "epoch_btjd": 1876.8383967965701,
+      "radius_earth": 0.8,
+      "depth": 0.00460156210096022,
+      "duration_days": 0.027785294707574015,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "232970271_orbit1_radius1",
+      "tic": 232970271,
+      "seed": 20260907,
+      "period_days": 6.66636591761839,
+      "epoch_btjd": 1876.8383967965701,
+      "radius_earth": 1.0,
+      "depth": 0.0071899407827503425,
+      "duration_days": 0.0282265983098788,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "232970271_orbit1_radius1.5",
+      "tic": 232970271,
+      "seed": 20260907,
+      "period_days": 6.66636591761839,
+      "epoch_btjd": 1876.8383967965701,
+      "radius_earth": 1.5,
+      "depth": 0.01617736676118827,
+      "duration_days": 0.029329864493442225,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "232970271_orbit2_radius0.8",
+      "tic": 232970271,
+      "seed": 20260907,
+      "period_days": 9.06374817657032,
+      "epoch_btjd": 1871.506508360343,
+      "radius_earth": 0.8,
+      "depth": 0.00460156210096022,
+      "duration_days": 0.03078097271531061,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "232970271_orbit2_radius1",
+      "tic": 232970271,
+      "seed": 20260907,
+      "period_days": 9.06374817657032,
+      "epoch_btjd": 1871.506508360343,
+      "radius_earth": 1.0,
+      "depth": 0.0071899407827503425,
+      "duration_days": 0.03126984274579626,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    },
+    {
+      "id": "232970271_orbit2_radius1.5",
+      "tic": 232970271,
+      "seed": 20260907,
+      "period_days": 9.06374817657032,
+      "epoch_btjd": 1871.506508360343,
+      "radius_earth": 1.5,
+      "depth": 0.01617736676118827,
+      "duration_days": 0.032492023100628764,
+      "injection_model": "box before binning/detrending; approximate impact parameter 0.5"
+    }
+  ],
+  "limitations": "Small selected sample; box shapes favor BLS; not survey completeness."
+}
