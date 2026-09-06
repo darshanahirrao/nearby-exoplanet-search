@@ -1,0 +1,16 @@
+{
+  "tic": 406484174,
+  "disposition": "The 12.72822-day trial is an approximately 42-fold alias of 7.271-hour variability. The broad folds show repeated structure outside the putative transit; subtraction of the short variation lowers the diagnostic holdout score below the screening threshold.",
+  "variant": "base",
+  "signal_iteration": 3,
+  "trial_period_days": 12.728223514093447,
+  "short_period_hours": 7.27056614133803,
+  "approximate_multiple_of_short_variability": 42,
+  "evidence": [
+    "variability.json",
+    "phase_diagnostics.png"
+  ],
+  "diagnostic_nominal_holdout_snr_after_short_variation_fit": 3.6557098086546937,
+  "limitations": "The source of the variable light has not been localized. SAP and PDC share pixels; the short-variation subtraction uses already-inspected observations and is a diagnostic, not independent validation. This rejection applies to this trial and does not rule out other planets.",
+  "reproduce": "python scripts/vet.py --tic 406484174 --signal 3 --variant base"
+}

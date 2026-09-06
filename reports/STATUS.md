@@ -1,14 +1,14 @@
-# Research status , 2026-09-07
+# Research status: 2026-09-07
 
 **No newly discovered or validated planet. The search continues.**
 
-The first 500-target tranche has finished downloading and initial processing:
-492 targets supplied at least two sectors; eight had fewer. All 492 processed
-targets supported the configured period search. We retained 1,762 trial fits, including
-weak and rejected fits. These are not 1,762 planet candidates.
+All 1,000 selected targets have finished downloading and initial processing:
+992 targets supplied at least two sectors; eight had fewer. All 992 processed
+targets supported the configured period search. We retained 3,586 initial trial
+fits, including weak and rejected fits. These are not 3,586 planet candidates.
 
-The timing-refined screen produced two unflagged trial periods. Both show
-hour-scale variability aliases and have been rejected as evidence for temperate
+The timing-refined screen produced eight unflagged trial periods on five stars.
+All show hour-scale variability aliases and have been rejected as evidence for temperate
 planets. Origin of the variable flux is not localized; these checks do not rule
 out other planets in either system.
 
@@ -16,6 +16,17 @@ out other planets in either system.
 | --- | --- | --- | --- |
 | TIC 352617553 / Wolf 1069 | 8.1883 days | About 2.656 hours; roughly 74 cycles per trial period | [Rejected alias and diagnostics](vetting/352617553/disposition.json) |
 | TIC 328463799 | 4.9773 days | About 2.655 hours; roughly 45 cycles per trial period | [Rejected alias and diagnostics](vetting/328463799/disposition.json) |
+| TIC 138579249 | 7.0533 days | About 5.644 hours; roughly 30 cycles | [Rejected alias and diagnostics](vetting/138579249/disposition.json) |
+| TIC 256771035 | 14.8602, 9.1373 and 9.9068 days | About 6.256 hours; roughly 57, 35 and 38 cycles | [Rejected aliases and diagnostics](vetting/256771035/disposition.json) |
+| TIC 441606549 | 8.9710 and 10.4661 days | About 4.485 hours; roughly 48 and 56 cycles | [Rejected aliases and diagnostics](vetting/441606549/disposition.json) |
+
+The four initially unflagged fits were also reviewed and rejected. A separate
+51-host search for additional planets has finished; its only unflagged trial is
+another variability alias in Wolf 1069. The combined-season pass found the same
+alias. [The explicit review ledger](vetting/unflagged_review.json) records all 14
+unflagged trial fits reviewed at this checkpoint, with source hashes and evidence.
+These variants overlap: 1,031 distinct stars have had a period search, including
+the known-host check. The remaining filtering and combined-season scans continue.
 
 ## Calibration and verification
 
@@ -59,9 +70,10 @@ retained for independent inspection.
 - [Fresh injection plan](calibration/injections_refined_fresh/plan.json) and [recovery results](calibration/injections_refined_fresh/recovery.csv)
 - [Known-planet calibration](calibration/150428135_calibration_v2_refined.json)
 
-The search has expanded to 1,000 selected targets. Downloads, first-pass screening
-and combined-season searches remain in progress. The tables and machine summary
-are checkpoints and may include partially completed later batches.
+Downloads, first-pass screening and timing refinement are complete. The tables
+and machine summary remain checkpoints while the final variability-filtered and
+combined-season searches finish. [The result audit](result_audit.json) checks
+frozen ephemerides, available source hashes and outstanding execution coverage.
 
 The combined-season control recovers known TOI-700 d near 37.42340 days, with
 nominal held-sector S/N 10.1. It does not recover known TOI-700 e among its two
@@ -74,7 +86,12 @@ folds show broad variability or lack a compelling isolated transit. None has
 been established as a new planet; [review notes](vetting/relaxed_variability_review.json)
 preserve the individual assessments.
 
-Pixel
-localization, full astrophysical validation and new observations would be required
+A further [five-target combined-season review](vetting/relaxed_combined_review.json)
+also produced no promoted candidate. A sharp dip in TIC 408232559 localizes away
+from the intended star in three sectors. A 5.298-day trial in TIC 282923395 instead
+shows dimming in all six subdivisions of that period, consistent with a shorter
+variability alias. Source identity, variability type and novelty are not established.
+
+Pixel localization, full astrophysical validation and new observations would be required
 for any serious surviving candidate. HZ irradiation alone does not establish water,
 habitability or life.

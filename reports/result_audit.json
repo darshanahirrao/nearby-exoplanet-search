@@ -1,0 +1,3391 @@
+{
+  "checked_utc": "2026-09-06T22:09:20.114695+00:00",
+  "result_files": 3190,
+  "checks": {
+    "frozen_record_present": 3128,
+    "trial_count_unchanged": 3128,
+    "ephemeris_and_depth_unchanged_after_freeze": 10452,
+    "frozen_trial_has_no_holdout_measurement": 10452,
+    "catalogue_match_is_flagged": 10452,
+    "available_source_or_processed_hash_matches": 2312,
+    "combined_training_holdout_sectors_disjoint": 500,
+    "review_ledger_matches_saved_trial": 14
+  },
+  "failures": [],
+  "execution_coverage": {
+    "available": true,
+    "main_selected": 1000,
+    "main_usable_downloads": 992,
+    "insufficient_downloads": [
+      {
+        "tic": 357187278,
+        "download_state": "downloaded"
+      },
+      {
+        "tic": 43213934,
+        "download_state": "downloaded"
+      },
+      {
+        "tic": 202378759,
+        "download_state": "downloaded"
+      },
+      {
+        "tic": 391099465,
+        "download_state": "downloaded"
+      },
+      {
+        "tic": 94368565,
+        "download_state": "downloaded"
+      },
+      {
+        "tic": 220146061,
+        "download_state": "downloaded"
+      },
+      {
+        "tic": 172601525,
+        "download_state": "downloaded"
+      },
+      {
+        "tic": 139651630,
+        "download_state": "downloaded"
+      }
+    ],
+    "known_hosts_selected": 51,
+    "selected_overlap": 12,
+    "distinct_selected": 1039,
+    "pending": [
+      {
+        "tic": 165599289,
+        "stage": "variability"
+      },
+      {
+        "tic": 271642286,
+        "stage": "variability"
+      },
+      {
+        "tic": 282923395,
+        "stage": "variability"
+      },
+      {
+        "tic": 459837153,
+        "stage": "variability"
+      },
+      {
+        "tic": 160222231,
+        "stage": "variability"
+      },
+      {
+        "tic": 282052574,
+        "stage": "variability"
+      },
+      {
+        "tic": 415707542,
+        "stage": "variability"
+      },
+      {
+        "tic": 356062524,
+        "stage": "variability"
+      },
+      {
+        "tic": 349645035,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 323429176,
+        "stage": "variability"
+      },
+      {
+        "tic": 219824489,
+        "stage": "variability"
+      },
+      {
+        "tic": 159183511,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 229142295,
+        "stage": "variability"
+      },
+      {
+        "tic": 229142295,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 367359428,
+        "stage": "variability"
+      },
+      {
+        "tic": 367359428,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 287350462,
+        "stage": "variability"
+      },
+      {
+        "tic": 287350462,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 341845611,
+        "stage": "variability"
+      },
+      {
+        "tic": 341845611,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 319474472,
+        "stage": "variability"
+      },
+      {
+        "tic": 319474472,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219244444,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 26417386,
+        "stage": "variability"
+      },
+      {
+        "tic": 26417386,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 188694544,
+        "stage": "variability"
+      },
+      {
+        "tic": 188694544,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 335797473,
+        "stage": "variability"
+      },
+      {
+        "tic": 335797473,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 77178716,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 372061167,
+        "stage": "variability"
+      },
+      {
+        "tic": 372061167,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 232521209,
+        "stage": "variability"
+      },
+      {
+        "tic": 232521209,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 99505950,
+        "stage": "variability"
+      },
+      {
+        "tic": 99505950,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 348795308,
+        "stage": "variability"
+      },
+      {
+        "tic": 348795308,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 136403599,
+        "stage": "variability"
+      },
+      {
+        "tic": 136403599,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219855010,
+        "stage": "variability"
+      },
+      {
+        "tic": 219855010,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 99540776,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 49190174,
+        "stage": "variability"
+      },
+      {
+        "tic": 49190174,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 198614833,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 233070089,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 146837940,
+        "stage": "variability"
+      },
+      {
+        "tic": 146837940,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 233176655,
+        "stage": "variability"
+      },
+      {
+        "tic": 233176655,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 259373187,
+        "stage": "variability"
+      },
+      {
+        "tic": 259373187,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 396740078,
+        "stage": "variability"
+      },
+      {
+        "tic": 396740078,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 168726017,
+        "stage": "variability"
+      },
+      {
+        "tic": 168726017,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 238030337,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 230090756,
+        "stage": "variability"
+      },
+      {
+        "tic": 230090756,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 233170203,
+        "stage": "variability"
+      },
+      {
+        "tic": 233170203,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 52932529,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 141821609,
+        "stage": "variability"
+      },
+      {
+        "tic": 141821609,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 467361606,
+        "stage": "variability"
+      },
+      {
+        "tic": 467361606,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 164644375,
+        "stage": "variability"
+      },
+      {
+        "tic": 164644375,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 115172395,
+        "stage": "variability"
+      },
+      {
+        "tic": 115172395,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219037593,
+        "stage": "variability"
+      },
+      {
+        "tic": 219037593,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 343268431,
+        "stage": "variability"
+      },
+      {
+        "tic": 343268431,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 85536691,
+        "stage": "variability"
+      },
+      {
+        "tic": 85536691,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 337705501,
+        "stage": "variability"
+      },
+      {
+        "tic": 337705501,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 165528645,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 193948885,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 161554904,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 229535299,
+        "stage": "variability"
+      },
+      {
+        "tic": 229535299,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 220423218,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 172405494,
+        "stage": "variability"
+      },
+      {
+        "tic": 172405494,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 356241590,
+        "stage": "variability"
+      },
+      {
+        "tic": 356241590,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 258680351,
+        "stage": "variability"
+      },
+      {
+        "tic": 258680351,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 261333545,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 81506915,
+        "stage": "variability"
+      },
+      {
+        "tic": 81506915,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 11914170,
+        "stage": "variability"
+      },
+      {
+        "tic": 11914170,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 424801289,
+        "stage": "variability"
+      },
+      {
+        "tic": 424801289,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 459192460,
+        "stage": "variability"
+      },
+      {
+        "tic": 459192460,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 186236329,
+        "stage": "variability"
+      },
+      {
+        "tic": 186236329,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 467178450,
+        "stage": "variability"
+      },
+      {
+        "tic": 467178450,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 39466100,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 326209200,
+        "stage": "variability"
+      },
+      {
+        "tic": 326209200,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 320209338,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 367357090,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 161746333,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 349683816,
+        "stage": "variability"
+      },
+      {
+        "tic": 349683816,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 86273642,
+        "stage": "variability"
+      },
+      {
+        "tic": 86273642,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 141676416,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 123013596,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 238041040,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 183494855,
+        "stage": "variability"
+      },
+      {
+        "tic": 183494855,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 394244919,
+        "stage": "variability"
+      },
+      {
+        "tic": 394244919,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219502530,
+        "stage": "variability"
+      },
+      {
+        "tic": 219502530,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 349306411,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 158213116,
+        "stage": "variability"
+      },
+      {
+        "tic": 158213116,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 199574208,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 220433364,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 33880418,
+        "stage": "variability"
+      },
+      {
+        "tic": 33880418,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 22021999,
+        "stage": "variability"
+      },
+      {
+        "tic": 22021999,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 230050730,
+        "stage": "variability"
+      },
+      {
+        "tic": 230050730,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 77340625,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 103199821,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 334802880,
+        "stage": "variability"
+      },
+      {
+        "tic": 334802880,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 102678706,
+        "stage": "variability"
+      },
+      {
+        "tic": 102678706,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 459225605,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 451530352,
+        "stage": "variability"
+      },
+      {
+        "tic": 451530352,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 387998188,
+        "stage": "variability"
+      },
+      {
+        "tic": 387998188,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219872288,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 7695962,
+        "stage": "variability"
+      },
+      {
+        "tic": 7695962,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 264992033,
+        "stage": "variability"
+      },
+      {
+        "tic": 264992033,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 141209440,
+        "stage": "variability"
+      },
+      {
+        "tic": 141209440,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 372595278,
+        "stage": "variability"
+      },
+      {
+        "tic": 372595278,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 256771035,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 288404936,
+        "stage": "variability"
+      },
+      {
+        "tic": 288404936,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 467302128,
+        "stage": "variability"
+      },
+      {
+        "tic": 467302128,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 418289392,
+        "stage": "variability"
+      },
+      {
+        "tic": 418289392,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 295017824,
+        "stage": "variability"
+      },
+      {
+        "tic": 295017824,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 13385270,
+        "stage": "variability"
+      },
+      {
+        "tic": 13385270,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 288634843,
+        "stage": "variability"
+      },
+      {
+        "tic": 288634843,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 240403586,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 200805651,
+        "stage": "variability"
+      },
+      {
+        "tic": 200805651,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 396741152,
+        "stage": "variability"
+      },
+      {
+        "tic": 396741152,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 297823453,
+        "stage": "variability"
+      },
+      {
+        "tic": 297823453,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 229455419,
+        "stage": "variability"
+      },
+      {
+        "tic": 229455419,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 354287347,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 468874504,
+        "stage": "variability"
+      },
+      {
+        "tic": 468874504,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 28694153,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 142086812,
+        "stage": "variability"
+      },
+      {
+        "tic": 142086812,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 389839182,
+        "stage": "variability"
+      },
+      {
+        "tic": 389839182,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 420801158,
+        "stage": "variability"
+      },
+      {
+        "tic": 420801158,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 303911833,
+        "stage": "variability"
+      },
+      {
+        "tic": 303911833,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 259701898,
+        "stage": "variability"
+      },
+      {
+        "tic": 259701898,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 313975570,
+        "stage": "variability"
+      },
+      {
+        "tic": 313975570,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 162462099,
+        "stage": "variability"
+      },
+      {
+        "tic": 162462099,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 357831022,
+        "stage": "variability"
+      },
+      {
+        "tic": 357831022,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 293164461,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 343722317,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 306357678,
+        "stage": "variability"
+      },
+      {
+        "tic": 306357678,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 286126698,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 418223113,
+        "stage": "variability"
+      },
+      {
+        "tic": 418223113,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 369707376,
+        "stage": "variability"
+      },
+      {
+        "tic": 369707376,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 294093302,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 167460835,
+        "stage": "variability"
+      },
+      {
+        "tic": 167460835,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 269105266,
+        "stage": "variability"
+      },
+      {
+        "tic": 269105266,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 379084450,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 142319503,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 141433914,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 382581300,
+        "stage": "variability"
+      },
+      {
+        "tic": 382581300,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 28286950,
+        "stage": "variability"
+      },
+      {
+        "tic": 28286950,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 233738219,
+        "stage": "variability"
+      },
+      {
+        "tic": 233738219,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 136995130,
+        "stage": "variability"
+      },
+      {
+        "tic": 136995130,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 142963210,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 287149955,
+        "stage": "variability"
+      },
+      {
+        "tic": 287149955,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 19913469,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 272232401,
+        "stage": "variability"
+      },
+      {
+        "tic": 272232401,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 167042097,
+        "stage": "variability"
+      },
+      {
+        "tic": 167042097,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 256516370,
+        "stage": "variability"
+      },
+      {
+        "tic": 256516370,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 328799321,
+        "stage": "variability"
+      },
+      {
+        "tic": 328799321,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 63126862,
+        "stage": "variability"
+      },
+      {
+        "tic": 63126862,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 137499354,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 230060668,
+        "stage": "variability"
+      },
+      {
+        "tic": 230060668,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 454816904,
+        "stage": "variability"
+      },
+      {
+        "tic": 454816904,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 159505118,
+        "stage": "variability"
+      },
+      {
+        "tic": 159505118,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219733024,
+        "stage": "variability"
+      },
+      {
+        "tic": 219733024,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 322391844,
+        "stage": "variability"
+      },
+      {
+        "tic": 322391844,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 149988104,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 236320474,
+        "stage": "variability"
+      },
+      {
+        "tic": 236320474,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 28260969,
+        "stage": "variability"
+      },
+      {
+        "tic": 28260969,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 361113777,
+        "stage": "variability"
+      },
+      {
+        "tic": 361113777,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 327188003,
+        "stage": "variability"
+      },
+      {
+        "tic": 327188003,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 344097064,
+        "stage": "variability"
+      },
+      {
+        "tic": 344097064,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 207398617,
+        "stage": "variability"
+      },
+      {
+        "tic": 207398617,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 139693738,
+        "stage": "variability"
+      },
+      {
+        "tic": 139693738,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219369255,
+        "stage": "variability"
+      },
+      {
+        "tic": 219369255,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 41317489,
+        "stage": "variability"
+      },
+      {
+        "tic": 41317489,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 123096698,
+        "stage": "variability"
+      },
+      {
+        "tic": 123096698,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 74185907,
+        "stage": "variability"
+      },
+      {
+        "tic": 74185907,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 334483267,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 417919247,
+        "stage": "variability"
+      },
+      {
+        "tic": 417919247,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 132767357,
+        "stage": "variability"
+      },
+      {
+        "tic": 132767357,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 459220510,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 147671245,
+        "stage": "variability"
+      },
+      {
+        "tic": 147671245,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 237199341,
+        "stage": "variability"
+      },
+      {
+        "tic": 237199341,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 138649216,
+        "stage": "variability"
+      },
+      {
+        "tic": 138649216,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 359158317,
+        "stage": "variability"
+      },
+      {
+        "tic": 359158317,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 201794109,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 368923404,
+        "stage": "variability"
+      },
+      {
+        "tic": 368923404,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 237915132,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 150342546,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 272279254,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 44799420,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 444415612,
+        "stage": "variability"
+      },
+      {
+        "tic": 444415612,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 373675061,
+        "stage": "variability"
+      },
+      {
+        "tic": 373675061,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 316417885,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 188777430,
+        "stage": "variability"
+      },
+      {
+        "tic": 188777430,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 441740483,
+        "stage": "variability"
+      },
+      {
+        "tic": 441740483,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 388606196,
+        "stage": "variability"
+      },
+      {
+        "tic": 388606196,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 235062311,
+        "stage": "variability"
+      },
+      {
+        "tic": 235062311,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 343410928,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 306980405,
+        "stage": "variability"
+      },
+      {
+        "tic": 306980405,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 22742321,
+        "stage": "variability"
+      },
+      {
+        "tic": 22742321,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 142979644,
+        "stage": "variability"
+      },
+      {
+        "tic": 142979644,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 290305163,
+        "stage": "variability"
+      },
+      {
+        "tic": 290305163,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 338288128,
+        "stage": "variability"
+      },
+      {
+        "tic": 338288128,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 310657449,
+        "stage": "variability"
+      },
+      {
+        "tic": 310657449,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 140689204,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 156495056,
+        "stage": "variability"
+      },
+      {
+        "tic": 156495056,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 157912382,
+        "stage": "variability"
+      },
+      {
+        "tic": 157912382,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 116306164,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 7739195,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 138579249,
+        "stage": "variability"
+      },
+      {
+        "tic": 138579249,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219004642,
+        "stage": "variability"
+      },
+      {
+        "tic": 219004642,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 316976676,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 317475082,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 260972843,
+        "stage": "variability"
+      },
+      {
+        "tic": 260972843,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 77289083,
+        "stage": "variability"
+      },
+      {
+        "tic": 77289083,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 267858535,
+        "stage": "variability"
+      },
+      {
+        "tic": 267858535,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 418291587,
+        "stage": "variability"
+      },
+      {
+        "tic": 418291587,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 229614158,
+        "stage": "variability"
+      },
+      {
+        "tic": 229614158,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 24796342,
+        "stage": "variability"
+      },
+      {
+        "tic": 24796342,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 159818290,
+        "stage": "variability"
+      },
+      {
+        "tic": 159818290,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 397137307,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 138073313,
+        "stage": "variability"
+      },
+      {
+        "tic": 138073313,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 229738650,
+        "stage": "variability"
+      },
+      {
+        "tic": 229738650,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 136945631,
+        "stage": "variability"
+      },
+      {
+        "tic": 136945631,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 231022436,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 354572301,
+        "stage": "variability"
+      },
+      {
+        "tic": 354572301,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 441664609,
+        "stage": "variability"
+      },
+      {
+        "tic": 441664609,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 233306304,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 310836370,
+        "stage": "variability"
+      },
+      {
+        "tic": 310836370,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 39427536,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 384667852,
+        "stage": "variability"
+      },
+      {
+        "tic": 384667852,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 168873515,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 151827657,
+        "stage": "variability"
+      },
+      {
+        "tic": 151827657,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 284596951,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 259861569,
+        "stage": "variability"
+      },
+      {
+        "tic": 259861569,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 7422813,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 276976190,
+        "stage": "variability"
+      },
+      {
+        "tic": 276976190,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 336538915,
+        "stage": "variability"
+      },
+      {
+        "tic": 336538915,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 130093212,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 81352708,
+        "stage": "variability"
+      },
+      {
+        "tic": 81352708,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 321816376,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 68073008,
+        "stage": "variability"
+      },
+      {
+        "tic": 68073008,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 200368010,
+        "stage": "variability"
+      },
+      {
+        "tic": 200368010,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 309857585,
+        "stage": "variability"
+      },
+      {
+        "tic": 309857585,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 338137771,
+        "stage": "variability"
+      },
+      {
+        "tic": 338137771,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 115287939,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 32677026,
+        "stage": "variability"
+      },
+      {
+        "tic": 32677026,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 160602790,
+        "stage": "variability"
+      },
+      {
+        "tic": 160602790,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 172994232,
+        "stage": "variability"
+      },
+      {
+        "tic": 172994232,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 156004616,
+        "stage": "variability"
+      },
+      {
+        "tic": 156004616,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 165688799,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 248070834,
+        "stage": "variability"
+      },
+      {
+        "tic": 248070834,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 273631732,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 357397987,
+        "stage": "variability"
+      },
+      {
+        "tic": 357397987,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 150359500,
+        "stage": "variability"
+      },
+      {
+        "tic": 150359500,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 4510637,
+        "stage": "variability"
+      },
+      {
+        "tic": 4510637,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 88780524,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 167010837,
+        "stage": "variability"
+      },
+      {
+        "tic": 167010837,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 138471034,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 162337456,
+        "stage": "variability"
+      },
+      {
+        "tic": 162337456,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 298265889,
+        "stage": "variability"
+      },
+      {
+        "tic": 298265889,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 142808731,
+        "stage": "variability"
+      },
+      {
+        "tic": 142808731,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 165721554,
+        "stage": "variability"
+      },
+      {
+        "tic": 165721554,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 359356484,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 77318593,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 302923645,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 154341239,
+        "stage": "variability"
+      },
+      {
+        "tic": 154341239,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 176948652,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 358767556,
+        "stage": "variability"
+      },
+      {
+        "tic": 358767556,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 180972066,
+        "stage": "variability"
+      },
+      {
+        "tic": 180972066,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 441686652,
+        "stage": "variability"
+      },
+      {
+        "tic": 441686652,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 142439770,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 78823293,
+        "stage": "variability"
+      },
+      {
+        "tic": 78823293,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 180671104,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 394730744,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 68766754,
+        "stage": "variability"
+      },
+      {
+        "tic": 68766754,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 343404892,
+        "stage": "variability"
+      },
+      {
+        "tic": 343404892,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 160491312,
+        "stage": "variability"
+      },
+      {
+        "tic": 160491312,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219223683,
+        "stage": "variability"
+      },
+      {
+        "tic": 219223683,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 198150180,
+        "stage": "variability"
+      },
+      {
+        "tic": 198150180,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 461595886,
+        "stage": "variability"
+      },
+      {
+        "tic": 461595886,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 142738700,
+        "stage": "variability"
+      },
+      {
+        "tic": 142738700,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 103298945,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 160228580,
+        "stage": "variability"
+      },
+      {
+        "tic": 160228580,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 220433363,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 316451175,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 468297427,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 159190480,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 231833973,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 233461993,
+        "stage": "variability"
+      },
+      {
+        "tic": 233461993,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 406484174,
+        "stage": "variability"
+      },
+      {
+        "tic": 406484174,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 445367562,
+        "stage": "variability"
+      },
+      {
+        "tic": 445367562,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 378527773,
+        "stage": "variability"
+      },
+      {
+        "tic": 378527773,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 427515821,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 339956143,
+        "stage": "variability"
+      },
+      {
+        "tic": 339956143,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 346565207,
+        "stage": "variability"
+      },
+      {
+        "tic": 346565207,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 224303868,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 166012664,
+        "stage": "variability"
+      },
+      {
+        "tic": 166012664,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 383381662,
+        "stage": "variability"
+      },
+      {
+        "tic": 383381662,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 408094624,
+        "stage": "variability"
+      },
+      {
+        "tic": 408094624,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 367681716,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 334651091,
+        "stage": "variability"
+      },
+      {
+        "tic": 334651091,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 44646061,
+        "stage": "variability"
+      },
+      {
+        "tic": 44646061,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 142980026,
+        "stage": "variability"
+      },
+      {
+        "tic": 142980026,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 275190266,
+        "stage": "variability"
+      },
+      {
+        "tic": 275190266,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 229400552,
+        "stage": "variability"
+      },
+      {
+        "tic": 229400552,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 355918065,
+        "stage": "variability"
+      },
+      {
+        "tic": 355918065,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 295893467,
+        "stage": "variability"
+      },
+      {
+        "tic": 295893467,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 102903258,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 180628643,
+        "stage": "variability"
+      },
+      {
+        "tic": 180628643,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 57160643,
+        "stage": "variability"
+      },
+      {
+        "tic": 57160643,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 333278247,
+        "stage": "variability"
+      },
+      {
+        "tic": 333278247,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 361871362,
+        "stage": "variability"
+      },
+      {
+        "tic": 361871362,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 141247467,
+        "stage": "variability"
+      },
+      {
+        "tic": 141247467,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 150100106,
+        "stage": "variability"
+      },
+      {
+        "tic": 150100106,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 129810476,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 288516176,
+        "stage": "variability"
+      },
+      {
+        "tic": 288516176,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 188777432,
+        "stage": "variability"
+      },
+      {
+        "tic": 188777432,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 159302845,
+        "stage": "variability"
+      },
+      {
+        "tic": 159302845,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 145284936,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 229535724,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 382268851,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 431383040,
+        "stage": "variability"
+      },
+      {
+        "tic": 431383040,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 27349742,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 289922302,
+        "stage": "variability"
+      },
+      {
+        "tic": 289922302,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219376911,
+        "stage": "variability"
+      },
+      {
+        "tic": 219376911,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 86231880,
+        "stage": "variability"
+      },
+      {
+        "tic": 86231880,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 404507259,
+        "stage": "variability"
+      },
+      {
+        "tic": 404507259,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 334799215,
+        "stage": "variability"
+      },
+      {
+        "tic": 334799215,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 355867542,
+        "stage": "variability"
+      },
+      {
+        "tic": 355867542,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 408702840,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 24692354,
+        "stage": "variability"
+      },
+      {
+        "tic": 24692354,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 405253504,
+        "stage": "variability"
+      },
+      {
+        "tic": 405253504,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 231290860,
+        "stage": "variability"
+      },
+      {
+        "tic": 231290860,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 370004962,
+        "stage": "variability"
+      },
+      {
+        "tic": 370004962,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 428738405,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 336541591,
+        "stage": "variability"
+      },
+      {
+        "tic": 336541591,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 344290932,
+        "stage": "variability"
+      },
+      {
+        "tic": 344290932,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 82365136,
+        "stage": "variability"
+      },
+      {
+        "tic": 82365136,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 397533163,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 156462029,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 148969057,
+        "stage": "variability"
+      },
+      {
+        "tic": 148969057,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 445835414,
+        "stage": "variability"
+      },
+      {
+        "tic": 445835414,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 377862259,
+        "stage": "variability"
+      },
+      {
+        "tic": 377862259,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 307438562,
+        "stage": "variability"
+      },
+      {
+        "tic": 307438562,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 355704636,
+        "stage": "variability"
+      },
+      {
+        "tic": 355704636,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 86231879,
+        "stage": "variability"
+      },
+      {
+        "tic": 86231879,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 272781325,
+        "stage": "variability"
+      },
+      {
+        "tic": 272781325,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 388566010,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 421856903,
+        "stage": "variability"
+      },
+      {
+        "tic": 421856903,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 142439883,
+        "stage": "variability"
+      },
+      {
+        "tic": 142439883,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 229158889,
+        "stage": "variability"
+      },
+      {
+        "tic": 229158889,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 150362418,
+        "stage": "variability"
+      },
+      {
+        "tic": 150362418,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219823668,
+        "stage": "variability"
+      },
+      {
+        "tic": 219823668,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 234504902,
+        "stage": "variability"
+      },
+      {
+        "tic": 234504902,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 307290964,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 404449695,
+        "stage": "variability"
+      },
+      {
+        "tic": 404449695,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 449798870,
+        "stage": "variability"
+      },
+      {
+        "tic": 449798870,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 259374524,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 232075203,
+        "stage": "variability"
+      },
+      {
+        "tic": 232075203,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 287444500,
+        "stage": "variability"
+      },
+      {
+        "tic": 287444500,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 233959273,
+        "stage": "variability"
+      },
+      {
+        "tic": 233959273,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 27350220,
+        "stage": "variability"
+      },
+      {
+        "tic": 27350220,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 367856004,
+        "stage": "variability"
+      },
+      {
+        "tic": 367856004,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 177313167,
+        "stage": "variability"
+      },
+      {
+        "tic": 177313167,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 279674929,
+        "stage": "variability"
+      },
+      {
+        "tic": 279674929,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 316404611,
+        "stage": "variability"
+      },
+      {
+        "tic": 316404611,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 341417608,
+        "stage": "variability"
+      },
+      {
+        "tic": 341417608,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 284892663,
+        "stage": "variability"
+      },
+      {
+        "tic": 284892663,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 350734035,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 444830499,
+        "stage": "variability"
+      },
+      {
+        "tic": 444830499,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 393894294,
+        "stage": "variability"
+      },
+      {
+        "tic": 393894294,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 344136084,
+        "stage": "variability"
+      },
+      {
+        "tic": 344136084,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 399912139,
+        "stage": "variability"
+      },
+      {
+        "tic": 399912139,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 142442450,
+        "stage": "variability"
+      },
+      {
+        "tic": 142442450,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 201289286,
+        "stage": "variability"
+      },
+      {
+        "tic": 201289286,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 416781089,
+        "stage": "variability"
+      },
+      {
+        "tic": 416781089,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 118539745,
+        "stage": "variability"
+      },
+      {
+        "tic": 118539745,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 313610499,
+        "stage": "variability"
+      },
+      {
+        "tic": 313610499,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 328800211,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 146730512,
+        "stage": "variability"
+      },
+      {
+        "tic": 146730512,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 149927512,
+        "stage": "variability"
+      },
+      {
+        "tic": 149927512,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 305794603,
+        "stage": "variability"
+      },
+      {
+        "tic": 305794603,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 54469098,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 380035826,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 427919495,
+        "stage": "variability"
+      },
+      {
+        "tic": 427919495,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 288507043,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 279742501,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 160270470,
+        "stage": "variability"
+      },
+      {
+        "tic": 160270470,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 199659329,
+        "stage": "variability"
+      },
+      {
+        "tic": 199659329,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 374029463,
+        "stage": "variability"
+      },
+      {
+        "tic": 374029463,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 289536553,
+        "stage": "variability"
+      },
+      {
+        "tic": 289536553,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 272635703,
+        "stage": "variability"
+      },
+      {
+        "tic": 272635703,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 158014412,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 154090326,
+        "stage": "variability"
+      },
+      {
+        "tic": 154090326,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 143394037,
+        "stage": "variability"
+      },
+      {
+        "tic": 143394037,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 141029712,
+        "stage": "variability"
+      },
+      {
+        "tic": 141029712,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 173614751,
+        "stage": "variability"
+      },
+      {
+        "tic": 173614751,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 220554236,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 441606549,
+        "stage": "variability"
+      },
+      {
+        "tic": 441606549,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 302554247,
+        "stage": "variability"
+      },
+      {
+        "tic": 302554247,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 445285461,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 59605392,
+        "stage": "variability"
+      },
+      {
+        "tic": 59605392,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 417118702,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 417235334,
+        "stage": "variability"
+      },
+      {
+        "tic": 417235334,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 197866266,
+        "stage": "variability"
+      },
+      {
+        "tic": 197866266,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 24622364,
+        "stage": "variability"
+      },
+      {
+        "tic": 24622364,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 229744768,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 441811392,
+        "stage": "variability"
+      },
+      {
+        "tic": 441811392,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 229572009,
+        "stage": "variability"
+      },
+      {
+        "tic": 229572009,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219480910,
+        "stage": "variability"
+      },
+      {
+        "tic": 219480910,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 161725589,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 334835095,
+        "stage": "variability"
+      },
+      {
+        "tic": 334835095,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 364264680,
+        "stage": "variability"
+      },
+      {
+        "tic": 364264680,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 137158728,
+        "stage": "variability"
+      },
+      {
+        "tic": 137158728,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 260609189,
+        "stage": "variability"
+      },
+      {
+        "tic": 260609189,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 38759628,
+        "stage": "variability"
+      },
+      {
+        "tic": 38759628,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 402980664,
+        "stage": "variability"
+      },
+      {
+        "tic": 402980664,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 57231454,
+        "stage": "variability"
+      },
+      {
+        "tic": 57231454,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 372731881,
+        "stage": "variability"
+      },
+      {
+        "tic": 372731881,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 215402573,
+        "stage": "variability"
+      },
+      {
+        "tic": 215402573,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 147948928,
+        "stage": "variability"
+      },
+      {
+        "tic": 147948928,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 317394133,
+        "stage": "variability"
+      },
+      {
+        "tic": 317394133,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 156495054,
+        "stage": "variability"
+      },
+      {
+        "tic": 156495054,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 350433330,
+        "stage": "variability"
+      },
+      {
+        "tic": 350433330,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 237076895,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 177385959,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 375273689,
+        "stage": "variability"
+      },
+      {
+        "tic": 375273689,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 376639349,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 312546580,
+        "stage": "variability"
+      },
+      {
+        "tic": 312546580,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 153949589,
+        "stage": "variability"
+      },
+      {
+        "tic": 153949589,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 344012137,
+        "stage": "variability"
+      },
+      {
+        "tic": 344012137,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 24088071,
+        "stage": "variability"
+      },
+      {
+        "tic": 24088071,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 442897934,
+        "stage": "variability"
+      },
+      {
+        "tic": 442897934,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 44795539,
+        "stage": "variability"
+      },
+      {
+        "tic": 44795539,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 350708370,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 166004965,
+        "stage": "variability"
+      },
+      {
+        "tic": 166004965,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 176955267,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 446157830,
+        "stage": "variability"
+      },
+      {
+        "tic": 446157830,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 441628564,
+        "stage": "variability"
+      },
+      {
+        "tic": 441628564,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 367279806,
+        "stage": "variability"
+      },
+      {
+        "tic": 367279806,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 8589633,
+        "stage": "variability"
+      },
+      {
+        "tic": 8589633,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 350342912,
+        "stage": "variability"
+      },
+      {
+        "tic": 350342912,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 207211020,
+        "stage": "variability"
+      },
+      {
+        "tic": 207211020,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 279354493,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 183641863,
+        "stage": "variability"
+      },
+      {
+        "tic": 183641863,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 321595102,
+        "stage": "variability"
+      },
+      {
+        "tic": 321595102,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 441605415,
+        "stage": "variability"
+      },
+      {
+        "tic": 441605415,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 417839594,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 454281036,
+        "stage": "variability"
+      },
+      {
+        "tic": 454281036,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 232814030,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 395602605,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 293162811,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 153977439,
+        "stage": "variability"
+      },
+      {
+        "tic": 153977439,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 142563406,
+        "stage": "variability"
+      },
+      {
+        "tic": 142563406,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 461592543,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 196947528,
+        "stage": "variability"
+      },
+      {
+        "tic": 196947528,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 199573123,
+        "stage": "variability"
+      },
+      {
+        "tic": 199573123,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 201292812,
+        "stage": "variability"
+      },
+      {
+        "tic": 201292812,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 13238985,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 86378567,
+        "stage": "variability"
+      },
+      {
+        "tic": 86378567,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 232524921,
+        "stage": "variability"
+      },
+      {
+        "tic": 232524921,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 160115906,
+        "stage": "variability"
+      },
+      {
+        "tic": 160115906,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 59656000,
+        "stage": "variability"
+      },
+      {
+        "tic": 59656000,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 206496404,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 207491443,
+        "stage": "variability"
+      },
+      {
+        "tic": 207491443,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 116281239,
+        "stage": "variability"
+      },
+      {
+        "tic": 116281239,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 219432571,
+        "stage": "variability"
+      },
+      {
+        "tic": 219432571,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 27489586,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 287488930,
+        "stage": "variability"
+      },
+      {
+        "tic": 287488930,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 183306102,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 192850384,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 230235775,
+        "stage": "variability"
+      },
+      {
+        "tic": 230235775,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 165530589,
+        "stage": "variability"
+      },
+      {
+        "tic": 165530589,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 198313420,
+        "stage": "variability"
+      },
+      {
+        "tic": 198313420,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 232979974,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 178241984,
+        "stage": "variability"
+      },
+      {
+        "tic": 178241984,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 78014053,
+        "stage": "variability"
+      },
+      {
+        "tic": 78014053,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 148781504,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 461086188,
+        "stage": "variability"
+      },
+      {
+        "tic": 461086188,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 350142099,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 255929154,
+        "stage": "variability"
+      },
+      {
+        "tic": 255929154,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 372848247,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 236874149,
+        "stage": "variability"
+      },
+      {
+        "tic": 236874149,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 60074959,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 423236614,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 355935333,
+        "stage": "variability"
+      },
+      {
+        "tic": 355935333,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 138618648,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 385445333,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 238022708,
+        "stage": "variability"
+      },
+      {
+        "tic": 238022708,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 147680159,
+        "stage": "variability"
+      },
+      {
+        "tic": 147680159,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 441662762,
+        "stage": "variability"
+      },
+      {
+        "tic": 441662762,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 160083748,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 310995878,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 165597292,
+        "stage": "variability"
+      },
+      {
+        "tic": 165597292,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 55481273,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 341705385,
+        "stage": "variability"
+      },
+      {
+        "tic": 341705385,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 320323745,
+        "stage": "variability"
+      },
+      {
+        "tic": 320323745,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 405902579,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 159210154,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 295798308,
+        "stage": "variability"
+      },
+      {
+        "tic": 295798308,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 137833304,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 229943561,
+        "stage": "variability"
+      },
+      {
+        "tic": 229943561,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 388566007,
+        "stage": "variability"
+      },
+      {
+        "tic": 388566007,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 276832928,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 148909368,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 144143255,
+        "stage": "variability"
+      },
+      {
+        "tic": 144143255,
+        "stage": "longbaseline"
+      },
+      {
+        "tic": 408094501,
+        "stage": "variability"
+      },
+      {
+        "tic": 408094501,
+        "stage": "longbaseline"
+      }
+    ]
+  },
+  "unreviewed_unflagged_trials": [],
+  "scope": "Main searches, corrected known-planet calibration and targeted multimode diagnostic. The obsolete initial TOI-700 calibration and synthetic injection suites are excluded.",
+  "limitations": "Audits consistency of saved artifacts. It cannot prove that data were never inspected, establish a calibrated false-alarm rate, or validate an astrophysical interpretation. Refinement can split one sector in time, so only combined-season searches require disjoint sector identifiers here.",
+  "code_sha256": "bd52479e41dc7050909a74f4c26e2a83664d1b249ee9f552bdf611f67fa8782f"
+}

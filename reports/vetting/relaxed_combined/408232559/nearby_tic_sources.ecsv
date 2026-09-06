@@ -1,0 +1,141 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: ID, datatype: string}
+# - {name: ra, datatype: float64}
+# - {name: dec, datatype: float64}
+# - {name: pmRA, datatype: float64}
+# - {name: pmDEC, datatype: float64}
+# - {name: Tmag, datatype: float64}
+# - {name: objType, datatype: string}
+# - {name: typeSrc, datatype: string}
+# - {name: version, datatype: string}
+# - {name: HIP, datatype: string}
+# - {name: TYC, datatype: string}
+# - {name: UCAC, datatype: string}
+# - {name: TWOMASS, datatype: string}
+# - {name: SDSS, datatype: string}
+# - {name: ALLWISE, datatype: string}
+# - {name: GAIA, datatype: string}
+# - {name: APASS, datatype: string}
+# - {name: KIC, datatype: string}
+# - {name: POSflag, datatype: string}
+# - {name: e_pmRA, datatype: float64}
+# - {name: e_pmDEC, datatype: float64}
+# - {name: PMflag, datatype: string}
+# - {name: plx, datatype: float64}
+# - {name: e_plx, datatype: float64}
+# - {name: PARflag, datatype: string}
+# - {name: gallong, datatype: float64}
+# - {name: gallat, datatype: float64}
+# - {name: eclong, datatype: float64}
+# - {name: eclat, datatype: float64}
+# - {name: Bmag, datatype: float64}
+# - {name: e_Bmag, datatype: float64}
+# - {name: Vmag, datatype: float64}
+# - {name: e_Vmag, datatype: float64}
+# - {name: umag, datatype: float64}
+# - {name: e_umag, datatype: float64}
+# - {name: gmag, datatype: float64}
+# - {name: e_gmag, datatype: float64}
+# - {name: rmag, datatype: float64}
+# - {name: e_rmag, datatype: float64}
+# - {name: imag, datatype: float64}
+# - {name: e_imag, datatype: float64}
+# - {name: zmag, datatype: float64}
+# - {name: e_zmag, datatype: float64}
+# - {name: Jmag, datatype: float64}
+# - {name: e_Jmag, datatype: float64}
+# - {name: Hmag, datatype: float64}
+# - {name: e_Hmag, datatype: float64}
+# - {name: Kmag, datatype: float64}
+# - {name: e_Kmag, datatype: float64}
+# - {name: TWOMflag, datatype: string}
+# - {name: prox, datatype: float64}
+# - {name: w1mag, datatype: float64}
+# - {name: e_w1mag, datatype: float64}
+# - {name: w2mag, datatype: float64}
+# - {name: e_w2mag, datatype: float64}
+# - {name: w3mag, datatype: float64}
+# - {name: e_w3mag, datatype: float64}
+# - {name: w4mag, datatype: float64}
+# - {name: e_w4mag, datatype: float64}
+# - {name: GAIAmag, datatype: float64}
+# - {name: e_GAIAmag, datatype: float64}
+# - {name: e_Tmag, datatype: float64}
+# - {name: TESSflag, datatype: string}
+# - {name: SPFlag, datatype: string}
+# - {name: Teff, datatype: float64}
+# - {name: e_Teff, datatype: float64}
+# - {name: logg, datatype: float64}
+# - {name: e_logg, datatype: float64}
+# - {name: MH, datatype: float64}
+# - {name: e_MH, datatype: float64}
+# - {name: rad, datatype: float64}
+# - {name: e_rad, datatype: float64}
+# - {name: mass, datatype: float64}
+# - {name: e_mass, datatype: float64}
+# - {name: rho, datatype: float64}
+# - {name: e_rho, datatype: float64}
+# - {name: lumclass, datatype: string}
+# - {name: lum, datatype: float64}
+# - {name: e_lum, datatype: float64}
+# - {name: d, datatype: float64}
+# - {name: e_d, datatype: float64}
+# - {name: ebv, datatype: float64}
+# - {name: e_ebv, datatype: float64}
+# - {name: numcont, datatype: int64}
+# - {name: contratio, datatype: float64}
+# - {name: disposition, datatype: string}
+# - {name: duplicate_id, datatype: string}
+# - {name: priority, datatype: float64}
+# - {name: eneg_EBV, datatype: float64}
+# - {name: epos_EBV, datatype: float64}
+# - {name: EBVflag, datatype: string}
+# - {name: eneg_Mass, datatype: float64}
+# - {name: epos_Mass, datatype: float64}
+# - {name: eneg_Rad, datatype: float64}
+# - {name: epos_Rad, datatype: float64}
+# - {name: eneg_rho, datatype: float64}
+# - {name: epos_rho, datatype: float64}
+# - {name: eneg_logg, datatype: float64}
+# - {name: epos_logg, datatype: float64}
+# - {name: eneg_lum, datatype: float64}
+# - {name: epos_lum, datatype: float64}
+# - {name: eneg_dist, datatype: float64}
+# - {name: epos_dist, datatype: float64}
+# - {name: distflag, datatype: string}
+# - {name: eneg_Teff, datatype: float64}
+# - {name: epos_Teff, datatype: float64}
+# - {name: TeffFlag, datatype: string}
+# - {name: gaiabp, datatype: float64}
+# - {name: e_gaiabp, datatype: float64}
+# - {name: gaiarp, datatype: float64}
+# - {name: e_gaiarp, datatype: float64}
+# - {name: gaiaqflag, datatype: int64}
+# - {name: starchareFlag, datatype: string}
+# - {name: VmagFlag, datatype: string}
+# - {name: BmagFlag, datatype: string}
+# - {name: splists, datatype: string}
+# - {name: e_RA, datatype: float64}
+# - {name: e_Dec, datatype: float64}
+# - {name: RA_orig, datatype: float64}
+# - {name: Dec_orig, datatype: float64}
+# - {name: e_RA_orig, datatype: float64}
+# - {name: e_Dec_orig, datatype: float64}
+# - {name: raddflag, datatype: int64}
+# - {name: wdflag, datatype: int64}
+# - {name: dstArcSec, datatype: float64}
+# schema: astropy-2.0
+ID ra dec pmRA pmDEC Tmag objType typeSrc version HIP TYC UCAC TWOMASS SDSS ALLWISE GAIA APASS KIC POSflag e_pmRA e_pmDEC PMflag plx e_plx PARflag gallong gallat eclong eclat Bmag e_Bmag Vmag e_Vmag umag e_umag gmag e_gmag rmag e_rmag imag e_imag zmag e_zmag Jmag e_Jmag Hmag e_Hmag Kmag e_Kmag TWOMflag prox w1mag e_w1mag w2mag e_w2mag w3mag e_w3mag w4mag e_w4mag GAIAmag e_GAIAmag e_Tmag TESSflag SPFlag Teff e_Teff logg e_logg MH e_MH rad e_rad mass e_mass rho e_rho lumclass lum e_lum d e_d ebv e_ebv numcont contratio disposition duplicate_id priority eneg_EBV epos_EBV EBVflag eneg_Mass epos_Mass eneg_Rad epos_Rad eneg_rho epos_rho eneg_logg epos_logg eneg_lum epos_lum eneg_dist epos_dist distflag eneg_Teff epos_Teff TeffFlag gaiabp e_gaiabp gaiarp e_gaiarp gaiaqflag starchareFlag VmagFlag BmagFlag splists e_RA e_Dec RA_orig Dec_orig e_RA_orig e_Dec_orig raddflag wdflag dstArcSec
+408232559 82.2924427128596 -21.8449279770441 216.407 -44.7442 13.8447 STAR tmgaia2 20190415 "" "" "" 05291019-2150417 "" J052910.34-215042.2 2964885266679458944 "" "" tmgaia2 0.090396 0.115072 gaia2 33.4644 0.0748377 gaia2 224.790305199584 -27.3790241684148 79.8578425312507 -45.0132223643359 nan nan 17.47 0.2 nan nan nan nan nan nan nan nan nan nan 11.98 0.027 11.408 0.026 11.033 0.024 AAA-222-111-000-0-0 nan 10.817 0.022 10.61 0.019 10.363 0.064 8.606 nan 15.3428 0.00046 0.00731374 cdwrf cdwrf 2960.0 157.0 5.14012 0.0390237 nan nan 0.163242 0.00494936 0.13419 0.0200461 30.8478 1.81925 DWARF 0.00184300018 0.0005061191 29.857 0.0672 0.0 0.0 85 0.0141853709 "" "" 0.00287880818 0.0 0.0 "" nan nan nan nan nan nan nan nan nan nan 0.0671 0.0673 bj2018 nan nan cdwrf 17.4954 0.005113 13.9804 0.001181 1 "" cdwrf "" cooldwarfs_v8 1.4275351261502 1.78448110935529 82.293446546143 -21.8451206287217 0.0394795253577064 0.0555589253843998 1 0 3.4250837758924066
+708436578 82.2943411042473 -21.8376458869968 7.76532 3.25512 19.8521 STAR gaia2 20190415 "" "" "" "" "" "" 2964885266678371968 "" "" gaia2 1.14789 2.01411 gaia2 1.64646 1.17147 gaia2 224.783296007221 -27.3748535981819 79.8611050067421 -45.0060939825428 nan nan 21.4603 0.1227 nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan nan nan nan nan nan nan nan 20.7607 0.00823 0.0404 gbprp gaia2 nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan 776.831 587.916 0.0273554 0.00766577 "" nan "" "" nan 0.00796201 0.00736953 panstarrs nan nan nan nan nan nan nan nan nan nan 362.943 812.889 bj2018 nan nan "" 21.5023 0.158813 19.5377 0.04526 0 "" gaia2 "" "" 18.1272453274344 31.2299099098443 82.2943771229047 -21.8376318719006 0.496682618498367 0.836499312592393 1 0 27.074507763000938
+408232563 82.2903700715954 -21.8378796203317 11.1678 -6.64817 16.5227 STAR tmgaia2 20190415 "" "" "" 05290969-2150163 "" J052909.69-215016.4 2964888221616957568 "" "" tmgaia2 0.121779 0.171872 gaia2 1.84038 0.115561 gaia2 224.782108105029 -27.3783932376002 79.8558814755778 -45.0060489166439 19.825 0.183 18.7656 0.048 nan nan nan nan nan nan nan nan nan nan 15.158 0.045 14.429 0.041 14.387 0.069 AAA-222-111-000-0-0 nan 14.08 0.027 13.968 0.035 12.271 nan 8.985 nan 17.7059 0.000985 0.0085404 cdwrf cdwrf 3469.0 157.0 4.75072 0.0219851 nan nan 0.484821 0.0283236 0.482855 0.0319915 4.23714 0.46459 DWARF 0.0306672454 0.009209368 536.727 34.202 0.0232288 0.00537726 "" nan "" "" nan 0.0048423 0.00591222 panstarrs nan nan nan nan nan nan nan nan nan nan 32.073 36.331 bj2018 nan nan cdwrf 19.0056 0.015793 16.5724 0.004775 1 "" gaia2 bpbj cooldwarfs_v8 1.92315644866701 2.66529167676058 82.2904218723994 -21.8379082444053 0.0547451750607291 0.0824528589752905 1 0 28.021367630781732
+408232561 82.3032702013536 -21.8428503225371 4.64474 9.22845 15.7405 STAR tmgaia2 20190415 "" "" 341-007853 05291278-2150343 "" J052912.78-215034.1 2964885266679456768 10253440 "" tmgaia2 0.0483847 0.0734336 gaia2 0.48742 0.0430277 gaia2 224.792021554756 -27.3688753848751 79.8722397612366 -45.0119085033529 17.001 -0.075 16.06 1.133 nan nan nan nan nan nan nan nan nan nan 15.151 0.049 14.934 0.056 14.685 0.085 AAA-222-111-000-0-0 nan 14.733 0.031 14.819 0.056 12.883 nan 9.305 nan 16.172 0.000446 0.0067 rered gaia2 5909.0 123.0 4.51069 nan nan nan 0.951439 nan 1.07 nan 1.24234 nan DWARF 0.9942895 nan 1909.97 158.47 0.0325917 0.004386895 "" nan "" "" nan 0.00493818 0.00383561 panstarrs nan nan nan nan nan nan nan nan nan nan 145.91 171.03 bj2018 nan nan dered 16.5055 0.002925 15.6834 0.002037 1 "" ucac4 apassdr9 "" 0.764103464653801 1.13867601929612 82.3032917462972 -21.8428105889359 0.0216481052957281 0.0321945238730172 1 0 33.8282641496713
+708436577 82.3060550398726 -21.8414343045356 4.95382 0.506416 18.6993 STAR gaia2 20190415 "" "" "" "" "" "" 2964885262381983616 "" "" gaia2 0.295186 0.489981 gaia2 0.418328 0.283392 gaia2 224.791531550143 -27.3659603271598 79.8760366278083 -45.0106912636233 nan nan 19.5764 0.0483 nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan nan nan nan nan nan nan nan 19.3058 0.00254 0.0088 rered gaia2 4915.0 144.0 nan nan nan nan nan nan nan nan nan nan DWARF nan nan 1602.32 594.31 0.0324973 0.00443254 "" nan "" "" nan 0.0051633 0.00370178 panstarrs nan nan nan nan nan nan nan nan nan nan 449.26 739.36 bj2018 nan nan dered 19.8319 0.031036 18.643 0.017572 1 "" gaia2 "" "" 4.66177542943783 7.59730752447346 82.3060780182784 -21.8414321241349 0.136666099799204 0.19882150208379 1 0 44.17249137821548
+708436576 82.3075660569746 -21.8477796144456 nan nan 20.7765 STAR gaia2 20190415 "" "" "" "" "" "" 2964885197958895104 "" "" gaia2 nan nan "" nan nan "" 224.798777155042 -27.3668389815535 79.8773514083561 -45.0171237425652 nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan nan nan nan nan nan nan nan 21.2065 0.023507 0.6 goffs "" nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan nan nan nan nan "" nan "" "" nan nan nan "" nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan "" nan 0.0 nan 0.0 "" "" "" "" "" 1.44719322491458 3.38766415416775 82.3075660569746 -21.8477796144456 1.44719322491458 3.38766415416775 "" 0 48.14128632546764
+708436579 82.3044495073418 -21.8361927674066 -2.60746 -0.00367116 17.7183 STAR gaia2 20190415 "" "" "" "" "" "" 2964885301039193600 "" "" gaia2 0.15509 0.232624 gaia2 0.728225 0.139238 gaia2 224.785413291478 -27.365546691771 79.8744931947236 -45.0053523521335 nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan nan nan nan nan nan nan nan 18.1483 0.001503 0.6 goffs gaia2 nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan 1290.09 246.33 0.0317256 0.00462597 "" nan "" "" nan 0.00490535 0.00434659 panstarrs nan nan nan nan nan nan nan nan nan nan 204.18 288.48 bj2018 nan nan "" nan 0.0 nan 0.0 "" "" "" "" "" 2.449240826885 3.60704693071642 82.3044374130232 -21.8361927832134 0.071038869673616 0.0995840790828341 "" 0 48.834945309877654
+408232565 82.3048964896798 -21.8365331995014 -2.34988 0.673467 14.9918 STAR tmgaia2 20190415 "" "" 341-007854 05291316-2150114 "" J052913.15-215011.2 2964885301039193472 10253450 "" tmgaia2 0.0333105 0.0484884 gaia2 0.702244 0.0289779 gaia2 224.785934504615 -27.3652750629842 79.8750420842808 -45.0057230739584 16.056 0.048 15.716 0.4 nan nan nan nan nan nan nan nan nan nan 14.343 0.038 14.087 0.043 13.938 0.057 AAA-222-111-000-0-0 nan 13.813 0.026 13.86 0.033 12.881 nan 8.567 nan 15.393 0.000291 0.0067 rered gaia2 6103.0 123.0 4.58183 nan nan nan 0.908796 nan 1.15 nan 1.53214 nan DWARF 1.03228879 nan 1365.66 54.375 0.0319081 0.004490075 "" nan "" "" nan 0.00479287 0.00418728 panstarrs nan nan nan nan nan nan nan nan nan nan 52.26 56.49 bj2018 nan nan dered 15.6598 0.003705 14.8973 0.003109 1 "" ucac4 apassdr9 "" 0.526040162420042 0.751875828091444 82.3048855900821 -21.8365302998522 0.0148276057473857 0.021435842417664 1 0 49.18980672163473
+408232569 82.2955589319332 -21.8296820545956 -9.14328 6.09538 18.7518 STAR tmgaia2 20190415 "" "" "" 05291093-2149467 "" J052910.95-214946.4 2964888255973682176 "" "" tmgaia2 3.09084 3.09092 hsoy nan nan "" 224.775321129268 -27.3710396038935 79.8635487455593 -44.9982381003761 21.458 0.207 21.1447 0.0969 nan nan nan nan nan nan nan nan nan nan 16.526 0.11 15.771 0.118 15.577 0.188 BBC-222-111-000-0-0 nan 15.372 0.037 15.268 0.075 12.796 nan 9.295 nan 19.8755 0.003727 0.0202 gbprp "" nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan nan nan nan nan "" nan SPLIT "" nan nan nan "" nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan "" 20.9025 0.08948 18.2341 0.019527 0 "" gaia2 bpbj "" 48.7917994903258 47.9102979204603 82.295516524109 -21.829655810604 0.217315133005356 0.315361823401799 1 0 56.02525595859021
+522004214 82.2957751490729 -21.8294122615846 -1.44985 2.57966 19.8461 STAR tmgaia2 20190415 "" "" "" "" "" "" 2964888255976693504 "" "" tmgaia2 0.739781 1.30637 gaia2 -1.16275 0.783974 gaia2 224.775114207317 -27.3707579881105 79.8638605513994 -44.9979842118628 nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan nan nan nan nan nan nan nan 20.2761 0.006604 0.6 goffs gaia2 nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan 1720.14 765.585 0.0325354 0.004488945 "" nan "" 408232569 nan 0.00516507 0.00381282 panstarrs nan nan nan nan nan nan nan nan nan nan 607.48 923.69 bj2018 nan nan "" nan 0.0 19.1536 0.303936 -1 "" "" "" "" 11.6828373645211 20.2553511218113 82.2957684244764 -21.8294011547152 0.34016015067529 0.517667815918029 -1 -1 57.08290305165829
+708436646 82.2770996229966 -21.8517937477037 7.44921 -4.39049 19.3981 STAR gaia2 20190415 "" "" "" "" "" "" 2964888114240260352 "" "" gaia2 0.458497 0.736299 gaia2 0.607091 0.478452 gaia2 224.792018860719 -27.3947604451503 79.8370208822144 -45.0189927201293 nan nan 20.1381 0.0526 nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan "" nan nan nan nan nan nan nan nan nan 19.9303 0.003932 0.0197 rered gaia2 nan nan nan nan nan nan nan nan nan nan nan nan DWARF nan nan 1237.6 583.221 0.0315878 0.005214205 "" nan "" "" nan 0.00594921 0.0044792 panstarrs nan nan nan nan nan nan nan nan nan nan 416.462 749.98 bj2018 nan nan "" 20.2712 0.058612 19.243 0.038111 1 "" gaia2 "" "" 7.24108020174916 11.4170102039886 82.2771341788294 -21.8518126512058 0.214254683761477 0.316062916820999 1 1 59.67121847395882

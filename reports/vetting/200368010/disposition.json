@@ -1,0 +1,19 @@
+{
+  "tic": 200368010,
+  "reviewed_utc": "2026-09-06T22:07:18.573703+00:00",
+  "disposition": "The reviewed long-period trials select minima from much faster repeating variability, visible throughout the broad SAP and PDC folds. They are not promoted as planet candidates. Similar sharp minima recur about every 11.95 hours, rather than only once per proposed 16.92-day orbit.",
+  "reviewed_trials": [
+    {
+      "variant": "base",
+      "signal_index": 1,
+      "period_days": 16.92361228326527,
+      "short_period_hours": 11.94887349608878,
+      "nearest_integer_multiple": 34,
+      "ls_fractional_power": 0.25645394079571027,
+      "heuristic_alias_flag": true,
+      "diagnostic_holdout_snr_after_short_variation_fit": -4.6278893898891145,
+      "evidence": "base_signal_1"
+    }
+  ],
+  "limitations": "This rejection applies to the listed trials. The variable source and physical cause are not localized or established. Nominal scores and post-review subtraction are diagnostics, not calibrated false-alarm probabilities or independent validation; other planets are not ruled out."
+}

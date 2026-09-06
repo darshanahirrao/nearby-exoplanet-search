@@ -1,0 +1,30 @@
+{
+  "tic": 441606549,
+  "reviewed_utc": "2026-09-06T22:07:18.578898+00:00",
+  "disposition": "The reviewed long-period trials select minima from much faster repeating variability, visible throughout the broad SAP and PDC folds. They are not promoted as planet candidates. The automatic alias-power heuristic narrowly misses its threshold; the manual rejection uses the repeating holdout waveform and the fixed short-period diagnostic.",
+  "reviewed_trials": [
+    {
+      "variant": "refined",
+      "signal_index": 2,
+      "period_days": 8.971026878168843,
+      "short_period_hours": 4.4845446834913165,
+      "nearest_integer_multiple": 48,
+      "ls_fractional_power": 0.049859943942575306,
+      "heuristic_alias_flag": false,
+      "diagnostic_holdout_snr_after_short_variation_fit": 4.195267618119556,
+      "evidence": "refined_signal_2"
+    },
+    {
+      "variant": "refined",
+      "signal_index": 4,
+      "period_days": 10.466086154279354,
+      "short_period_hours": 4.4845446834913165,
+      "nearest_integer_multiple": 56,
+      "ls_fractional_power": 0.049859943942575306,
+      "heuristic_alias_flag": false,
+      "diagnostic_holdout_snr_after_short_variation_fit": 3.957343714237794,
+      "evidence": "refined_signal_4"
+    }
+  ],
+  "limitations": "This rejection applies to the listed trials. The variable source and physical cause are not localized or established. Nominal scores and post-review subtraction are diagnostics, not calibrated false-alarm probabilities or independent validation; other planets are not ruled out."
+}

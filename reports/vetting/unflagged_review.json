@@ -1,0 +1,146 @@
+{
+  "reviewed_utc": "2026-09-06T22:07:18.686957+00:00",
+  "scope": "Explicitly reviewed unflagged trial fits. Final survey variants are still running; this is a checkpoint.",
+  "trials": [
+    {
+      "tic": 138579249,
+      "result_path": "results/138579249_refined/result.json",
+      "source_sha256": "3560f3cce8da988b6faf43919b2510a94a3525605ef7a7fc9cf331ccc6497b14",
+      "signal_index": 4,
+      "period_days": 7.053312159974013,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "138579249/disposition.json"
+    },
+    {
+      "tic": 200368010,
+      "result_path": "results/200368010/result.json",
+      "source_sha256": "2ea8eab43e62559d1f96f563ac8033cb2072013cdb605f2ea01b983a689f5f51",
+      "signal_index": 1,
+      "period_days": 16.92361228326527,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "200368010/disposition.json"
+    },
+    {
+      "tic": 231057252,
+      "result_path": "results/231057252/result.json",
+      "source_sha256": "aa39837a76b7b746bccc9b896cc55f0405595d976acf576ec6e147272788559b",
+      "signal_index": 2,
+      "period_days": 6.082459585080198,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "231057252/disposition.json"
+    },
+    {
+      "tic": 256771035,
+      "result_path": "results/256771035_refined/result.json",
+      "source_sha256": "564491962be33c0152b9ac7db3a3749e6ac9f688b66fca28de9c3748b8070281",
+      "signal_index": 1,
+      "period_days": 14.86022568322112,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "256771035/disposition.json"
+    },
+    {
+      "tic": 256771035,
+      "result_path": "results/256771035_refined/result.json",
+      "source_sha256": "564491962be33c0152b9ac7db3a3749e6ac9f688b66fca28de9c3748b8070281",
+      "signal_index": 2,
+      "period_days": 9.137336010829806,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "256771035/disposition.json"
+    },
+    {
+      "tic": 256771035,
+      "result_path": "results/256771035_refined/result.json",
+      "source_sha256": "564491962be33c0152b9ac7db3a3749e6ac9f688b66fca28de9c3748b8070281",
+      "signal_index": 3,
+      "period_days": 9.906790549935879,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "256771035/disposition.json"
+    },
+    {
+      "tic": 328463799,
+      "result_path": "results/328463799_refined/result.json",
+      "source_sha256": "331e5afc96ea927cb4e147f122022e53f858727c0ea11a6cc77ad70857ea2b3e",
+      "signal_index": 3,
+      "period_days": 4.977309625281782,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "328463799/disposition.json"
+    },
+    {
+      "tic": 352617553,
+      "result_path": "results/352617553/result.json",
+      "source_sha256": "db37c9f1674e4b6132a12bbd25f1c343834ab9fda2d76f47d33c65c3a5ce4623",
+      "signal_index": 3,
+      "period_days": 8.188312022592786,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "352617553/disposition.json"
+    },
+    {
+      "tic": 352617553,
+      "result_path": "results/352617553_known_residual/result.json",
+      "source_sha256": "5a9569d7d604eb9b54d681c48e3f819e5b41a557c77402a2dc562ce9d3e83d01",
+      "signal_index": 2,
+      "period_days": 6.592062433941083,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "352617553/disposition.json"
+    },
+    {
+      "tic": 352617553,
+      "result_path": "results/352617553_longbaseline/result.json",
+      "source_sha256": "7aaac1a03e38df4ee842890befa17c429272b3894fb51baff73f14a48c070eb6",
+      "signal_index": 2,
+      "period_days": 6.592064436300587,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "352617553/disposition.json"
+    },
+    {
+      "tic": 352617553,
+      "result_path": "results/352617553_refined/result.json",
+      "source_sha256": "545b0a8cd7fef062da9e6bc63a97b6ba436eef06a1ca9e5f90a0283ea243cc22",
+      "signal_index": 1,
+      "period_days": 8.18833931632833,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "352617553/disposition.json"
+    },
+    {
+      "tic": 406484174,
+      "result_path": "results/406484174/result.json",
+      "source_sha256": "b90f7cb8b57483e62177dc0341279bf6999a515ffcfd2bd5c65dc799e6fbd3ac",
+      "signal_index": 3,
+      "period_days": 12.728223514093447,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "406484174/disposition.json"
+    },
+    {
+      "tic": 441606549,
+      "result_path": "results/441606549_refined/result.json",
+      "source_sha256": "709c6a33afe98ef6b7aabbb8c458d5e7ccb0cf413b907409ae2bcfb685132c1a",
+      "signal_index": 2,
+      "period_days": 8.971026878168843,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "441606549/disposition.json"
+    },
+    {
+      "tic": 441606549,
+      "result_path": "results/441606549_refined/result.json",
+      "source_sha256": "709c6a33afe98ef6b7aabbb8c458d5e7ccb0cf413b907409ae2bcfb685132c1a",
+      "signal_index": 4,
+      "period_days": 10.466086154279354,
+      "disposition": "not_promoted",
+      "reason": "short-period variability alias",
+      "evidence": "441606549/disposition.json"
+    }
+  ]
+}

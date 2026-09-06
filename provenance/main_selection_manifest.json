@@ -1,0 +1,35 @@
+{
+  "compiled_utc": "2026-09-06T21:53:03.006904+00:00",
+  "scope": "Retrospective consolidation of the four saved execution target lists. The target lists were created at each batch launch; this summary is not a preregistration.",
+  "selected_unique_targets": 1000,
+  "batches": [
+    {
+      "offset": 0,
+      "count": 80,
+      "original_selection_file": "target_batch_0_80.csv",
+      "sha256": "9bbf0b8903a2069ed5e1fe799d3ade8c3fdde419f54060cbcc834ca723416ce2",
+      "recorded_run_start_utc": null
+    },
+    {
+      "offset": 80,
+      "count": 160,
+      "original_selection_file": "target_batch_80_160.csv",
+      "sha256": "bfee02fdd3833efab0f9bbd1874b0e18db29f3f7e7ae31027d0a2a7be4961760",
+      "recorded_run_start_utc": null
+    },
+    {
+      "offset": 240,
+      "count": 260,
+      "original_selection_file": "target_batch_240_260.csv",
+      "sha256": "8c1ab768b3ff0d5040e1e8e3bd63c42878afd97a5749d2e700b4ebfe1bda271b",
+      "recorded_run_start_utc": "2026-09-06T20:07:13.654487+00:00"
+    },
+    {
+      "offset": 500,
+      "count": 500,
+      "original_selection_file": "target_batch_500_500.csv",
+      "sha256": "42e3d3ef856f346c16f76f3c574defeb828ba95c48e68af9f0177b808bab2a3f",
+      "recorded_run_start_utc": "2026-09-06T20:44:35.663966+00:00"
+    }
+  ]
+}

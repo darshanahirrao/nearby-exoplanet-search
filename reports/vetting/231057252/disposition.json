@@ -1,0 +1,24 @@
+{
+  "tic": 231057252,
+  "disposition": "The 6.08246-day trial is an approximately 28-fold alias of rapid 5.213-hour variability; it also fails the later timing-refined holdout.",
+  "variant": "base",
+  "signal_iteration": 2,
+  "trial_period_days": 6.082459585080198,
+  "short_period_hours": 5.213010532676006,
+  "approximate_multiple_of_short_variability": 28,
+  "evidence": [
+    "variability.json",
+    "phase_diagnostics.png"
+  ],
+  "diagnostic_nominal_holdout_snr_after_short_variation_fit": 5.137433313961375,
+  "limitations": "The source of the variable light has not been localized. SAP and PDC share pixels; the short-variation subtraction uses already-inspected observations and is a diagnostic, not independent validation. This rejection applies to this trial and does not rule out other planets.",
+  "reproduce": "python scripts/vet.py --tic 231057252 --signal 2 --variant base",
+  "later_timing_refinement": {
+    "period_days": 6.082094433155753,
+    "holdout_nominal_snr": -1.917899827537109,
+    "screening_flags": [
+      "not_recovered_in_final_holdout",
+      "inconsistent_holdout_depth_signs"
+    ]
+  }
+}

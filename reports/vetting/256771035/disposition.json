@@ -1,0 +1,41 @@
+{
+  "tic": 256771035,
+  "reviewed_utc": "2026-09-06T22:07:18.576402+00:00",
+  "disposition": "The reviewed long-period trials select minima from much faster repeating variability, visible throughout the broad SAP and PDC folds. They are not promoted as planet candidates.",
+  "reviewed_trials": [
+    {
+      "variant": "refined",
+      "signal_index": 1,
+      "period_days": 14.86022568322112,
+      "short_period_hours": 6.25604757021847,
+      "nearest_integer_multiple": 57,
+      "ls_fractional_power": 0.6099867182659687,
+      "heuristic_alias_flag": true,
+      "diagnostic_holdout_snr_after_short_variation_fit": 8.484849359187866,
+      "evidence": "refined_signal_1"
+    },
+    {
+      "variant": "refined",
+      "signal_index": 2,
+      "period_days": 9.137336010829806,
+      "short_period_hours": 6.25604757021847,
+      "nearest_integer_multiple": 35,
+      "ls_fractional_power": 0.6099867182659687,
+      "heuristic_alias_flag": true,
+      "diagnostic_holdout_snr_after_short_variation_fit": 4.625024223473779,
+      "evidence": "refined_signal_2"
+    },
+    {
+      "variant": "refined",
+      "signal_index": 3,
+      "period_days": 9.906790549935879,
+      "short_period_hours": 6.25604757021847,
+      "nearest_integer_multiple": 38,
+      "ls_fractional_power": 0.6099867182659687,
+      "heuristic_alias_flag": true,
+      "diagnostic_holdout_snr_after_short_variation_fit": 10.212157822084405,
+      "evidence": "refined_signal_3"
+    }
+  ],
+  "limitations": "This rejection applies to the listed trials. The variable source and physical cause are not localized or established. Nominal scores and post-review subtraction are diagnostics, not calibrated false-alarm probabilities or independent validation; other planets are not ruled out."
+}

@@ -1,0 +1,87 @@
+{
+  "selected_utc": "2026-09-06T21:55:29.764853+00:00",
+  "criteria": "Additional combined-season trials passing the non-physical gates and not yet included in the earlier relaxed-cut review. Strongest holdout trial per new target at this checkpoint. This selection uses inspected scores and is exploratory.",
+  "targets": [
+    {
+      "tic": 405981059,
+      "signal_index": 1,
+      "variant": "longbaseline",
+      "review_status": "not_promoted",
+      "period_days": 5.060896432567278,
+      "duration_days": 0.24762806850930155,
+      "original_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "nominal_holdout_snr": 8.271736793674037,
+      "source_result_sha256": "dfd0d44b638d176ea851d57dbd8c29c475197b35375fdec62dda3bb39144e310",
+      "diagnostics": "relaxed_combined/405981059",
+      "review": "Not promoted. The filtered fold has multiple broad minima and substantial oscillation outside the selected window; before the periodic model the same window is a broad brightening. Its interpretation depends strongly on filtering."
+    },
+    {
+      "tic": 408232559,
+      "signal_index": 1,
+      "variant": "longbaseline",
+      "review_status": "not_promoted",
+      "period_days": 12.18127306411702,
+      "duration_days": 0.08818143374410038,
+      "original_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "nominal_holdout_snr": 8.052730605845113,
+      "source_result_sha256": "ea91fab3d71928bce00aa63d6cec6881a3554cad845a9ad87a9fffe4c415eac0",
+      "diagnostics": "relaxed_combined/408232559",
+      "review": "The difference signal is displaced by about 1.17-1.20 pixels from the intended target in all three observed sectors. Reject this trial as evidence for a planet on the intended nearby star. The approximate sky locations lie toward catalogued neighboring sources; the particular contaminant is not uniquely identified by this simple centroid diagnostic.",
+      "limitations": "No precision PRF fit or formal astrometric uncertainty. No classification or novelty claim for the contaminating source."
+    },
+    {
+      "tic": 273515033,
+      "signal_index": 1,
+      "variant": "longbaseline",
+      "review_status": "not_promoted",
+      "period_days": 7.334328635272994,
+      "duration_days": 0.24730702122753653,
+      "original_flags": [
+        "outside_nominal_optimistic_hz",
+        "long_relative_to_circular_transit"
+      ],
+      "nominal_holdout_snr": 7.937779129852181,
+      "source_result_sha256": "6abf8608a3fc7ceaca3a0c00e37a26c2d60b844924cb4cf0e321c51f91839271",
+      "diagnostics": "relaxed_combined/273515033",
+      "review": "Not promoted. The training fold shows a broad baseline trough across most of the displayed interval, without a distinct short transit; the holdout shape differs."
+    },
+    {
+      "tic": 351808240,
+      "signal_index": 1,
+      "variant": "longbaseline",
+      "review_status": "not_promoted",
+      "period_days": 7.559814511443858,
+      "duration_days": 0.24785162045276796,
+      "original_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "nominal_holdout_snr": 7.802146034348251,
+      "source_result_sha256": "db58f86b06b01d5fd5fa91438ff38a19e776f91a496ef2a700aeba7f841432b2",
+      "diagnostics": "relaxed_combined/351808240",
+      "review": "Not promoted. The folded deficit is broad and changes with periodic filtering, with comparable surrounding structure. It does not provide a compelling isolated transit shape."
+    },
+    {
+      "tic": 282923395,
+      "signal_index": 2,
+      "variant": "longbaseline",
+      "review_status": "not_promoted",
+      "period_days": 5.298199347378214,
+      "duration_days": 0.18346448331459697,
+      "original_flags": [
+        "outside_nominal_optimistic_hz",
+        "long_relative_to_circular_transit"
+      ],
+      "nominal_holdout_snr": 5.505529516680574,
+      "source_result_sha256": "f083c9c88b25acfdd9c2d26a10f631f53347372a85f40aa2c744f113706191a1",
+      "diagnostics": "relaxed_combined/282923395",
+      "review": "The 5.29820-day trial is an approximately six-fold alias of a 0.883-day variation. Dimming occurs in every one of the six phase classes, in both training and holdout sectors, rather than only at the selected long-period ephemeris. The fixed P/6 diagnostic gives nominal training S/N 21.2 and holdout S/N 10.1. No additional temperate-planet candidate is promoted.",
+      "limitations": "Pixel differences are near the target at this resolution, but an approximately four-arcsecond catalogued neighbor remains unresolved. The source and physical cause of the shorter variability are not established. These are post-review diagnostics, and do not rule out other planets.",
+      "reproduce_subdivision_check": "python scripts/subharmonic_check.py --tic 282923395 --signal 2 --divisor 6"
+    }
+  ],
+  "reviewed_utc": "2026-09-06T22:03:05.286126+00:00"
+}

@@ -162,6 +162,19 @@ These diagnostics may use all already-inspected sectors. They are not untouched
 confirmation data. Pixel errors omit correlations, the local centroid is not a
 precision PRF fit, and header astrometry may require proper-motion updates.
 
+`download_pixels.py --tic <TIC> --sectors <sector numbers>` retrieves explicitly
+selected SPOC products, verifies their target identities, and retains a product
+manifest. The additional relaxed-cut reviews include TIC 408232559, whose
+difference signal is displaced in three sectors, and TIC 282923395, whose
+localization remains unresolved at the scale of a nearby four-arcsecond neighbor.
+
+The post-review `subharmonic_check.py` diagnostic tests fixed subdivisions of an
+existing combined-season trial period, preserving its epoch and duration. It also
+checks every phase class for a chosen divisor. For TIC 282923395, all six classes
+show dimming, supporting a shorter variability alias rather than an isolated
+5.298-day transit. These inspected-data diagnostics do not establish a unique
+astrophysical period or exclude additional planets.
+
 ## Additional planets around known hosts
 
 The first target batches omit TOI and community-TOI hosts. A separate, frozen

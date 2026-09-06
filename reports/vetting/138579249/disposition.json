@@ -1,0 +1,19 @@
+{
+  "tic": 138579249,
+  "reviewed_utc": "2026-09-06T22:07:18.577345+00:00",
+  "disposition": "The reviewed long-period trials select minima from much faster repeating variability, visible throughout the broad SAP and PDC folds. They are not promoted as planet candidates.",
+  "reviewed_trials": [
+    {
+      "variant": "refined",
+      "signal_index": 4,
+      "period_days": 7.053312159974013,
+      "short_period_hours": 5.6441379183813165,
+      "nearest_integer_multiple": 30,
+      "ls_fractional_power": 0.18557390779943742,
+      "heuristic_alias_flag": true,
+      "diagnostic_holdout_snr_after_short_variation_fit": 6.770074025368611,
+      "evidence": "refined_signal_4"
+    }
+  ],
+  "limitations": "This rejection applies to the listed trials. The variable source and physical cause are not localized or established. Nominal scores and post-review subtraction are diagnostics, not calibrated false-alarm probabilities or independent validation; other planets are not ruled out."
+}

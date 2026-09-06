@@ -1,30 +1,39 @@
 {
-  "updated_utc": "2026-09-06T20:47:40.624913+00:00",
-  "processed_targets": 514,
-  "period_searched_targets": 514,
-  "initial_trial_fits": 1840,
-  "refinement_attempts": 492,
-  "refined_targets_with_trial_fits": 492,
-  "initial_unflagged": 2,
-  "refined_unflagged": 2,
+  "updated_utc": "2026-09-06T22:04:10.149835+00:00",
+  "processed_targets": 992,
+  "period_searched_targets": 992,
+  "initial_trial_fits": 3586,
+  "refinement_attempts": 992,
+  "refined_targets_with_trial_fits": 992,
+  "initial_unflagged": 4,
+  "refined_unflagged": 8,
   "additional_searches": {
     "variability": {
-      "attempts": 492,
+      "attempts": 493,
       "skipped": 0,
-      "trial_fits": 1731,
+      "trial_fits": 1735,
       "unflagged": 0,
-      "targets_with_periodic_model": 167,
+      "targets_with_periodic_model": 168,
       "reused_refinement": 260
     },
     "longbaseline": {
-      "attempts": 6,
-      "skipped": 1,
-      "trial_fits": 10,
-      "unflagged": 0,
-      "targets_with_periodic_model": 3,
+      "attempts": 509,
+      "skipped": 62,
+      "trial_fits": 894,
+      "unflagged": 1,
+      "targets_with_periodic_model": 175,
+      "reused_refinement": 0
+    },
+    "known_residual": {
+      "attempts": 51,
+      "skipped": 0,
+      "trial_fits": 102,
+      "unflagged": 1,
+      "targets_with_periodic_model": 8,
       "reused_refinement": 0
     }
   },
+  "distinct_stars_with_a_period_search": 1031,
   "confirmed_new_planets": 0,
   "experiments": [
     {

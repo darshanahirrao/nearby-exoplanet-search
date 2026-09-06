@@ -36,6 +36,8 @@ python scripts/batch.py --target-list target_batch_0_10.csv --workers 2
 python scripts/refine.py --all-screened --workers 2
 python scripts/variability.py --all-screened --workers 2
 python scripts/longbaseline.py --all-screened --workers 2
+python scripts/audit_inputs.py
+python scripts/audit_results.py
 python scripts/summarize.py
 ```
 
@@ -79,7 +81,12 @@ python scripts/known_residual.py --workers 2
 ```
 
 `audit_inputs.py` checks FITS target identities and time references and exports
-byte hashes for every local telescope input. The [pixel-vetting example](reports/vetting/448416124/disposition.json)
+byte hashes for every local telescope input. `audit_results.py` compares saved
+ephemerides with the records frozen before holdout evaluation, checks available
+source hashes, and reports execution coverage. Use its `--require-complete` flag
+only after reproducing all [1,000 selected targets](provenance/main_target_selection.csv)
+and the separate known-host list; a small quickstart batch is intentionally incomplete.
+The [pixel-vetting example](reports/vetting/448416124/disposition.json)
 shows why a repeatable dip can still come from a different star.
 
 ## Repository map

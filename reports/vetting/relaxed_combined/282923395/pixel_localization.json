@@ -1,0 +1,63 @@
+{
+  "tic": 282923395,
+  "period_days": 5.298199347378214,
+  "epoch_btjd": 1686.876052591326,
+  "duration_days": 0.18346448331459697,
+  "created_utc": "2026-09-06T21:59:22.444187+00:00",
+  "records": [
+    {
+      "sector": 14,
+      "events": 4,
+      "event_centers_btjd": [
+        1686.876052591326,
+        1692.1742519387042,
+        1702.7706506334607,
+        1708.0688499808389
+      ],
+      "source": "data/targetpixels/282923395/tess2019198215352-s0014-0000000282923395-0150-s_tp.fits",
+      "sha256": "dcbd89a857c846b20339d7a08e4a9db938269c469d23d5d5f52f0e7f636c24c5",
+      "target_xy": [
+        5.314067619611764,
+        5.235890058039059
+      ],
+      "positive_core_centroid_xy": [
+        5.102057724440684,
+        5.29017831907603
+      ],
+      "positive_core_centroid_radec": [
+        223.75280039060237,
+        63.80215848931858
+      ],
+      "offset_pixels": 0.21885020204896036,
+      "peak_pixel_nominal_snr": 5.97745968648455
+    },
+    {
+      "sector": 48,
+      "events": 4,
+      "event_centers_btjd": [
+        2614.0609383825135,
+        2619.3591377298917,
+        2629.955536424648,
+        2635.253735772026
+      ],
+      "source": "data/targetpixels/282923395/tess2022027120115-s0048-0000000282923395-0219-s_tp.fits",
+      "sha256": "093caca459cd87d4eba8317ab92f94dc15f43e5fe915a105971d829e23f74a56",
+      "target_xy": [
+        5.37901821802674,
+        5.030218852905511
+      ],
+      "positive_core_centroid_xy": [
+        5.180447955655005,
+        4.855943373801605
+      ],
+      "positive_core_centroid_radec": [
+        223.75433766982184,
+        63.80010156813505
+      ],
+      "offset_pixels": 0.2642008548723412,
+      "peak_pixel_nominal_snr": 5.216294551146503
+    }
+  ],
+  "code_sha256": "fb0e5b585b3f8b3e0304d897e5c57071a4c3a9c70a833fde9bb53900a863f19b",
+  "limitations": "Diagnostic pixel-error weighting ignores correlated errors. No precision PRF localization or planet validation. All available sectors may be used here after prior inspection; this is not untouched holdout evidence."
+}

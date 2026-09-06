@@ -1,0 +1,25 @@
+{
+  "tic": 282923395,
+  "retrieved_utc": "2026-09-06T21:59:21.206328+00:00",
+  "requested_sectors": [
+    14,
+    48
+  ],
+  "missing_sectors": [],
+  "files": [
+    {
+      "path": "data/targetpixels/282923395/tess2019198215352-s0014-0000000282923395-0150-s_tp.fits",
+      "sector": 14,
+      "uri": "mast:TESS/product/tess2019198215352-s0014-0000000282923395-0150-s_tp.fits",
+      "bytes": 47376000,
+      "sha256": "dcbd89a857c846b20339d7a08e4a9db938269c469d23d5d5f52f0e7f636c24c5"
+    },
+    {
+      "path": "data/targetpixels/282923395/tess2022027120115-s0048-0000000282923395-0219-s_tp.fits",
+      "sector": 48,
+      "uri": "mast:TESS/product/tess2022027120115-s0048-0000000282923395-0219-s_tp.fits",
+      "bytes": 49492800,
+      "sha256": "093caca459cd87d4eba8317ab92f94dc15f43e5fe915a105971d829e23f74a56"
+    }
+  ]
+}
