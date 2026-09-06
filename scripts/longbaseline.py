@@ -178,11 +178,15 @@ def process_target(tic, source_tag=""):
     if not source_tag and (clean_folder / "lightcurve.csv.gz").exists():
         df = pd.read_csv(clean_folder / "lightcurve.csv.gz")
         source = clean_folder / "lightcurve.csv.gz"
+        records = json.loads((clean_folder / "result.json").read_text()).get(
+            "variability_models", []
+        )
     else:
         source = original / "lightcurve.csv.gz"
-        df, _ = clean_variability(pd.read_csv(source), star)
-    result = search_combined(df, star, folder)
+        df, records = clean_variability(pd.read_csv(source), star)
     folder.mkdir(exist_ok=True)
+    df.to_csv(folder / "lightcurve.csv.gz", index=False)
+    result = search_combined(df, star, folder)
     for s in result["signals"]:
         s["known_matches"] = known_matches(tic, s["period_days"])
         if s["known_matches"]:
@@ -193,6 +197,14 @@ def process_target(tic, source_tag=""):
         source_data=str(source.relative_to(ROOT)),
         source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
         code_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+        helper_code_sha256={
+            name: hashlib.sha256((Path(__file__).parent / name).read_bytes()).hexdigest()
+            for name in ["search.py", "physics.py", "variability.py"]
+        },
+        processed_data_sha256=hashlib.sha256(
+            (folder / "lightcurve.csv.gz").read_bytes()
+        ).hexdigest(),
+        variability_models=records,
     )
     (folder / "result.json").write_text(json.dumps(result, indent=2))
     return result
@@ -212,6 +224,7 @@ def main():
             for p in (ROOT / "results").glob("*/result.json")
             if p.parent.name.isdigit() and p.parent.name != "150428135"
         ]
+    tics = sorted(set(tics))
     with ProcessPoolExecutor(max_workers=args.workers) as pool:
         jobs = {pool.submit(process_target, t, args.source_tag): t for t in tics}
         for job in as_completed(jobs):
