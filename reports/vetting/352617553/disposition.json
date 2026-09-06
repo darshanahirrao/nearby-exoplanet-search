@@ -5,5 +5,16 @@
   "approximate_multiple_of_short_variability": 74,
   "evidence": "The broad phase diagnostic shows repeating peaks and troughs every few hours throughout the purported out-of-transit interval. Lomb-Scargle finds a short period close to an integer subdivision of the trial period. Both SAP and PDC show this behavior.",
   "limits": "Origin of the variable flux is not localized. This does not establish intrinsic pulsation of the target star and does not rule out additional planets.",
-  "reproduce": "python scripts/vet.py --tic 352617553 --signal 3"
+  "reproduce": "python scripts/vet.py --tic 352617553 --signal 3",
+  "additional_trial_reviews": [
+    {
+      "variant": "known_residual",
+      "period_days": 6.592062433941083,
+      "disposition": "Not promoted: approximately 58-fold alias of a remaining 2.7286-hour oscillation. Both SAP and PDC folds show repeated waves throughout the out-of-event interval.",
+      "evidence": "combined_residual/variability.json",
+      "limitations": "The short-variation subtraction is diagnostic and fitted in already-inspected data. Source of the rapid variability remains unlocalized.",
+      "diagnostic_nominal_holdout_snr_after_short_variation_fit": 0.7078738183513292,
+      "further_check": "A separate targeted experiment removed up to two more sector-local periodic components and repeated the unchanged combined-season search. Neither retained trial passed the existing gates; see combined_residual/targeted_multimode.json. This is a post-review sensitivity diagnostic, not independent validation."
+    }
+  ]
 }

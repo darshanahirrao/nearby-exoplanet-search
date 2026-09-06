@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite it and the original telescope, catalogue, and software sources listed in docs/DATA_SOURCES.md."
+type: software
+title: Nearby Exoplanet Search
+authors:
+  - family-names: Ahirrao
+    given-names: Darshan
+repository-code: "https://github.com/darshanahirrao/nearby-exoplanet-search"
+license: MIT
+abstract: "An exploratory, reproducible search of public TESS observations for overlooked small transiting planets around nearby cool stars. This software and its screening outputs do not constitute a validated planet discovery."
+keywords:
+  - exoplanets
+  - TESS
+  - reproducible research

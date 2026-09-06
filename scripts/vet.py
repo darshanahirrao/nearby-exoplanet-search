@@ -41,17 +41,17 @@ def folded_panel(ax, df, signal, title):
 
 def vet(tic, iteration, refined=False, variant="base"):
     original = ROOT / "results" / str(tic)
-    if variant in ["variability", "longbaseline"]:
+    filtered = variant in ["variability", "longbaseline", "known_residual"]
+    combined = variant in ["longbaseline", "known_residual"]
+    if filtered:
         folder = original.with_name(original.name + "_" + variant)
         refined = True
     else:
         folder = original.with_name(original.name + "_refined") if refined else original
     r = json.loads((folder / "result.json").read_text())
     s = r["signals"][iteration - 1]
-    df = pd.read_csv(
-        (folder if variant in ["variability", "longbaseline"] else original) / "lightcurve.csv.gz"
-    )
-    if variant == "longbaseline":
+    df = pd.read_csv((folder if filtered else original) / "lightcurve.csv.gz")
+    if combined:
         from longbaseline import sector_split
 
         dis, val = sector_split(df)
@@ -114,29 +114,34 @@ def vet(tic, iteration, refined=False, variant="base"):
     out.mkdir(exist_ok=True)
     (out / "variability.json").write_text(json.dumps(evidence, indent=2))
     sap, _ = load_target(tic, flux_column="SAP_FLUX")
-    if variant in ["variability", "longbaseline"]:
+    if variant == "known_residual":
+        from search import mask_known_inner
+
+        sap, _ = mask_known_inner(sap, tic, float("inf"))
+    if filtered:
         from variability import clean_variability
 
         sap, _ = clean_variability(sap, pd.Series(r["star"]))
-    if variant == "longbaseline":
+    if combined:
         ds, vs = sector_split(sap)
     elif refined:
         ds, _, vs, _ = three_way_split(sap)
     else:
         ds, vs, _ = split_campaigns(sap)
-    rows = 3 if variant in ["variability", "longbaseline"] else 2
+    rows = 3 if filtered and variant != "known_residual" else 2
     fig, axes = plt.subplots(rows, 2, figsize=(12, 3.5 * rows), constrained_layout=True)
-    suffix = "\nPeriodic model where selected" if rows == 3 else ""
+    suffix = "\nPeriodic model where selected" if filtered else ""
+    training_role = "Training" if combined else "Discovery"
     for ax, data, title in [
-        (axes[0, 0], dis, "Discovery: PDC"),
+        (axes[0, 0], dis, training_role + ": PDC"),
         (axes[0, 1], val, "Held-back observations: PDC"),
-        (axes[1, 0], ds, "Discovery: SAP"),
+        (axes[1, 0], ds, training_role + ": SAP"),
         (axes[1, 1], vs, "Held-back observations: SAP"),
     ]:
         folded_panel(ax, data, s, title + suffix)
     if rows == 3:
         before = pd.read_csv(original / "lightcurve.csv.gz")
-        if variant == "longbaseline":
+        if combined:
             db, vb = sector_split(before)
         else:
             db, _, vb, _ = three_way_split(before)
@@ -167,7 +172,11 @@ def main():
     p.add_argument("--tic", required=True, type=int)
     p.add_argument("--signal", default=1, type=int)
     p.add_argument("--refined", action="store_true")
-    p.add_argument("--variant", choices=["base", "variability", "longbaseline"], default="base")
+    p.add_argument(
+        "--variant",
+        choices=["base", "variability", "longbaseline", "known_residual"],
+        default="base",
+    )
     a = p.parse_args()
     vet(a.tic, a.signal, a.refined, a.variant)
 

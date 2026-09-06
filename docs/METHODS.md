@@ -161,3 +161,18 @@ or novelty of the neighboring variable source.
 These diagnostics may use all already-inspected sectors. They are not untouched
 confirmation data. Pixel errors omit correlations, the local centroid is not a
 precision PRF fit, and header astrometry may require proper-motion updates.
+
+## Additional planets around known hosts
+
+The first target batches omit TOI and community-TOI hosts. A separate, frozen
+51-host plan includes every eligible ranked star with a confirmed-planet TIC
+match in the saved NASA Archive snapshot; some overlap the main search.
+`known_residual.py` removes all available TOI transit windows, using a half-width
+of 1.5 catalogue durations. It records masks and lost samples, applies the same
+sector-local periodic model, then runs the unchanged combined-season search.
+
+Nontransiting known planets may have no usable transit ephemeris to mask. Known
+period/harmonic matches remain flagged for ephemeris review; a harmonic match
+alone does not prove two signals are identical. Injection sensitivity for this
+additional masking step has not been separately measured. The experiment does
+not establish completeness for companions in these systems.

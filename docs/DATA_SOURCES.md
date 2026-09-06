@@ -9,6 +9,7 @@ publications and software retain their own terms and acknowledgement requirement
 | [MAST TESS archive](https://archive.stsci.edu/tess/) | SPOC light curves |
 | [ExoFOP-TESS](https://exofop.ipac.caltech.edu/tess/) | TOI and community-TOI checks |
 | [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/) | Confirmed-planet checks |
+| [TESS EB live database](https://tessebs.villanova.edu/), [archived EB catalogue](https://archive.stsci.edu/hlsp/tess-ebs) | Targeted eclipsing-binary checks; a generic database page is not an EB classification |
 | [Astropy BLS](https://docs.astropy.org/en/stable/timeseries/bls.html) | Transit search |
 | [Lightkurve](https://lightkurve.github.io/lightkurve/), [Astroquery](https://astroquery.readthedocs.io/) | Archive access |
 

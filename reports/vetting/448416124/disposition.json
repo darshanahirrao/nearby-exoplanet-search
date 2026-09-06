@@ -8,5 +8,17 @@
     "The dimming core has consistent sky coordinates near RA 165.62263 degrees, Dec -30.8862 degrees; follow-up catalogue identification is pending.",
     "Short-period diagnostics show cycle-count aliases around 2.245 to 2.252 days."
   ],
-  "limitations": "Approximate positive-core centroids are not precision PRF fits. The source and exact orbital period are not yet established, and no new binary or planet is claimed. A live EB database page exists for this TIC but explicitly marks In catalog? False and supplies no ephemeris; it is not evidence that the target is a catalogued EB."
+  "limitations": "Approximate positive-core centroids are not precision PRF fits. The source and exact orbital period are not yet established, and no new binary or planet is claimed. A live EB database page exists for this TIC but explicitly marks In catalog? False and supplies no ephemeris; it is not evidence that the target is a catalogued EB.",
+  "likely_contaminating_catalogue_source": {
+    "tic": "448420264",
+    "ra_degrees": 165.623607870845,
+    "dec_degrees": -30.8863472248518,
+    "tmag": 14.9819,
+    "separation_from_approximate_difference_core_arcsec": 3.0672478653801085,
+    "assessment": "Closest bright catalogue source to the difference core. Approximate association; no newly discovered binary claim."
+  },
+  "catalogue_checks": {
+    "TIC 448416124 live EB database": "In catalog? False; no ephemeris supplied.",
+    "TIC 448420264 live EB database": "No associated EB entries found. This does not establish novelty; other catalogues and literature remain unchecked."
+  }
 }

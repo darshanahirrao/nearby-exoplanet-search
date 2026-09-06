@@ -1,0 +1,20 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: ID, datatype: string}
+# - {name: ra, datatype: float64}
+# - {name: dec, datatype: float64}
+# - {name: Tmag, datatype: float64}
+# - {name: GAIA, datatype: string}
+# - {name: Teff, datatype: float64}
+# - {name: rad, datatype: float64}
+# - {name: d, datatype: float64}
+# - {name: pmRA, datatype: float64}
+# - {name: pmDEC, datatype: float64}
+# schema: astropy-2.0
+ID ra dec Tmag GAIA Teff rad d pmRA pmDEC
+448420264 165.623607870845 -30.8863472248518 14.9819 5452103301692937600 5837.0 1.79354 2455.22 -8.61897 2.68384
+942722963 165.620349876682 -30.8909474840863 20.6495 5452103301693265408 nan nan nan nan nan
+942722964 165.629667952894 -30.8868143260054 18.8354 5452103331755347456 3689.0 nan 1046.21 -17.7377 -0.113856
+942722965 165.627366990881 -30.8816166548444 18.3897 5452103331755348480 4815.0 nan 1385.42 -0.966764 3.39313
+942722972 165.615579369338 -30.8788642193169 18.1176 5452103503554040832 5487.0 0.559034 2902.2 -3.48422 0.950167

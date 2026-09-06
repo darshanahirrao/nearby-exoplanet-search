@@ -64,6 +64,24 @@ To overlap downloads and screening for a bounded tranche, use
 refinement, preliminary variability diagnostics, and local evidence exports.
 It does not assign planet validation or publish results automatically.
 
+The separate search for additional planets in confirmed-planet systems uses a
+fixed host list. Its transit masks and results are recorded separately:
+
+```sh
+python scripts/known_residual.py --prepare
+python - <<'PY'
+import json, subprocess, sys
+ids = json.load(open("provenance/known_host_search_plan.json"))["targets"]
+subprocess.run([sys.executable, "scripts/download.py", "--tics",
+                *map(str, ids), "--max-sectors", "18"], check=True)
+PY
+python scripts/known_residual.py --workers 2
+```
+
+`audit_inputs.py` checks FITS target identities and time references and exports
+byte hashes for every local telescope input. The [pixel-vetting example](reports/vetting/448416124/disposition.json)
+shows why a repeatable dip can still come from a different star.
+
 ## Repository map
 
 | Path | Purpose |

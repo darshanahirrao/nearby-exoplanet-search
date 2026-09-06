@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-09-06T21:35:47.651992+00:00",
+  "checks": [
+    {
+      "url": "https://tessebs.villanova.edu/0448416124",
+      "result": "In catalog? False. No ephemeris supplied.",
+      "retrieved_page_sha256": "29cd0d641e2d0b5e392698d18dbb7aabfce098f86dd7c6cc2c8fa9e70744d62a"
+    },
+    {
+      "url": "https://tessebs.villanova.edu/0448420264",
+      "result": "No associated EB entries found.",
+      "retrieved_page_sha256": "a252be8f57853203081a8e59bec809da12e9fe11475660e5a3086f8555ffcc58"
+    }
+  ],
+  "limitation": "These limited catalogue checks neither establish source type nor prove novelty."
+}
