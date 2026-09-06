@@ -13,9 +13,28 @@ from search import event_checks, split_campaigns
 from refine import three_way_split, refine_signals
 from variability import clean_variability
 from longbaseline import sector_split, search_combined
+from pixel_vet import difference_stack
 
 
 class ScientificChecks(unittest.TestCase):
+    def test_difference_image_recovers_the_dimming_source_with_a_drifting_baseline(self):
+        rng = np.random.default_rng(7815)
+        time = np.arange(0, 10, 0.003)
+        yy, xx = np.indices((7, 7))
+        target = 500 * np.exp(-((xx - 2) ** 2 + (yy - 4) ** 2) / 2)
+        neighbor = 100 * np.exp(-((xx - 5) ** 2 + (yy - 1) ** 2) / 2)
+        inside = abs((time - 0.5 + 1) % 2 - 1) < 0.06
+        cube = (target + neighbor)[None] * (1 + 0.001 * time[:, None, None])
+        cube -= 0.2 * inside[:, None, None] * neighbor
+        cube += rng.normal(0, 0.3, cube.shape)
+        difference, error, centers = difference_stack(
+            time, cube, np.full(cube.shape, 0.3), 2, 0.5, 0.12
+        )
+        self.assertEqual(np.unravel_index(np.argmax(difference), difference.shape), (1, 5))
+        self.assertEqual(len(centers), 5)
+        self.assertAlmostEqual(difference[1, 5], 20, delta=0.15)
+        self.assertGreater(difference[1, 5] / error[1, 5], 10)
+
     def test_combined_search_recovers_and_excludes_whole_holdout_sectors(self):
         rng = np.random.default_rng(6701)
         time = np.r_[np.arange(0, 25, 0.007), np.arange(30, 55, 0.007), np.arange(65, 90, 0.007)]

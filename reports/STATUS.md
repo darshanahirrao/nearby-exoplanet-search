@@ -43,7 +43,7 @@ The faint, variable control TIC 232970271 yielded no recovered injections in the
 first two suites. Periodic filtering improves this limited sensitivity check;
 non-detections still cannot exclude small planets.
 
-Seven offline numerical checks pass, including a test that changing final-holdout
+Eight offline numerical checks pass, including a test that changing final-holdout
 flux leaves the fitted ephemeris unchanged while reversing the measured holdout
 signal. Local execution, code, data-product references and failure records are
 retained for independent inspection.
@@ -66,9 +66,13 @@ are checkpoints and may include partially completed later batches.
 The combined-season control recovers known TOI-700 d near 37.42340 days, with
 nominal held-sector S/N 10.1. It does not recover known TOI-700 e among its two
 retained peaks, although a catalogue-ephemeris diagnostic shows a weak signal.
-This explicitly demonstrates incomplete sensitivity. Fifteen additional targets
-are undergoing diagnostic review with approximate physical cuts relaxed; none
-has been established as a new planet.
+This explicitly demonstrates incomplete sensitivity. A diagnostic review of 15
+additional targets relaxed the approximate physical cuts. One sharper signal,
+TIC 448416124, localizes away from the intended target in three sectors:
+[pixel evidence and disposition](vetting/448416124/disposition.json). The other
+folds show broad variability or lack a compelling isolated transit. None has
+been established as a new planet; [review notes](vetting/relaxed_variability_review.json)
+preserve the individual assessments.
 
 Pixel
 localization, full astrophysical validation and new observations would be required

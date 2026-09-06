@@ -141,3 +141,23 @@ This is another analysis of previously inspected observations, not a globally
 blind experiment or independent replication of earlier searches. Nominal S/N does
 not account for correlated noise, selected peaks, or multiple analysis variants.
 Full false-alarm rates and survey completeness have not been established.
+
+## Pixel localization diagnostics
+
+`pixel_vet.py` reads quality-zero TESS target-pixel samples at a specified frozen
+trial ephemeris. For each event, it interpolates a baseline image between nearby
+pre-event and post-event mean images, then subtracts the in-event image. Stack
+these differences using nominal pixel-error weights. The target position comes
+from the FITS header and aperture WCS; a positive-flux centroid of the 3-by-3 core
+around the strongest difference pixel provides an approximate source location.
+
+An offline synthetic test places a dimming neighboring source beside a constant
+star with a drifting baseline, and verifies recovery of the correct difference
+peak and amplitude. Real-data diagnostics for TIC 448416124 localize repeated
+dimming away from the intended target in three sectors. This rejects that trial
+as evidence of a planet on the target; it does not establish the identity, type
+or novelty of the neighboring variable source.
+
+These diagnostics may use all already-inspected sectors. They are not untouched
+confirmation data. Pixel errors omit correlations, the local centroid is not a
+precision PRF fit, and header astrometry may require proper-motion updates.

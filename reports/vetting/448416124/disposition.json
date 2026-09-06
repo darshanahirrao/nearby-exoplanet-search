@@ -1,0 +1,12 @@
+{
+  "tic": 448416124,
+  "trial_period_days": 4.4900111277775965,
+  "disposition": "Rejected as a planet signal on TIC 448416124: the repeated dimming localizes away from the target.",
+  "reviewed_utc": "2026-09-06T21:08:41.939647+00:00",
+  "evidence": [
+    "Difference images from sectors 9, 36 and 63 locate the positive dimming core 2.07 to 2.14 pixels away from the target WCS position.",
+    "The dimming core has consistent sky coordinates near RA 165.62263 degrees, Dec -30.8862 degrees; follow-up catalogue identification is pending.",
+    "Short-period diagnostics show cycle-count aliases around 2.245 to 2.252 days."
+  ],
+  "limitations": "Approximate positive-core centroids are not precision PRF fits. The source and exact orbital period are not yet established, and no new binary or planet is claimed. A live EB database page exists for this TIC but explicitly marks In catalog? False and supplies no ephemeris; it is not evidence that the target is a catalogued EB."
+}

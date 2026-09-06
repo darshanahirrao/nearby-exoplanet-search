@@ -1,0 +1,92 @@
+{
+  "tic": 448416124,
+  "period_days": 4.4900111277775965,
+  "epoch_btjd": 1548.9103994273773,
+  "duration_days": 0.0882,
+  "created_utc": "2026-09-06T21:06:42.591018+00:00",
+  "records": [
+    {
+      "sector": 9,
+      "events": 5,
+      "event_centers_btjd": [
+        1548.9103994273773,
+        1553.4004105551548,
+        1557.8904216829326,
+        1562.38043281071,
+        1566.8704439384878
+      ],
+      "source": "data/targetpixels/448416124/tess2019058134432-s0009-0000000448416124-0139-s_tp.fits",
+      "sha256": "11b5d5ec8c74563004549c2056fb32f7f8b34ea21bbf7c088ea26edf91af7a46",
+      "target_xy": [
+        4.897854202763447,
+        5.55969950980105
+      ],
+      "positive_core_centroid_xy": [
+        2.8385957672588207,
+        4.990606222055378
+      ],
+      "positive_core_centroid_radec": [
+        165.6226148101973,
+        -30.886044608714226
+      ],
+      "offset_pixels": 2.1364485658105927,
+      "peak_pixel_nominal_snr": 110.82494073453933
+    },
+    {
+      "sector": 36,
+      "events": 4,
+      "event_centers_btjd": [
+        2285.272224382903,
+        2289.7622355106805,
+        2298.742257766236,
+        2303.2322688940135
+      ],
+      "source": "data/targetpixels/448416124/tess2021065132309-s0036-0000000448416124-0207-s_tp.fits",
+      "sha256": "02028ede739008c1662e3d77b30fd48a206c2ca3ac5cecda2ac9da88cfa9d55c",
+      "target_xy": [
+        4.6974910501870015,
+        5.7121088290506465
+      ],
+      "positive_core_centroid_xy": [
+        2.7395031086641315,
+        5.026695854900845
+      ],
+      "positive_core_centroid_radec": [
+        165.62261709323997,
+        -30.88607592869629
+      ],
+      "offset_pixels": 2.074489750343887,
+      "peak_pixel_nominal_snr": 121.27967662020951
+    },
+    {
+      "sector": 63,
+      "events": 6,
+      "event_centers_btjd": [
+        3017.144038210651,
+        3021.6340493384287,
+        3026.1240604662066,
+        3030.614071593984,
+        3035.104082721762,
+        3039.5940938495396
+      ],
+      "source": "data/targetpixels/448416124/tess2023069172124-s0063-0000000448416124-0255-s_tp.fits",
+      "sha256": "fa08c08f41fea83d904e32ce940ff98ce05d22f561b13bb2e1c5e9cbb4810d1a",
+      "target_xy": [
+        4.757455675107218,
+        5.6125602805966235
+      ],
+      "positive_core_centroid_xy": [
+        2.765664821709779,
+        4.946420075531968
+      ],
+      "positive_core_centroid_radec": [
+        165.62264634851152,
+        -30.886529108299726
+      ],
+      "offset_pixels": 2.100231791131941,
+      "peak_pixel_nominal_snr": 139.7649127117171
+    }
+  ],
+  "code_sha256": "fb0e5b585b3f8b3e0304d897e5c57071a4c3a9c70a833fde9bb53900a863f19b",
+  "limitations": "Diagnostic pixel-error weighting ignores correlated errors. No precision PRF localization or planet validation. All available sectors may be used here after prior inspection; this is not untouched holdout evidence."
+}

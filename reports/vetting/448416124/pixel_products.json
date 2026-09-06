@@ -1,0 +1,23 @@
+{
+  "retrieved_utc": "2026-09-06T21:04:55.942348+00:00",
+  "files": [
+    {
+      "path": "data/targetpixels/448416124/tess2019058134432-s0009-0000000448416124-0139-s_tp.fits",
+      "uri": "mast:TESS/product/tess2019058134432-s0009-0000000448416124-0139-s_tp.fits",
+      "sector": 9,
+      "sha256": "11b5d5ec8c74563004549c2056fb32f7f8b34ea21bbf7c088ea26edf91af7a46"
+    },
+    {
+      "path": "data/targetpixels/448416124/tess2021065132309-s0036-0000000448416124-0207-s_tp.fits",
+      "uri": "mast:TESS/product/tess2021065132309-s0036-0000000448416124-0207-s_tp.fits",
+      "sector": 36,
+      "sha256": "02028ede739008c1662e3d77b30fd48a206c2ca3ac5cecda2ac9da88cfa9d55c"
+    },
+    {
+      "path": "data/targetpixels/448416124/tess2023069172124-s0063-0000000448416124-0255-s_tp.fits",
+      "uri": "mast:TESS/product/tess2023069172124-s0063-0000000448416124-0255-s_tp.fits",
+      "sector": 63,
+      "sha256": "fa08c08f41fea83d904e32ce940ff98ce05d22f561b13bb2e1c5e9cbb4810d1a"
+    }
+  ]
+}

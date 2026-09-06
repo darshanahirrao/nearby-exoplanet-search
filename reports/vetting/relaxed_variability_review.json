@@ -1,0 +1,181 @@
+{
+  "selected_utc": "2026-09-06T20:49:00.730274+00:00",
+  "criteria": "Diagnostic review after relaxing approximate HZ, radius and circular-duration cuts only; strongest holdout signal per target. Not independent validation.",
+  "targets": [
+    {
+      "tic": 116244652,
+      "signal": 3,
+      "holdout_snr": 21.940844189567336,
+      "period_days": 3.8260044272502918,
+      "flags": [
+        "outside_nominal_optimistic_hz",
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Broad changing baseline across the transit window; no isolated transit shape in either flux extraction.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 373985178,
+      "signal": 1,
+      "holdout_snr": 16.693253230503764,
+      "period_days": 5.2636887714539675,
+      "flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Smooth variation continues far outside the box window; approximate four-fold short-period alias.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 192642951,
+      "signal": 1,
+      "holdout_snr": 14.944670744826604,
+      "period_days": 3.03254241725896,
+      "flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Broad variable minimum and approximately doubled short variability period; no clean short transit.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 274127413,
+      "signal": 2,
+      "holdout_snr": 13.52959262047893,
+      "period_days": 3.54613166206732,
+      "flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Repeated sinusoidal maxima and minima; residual short-variation alias.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 161174286,
+      "signal": 3,
+      "holdout_snr": 13.364525809570413,
+      "period_days": 5.930755110323617,
+      "flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Broad day-scale variation and irregular holdout baseline remain after filtering.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 156491690,
+      "signal": 3,
+      "holdout_snr": 12.903811200446512,
+      "period_days": 29.051923925124925,
+      "flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Strong short-period variability before filtering; residual minimum lacks a repeatable isolated transit shape.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 20305594,
+      "signal": 4,
+      "holdout_snr": 9.746218651660167,
+      "period_days": 3.4876822222939,
+      "flags": [
+        "outside_nominal_optimistic_hz",
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Broad repeating minima after periodic filtering; original flux shows large short-period oscillations.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 161174284,
+      "signal": 1,
+      "holdout_snr": 7.860307767706177,
+      "period_days": 6.004584349965771,
+      "flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Broad approximately day-scale variation persists; no flat out-of-transit baseline.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 448416124,
+      "signal": 1,
+      "holdout_snr": 7.5977585880632414,
+      "period_days": 4.4900111277775965,
+      "flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Rejected as a planet signal on TIC 448416124: the repeated dimming localizes away from the target.",
+      "status": "rejected_off_target_dimming",
+      "pixel_evidence": "448416124/pixel_localization.json"
+    },
+    {
+      "tic": 232048036,
+      "signal": 4,
+      "holdout_snr": 7.584316284272747,
+      "period_days": 17.355867530992573,
+      "flags": [
+        "outside_initial_small_planet_radius_range",
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Very large PDC variability is absent at comparable amplitude in SAP; sparse holdout sampling. Not credible planet evidence.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 250189641,
+      "signal": 2,
+      "holdout_snr": 6.272203093782535,
+      "period_days": 3.7374689557380303,
+      "flags": [
+        "outside_nominal_optimistic_hz",
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Broad noisy minimum extends beyond the trial window; no resolved transit boundaries.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 233640927,
+      "signal": 4,
+      "holdout_snr": 5.780023700813763,
+      "period_days": 6.308213411130313,
+      "flags": [
+        "outside_nominal_optimistic_hz",
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Broad variable baseline, weak diffuse fold; no isolated repeatable transit demonstrated.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 406857100,
+      "signal": 4,
+      "holdout_snr": 5.77195679433842,
+      "period_days": 26.47460496076628,
+      "flags": [
+        "outside_initial_small_planet_radius_range",
+        "outside_nominal_optimistic_hz",
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Residual broad minimum; alternate SAP holdout does not show a matching dip.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 370955883,
+      "signal": 4,
+      "holdout_snr": 5.3577207042288055,
+      "period_days": 12.597650441077395,
+      "flags": [
+        "outside_initial_small_planet_radius_range",
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Very broad shallow curvature with weak SAP holdout support.",
+      "status": "not_promoted_after_diagnostic_review"
+    },
+    {
+      "tic": 233068870,
+      "signal": 4,
+      "holdout_snr": 5.149848592600691,
+      "period_days": 18.037049681948236,
+      "flags": [
+        "outside_initial_small_planet_radius_range",
+        "long_relative_to_circular_transit"
+      ],
+      "visual_review_note": "Remaining fold is weak after strong periodic variations are removed; isolated transit not established.",
+      "status": "not_promoted_after_diagnostic_review"
+    }
+  ]
+}
