@@ -36,6 +36,11 @@ def experiment(case):
             "duration": case["duration_days"],
         }
         df, _ = load_target(tic, inject=injected)
+        if case.get("use_variability_model"):
+            from variability import clean_variability
+
+            df, records = clean_variability(df, star)
+            r["variability_models"] = records
         dis, val, method = split_campaigns(df)
         hz = stellar_hz(star)
         signals, config = scan(
@@ -153,6 +158,7 @@ def main():
     p.add_argument("--seed", type=int, default=20260907)
     p.add_argument("--workers", type=int, default=2)
     p.add_argument("--refine", action="store_true")
+    p.add_argument("--clean", action="store_true")
     p.add_argument("--suite", default="injections")
     a = p.parse_args()
     if a.suite != Path(a.suite).name:
@@ -166,6 +172,7 @@ def main():
             plan[0]["seed"] != a.seed
             or set(c["tic"] for c in plan) != set(a.tics)
             or bool(plan[0].get("use_timing_refinement")) != a.refine
+            or bool(plan[0].get("use_variability_model")) != a.clean
         ):
             raise ValueError(
                 "Existing suite has a different plan; select a new --suite name to preserve prior experiments."
@@ -173,7 +180,9 @@ def main():
     else:
         plan = make_plan(a.tics, a.seed)
         for case in plan:
-            case.update(suite=a.suite, use_timing_refinement=a.refine)
+            case.update(
+                suite=a.suite, use_timing_refinement=a.refine, use_variability_model=a.clean
+            )
         planpath.write_text(
             json.dumps(
                 dict(

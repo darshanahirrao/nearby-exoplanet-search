@@ -10,9 +10,36 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from physics import stellar_hz, central_duration
 from search import event_checks, split_campaigns
 from refine import three_way_split, refine_signals
+from variability import clean_variability
 
 
 class ScientificChecks(unittest.TestCase):
+    def test_sector_local_variability_filter_preserves_transits(self):
+        rng = np.random.default_rng(8319)
+        time = np.r_[np.arange(0, 27, 0.007), np.arange(400, 427, 0.007)]
+        phase = (time - 1.23 + 5) % 10 - 5
+        flux = 1 + 0.008 * np.sin(2 * np.pi * time / 0.51055) - 0.002 * (abs(phase) < 0.0275)
+        flux += rng.normal(0, 0.0003, len(time))
+        frame = pd.DataFrame(
+            dict(
+                time=time,
+                flux=flux,
+                err=np.full(len(time), 0.0003),
+                sector=np.where(time < 100, 1, 20),
+            )
+        )
+        star = SimpleNamespace(Rad=0.2, Mass=0.2, Teff=3200)
+        clean, records = clean_variability(frame, star)
+        self.assertTrue(all(r["applied"] for r in records))
+        outside = abs(phase) > 0.1
+        self.assertLess(np.std(clean.flux[outside]), np.std(frame.flux[outside]) / 5)
+        depth = np.median(clean.flux[outside]) - np.median(clean.flux[abs(phase) < 0.0275])
+        self.assertAlmostEqual(depth, 0.002, delta=0.0004)
+        changed = frame.copy()
+        changed.loc[changed.sector == 20, "flux"] += 0.03 * np.sin(time[changed.sector == 20])
+        other, _ = clean_variability(changed, star)
+        np.testing.assert_array_equal(clean.flux[clean.sector == 1], other.flux[other.sector == 1])
+
     def test_earth_units_and_hz_order(self):
         h = stellar_hz(SimpleNamespace(Rad=1, Mass=1, Teff=5772))
         self.assertAlmostEqual(h["earth_period"], 365.256, places=4)
