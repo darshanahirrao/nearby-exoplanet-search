@@ -29,7 +29,7 @@ def sector_split(df):
     return df[~df.sector.isin(reserved)].copy(), df[df.sector.isin(reserved)].copy()
 
 
-def search_combined(df, star, output_folder):
+def search_combined(df, star, output_folder, max_signals=2):
     training, holdout = sector_split(df)
     hz = stellar_hz(star)
     start = time.monotonic()
@@ -60,7 +60,7 @@ def search_combined(df, star, output_folder):
     coarse_keep = np.ones(len(coarse), dtype=bool)
     full_keep = np.ones(len(training), dtype=bool)
     signals = []
-    for iteration in range(1, 3):
+    for iteration in range(1, max_signals + 1):
         model = BoxLeastSquares(
             coarse.time.to_numpy()[coarse_keep],
             coarse.flux.to_numpy()[coarse_keep],
@@ -127,6 +127,7 @@ def search_combined(df, star, output_folder):
             coarse_bin_minutes=30,
             coarse_durations_days=durations.tolist(),
             baseline_days=baseline,
+            maximum_trial_fits=max_signals,
         ),
         frozen_utc=datetime.now(timezone.utc).isoformat(),
     )

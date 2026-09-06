@@ -1,0 +1,79 @@
+{
+  "created_utc": "2026-09-06T20:45:36.031121+00:00",
+  "files": [
+    {
+      "name": "ReadMe",
+      "archive": "ReadMe.gz",
+      "source_url": "https://cdsarc.cds.unistra.fr/ftp/J/AJ/161/233/ReadMe",
+      "original_sha256": "c4e84161924eb73736ee9166ea46bf6220c7b628b4fa4f578543b86a5826f640",
+      "stored_sha256": "c4e84161924eb73736ee9166ea46bf6220c7b628b4fa4f578543b86a5826f640",
+      "gzip_sha256": "a279aa823244d5020ba2e0d240ffc38b530179963c4957aff628b2c6239ec826",
+      "columns": null
+    },
+    {
+      "name": "table3.dat",
+      "archive": "table3.dat.gz",
+      "source_url": "https://cdsarc.cds.unistra.fr/ftp/J/AJ/161/233/table3.dat",
+      "original_sha256": "5c762ec48b7ed1a06365048621e6922a7a8cde0a77c6f499c774526e35a0b4fd",
+      "stored_sha256": "5c762ec48b7ed1a06365048621e6922a7a8cde0a77c6f499c774526e35a0b4fd",
+      "gzip_sha256": "c9110ee0cd49c97440603418842e8e79cc1ca65b17d751a92b4e950f0a04a75c",
+      "columns": null
+    },
+    {
+      "name": "table5.dat",
+      "archive": "table5.dat.gz",
+      "source_url": "https://cdsarc.cds.unistra.fr/ftp/J/AJ/161/233/table5.dat",
+      "original_sha256": "e472d612687ad2cbbca713769bfcef65d2d2c6d319757671cc3aaa4097cd8988",
+      "stored_sha256": "e472d612687ad2cbbca713769bfcef65d2d2c6d319757671cc3aaa4097cd8988",
+      "gzip_sha256": "96beba26c119ff4b4d7587749fb8ea8502c381b996d44ab121e6afb9e0c14f5d",
+      "columns": null
+    },
+    {
+      "name": "table6.dat",
+      "archive": "table6.dat.gz",
+      "source_url": "https://cdsarc.cds.unistra.fr/ftp/J/AJ/161/233/table6.dat",
+      "original_sha256": "598da40709732c02051309018488a4beb77e59cf2a02b47f51e9987ca8a2553b",
+      "stored_sha256": "598da40709732c02051309018488a4beb77e59cf2a02b47f51e9987ca8a2553b",
+      "gzip_sha256": "3f536e3add33827b6925492677d0bf234b0ff6f9fcef7e3c672f2dfd13c3c92c",
+      "columns": null
+    },
+    {
+      "name": "exofop_toi.csv",
+      "archive": "exofop_toi.csv.gz",
+      "source_url": "https://exofop.ipac.caltech.edu/tess/download_toi.php?sort=toi&output=csv",
+      "original_sha256": "4fb03d3382ab5b279f5ad0a99b91a7fd9ea5e73b9a38aa97a2379ec99249a8df",
+      "stored_sha256": "2d2ed078d2e352695963108d47d1794af94019688fd12d71addb739c7e5d2f3d",
+      "gzip_sha256": "2fa494155187fcf2d06582e63c90e4ad8a3491d192c1709af3b8d448c957c972",
+      "columns": [
+        "TIC ID",
+        "TOI",
+        "Period (days)",
+        "Epoch (BJD)",
+        "Duration (hours)"
+      ]
+    },
+    {
+      "name": "exofop_ctoi.csv",
+      "archive": "exofop_ctoi.csv.gz",
+      "source_url": "https://exofop.ipac.caltech.edu/tess/download_ctoi.php?sort=ctoi&output=csv",
+      "original_sha256": "108e740f9abcca374181cf0125ec0d700ebb2f910f16647f6c30bea5ca589525",
+      "stored_sha256": "65452459b61fcc8c77d0ee60c503ca091632e20c23d2bfa185505cc300ece730",
+      "gzip_sha256": "0c819e7586c249ab2e3e6883b652b5dff7659ae5b27bb2fbf4456c7986f7d160",
+      "columns": [
+        "TIC ID",
+        "CTOI",
+        "Period (days)"
+      ]
+    },
+    {
+      "name": "confirmed_planets.csv",
+      "archive": "confirmed_planets.csv.gz",
+      "source_url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Ctic_id%2Cgaia_dr2_id%2Cgaia_dr3_id%2Cra%2Cdec%2Cpl_orbper%2Cpl_tranmid%2Cpl_trandur%2Cpl_rade%2Cpl_insol%2Cst_rad%2Cst_mass%2Cst_teff%2Csy_dist+from+pscomppars&format=csv",
+      "original_sha256": "b823093009e3da664aac3190f64da45626330bbc2fce52c16c391b06159950b5",
+      "stored_sha256": "b823093009e3da664aac3190f64da45626330bbc2fce52c16c391b06159950b5",
+      "gzip_sha256": "4296792c023d678197ca54fc1707b798230fb43089438a05612cb1098a76528b",
+      "columns": null
+    }
+  ],
+  "description": "Public catalogue snapshot. ExoFOP contains only fields used in the numerical pipeline; all other files preserve original bytes."
+}

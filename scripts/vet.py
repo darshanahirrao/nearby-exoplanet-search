@@ -39,12 +39,16 @@ def folded_panel(ax, df, signal, title):
         ax.set_ylim(lo - pad, hi + pad)
 
 
-def vet(tic, iteration, refined=False):
+def vet(tic, iteration, refined=False, variant="base"):
     original = ROOT / "results" / str(tic)
-    folder = original.with_name(original.name + "_refined") if refined else original
+    if variant == "variability":
+        folder = original.with_name(original.name + "_variability")
+        refined = True
+    else:
+        folder = original.with_name(original.name + "_refined") if refined else original
     r = json.loads((folder / "result.json").read_text())
     s = r["signals"][iteration - 1]
-    df = pd.read_csv(original / "lightcurve.csv.gz")
+    df = pd.read_csv((folder if variant == "variability" else original) / "lightcurve.csv.gz")
     if refined:
         from refine import three_way_split
 
@@ -87,6 +91,7 @@ def vet(tic, iteration, refined=False):
     )
     evidence = {
         "tic": tic,
+        "input_variant": variant,
         "signal_iteration": iteration,
         "checked_utc": datetime.now(timezone.utc).isoformat(),
         "short_period_days": 1 / freq,
@@ -103,18 +108,29 @@ def vet(tic, iteration, refined=False):
     out.mkdir(exist_ok=True)
     (out / "variability.json").write_text(json.dumps(evidence, indent=2))
     sap, _ = load_target(tic, flux_column="SAP_FLUX")
+    if variant == "variability":
+        from variability import clean_variability
+
+        sap, _ = clean_variability(sap, pd.Series(r["star"]))
     if refined:
         ds, _, vs, _ = three_way_split(sap)
     else:
         ds, vs, _ = split_campaigns(sap)
-    fig, axes = plt.subplots(2, 2, figsize=(12, 7), constrained_layout=True)
+    rows = 3 if variant == "variability" else 2
+    fig, axes = plt.subplots(rows, 2, figsize=(12, 3.5 * rows), constrained_layout=True)
+    suffix = " after periodic model" if variant == "variability" else ""
     for ax, data, title in [
         (axes[0, 0], dis, "Discovery: PDC"),
         (axes[0, 1], val, "Held-back observations: PDC"),
         (axes[1, 0], ds, "Discovery: SAP"),
         (axes[1, 1], vs, "Held-back observations: SAP"),
     ]:
-        folded_panel(ax, data, s, title)
+        folded_panel(ax, data, s, title + suffix)
+    if variant == "variability":
+        before = pd.read_csv(original / "lightcurve.csv.gz")
+        db, _, vb, _ = three_way_split(before)
+        folded_panel(axes[2, 0], db, s, "Discovery: PDC before periodic model")
+        folded_panel(axes[2, 1], vb, s, "Held-back: PDC before periodic model")
     fig.suptitle(
         f"TIC {tic} | trial period {s['period_days']:.6f} days\nPreliminary diagnostics; no planet claim"
     )
@@ -140,8 +156,9 @@ def main():
     p.add_argument("--tic", required=True, type=int)
     p.add_argument("--signal", default=1, type=int)
     p.add_argument("--refined", action="store_true")
+    p.add_argument("--variant", choices=["base", "variability"], default="base")
     a = p.parse_args()
-    vet(a.tic, a.signal, a.refined)
+    vet(a.tic, a.signal, a.refined, a.variant)
 
 
 if __name__ == "__main__":

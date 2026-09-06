@@ -9,6 +9,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 from concurrent.futures import ProcessPoolExecutor, as_completed
 import argparse, json, time
+import hashlib
 import numpy as np
 import pandas as pd
 from search import ROOT, load_target, split_campaigns, scan, event_checks
@@ -41,15 +42,25 @@ def experiment(case):
 
             df, records = clean_variability(df, star)
             r["variability_models"] = records
-        dis, val, method = split_campaigns(df)
-        hz = stellar_hz(star)
-        signals, config = scan(
-            dis,
-            max(1, 0.85 * hz["inner_period"]),
-            min(100, 1.15 * hz["outer_period"]),
-            star,
-            max_signals=3,
-        )
+        if case.get("use_longbaseline"):
+            from longbaseline import sector_split, search_combined
+
+            dis, val = sector_split(df)
+            method = "all_seasons_with_reserved_whole_sectors"
+            combined = search_combined(df, star, out)
+            signals, config = combined["signals"], combined.get("search_config", {})
+            r["training_sectors"] = combined["training_sectors"]
+            r["holdout_sectors"] = combined["holdout_sectors"]
+        else:
+            dis, val, method = split_campaigns(df)
+            hz = stellar_hz(star)
+            signals, config = scan(
+                dis,
+                max(1, 0.85 * hz["inner_period"]),
+                min(100, 1.15 * hz["outer_period"]),
+                star,
+                max_signals=3,
+            )
         (out / "frozen_search.json").write_text(
             json.dumps(
                 dict(
@@ -81,7 +92,7 @@ def experiment(case):
             if abs(p / truep - 1) < 0.01 and max(drift) < case["duration_days"] * 0.75:
                 hold = (
                     s["holdout"]
-                    if case.get("use_timing_refinement")
+                    if case.get("use_timing_refinement") or case.get("use_longbaseline")
                     else event_checks(val, p, epoch, s["duration_days"])
                 )
                 matches.append(
@@ -101,7 +112,9 @@ def experiment(case):
             config=config,
             split_method=method,
             matches=matches,
-            recovered_in_top3=bool(matches),
+            recovered_in_search=bool(matches),
+            recovered_in_top3=bool(matches) if not case.get("use_longbaseline") else None,
+            maximum_trial_fits=2 if case.get("use_longbaseline") else 3,
             recovered_with_strict_holdout=any(
                 m["nominal_snr"] >= 7
                 and m["discovery_events"] >= 3
@@ -113,6 +126,17 @@ def experiment(case):
     except Exception as exc:
         r.update(status="error", error=repr(exc))
     r["elapsed_seconds"] = time.monotonic() - start
+    r["code_sha256"] = {
+        name: hashlib.sha256((Path(__file__).parent / name).read_bytes()).hexdigest()
+        for name in [
+            "injections.py",
+            "search.py",
+            "physics.py",
+            "refine.py",
+            "variability.py",
+            "longbaseline.py",
+        ]
+    }
     (out / "result.json").write_text(json.dumps(r, indent=2))
     return r
 
@@ -159,8 +183,11 @@ def main():
     p.add_argument("--workers", type=int, default=2)
     p.add_argument("--refine", action="store_true")
     p.add_argument("--clean", action="store_true")
+    p.add_argument("--longbaseline", action="store_true")
     p.add_argument("--suite", default="injections")
     a = p.parse_args()
+    if a.longbaseline and a.refine:
+        raise ValueError("--longbaseline and --refine select different search methods")
     if a.suite != Path(a.suite).name:
         raise ValueError("suite must be a plain directory name")
     folder = ROOT / "results" / a.suite
@@ -173,6 +200,7 @@ def main():
             or set(c["tic"] for c in plan) != set(a.tics)
             or bool(plan[0].get("use_timing_refinement")) != a.refine
             or bool(plan[0].get("use_variability_model")) != a.clean
+            or bool(plan[0].get("use_longbaseline")) != a.longbaseline
         ):
             raise ValueError(
                 "Existing suite has a different plan; select a new --suite name to preserve prior experiments."
@@ -181,7 +209,10 @@ def main():
         plan = make_plan(a.tics, a.seed)
         for case in plan:
             case.update(
-                suite=a.suite, use_timing_refinement=a.refine, use_variability_model=a.clean
+                suite=a.suite,
+                use_timing_refinement=a.refine,
+                use_variability_model=a.clean,
+                use_longbaseline=a.longbaseline,
             )
         planpath.write_text(
             json.dumps(
@@ -204,7 +235,7 @@ def main():
                 r["id"],
                 r["status"],
                 "recovered",
-                r.get("recovered_in_top3"),
+                r.get("recovered_in_search", r.get("recovered_in_top3")),
                 "holdout",
                 r.get("recovered_with_strict_holdout"),
                 round(r["elapsed_seconds"], 1),
@@ -221,7 +252,7 @@ def main():
         "END",
         len(results),
         "recovered",
-        sum(r.get("recovered_in_top3", False) for r in results),
+        sum(r.get("recovered_in_search", r.get("recovered_in_top3", False)) for r in results),
         "strict_holdout",
         sum(r.get("recovered_with_strict_holdout", False) for r in results),
         flush=True,

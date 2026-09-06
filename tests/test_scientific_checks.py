@@ -1,6 +1,7 @@
 """Offline sanity checks; real-data validation is separately reported."""
 
 import sys, unittest
+import tempfile
 from pathlib import Path
 from types import SimpleNamespace
 import numpy as np
@@ -11,9 +12,34 @@ from physics import stellar_hz, central_duration
 from search import event_checks, split_campaigns
 from refine import three_way_split, refine_signals
 from variability import clean_variability
+from longbaseline import sector_split, search_combined
 
 
 class ScientificChecks(unittest.TestCase):
+    def test_combined_search_recovers_and_excludes_whole_holdout_sectors(self):
+        rng = np.random.default_rng(6701)
+        time = np.r_[np.arange(0, 25, 0.007), np.arange(30, 55, 0.007), np.arange(65, 90, 0.007)]
+        sectors = np.select([time < 26, time < 56], [1, 2], 3)
+        period, epoch, duration = 10.1234, 1.234, 0.055
+        phase = (time - epoch + period / 2) % period - period / 2
+        flux = 1 - 0.002 * (abs(phase) < duration / 2) + rng.normal(0, 0.0003, len(time))
+        frame = pd.DataFrame(dict(time=time, flux=flux, err=0.0003, sector=sectors))
+        training, holdout = sector_split(frame)
+        self.assertEqual(set(holdout.sector), {2})
+        self.assertFalse(set(training.sector) & set(holdout.sector))
+        changed = frame.copy()
+        changed.loc[changed.sector == 2, "flux"] = 2 - changed.loc[changed.sector == 2, "flux"]
+        star = SimpleNamespace(Rad=0.2, Mass=0.2, Teff=3200)
+        with tempfile.TemporaryDirectory() as folder:
+            first = search_combined(frame, star, Path(folder) / "first", max_signals=1)
+            second = search_combined(changed, star, Path(folder) / "changed", max_signals=1)
+        a, b = first["signals"][0], second["signals"][0]
+        self.assertAlmostEqual(a["period_days"], period, delta=0.001)
+        self.assertEqual(a["period_days"], b["period_days"])
+        self.assertEqual(a["epoch_btjd"], b["epoch_btjd"])
+        self.assertGreater(a["holdout"]["fixed_ephemeris_snr"], 5)
+        self.assertLess(b["holdout"]["fixed_ephemeris_snr"], -5)
+
     def test_sector_local_variability_filter_preserves_transits(self):
         rng = np.random.default_rng(8319)
         time = np.r_[np.arange(0, 27, 0.007), np.arange(400, 427, 0.007)]

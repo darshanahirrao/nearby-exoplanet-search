@@ -11,6 +11,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 import argparse
 import hashlib
 import json
+import shutil
 import numpy as np
 import pandas as pd
 from astropy.timeseries import LombScargle
@@ -89,6 +90,19 @@ def process_target(tic):
     df = pd.read_csv(source)
     clean, records = clean_variability(df, star)
     folder.mkdir(exist_ok=True)
+    cached_refinement = original.with_name(original.name + "_refined") / "result.json"
+    if not any(record["applied"] for record in records) and cached_refinement.exists():
+        result = json.loads(cached_refinement.read_text())
+        result.update(
+            status="variability_screened",
+            variability_models=records,
+            source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
+            variability_code_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+            reuse_reason="No periodic model met the threshold; input flux and prior refined result are reused exactly.",
+        )
+        shutil.copyfile(source, folder / "lightcurve.csv.gz")
+        (folder / "result.json").write_text(json.dumps(result, indent=2))
+        return result
     clean.to_csv(folder / "lightcurve.csv.gz", index=False)
     discovery, _, _ = split_campaigns(clean)
     hz = stellar_hz(star)
