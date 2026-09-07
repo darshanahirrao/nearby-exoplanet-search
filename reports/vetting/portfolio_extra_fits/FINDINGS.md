@@ -32,3 +32,7 @@ Reproduce with `python scripts/check_portfolio_extras.py`. This diagnostic does
 not change the completed method experiment or any screening threshold. The
 exact final unmodified local-total fit has period 35.394150 days, slightly
 different from the supplied smoke-fit period used in this diagnostic.
+
+A subsequent [rotation and individual-event review](../portfolio_rotation/FINDINGS.md)
+uses both exact unmodified ephemerides. It finds substantial short-period
+variability and baseline concerns, but does not resolve either residual signal.

@@ -231,3 +231,11 @@ alarms or planet candidates. An initial uninjected-data diagnostic gives
 weaker SAP support and inconclusive profiles. No fresh assessment is selected.
 The final artifact audit passes 3,498 checks with zero failures. No new planet
 or methodological breakthrough is established.
+
+The two unmodified fits now have a [rotation and individual-event review](vetting/portfolio_rotation/FINDINGS.md).
+The 26.316459-day period is close to 20 times the published stellar rotation
+period. Strong dips exist across those rotation phases before filtering, while
+the supplied phase remains strongest afterward; this does not conclusively
+reject the residual as an alias. Nearby flares and incomplete local baselines
+require further checks. Fresh exact-TIC TOI, CTOI and confirmed-planet queries
+return no matches, which does not establish novelty. Both trials remain unverified.

@@ -24,7 +24,10 @@ planet-free; the extra fits are **unverified**, not established false alarms or
 new planets. They are preserved in the [review queue](unmodified_review_queue.json).
 A [fixed-timing diagnostic](../../vetting/portfolio_extra_fits/FINDINGS.md)
 shows weaker SAP support and inconclusive profiles. Source localization and
-stellar-variability checks are still needed. The failed gate does not justify
+stellar-variability checks are still needed. A subsequent
+[rotation and individual-event review](../../vetting/portfolio_rotation/FINDINGS.md)
+finds substantial variability and local-baseline concerns but does not resolve
+the residual fits. The failed gate does not justify
 expanding a survey with either revision.
 
 Both methods retain at most 32 eligible fits from one 128-refinement training
