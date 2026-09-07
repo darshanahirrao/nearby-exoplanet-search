@@ -26,7 +26,8 @@ another variability alias in Wolf 1069. The combined-season pass found the same
 alias. [The explicit review ledger](vetting/unflagged_review.json) records all 14
 unflagged trial fits reviewed at this checkpoint, with source hashes and evidence.
 These variants overlap: 1,031 distinct stars have had a period search, including
-the known-host check. The remaining filtering and combined-season scans continue.
+the known-host check. Periodic filtering has finished for all 992 usable main
+targets, with no unflagged fits. The combined-season scan continues.
 
 ## Calibration and verification
 
@@ -54,7 +55,7 @@ The faint, variable control TIC 232970271 yielded no recovered injections in the
 first two suites. Periodic filtering improves this limited sensitivity check;
 non-detections still cannot exclude small planets.
 
-Eight offline numerical checks pass, including a test that changing final-holdout
+Twelve offline numerical checks pass, including a test that changing final-holdout
 flux leaves the fitted ephemeris unchanged while reversing the measured holdout
 signal. Local execution, code, data-product references and failure records are
 retained for independent inspection.
@@ -70,9 +71,9 @@ retained for independent inspection.
 - [Fresh injection plan](calibration/injections_refined_fresh/plan.json) and [recovery results](calibration/injections_refined_fresh/recovery.csv)
 - [Known-planet calibration](calibration/150428135_calibration_v2_refined.json)
 
-Downloads, first-pass screening and timing refinement are complete. The tables
-and machine summary remain checkpoints while the final variability-filtered and
-combined-season searches finish. [The result audit](result_audit.json) checks
+Downloads, first-pass screening, timing refinement and periodic filtering are
+complete. The tables and machine summary remain checkpoints while the final
+combined-season search finishes. [The result audit](result_audit.json) checks
 frozen ephemerides, available source hashes and outstanding execution coverage.
 
 The combined-season control recovers known TOI-700 d near 37.42340 days, with
@@ -95,3 +96,20 @@ variability alias. Source identity, variability type and novelty are not establi
 Pixel localization, full astrophysical validation and new observations would be required
 for any serious surviving candidate. HZ irradiation alone does not establish water,
 habitability or life.
+
+A [further ten-target review](vetting/relaxed_second_tranche_review.json) of
+stronger second-tranche signals passing non-physical gates also promoted none.
+The deepest eclipse is in the already studied binary TIC 142979644. Separately,
+the known-host residual review identifies [RR Cae's binary eclipses](vetting/219244444/disposition.json)
+as a long-period alias; it does not reassess the catalogue's circumbinary companion.
+
+The [accelerated execution benchmark](../docs/PERFORMANCE.md) preserves all
+scientific outputs on three tested real inputs and reduces their aggregate wall
+time by about 44%. The remaining scan has switched to that implementation after
+preserving 685 completed combined-season results.
+
+A separate [method-invention experiment](experiments/cross_view/FINDINGS.md)
+tested frozen predictions of the dimming source across observing geometries.
+It has not demonstrated sufficient benefit over the same spatial filter with
+independent localization, so it has not been adopted. Its protocol, negative
+ablation result and complete trial scores are preserved.

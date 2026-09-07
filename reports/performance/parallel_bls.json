@@ -1,0 +1,58 @@
+{
+  "started_utc": "2026-09-07T04:37:26.402941+00:00",
+  "threads": 2,
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "astropy": "8.0.1",
+  "adapter_sha256": "aec4e8d6065ee65c703273ccf20708b69a353436cd858bb31709e1b4b24caad1",
+  "trials": [
+    {
+      "tic": 22535327,
+      "points": 19890,
+      "source_sha256": "9c48e2081ad3a9195fbc96bc6528fdbc44df503237bd579352a4132a999c4801",
+      "seconds": {
+        "serial": 20.350059000076726,
+        "parallel": 11.039117750013247
+      },
+      "speedup": 1.8434497630077644,
+      "entire_scientific_result_identical": true,
+      "serial_periods": [
+        3.3151001383064465,
+        3.2754280492541
+      ]
+    },
+    {
+      "tic": 232970271,
+      "points": 27294,
+      "source_sha256": "dc345ff38a2ac79537381b9df6888eaeb542ce8dcd3519fa01666822a84f22cc",
+      "seconds": {
+        "parallel": 9.995910292025656,
+        "serial": 18.539531291928142
+      },
+      "speedup": 1.854711652096183,
+      "entire_scientific_result_identical": true,
+      "serial_periods": [
+        14.491591694656128,
+        14.427373233898363
+      ]
+    },
+    {
+      "tic": 150428135,
+      "points": 111122,
+      "source_sha256": "354ef7819257ee886c149acc13a045acb421b74979101a34fef88b4e272bcf4c",
+      "seconds": {
+        "serial": 153.50698058400303,
+        "parallel": 86.37782037490979
+      },
+      "speedup": 1.7771573757907915,
+      "entire_scientific_result_identical": true,
+      "serial_periods": [
+        37.42339587315371,
+        68.56765801782936
+      ]
+    }
+  ],
+  "limitations": "Small real-input timing comparison under concurrent machine load, not a hardware-independent speed guarantee or an astrophysical validation.",
+  "all_identical": true,
+  "completed_utc": "2026-09-07T04:42:26.647790+00:00",
+  "aggregate_speedup": 1.7911876810972793
+}

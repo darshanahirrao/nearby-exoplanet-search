@@ -1,0 +1,10 @@
+{
+  "frozen_utc": "2026-09-07T04:58:23.546823+00:00",
+  "seed": 202609073,
+  "cases": 900,
+  "experiment_code_sha256": "a9a5647487183cda0dff848a88c0a9704ef8ac6d10c3bfee9c7a4d7536b888da",
+  "ablation_code_sha256": "7ee6fe4bda8f7863ce952007e9d53066ac826a80fc40de1c56371597fb1a94b3",
+  "hypothesis": "Measure whether frozen-view prediction adds recovery beyond the same spatial filter with a newly fitted held-view position.",
+  "thresholds": "Unchanged training SNR 7, held SNR 5, maximum position offset 0.5 nominal pixels.",
+  "limitations": "Fresh injection draws but reused off-event noise banks and related Gaussian injection/fit families; not raw-pixel sensitivity or established novelty."
+}

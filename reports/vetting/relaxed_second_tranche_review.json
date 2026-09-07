@@ -1,0 +1,158 @@
+{
+  "selected_utc": "2026-09-07T04:25:43.365204+00:00",
+  "criteria": "The ten strongest holdout trials on distinct, previously unreviewed targets passing non-physical gates in the completed variability-filtered screen. One trial per target. This is a bounded exploratory review, selected after scores were inspected; lower-scoring flagged trials are retained in the full screening tables.",
+  "targets": [
+    {
+      "tic": 142979644,
+      "index": 4,
+      "variant": "variability",
+      "period_days": 16.716158061251285,
+      "holdout_nominal_snr": 724.1502186691147,
+      "screening_flags": [
+        "outside_initial_small_planet_radius_range"
+      ],
+      "source_result_sha256": "2794f026690271555713f88513199e3d1dfe69459c22fbd30aac6a03455b6aa9",
+      "review_status": "not_promoted",
+      "review": "Known eclipsing binary. The 16.71616-day trial is approximately four times the published 4.179031-day binary orbit. Very deep eclipses are present in SAP and PDC; the small-planet radius gate correctly rejects this trial. The short-period Fourier peak is a harmonic, not an established binary period. No new planet is inferred.",
+      "diagnostics": "relaxed_second_tranche/142979644",
+      "literature": [
+        {
+          "title": "Eclipse Timing Variations of Circumbinary Substellar Objects in TESS Data",
+          "url": "https://arxiv.org/abs/2503.20900v2",
+          "doi": "10.3847/1538-3881/ae0f9e"
+        }
+      ],
+      "limitations": "The separate published circumbinary substellar-companion candidate is not re-evaluated or validated here."
+    },
+    {
+      "tic": 235062311,
+      "index": 1,
+      "variant": "variability",
+      "period_days": 8.675023759481322,
+      "holdout_nominal_snr": 28.80930368504088,
+      "screening_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "source_result_sha256": "7597324151b8de1ae9214751a0155e000119a494d8f8f1e7ac3675f34de36a89",
+      "review_status": "not_promoted",
+      "review": "Broad trough extending about 12-20 hours in SAP and PDC, with sparse held-back phase coverage. No compelling isolated short transit. Not promoted.",
+      "diagnostics": "relaxed_second_tranche/235062311"
+    },
+    {
+      "tic": 287350462,
+      "index": 3,
+      "variant": "variability",
+      "period_days": 9.33704487590275,
+      "holdout_nominal_snr": 20.202568698577167,
+      "screening_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "source_result_sha256": "f50b45d39eeb30f954a90467ca3343b679c678c575ba9413ba91abaa6cc5ed12",
+      "review_status": "not_promoted",
+      "review": "A repeated approximately 7.005-hour wave is visible in SAP and PDC; the selected 9.337-day trial spans about 32 cycles. Rejected as evidence for a temperate planet.",
+      "diagnostics": "relaxed_second_tranche/287350462"
+    },
+    {
+      "tic": 201289286,
+      "index": 1,
+      "variant": "variability",
+      "period_days": 13.772667369008282,
+      "holdout_nominal_snr": 14.941087773130414,
+      "screening_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "source_result_sha256": "965de8507eb2b7b159476b53423e9a6eb794dc9a94bfbc253732ce643c425e99",
+      "review_status": "not_promoted",
+      "review": "Broad, low-contrast baseline curvature across roughly 20 hours with no distinct short transit. Not promoted.",
+      "diagnostics": "relaxed_second_tranche/201289286"
+    },
+    {
+      "tic": 467361606,
+      "index": 2,
+      "variant": "variability",
+      "period_days": 12.609677249219493,
+      "holdout_nominal_snr": 14.514601065955414,
+      "screening_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "source_result_sha256": "6f1af721716f73943a05dad75be051d43412350768f42dd5c365763ec78f6e80",
+      "review_status": "not_promoted",
+      "review": "Shallow broad trough; the held-back baseline stays depressed across much of the displayed interval. No isolated transit established. Not promoted.",
+      "diagnostics": "relaxed_second_tranche/467361606"
+    },
+    {
+      "tic": 77340625,
+      "index": 2,
+      "variant": "variability",
+      "period_days": 15.047419630165358,
+      "holdout_nominal_snr": 14.429420170890658,
+      "screening_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "source_result_sha256": "0ab3bc2baa7077e653d7c634d9a06c464d004c1c3da2e34dfde4a68f88b8c677",
+      "review_status": "not_promoted",
+      "review": "Broad roughly 15-hour trough, sparse held-back coverage and a short-variation diagnostic near an 18-fold alias. Not promoted.",
+      "diagnostics": "relaxed_second_tranche/77340625"
+    },
+    {
+      "tic": 176948652,
+      "index": 3,
+      "variant": "variability",
+      "period_days": 5.942403123222946,
+      "holdout_nominal_snr": 14.3412519530465,
+      "screening_flags": [
+        "outside_nominal_optimistic_hz",
+        "long_relative_to_circular_transit"
+      ],
+      "source_result_sha256": "f74934e643d548ea7f8253e3ca7af6243d88f3137e486180f0c9841a56cda6ca",
+      "review_status": "not_promoted",
+      "review": "Broad minimum extends outside the selected transit window. Approximately five cycles of the short variation fit within the trial period; held-back phase coverage is partial. Not promoted.",
+      "diagnostics": "relaxed_second_tranche/176948652"
+    },
+    {
+      "tic": 165528645,
+      "index": 3,
+      "variant": "variability",
+      "period_days": 4.890422630103734,
+      "holdout_nominal_snr": 11.12785548713627,
+      "screening_flags": [
+        "outside_nominal_optimistic_hz",
+        "long_relative_to_circular_transit"
+      ],
+      "source_result_sha256": "2f939c1f2678fc1729ea3d07a63fde7d28434a9e109703e21084f7891b01ae4e",
+      "review_status": "not_promoted",
+      "review": "Broad weak curvature across the fold without an isolated short transit. The near-five-fold period ratio alone is not a significant alias detection. Not promoted.",
+      "diagnostics": "relaxed_second_tranche/165528645"
+    },
+    {
+      "tic": 188777430,
+      "index": 3,
+      "variant": "variability",
+      "period_days": 9.093818556760839,
+      "holdout_nominal_snr": 9.967678403727966,
+      "screening_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "source_result_sha256": "e19d889469b97f76698bb3b20f3fbf85e527ffb52aa8d2f37a411f873e001526",
+      "review_status": "not_promoted",
+      "review": "A baseline ramp and extended offset dominate the fold; there is no distinct narrow transit. Not promoted.",
+      "diagnostics": "relaxed_second_tranche/188777430"
+    },
+    {
+      "tic": 372061167,
+      "index": 2,
+      "variant": "variability",
+      "period_days": 6.690124103866661,
+      "holdout_nominal_snr": 9.170848946866052,
+      "screening_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "source_result_sha256": "562a8c094369c3eebfdef5abf6f70c46736e61c19e164d0316d30506a4a05b43",
+      "review_status": "not_promoted",
+      "review": "Broad trough with comparable surrounding structure and no compelling isolated held-back transit. Not promoted.",
+      "diagnostics": "relaxed_second_tranche/372061167"
+    }
+  ],
+  "reviewed_utc": "2026-09-07T04:36:27.170482+00:00",
+  "limitations": "Post-inspection qualitative review, not independent confirmation or a calibrated false-positive probability. Rejected trial interpretations do not rule out other planets. Source locations are not established by these folds alone."
+}

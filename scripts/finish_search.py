@@ -19,6 +19,7 @@ def main():
     parser.add_argument("--campaign", required=True)
     parser.add_argument("--wait-pids", type=int, nargs="*", default=[])
     parser.add_argument("--workers", type=int, default=3)
+    parser.add_argument("--parallel-threads", type=int, default=1)
     args = parser.parse_args()
     if args.campaign != Path(args.campaign).name:
         raise ValueError("campaign must be a plain name")
@@ -69,7 +70,17 @@ def main():
             else:
                 raise TimeoutError(f"Prior process {pid} did not finish")
         run_stage("variability.py", "--all-screened", "--workers", args.workers)
-        run_stage("longbaseline.py", "--all-screened", "--workers", args.workers)
+        if args.parallel_threads > 1:
+            run_stage(
+                "accelerated_longbaseline.py",
+                "--all-screened",
+                "--workers",
+                args.workers,
+                "--threads",
+                args.parallel_threads,
+            )
+        else:
+            run_stage("longbaseline.py", "--all-screened", "--workers", args.workers)
         run_stage("audit_inputs.py")
         run_stage("summarize.py")
         checkpoint("finished_pending_scientific_review")

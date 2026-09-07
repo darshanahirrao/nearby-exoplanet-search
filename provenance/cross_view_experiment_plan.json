@@ -1,0 +1,10 @@
+{
+  "frozen_utc": "2026-09-07T04:51:42.943842+00:00",
+  "protocol": "docs/EXPERIMENT_CROSS_VIEW.md",
+  "protocol_sha256": "5faabe482e2ee7494454ab749a8c89e40af05dd5f570c9770734b6703c65d108",
+  "development_seed": 202609071,
+  "evaluation_seed": 202609072,
+  "training_only_position_fit": true,
+  "baseline_preserved": true,
+  "claim": "Experimental protocol, not a novelty or discovery claim."
+}

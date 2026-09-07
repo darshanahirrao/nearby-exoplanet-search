@@ -89,6 +89,16 @@ and the separate known-host list; a small quickstart batch is intentionally inco
 The [pixel-vetting example](reports/vetting/448416124/disposition.json)
 shows why a repeatable dip can still come from a different star.
 
+An optional [accelerated runner](docs/PERFORMANCE.md) preserves the original
+period grid and scientific checks. Three real-input comparisons, including the
+TOI-700 control, produced identical scientific outputs and a measured aggregate
+speed ratio of 1.79. Use `python scripts/progress.py` for a compact live status.
+
+We also test original project hypotheses against existing methods. The first
+[cross-view experiment and ablation](reports/experiments/cross_view/FINDINGS.md)
+did not establish a sufficient advantage over ordinary spatial template fitting.
+Its complete negative result is preserved, and it has not replaced the search.
+
 ## Repository map
 
 | Path | Purpose |

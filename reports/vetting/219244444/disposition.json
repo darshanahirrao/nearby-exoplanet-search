@@ -1,0 +1,32 @@
+{
+  "tic": 219244444,
+  "name": "RR Cae",
+  "reviewed_utc": "2026-09-07T04:20:52.120243+00:00",
+  "disposition": "Known white-dwarf/M-dwarf eclipsing binary. Both approximately 10.6296-day residual trials are about 35 times the established 7.3-hour binary orbit. The folded data visibly contain additional deep eclipses about every 7.3 hours. No new companion is inferred.",
+  "reviewed_periods_days": [
+    10.62962799074664,
+    10.629620728410513
+  ],
+  "screening_flags": [
+    [
+      "outside_initial_small_planet_radius_range",
+      "outside_nominal_optimistic_hz"
+    ],
+    [
+      "outside_initial_small_planet_radius_range",
+      "outside_nominal_optimistic_hz"
+    ]
+  ],
+  "source_result_sha256": "51bef3f0efb1dbf650ea7c208f905377423179e5ac7939a89de2e29e809549b0",
+  "literature": [
+    {
+      "title": "The mass and radius of the M-dwarf in the short period eclipsing binary RR Caeli",
+      "url": "https://arxiv.org/abs/astro-ph/0702005"
+    },
+    {
+      "title": "Eclipse timing variations in the WD+dM eclipsing binary RR Cae",
+      "url": "https://arxiv.org/abs/2109.09397"
+    }
+  ],
+  "limitations": "The separate catalogue-listed circumbinary planet is not validated or re-evaluated here. This check only identifies the short binary eclipses contaminating the long-period search. No known TOI transit windows were available to mask for this target."
+}

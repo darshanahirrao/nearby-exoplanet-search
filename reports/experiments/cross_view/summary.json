@@ -1,0 +1,174 @@
+{
+  "completed_utc": "2026-09-07T04:55:47.416134+00:00",
+  "code_sha256": "a9a5647487183cda0dff848a88c0a9704ef8ac6d10c3bfee9c7a4d7536b888da",
+  "protocol_sha256": "5faabe482e2ee7494454ab749a8c89e40af05dd5f570c9770734b6703c65d108",
+  "inputs": {
+    "448416124": [
+      {
+        "sector": 9,
+        "source": "data/targetpixels/448416124/tess2019058134432-s0009-0000000448416124-0139-s_tp.fits",
+        "sha256": "11b5d5ec8c74563004549c2056fb32f7f8b34ea21bbf7c088ea26edf91af7a46",
+        "derived_cache_sha256": "a35762c7b532711882103548a1c7d34b4e0d7340e098900482a4717f883da0cf",
+        "off_event_maps": 20
+      },
+      {
+        "sector": 36,
+        "source": "data/targetpixels/448416124/tess2021065132309-s0036-0000000448416124-0207-s_tp.fits",
+        "sha256": "02028ede739008c1662e3d77b30fd48a206c2ca3ac5cecda2ac9da88cfa9d55c",
+        "derived_cache_sha256": "b2f622fb7536cb5b74d299b6e7987bc7fddb7b2d4bdaeb66526d46389fe83119",
+        "off_event_maps": 20
+      },
+      {
+        "sector": 63,
+        "source": "data/targetpixels/448416124/tess2023069172124-s0063-0000000448416124-0255-s_tp.fits",
+        "sha256": "fa08c08f41fea83d904e32ce940ff98ce05d22f561b13bb2e1c5e9cbb4810d1a",
+        "derived_cache_sha256": "6bc947a96601952fbfc42dd4bdcb63174774da4b1aac32772c89620c9432921c",
+        "off_event_maps": 20
+      }
+    ],
+    "408232559": [
+      {
+        "sector": 5,
+        "source": "data/targetpixels/408232559/tess2018319095959-s0005-0000000408232559-0125-s_tp.fits",
+        "sha256": "4dd5e33cc2ddcd48a402966181bd651a088b4024e946fe82daf7534035fa1add",
+        "derived_cache_sha256": "774875a1e80b278b0f052ea38e7ecf5fa460da5779abcb5985c7409b4cdd4a7c",
+        "off_event_maps": 22
+      },
+      {
+        "sector": 32,
+        "source": "data/targetpixels/408232559/tess2020324010417-s0032-0000000408232559-0200-s_tp.fits",
+        "sha256": "b460c3f9f31a0ecffd5856ebef0a9ac82786fb2752ff8016c5a79453158fcdde",
+        "derived_cache_sha256": "f844c6d219ce636e830b6ca634cc019ccbc662d75de14c3e0bca3cd1a5c57cfb",
+        "off_event_maps": 22
+      },
+      {
+        "sector": 6,
+        "source": "data/targetpixels/408232559/tess2018349182500-s0006-0000000408232559-0126-s_tp.fits",
+        "sha256": "8a508a24ee770b7182c719430f00e671ddf4af290f853187b6665f67f10e1ddc",
+        "derived_cache_sha256": "8f482a2cb9b8d91c960065478a7bd838e4ac42cab59e121a59254c77644b0c8d",
+        "off_event_maps": 21
+      }
+    ],
+    "282923395": [
+      {
+        "sector": 14,
+        "source": "data/targetpixels/282923395/tess2019198215352-s0014-0000000282923395-0150-s_tp.fits",
+        "sha256": "dcbd89a857c846b20339d7a08e4a9db938269c469d23d5d5f52f0e7f636c24c5",
+        "derived_cache_sha256": "319ff7963c31ef5e8aaec50b0892fa3a2f1a46b6476b8b739d6d6c29641f4e21",
+        "off_event_maps": 18
+      },
+      {
+        "sector": 48,
+        "source": "data/targetpixels/282923395/tess2022027120115-s0048-0000000282923395-0219-s_tp.fits",
+        "sha256": "093caca459cd87d4eba8317ab92f94dc15f43e5fe915a105971d829e23f74a56",
+        "derived_cache_sha256": "51bade68b3664dcc359aa866de3ea8c666ffde59ceba4db5ac6aa3c04901b467",
+        "off_event_maps": 18
+      }
+    ]
+  },
+  "real_case_studies": [
+    {
+      "tic": 448416124,
+      "fitted_sky_offset_arcsec": [
+        36.75,
+        -5.25
+      ],
+      "training_nominal_snr": 193.20642244721677,
+      "held_prediction_nominal_snr": 191.11822436491514,
+      "predicted_offset_nominal_pixels": 1.7677669529663689,
+      "cross_view_accept": false,
+      "baseline_training_nominal_snr": 4.840840732100496,
+      "baseline_holdout_nominal_snr": 0.14111121018706174,
+      "baseline_centroid_offsets_pixels": [
+        2.1364485658105927,
+        2.074489750343887,
+        2.100231791131941
+      ],
+      "baseline_accept": false
+    },
+    {
+      "tic": 408232559,
+      "fitted_sky_offset_arcsec": [
+        0.0,
+        26.25
+      ],
+      "training_nominal_snr": 30.050501655982032,
+      "held_prediction_nominal_snr": 17.70639519069779,
+      "predicted_offset_nominal_pixels": 1.25,
+      "cross_view_accept": false,
+      "baseline_training_nominal_snr": 12.392128695173206,
+      "baseline_holdout_nominal_snr": 8.393383255754369,
+      "baseline_centroid_offsets_pixels": [
+        1.170638817286887,
+        1.1797022164438802,
+        1.2019705818474493
+      ],
+      "baseline_accept": false
+    },
+    {
+      "tic": 282923395,
+      "fitted_sky_offset_arcsec": [
+        0.0,
+        5.25
+      ],
+      "training_nominal_snr": 3.9165331706792106,
+      "held_prediction_nominal_snr": 4.473284567184418,
+      "predicted_offset_nominal_pixels": 0.25,
+      "cross_view_accept": false,
+      "baseline_training_nominal_snr": 4.108048043273492,
+      "baseline_holdout_nominal_snr": 3.282195760036773,
+      "baseline_centroid_offsets_pixels": [
+        0.3317749376921476,
+        0.49487429003878974
+      ],
+      "baseline_accept": false
+    }
+  ],
+  "development": {
+    "target": {
+      "cases": 120,
+      "cross_view_accepted": 64,
+      "baseline_accepted": 34
+    },
+    "displaced": {
+      "cases": 120,
+      "cross_view_accepted": 0,
+      "baseline_accepted": 0
+    },
+    "no_injection": {
+      "cases": 120,
+      "cross_view_accepted": 0,
+      "baseline_accepted": 0
+    }
+  },
+  "evaluation": {
+    "target": {
+      "cases": 120,
+      "cross_view_accepted": 74,
+      "baseline_accepted": 34
+    },
+    "displaced": {
+      "cases": 120,
+      "cross_view_accepted": 0,
+      "baseline_accepted": 0
+    },
+    "no_injection": {
+      "cases": 120,
+      "cross_view_accepted": 0,
+      "baseline_accepted": 0
+    }
+  },
+  "thresholds": {
+    "training_snr": 7,
+    "held_prediction_snr": 5,
+    "maximum_offset_pixels": 0.5
+  },
+  "limitations": [
+    "Difference-map injections, not raw-pixel or end-to-end transit recovery.",
+    "Gaussian injection and fit families are related; widths differ but both are simplified.",
+    "Real off-event maps can contain astrophysical variation and are reused; these are not independent null trials or a global false-alarm estimate.",
+    "No held-view position fit; held amplitude is a nominal matched-filter measurement.",
+    "Compared with an aperture/centroid diagnostic, not a claim of superiority to all existing pipelines.",
+    "Novelty and astrophysical discovery remain unestablished."
+  ]
+}

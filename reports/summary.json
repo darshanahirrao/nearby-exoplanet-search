@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-06T22:04:10.149835+00:00",
+  "updated_utc": "2026-09-07T05:01:57.469073+00:00",
   "processed_targets": 992,
   "period_searched_targets": 992,
   "initial_trial_fits": 3586,
@@ -9,19 +9,19 @@
   "refined_unflagged": 8,
   "additional_searches": {
     "variability": {
-      "attempts": 493,
+      "attempts": 992,
       "skipped": 0,
-      "trial_fits": 1735,
+      "trial_fits": 3533,
       "unflagged": 0,
-      "targets_with_periodic_model": 168,
-      "reused_refinement": 260
+      "targets_with_periodic_model": 302,
+      "reused_refinement": 625
     },
     "longbaseline": {
-      "attempts": 509,
-      "skipped": 62,
-      "trial_fits": 894,
+      "attempts": 753,
+      "skipped": 73,
+      "trial_fits": 1360,
       "unflagged": 1,
-      "targets_with_periodic_model": 175,
+      "targets_with_periodic_model": 235,
       "reused_refinement": 0
     },
     "known_residual": {

@@ -1,0 +1,184 @@
+{
+  "tic": 219244444,
+  "input_variant": "known_residual",
+  "signal_iteration": 1,
+  "checked_utc": "2026-09-06T22:14:21.654254+00:00",
+  "short_period_days": 0.10123468397949635,
+  "ls_fractional_power": 0.10590653171303142,
+  "candidate_period_days": 10.62962799074664,
+  "period_ratio": 104.9998634153836,
+  "nearest_integer_multiple": 105,
+  "alignment_error_days": 1.3827100477925569e-05,
+  "short_period_alias_suspected": true,
+  "residual_checks": {
+    "discovery": {
+      "before": {
+        "n_observed_events": 4,
+        "n_positive_events": 4,
+        "event_snr": [
+          {
+            "cycle": 5,
+            "center_btjd": 1445.9725979081993,
+            "points": 3,
+            "depth": 0.10097082838989979,
+            "error": 0.0017285372492287666,
+            "snr": 58.41403095880673
+          },
+          {
+            "cycle": 6,
+            "center_btjd": 1456.602225898946,
+            "points": 3,
+            "depth": 0.09506836080065739,
+            "error": 0.0016926180261019035,
+            "snr": 56.166458902484734
+          },
+          {
+            "cycle": 240,
+            "center_btjd": 3943.93517573366,
+            "points": 3,
+            "depth": 0.10228882652115556,
+            "error": 0.0016182400901147578,
+            "snr": 63.2099199284463
+          },
+          {
+            "cycle": 241,
+            "center_btjd": 3954.5648037244064,
+            "points": 3,
+            "depth": 0.09095295773254175,
+            "error": 0.0016472473742502767,
+            "snr": 55.21511774996018
+          }
+        ],
+        "fixed_ephemeris_snr": 116.5352933648208,
+        "single_event_power_fraction": 0.29354731124065214,
+        "odd_even_sigma": 1.8677918058153282
+      },
+      "after_fitting_short_variation": {
+        "n_observed_events": 4,
+        "n_positive_events": 4,
+        "event_snr": [
+          {
+            "cycle": 5,
+            "center_btjd": 1445.9725979081993,
+            "points": 3,
+            "depth": 0.0657455759399238,
+            "error": 0.0017285372492287666,
+            "snr": 38.03538278926761
+          },
+          {
+            "cycle": 6,
+            "center_btjd": 1456.602225898946,
+            "points": 3,
+            "depth": 0.05878791436170727,
+            "error": 0.0016926180261019035,
+            "snr": 34.73194392068229
+          },
+          {
+            "cycle": 240,
+            "center_btjd": 3943.93517573366,
+            "points": 3,
+            "depth": 0.07126027286292935,
+            "error": 0.0016182400901147578,
+            "snr": 44.03566151786285
+          },
+          {
+            "cycle": 241,
+            "center_btjd": 3954.5648037244064,
+            "points": 3,
+            "depth": 0.05860398594448801,
+            "error": 0.0016472473742502767,
+            "snr": 35.576918719424796
+          }
+        ],
+        "fixed_ephemeris_snr": 76.26686908337103,
+        "single_event_power_fraction": 0.3310323518284482,
+        "odd_even_sigma": 1.9763384827247124
+      }
+    },
+    "holdout": {
+      "before": {
+        "n_observed_events": 4,
+        "n_positive_events": 4,
+        "event_snr": [
+          {
+            "cycle": 2,
+            "center_btjd": 1414.0837139359594,
+            "points": 3,
+            "depth": 0.09938306865160162,
+            "error": 0.0015329841360762985,
+            "snr": 64.82980894112475
+          },
+          {
+            "cycle": 3,
+            "center_btjd": 1424.713341926706,
+            "points": 3,
+            "depth": 0.09379496888102612,
+            "error": 0.0016516284767868542,
+            "snr": 56.78938708025833
+          },
+          {
+            "cycle": 74,
+            "center_btjd": 2179.4169292697175,
+            "points": 3,
+            "depth": 0.09542639522594543,
+            "error": 0.0016781135537320686,
+            "snr": 56.86527888039537
+          },
+          {
+            "cycle": 75,
+            "center_btjd": 2190.0465572604644,
+            "points": 3,
+            "depth": 0.08671819284637172,
+            "error": 0.0017268507340062412,
+            "snr": 50.21753828438209
+          }
+        ],
+        "fixed_ephemeris_snr": 114.68479665782267,
+        "single_event_power_fraction": 0.3188027535491629,
+        "odd_even_sigma": 4.358424171401428
+      },
+      "after_fitting_short_variation": {
+        "n_observed_events": 4,
+        "n_positive_events": 4,
+        "event_snr": [
+          {
+            "cycle": 2,
+            "center_btjd": 1414.0837139359594,
+            "points": 3,
+            "depth": 0.06699114123676375,
+            "error": 0.0015329841360762985,
+            "snr": 43.69982680201038
+          },
+          {
+            "cycle": 3,
+            "center_btjd": 1424.713341926706,
+            "points": 3,
+            "depth": 0.059558847471988585,
+            "error": 0.0016516284767868542,
+            "snr": 36.06068090316341
+          },
+          {
+            "cycle": 74,
+            "center_btjd": 2179.4169292697175,
+            "points": 3,
+            "depth": 0.0650073253595087,
+            "error": 0.0016781135537320686,
+            "snr": 38.73833520677702
+          },
+          {
+            "cycle": 75,
+            "center_btjd": 2190.0465572604644,
+            "points": 3,
+            "depth": 0.05505806408479019,
+            "error": 0.0017268507340062412,
+            "snr": 31.883510833074237
+          }
+        ],
+        "fixed_ephemeris_snr": 75.46594015264962,
+        "single_event_power_fraction": 0.33343577550460196,
+        "odd_even_sigma": 5.277008046371521
+      }
+    }
+  },
+  "limitations": "Exploratory variability check, not a calibrated false-positive probability. SAP and PDC share pixels. Holdout variation amplitude/phase is fitted here, so residual checks are diagnostic, not untouched holdout evidence."
+}
