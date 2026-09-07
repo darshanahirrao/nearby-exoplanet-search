@@ -1,0 +1,11 @@
+{
+  "files_sha256": {
+    "download_manifest.json": "979eb5b11752b6e5e44b8928f16203db5947b12915b26e73e26b57b06814451b",
+    "result.json": "f6a36c7fda2064932284eaf676a500c7151897e61bb714cc250206fe5a2e5103",
+    "sector_16_difference.png": "930c73bf5f21fc801e9636fc717defc1646ebc9395fa35889d0d5e001f5d397c",
+    "sector_16_images.npz": "85c3a0444c29ee1ea48e6e7495861dbeddf4f5d55c4ff2c17ea3016e6bf6179f",
+    "sector_19_difference.png": "91d799e2c2b3d2119ea83c0cf78e8ad275b2326ae6532412cf7552aa0bc6d455",
+    "sector_19_images.npz": "ee2b3545612c8f255bf0419c3e25587eed1b589f7a4eea69511a609ac24abaaa"
+  },
+  "scope": "Copies of exact original pixel diagnostic artifacts. Raw variability is not separated from the residual long-period fit."
+}

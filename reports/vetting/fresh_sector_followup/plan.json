@@ -1,0 +1,236 @@
+{
+  "frozen_utc": "2026-09-07T10:55:02.338480+00:00",
+  "tic": 233738219,
+  "selected_products": [
+    {
+      "sector": 24,
+      "filename": "tess2020106103520-s0024-0000000233738219-0180-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020106103520-s0024-0000000233738219-0180-s_lc.fits",
+      "observation_start_mjd": 58955.29372603,
+      "observation_end_mjd": 58981.77996819
+    },
+    {
+      "sector": 25,
+      "filename": "tess2020133194932-s0025-0000000233738219-0182-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020133194932-s0025-0000000233738219-0182-s_lc.fits",
+      "observation_start_mjd": 58983.13136542,
+      "observation_end_mjd": 59008.80512288
+    },
+    {
+      "sector": 26,
+      "filename": "tess2020160202036-s0026-0000000233738219-0188-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020160202036-s0026-0000000233738219-0188-s_lc.fits",
+      "observation_start_mjd": 59009.76623822917,
+      "observation_end_mjd": 59034.634422013885
+    },
+    {
+      "sector": 40,
+      "filename": "tess2021175071901-s0040-0000000233738219-0211-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021175071901-s0040-0000000233738219-0211-s_lc.fits",
+      "observation_start_mjd": 59390.15226841435,
+      "observation_end_mjd": 59418.353776724536
+    },
+    {
+      "sector": 41,
+      "filename": "tess2021204101404-s0041-0000000233738219-0212-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021204101404-s0041-0000000233738219-0212-s_lc.fits",
+      "observation_start_mjd": 59419.488499722225,
+      "observation_end_mjd": 59446.0788275
+    },
+    {
+      "sector": 47,
+      "filename": "tess2021364111932-s0047-0000000233738219-0218-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021364111932-s0047-0000000233738219-0218-s_lc.fits",
+      "observation_start_mjd": 59579.315711006944,
+      "observation_end_mjd": 59606.439196597225
+    },
+    {
+      "sector": 48,
+      "filename": "tess2022027120115-s0048-0000000233738219-0219-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022027120115-s0048-0000000233738219-0219-s_lc.fits",
+      "observation_start_mjd": 59607.432247372686,
+      "observation_end_mjd": 59635.48496962963
+    },
+    {
+      "sector": 49,
+      "filename": "tess2022057073128-s0049-0000000233738219-0221-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022057073128-s0049-0000000233738219-0221-s_lc.fits",
+      "observation_start_mjd": 59636.971077291666,
+      "observation_end_mjd": 59663.81416447917
+    },
+    {
+      "sector": 50,
+      "filename": "tess2022085151738-s0050-0000000233738219-0222-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022085151738-s0050-0000000233738219-0222-s_lc.fits",
+      "observation_start_mjd": 59664.76972181713,
+      "observation_end_mjd": 59691.00870693287
+    },
+    {
+      "sector": 51,
+      "filename": "tess2022112184951-s0051-0000000233738219-0223-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022112184951-s0051-0000000233738219-0223-s_lc.fits",
+      "observation_start_mjd": 59692.45871126158,
+      "observation_end_mjd": 59717.033842777775
+    },
+    {
+      "sector": 52,
+      "filename": "tess2022138205153-s0052-0000000233738219-0224-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022138205153-s0052-0000000233738219-0224-s_lc.fits",
+      "observation_start_mjd": 59718.133841944444,
+      "observation_end_mjd": 59742.575648645834
+    },
+    {
+      "sector": 53,
+      "filename": "tess2022164095748-s0053-0000000233738219-0226-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022164095748-s0053-0000000233738219-0226-s_lc.fits",
+      "observation_start_mjd": 59743.49509740741,
+      "observation_end_mjd": 59768.47855568287
+    },
+    {
+      "sector": 54,
+      "filename": "tess2022190063128-s0054-0000000233738219-0227-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022190063128-s0054-0000000233738219-0227-s_lc.fits",
+      "observation_start_mjd": 59769.39800880787,
+      "observation_end_mjd": 59795.62864962963
+    },
+    {
+      "sector": 55,
+      "filename": "tess2022217014003-s0055-0000000233738219-0242-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022217014003-s0055-0000000233738219-0242-s_lc.fits",
+      "observation_start_mjd": 59796.599482384256,
+      "observation_end_mjd": 59823.763389768515
+    },
+    {
+      "sector": 57,
+      "filename": "tess2022273165103-s0057-0000000233738219-0245-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022273165103-s0057-0000000233738219-0245-s_lc.fits",
+      "observation_start_mjd": 59852.853599027774,
+      "observation_end_mjd": 59881.61456804398
+    },
+    {
+      "sector": 58,
+      "filename": "tess2022302161335-s0058-0000000233738219-0247-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022302161335-s0058-0000000233738219-0247-s_lc.fits",
+      "observation_start_mjd": 59881.828455497685,
+      "observation_end_mjd": 59909.547719953705
+    },
+    {
+      "sector": 59,
+      "filename": "tess2022330142927-s0059-0000000233738219-0248-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022330142927-s0059-0000000233738219-0248-s_lc.fits",
+      "observation_start_mjd": 59909.76299635417,
+      "observation_end_mjd": 59936.18643246528
+    },
+    {
+      "sector": 60,
+      "filename": "tess2022357055054-s0060-0000000233738219-0249-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022357055054-s0060-0000000233738219-0249-s_lc.fits",
+      "observation_start_mjd": 59936.40170956019,
+      "observation_end_mjd": 59962.08212535879
+    },
+    {
+      "sector": 74,
+      "filename": "tess2024003055635-s0074-0000000233738219-0269-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024003055635-s0074-0000000233738219-0269-s_lc.fits",
+      "observation_start_mjd": 60312.36258451389,
+      "observation_end_mjd": 60339.06801855324
+    },
+    {
+      "sector": 75,
+      "filename": "tess2024030031500-s0075-0000000233738219-0270-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024030031500-s0075-0000000233738219-0270-s_lc.fits",
+      "observation_start_mjd": 60339.28329471065,
+      "observation_end_mjd": 60366.98185196759
+    },
+    {
+      "sector": 76,
+      "filename": "tess2024058030222-s0076-0000000233738219-0271-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024058030222-s0076-0000000233738219-0271-s_lc.fits",
+      "observation_start_mjd": 60367.197129872686,
+      "observation_end_mjd": 60394.2763249537
+    }
+  ],
+  "original_sectors": [
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    84,
+    85,
+    86
+  ],
+  "signals": [
+    {
+      "role": "primary",
+      "method": "leave_one_out",
+      "source": "results/portfolio_development/leave_one_out__233738219_unmodified/result.json",
+      "source_sha256": "9d8047a55caeb40e86be8086fa952eb4bc9f8c0bbfcaaeb2c758460fe3379440",
+      "period_days": 26.316459215610013,
+      "epoch_btjd": 1691.6273382310633,
+      "duration_days": 0.13943435639852114
+    },
+    {
+      "role": "comparison",
+      "method": "local_total",
+      "source": "results/portfolio_development/local_total__233738219_unmodified/result.json",
+      "source_sha256": "6a45f8f6349a89272fb9987d52717d2ad695d5298989dc9a54b3e8054e1dd9d8",
+      "period_days": 35.394150218068546,
+      "epoch_btjd": 1708.7196123763397,
+      "duration_days": 0.1504906030070948
+    }
+  ],
+  "source_sha256": {
+    "followup_portfolio_trials.py": "9239cb133dd4827e7d035929763e99a29388528c9dca349b93a1212baaf59240",
+    "local_baseline.py": "6c1df0f57a666286f5f62dbb70809ffd0ba36d5f0aed2802d1382370dbb5f24e",
+    "search.py": "73eef744937f00915a353bfa3bda4753365c26b3661fb0b2be661adca6285b31",
+    "physics.py": "6045fcc37553fa01badfe7a3ff634188f7acaa3488848f2fd33003bf624ad774",
+    "variability.py": "ddec9fe378823fe9f2dd70e377d06652154311b9a14031ab84650e1f4ae25060",
+    "cycle_excluded.py": "5e6020090a07368147f7c22ecd46df8d6c50ed7efdf66366a78443cf6a3944bb",
+    "multimode_cycle_experiment.py": "a7b04afa531833d5874064ef989bbcdf831c5baed28877e00abeffb39376d2a0",
+    "repeated_events.py": "0da1a5611d3cb30a9b593c12a8057cd34494af0ae5389ac9ae844e8244b0f761",
+    "vet.py": "c4fdbc5e8de05dd112aebc18f985412a5f667a22fe83707cf7062c4d61539bef"
+  },
+  "previous_input_sha256": {
+    "data/lightcurves/233738219/tess2019198215352-s0014-0000000233738219-0150-s_lc.fits": "c665801b2af040c0df5c4daeb2bc0413c4534fc869aa8368fdb1606aa8b04072",
+    "data/lightcurves/233738219/tess2019253231442-s0016-0000000233738219-0152-s_lc.fits": "67a75962aa91890c1ed34f5732d42f301e7d7b7162cdd5d1dec9e743c83cf6a5",
+    "data/lightcurves/233738219/tess2019279210107-s0017-0000000233738219-0161-s_lc.fits": "d372a853da66f409b89bffe8be8daefeba87eaa1c784312df0b975959a41e27b",
+    "data/lightcurves/233738219/tess2019306063752-s0018-0000000233738219-0162-s_lc.fits": "0169004c51ab8a93957e211235f797d3124b01340c1e7e5d79cad8bc25d5162f",
+    "data/lightcurves/233738219/tess2019331140908-s0019-0000000233738219-0164-s_lc.fits": "ebd3ac891cf4b158ce1c6a1a109896913189cf9c2f7aff61b81a0bbf9d71975a",
+    "data/lightcurves/233738219/tess2019357164649-s0020-0000000233738219-0165-s_lc.fits": "b230c74ef517549e6b3fc5a40640bd7e48ce3916600d13a9f213de9ea1be2ba7",
+    "data/lightcurves/233738219/tess2020020091053-s0021-0000000233738219-0167-s_lc.fits": "7ef03a98af0683d4f9ce2db83e7d06625401b5d12cecf9a222d5a4f033a3370e",
+    "data/lightcurves/233738219/tess2020049080258-s0022-0000000233738219-0174-s_lc.fits": "ea6eca4c1eee5b7525d5cc0a28777bbbf2982479f62acc35cf13be451ec7a77f",
+    "data/lightcurves/233738219/tess2020078014623-s0023-0000000233738219-0177-s_lc.fits": "4832379942cc806a6c0fc7bbe61b112357f97e8f4f2a84c7121b974cb916dd5b",
+    "data/lightcurves/233738219/tess2024085201119-s0077-0000000233738219-0272-s_lc.fits": "c095bacbce4ba63e15f3ef27f42a74ac76ce6174bfff9e765c1cbc6ac3bc2a31",
+    "data/lightcurves/233738219/tess2024114025118-s0078-0000000233738219-0273-s_lc.fits": "32a4067af035c72acdf46df8c5674cbd42d1d4ea4e33a01fd2712fbf9977a78b",
+    "data/lightcurves/233738219/tess2024142205832-s0079-0000000233738219-0274-s_lc.fits": "74ea0449d37e5a04eb05f6015b1210664f2a0adc0842bd801efcbdd343e5159b",
+    "data/lightcurves/233738219/tess2024170053053-s0080-0000000233738219-0275-s_lc.fits": "4b4c0674cfc0a8d16375e3232357b88397cbe93ae9a4acff3e982301d431d21e",
+    "data/lightcurves/233738219/tess2024196212429-s0081-0000000233738219-0276-s_lc.fits": "3f62bcd1ebed4cf142b46783968556d85402c3f26d147273e0d3d86b244cff6a",
+    "data/lightcurves/233738219/tess2024223182411-s0082-0000000233738219-0278-s_lc.fits": "f95b8e69de7f876e89ce83c5955e2d22379de8bea13d11863a2318ad80aac822",
+    "data/lightcurves/233738219/tess2024274222008-s0084-0000000233738219-0281-s_lc.fits": "b11f6ceadb137c3cecf8ae7767666e9ea2fbeb0ecd00198aa6b36f64d84bc94f",
+    "data/lightcurves/233738219/tess2024300212641-s0085-0000000233738219-0282-s_lc.fits": "36c02f06db156db4084c05fe954d8bb2cd5764bd58ff9ce9ca4fd4077442dc7c",
+    "data/lightcurves/233738219/tess2024326142117-s0086-0000000233738219-0283-s_lc.fits": "2e96c8872f82a5f8cce015a366f904721d5116b04cb7d053395cf0a64834a971",
+    "data/products/233738219.ecsv": "a76fcb91cb00c5a2d7b9785c6e786ebb55f9337fb84412a51b0a90a0a5dcc845",
+    "reports/experiments/portfolio/unmodified_review_queue.json": "9fa9a92febd28efac5366816e14d3082f2ff70fa2681aebb861844dadd4deba5",
+    "data/catalogs/all_hz_targets.csv": "5566ff0bed8f4e440cc25e31ba80b391743c2e25455711f9ead1212586c388ff"
+  },
+  "selection_rule": "Every unused sector in the project's existing 120-second SPOC product-table snapshot, excluding the 18 sectors already downloaded. Selection uses only identifiers and metadata; no selected flux has been downloaded in this project.",
+  "checks": {
+    "minimum_measurable_events": 3,
+    "minimum_positive_fraction": 0.6,
+    "minimum_nominal_pdc_snr": 5,
+    "quadratic_degree": 2,
+    "quadratic_width_scale": 1.0
+  },
+  "scope": "A fixed-ephemeris single-star follow-up using previously unexamined archived sectors. Primary period is 26.316459 days; the other trial is a disclosed comparison. No period/epoch/duration refinement or new long-period search. Report PDC and SAP, before and after the frozen three-pass harmonic filter, original and two-sided quadratic event statistics, and every rotation phase class (divisor nearest period/1.316 days). The stated recurrence screen requires event count, positive fraction and nominal SNR in both original and quadratic PDC statistics after filtering. This is not calibrated planet validation or permission to adopt the failed survey method."
+}

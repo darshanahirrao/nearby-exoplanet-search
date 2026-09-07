@@ -246,3 +246,10 @@ of 7/5 under all nine specified flat, linear and quadratic continuum choices.
 The 35.394150-day trial is less stable, but quadratic choices also weaken an
 injected planet control. Both therefore remain unverified. The 26-day fit is
 prioritized for pixel-source diagnostics. No new search or adoption gate changes.
+
+[Two pixel sectors](vetting/portfolio_pixels/FINDINGS.md) show a changing component
+near the target, but retain the strong stellar variability and do not isolate
+a planetary transit. A [fresh archived-sector follow-up](vetting/fresh_sector_followup/FINDINGS.md)
+now has a frozen plan covering all 21 unused sectors in the existing product
+table. It fixes both trial ephemerides and the recurrence screen before download.
+This is follow-up of the same star, not expansion of the failed survey method.
