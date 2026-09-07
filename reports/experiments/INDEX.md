@@ -21,8 +21,9 @@ metrics; their scores cannot be combined into a survey completeness estimate.
 | [Physical-transit follow-up](realistic_duration/FINDINGS.md) | 180 method runs were prepared on six other stars; none executed because the prerequisite failed. | Remains unused |
 | [Early training qualification](qualified_seeds/FINDINGS.md) | 22/45 strict recoveries versus 19 for the original and 21 for the strongest simpler revision; no lost strict recovery. | Incremental-gain gate failed; independent comparison needed |
 | [Complete-pipeline confirmation](pipeline_confirmation/FINDINGS.md) | 240 runs: simpler revision 7/54 strict recoveries, qualified revision 6/54, both legacy pipelines 4/54; no lost legacy recovery. | Both pass; simpler revision selected for pilot |
+| [Known-timing sensitivity diagnostic](confirmation_diagnostic/FINDINGS.md) | 11/54 cases meet reference event SNRs when given their true timing; five of those are not strict blind recoveries. | Retrospective diagnostic; no changed gates |
 | [Real TOI-700 control](../calibration/revised_pipeline/FINDINGS.md) | All four methods recover the known 37.424-day planet strictly; none retains the known 27.810-day signal. | Existing real recovery preserved |
-| [Conditional 100-star pilot](../revised_pilot/STATUS.md) | Metadata-only selection and execution are frozen; all 1,213 input hashes verified. | Numerical execution started; results pending |
+| [Conditional 100-star pilot](../revised_pilot/STATUS.md) | 100/100 finished; 200 trial fits; none passes held-sector checks. All inputs and receipts audited. | No candidate; all fits exported |
 
 Each completed experiment links to its findings, exact plan, code hashes and
 outcomes. The original production results remain unchanged. No methodological

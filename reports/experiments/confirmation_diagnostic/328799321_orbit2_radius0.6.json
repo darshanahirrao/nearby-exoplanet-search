@@ -1,0 +1,40 @@
+{
+  "id": "coarse_only__328799321_orbit2_radius0.6",
+  "tic": 328799321,
+  "radius_earth": 0.6,
+  "duration_minutes": 60.77362793013194,
+  "blind_recovered": false,
+  "blind_strict": false,
+  "before_harmonics": {
+    "training": {
+      "n_observed_events": 13,
+      "n_positive_events": 12,
+      "fixed_ephemeris_snr": 3.287018206180672,
+      "single_event_power_fraction": 0.30226824762039384,
+      "odd_even_sigma": 0.11477386770023658
+    },
+    "holdout": {
+      "n_observed_events": 7,
+      "n_positive_events": 5,
+      "fixed_ephemeris_snr": 1.649274053342836,
+      "single_event_power_fraction": 0.5427937360507302,
+      "odd_even_sigma": 0.669064124373031
+    }
+  },
+  "after_harmonics": {
+    "training": {
+      "n_observed_events": 13,
+      "n_positive_events": 12,
+      "fixed_ephemeris_snr": 3.114488905067351,
+      "single_event_power_fraction": 0.3135325151177891,
+      "odd_even_sigma": 0.1554672225604357
+    },
+    "holdout": {
+      "n_observed_events": 7,
+      "n_positive_events": 5,
+      "fixed_ephemeris_snr": 1.649274053342836,
+      "single_event_power_fraction": 0.5427937360507302,
+      "odd_even_sigma": 0.669064124373031
+    }
+  }
+}

@@ -110,8 +110,10 @@ gate. A [separately frozen comparison](reports/experiments/pipeline_confirmation
 on six other stars finished all 240 runs: the simpler revision recovered 7/54
 physical transit injections strictly, versus 4/54 for both legacy pipelines,
 without losing their four recoveries. It passes the preset pilot criteria and
-preserves the known TOI-700 d control. The [100-star exploratory reanalysis](docs/REVISED_PILOT_EXECUTION.md)
-uses that fixed revision. This limited gain does not establish completeness,
+preserves the known TOI-700 d control. The [100-star exploratory reanalysis](reports/revised_pilot/STATUS.md)
+finished with 200 trial fits, zero execution errors and no fit passing the
+held-sector checks. Every fit and the final audit are public. This limited
+injection gain does not establish completeness,
 methodological novelty or a new planet.
 Use `python scripts/progress.py --experiments-only` for compact experiment status.
 

@@ -1,0 +1,39 @@
+{
+  "exported_utc": "2026-09-07T09:20:07.364241+00:00",
+  "distinct_reanalysed_stars": 100,
+  "additional_distinct_stars": 0,
+  "pilot": {
+    "trial_fits": 200,
+    "unflagged": 0,
+    "flags": {
+      "dominated_by_one_event": 29,
+      "fewer_than_three_training_events": 9,
+      "inconsistent_holdout_depth_signs": 124,
+      "insufficient_holdout_events": 17,
+      "long_relative_to_circular_transit": 11,
+      "low_nominal_training_snr": 84,
+      "not_recovered_in_sector_holdout": 183,
+      "odd_even_discrepancy": 16,
+      "outside_initial_small_planet_radius_range": 19,
+      "outside_nominal_optimistic_hz": 60
+    }
+  },
+  "original_same_targets": {
+    "trial_fits": 200,
+    "unflagged": 0,
+    "flags": {
+      "dominated_by_one_event": 35,
+      "fewer_than_three_training_events": 10,
+      "inconsistent_holdout_depth_signs": 124,
+      "insufficient_holdout_events": 11,
+      "long_relative_to_circular_transit": 200,
+      "low_nominal_training_snr": 29,
+      "not_recovered_in_sector_holdout": 185,
+      "odd_even_discrepancy": 38,
+      "outside_initial_small_planet_radius_range": 65,
+      "outside_nominal_optimistic_hz": 43
+    }
+  },
+  "queue": [],
+  "scope": "All fits retained. Flag counts overlap and do not measure completeness or false-alarm rates. Every unflagged fit needs astrophysical review."
+}

@@ -202,6 +202,16 @@ is frozen using only catalogue properties and observation counts. Both condition
 now pass, allowing [the fixed revision's exploratory execution](../docs/REVISED_PILOT_EXECUTION.md).
 It reanalyses existing targets and does not add to the distinct-star count.
 
+The [100-star pilot is now complete](revised_pilot/STATUS.md): all 200 trial fits
+fail the held-sector evidence requirement, with zero execution errors and no
+planet candidate. Long-duration flags fall from 200 to 11 on the same 100 stars,
+but nominal training-SNR failures increase from 29 to 84 and no fit passes all
+checks. The [final pilot audit](revised_pilot/audit.json) verifies every input and
+receipt; all fits, including per-event measurements, are exported. A separate
+[known-timing diagnostic](experiments/confirmation_diagnostic/FINDINGS.md) shows
+both weak event SNRs and missed period selections in the physical-injection
+sample. It did not change the pilot or any completed experiment's criteria.
+
 The initial data campaign is complete; method development continues as separate,
 bounded experiments. A non-detection does not establish that these systems lack
 planets. Adopting another method requires a measurable advantage and independent
