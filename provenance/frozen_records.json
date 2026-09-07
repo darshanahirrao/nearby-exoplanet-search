@@ -5574,6 +5574,12 @@
     "frozen_sha256": "5e24a08cdc1a7851b6161cf9560f8957be940617dd01d18d47e2efb220091d5e"
   },
   {
+    "result": "results/183641863_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/183641863_longbaseline/frozen_training.json",
+    "frozen_sha256": "1d5dc381f062e2dcf0025e7270c0c49e3ba671d4e8eaddb2195e02f6a2d6ae9e"
+  },
+  {
     "result": "results/183641863_refined/result.json",
     "trials": 4,
     "frozen_record": "results/183641863_refined/frozen_refinement.json",
@@ -5614,6 +5620,12 @@
     "trials": 4,
     "frozen_record": "results/186236329/frozen_discovery.json",
     "frozen_sha256": "7ec9b6b51edb5cd52f84a31020140921402f0b62b40f6a26aa71853301bc2465"
+  },
+  {
+    "result": "results/186236329_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/186236329_longbaseline/frozen_training.json",
+    "frozen_sha256": "609d2dc9e1a555433981410b07d3c14c9fcf4d91f0a6ba0525ed321079d61b05"
   },
   {
     "result": "results/186236329_refined/result.json",
@@ -5682,6 +5694,12 @@
     "frozen_sha256": "22aedb84ccc196182be122fa9e3eb7411b3ee84d538db2488e253bb06099deaa"
   },
   {
+    "result": "results/188777430_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/188777430_longbaseline/frozen_training.json",
+    "frozen_sha256": "720404d1cc93ece980ee9717f78584dcec1a281cf9670464bbc78cc89607d7cf"
+  },
+  {
     "result": "results/188777430_refined/result.json",
     "trials": 4,
     "frozen_record": "results/188777430_refined/frozen_refinement.json",
@@ -5698,6 +5716,12 @@
     "trials": 4,
     "frozen_record": "results/188777432/frozen_discovery.json",
     "frozen_sha256": "8c3cf857fcbac1b96bfe4d060e9bd12afc64a2d878c3f0de57ee2d0bd2c737fa"
+  },
+  {
+    "result": "results/188777432_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/188777432_longbaseline/frozen_training.json",
+    "frozen_sha256": "a041cf0293a6b845dd3de30382c17b2c28c742ff214e07ab46df96fa2b67b56e"
   },
   {
     "result": "results/188777432_refined/result.json",
@@ -5838,6 +5862,12 @@
     "frozen_sha256": "b39e7c112bb55131bc55f626e36cd90d70b3c377cc17ce38f90136aaba48edb3"
   },
   {
+    "result": "results/192850384_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/192850384_longbaseline/frozen_training.json",
+    "frozen_sha256": "712df41bf33d4752cbddabf4e1ce3705ecd484e653394f7413bc3f38984c1366"
+  },
+  {
     "result": "results/192850384_refined/result.json",
     "trials": 2,
     "frozen_record": "results/192850384_refined/frozen_refinement.json",
@@ -5854,6 +5884,12 @@
     "trials": 4,
     "frozen_record": "results/193948885/frozen_discovery.json",
     "frozen_sha256": "a891ca66db3314aef65ebdc6f1747df6072d6f6daa90f09d7750cd1fb264fd88"
+  },
+  {
+    "result": "results/193948885_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/193948885_longbaseline/frozen_training.json",
+    "frozen_sha256": "72fd7c306d3b291cba12ed50e4a5523098e4a5d7828bcbbce52b60014cf72c72"
   },
   {
     "result": "results/193948885_refined/result.json",
@@ -5874,6 +5910,12 @@
     "frozen_sha256": "147b3aadef69e0f6968e9ec93be539240d64feb4373718c63aeabe3b2249a0c7"
   },
   {
+    "result": "results/196947528_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/196947528_longbaseline/frozen_training.json",
+    "frozen_sha256": "aa3fc830721744da626730fa6988fec161b7baf6fd968ff63fbcb4e8665cad33"
+  },
+  {
     "result": "results/196947528_refined/result.json",
     "trials": 4,
     "frozen_record": "results/196947528_refined/frozen_refinement.json",
@@ -5890,6 +5932,12 @@
     "trials": 4,
     "frozen_record": "results/197866266/frozen_discovery.json",
     "frozen_sha256": "210fd90515e9bde7eaab1e5ee2fb9c28b0f11ebc3d82e3bed5a46a7362b36fe5"
+  },
+  {
+    "result": "results/197866266_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/197866266_longbaseline/frozen_training.json",
+    "frozen_sha256": "d9af5e3809c0eae9878c938a52b8c8a1267317ecd9becd3b35f90089fab60cf2"
   },
   {
     "result": "results/197866266_refined/result.json",
@@ -5982,6 +6030,12 @@
     "frozen_sha256": "39eec6eadd930dc1530bac5abd5bff911a283337110a763ac101bc34878afaca"
   },
   {
+    "result": "results/198150180_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/198150180_longbaseline/frozen_training.json",
+    "frozen_sha256": "8935d1ba21b1f0b5f4e803c5b8a8f98cea78f4e9c9c8ce071cf02d11c079d2a5"
+  },
+  {
     "result": "results/198150180_refined/result.json",
     "trials": 4,
     "frozen_record": "results/198150180_refined/frozen_refinement.json",
@@ -5998,6 +6052,12 @@
     "trials": 4,
     "frozen_record": "results/198313420/frozen_discovery.json",
     "frozen_sha256": "b5a9e9a8a54aaf427e19799eb636c127b2fb81e3ebdc513f8f24d14d35b2b6ab"
+  },
+  {
+    "result": "results/198313420_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/198313420_longbaseline/frozen_training.json",
+    "frozen_sha256": "b57962ab162fb6a52fb0d9ae27682eb5da6b6d566b02d361ea1130fa4e595cbf"
   },
   {
     "result": "results/198313420_refined/result.json",
@@ -6028,6 +6088,12 @@
     "trials": 4,
     "frozen_record": "results/198614833/frozen_discovery.json",
     "frozen_sha256": "9c5f0fb2e1f5c045fad7508bce84b2a47a376ff99294a64d384a1c7c93632d76"
+  },
+  {
+    "result": "results/198614833_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/198614833_longbaseline/frozen_training.json",
+    "frozen_sha256": "6f341e41f796995032cc4deab05d1b0f82a34a6529f1d2f451157cb3df40d82d"
   },
   {
     "result": "results/198614833_refined/result.json",
@@ -6120,6 +6186,12 @@
     "frozen_sha256": "7c9a174dcc7001a8bab9bb4e153ce402affea9084ed1b63fe424ed75dcca397a"
   },
   {
+    "result": "results/199659329_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/199659329_longbaseline/frozen_training.json",
+    "frozen_sha256": "a1a70d73c75b369509260a8000a26ca6c9662d8876f53774df09182372328ddf"
+  },
+  {
     "result": "results/199659329_refined/result.json",
     "trials": 4,
     "frozen_record": "results/199659329_refined/frozen_refinement.json",
@@ -6142,6 +6214,12 @@
     "trials": 4,
     "frozen_record": "results/200368010/frozen_discovery.json",
     "frozen_sha256": "215ec72ff6ab89e6d3077120deea6c7c61f72c1944467d82466147b5561bbe1c"
+  },
+  {
+    "result": "results/200368010_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/200368010_longbaseline/frozen_training.json",
+    "frozen_sha256": "404bdcb8e11f5d3235c999906e581959dc38500b6fd6bc83b4c5e493dcb85054"
   },
   {
     "result": "results/200368010_refined/result.json",
@@ -6184,6 +6262,12 @@
     "trials": 4,
     "frozen_record": "results/200805651/frozen_discovery.json",
     "frozen_sha256": "b16e85cdd47bc265640f246619b6386934f938c7de4cba122558ec1df0c50f69"
+  },
+  {
+    "result": "results/200805651_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/200805651_longbaseline/frozen_training.json",
+    "frozen_sha256": "6f306b1a4859c41f08998aa41f47b10b4f67d28eac35d16ec5d8de14968f2a6d"
   },
   {
     "result": "results/200805651_refined/result.json",
@@ -6250,6 +6334,12 @@
     "frozen_sha256": "614b9ef8361643c392caa4d8a8153d25db2cd47a74c89ee4ee849970652adf1e"
   },
   {
+    "result": "results/201289286_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/201289286_longbaseline/frozen_training.json",
+    "frozen_sha256": "2d1cefdb4ef5c492004f945398da6f30a276b06a6e554709d58e9a7819ec342a"
+  },
+  {
     "result": "results/201289286_refined/result.json",
     "trials": 4,
     "frozen_record": "results/201289286_refined/frozen_refinement.json",
@@ -6266,6 +6356,12 @@
     "trials": 3,
     "frozen_record": "results/201292812/frozen_discovery.json",
     "frozen_sha256": "a2f30414822a93778749e05937a9de11e08cd0fa53c6a66eed92dfb3c7b60ac9"
+  },
+  {
+    "result": "results/201292812_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/201292812_longbaseline/frozen_training.json",
+    "frozen_sha256": "ed5b64415b817138684461c0159525fe729557a849494a5cf21787f5a5615c88"
   },
   {
     "result": "results/201292812_refined/result.json",
@@ -6332,6 +6428,12 @@
     "trials": 4,
     "frozen_record": "results/201794109/frozen_discovery.json",
     "frozen_sha256": "1bcbb1ce7dff3c640e42714f897ca38eb319189ff71ce6b57a62adda2a061222"
+  },
+  {
+    "result": "results/201794109_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/201794109_longbaseline/frozen_training.json",
+    "frozen_sha256": "99f7ed8af7fc0c19545f3481a96b35e801a69291624b9685377e14a2494a0f8d"
   },
   {
     "result": "results/201794109_refined/result.json",
@@ -6496,6 +6598,12 @@
     "frozen_sha256": "a5fdda1f0f42be4b0bd4eed5d1ab2e9a62937c3dc5c9f5b9fcb6d27a2dc870f7"
   },
   {
+    "result": "results/206496404_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/206496404_longbaseline/frozen_training.json",
+    "frozen_sha256": "9c637c60a24e62e0c5aa883d92e60b64b631c6616257ff4699b3d6a0816dc0da"
+  },
+  {
     "result": "results/206496404_refined/result.json",
     "trials": 4,
     "frozen_record": "results/206496404_refined/frozen_refinement.json",
@@ -6536,6 +6644,10 @@
     "trials": 4,
     "frozen_record": "results/207211020/frozen_discovery.json",
     "frozen_sha256": "070e69e19c94e4e88ed72d09b0bfe63bffc875737c19a04b4f6886ffcfc9a101"
+  },
+  {
+    "result": "results/207211020_longbaseline/result.json",
+    "trials": 0
   },
   {
     "result": "results/207211020_refined/result.json",
@@ -6626,6 +6738,12 @@
     "trials": 1,
     "frozen_record": "results/207398617/frozen_discovery.json",
     "frozen_sha256": "10f00566ba3fc7f3e98811016726abe064b538dd8070257922b32bc70a376849"
+  },
+  {
+    "result": "results/207398617_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/207398617_longbaseline/frozen_training.json",
+    "frozen_sha256": "04ce40c42d92f535ed6da23f08a20ab7769ce28070fe76125fb2142d6e4cb495"
   },
   {
     "result": "results/207398617_refined/result.json",
@@ -6748,6 +6866,12 @@
     "frozen_sha256": "de6d7d179054b508a0c009972c1e24307d844bc132e06782da87bf1f8b92a96c"
   },
   {
+    "result": "results/215402573_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/215402573_longbaseline/frozen_training.json",
+    "frozen_sha256": "8c745ba281e7f28ba8dc1bf24045aa66a11cdc67489fb475e3d3e18e463a1d9b"
+  },
+  {
     "result": "results/215402573_refined/result.json",
     "trials": 4,
     "frozen_record": "results/215402573_refined/frozen_refinement.json",
@@ -6812,6 +6936,12 @@
     "frozen_sha256": "bc0cbbdf64c68100a3b1610291256d87132326836bf8474a7a9802742de428c7"
   },
   {
+    "result": "results/219004642_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/219004642_longbaseline/frozen_training.json",
+    "frozen_sha256": "6cfb9484fd3e395745126f3d5a39f8e24040ec2f5696af332cbb11c57d4939a9"
+  },
+  {
     "result": "results/219004642_refined/result.json",
     "trials": 4,
     "frozen_record": "results/219004642_refined/frozen_refinement.json",
@@ -6828,6 +6958,12 @@
     "trials": 4,
     "frozen_record": "results/219037593/frozen_discovery.json",
     "frozen_sha256": "7f7262bd14ad02a642df1c7e0b76f03124e47fc481ab294c1daca3caa70f6946"
+  },
+  {
+    "result": "results/219037593_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/219037593_longbaseline/frozen_training.json",
+    "frozen_sha256": "613f18efc6d4f0800fbec949cb1a0875509209b81b33008e50a1c1bfcbda92d8"
   },
   {
     "result": "results/219037593_refined/result.json",
@@ -6852,6 +6988,12 @@
     "trials": 4,
     "frozen_record": "results/219223683/frozen_discovery.json",
     "frozen_sha256": "0fc97aac54ecd49c8543b78967837584e65b76b16d0c3d73dae56c5f68ad9c82"
+  },
+  {
+    "result": "results/219223683_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/219223683_longbaseline/frozen_training.json",
+    "frozen_sha256": "2a740fc0bdf313a5468f470f65c3814c63e9d499d1d343c3cd64adc09bb00cca"
   },
   {
     "result": "results/219223683_refined/result.json",
@@ -6900,6 +7042,12 @@
     "trials": 2,
     "frozen_record": "results/219244444_known_residual/frozen_training.json",
     "frozen_sha256": "f0e469dcb6e98a15f0d57fccbd6c5d534ad6ff514712d0553b5bc8701a6f1080"
+  },
+  {
+    "result": "results/219244444_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/219244444_longbaseline/frozen_training.json",
+    "frozen_sha256": "ba6573ac9c30b71e94be0311396aa6460eeec6174f2a94f7f29008c1be04af7b"
   },
   {
     "result": "results/219244444_refined/result.json",
@@ -7016,6 +7164,12 @@
     "frozen_sha256": "4cc1f283857a7deb4b057a00a4e7fb45445793da70654cc84061f114819f8c9f"
   },
   {
+    "result": "results/219480910_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/219480910_longbaseline/frozen_training.json",
+    "frozen_sha256": "698ce30239b3339ef9ac3d9cc8d17422999f38a6878379af18c3ca05833a7587"
+  },
+  {
     "result": "results/219480910_refined/result.json",
     "trials": 4,
     "frozen_record": "results/219480910_refined/frozen_refinement.json",
@@ -7032,6 +7186,12 @@
     "trials": 3,
     "frozen_record": "results/219502530/frozen_discovery.json",
     "frozen_sha256": "cbbbbebce6eebac9ce0bbeaf65811c08d2bfaa495a24ff6de650614757e36bfd"
+  },
+  {
+    "result": "results/219502530_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/219502530_longbaseline/frozen_training.json",
+    "frozen_sha256": "30e217831674de306e88588a4e4418a0236c1f901e71d0c05a8281a841929a76"
   },
   {
     "result": "results/219502530_refined/result.json",
@@ -7152,6 +7312,12 @@
     "trials": 2,
     "frozen_record": "results/219823668/frozen_discovery.json",
     "frozen_sha256": "4eeb87fd4396aa6d9d06b33f8bf755a60dfb5d70740e18bdf75bdea42ae9c0c3"
+  },
+  {
+    "result": "results/219823668_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/219823668_longbaseline/frozen_training.json",
+    "frozen_sha256": "b66f39ebed8cf26d8e3195baf4bcd4f3bbaa2bd512967e333b5f260dfc1d935a"
   },
   {
     "result": "results/219823668_refined/result.json",
@@ -7350,6 +7516,12 @@
     "frozen_sha256": "97bd81d111c74729075efccdcc00c45f9914c80259f4ce16792d3f24ac19b7bb"
   },
   {
+    "result": "results/220423218_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/220423218_longbaseline/frozen_training.json",
+    "frozen_sha256": "16983c16184e43ccaf9703bddec0da18eaf01b2ab20d03cf163f4120046c1b7f"
+  },
+  {
     "result": "results/220423218_refined/result.json",
     "trials": 4,
     "frozen_record": "results/220423218_refined/frozen_refinement.json",
@@ -7368,6 +7540,12 @@
     "frozen_sha256": "6d3794b253de34df05792121ea6fc0ef077ce5d9ba9e318a8b5919f4a1f8361f"
   },
   {
+    "result": "results/220433363_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/220433363_longbaseline/frozen_training.json",
+    "frozen_sha256": "b7ee9282426a0473360953afafa94e6c37e5815f2fb255ebc24c48c2370a3c84"
+  },
+  {
     "result": "results/220433363_refined/result.json",
     "trials": 4,
     "frozen_record": "results/220433363_refined/frozen_refinement.json",
@@ -7384,6 +7562,12 @@
     "trials": 4,
     "frozen_record": "results/220433364/frozen_discovery.json",
     "frozen_sha256": "1745fddb4dfcbfc1683ea36814c144855dc12ee7eb9d7ca75367aee0e38b0223"
+  },
+  {
+    "result": "results/220433364_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/220433364_longbaseline/frozen_training.json",
+    "frozen_sha256": "c2951d89586d85d99b04abd238e5e6b9762f44cda0af64fc5d461b306b824f85"
   },
   {
     "result": "results/220433364_refined/result.json",
@@ -7408,6 +7592,12 @@
     "trials": 4,
     "frozen_record": "results/220554236/frozen_discovery.json",
     "frozen_sha256": "12435423e2b909cc3319286fa4650661909a000b9caf54a19c0968cbe6d39ff1"
+  },
+  {
+    "result": "results/220554236_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/220554236_longbaseline/frozen_training.json",
+    "frozen_sha256": "72e144e4ded1ebcbb4caca1d4a0224211b901a252e8d03706a57e35d33223b41"
   },
   {
     "result": "results/220554236_refined/result.json",
@@ -7474,6 +7664,12 @@
     "trials": 4,
     "frozen_record": "results/224303868/frozen_discovery.json",
     "frozen_sha256": "596085ff6f91dc5f389591684996d7ec995be54e694b5a87a0de41e10a00ec5c"
+  },
+  {
+    "result": "results/224303868_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/224303868_longbaseline/frozen_training.json",
+    "frozen_sha256": "dc9f22961c9f993eaa691a3dc583ca28420e72a63815256e1cb713ac81874884"
   },
   {
     "result": "results/224303868_refined/result.json",
@@ -7564,6 +7760,12 @@
     "frozen_sha256": "1a6bd3a0b807fa0f0318ea5b1a5cb3e3a5ebe3cbdb31a241e73f3b28fb86596a"
   },
   {
+    "result": "results/229142295_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/229142295_longbaseline/frozen_training.json",
+    "frozen_sha256": "28a697e92e6e689e6a57a9c6f696fc45cc2a3c4f920ebc9f390f00638cf9e479"
+  },
+  {
     "result": "results/229142295_refined/result.json",
     "trials": 4,
     "frozen_record": "results/229142295_refined/frozen_refinement.json",
@@ -7628,6 +7830,10 @@
     "trials": 3,
     "frozen_record": "results/229158889/frozen_discovery.json",
     "frozen_sha256": "079abc7c3e03009764cdaaed095f4a5e188cbda4046ddbd2dd4d402b3b6c6325"
+  },
+  {
+    "result": "results/229158889_longbaseline/result.json",
+    "trials": 0
   },
   {
     "result": "results/229158889_refined/result.json",
@@ -7720,6 +7926,12 @@
     "frozen_sha256": "d909e4992deb8df01457149a83739d51bb7f8cdca6bb1ca5510e5c369850966e"
   },
   {
+    "result": "results/229535299_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/229535299_longbaseline/frozen_training.json",
+    "frozen_sha256": "b16c93f59ca302087048f2299a3d8ae65cb7f7c128d735cf1afb7f7b54df1686"
+  },
+  {
     "result": "results/229535299_refined/result.json",
     "trials": 4,
     "frozen_record": "results/229535299_refined/frozen_refinement.json",
@@ -7736,6 +7948,12 @@
     "trials": 4,
     "frozen_record": "results/229535724/frozen_discovery.json",
     "frozen_sha256": "8bc775037910984e4a3fd9ee4bcb02e19d7c13f9821b6e9ff134062d41f0fcff"
+  },
+  {
+    "result": "results/229535724_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/229535724_longbaseline/frozen_training.json",
+    "frozen_sha256": "9852237031ad5669d15f2fda21a6f5b804ae966168cad9ee497f70c191ab4f4c"
   },
   {
     "result": "results/229535724_refined/result.json",
@@ -7778,6 +7996,12 @@
     "trials": 1,
     "frozen_record": "results/229572009/frozen_discovery.json",
     "frozen_sha256": "226f64722304f287d85835309f59ac7af3b21c7de659716215ea9f75e60d5f83"
+  },
+  {
+    "result": "results/229572009_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/229572009_longbaseline/frozen_training.json",
+    "frozen_sha256": "4f1b526cded1d82adcb769ff192ad91617a221c725bbc78f557eb8b57040d2c5"
   },
   {
     "result": "results/229572009_refined/result.json",
@@ -8020,6 +8244,12 @@
     "frozen_sha256": "cb9857e41335d57901139715cd81bce8b86ff6f8fde0143f0863837b60fbfcb2"
   },
   {
+    "result": "results/230235775_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/230235775_longbaseline/frozen_training.json",
+    "frozen_sha256": "5a779d702a835d62bb767a0399dc4dd929c43969ad88d95121fc0e8600d4b02e"
+  },
+  {
     "result": "results/230235775_refined/result.json",
     "trials": 4,
     "frozen_record": "results/230235775_refined/frozen_refinement.json",
@@ -8086,6 +8316,12 @@
     "frozen_sha256": "5fe2b1378482aa367d461bcf8d8cf1a91121f118ca31b1cdb944f82882d989ea"
   },
   {
+    "result": "results/231022436_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/231022436_longbaseline/frozen_training.json",
+    "frozen_sha256": "90647e6d1eb3d79fed45efa318aa8f60b17e16bc9be78efb9a90ed17e67fdf3d"
+  },
+  {
     "result": "results/231022436_refined/result.json",
     "trials": 2,
     "frozen_record": "results/231022436_refined/frozen_refinement.json",
@@ -8126,6 +8362,12 @@
     "trials": 4,
     "frozen_record": "results/231290860/frozen_discovery.json",
     "frozen_sha256": "a419e351b7e174bc8dbdd293ceb81c32993ae5b390404a8dfda3f54f2bdba3b3"
+  },
+  {
+    "result": "results/231290860_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/231290860_longbaseline/frozen_training.json",
+    "frozen_sha256": "db94918a2d9f4781359007f45c957e3d0c2d18ba61a6f0db3e6291dbe24ec9e6"
   },
   {
     "result": "results/231290860_refined/result.json",
@@ -8192,6 +8434,12 @@
     "trials": 4,
     "frozen_record": "results/231833973/frozen_discovery.json",
     "frozen_sha256": "ce86771b6199d4d8f9f913404aacf1c857b7ca3c8567c4640cca46e308f65a7b"
+  },
+  {
+    "result": "results/231833973_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/231833973_longbaseline/frozen_training.json",
+    "frozen_sha256": "afa5e2d96253cde96999cea7c6d0ecf492a47a1f75fb5e9d574064b11ed93eeb"
   },
   {
     "result": "results/231833973_refined/result.json",
@@ -8284,6 +8532,12 @@
     "frozen_sha256": "740db074c3dd9eed1d10fcdba0f00b5d233b997cc0781787e2e868d512cd1b83"
   },
   {
+    "result": "results/232075203_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/232075203_longbaseline/frozen_training.json",
+    "frozen_sha256": "62b25a3772b4ca95ec0ec027d059b8d4b53734c756889b8c9273c4da1098ce94"
+  },
+  {
     "result": "results/232075203_refined/result.json",
     "trials": 4,
     "frozen_record": "results/232075203_refined/frozen_refinement.json",
@@ -8302,6 +8556,12 @@
     "frozen_sha256": "3488e061e19a2aa56c6a937c54391626b7b495f262e4a21cf7bbcde3c4731ff3"
   },
   {
+    "result": "results/232521209_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/232521209_longbaseline/frozen_training.json",
+    "frozen_sha256": "76cef5af6d27f0e5e6bbe4dac208b3b885af7407c88fb949f31b2612561f6e33"
+  },
+  {
     "result": "results/232521209_refined/result.json",
     "trials": 4,
     "frozen_record": "results/232521209_refined/frozen_refinement.json",
@@ -8318,6 +8578,12 @@
     "trials": 4,
     "frozen_record": "results/232524921/frozen_discovery.json",
     "frozen_sha256": "127efb41a736c72aa876a9a501e247946572d82ca700b4abaaa039fda0dfdbc9"
+  },
+  {
+    "result": "results/232524921_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/232524921_longbaseline/frozen_training.json",
+    "frozen_sha256": "35d180f73ea5b95a3504dfc1c08c2a9ddf21aea7627b7c1c53a8ea03b537a9ff"
   },
   {
     "result": "results/232524921_refined/result.json",
@@ -8386,6 +8652,12 @@
     "frozen_sha256": "7784a279c1593a6d55477292fb66e8f86bfdf9b48dcfadbb4964e052cdf7002e"
   },
   {
+    "result": "results/232814030_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/232814030_longbaseline/frozen_training.json",
+    "frozen_sha256": "9a7773fa7a6542cce3143fc5258598db791d54ff0d7a896eba15b9ca20262291"
+  },
+  {
     "result": "results/232814030_refined/result.json",
     "trials": 4,
     "frozen_record": "results/232814030_refined/frozen_refinement.json",
@@ -8426,6 +8698,12 @@
     "trials": 4,
     "frozen_record": "results/232979974/frozen_discovery.json",
     "frozen_sha256": "268ad7f648429f274fea6d344cb1750c775af32c98e75036f23565b8ff1058dc"
+  },
+  {
+    "result": "results/232979974_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/232979974_longbaseline/frozen_training.json",
+    "frozen_sha256": "0851b24756ba09defd592a51d0e6bf592f984f643c59edbcc2f26a4387ade110"
   },
   {
     "result": "results/232979974_refined/result.json",
@@ -8542,6 +8820,12 @@
     "frozen_sha256": "bdccaa6e932ff224b2175457a4dcba686a5e777b90bd720d1de8c0db4913898c"
   },
   {
+    "result": "results/233170203_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/233170203_longbaseline/frozen_training.json",
+    "frozen_sha256": "247a1724ebcbaf9e7b3948e43a0a2b6236d85e0e2ab0ef4b49ef94cd2071127d"
+  },
+  {
     "result": "results/233170203_refined/result.json",
     "trials": 4,
     "frozen_record": "results/233170203_refined/frozen_refinement.json",
@@ -8558,6 +8842,12 @@
     "trials": 4,
     "frozen_record": "results/233176655/frozen_discovery.json",
     "frozen_sha256": "15df5b6b54acbd73e79a59277c156d337119fa0295f720721abe45af01695c49"
+  },
+  {
+    "result": "results/233176655_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/233176655_longbaseline/frozen_training.json",
+    "frozen_sha256": "13cff852e1f6bc8edf7f676ee3c705cf2338235e88702717909414dac2e9873c"
   },
   {
     "result": "results/233176655_refined/result.json",
@@ -8578,6 +8868,12 @@
     "frozen_sha256": "912d253d4596595eaeb66f4f1ac7a32b8a0273e862df069b5ab91a37d4b0a2de"
   },
   {
+    "result": "results/233306304_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/233306304_longbaseline/frozen_training.json",
+    "frozen_sha256": "c326dde4d320d7c6d73913aad50ad59b61857a956bcba17765ea48d7a4856d5f"
+  },
+  {
     "result": "results/233306304_refined/result.json",
     "trials": 4,
     "frozen_record": "results/233306304_refined/frozen_refinement.json",
@@ -8594,6 +8890,12 @@
     "trials": 1,
     "frozen_record": "results/233461993/frozen_discovery.json",
     "frozen_sha256": "ddd4a610f2dc18350d7bf0baa57161b700710bf499929223a09c85272ed21ac5"
+  },
+  {
+    "result": "results/233461993_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/233461993_longbaseline/frozen_training.json",
+    "frozen_sha256": "ca8d2be0296ca7941cc083ccaff89d15d6b85c61e6518401f1d5527dd2f22159"
   },
   {
     "result": "results/233461993_refined/result.json",
@@ -8692,6 +8994,12 @@
     "frozen_sha256": "8df3d44b33b11db7417170a6fbff408d8ef53f6b85d909e5f341cff02108a185"
   },
   {
+    "result": "results/233959273_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/233959273_longbaseline/frozen_training.json",
+    "frozen_sha256": "9fcce39dc2c84f9544fdc1f40df4d43978927d23cde8c860e1eb7a195b31398a"
+  },
+  {
     "result": "results/233959273_refined/result.json",
     "trials": 4,
     "frozen_record": "results/233959273_refined/frozen_refinement.json",
@@ -8708,6 +9016,12 @@
     "trials": 3,
     "frozen_record": "results/234504902/frozen_discovery.json",
     "frozen_sha256": "1dd79efba24c08e341a0e34b71cf8ece7532e245b6fd607ba92a819883859ee6"
+  },
+  {
+    "result": "results/234504902_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/234504902_longbaseline/frozen_training.json",
+    "frozen_sha256": "03f7d32f9d0deb38cde9322dda7025cc0002cd1dcbbd0d320841ae8b75368c7e"
   },
   {
     "result": "results/234504902_refined/result.json",
@@ -8750,6 +9064,12 @@
     "trials": 4,
     "frozen_record": "results/235062311/frozen_discovery.json",
     "frozen_sha256": "99fbeca3ba73a5ca7f32d4f063522217e5604a01c6b00ec4862996b672ea79c6"
+  },
+  {
+    "result": "results/235062311_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/235062311_longbaseline/frozen_training.json",
+    "frozen_sha256": "05093b6632ee768987a1df71f65096acf6a86ba0d6e47c8d33c2cbb884fe1d47"
   },
   {
     "result": "results/235062311_refined/result.json",
@@ -8854,6 +9174,12 @@
     "frozen_sha256": "b4928df19ac85996bb8089547021f20e2edcd3c64be46360a916c89a6043b640"
   },
   {
+    "result": "results/236320474_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/236320474_longbaseline/frozen_training.json",
+    "frozen_sha256": "7dc1ddd9646058175628a4b229d33a77e493286297e2b564979758372b3465d4"
+  },
+  {
     "result": "results/236320474_refined/result.json",
     "trials": 4,
     "frozen_record": "results/236320474_refined/frozen_refinement.json",
@@ -8942,6 +9268,12 @@
     "trials": 4,
     "frozen_record": "results/237076895/frozen_discovery.json",
     "frozen_sha256": "c5cfcfca389c6affe797044368db4dd3be652d34ba2e036bebe42cd3125e2887"
+  },
+  {
+    "result": "results/237076895_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/237076895_longbaseline/frozen_training.json",
+    "frozen_sha256": "6a51fa4e9fdf1a5a5bbb44b18dcb241b293c51e409a7b3009098c5b884a2551d"
   },
   {
     "result": "results/237076895_refined/result.json",
@@ -9034,6 +9366,12 @@
     "frozen_sha256": "bda70bc5f535f699ec0ee6c6c058a444726acbb294e30ed1eb60c0ead65858cd"
   },
   {
+    "result": "results/238022708_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/238022708_longbaseline/frozen_training.json",
+    "frozen_sha256": "d5da0b8a172c3794085d63c0b6fbe83ea52b89514963c597aee811d154cab952"
+  },
+  {
     "result": "results/238022708_refined/result.json",
     "trials": 4,
     "frozen_record": "results/238022708_refined/frozen_refinement.json",
@@ -9050,6 +9388,12 @@
     "trials": 4,
     "frozen_record": "results/238030337/frozen_discovery.json",
     "frozen_sha256": "ead80402af94b2445f73e435f181e57d4a2a0f0c10f5d8cd7832ae9dbe853f45"
+  },
+  {
+    "result": "results/238030337_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/238030337_longbaseline/frozen_training.json",
+    "frozen_sha256": "85448215063f28b6c0c5cf9db0ecd3258b25b263f5226e634f6cac66a671713a"
   },
   {
     "result": "results/238030337_refined/result.json",
@@ -9092,6 +9436,12 @@
     "trials": 4,
     "frozen_record": "results/238041040/frozen_discovery.json",
     "frozen_sha256": "02c748e3c1fdd68ee7bf2c23e1083a2569afc0b8efc6e8828f2de80117432545"
+  },
+  {
+    "result": "results/238041040_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/238041040_longbaseline/frozen_training.json",
+    "frozen_sha256": "2d9f53c2f9cbd0d17516f186f32f10feec4a014369c0686adf9ff789c3d196a4"
   },
   {
     "result": "results/238041040_refined/result.json",
@@ -9182,6 +9532,10 @@
     "trials": 3,
     "frozen_record": "results/240403586/frozen_discovery.json",
     "frozen_sha256": "c008507cb537f9c8101238bf31231152837787eb87fc5f481a8ea3d81a4bca8f"
+  },
+  {
+    "result": "results/240403586_longbaseline/result.json",
+    "trials": 0
   },
   {
     "result": "results/240403586_refined/result.json",
@@ -9438,6 +9792,12 @@
     "frozen_sha256": "6ebb771ef9d62e813a1c4b156f41ca5ab0d24e61531927f7d73f3942bdd6fc0f"
   },
   {
+    "result": "results/248070834_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/248070834_longbaseline/frozen_training.json",
+    "frozen_sha256": "5e7d1fe80202e7fbcf21ca36ea0da0677bb241de31675df4efeaa9baea90222a"
+  },
+  {
     "result": "results/248070834_refined/result.json",
     "trials": 4,
     "frozen_record": "results/248070834_refined/frozen_refinement.json",
@@ -9616,6 +9976,12 @@
     "frozen_sha256": "f2cad5debe108afc3f0376b859de1335fd68de9b3c0b6f4c5273c0ce6b79ad4e"
   },
   {
+    "result": "results/255929154_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/255929154_longbaseline/frozen_training.json",
+    "frozen_sha256": "b50892c50a86971b5ff18dfe9dfd2b9a9461979d95bad3de34df03f6c9f93f44"
+  },
+  {
     "result": "results/255929154_refined/result.json",
     "trials": 1,
     "frozen_record": "results/255929154_refined/frozen_refinement.json",
@@ -9704,6 +10070,12 @@
     "trials": 4,
     "frozen_record": "results/256771035/frozen_discovery.json",
     "frozen_sha256": "039262bdb0ddc090090639dc5381d239f4a335919470a856ee6e2ed7b734434a"
+  },
+  {
+    "result": "results/256771035_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/256771035_longbaseline/frozen_training.json",
+    "frozen_sha256": "df2108ec3358588ff39250e8c73b1326d2f8a1735f91f5698c5c260a685e880d"
   },
   {
     "result": "results/256771035_refined/result.json",
@@ -9820,6 +10192,12 @@
     "frozen_sha256": "11a1dc89f9ad7924b9061d7fe8f5f582631af06deb162cbe52ffe79ecb61d816"
   },
   {
+    "result": "results/258680351_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/258680351_longbaseline/frozen_training.json",
+    "frozen_sha256": "f9c341cb9bd7a075cd08338332db3b69b0c5f18bb387da04e0636210819cde7d"
+  },
+  {
     "result": "results/258680351_refined/result.json",
     "trials": 4,
     "frozen_record": "results/258680351_refined/frozen_refinement.json",
@@ -9850,6 +10228,12 @@
     "frozen_sha256": "ceb1a059c011d78ae9b54e51391862d37509b0186455859a86116705f4b5dfc5"
   },
   {
+    "result": "results/259373187_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/259373187_longbaseline/frozen_training.json",
+    "frozen_sha256": "b7c94baf422844e21c4a03f44e93d317e7d52da1dc5057167182651ac7bab992"
+  },
+  {
     "result": "results/259373187_refined/result.json",
     "trials": 4,
     "frozen_record": "results/259373187_refined/frozen_refinement.json",
@@ -9866,6 +10250,12 @@
     "trials": 4,
     "frozen_record": "results/259374524/frozen_discovery.json",
     "frozen_sha256": "a8807b9f78d41f14930143e8eb840087db8f5d2e1e0eda5b78a3d52555e57814"
+  },
+  {
+    "result": "results/259374524_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/259374524_longbaseline/frozen_training.json",
+    "frozen_sha256": "414d44432d090978764a010f8c6c96a6b3a94bd4e7e3bb2f5e2b69661eacb0a9"
   },
   {
     "result": "results/259374524_refined/result.json",
@@ -9886,6 +10276,12 @@
     "frozen_sha256": "1250aa4d7d62f0ba3769ca7156428be5ed7aee4b690c6d6a8ec3a1cefc7e7714"
   },
   {
+    "result": "results/259701898_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/259701898_longbaseline/frozen_training.json",
+    "frozen_sha256": "818f62394d18e9ce26a6e03ebf9d265f18464d9df1f6b0f55ea1cf552c64abd5"
+  },
+  {
     "result": "results/259701898_refined/result.json",
     "trials": 4,
     "frozen_record": "results/259701898_refined/frozen_refinement.json",
@@ -9902,6 +10298,12 @@
     "trials": 3,
     "frozen_record": "results/259861569/frozen_discovery.json",
     "frozen_sha256": "c902e69441da9065f69041ed893737d00c876db1a6dfb47e254d8818ec066863"
+  },
+  {
+    "result": "results/259861569_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/259861569_longbaseline/frozen_training.json",
+    "frozen_sha256": "576dcc06800c261c0e55e1b732879bb7f069d49dc1f213880f08716b6fffec58"
   },
   {
     "result": "results/259861569_refined/result.json",
@@ -10124,6 +10526,12 @@
     "frozen_sha256": "7724d6500c006a6be29193de5bcd76708571563c62b66d10c68a7e5a9e9cb3d4"
   },
   {
+    "result": "results/264992033_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/264992033_longbaseline/frozen_training.json",
+    "frozen_sha256": "54d672b8901f35ceb07050b9341a811fb300d2f8ca24bfcb17ccdb6204e0793d"
+  },
+  {
     "result": "results/264992033_refined/result.json",
     "trials": 4,
     "frozen_record": "results/264992033_refined/frozen_refinement.json",
@@ -10140,6 +10548,12 @@
     "trials": 4,
     "frozen_record": "results/267858535/frozen_discovery.json",
     "frozen_sha256": "1f257b764f20537aac4a1ea31ab2bad055d18f616c5946c89e9c34cbc5e44cdc"
+  },
+  {
+    "result": "results/267858535_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/267858535_longbaseline/frozen_training.json",
+    "frozen_sha256": "bc0b1b337c4833c647e33944048a2b7abb9c9dccfd8437c0adf6c3166c33793c"
   },
   {
     "result": "results/267858535_refined/result.json",
@@ -10228,6 +10642,12 @@
     "trials": 4,
     "frozen_record": "results/269105266/frozen_discovery.json",
     "frozen_sha256": "01eb43914d1a01ffd8d10e779432f9bc80af8f467c2edd759e2fa0485e001bec"
+  },
+  {
+    "result": "results/269105266_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/269105266_longbaseline/frozen_training.json",
+    "frozen_sha256": "4bf30124d840b727c728fd7d105aa9a914300dd6fa14c7d633b6d36a3590a9f7"
   },
   {
     "result": "results/269105266_refined/result.json",
@@ -10402,6 +10822,12 @@
     "trials": 4,
     "frozen_record": "results/272279254/frozen_discovery.json",
     "frozen_sha256": "aef98cdfc875f90f18ec3a49aab6c9ae0fc28dd5804d2de29383ef0c3c8be32c"
+  },
+  {
+    "result": "results/272279254_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/272279254_longbaseline/frozen_training.json",
+    "frozen_sha256": "995164dfbd083e67324aec342ef5faf8bc6ee6ba6edc8a5f938e185bb68c8a2d"
   },
   {
     "result": "results/272279254_refined/result.json",
@@ -10662,6 +11088,12 @@
     "frozen_sha256": "9b0975698c52a9b15f6d24f082d085ca350b9ae40a7fcfb5891aea9490e75b86"
   },
   {
+    "result": "results/273631732_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/273631732_longbaseline/frozen_training.json",
+    "frozen_sha256": "5aaef6413644386afe494c7b83c79166d8030076386a9051842f9120eff6d890"
+  },
+  {
     "result": "results/273631732_refined/result.json",
     "trials": 3,
     "frozen_record": "results/273631732_refined/frozen_refinement.json",
@@ -10876,6 +11308,12 @@
     "frozen_sha256": "a65576259b84518e26067bdbb5b34e425ecd72e9269c7ead41b5cff9a920c3b8"
   },
   {
+    "result": "results/275190266_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/275190266_longbaseline/frozen_training.json",
+    "frozen_sha256": "14a0353b2c37eb80ae6430c3e831994b820591ecec91d84d3c7eabcf662983c8"
+  },
+  {
     "result": "results/275190266_refined/result.json",
     "trials": 4,
     "frozen_record": "results/275190266_refined/frozen_refinement.json",
@@ -10894,6 +11332,12 @@
     "frozen_sha256": "9dcf696f5e7a66cb6077fc66c8c34ce36558aa74218b4ebf04148a9bf815f494"
   },
   {
+    "result": "results/276832928_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/276832928_longbaseline/frozen_training.json",
+    "frozen_sha256": "83bea61a94550ef9eae36afdbff143b4b9b4baf09d8dee3545bb2d6c6eba4c74"
+  },
+  {
     "result": "results/276832928_refined/result.json",
     "trials": 4,
     "frozen_record": "results/276832928_refined/frozen_refinement.json",
@@ -10910,6 +11354,12 @@
     "trials": 3,
     "frozen_record": "results/276976190/frozen_discovery.json",
     "frozen_sha256": "5baba679fc94553b59600cdc11791578936d16f44337bcde69de4bfc590da021"
+  },
+  {
+    "result": "results/276976190_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/276976190_longbaseline/frozen_training.json",
+    "frozen_sha256": "ab67e8f2baa1e0e8c25213857b742fc1e3d7bf4d259a94b7f50bc9c9a8b33145"
   },
   {
     "result": "results/276976190_refined/result.json",
@@ -11032,6 +11482,12 @@
     "frozen_sha256": "b2c67c4bf78926a42f7b81bc9bb38324c4c1e76a3d5c6210253f7b4ff9a4c45b"
   },
   {
+    "result": "results/279354493_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/279354493_longbaseline/frozen_training.json",
+    "frozen_sha256": "b9fa7a6feab4b5a0c04fbeb4c4286000ce4aac3593e45f96ccd5cfe630b79044"
+  },
+  {
     "result": "results/279354493_refined/result.json",
     "trials": 4,
     "frozen_record": "results/279354493_refined/frozen_refinement.json",
@@ -11050,6 +11506,12 @@
     "frozen_sha256": "25c15f98edec01e485653238613f248833cc75c31c4cdf9da17ced97e748a92f"
   },
   {
+    "result": "results/279674929_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/279674929_longbaseline/frozen_training.json",
+    "frozen_sha256": "bcfda1b8514991ed5e9c50e646e05c3b4ea6efa48818f3fec684cb5e892fef46"
+  },
+  {
     "result": "results/279674929_refined/result.json",
     "trials": 4,
     "frozen_record": "results/279674929_refined/frozen_refinement.json",
@@ -11066,6 +11528,12 @@
     "trials": 4,
     "frozen_record": "results/279742501/frozen_discovery.json",
     "frozen_sha256": "d6c7870e4f34299126f9f7280ec380d4776a0e2670cf91878f758892053aa644"
+  },
+  {
+    "result": "results/279742501_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/279742501_longbaseline/frozen_training.json",
+    "frozen_sha256": "49cba1b139cc60f1fa248b925dacae0274c0929d4a012095661c5ed0bd6d67cf"
   },
   {
     "result": "results/279742501_refined/result.json",
@@ -11394,6 +11862,12 @@
     "frozen_sha256": "941d2935b1e099a497ec8dbdff675504b34195065023d6ae932c6699ed4c4a82"
   },
   {
+    "result": "results/284596951_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/284596951_longbaseline/frozen_training.json",
+    "frozen_sha256": "aa1a26ecf53cae6668cd8bf4caced7ab8b8ca6c80b2e0b2b6d9c71799ba4c919"
+  },
+  {
     "result": "results/284596951_refined/result.json",
     "trials": 3,
     "frozen_record": "results/284596951_refined/frozen_refinement.json",
@@ -11530,6 +12004,12 @@
     "trials": 4,
     "frozen_record": "results/286126698/frozen_discovery.json",
     "frozen_sha256": "601bf6a6e65eedd585b9913cba825653ab53dd7b8bf7fb47245680cb432a5a39"
+  },
+  {
+    "result": "results/286126698_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/286126698_longbaseline/frozen_training.json",
+    "frozen_sha256": "29d55c5d0544439ee484dff2483bb38e9b59a32791d56bce1926d03f7a3d1f56"
   },
   {
     "result": "results/286126698_refined/result.json",
@@ -11772,6 +12252,12 @@
     "frozen_sha256": "f182323b315c3610393f989185897bbce0cbbf66265ab0a004455eb98d8bcfe5"
   },
   {
+    "result": "results/287444500_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/287444500_longbaseline/frozen_training.json",
+    "frozen_sha256": "4bc42e92573927c1234d9e4a5bcc9f619632ec848b2b192bbb63ad7e41318ebc"
+  },
+  {
     "result": "results/287444500_refined/result.json",
     "trials": 3,
     "frozen_record": "results/287444500_refined/frozen_refinement.json",
@@ -11838,6 +12324,12 @@
     "frozen_sha256": "ee815d1589c38a4e15cf49989c6200804d2d90f956fea8d1dbb28ed4d65828b9"
   },
   {
+    "result": "results/288404936_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/288404936_longbaseline/frozen_training.json",
+    "frozen_sha256": "1411c446a6c4c672a9bea27d8ad9c56a405a1b6d25011e593f2643ef5cb49248"
+  },
+  {
     "result": "results/288404936_refined/result.json",
     "trials": 4,
     "frozen_record": "results/288404936_refined/frozen_refinement.json",
@@ -11878,6 +12370,12 @@
     "trials": 1,
     "frozen_record": "results/288507043/frozen_discovery.json",
     "frozen_sha256": "9b099b22356935bcc3245f30301ef22f5820020613897f0e6fa372506d8e8760"
+  },
+  {
+    "result": "results/288507043_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/288507043_longbaseline/frozen_training.json",
+    "frozen_sha256": "3635524368808ab4d0d8000bfcbd3f14db06cdf9cd1b817ad0bf5bffbf17c22e"
   },
   {
     "result": "results/288507043_refined/result.json",
@@ -12162,6 +12660,12 @@
     "frozen_sha256": "679b3cb8e4ee364a65a0cc2711494cc611fc1711294f9fe22b4512be5432b5cf"
   },
   {
+    "result": "results/289922302_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/289922302_longbaseline/frozen_training.json",
+    "frozen_sha256": "f8359844d075264ad46a249151c724e60d1e4d7a0f410113bf087eef7198725d"
+  },
+  {
     "result": "results/289922302_refined/result.json",
     "trials": 4,
     "frozen_record": "results/289922302_refined/frozen_refinement.json",
@@ -12226,6 +12730,12 @@
     "trials": 1,
     "frozen_record": "results/290305163/frozen_discovery.json",
     "frozen_sha256": "1d4dd02a5ec63f0f9118d1604931bb35670e48209e3a17fe00d213281152f5a6"
+  },
+  {
+    "result": "results/290305163_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/290305163_longbaseline/frozen_training.json",
+    "frozen_sha256": "051f560d19a8db235971ea079c4c28466a29383b3203f05596b8f0293cf64dbb"
   },
   {
     "result": "results/290305163_refined/result.json",
@@ -12366,6 +12876,12 @@
     "frozen_sha256": "efd180588510fe83284a467c2bd81e64e78a2b14f495d2442e39c06c59dc58d4"
   },
   {
+    "result": "results/293164461_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/293164461_longbaseline/frozen_training.json",
+    "frozen_sha256": "060c5a79c14729fc6b30e69235e8f1373cd8a268f8d8fd347c5c9bfa497eccc9"
+  },
+  {
     "result": "results/293164461_refined/result.json",
     "trials": 4,
     "frozen_record": "results/293164461_refined/frozen_refinement.json",
@@ -12432,6 +12948,12 @@
     "frozen_sha256": "edd9b4442c6afe74c8cbae8b2c2861e125d89331d15ffdb4225f7b15ef753016"
   },
   {
+    "result": "results/295017824_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/295017824_longbaseline/frozen_training.json",
+    "frozen_sha256": "5422026a7f60e790655f2bb4eb71d42adb3efcb3c3a8dad31d1803e7eaaa8dda"
+  },
+  {
     "result": "results/295017824_refined/result.json",
     "trials": 4,
     "frozen_record": "results/295017824_refined/frozen_refinement.json",
@@ -12448,6 +12970,10 @@
     "trials": 4,
     "frozen_record": "results/295798308/frozen_discovery.json",
     "frozen_sha256": "f968f5e6a7481e12f4c05616d943aca6eaff6e0cf1e8578f2e5bb842d42ed174"
+  },
+  {
+    "result": "results/295798308_longbaseline/result.json",
+    "trials": 0
   },
   {
     "result": "results/295798308_refined/result.json",
@@ -12468,6 +12994,12 @@
     "frozen_sha256": "d2c222a3f26cd5d3e8b8d2fcb85ccf8538e4581a89eb98e5a21fc24b74a8c661"
   },
   {
+    "result": "results/295893467_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/295893467_longbaseline/frozen_training.json",
+    "frozen_sha256": "6695b4a68eb187236d762a6d3cb8c3edef8293d0298e7988ba9702e07e4b6b13"
+  },
+  {
     "result": "results/295893467_refined/result.json",
     "trials": 4,
     "frozen_record": "results/295893467_refined/frozen_refinement.json",
@@ -12484,6 +13016,12 @@
     "trials": 4,
     "frozen_record": "results/297823453/frozen_discovery.json",
     "frozen_sha256": "341ab6e7a92e7bfe48ecb3d582f04c47befa6ad4ba8e52879fbdb074e63890e4"
+  },
+  {
+    "result": "results/297823453_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/297823453_longbaseline/frozen_training.json",
+    "frozen_sha256": "d5cb1b50c24e838ff6b14a86c085d4a92f7c809b15a386249e0c431aaa05178d"
   },
   {
     "result": "results/297823453_refined/result.json",
@@ -12682,6 +13220,12 @@
     "frozen_sha256": "2255bc4b0e4c7c81040b9dacbe5c0755082adda6d6904e8271b687928d32700b"
   },
   {
+    "result": "results/302554247_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/302554247_longbaseline/frozen_training.json",
+    "frozen_sha256": "a55cf78a5123e1a4be35cd56220391af5b705fa714f83ed2c576e9d55626d8d2"
+  },
+  {
     "result": "results/302554247_refined/result.json",
     "trials": 4,
     "frozen_record": "results/302554247_refined/frozen_refinement.json",
@@ -12698,6 +13242,12 @@
     "trials": 4,
     "frozen_record": "results/302923645/frozen_discovery.json",
     "frozen_sha256": "5ee5dbf53e78800b56955ae25f03211c4abf6493449d4fb45728ce97f6603231"
+  },
+  {
+    "result": "results/302923645_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/302923645_longbaseline/frozen_training.json",
+    "frozen_sha256": "dcb942c260f079c87331a248491d56667232e0bc006dc86f033e705d84ef4815"
   },
   {
     "result": "results/302923645_refined/result.json",
@@ -12742,6 +13292,12 @@
     "frozen_sha256": "415fa7479a7daf4dd3b50d2d3a270f2c61adfbe3274c21f5bd993e9a9402b03b"
   },
   {
+    "result": "results/303911833_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/303911833_longbaseline/frozen_training.json",
+    "frozen_sha256": "29f201cabcdebb8c3d890eb67a09293eabacb9fa25052fcfcf90bf63de71822b"
+  },
+  {
     "result": "results/303911833_refined/result.json",
     "trials": 4,
     "frozen_record": "results/303911833_refined/frozen_refinement.json",
@@ -12758,6 +13314,12 @@
     "trials": 4,
     "frozen_record": "results/305794603/frozen_discovery.json",
     "frozen_sha256": "4c1fd2bc014b72dc4a53b994ecb5d143d9c92a36c3a3b616508bf80d9ec33c5f"
+  },
+  {
+    "result": "results/305794603_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/305794603_longbaseline/frozen_training.json",
+    "frozen_sha256": "b39d43301a1ddd632f93fe435b9ad9a4cf1d7f721c34db0f0b67de5236d5e535"
   },
   {
     "result": "results/305794603_refined/result.json",
@@ -12824,6 +13386,12 @@
     "frozen_sha256": "e8a9222ff96f6668007b2d48c38c201b98c0012d4e8c2ecc49137bb57ada9371"
   },
   {
+    "result": "results/306357678_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/306357678_longbaseline/frozen_training.json",
+    "frozen_sha256": "4e1dd9c516423723e2a2a152b7cc79a93457be3c3c834aef3e002ee0712cc379"
+  },
+  {
     "result": "results/306357678_refined/result.json",
     "trials": 4,
     "frozen_record": "results/306357678_refined/frozen_refinement.json",
@@ -12840,6 +13408,12 @@
     "trials": 4,
     "frozen_record": "results/306980405/frozen_discovery.json",
     "frozen_sha256": "482634b26206ea1d176d7656665037961a3ad7f7248c667c210f5f4dc1fa45e1"
+  },
+  {
+    "result": "results/306980405_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/306980405_longbaseline/frozen_training.json",
+    "frozen_sha256": "511d4105094fc6d3bed6a282100c1ed30469026dc16370cba8f8d314761e496b"
   },
   {
     "result": "results/306980405_refined/result.json",
@@ -13174,6 +13748,12 @@
     "frozen_sha256": "23e0d0b0d7ecbb0b24ed856798dc7226568c73949b7296a1890a84cbfa52cb69"
   },
   {
+    "result": "results/310657449_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/310657449_longbaseline/frozen_training.json",
+    "frozen_sha256": "0b1816e457333c02cd33a09b01f8b19ae97440184922d1e9c5c1bfa0aee11b20"
+  },
+  {
     "result": "results/310657449_refined/result.json",
     "trials": 4,
     "frozen_record": "results/310657449_refined/frozen_refinement.json",
@@ -13192,6 +13772,12 @@
     "frozen_sha256": "36d24d44cc0376ad35637eb3de1df871a39a8c9d1e1f740b068952ae688bff17"
   },
   {
+    "result": "results/310836370_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/310836370_longbaseline/frozen_training.json",
+    "frozen_sha256": "69e940c284cbcbf0bd276e81953de54e63b823ec40ed75549b213ea68e455a52"
+  },
+  {
     "result": "results/310836370_refined/result.json",
     "trials": 4,
     "frozen_record": "results/310836370_refined/frozen_refinement.json",
@@ -13208,6 +13794,12 @@
     "trials": 2,
     "frozen_record": "results/310995878/frozen_discovery.json",
     "frozen_sha256": "1bc0002b3ec3112ee389ff387edd3327f92a1fdc25e5e741cb7dd9789d6e20e4"
+  },
+  {
+    "result": "results/310995878_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/310995878_longbaseline/frozen_training.json",
+    "frozen_sha256": "76151a30a0d54edea0a012b80e749a73d5f984f5e40b149fdbadc9d3fd14a57b"
   },
   {
     "result": "results/310995878_refined/result.json",
@@ -13250,6 +13842,12 @@
     "trials": 4,
     "frozen_record": "results/312546580/frozen_discovery.json",
     "frozen_sha256": "28ac3e5a9a0035ccb13ce62e94368ae6a59bcf0cfa7aeb41841d00a3c0b007a7"
+  },
+  {
+    "result": "results/312546580_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/312546580_longbaseline/frozen_training.json",
+    "frozen_sha256": "8909cdaa40342a1c81d78777f6bc4c06c4e524f5483df56b33eb41c7fbbfebe3"
   },
   {
     "result": "results/312546580_refined/result.json",
@@ -13342,6 +13940,12 @@
     "frozen_sha256": "e80befde8b31ffc9252ada9793da46fbf1f41872ff402c0d2719a8e72417c9a5"
   },
   {
+    "result": "results/313610499_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/313610499_longbaseline/frozen_training.json",
+    "frozen_sha256": "370a5f5105f85ed08edf03043efe3f9a1f50ea3bc40e4613dda9a239406e506e"
+  },
+  {
     "result": "results/313610499_refined/result.json",
     "trials": 4,
     "frozen_record": "results/313610499_refined/frozen_refinement.json",
@@ -13408,6 +14012,12 @@
     "frozen_sha256": "3fc6f8326789147f2ee7a0c26a430a5ce79ea644fabd6c40125952a396355d45"
   },
   {
+    "result": "results/313975570_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/313975570_longbaseline/frozen_training.json",
+    "frozen_sha256": "5a87351c486c2edd40389def8967fff094ea5aaa8a1bb938ebafdecb78ac4df4"
+  },
+  {
     "result": "results/313975570_refined/result.json",
     "trials": 4,
     "frozen_record": "results/313975570_refined/frozen_refinement.json",
@@ -13450,6 +14060,12 @@
     "frozen_sha256": "4e8a338bd284131e8aa7235c8d71c75399ed87c1a4a40d0d9a8308ddbaf39621"
   },
   {
+    "result": "results/316404611_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/316404611_longbaseline/frozen_training.json",
+    "frozen_sha256": "886ea293b0011bf2a1bbae8554fbb1adb84d86a6e81083353191d857e3ad5029"
+  },
+  {
     "result": "results/316404611_refined/result.json",
     "trials": 4,
     "frozen_record": "results/316404611_refined/frozen_refinement.json",
@@ -13468,6 +14084,12 @@
     "frozen_sha256": "933cec92bdce0f3d551674942c6f431f5ed1115e2f0bdb0809209acfacc3310f"
   },
   {
+    "result": "results/316417885_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/316417885_longbaseline/frozen_training.json",
+    "frozen_sha256": "3c4381dd3ad02251c47554d4ab43a18b7b014690c1df5b707b1a232e59e33e16"
+  },
+  {
     "result": "results/316417885_refined/result.json",
     "trials": 2,
     "frozen_record": "results/316417885_refined/frozen_refinement.json",
@@ -13484,6 +14106,12 @@
     "trials": 4,
     "frozen_record": "results/316451175/frozen_discovery.json",
     "frozen_sha256": "6aa8008e8310f8da62bfdfca06ac43a1848e8a2f6a7d05d93aaff179b56ba0fa"
+  },
+  {
+    "result": "results/316451175_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/316451175_longbaseline/frozen_training.json",
+    "frozen_sha256": "746afe82efaf51e2797501320fe1d2e9f60082e5919b6b46542c580a5d46f973"
   },
   {
     "result": "results/316451175_refined/result.json",
@@ -13576,6 +14204,12 @@
     "frozen_sha256": "07a47d11297153292b014550f2f9cfa3bd8cfb3d57ac73c711e50d3c8bd8dfc1"
   },
   {
+    "result": "results/316976676_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/316976676_longbaseline/frozen_training.json",
+    "frozen_sha256": "b72be6f95e2f855cf27da914ebe249012026490756d6771b554ea05dcebdcf5e"
+  },
+  {
     "result": "results/316976676_refined/result.json",
     "trials": 4,
     "frozen_record": "results/316976676_refined/frozen_refinement.json",
@@ -13642,6 +14276,12 @@
     "frozen_sha256": "69e10c8092e3fa54d6aa1b7494f0111bb8ea96082c33cc8aed1fb61a18ba3b11"
   },
   {
+    "result": "results/317394133_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/317394133_longbaseline/frozen_training.json",
+    "frozen_sha256": "d13b3e59b578f88437380b9b76ef7d5b1f59a32410be0c420587d21f2ba13bfa"
+  },
+  {
     "result": "results/317394133_refined/result.json",
     "trials": 4,
     "frozen_record": "results/317394133_refined/frozen_refinement.json",
@@ -13658,6 +14298,12 @@
     "trials": 4,
     "frozen_record": "results/317475082/frozen_discovery.json",
     "frozen_sha256": "fb5ba46182c660313100b0af161d8eee9f3682cd7ed65763a1d3b7ca7a335674"
+  },
+  {
+    "result": "results/317475082_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/317475082_longbaseline/frozen_training.json",
+    "frozen_sha256": "a16bb07e9d00d66e87b180c8b293945eaaa65459ad8bedc5857eb48dbdb40e73"
   },
   {
     "result": "results/317475082_refined/result.json",
@@ -13750,6 +14396,12 @@
     "frozen_sha256": "beab13d67cf11596c8d097c5cba990743377e0e1b52a3b25fdfe40833f04e883"
   },
   {
+    "result": "results/319474472_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/319474472_longbaseline/frozen_training.json",
+    "frozen_sha256": "29fd0d79f5ef6763454072eb7e9e0246dff18ea35a78c859ef4cff0c3d433e58"
+  },
+  {
     "result": "results/319474472_refined/result.json",
     "trials": 4,
     "frozen_record": "results/319474472_refined/frozen_refinement.json",
@@ -13788,6 +14440,12 @@
     "trials": 4,
     "frozen_record": "results/320209338/frozen_discovery.json",
     "frozen_sha256": "257f95d7c845bfcabd790b45565bec5d00a931943dcdbd86ed72bb653fb8481f"
+  },
+  {
+    "result": "results/320209338_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/320209338_longbaseline/frozen_training.json",
+    "frozen_sha256": "2406a9c282d3c77be0a26b6dbe001aa5e8c83e8aa424b96574942d20e94e9f15"
   },
   {
     "result": "results/320209338_refined/result.json",
@@ -13856,6 +14514,12 @@
     "frozen_sha256": "236a04065f453133f1761e9cbdb849fbf4076caa9113a7920d9f069a5f34a8e8"
   },
   {
+    "result": "results/321595102_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/321595102_longbaseline/frozen_training.json",
+    "frozen_sha256": "e0f9d6f525d051ef94ae43e3e7987623fcaca63403a8bade05d8dba267816a45"
+  },
+  {
     "result": "results/321595102_refined/result.json",
     "trials": 4,
     "frozen_record": "results/321595102_refined/frozen_refinement.json",
@@ -13880,6 +14544,12 @@
     "frozen_sha256": "8133e11ff948b114e3d7f4b47e03f9746a63e2561d473d1157477f9ae1ba52d0"
   },
   {
+    "result": "results/321816376_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/321816376_longbaseline/frozen_training.json",
+    "frozen_sha256": "5938f6de1f9b0c70dfa9c45aa94888d69a64f9999e79ead412158a9bdbfd01fc"
+  },
+  {
     "result": "results/321816376_refined/result.json",
     "trials": 2,
     "frozen_record": "results/321816376_refined/frozen_refinement.json",
@@ -13902,6 +14572,12 @@
     "trials": 2,
     "frozen_record": "results/322391844_known_residual/frozen_training.json",
     "frozen_sha256": "edf96481afd8da2ed494f5b2abec223f9e46280524a1353e2ebc6b4d8a123323"
+  },
+  {
+    "result": "results/322391844_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/322391844_longbaseline/frozen_training.json",
+    "frozen_sha256": "c116f974d5152ad660fd476c3bbdbc290654641f95b1ec449b0cba984446762b"
   },
   {
     "result": "results/322391844_refined/result.json",
@@ -14112,6 +14788,12 @@
     "frozen_sha256": "fd8dc7b7d52fa19b9d58d7f9b86ffdab1bba5574752dc5ed01cb080d95e253bd"
   },
   {
+    "result": "results/327188003_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/327188003_longbaseline/frozen_training.json",
+    "frozen_sha256": "3cd722a65fc2c7821401007fd5f34d341494239b70880050060fa47193e3daa2"
+  },
+  {
     "result": "results/327188003_refined/result.json",
     "trials": 4,
     "frozen_record": "results/327188003_refined/frozen_refinement.json",
@@ -14220,6 +14902,12 @@
     "frozen_sha256": "998e57a13b7e565a5babfc1e8ca5bff1318a2c439368ed4e118fef97700209e5"
   },
   {
+    "result": "results/328799321_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/328799321_longbaseline/frozen_training.json",
+    "frozen_sha256": "b636d25d7e92015de8b3c4519d3ae36a4c88eac34997a65b6a030b9fde1d965f"
+  },
+  {
     "result": "results/328799321_refined/result.json",
     "trials": 4,
     "frozen_record": "results/328799321_refined/frozen_refinement.json",
@@ -14236,6 +14924,12 @@
     "trials": 4,
     "frozen_record": "results/328800211/frozen_discovery.json",
     "frozen_sha256": "3ba092bdc91d57cfbbf3a3f4c3c8e87ae431c2db482a1aab15e36df3ec8e1926"
+  },
+  {
+    "result": "results/328800211_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/328800211_longbaseline/frozen_training.json",
+    "frozen_sha256": "e2c879feb155994169f5946492e6c28480510c835fcd044c045d82384cef019f"
   },
   {
     "result": "results/328800211_refined/result.json",
@@ -14304,6 +14998,12 @@
     "frozen_sha256": "09e62f4ed89a38099998e7c9d5ec5533497841ccd061343b3d672483b81f936a"
   },
   {
+    "result": "results/333278247_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/333278247_longbaseline/frozen_training.json",
+    "frozen_sha256": "9388eaee9d3b60b4b1fd25bd16297ce663d3850ca428af4834cb41702aa03410"
+  },
+  {
     "result": "results/333278247_refined/result.json",
     "trials": 4,
     "frozen_record": "results/333278247_refined/frozen_refinement.json",
@@ -14320,6 +15020,12 @@
     "trials": 4,
     "frozen_record": "results/334483267/frozen_discovery.json",
     "frozen_sha256": "28d0031eab61bd7f7cce042d169250615e70f82a421d0717098fc8deb01f4f45"
+  },
+  {
+    "result": "results/334483267_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/334483267_longbaseline/frozen_training.json",
+    "frozen_sha256": "907bc7d2fa1c5b69d662effe353ffb104a929c7f73b7ab276320394da1dc1f31"
   },
   {
     "result": "results/334483267_refined/result.json",
@@ -14410,6 +15116,12 @@
     "frozen_sha256": "7dc475fe50066674eeb5375299a30882392ade7346db7e801dcf34e527232334"
   },
   {
+    "result": "results/334802880_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/334802880_longbaseline/frozen_training.json",
+    "frozen_sha256": "db3c38eb9330b0730ae374c4314b7cfce5636ac1cfa554acbfd23d19ec833189"
+  },
+  {
     "result": "results/334802880_refined/result.json",
     "trials": 4,
     "frozen_record": "results/334802880_refined/frozen_refinement.json",
@@ -14426,6 +15138,12 @@
     "trials": 4,
     "frozen_record": "results/334835095/frozen_discovery.json",
     "frozen_sha256": "e42eff93ee76ba533afd5bb4e4a2d96c1ada9d9fdef870412e6323736272a32b"
+  },
+  {
+    "result": "results/334835095_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/334835095_longbaseline/frozen_training.json",
+    "frozen_sha256": "a2012f5a15df07ca02e6dacc44ba08ee1e85348ed9e25cc1926306bf7d6db1f1"
   },
   {
     "result": "results/334835095_refined/result.json",
@@ -14446,6 +15164,12 @@
     "frozen_sha256": "1e2bac0e7332df8d327cb94ad0f73659b6c2bda01612ad1be77ade3263808840"
   },
   {
+    "result": "results/335797473_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/335797473_longbaseline/frozen_training.json",
+    "frozen_sha256": "1345b59c7f37f9e0960272ffd85b409b13cb8eb46bd6422045d2910053cb245d"
+  },
+  {
     "result": "results/335797473_refined/result.json",
     "trials": 4,
     "frozen_record": "results/335797473_refined/frozen_refinement.json",
@@ -14462,6 +15186,12 @@
     "trials": 4,
     "frozen_record": "results/336538915/frozen_discovery.json",
     "frozen_sha256": "609118534eab1ea823fdd4e4e44def5a33c15bd2ca4d9514446a8187d233c7d1"
+  },
+  {
+    "result": "results/336538915_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/336538915_longbaseline/frozen_training.json",
+    "frozen_sha256": "ceab15a6c8f3a71de18e861f705571b3249f736580aa08d8fc94c959cd0337d5"
   },
   {
     "result": "results/336538915_refined/result.json",
@@ -14482,6 +15212,12 @@
     "frozen_sha256": "bca1e6bacd82d42030d5970bf4c851fb38659a6f6e132922af40b6f3382da60a"
   },
   {
+    "result": "results/336541591_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/336541591_longbaseline/frozen_training.json",
+    "frozen_sha256": "554ecd8a0501aa779e6a0c601cd2f490475d048bd0ae2a437350b4de0ec8b3ac"
+  },
+  {
     "result": "results/336541591_refined/result.json",
     "trials": 4,
     "frozen_record": "results/336541591_refined/frozen_refinement.json",
@@ -14498,6 +15234,12 @@
     "trials": 4,
     "frozen_record": "results/337705501/frozen_discovery.json",
     "frozen_sha256": "6e616d10c588bdb4fb3ad10fa306b0728daa7629833eed4c0cb4af7b1feda912"
+  },
+  {
+    "result": "results/337705501_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/337705501_longbaseline/frozen_training.json",
+    "frozen_sha256": "e6f56334406706b302cf01ea2252db6993bef041a878f672c889cbc9c231fc71"
   },
   {
     "result": "results/337705501_refined/result.json",
@@ -14518,6 +15260,12 @@
     "frozen_sha256": "dbc98097dc432a2d7c7f3a10368bae8e3755bc597dfd2ffc71308fa3bcae32fe"
   },
   {
+    "result": "results/338137771_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/338137771_longbaseline/frozen_training.json",
+    "frozen_sha256": "bb5e11e27ff18ca9988e7e2f591be24be7ccfdeeff8e49e67ff5da887c049d96"
+  },
+  {
     "result": "results/338137771_refined/result.json",
     "trials": 4,
     "frozen_record": "results/338137771_refined/frozen_refinement.json",
@@ -14534,6 +15282,12 @@
     "trials": 4,
     "frozen_record": "results/338288128/frozen_discovery.json",
     "frozen_sha256": "4d9d6bb5f82e8fbe33ba6a25a4b0675b49089f42bc5056823530dcb905b2ac49"
+  },
+  {
+    "result": "results/338288128_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/338288128_longbaseline/frozen_training.json",
+    "frozen_sha256": "b6c689ee65f32d353569f8ce82b96a70bc6ccb43547bc1db9afb9b7ce8405d06"
   },
   {
     "result": "results/338288128_refined/result.json",
@@ -14576,6 +15330,12 @@
     "trials": 4,
     "frozen_record": "results/339956143/frozen_discovery.json",
     "frozen_sha256": "e0d0bc9fd8120c9732de79982868bcc4de9cc9322edccb84f4ef439e2e4e501a"
+  },
+  {
+    "result": "results/339956143_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/339956143_longbaseline/frozen_training.json",
+    "frozen_sha256": "4165384de2c8fea019aad1adc297955d134cc5da8d7eb72fa33f715ae3211982"
   },
   {
     "result": "results/339956143_refined/result.json",
@@ -14644,6 +15404,12 @@
     "frozen_sha256": "aa4c92d8ca44433fd8fa9e2cac70c1721adb65b1339eaa993258e97b41dcc01c"
   },
   {
+    "result": "results/341417608_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/341417608_longbaseline/frozen_training.json",
+    "frozen_sha256": "37332df13f783e3d11b7437cc8ae646ee432c9f336621ed2f95490225b6586df"
+  },
+  {
     "result": "results/341417608_refined/result.json",
     "trials": 4,
     "frozen_record": "results/341417608_refined/frozen_refinement.json",
@@ -14660,6 +15426,12 @@
     "trials": 4,
     "frozen_record": "results/341705385/frozen_discovery.json",
     "frozen_sha256": "94ac277d094bb2402fafd684c1a8dd7d0fc7026d6dfa36a58394fe1f8d07481c"
+  },
+  {
+    "result": "results/341705385_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/341705385_longbaseline/frozen_training.json",
+    "frozen_sha256": "a7048e5478f0cc01130c8695c5096aad18ebb895dd36acd12b340f932c278c08"
   },
   {
     "result": "results/341705385_refined/result.json",
@@ -14702,6 +15474,12 @@
     "trials": 1,
     "frozen_record": "results/341845611/frozen_discovery.json",
     "frozen_sha256": "d002d7880c1993e06ea75fd449793aa4fde14158fe0be33eb39912e0d6d332e7"
+  },
+  {
+    "result": "results/341845611_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/341845611_longbaseline/frozen_training.json",
+    "frozen_sha256": "41389abd46cd963b457790b965309361f07e538cd4c2b27712488da763e07e9e"
   },
   {
     "result": "results/341845611_refined/result.json",
@@ -14770,6 +15548,12 @@
     "frozen_sha256": "c3b456ff82109bc21dfe3e270b3de045650729ea63bd539ff7c0d853c922df7d"
   },
   {
+    "result": "results/343268431_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/343268431_longbaseline/frozen_training.json",
+    "frozen_sha256": "a4f4ec2b84abfb4fb1a63cf336f11a0ceb707d55aac005899eb42017d5a03c4a"
+  },
+  {
     "result": "results/343268431_refined/result.json",
     "trials": 4,
     "frozen_record": "results/343268431_refined/frozen_refinement.json",
@@ -14786,6 +15570,12 @@
     "trials": 4,
     "frozen_record": "results/343404892/frozen_discovery.json",
     "frozen_sha256": "346455c69834d8a8c72a129aafe5aab48920413892df4b820110957f24fa1808"
+  },
+  {
+    "result": "results/343404892_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/343404892_longbaseline/frozen_training.json",
+    "frozen_sha256": "eca3603b846fa49ef9677f89705fae0830cd8c910b0f575ea0e3d8fba41f3928"
   },
   {
     "result": "results/343404892_refined/result.json",
@@ -14806,6 +15596,12 @@
     "frozen_sha256": "4f935e168e950671b1b3225916f47a1fbb666346d38f7ae1af5446b689f80c90"
   },
   {
+    "result": "results/343410928_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/343410928_longbaseline/frozen_training.json",
+    "frozen_sha256": "f8585bbc348874b224dcdb6279f6bab44de4faae98f588c2e53ad9899798740e"
+  },
+  {
     "result": "results/343410928_refined/result.json",
     "trials": 4,
     "frozen_record": "results/343410928_refined/frozen_refinement.json",
@@ -14822,6 +15618,12 @@
     "trials": 4,
     "frozen_record": "results/343722317/frozen_discovery.json",
     "frozen_sha256": "eecb90946d60b401218b253212418aa8d2a2bea36e0b62b7219ea45d6f18cc04"
+  },
+  {
+    "result": "results/343722317_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/343722317_longbaseline/frozen_training.json",
+    "frozen_sha256": "cc73e5ba278db3c3d28a32cbb328cdbdf542f67cdc62a26a5dcdf4c08d7854b4"
   },
   {
     "result": "results/343722317_refined/result.json",
@@ -14842,6 +15644,12 @@
     "frozen_sha256": "5c57f688794c994fb32c59fde7a3b633c903643534785c90c7c2b99ca6ea9f9d"
   },
   {
+    "result": "results/344012137_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/344012137_longbaseline/frozen_training.json",
+    "frozen_sha256": "92218b51a8ac6af3fbd2a39c102a332ad7f9af4bbc1a9acae0a0d9069ddb71b0"
+  },
+  {
     "result": "results/344012137_refined/result.json",
     "trials": 4,
     "frozen_record": "results/344012137_refined/frozen_refinement.json",
@@ -14858,6 +15666,12 @@
     "trials": 4,
     "frozen_record": "results/344097064/frozen_discovery.json",
     "frozen_sha256": "207b70f354bf4a3ffadd5dd41e0f9720e0572aa7ab1a2edf54f0277c35179fa7"
+  },
+  {
+    "result": "results/344097064_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/344097064_longbaseline/frozen_training.json",
+    "frozen_sha256": "039619f9584dc3adfa13bcc55014e207168234f5b69f7b779ed1161b0c7f3eb3"
   },
   {
     "result": "results/344097064_refined/result.json",
@@ -14878,6 +15692,12 @@
     "frozen_sha256": "df6ff45e5b31a22650acc45d8088e5c3f7a10bb3e73d21281271f9458c2e9c4d"
   },
   {
+    "result": "results/344136084_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/344136084_longbaseline/frozen_training.json",
+    "frozen_sha256": "4b03108e1619e0aa341cfd54196d287f9c033f895b565c6ee9b5563315fb2f81"
+  },
+  {
     "result": "results/344136084_refined/result.json",
     "trials": 4,
     "frozen_record": "results/344136084_refined/frozen_refinement.json",
@@ -14894,6 +15714,12 @@
     "trials": 4,
     "frozen_record": "results/344290932/frozen_discovery.json",
     "frozen_sha256": "8d61b36c086bfa6cdeab64b4bc72dbf465f40562b6d233a32c25747317117fd6"
+  },
+  {
+    "result": "results/344290932_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/344290932_longbaseline/frozen_training.json",
+    "frozen_sha256": "48666a0d5928ba239766f801867bd882684611194ef8309861f92e7c5a7dc7cb"
   },
   {
     "result": "results/344290932_refined/result.json",
@@ -14936,6 +15762,12 @@
     "trials": 4,
     "frozen_record": "results/346565207/frozen_discovery.json",
     "frozen_sha256": "b70f3c21828b6a1292ca9ba1fe99192f419675efc03b1db43566f9d27f0679d4"
+  },
+  {
+    "result": "results/346565207_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/346565207_longbaseline/frozen_training.json",
+    "frozen_sha256": "b5c0fee5c309a083c900a1640d7682b1baa9c2ac12de817b86b7b719a8ce9b5f"
   },
   {
     "result": "results/346565207_refined/result.json",
@@ -15196,6 +16028,12 @@
     "frozen_sha256": "b8ad0839a4d84b07ccf11a429e3d80387cd740afca84593cfde262a4b379d780"
   },
   {
+    "result": "results/350433330_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/350433330_longbaseline/frozen_training.json",
+    "frozen_sha256": "bd1272543e6baa2c6683008fdd6c3ad4e6087858132fd90a36b37dad86badfbc"
+  },
+  {
     "result": "results/350433330_refined/result.json",
     "trials": 4,
     "frozen_record": "results/350433330_refined/frozen_refinement.json",
@@ -15370,6 +16208,12 @@
     "frozen_sha256": "0315224f570ef809fb939abc6b3d4fdf1e30f5cd772beb2f36a1ea2d59fb1553"
   },
   {
+    "result": "results/354287347_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/354287347_longbaseline/frozen_training.json",
+    "frozen_sha256": "8581782fd5ba38b90069ca0459c2cf029bc379b7df13115b5d7b71dbe215ac2b"
+  },
+  {
     "result": "results/354287347_refined/result.json",
     "trials": 4,
     "frozen_record": "results/354287347_refined/frozen_refinement.json",
@@ -15386,6 +16230,12 @@
     "trials": 4,
     "frozen_record": "results/354572301/frozen_discovery.json",
     "frozen_sha256": "50823a9aef0b9b3ba33680ddcc289ad0f3a38ba006b713cbe45c6cc75afa5814"
+  },
+  {
+    "result": "results/354572301_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/354572301_longbaseline/frozen_training.json",
+    "frozen_sha256": "37140e7419ce0dc8b1d4c0d9018254584b3cd2cee4800fead8c770cb530a4afa"
   },
   {
     "result": "results/354572301_refined/result.json",
@@ -15452,6 +16302,10 @@
     "frozen_sha256": "2ad03f3e5e26000ca09745c5b9f9103bdc998376f1f35ed50ed3f08b9e88fccb"
   },
   {
+    "result": "results/355704636_longbaseline/result.json",
+    "trials": 0
+  },
+  {
     "result": "results/355704636_refined/result.json",
     "trials": 4,
     "frozen_record": "results/355704636_refined/frozen_refinement.json",
@@ -15468,6 +16322,12 @@
     "trials": 4,
     "frozen_record": "results/355867542/frozen_discovery.json",
     "frozen_sha256": "80468b872169d37f899785cdb30fdc55ba2679762bd2123fdbd93cbfef38f14f"
+  },
+  {
+    "result": "results/355867542_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/355867542_longbaseline/frozen_training.json",
+    "frozen_sha256": "caf8849c748f2b2ae73cf9f834c8410165af4412c9eed854075ab2e7b8a50182"
   },
   {
     "result": "results/355867542_refined/result.json",
@@ -15488,6 +16348,12 @@
     "frozen_sha256": "cb01e1f85a65fd079f119c9de8c664e2a2641eda0afff5afd124ca52fcb129a1"
   },
   {
+    "result": "results/355918065_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/355918065_longbaseline/frozen_training.json",
+    "frozen_sha256": "a9e413aa78706a417dbfd421a70fd231565eea3d55434bc52705cb7a856e60af"
+  },
+  {
     "result": "results/355918065_refined/result.json",
     "trials": 4,
     "frozen_record": "results/355918065_refined/frozen_refinement.json",
@@ -15504,6 +16370,10 @@
     "trials": 4,
     "frozen_record": "results/355935333/frozen_discovery.json",
     "frozen_sha256": "fc94b41154eb7523551f10e851a9e78e1574c24ccc7c7c541f61c0c95691ee5b"
+  },
+  {
+    "result": "results/355935333_longbaseline/result.json",
+    "trials": 0
   },
   {
     "result": "results/355935333_refined/result.json",
@@ -15624,6 +16494,12 @@
     "frozen_sha256": "8bfa899c6a47654158e945579a65c88f10da8bc1695052468421d43e31fdf9b1"
   },
   {
+    "result": "results/357397987_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/357397987_longbaseline/frozen_training.json",
+    "frozen_sha256": "56381f427f54731644c27224a73dde2fdc9e222b6f384d8406ac45f35a670ec0"
+  },
+  {
     "result": "results/357397987_refined/result.json",
     "trials": 2,
     "frozen_record": "results/357397987_refined/frozen_refinement.json",
@@ -15664,6 +16540,12 @@
     "trials": 4,
     "frozen_record": "results/357831022/frozen_discovery.json",
     "frozen_sha256": "235d5f42f655648f5baa9d691b0e399d081b83552c8f446065edc40f3d1800ed"
+  },
+  {
+    "result": "results/357831022_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/357831022_longbaseline/frozen_training.json",
+    "frozen_sha256": "a3467645b6f497c9b0776dde3bb5f1ba466b6e71bbc849375fdc009fcb4a03df"
   },
   {
     "result": "results/357831022_refined/result.json",
@@ -15802,6 +16684,12 @@
     "frozen_sha256": "06457e631383168f359c8341e789aa36354c97212c1936f1284acd9b5ad3b645"
   },
   {
+    "result": "results/358767556_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/358767556_longbaseline/frozen_training.json",
+    "frozen_sha256": "9be1d4b169f3728b3d70ff6b5a6ab5a005dbdb0c7b9d6c44f722ccceebb983dc"
+  },
+  {
     "result": "results/358767556_refined/result.json",
     "trials": 3,
     "frozen_record": "results/358767556_refined/frozen_refinement.json",
@@ -15820,6 +16708,12 @@
     "frozen_sha256": "77cf58f09b36967896321a35354a5b20ead45d5e6b8aff526d2c26647763df57"
   },
   {
+    "result": "results/359158317_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/359158317_longbaseline/frozen_training.json",
+    "frozen_sha256": "b3f35d5630a47ce3baa782930eff6d74c0ef843b63edb062b87316125bc11135"
+  },
+  {
     "result": "results/359158317_refined/result.json",
     "trials": 4,
     "frozen_record": "results/359158317_refined/frozen_refinement.json",
@@ -15836,6 +16730,12 @@
     "trials": 4,
     "frozen_record": "results/359356484/frozen_discovery.json",
     "frozen_sha256": "63f70aafc4267d25ec2c1397679f44fef4f4d25b101d7520befc4c147f9f7da7"
+  },
+  {
+    "result": "results/359356484_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/359356484_longbaseline/frozen_training.json",
+    "frozen_sha256": "436f4243d41b260d2c449bbbac6762edef9ded072d2652b96f26bcec3305a42f"
   },
   {
     "result": "results/359356484_refined/result.json",
@@ -15904,6 +16804,12 @@
     "frozen_sha256": "08ce345232e3a2e34cfd25e6608543b1eb3849515fae8c3be063ddc449d0103e"
   },
   {
+    "result": "results/361113777_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/361113777_longbaseline/frozen_training.json",
+    "frozen_sha256": "a2235894ebe1e009bf785d0a5885bf1538e797302891f13348d1cd848fd3990d"
+  },
+  {
     "result": "results/361113777_refined/result.json",
     "trials": 4,
     "frozen_record": "results/361113777_refined/frozen_refinement.json",
@@ -15920,6 +16826,12 @@
     "trials": 4,
     "frozen_record": "results/361871362/frozen_discovery.json",
     "frozen_sha256": "ffdab6a9b32b0b5ca863a7746924bbf09834c6517f4fe01bf77097543f4aa700"
+  },
+  {
+    "result": "results/361871362_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/361871362_longbaseline/frozen_training.json",
+    "frozen_sha256": "94784fe1617e5858e713329f3bfaf651091bdceee74df61140435479d240f5e0"
   },
   {
     "result": "results/361871362_refined/result.json",
@@ -16088,6 +17000,12 @@
     "frozen_sha256": "0880d1c7aea93e841f128d785b0e1885438904c1f9da023d95b2a9ccc1e6e492"
   },
   {
+    "result": "results/364264680_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/364264680_longbaseline/frozen_training.json",
+    "frozen_sha256": "b45c75ad89c08627f389e19594f51a7800c8a88ed99616b4b5733d1372201d62"
+  },
+  {
     "result": "results/364264680_refined/result.json",
     "trials": 4,
     "frozen_record": "results/364264680_refined/frozen_refinement.json",
@@ -16224,6 +17142,12 @@
     "frozen_sha256": "34c5d6a6cd9c284b0ea560dbd090b58bda58e1a17c90a60fe19b983421911de9"
   },
   {
+    "result": "results/367279806_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/367279806_longbaseline/frozen_training.json",
+    "frozen_sha256": "40b82e4cce823091b4cf7b3ac3807266555b9dff50ef3e9f704c39d93dbdb58e"
+  },
+  {
     "result": "results/367279806_refined/result.json",
     "trials": 4,
     "frozen_record": "results/367279806_refined/frozen_refinement.json",
@@ -16242,6 +17166,12 @@
     "frozen_sha256": "d71eed335b45b40db6e08373721dac9513e66301741b637c96ce726a21327a05"
   },
   {
+    "result": "results/367357090_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/367357090_longbaseline/frozen_training.json",
+    "frozen_sha256": "14aae37dc44076cc254177ad10a8226f62e35989bef736b55b4bda52905c2ddc"
+  },
+  {
     "result": "results/367357090_refined/result.json",
     "trials": 1,
     "frozen_record": "results/367357090_refined/frozen_refinement.json",
@@ -16258,6 +17188,12 @@
     "trials": 3,
     "frozen_record": "results/367359428/frozen_discovery.json",
     "frozen_sha256": "e1583b772a6c5ccd1b56cf2257abb17404c079f5b23cc910ca10a0437958ed0f"
+  },
+  {
+    "result": "results/367359428_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/367359428_longbaseline/frozen_training.json",
+    "frozen_sha256": "c1ea65901f8213d317ded8407516909543b4ade758d2ad7faaeb70e71ccfe086"
   },
   {
     "result": "results/367359428_refined/result.json",
@@ -16348,6 +17284,12 @@
     "frozen_sha256": "7063f05b4dc1cc19ccc1dc57380758d83284bcc330925770204de556e3b6c4e7"
   },
   {
+    "result": "results/368923404_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/368923404_longbaseline/frozen_training.json",
+    "frozen_sha256": "25d8819d89bda607c8cd00971c4b98acde31aeebbe786a457e84b37ac519c69b"
+  },
+  {
     "result": "results/368923404_refined/result.json",
     "trials": 4,
     "frozen_record": "results/368923404_refined/frozen_refinement.json",
@@ -16364,6 +17306,12 @@
     "trials": 4,
     "frozen_record": "results/369707376/frozen_discovery.json",
     "frozen_sha256": "2d39d1c6733fcb8064bd651945c66064add9144708d1b11713bc2d106d269acb"
+  },
+  {
+    "result": "results/369707376_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/369707376_longbaseline/frozen_training.json",
+    "frozen_sha256": "be9cdbe92ac7378ac23ded6c50ddcbfdf461b1d3b8971c785b355bbde295b584"
   },
   {
     "result": "results/369707376_refined/result.json",
@@ -16430,6 +17378,12 @@
     "trials": 4,
     "frozen_record": "results/370004962/frozen_discovery.json",
     "frozen_sha256": "857c2d9d0dcd4c1c9f2388d363f5a1ee1de7a26621d394e8dc5b2cec0253dc4c"
+  },
+  {
+    "result": "results/370004962_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/370004962_longbaseline/frozen_training.json",
+    "frozen_sha256": "58278bcb0fce11d3be9b0d176b876327f483753efb1ee0795515370717c5b4dc"
   },
   {
     "result": "results/370004962_refined/result.json",
@@ -16522,6 +17476,12 @@
     "frozen_sha256": "8864de57b0a08c421e542b211c3729064181071e00c2a6c20139fce38a48f8ad"
   },
   {
+    "result": "results/372061167_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/372061167_longbaseline/frozen_training.json",
+    "frozen_sha256": "625b4316d7eb640cf0ccd1ce8c32c3d6f64da05514c7de3427a47ec1f03e1014"
+  },
+  {
     "result": "results/372061167_refined/result.json",
     "trials": 4,
     "frozen_record": "results/372061167_refined/frozen_refinement.json",
@@ -16546,6 +17506,12 @@
     "frozen_sha256": "e0fedae41f6401b1b51a784d21702ff4f3458c7f10d8dd4f6d4e123be1d0cce0"
   },
   {
+    "result": "results/372595278_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/372595278_longbaseline/frozen_training.json",
+    "frozen_sha256": "7e350d68a9ce4883d296409a3e06ec2fce4303f7bfaaad2043e2e036591917f1"
+  },
+  {
     "result": "results/372595278_refined/result.json",
     "trials": 4,
     "frozen_record": "results/372595278_refined/frozen_refinement.json",
@@ -16562,6 +17528,12 @@
     "trials": 4,
     "frozen_record": "results/372731881/frozen_discovery.json",
     "frozen_sha256": "87fd681069e8493a42016b4a68177a32dbf614974467e2ffc530fd229569f279"
+  },
+  {
+    "result": "results/372731881_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/372731881_longbaseline/frozen_training.json",
+    "frozen_sha256": "c745a23eeeae60419cfa7c31e103439099828ff0696e3c0908df2323492c7b0f"
   },
   {
     "result": "results/372731881_refined/result.json",
@@ -16606,6 +17578,12 @@
     "frozen_sha256": "c6c64760232b3466cc919d3534c40708858e96052f913ff524c988a99b1c816f"
   },
   {
+    "result": "results/373675061_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/373675061_longbaseline/frozen_training.json",
+    "frozen_sha256": "2068582904803ec10fb99f69d250d75e814f234b9ec4972c404c1e927c425924"
+  },
+  {
     "result": "results/373675061_refined/result.json",
     "trials": 4,
     "frozen_record": "results/373675061_refined/frozen_refinement.json",
@@ -16648,6 +17626,12 @@
     "frozen_sha256": "d874dae48f53657e15ee04ea2eafe4e00af86420f0fd8f1b78c47c797d0ccbf1"
   },
   {
+    "result": "results/374029463_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/374029463_longbaseline/frozen_training.json",
+    "frozen_sha256": "9e58d9f81e9ed7e680a8e501b9b0b411e5b123ba75ddb6b73cd430a29d916d74"
+  },
+  {
     "result": "results/374029463_refined/result.json",
     "trials": 4,
     "frozen_record": "results/374029463_refined/frozen_refinement.json",
@@ -16666,6 +17650,12 @@
     "frozen_sha256": "72eea2470cd4caa9ded0d5cef7a83364ed702f5106dbfe107bea4d53239de6c6"
   },
   {
+    "result": "results/375273689_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/375273689_longbaseline/frozen_training.json",
+    "frozen_sha256": "db8e8e8b130290d88f2a66c9698059dbfb1e4d176d1fc0434d373994dc0ca18c"
+  },
+  {
     "result": "results/375273689_refined/result.json",
     "trials": 4,
     "frozen_record": "results/375273689_refined/frozen_refinement.json",
@@ -16682,6 +17672,12 @@
     "trials": 4,
     "frozen_record": "results/376639349/frozen_discovery.json",
     "frozen_sha256": "6c0ca0863532e696a4cf57de9eb57eef5aa591daddcc480742d645d7d20f3333"
+  },
+  {
+    "result": "results/376639349_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/376639349_longbaseline/frozen_training.json",
+    "frozen_sha256": "3782ad4d546c7a96d34367de78db84df26a1c9dbc7ff4e932da6240a4739b4a4"
   },
   {
     "result": "results/376639349_refined/result.json",
@@ -16756,6 +17752,12 @@
     "frozen_sha256": "51a1032f74815bf2e30fb029eac01d3140ef9a7b4e0abfaf7269f8ee3eb07eb5"
   },
   {
+    "result": "results/378527773_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/378527773_longbaseline/frozen_training.json",
+    "frozen_sha256": "9178e83c728b545a0b3e59354eaacaf39cbce7ecd05cb825dc419f7369888156"
+  },
+  {
     "result": "results/378527773_refined/result.json",
     "trials": 2,
     "frozen_record": "results/378527773_refined/frozen_refinement.json",
@@ -16780,6 +17782,12 @@
     "frozen_sha256": "ab50e9046f56eb0a17d19d054d5907e60ec83be54942f19e40f02e4260125205"
   },
   {
+    "result": "results/379084450_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/379084450_longbaseline/frozen_training.json",
+    "frozen_sha256": "204f7f60e42cb4934f5b49fd6a6b21fe7f6415d03832b021f02c6f3c8b8115ec"
+  },
+  {
     "result": "results/379084450_refined/result.json",
     "trials": 4,
     "frozen_record": "results/379084450_refined/frozen_refinement.json",
@@ -16796,6 +17804,12 @@
     "trials": 4,
     "frozen_record": "results/380035826/frozen_discovery.json",
     "frozen_sha256": "216b2325b7b7c0dda26818f61ac1c3f4ef225c5746329e961e8b2ae6787b9471"
+  },
+  {
+    "result": "results/380035826_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/380035826_longbaseline/frozen_training.json",
+    "frozen_sha256": "f9f8eba3e411eabbe1d9ec90f3ce74b3a4c2fd81a1f1471f065ba87e92499627"
   },
   {
     "result": "results/380035826_refined/result.json",
@@ -16958,6 +17972,12 @@
     "frozen_sha256": "9dc73ca0c57111a79c2e4f333b701415453b41295f96cf2db66abf2a3fab32e1"
   },
   {
+    "result": "results/382581300_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/382581300_longbaseline/frozen_training.json",
+    "frozen_sha256": "b5bb77d528568fe27fd6c95612c02aecaea2b72a13bdbef31e509a81dfaea67e"
+  },
+  {
     "result": "results/382581300_refined/result.json",
     "trials": 4,
     "frozen_record": "results/382581300_refined/frozen_refinement.json",
@@ -16974,6 +17994,12 @@
     "trials": 4,
     "frozen_record": "results/383381662/frozen_discovery.json",
     "frozen_sha256": "8949bbc76c1c3f2d3c12aa3a10f734a45e0861e49d667563aec441f1099b7dd0"
+  },
+  {
+    "result": "results/383381662_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/383381662_longbaseline/frozen_training.json",
+    "frozen_sha256": "a9f36ad6934d1ecc3d1c9045b1013f291a4c226fb6c4a7ca5390ce0cceaa575e"
   },
   {
     "result": "results/383381662_refined/result.json",
@@ -17018,6 +18044,12 @@
     "frozen_sha256": "d7aae23185418275c4cee139f493c22545bb7b4078274e8f418b0b9ccba8257f"
   },
   {
+    "result": "results/384667852_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/384667852_longbaseline/frozen_training.json",
+    "frozen_sha256": "eb7a8110edc0835610ac99187f6e40ef4593d6ee75ec70580647e5c126137d09"
+  },
+  {
     "result": "results/384667852_refined/result.json",
     "trials": 4,
     "frozen_record": "results/384667852_refined/frozen_refinement.json",
@@ -17056,6 +18088,12 @@
     "trials": 4,
     "frozen_record": "results/385445333/frozen_discovery.json",
     "frozen_sha256": "d198a558f387378e9a7cb0bb1a1a7767a555f0897005d9cdb5db0358769e5d3c"
+  },
+  {
+    "result": "results/385445333_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/385445333_longbaseline/frozen_training.json",
+    "frozen_sha256": "dac430c8146e8d727df2238bce9f7d4a584c8a78c6472ea756a041325f403433"
   },
   {
     "result": "results/385445333_refined/result.json",
@@ -17172,6 +18210,12 @@
     "frozen_sha256": "072bc043788d2d5f013fa7a6427ff8eda54923e31f44aa3ae4850c5f90868ae6"
   },
   {
+    "result": "results/387998188_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/387998188_longbaseline/frozen_training.json",
+    "frozen_sha256": "f7f616b382676563b9bf6a4fa61ff8fbaf8b1b34843d535a25388b5bcb43e7c0"
+  },
+  {
     "result": "results/387998188_refined/result.json",
     "trials": 4,
     "frozen_record": "results/387998188_refined/frozen_refinement.json",
@@ -17214,6 +18258,12 @@
     "frozen_sha256": "f26141749314a2ca29112ca1a31b51a7f332a2b627b92492734f5f3867b5dcd2"
   },
   {
+    "result": "results/388566007_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/388566007_longbaseline/frozen_training.json",
+    "frozen_sha256": "91e78e55b2ddbb56bd6c60512e14f6b5cd514ac993c6291f966a4f9e379d5521"
+  },
+  {
     "result": "results/388566007_refined/result.json",
     "trials": 4,
     "frozen_record": "results/388566007_refined/frozen_refinement.json",
@@ -17232,6 +18282,12 @@
     "frozen_sha256": "4fcfe80814123c4812b8609f861045846e5499c0efb95546c26d7c57d929a53f"
   },
   {
+    "result": "results/388566010_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/388566010_longbaseline/frozen_training.json",
+    "frozen_sha256": "f014cd5247f147aade7e6c68bc9e08e844f1a79ad31dcdff2ac5aecbfa527ffd"
+  },
+  {
     "result": "results/388566010_refined/result.json",
     "trials": 4,
     "frozen_record": "results/388566010_refined/frozen_refinement.json",
@@ -17248,6 +18304,12 @@
     "trials": 1,
     "frozen_record": "results/388606196/frozen_discovery.json",
     "frozen_sha256": "f1b1235ef1e4ec7ae39d536619e2d1c9b2761d7838078d2d0a9e6bd533f75ea9"
+  },
+  {
+    "result": "results/388606196_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/388606196_longbaseline/frozen_training.json",
+    "frozen_sha256": "43f45cc217f1a8bd013ea338185ecf93f6fce1a685368234e3b14cf68107c7ad"
   },
   {
     "result": "results/388606196_refined/result.json",
@@ -17290,6 +18352,12 @@
     "trials": 4,
     "frozen_record": "results/389839182/frozen_discovery.json",
     "frozen_sha256": "2d3440b9dcf34855b06d27556dbd8d8ca03985380f4e09fb37e3d8c7658e3bd7"
+  },
+  {
+    "result": "results/389839182_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/389839182_longbaseline/frozen_training.json",
+    "frozen_sha256": "1f1ec11f512636273633ada9e89c6ee8eace16dc2b1598c1ffb05528e0f130ed"
   },
   {
     "result": "results/389839182_refined/result.json",
@@ -17480,6 +18548,12 @@
     "frozen_sha256": "77f043fd60ce9b3888c942a6d7d560994ec0922db596bcc716d01de98fb345aa"
   },
   {
+    "result": "results/393894294_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/393894294_longbaseline/frozen_training.json",
+    "frozen_sha256": "7f51bcbd9e7c9bbadb1ea76302ac1eb3ba97dcb9056d53c287f4d11fd6d660e9"
+  },
+  {
     "result": "results/393894294_refined/result.json",
     "trials": 1,
     "frozen_record": "results/393894294_refined/frozen_refinement.json",
@@ -17496,6 +18570,10 @@
     "trials": 4,
     "frozen_record": "results/394244919/frozen_discovery.json",
     "frozen_sha256": "849dbeb805d51ea0b75f1c4f4737cd32d56f0ab164d89ca93009426159ced52e"
+  },
+  {
+    "result": "results/394244919_longbaseline/result.json",
+    "trials": 0
   },
   {
     "result": "results/394244919_refined/result.json",
@@ -17588,6 +18666,12 @@
     "frozen_sha256": "485b7e41172cfd27a48120cef0afec9e0c5e53e3d69b68d5335f8f4b15245110"
   },
   {
+    "result": "results/394730744_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/394730744_longbaseline/frozen_training.json",
+    "frozen_sha256": "7d05efc989f6cc7e802a228dba3c5e42bcb33480b73e6fdd193a06e25e5fb81e"
+  },
+  {
     "result": "results/394730744_refined/result.json",
     "trials": 4,
     "frozen_record": "results/394730744_refined/frozen_refinement.json",
@@ -17630,6 +18714,12 @@
     "frozen_sha256": "c28b40bb8ec5499c7a67835451e4516c681951f26beb077f7901e6a3cdf2f60f"
   },
   {
+    "result": "results/395602605_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/395602605_longbaseline/frozen_training.json",
+    "frozen_sha256": "f7dac4c42755e73ae1795d489369ce7b4f3c45dc6842ecf42a5183e521afe81e"
+  },
+  {
     "result": "results/395602605_refined/result.json",
     "trials": 4,
     "frozen_record": "results/395602605_refined/frozen_refinement.json",
@@ -17654,6 +18744,10 @@
     "frozen_sha256": "8505350fa106edbbba00dfcfd8424b51dc08da404db187d52438e06fad18ac99"
   },
   {
+    "result": "results/396740078_longbaseline/result.json",
+    "trials": 0
+  },
+  {
     "result": "results/396740078_refined/result.json",
     "trials": 4,
     "frozen_record": "results/396740078_refined/frozen_refinement.json",
@@ -17670,6 +18764,12 @@
     "trials": 3,
     "frozen_record": "results/396741152/frozen_discovery.json",
     "frozen_sha256": "c3c8067d7217a8ae00cd31f12357af28cf73c75b419d7b07faba81f8251c11d7"
+  },
+  {
+    "result": "results/396741152_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/396741152_longbaseline/frozen_training.json",
+    "frozen_sha256": "814994f46b4136375040e06601edc8126d1f91409c143f728881ed00289c7e2e"
   },
   {
     "result": "results/396741152_refined/result.json",
@@ -17834,6 +18934,12 @@
     "frozen_sha256": "b2565785eea0c2506e39a841a78451b3e288e103ffcb3a52bc5b6cc9eb2f64f3"
   },
   {
+    "result": "results/399912139_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/399912139_longbaseline/frozen_training.json",
+    "frozen_sha256": "9e3dd9d850a6e527875615834e824bcc6f4ef229833d5e7f071bbc5fcaa1fb19"
+  },
+  {
     "result": "results/399912139_refined/result.json",
     "trials": 4,
     "frozen_record": "results/399912139_refined/frozen_refinement.json",
@@ -17924,6 +19030,12 @@
     "frozen_sha256": "8a64fc8f4187e94536edd267d03b0d2e28a40fc85d4e14f201a38190fbfe02b9"
   },
   {
+    "result": "results/402980664_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/402980664_longbaseline/frozen_training.json",
+    "frozen_sha256": "3034e51e6611f91b428a2781e8daa7b1f62b5cc28fbb58cc3ec9a028fdc42536"
+  },
+  {
     "result": "results/402980664_refined/result.json",
     "trials": 4,
     "frozen_record": "results/402980664_refined/frozen_refinement.json",
@@ -17940,6 +19052,12 @@
     "trials": 4,
     "frozen_record": "results/404449695/frozen_discovery.json",
     "frozen_sha256": "fda9316cac8dc26fcea3e60e39cececb155238fab2428c7dda58bf93d46891a2"
+  },
+  {
+    "result": "results/404449695_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/404449695_longbaseline/frozen_training.json",
+    "frozen_sha256": "47c126570a35127f880f5935527b6ab1f9b585917296e7b4cee450dfeb0561d8"
   },
   {
     "result": "results/404449695_refined/result.json",
@@ -17960,6 +19078,10 @@
     "frozen_sha256": "01c77009b8527bbc21fe66f1714a07cc1fb7ce66725c9af515d9e946cb34ac91"
   },
   {
+    "result": "results/404507259_longbaseline/result.json",
+    "trials": 0
+  },
+  {
     "result": "results/404507259_refined/result.json",
     "trials": 3,
     "frozen_record": "results/404507259_refined/frozen_refinement.json",
@@ -17976,6 +19098,12 @@
     "trials": 4,
     "frozen_record": "results/405253504/frozen_discovery.json",
     "frozen_sha256": "c226667bec151023fa23defc7aafbc6db4f2092f67550e430d81d954d6ee0118"
+  },
+  {
+    "result": "results/405253504_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/405253504_longbaseline/frozen_training.json",
+    "frozen_sha256": "86af68d0b9ad5810ad8a59ae63b8ece377f0f48b7011b9c724f22f301bb60c67"
   },
   {
     "result": "results/405253504_refined/result.json",
@@ -18020,6 +19148,12 @@
     "frozen_sha256": "7112aae119ee8ea6d08fbbad8dd95d2214ed2b5af7ce84f1f40eb3c97870e14f"
   },
   {
+    "result": "results/405902579_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/405902579_longbaseline/frozen_training.json",
+    "frozen_sha256": "4fa8bf3b4c4a68e2de5440bd8d7211755671bc826a9c66b0fc01da42fa41970d"
+  },
+  {
     "result": "results/405902579_refined/result.json",
     "trials": 4,
     "frozen_record": "results/405902579_refined/frozen_refinement.json",
@@ -18060,6 +19194,12 @@
     "trials": 4,
     "frozen_record": "results/406484174/frozen_discovery.json",
     "frozen_sha256": "cd13ad8842504a54b7f1ca1c71e0c525831770ce7b323f99f6e5f9ac4a24d6e9"
+  },
+  {
+    "result": "results/406484174_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/406484174_longbaseline/frozen_training.json",
+    "frozen_sha256": "79c9ee91cbf26975366e9867c1eebf9a9295e4d14c6c2df6896f8f77f926d438"
   },
   {
     "result": "results/406484174_refined/result.json",
@@ -18200,6 +19340,12 @@
     "frozen_sha256": "aa4a1d82fc7fb9a79f4abc38d1f881a297c166741bb25a6bdd7a106530eff6c5"
   },
   {
+    "result": "results/408094501_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/408094501_longbaseline/frozen_training.json",
+    "frozen_sha256": "5dfc1b6d81d403eab1b58969df43236e710433a03072b774182094cbab22a6ee"
+  },
+  {
     "result": "results/408094501_refined/result.json",
     "trials": 4,
     "frozen_record": "results/408094501_refined/frozen_refinement.json",
@@ -18216,6 +19362,12 @@
     "trials": 4,
     "frozen_record": "results/408094624/frozen_discovery.json",
     "frozen_sha256": "27196d48bdef52e98be194506f8be862a708e82656494fa4491d58ca8885ab44"
+  },
+  {
+    "result": "results/408094624_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/408094624_longbaseline/frozen_training.json",
+    "frozen_sha256": "242e5f15816b63e8c46b7e5ac0e55851711ca25ee6c0397051da3a9548ce5647"
   },
   {
     "result": "results/408094624_refined/result.json",
@@ -18258,6 +19410,12 @@
     "trials": 1,
     "frozen_record": "results/408702840/frozen_discovery.json",
     "frozen_sha256": "f82125266c6cbfe0eaa2c7f0e5141a17c592a30be75c2a342421f06a5fc36ce1"
+  },
+  {
+    "result": "results/408702840_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/408702840_longbaseline/frozen_training.json",
+    "frozen_sha256": "81f45ece6378d75ae735cf5f42011a45ccd5ae64cb5305d7c987e419dfa2ff10"
   },
   {
     "result": "results/408702840_refined/result.json",
@@ -18420,6 +19578,12 @@
     "frozen_sha256": "ace2b9760a980cdcd4858eb82bda35df056d428d4919f3996ba803a76047e474"
   },
   {
+    "result": "results/416781089_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/416781089_longbaseline/frozen_training.json",
+    "frozen_sha256": "927fc239da6d0347481766247315a15b6b089b1a41840d4eb08fbb182f2a2da2"
+  },
+  {
     "result": "results/416781089_refined/result.json",
     "trials": 4,
     "frozen_record": "results/416781089_refined/frozen_refinement.json",
@@ -18462,6 +19626,12 @@
     "frozen_sha256": "2432605b4b148670d91c47766f0c1c6db39cb26bd35386ecf7c7b94d5b117e27"
   },
   {
+    "result": "results/417118702_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/417118702_longbaseline/frozen_training.json",
+    "frozen_sha256": "5b49113ce795a60b8e803969e2a2543dcee029e3fe8004b405af8e7e68fec1c7"
+  },
+  {
     "result": "results/417118702_refined/result.json",
     "trials": 1,
     "frozen_record": "results/417118702_refined/frozen_refinement.json",
@@ -18500,6 +19670,12 @@
     "trials": 1,
     "frozen_record": "results/417235334/frozen_discovery.json",
     "frozen_sha256": "accc665d4cc517ad3ae12f97e34670c30577aa83e646a9b3fa3fa93c312d04a0"
+  },
+  {
+    "result": "results/417235334_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/417235334_longbaseline/frozen_training.json",
+    "frozen_sha256": "e062a4551fc6041ce044a7d55e523e48428371ab894d12aa3faa0744568ac364"
   },
   {
     "result": "results/417235334_refined/result.json",
@@ -18544,6 +19720,12 @@
     "frozen_sha256": "f3317031eb31c874726afe602c2dd79a8d5489b0a8ccf620fd3b2d0361e82d44"
   },
   {
+    "result": "results/417839594_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/417839594_longbaseline/frozen_training.json",
+    "frozen_sha256": "0e1e5bd5961f83d013835a3b0700769e49250e160ec98361f62a8ea909d17f9c"
+  },
+  {
     "result": "results/417839594_refined/result.json",
     "trials": 4,
     "frozen_record": "results/417839594_refined/frozen_refinement.json",
@@ -18560,6 +19742,12 @@
     "trials": 3,
     "frozen_record": "results/417919247/frozen_discovery.json",
     "frozen_sha256": "3d5bcbd179ac7fb64f17e991938bd130f80cbbf1f2a1f9d4d7a612e54a25f6dd"
+  },
+  {
+    "result": "results/417919247_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/417919247_longbaseline/frozen_training.json",
+    "frozen_sha256": "8c9456d8a1fbb80704332ce35a69432d61a4aaca84258cda9c74d73f9c7860bb"
   },
   {
     "result": "results/417919247_refined/result.json",
@@ -18580,6 +19768,12 @@
     "frozen_sha256": "4ad0445f90f1cf7b6113e0924fe8cc945184b8749b6559fce146e30c3e6c0343"
   },
   {
+    "result": "results/418223113_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/418223113_longbaseline/frozen_training.json",
+    "frozen_sha256": "a4cdc428f1dd7f6874e78932d7ab0744cb40a129044466169bce07525df6eac8"
+  },
+  {
     "result": "results/418223113_refined/result.json",
     "trials": 4,
     "frozen_record": "results/418223113_refined/frozen_refinement.json",
@@ -18598,6 +19792,12 @@
     "frozen_sha256": "d67399013d10b8299b1c6ee5640dc0cf6ab32c97494737de5de50d2938613660"
   },
   {
+    "result": "results/418289392_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/418289392_longbaseline/frozen_training.json",
+    "frozen_sha256": "045124d07119fdb6fef718c21fd7b32ada74ffcec33f6aa1d1c14713d79780a4"
+  },
+  {
     "result": "results/418289392_refined/result.json",
     "trials": 2,
     "frozen_record": "results/418289392_refined/frozen_refinement.json",
@@ -18614,6 +19814,12 @@
     "trials": 4,
     "frozen_record": "results/418291587/frozen_discovery.json",
     "frozen_sha256": "06c0898a442efa700f8c5af99496e77ee2e45126d5dcd2fe1f8a7ed069eab70e"
+  },
+  {
+    "result": "results/418291587_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/418291587_longbaseline/frozen_training.json",
+    "frozen_sha256": "b5722d326aeb0b25081a144d40554d94e0bcab36421d3588f52c2347fd891ccf"
   },
   {
     "result": "results/418291587_refined/result.json",
@@ -18670,6 +19876,12 @@
     "frozen_sha256": "cf0fd90e62361bde6ea61389448f4443dcda7331a4a603069e6f37b77e42ec6a"
   },
   {
+    "result": "results/420801158_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/420801158_longbaseline/frozen_training.json",
+    "frozen_sha256": "f64c804792f9a7bbb2b9638ec51a1a0b0b72802c49f683e43457b450eff147c4"
+  },
+  {
     "result": "results/420801158_refined/result.json",
     "trials": 4,
     "frozen_record": "results/420801158_refined/frozen_refinement.json",
@@ -18686,6 +19898,12 @@
     "trials": 4,
     "frozen_record": "results/421856903/frozen_discovery.json",
     "frozen_sha256": "8d9ba7572632b4761c97f3d6d24414782520956901d7a7630cc2d259a4e1c99b"
+  },
+  {
+    "result": "results/421856903_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/421856903_longbaseline/frozen_training.json",
+    "frozen_sha256": "d41cdd9fdff538fc42a444a3f27a12a754aa2f63b2e2b2e5a503837e541be761"
   },
   {
     "result": "results/421856903_refined/result.json",
@@ -18760,6 +19978,12 @@
     "frozen_sha256": "e7487eadef07a7558b7a386b9e367ae8042e5a97988ee02aa1f237a5fbb5433c"
   },
   {
+    "result": "results/423236614_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/423236614_longbaseline/frozen_training.json",
+    "frozen_sha256": "aba2c2dced60e3d86879a24aca587fb8ee95685d04446df0e1c5bc6f03bfdb3a"
+  },
+  {
     "result": "results/423236614_refined/result.json",
     "trials": 4,
     "frozen_record": "results/423236614_refined/frozen_refinement.json",
@@ -18800,6 +20024,12 @@
     "trials": 2,
     "frozen_record": "results/424801289/frozen_discovery.json",
     "frozen_sha256": "59a1a8bfdcd8e34fa1f586fa4a2ba179746f015625130a1a7b1cf37f48243f79"
+  },
+  {
+    "result": "results/424801289_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/424801289_longbaseline/frozen_training.json",
+    "frozen_sha256": "077e7b6665c948e51c98c0f0c5cac70c95788717489a01e01dde2a28e82af147"
   },
   {
     "result": "results/424801289_refined/result.json",
@@ -18892,6 +20122,12 @@
     "frozen_sha256": "91a9e6b8a608e767aef9835fd8dfb173a8c07d190b984a887544159503e42429"
   },
   {
+    "result": "results/427515821_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/427515821_longbaseline/frozen_training.json",
+    "frozen_sha256": "dd8136e0de856527ee9919aaf395ca105a23073f9b88e0af3f7a44b25ca8f7cd"
+  },
+  {
     "result": "results/427515821_refined/result.json",
     "trials": 4,
     "frozen_record": "results/427515821_refined/frozen_refinement.json",
@@ -18932,6 +20168,12 @@
     "trials": 4,
     "frozen_record": "results/427919495/frozen_discovery.json",
     "frozen_sha256": "50d97e60d451d11c81ec7ac5b2707e15f633ede80f1976dbddc40d85afa1a41c"
+  },
+  {
+    "result": "results/427919495_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/427919495_longbaseline/frozen_training.json",
+    "frozen_sha256": "00d31fdd2d7617ca8fc12ac69e8f0aee8c3199054d0b5ccbce8b1594a2906a0e"
   },
   {
     "result": "results/427919495_refined/result.json",
@@ -18980,6 +20222,12 @@
     "trials": 3,
     "frozen_record": "results/428738405/frozen_discovery.json",
     "frozen_sha256": "d41cb0fc5716bd85fedc01b0ae736ab55e339eb3f457288bfe878ec93840b0da"
+  },
+  {
+    "result": "results/428738405_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/428738405_longbaseline/frozen_training.json",
+    "frozen_sha256": "2970ee5799de5b85b954f33b50c53b649902472ca5743cfeafb7383a15543ecd"
   },
   {
     "result": "results/428738405_refined/result.json",
@@ -19262,6 +20510,12 @@
     "frozen_sha256": "4d6a7b49ded74dc0115828ec5b83231afb29571ebc90324eb0e2a859e4e44277"
   },
   {
+    "result": "results/441605415_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/441605415_longbaseline/frozen_training.json",
+    "frozen_sha256": "d3232e094cf4f47fe9db02c63d4b0eee2783ad560281d51afafebb239925d3ee"
+  },
+  {
     "result": "results/441605415_refined/result.json",
     "trials": 2,
     "frozen_record": "results/441605415_refined/frozen_refinement.json",
@@ -19278,6 +20532,12 @@
     "trials": 4,
     "frozen_record": "results/441606549/frozen_discovery.json",
     "frozen_sha256": "f15257a6b06a2dd66c26190ef997fc325354db73eeed0efa504512dd45cebc1d"
+  },
+  {
+    "result": "results/441606549_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/441606549_longbaseline/frozen_training.json",
+    "frozen_sha256": "5c48cdea4f04d338f9f4b294c12274ef398f1bb886e919c66a5ed51cf45fc5f9"
   },
   {
     "result": "results/441606549_refined/result.json",
@@ -19298,6 +20558,12 @@
     "frozen_sha256": "888ece5de26622138195ff8340fe3b0441cdfbd423ea5a880f36a5c2e74dd61a"
   },
   {
+    "result": "results/441628564_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/441628564_longbaseline/frozen_training.json",
+    "frozen_sha256": "53d8883f2409046ca953e8dcaf521125295419d965f54577201fdca0d142edd3"
+  },
+  {
     "result": "results/441628564_refined/result.json",
     "trials": 4,
     "frozen_record": "results/441628564_refined/frozen_refinement.json",
@@ -19314,6 +20580,12 @@
     "trials": 4,
     "frozen_record": "results/441662762/frozen_discovery.json",
     "frozen_sha256": "9565d67cff83f24c6a4d1ba32139cb44d9f7869b5f09a35d205f3f43001fad51"
+  },
+  {
+    "result": "results/441662762_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/441662762_longbaseline/frozen_training.json",
+    "frozen_sha256": "5f2544f745e5b88dcdf7e659318b5dd901308a1f762b25d7930524cd921db49e"
   },
   {
     "result": "results/441662762_refined/result.json",
@@ -19334,6 +20606,12 @@
     "frozen_sha256": "93b466a1bfc6412f75559e3dce63b8ed28fd19958d558922685218d644385365"
   },
   {
+    "result": "results/441664609_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/441664609_longbaseline/frozen_training.json",
+    "frozen_sha256": "a09af326959c46bfa1ffe050bbd375b5b12d390d79ede2d781fbf25db055165c"
+  },
+  {
     "result": "results/441664609_refined/result.json",
     "trials": 4,
     "frozen_record": "results/441664609_refined/frozen_refinement.json",
@@ -19350,6 +20628,12 @@
     "trials": 4,
     "frozen_record": "results/441686652/frozen_discovery.json",
     "frozen_sha256": "6d09b9daa61cc0f8caa4a1511ea25463af9f6642e82d6972643ccc56c14c5a7f"
+  },
+  {
+    "result": "results/441686652_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/441686652_longbaseline/frozen_training.json",
+    "frozen_sha256": "8fa415d10582273c75ef6945a41d05601a8ccf9e77520da1c718a09829c17cac"
   },
   {
     "result": "results/441686652_refined/result.json",
@@ -19466,6 +20750,10 @@
     "frozen_sha256": "79c98a12e9455a3c314df3b243afd576d3b644c263906b7323eb4390b17f50b0"
   },
   {
+    "result": "results/442897934_longbaseline/result.json",
+    "trials": 0
+  },
+  {
     "result": "results/442897934_refined/result.json",
     "trials": 4,
     "frozen_record": "results/442897934_refined/frozen_refinement.json",
@@ -19484,6 +20772,12 @@
     "frozen_sha256": "9e73f9d47dd2a151988424f333f53ee51caea354811ffa5d9dd68ebd96fa2c5e"
   },
   {
+    "result": "results/444415612_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/444415612_longbaseline/frozen_training.json",
+    "frozen_sha256": "6bf00cd3b1e1e6ffa12478e45efe26b5947f9575582f41f7eafae48d563e495b"
+  },
+  {
     "result": "results/444415612_refined/result.json",
     "trials": 3,
     "frozen_record": "results/444415612_refined/frozen_refinement.json",
@@ -19500,6 +20794,12 @@
     "trials": 4,
     "frozen_record": "results/444830499/frozen_discovery.json",
     "frozen_sha256": "7527385cf7cf94cbab6da7f74fde677e2f7ef1edf994d8134efe82af7b36d936"
+  },
+  {
+    "result": "results/444830499_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/444830499_longbaseline/frozen_training.json",
+    "frozen_sha256": "208fb97bdd352976a500dc9e8b27373645c924916a6570541ee021a8e90607f9"
   },
   {
     "result": "results/444830499_refined/result.json",
@@ -19574,6 +20874,12 @@
     "frozen_sha256": "392babc154d3f154db0c99a6c00dd73130d145f66cfae505295bd707f3961140"
   },
   {
+    "result": "results/445285461_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/445285461_longbaseline/frozen_training.json",
+    "frozen_sha256": "b04a741c15b8a3dfe3ade604fc265166093bfb43c111836d8df0027d07992a56"
+  },
+  {
     "result": "results/445285461_refined/result.json",
     "trials": 4,
     "frozen_record": "results/445285461_refined/frozen_refinement.json",
@@ -19592,6 +20898,10 @@
     "frozen_sha256": "71f9e0be66eebe9cbe678d159fb2d899df252b9a8163586415dbfa67a04584be"
   },
   {
+    "result": "results/445367562_longbaseline/result.json",
+    "trials": 0
+  },
+  {
     "result": "results/445367562_refined/result.json",
     "trials": 3,
     "frozen_record": "results/445367562_refined/frozen_refinement.json",
@@ -19608,6 +20918,12 @@
     "trials": 2,
     "frozen_record": "results/445835414/frozen_discovery.json",
     "frozen_sha256": "8076d8dd6b21b9d1cb44f745fbe41102fb34302e681514c4fc4c84851d94adfd"
+  },
+  {
+    "result": "results/445835414_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/445835414_longbaseline/frozen_training.json",
+    "frozen_sha256": "11a9617245bcc773fef20cef13b2e8ee7d8c6b5994b96cdf8bf831bc09b69d64"
   },
   {
     "result": "results/445835414_refined/result.json",
@@ -19672,6 +20988,12 @@
     "trials": 4,
     "frozen_record": "results/446157830/frozen_discovery.json",
     "frozen_sha256": "9ab065c8fdef4ae8aa8319c0eba3c12196ee4cf81b0d783fa9438a6443147a69"
+  },
+  {
+    "result": "results/446157830_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/446157830_longbaseline/frozen_training.json",
+    "frozen_sha256": "5a4f68a9d9dc72024dd198687a636b0e590cd81e3ec446c01370228bde0441a2"
   },
   {
     "result": "results/446157830_refined/result.json",
@@ -19882,6 +21204,12 @@
     "frozen_sha256": "a64b2502591bcbbf92c2ba4456e00afc1f8cc9aa9ce633839fba5461cbc516c7"
   },
   {
+    "result": "results/449798870_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/449798870_longbaseline/frozen_training.json",
+    "frozen_sha256": "7c4235bd2960d6076bfadb97e214fb6dfde86f6be9050e1b32b9472be770a8e1"
+  },
+  {
     "result": "results/449798870_refined/result.json",
     "trials": 4,
     "frozen_record": "results/449798870_refined/frozen_refinement.json",
@@ -19946,6 +21274,12 @@
     "trials": 4,
     "frozen_record": "results/451530352/frozen_discovery.json",
     "frozen_sha256": "e7e14f4e1935f0c6a6b821ced12dea15f993de41099f0c51b7907630f95dca2f"
+  },
+  {
+    "result": "results/451530352_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/451530352_longbaseline/frozen_training.json",
+    "frozen_sha256": "cbd26ad21f8bda521d2da243e38f9dab9c7d75b58c044f77db2f175a1a3f2804"
   },
   {
     "result": "results/451530352_refined/result.json",
@@ -20014,6 +21348,12 @@
     "frozen_sha256": "973680032e2b4b4d17444436ed49333f265b2efed0610f4456a619cdc39ff52f"
   },
   {
+    "result": "results/454281036_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/454281036_longbaseline/frozen_training.json",
+    "frozen_sha256": "9a037e872542a37c214fae240dceb26b0902643b544a5b914d11883d5657a3df"
+  },
+  {
     "result": "results/454281036_refined/result.json",
     "trials": 4,
     "frozen_record": "results/454281036_refined/frozen_refinement.json",
@@ -20054,6 +21394,12 @@
     "trials": 4,
     "frozen_record": "results/454816904/frozen_discovery.json",
     "frozen_sha256": "ca3294adc491c0192bbb058944916a08983c5276458f01d3a07f3e4c0624bfe9"
+  },
+  {
+    "result": "results/454816904_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/454816904_longbaseline/frozen_training.json",
+    "frozen_sha256": "e0a12ea0c358eea9a7b47d5cc0124142596ead791c8c6fa6dc2a4154cc716803"
   },
   {
     "result": "results/454816904_refined/result.json",
@@ -20192,6 +21538,12 @@
     "frozen_sha256": "c2003731b1f7a7e29e01aae6f973d6af5d0e3e719fa7b31bc5aa178efc0bd2d3"
   },
   {
+    "result": "results/459192460_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/459192460_longbaseline/frozen_training.json",
+    "frozen_sha256": "e8154d258c885d709212cddc7516d4b421161503c9e98be400a63d016f7748e1"
+  },
+  {
     "result": "results/459192460_refined/result.json",
     "trials": 4,
     "frozen_record": "results/459192460_refined/frozen_refinement.json",
@@ -20234,6 +21586,12 @@
     "frozen_sha256": "d1e70037abaffb7b962b31bea3d8958e00ac8a0c6cbbb033e7e00cb1a0083e91"
   },
   {
+    "result": "results/459220510_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/459220510_longbaseline/frozen_training.json",
+    "frozen_sha256": "e628ca5844094fd7790ed535887d370362d2800ea716b990b17aa5a73eab2dde"
+  },
+  {
     "result": "results/459220510_refined/result.json",
     "trials": 4,
     "frozen_record": "results/459220510_refined/frozen_refinement.json",
@@ -20250,6 +21608,12 @@
     "trials": 4,
     "frozen_record": "results/459225605/frozen_discovery.json",
     "frozen_sha256": "fb87dcea18e715f5d9d37cc5ff4527a39c84fd949c48ba115e66759fa2c6d020"
+  },
+  {
+    "result": "results/459225605_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/459225605_longbaseline/frozen_training.json",
+    "frozen_sha256": "c868518cfda460ef2df3940802c6ee1bd3897db3a07caf51c202d1750d5a8c61"
   },
   {
     "result": "results/459225605_refined/result.json",
@@ -20318,6 +21682,12 @@
     "frozen_sha256": "e51cad70688b63ce3c13f21b6c3db82a6fde237e91a57dd74292a734d1ee00f8"
   },
   {
+    "result": "results/461086188_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/461086188_longbaseline/frozen_training.json",
+    "frozen_sha256": "bb721c21fc18e78d56de8f2e9dc13913c502e43f676f053d5614e19347ae5b4a"
+  },
+  {
     "result": "results/461086188_refined/result.json",
     "trials": 4,
     "frozen_record": "results/461086188_refined/frozen_refinement.json",
@@ -20336,6 +21706,12 @@
     "frozen_sha256": "794a11d6825a36b0cf3ef924b1f08305b7f08da254d563eb3bfcc95e23cc3796"
   },
   {
+    "result": "results/461592543_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/461592543_longbaseline/frozen_training.json",
+    "frozen_sha256": "cd847b0b347b58fdbb344580a3c252e03d99954b7f37690218b5f985b722dcae"
+  },
+  {
     "result": "results/461592543_refined/result.json",
     "trials": 3,
     "frozen_record": "results/461592543_refined/frozen_refinement.json",
@@ -20352,6 +21728,12 @@
     "trials": 2,
     "frozen_record": "results/461595886/frozen_discovery.json",
     "frozen_sha256": "3d50af50a7fa84485938524d3068818b62f0eb5721831d65f853a33aa712dc4d"
+  },
+  {
+    "result": "results/461595886_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/461595886_longbaseline/frozen_training.json",
+    "frozen_sha256": "5644a2353db795cf6de935af81b06585b5db3fac4f23aaec38eeafc056de8cd3"
   },
   {
     "result": "results/461595886_refined/result.json",
@@ -20444,6 +21826,12 @@
     "frozen_sha256": "fe95ec60a91828ba62a0df4cf5f2b99849822317a11718e72d65ebd7d620e3a5"
   },
   {
+    "result": "results/467178450_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/467178450_longbaseline/frozen_training.json",
+    "frozen_sha256": "8641385fc8bc986cbb2a61d33b4e8d34defdf54b3278c00319d193e4e542b283"
+  },
+  {
     "result": "results/467178450_refined/result.json",
     "trials": 2,
     "frozen_record": "results/467178450_refined/frozen_refinement.json",
@@ -20492,6 +21880,12 @@
     "frozen_sha256": "90bb94cfd5a6986cc30dc2f25d26f63538202f3634f7d15e4392845098a36d5c"
   },
   {
+    "result": "results/467302128_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/467302128_longbaseline/frozen_training.json",
+    "frozen_sha256": "ef464007f9ce165390ebf444e03e10705c4110bd6a9df95b1333cd84f1ef0fc4"
+  },
+  {
     "result": "results/467302128_refined/result.json",
     "trials": 3,
     "frozen_record": "results/467302128_refined/frozen_refinement.json",
@@ -20508,6 +21902,12 @@
     "trials": 4,
     "frozen_record": "results/467361606/frozen_discovery.json",
     "frozen_sha256": "effb0978edb72cdb18c12f1d196049d32204a56c6e600d3c1355119bc36dc12e"
+  },
+  {
+    "result": "results/467361606_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/467361606_longbaseline/frozen_training.json",
+    "frozen_sha256": "c84cf066c24507cb2889f46483c362ba2c756c8c42c3181174e6f70f048e8466"
   },
   {
     "result": "results/467361606_refined/result.json",
@@ -20552,6 +21952,12 @@
     "frozen_sha256": "05db2fd247906d21053acef558e8bd9d512ecaf71d2b31887195bc20ccd10793"
   },
   {
+    "result": "results/468297427_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/468297427_longbaseline/frozen_training.json",
+    "frozen_sha256": "837035a67928b568d85649a05e54f7c754bd18ce6852ded08937d537454ae40b"
+  },
+  {
     "result": "results/468297427_refined/result.json",
     "trials": 1,
     "frozen_record": "results/468297427_refined/frozen_refinement.json",
@@ -20568,6 +21974,12 @@
     "trials": 3,
     "frozen_record": "results/468874504/frozen_discovery.json",
     "frozen_sha256": "f555d86d40cd70dd7df60a172ea20340816dfcbf4d2f977b98aef6b37d81d1a2"
+  },
+  {
+    "result": "results/468874504_longbaseline/result.json",
+    "trials": 2,
+    "frozen_record": "results/468874504_longbaseline/frozen_training.json",
+    "frozen_sha256": "40cd774d4abe2ea5b79929f9f4c64f3829bd78b5224e2da5b708ce5a7a4ba408"
   },
   {
     "result": "results/468874504_refined/result.json",

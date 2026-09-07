@@ -40,7 +40,7 @@ def main():
     if not rows:
         raise ValueError("No FITS inputs found")
     with (ROOT / "provenance/telescope_inputs.csv").open("w", newline="") as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(stream, fieldnames=list(rows[0]), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     result = dict(

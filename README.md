@@ -4,7 +4,8 @@ An open, reproducible search of public TESS observations for overlooked transiti
 planets around nearby cool stars, emphasizing small planets receiving temperate
 irradiation. Numerical analysis runs locally; no paid model API is needed.
 
-**Work in progress. No new or validated planet is claimed.** A habitable-zone orbit
+**Initial campaign complete: 1,031 distinct stars searched; no surviving planet
+candidate or new discovery.** A habitable-zone orbit
 does not establish habitability. See [research status](reports/STATUS.md),
 [methods and limitations](docs/METHODS.md), and [data sources](docs/DATA_SOURCES.md).
 
@@ -97,7 +98,17 @@ speed ratio of 1.79. Use `python scripts/progress.py` for a compact live status.
 We also test original project hypotheses against existing methods. The first
 [cross-view experiment and ablation](reports/experiments/cross_view/FINDINGS.md)
 did not establish a sufficient advantage over ordinary spatial template fitting.
-Its complete negative result is preserved, and it has not replaced the search.
+The [uncertainty variant](reports/experiments/cross_view_uncertainty/FINDINGS.md)
+accepted more displaced-source signals, and
+[response-constrained pixel extraction](reports/experiments/protected_pixels/FINDINGS.md)
+increased short-timescale noise in all eight tested sectors. These negative
+results are preserved. None of these prototypes replaced the search, and no
+methodological novelty or breakthrough is established.
+
+Two subsequent [noise-capped](reports/experiments/relative_pixels/FINDINGS.md) and
+[transit-timescale](reports/experiments/multiscale_pixels/FINDINGS.md) extraction
+revisions reduced rapid scatter in all eight development sectors, but missed
+their predeclared transit-timescale improvement gate. They remain experimental.
 
 ## Repository map
 

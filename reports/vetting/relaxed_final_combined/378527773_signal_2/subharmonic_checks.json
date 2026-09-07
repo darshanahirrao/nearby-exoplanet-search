@@ -1,0 +1,350 @@
+{
+  "tic": 378527773,
+  "checked_utc": "2026-09-07T05:31:59.590755+00:00",
+  "signal_index": 2,
+  "trial_period_days": 6.042984215461674,
+  "duration_days": 0.08805165551940171,
+  "inspected_divisor": 16,
+  "subdivisions": [
+    {
+      "factor": 1,
+      "period_days": 6.042984215461674,
+      "training": {
+        "n_events": 15,
+        "n_positive": 13,
+        "nominal_snr": 9.926336217337902
+      },
+      "holdout": {
+        "n_events": 7,
+        "n_positive": 6,
+        "nominal_snr": 5.011948938199393
+      }
+    },
+    {
+      "factor": 2,
+      "period_days": 3.021492107730837,
+      "training": {
+        "n_events": 31,
+        "n_positive": 28,
+        "nominal_snr": 11.466807181408313
+      },
+      "holdout": {
+        "n_events": 15,
+        "n_positive": 13,
+        "nominal_snr": 7.3409092308278225
+      }
+    },
+    {
+      "factor": 3,
+      "period_days": 2.014328071820558,
+      "training": {
+        "n_events": 46,
+        "n_positive": 22,
+        "nominal_snr": 4.326543378742138
+      },
+      "holdout": {
+        "n_events": 22,
+        "n_positive": 10,
+        "nominal_snr": 0.9172003847883698
+      }
+    },
+    {
+      "factor": 4,
+      "period_days": 1.5107460538654185,
+      "training": {
+        "n_events": 63,
+        "n_positive": 54,
+        "nominal_snr": 13.248243326469986
+      },
+      "holdout": {
+        "n_events": 27,
+        "n_positive": 25,
+        "nominal_snr": 10.359081211150198
+      }
+    },
+    {
+      "factor": 5,
+      "period_days": 1.2085968430923348,
+      "training": {
+        "n_events": 76,
+        "n_positive": 36,
+        "nominal_snr": 2.6425469733971925
+      },
+      "holdout": {
+        "n_events": 36,
+        "n_positive": 16,
+        "nominal_snr": -1.0146348424395908
+      }
+    },
+    {
+      "factor": 6,
+      "period_days": 1.007164035910279,
+      "training": {
+        "n_events": 94,
+        "n_positive": 48,
+        "nominal_snr": 3.341154839620527
+      },
+      "holdout": {
+        "n_events": 43,
+        "n_positive": 21,
+        "nominal_snr": 1.5332404536724462
+      }
+    },
+    {
+      "factor": 7,
+      "period_days": 0.8632834593516677,
+      "training": {
+        "n_events": 107,
+        "n_positive": 58,
+        "nominal_snr": 2.591173095550946
+      },
+      "holdout": {
+        "n_events": 51,
+        "n_positive": 28,
+        "nominal_snr": 1.0355946711965807
+      }
+    },
+    {
+      "factor": 8,
+      "period_days": 0.7553730269327092,
+      "training": {
+        "n_events": 125,
+        "n_positive": 107,
+        "nominal_snr": 19.623727508624615
+      },
+      "holdout": {
+        "n_events": 56,
+        "n_positive": 51,
+        "nominal_snr": 15.28874992846065
+      }
+    }
+  ],
+  "phase_classes": [
+    {
+      "residue": 0,
+      "epoch_btjd": 1765.5897355271777,
+      "training": {
+        "n_events": 15,
+        "n_positive": 13,
+        "nominal_snr": 9.926336217337902
+      },
+      "holdout": {
+        "n_events": 7,
+        "n_positive": 6,
+        "nominal_snr": 5.011948938199393
+      }
+    },
+    {
+      "residue": 1,
+      "epoch_btjd": 1765.9674220406441,
+      "training": {
+        "n_events": 16,
+        "n_positive": 13,
+        "nominal_snr": 3.539183997916299
+      },
+      "holdout": {
+        "n_events": 6,
+        "n_positive": 6,
+        "nominal_snr": 3.581529015331668
+      }
+    },
+    {
+      "residue": 2,
+      "epoch_btjd": 1766.3451085541103,
+      "training": {
+        "n_events": 16,
+        "n_positive": 15,
+        "nominal_snr": 8.634124917256965
+      },
+      "holdout": {
+        "n_events": 6,
+        "n_positive": 6,
+        "nominal_snr": 6.141659413092146
+      }
+    },
+    {
+      "residue": 3,
+      "epoch_btjd": 1766.7227950675767,
+      "training": {
+        "n_events": 16,
+        "n_positive": 12,
+        "nominal_snr": 4.297524970750225
+      },
+      "holdout": {
+        "n_events": 7,
+        "n_positive": 6,
+        "nominal_snr": 4.626710878427481
+      }
+    },
+    {
+      "residue": 4,
+      "epoch_btjd": 1767.1004815810431,
+      "training": {
+        "n_events": 17,
+        "n_positive": 14,
+        "nominal_snr": 5.891644748477311
+      },
+      "holdout": {
+        "n_events": 6,
+        "n_positive": 6,
+        "nominal_snr": 5.602173729125839
+      }
+    },
+    {
+      "residue": 5,
+      "epoch_btjd": 1767.4781680945096,
+      "training": {
+        "n_events": 17,
+        "n_positive": 14,
+        "nominal_snr": 4.930072239492613
+      },
+      "holdout": {
+        "n_events": 8,
+        "n_positive": 5,
+        "nominal_snr": 2.0492518771744965
+      }
+    },
+    {
+      "residue": 6,
+      "epoch_btjd": 1767.8558546079757,
+      "training": {
+        "n_events": 16,
+        "n_positive": 13,
+        "nominal_snr": 5.676307834946759
+      },
+      "holdout": {
+        "n_events": 8,
+        "n_positive": 7,
+        "nominal_snr": 4.115458365191782
+      }
+    },
+    {
+      "residue": 7,
+      "epoch_btjd": 1768.2335411214422,
+      "training": {
+        "n_events": 15,
+        "n_positive": 12,
+        "nominal_snr": 2.5361252942875563
+      },
+      "holdout": {
+        "n_events": 8,
+        "n_positive": 8,
+        "nominal_snr": 4.522018514037653
+      }
+    },
+    {
+      "residue": 8,
+      "epoch_btjd": 1768.6112276349086,
+      "training": {
+        "n_events": 16,
+        "n_positive": 15,
+        "nominal_snr": 6.329685029149887
+      },
+      "holdout": {
+        "n_events": 8,
+        "n_positive": 7,
+        "nominal_snr": 5.366924192338985
+      }
+    },
+    {
+      "residue": 9,
+      "epoch_btjd": 1768.988914148375,
+      "training": {
+        "n_events": 15,
+        "n_positive": 12,
+        "nominal_snr": 2.973411755612097
+      },
+      "holdout": {
+        "n_events": 8,
+        "n_positive": 7,
+        "nominal_snr": 3.4077597974729215
+      }
+    },
+    {
+      "residue": 10,
+      "epoch_btjd": 1769.3666006618412,
+      "training": {
+        "n_events": 14,
+        "n_positive": 10,
+        "nominal_snr": 5.348611913514834
+      },
+      "holdout": {
+        "n_events": 8,
+        "n_positive": 7,
+        "nominal_snr": 6.406872982254986
+      }
+    },
+    {
+      "residue": 11,
+      "epoch_btjd": 1769.7442871753076,
+      "training": {
+        "n_events": 14,
+        "n_positive": 9,
+        "nominal_snr": 2.9606670155700963
+      },
+      "holdout": {
+        "n_events": 7,
+        "n_positive": 6,
+        "nominal_snr": 3.0200116178758605
+      }
+    },
+    {
+      "residue": 12,
+      "epoch_btjd": 1770.121973688774,
+      "training": {
+        "n_events": 15,
+        "n_positive": 12,
+        "nominal_snr": 4.408261116854296
+      },
+      "holdout": {
+        "n_events": 6,
+        "n_positive": 6,
+        "nominal_snr": 4.775760682835311
+      }
+    },
+    {
+      "residue": 13,
+      "epoch_btjd": 1770.4996602022404,
+      "training": {
+        "n_events": 15,
+        "n_positive": 10,
+        "nominal_snr": 2.4428068405549968
+      },
+      "holdout": {
+        "n_events": 6,
+        "n_positive": 5,
+        "nominal_snr": 2.2432987387937566
+      }
+    },
+    {
+      "residue": 14,
+      "epoch_btjd": 1770.8773467157066,
+      "training": {
+        "n_events": 16,
+        "n_positive": 15,
+        "nominal_snr": 9.167700248446206
+      },
+      "holdout": {
+        "n_events": 7,
+        "n_positive": 6,
+        "nominal_snr": 6.045570228797453
+      }
+    },
+    {
+      "residue": 15,
+      "epoch_btjd": 1771.255033229173,
+      "training": {
+        "n_events": 16,
+        "n_positive": 14,
+        "nominal_snr": 5.106137299785559
+      },
+      "holdout": {
+        "n_events": 6,
+        "n_positive": 4,
+        "nominal_snr": 1.501463120611441
+      }
+    }
+  ],
+  "source_result_sha256": "19eab7b0f24e9de0f984e38a9da7c42baed45faaeded716efde264086d4163e6",
+  "scope": "Fixed ephemeris and duration, with divisors 1 through 8. The chosen divisor has separate tests of each phase class. All are post-review diagnostics in already-inspected data, with nominal errors; no planet or unique astrophysical period is established."
+}

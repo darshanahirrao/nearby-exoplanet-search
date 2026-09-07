@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-07T05:01:57.469073+00:00",
+  "updated_utc": "2026-09-07T05:24:36.618278+00:00",
   "processed_targets": 992,
   "period_searched_targets": 992,
   "initial_trial_fits": 3586,
@@ -17,11 +17,11 @@
       "reused_refinement": 625
     },
     "longbaseline": {
-      "attempts": 753,
-      "skipped": 73,
-      "trial_fits": 1360,
+      "attempts": 992,
+      "skipped": 84,
+      "trial_fits": 1816,
       "unflagged": 1,
-      "targets_with_periodic_model": 235,
+      "targets_with_periodic_model": 302,
       "reused_refinement": 0
     },
     "known_residual": {

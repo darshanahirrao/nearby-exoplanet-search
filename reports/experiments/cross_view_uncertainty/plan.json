@@ -1,0 +1,20 @@
+{
+  "frozen_utc": "2026-09-07T05:11:50.143664+00:00",
+  "seed": 202609074,
+  "cases": 1800,
+  "hypothesis": "Retain a distribution of training positions and predict a reserved-view spatial template; test whether this preserves more signals than refitting or a frozen point position.",
+  "thresholds": {
+    "training_snr": 7,
+    "near_target_weight": 0.5,
+    "held_snr": 5,
+    "target_radius_pixels": 0.5
+  },
+  "profile_weights": "softmax(0.5 * sum positive training pixel-template SNR squared), uniform grid weight; heuristic, not calibrated posterior probability",
+  "comparisons": "Same spatial filter refitting the reserved-view position, previous frozen-position method, fixed-target filter, and simple aperture/centroid diagnostic.",
+  "source_code_sha256": {
+    "cross_view_uncertainty.py": "2912f3121720ce86f51393342bfab50c4149994c3826372791d44a0a17443950",
+    "cross_view_experiment.py": "a9a5647487183cda0dff848a88c0a9704ef8ac6d10c3bfee9c7a4d7536b888da",
+    "cross_view_ablation.py": "7ee6fe4bda8f7863ce952007e9d53066ac826a80fc40de1c56371597fb1a94b3"
+  },
+  "limitations": "Fresh injection draws, reused finite real-noise banks. Map-level injections with Gaussian and empirical positive-core shapes; not raw-pixel planet recovery or established novelty. Displaced cases include unresolved close blends."
+}

@@ -1,0 +1,32 @@
+{
+  "frozen_utc": "2026-09-07T05:37:19.473173+00:00",
+  "seed": 202609076,
+  "input_fields": {
+    "448416124": [
+      9,
+      36,
+      63
+    ],
+    "408232559": [
+      5,
+      32,
+      6
+    ],
+    "282923395": [
+      14,
+      48
+    ]
+  },
+  "file_sha256": {
+    "docs/EXPERIMENT_RELATIVE_PIXELS.md": "d95194ba19a236811da0cce783bd5d16cf4043294f58ef1fbf4e6e2aeafb1d65",
+    "scripts/relative_pixel_experiment.py": "c3ae06e7bcd9b137096893895a126fac3a242e9cd522b5e1fd40c5262e646f70",
+    "scripts/protected_pixel_experiment.py": "6be0d35eace58af350e14ed19606c80e1983cbb0cf4c0d6ba2c429fc3328f266",
+    "scripts/cross_view_experiment.py": "a9a5647487183cda0dff848a88c0a9704ef8ac6d10c3bfee9c7a4d7536b888da"
+  },
+  "development_gate": {
+    "median_two_hour_ratio_max": 0.9,
+    "per_sector_noise_ratio_max": 1.05,
+    "within_range_response_min": 0.99
+  },
+  "scope": "Development on previously inspected sectors. No independent validation or novelty claim."
+}

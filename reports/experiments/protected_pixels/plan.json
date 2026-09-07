@@ -1,0 +1,20 @@
+{
+  "frozen_utc": "2026-09-07T05:19:14.508602+00:00",
+  "seed": 202609075,
+  "protocol_sha256": "1e8fddc015edc01ef6b0390e74fb1dbb788cefbc62b4a23a93388378cf77a842",
+  "code_sha256": "6be0d35eace58af350e14ed19606c80e1983cbb0cf4c0d6ba2c429fc3328f266",
+  "configuration": {
+    "covariance_diagonal_shrinkage": 0.1,
+    "weights_bounds": [
+      -2,
+      2
+    ],
+    "preservation_bounds": [
+      0.97,
+      1.03
+    ],
+    "training_fraction": 0.5,
+    "bin_minutes": 10
+  },
+  "claim": "Experimental target-response-preserving extraction. No validated sensitivity gain, invention priority or discovery."
+}

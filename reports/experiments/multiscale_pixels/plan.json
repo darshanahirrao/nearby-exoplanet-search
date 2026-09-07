@@ -1,0 +1,33 @@
+{
+  "frozen_utc": "2026-09-07T05:41:54.110919+00:00",
+  "seed": 202609077,
+  "input_fields": {
+    "448416124": [
+      9,
+      36,
+      63
+    ],
+    "408232559": [
+      5,
+      32,
+      6
+    ],
+    "282923395": [
+      14,
+      48
+    ]
+  },
+  "file_sha256": {
+    "docs/EXPERIMENT_MULTISCALE_PIXELS.md": "56388cd5c48b6330c3f37cea1c2325a302be33db058754292dfef951b5f232ff",
+    "scripts/multiscale_pixel_experiment.py": "47f259ab76264262e9cb63cee49073ab24ce6ac5148673694f9df9a86971d4e6",
+    "scripts/relative_pixel_experiment.py": "c3ae06e7bcd9b137096893895a126fac3a242e9cd522b5e1fd40c5262e646f70",
+    "scripts/protected_pixel_experiment.py": "6be0d35eace58af350e14ed19606c80e1983cbb0cf4c0d6ba2c429fc3328f266",
+    "scripts/cross_view_experiment.py": "a9a5647487183cda0dff848a88c0a9704ef8ac6d10c3bfee9c7a4d7536b888da"
+  },
+  "development_gate": {
+    "median_two_hour_ratio_max": 0.9,
+    "per_sector_noise_ratio_max": 1.05,
+    "within_range_response_min": 0.99
+  },
+  "scope": "Development on previously inspected sectors; independent validation and novelty unestablished."
+}

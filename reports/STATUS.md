@@ -1,6 +1,7 @@
 # Research status: 2026-09-07
 
-**No newly discovered or validated planet. The search continues.**
+**Initial campaign complete. No surviving planet candidate, new planet or
+demonstrated methodological breakthrough.**
 
 All 1,000 selected targets have finished downloading and initial processing:
 992 targets supplied at least two sectors; eight had fewer. All 992 processed
@@ -24,10 +25,13 @@ The four initially unflagged fits were also reviewed and rejected. A separate
 51-host search for additional planets has finished; its only unflagged trial is
 another variability alias in Wolf 1069. The combined-season pass found the same
 alias. [The explicit review ledger](vetting/unflagged_review.json) records all 14
-unflagged trial fits reviewed at this checkpoint, with source hashes and evidence.
+unflagged trial fits in the completed campaign, with source hashes and evidence.
 These variants overlap: 1,031 distinct stars have had a period search, including
 the known-host check. Periodic filtering has finished for all 992 usable main
-targets, with no unflagged fits. The combined-season scan continues.
+targets, with no unflagged fits. The combined-season pass has also finished:
+908 targets supported its stricter sector split and yielded 1,816 trial fits;
+84 were skipped for insufficient sectors. Its only unflagged fit was the
+already reviewed Wolf 1069 alias.
 
 ## Calibration and verification
 
@@ -55,7 +59,7 @@ The faint, variable control TIC 232970271 yielded no recovered injections in the
 first two suites. Periodic filtering improves this limited sensitivity check;
 non-detections still cannot exclude small planets.
 
-Twelve offline numerical checks pass, including a test that changing final-holdout
+Fourteen offline numerical checks pass, including a test that changing final-holdout
 flux leaves the fitted ephemeris unchanged while reversing the measured holdout
 signal. Local execution, code, data-product references and failure records are
 retained for independent inspection.
@@ -71,10 +75,13 @@ retained for independent inspection.
 - [Fresh injection plan](calibration/injections_refined_fresh/plan.json) and [recovery results](calibration/injections_refined_fresh/recovery.csv)
 - [Known-planet calibration](calibration/150428135_calibration_v2_refined.json)
 
-Downloads, first-pass screening, timing refinement and periodic filtering are
-complete. The tables and machine summary remain checkpoints while the final
-combined-season search finishes. [The result audit](result_audit.json) checks
-frozen ephemerides, available source hashes and outstanding execution coverage.
+Downloads and all configured search passes are complete. The final
+[result audit](result_audit.json) passed with 4,023 result files, no failed
+consistency checks, no pending execution stages and no unreviewed unflagged fits.
+It covers main results plus specified controls and diagnostics, so its file count
+is not a star count. The [input audit](input_audit.json) recorded 7,507 FITS files
+with no target-identity or time-reference failures. These audits establish
+artifact consistency, not astrophysical validity or comprehensive sensitivity.
 
 The combined-season control recovers known TOI-700 d near 37.42340 days, with
 nominal held-sector S/N 10.1. It does not recover known TOI-700 e among its two
@@ -103,13 +110,39 @@ The deepest eclipse is in the already studied binary TIC 142979644. Separately,
 the known-host residual review identifies [RR Cae's binary eclipses](vetting/219244444/disposition.json)
 as a long-period alias; it does not reassess the catalogue's circumbinary companion.
 
+The [final combined-season review](vetting/relaxed_final_combined_review.json)
+examined seven additional trial fits on six targets. None was promoted. In
+TIC 378527773, dimming repeats in all 14 and all 16 subdivisions of the two
+trial periods, in both training and held sectors, supporting a shorter-period
+variability interpretation. Source identity and variability type remain unclassified.
+
 The [accelerated execution benchmark](../docs/PERFORMANCE.md) preserves all
 scientific outputs on three tested real inputs and reduces their aggregate wall
-time by about 44%. The remaining scan has switched to that implementation after
-preserving 685 completed combined-season results.
+time by about 44%. The remaining 307 combined-season result files were completed
+with that adapter. [The integrity check](performance/checkpoint_integrity.json)
+confirms that all 685 earlier completed files remained byte-for-byte unchanged
+and all 307 adapter records match the saved code hashes.
 
 A separate [method-invention experiment](experiments/cross_view/FINDINGS.md)
 tested frozen predictions of the dimming source across observing geometries.
 It has not demonstrated sufficient benefit over the same spatial filter with
 independent localization, so it has not been adopted. Its protocol, negative
-ablation result and complete trial scores are preserved.
+ablation result and complete trial scores are preserved. An
+[uncertainty-weighted variant](experiments/cross_view_uncertainty/FINDINGS.md)
+gained six target recoveries but accepted seven more displaced injections than
+the stronger comparison across 1,800 simulated cases on real difference maps.
+A [pixel-extraction prototype](experiments/protected_pixels/FINDINGS.md) preserved
+its modeled target response but increased short-timescale noise in all eight
+reserved sector halves. Neither variant met the quality requirement or was adopted.
+
+Two subsequent [baseline-feasible](experiments/relative_pixels/FINDINGS.md) and
+[transit-timescale](experiments/multiscale_pixels/FINDINGS.md) revisions reduced
+rapid scatter in every development sector. The latter limited the worst reserved
+two-hour scatter increase to 4.4%, but its median improvement remained below the
+predeclared 10% gate. Both failed their full development gates and remain unused
+by the production search. These small noise experiments are not planet recoveries.
+
+The initial data campaign is complete; method development continues as separate,
+bounded experiments. A non-detection does not establish that these systems lack
+planets. Adopting another method requires a measurable advantage and independent
+validation. The completed campaign does not justify a discovery claim.

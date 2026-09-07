@@ -1,0 +1,104 @@
+{
+  "selected_utc": "2026-09-07T05:13:46.688445+00:00",
+  "criteria": "New targets in the final combined-season tranche passing all non-physical gates and not included in previous relaxed-cut target reviews. Seven trial fits on six targets reviewed after inspecting scores; exploratory.",
+  "targets": [
+    {
+      "tic": 197866266,
+      "index": 2,
+      "variant": "longbaseline",
+      "period_days": 9.34368391978672,
+      "source_result_sha256": "28db30a3831fb45b65f535c59bbf2bef8aa07b3da5e4739a766fe50d482e7345",
+      "screening_flags": [
+        "outside_nominal_optimistic_hz",
+        "long_relative_to_circular_transit"
+      ],
+      "review_status": "not_promoted",
+      "review": "Broad oscillation is visible in both SAP and PDC, repeating approximately every 13.19 hours. The 9.34368-day trial is about 17 times that variation. Not promoted as a temperate planet.",
+      "diagnostics": "relaxed_final_combined/197866266"
+    },
+    {
+      "tic": 199573123,
+      "index": 2,
+      "variant": "longbaseline",
+      "period_days": 29.318263781753807,
+      "source_result_sha256": "9aee8c3434641ebbe104745b535789d11af369bf88d0597ccbecbecb167a4917",
+      "screening_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "review_status": "not_promoted",
+      "review": "The training fold has a weak, broad depression without a clear isolated transit. Reserved observations cover only fragments of the nominal event window and do not establish ingress or egress; a high aggregate score does not resolve this missing shape information. The short-period diagnostic is weak and does not establish an alias. Not promoted.",
+      "diagnostics": "relaxed_final_combined/199573123"
+    },
+    {
+      "tic": 441740483,
+      "index": 2,
+      "variant": "longbaseline",
+      "period_days": 7.715073141426956,
+      "source_result_sha256": "fe4faf44de311da287ec75202dd5798b3ab504304edfd3f355b1435bf030a58c",
+      "screening_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "review_status": "not_promoted",
+      "review": "The deficit is shallow and broad, with surrounding baseline structure. No convincing isolated short transit is present in SAP or PDC; the short-period diagnostic is too weak to establish a specific alias. Not promoted.",
+      "diagnostics": "relaxed_final_combined/441740483"
+    },
+    {
+      "tic": 229142295,
+      "index": 2,
+      "variant": "longbaseline",
+      "period_days": 13.869035932389977,
+      "source_result_sha256": "66c5d09c5bc9af3aba8f9c961ac77f1b4a850253d7380f06c7eebe62399d1fe9",
+      "screening_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "review_status": "not_promoted",
+      "review": "Not promoted. The SAP and PDC folds show broad approximately 10.76-hour oscillations both inside and outside the selected window; the 13.869-day fit selects about 31 cycles of this variation. The deficit is not an isolated transit.",
+      "diagnostics": "relaxed_final_combined/229142295_signal_2"
+    },
+    {
+      "tic": 333278247,
+      "index": 2,
+      "variant": "longbaseline",
+      "period_days": 8.134879806496194,
+      "source_result_sha256": "23a7c5614607c3641f848bc1317ac72d8ad185774ef47ee28e3084a86f7d67e2",
+      "screening_flags": [
+        "outside_nominal_optimistic_hz",
+        "long_relative_to_circular_transit"
+      ],
+      "review_status": "not_promoted",
+      "review": "Not promoted. The approximately 6-hour window lies in broad training curvature, while the held-sector fold has sparse coverage that cannot resolve ingress and egress. The 8.13488-day trial is approximately five times the 39.04-hour training variation. No credible temperate-planet interpretation is established.",
+      "diagnostics": "relaxed_final_combined/333278247_signal_2"
+    },
+    {
+      "tic": 378527773,
+      "index": 1,
+      "variant": "longbaseline",
+      "period_days": 5.287718540944776,
+      "source_result_sha256": "19eab7b0f24e9de0f984e38a9da7c42baed45faaeded716efde264086d4163e6",
+      "screening_flags": [
+        "outside_nominal_optimistic_hz",
+        "long_relative_to_circular_transit"
+      ],
+      "review_status": "not_promoted",
+      "review": "Rejected as evidence for an additional temperate planet. The 5.28772-day fit is approximately 14 times a 9.0645-hour variation. Dimming has positive nominal scores in every one of its 14 phase subdivisions, in both training and held sectors; it is not confined to the selected long-period ephemeris.",
+      "diagnostics": "relaxed_final_combined/378527773_signal_1",
+      "reproduce_subdivision_check": "python -c \"import sys; sys.path.insert(0,'scripts'); from subharmonic_check import check; check(378527773, 1, 14)\""
+    },
+    {
+      "tic": 378527773,
+      "index": 2,
+      "variant": "longbaseline",
+      "period_days": 6.042984215461674,
+      "source_result_sha256": "19eab7b0f24e9de0f984e38a9da7c42baed45faaeded716efde264086d4163e6",
+      "screening_flags": [
+        "long_relative_to_circular_transit"
+      ],
+      "review_status": "not_promoted",
+      "review": "Rejected as evidence for an additional temperate planet. The 6.04298-day fit is approximately 16 times the same 9.0645-hour variation. Dimming has positive nominal scores in every one of its 16 phase subdivisions, in both training and held sectors. The heuristic Lomb\u2013Scargle alias flag alone was false, so the separate subdivision evidence is retained.",
+      "diagnostics": "relaxed_final_combined/378527773_signal_2",
+      "reproduce_subdivision_check": "python -c \"import sys; sys.path.insert(0,'scripts'); from subharmonic_check import check; check(378527773, 2, 16)\""
+    }
+  ],
+  "reviewed_utc": "2026-09-07T05:34:14.694247+00:00",
+  "limitations": "Post-score exploratory review. Rejection of these trial interpretations does not rule out other planets. No source localization or formal false-positive probability is established."
+}
