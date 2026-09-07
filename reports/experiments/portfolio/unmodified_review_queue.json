@@ -1,0 +1,319 @@
+{
+  "trials": [
+    {
+      "tic": 233738219,
+      "method": "local_total",
+      "signal_index": 12,
+      "result_path": "results/portfolio_development/local_total__233738219_unmodified/result.json",
+      "result_sha256": "6a45f8f6349a89272fb9987d52717d2ad695d5298989dc9a54b3e8054e1dd9d8",
+      "frozen_training_sha256": "2c05e8d009217d94444a8b53416a070e72c5ae60f4ca0d2868c02a8339c446b6",
+      "signal": {
+        "seed_iteration": 1,
+        "training_peak_rank": 37,
+        "global_peak_rank": 139,
+        "period_days": 35.394150218068546,
+        "epoch_btjd": 1708.7196123763397,
+        "duration_days": 0.1504906030070948,
+        "depth": 0.0009452957989491737,
+        "radius_earth_estimate": 0.8863421007690196,
+        "irradiation_earth_estimate": 0.37905113409078856,
+        "nominal_training_snr": 13.296970672713902,
+        "coarse_snr": 13.820852931844945,
+        "discovery": {
+          "n_observed_events": 7,
+          "n_positive_events": 6,
+          "event_snr": [
+            {
+              "cycle": 0,
+              "center_btjd": 1708.7196123763397,
+              "points": 22,
+              "depth": 0.0014964939591920468,
+              "error": 0.00023108931904679774,
+              "snr": 6.475824868777223
+            },
+            {
+              "cycle": 2,
+              "center_btjd": 1779.5079128124767,
+              "points": 22,
+              "depth": 0.0009179548300380924,
+              "error": 0.00019375097508848174,
+              "snr": 4.73780753680792
+            },
+            {
+              "cycle": 4,
+              "center_btjd": 1850.2962132486139,
+              "points": 22,
+              "depth": 0.0014469301210019436,
+              "error": 0.0001868687493536424,
+              "snr": 7.743028869228853
+            },
+            {
+              "cycle": 5,
+              "center_btjd": 1885.6903634666824,
+              "points": 22,
+              "depth": 0.0027055024395933325,
+              "error": 0.0002121797732742184,
+              "snr": 12.75099128368271
+            },
+            {
+              "cycle": 50,
+              "center_btjd": 3478.427123279767,
+              "points": 22,
+              "depth": 0.0002841988511181892,
+              "error": 0.00020593854689333118,
+              "snr": 1.3800177548372918
+            },
+            {
+              "cycle": 52,
+              "center_btjd": 3549.215423715904,
+              "points": 21,
+              "depth": 0.00048154991698889926,
+              "error": 0.00019232871725060656,
+              "snr": 2.503785830180701
+            },
+            {
+              "cycle": 55,
+              "center_btjd": 3655.39787437011,
+              "points": 21,
+              "depth": -0.00012310642784996162,
+              "error": 0.00022870087771835308,
+              "snr": -0.5382857690715475
+            }
+          ],
+          "fixed_ephemeris_snr": 13.303280502119517,
+          "single_event_power_fraction": 0.5509604963760164,
+          "odd_even_sigma": 2.70300354799124
+        },
+        "central_circular_duration_days": 0.10221575253658828,
+        "in_optimistic_hz": true,
+        "event_ranking": {
+          "n_events": 7,
+          "total_snr": 13.303280502121714,
+          "leave_one_out_snr": 9.281719285796733
+        },
+        "ranking_metric": "total_snr",
+        "holdout": {
+          "n_observed_events": 5,
+          "n_positive_events": 4,
+          "event_snr": [
+            {
+              "cycle": 1,
+              "center_btjd": 1744.1137625944082,
+              "points": 22,
+              "depth": 0.001304386524160761,
+              "error": 0.00019888507651996817,
+              "snr": 6.558493713980596
+            },
+            {
+              "cycle": 6,
+              "center_btjd": 1921.084513684751,
+              "points": 12,
+              "depth": 6.0033239779100356e-05,
+              "error": 0.0003334848369917338,
+              "snr": 0.18001789922637
+            },
+            {
+              "cycle": 49,
+              "center_btjd": 3443.0329730616986,
+              "points": 22,
+              "depth": -0.00012112893629301347,
+              "error": 0.00019837854876171823,
+              "snr": -0.6105949309998588
+            },
+            {
+              "cycle": 51,
+              "center_btjd": 3513.8212734978356,
+              "points": 22,
+              "depth": 0.0008746426268086971,
+              "error": 0.00020103793636672542,
+              "snr": 4.3506347240513294
+            },
+            {
+              "cycle": 54,
+              "center_btjd": 3620.0037241520413,
+              "points": 21,
+              "depth": 6.831236487481185e-05,
+              "error": 0.0001955410294308316,
+              "snr": 0.3493505433291987
+            }
+          ],
+          "fixed_ephemeris_snr": 5.122424033170518,
+          "single_event_power_fraction": 0.6926955345380686,
+          "odd_even_sigma": 3.021300760984642
+        },
+        "screening_flags": []
+      },
+      "disposition": "Unverified trial fit requiring astrophysical review; no candidate or planet promoted."
+    },
+    {
+      "tic": 233738219,
+      "method": "leave_one_out",
+      "signal_index": 27,
+      "result_path": "results/portfolio_development/leave_one_out__233738219_unmodified/result.json",
+      "result_sha256": "9d8047a55caeb40e86be8086fa952eb4bc9f8c0bbfcaaeb2c758460fe3379440",
+      "frozen_training_sha256": "07f712501259724cf148c57ae307eced71351806ff3af08e15dcc44a55428b81",
+      "signal": {
+        "seed_iteration": 1,
+        "training_peak_rank": 78,
+        "global_peak_rank": 378,
+        "period_days": 26.316459215610013,
+        "epoch_btjd": 1691.6273382310633,
+        "duration_days": 0.13943435639852114,
+        "depth": 0.0007513793338950823,
+        "radius_earth_estimate": 0.7902183995172894,
+        "irradiation_earth_estimate": 0.5627340295787437,
+        "nominal_training_snr": 12.470765314145222,
+        "coarse_snr": 12.576852881970312,
+        "discovery": {
+          "n_observed_events": 11,
+          "n_positive_events": 10,
+          "event_snr": [
+            {
+              "cycle": 0,
+              "center_btjd": 1691.6273382310633,
+              "points": 20,
+              "depth": 0.0004773721996577107,
+              "error": 0.0002295357062605921,
+              "snr": 2.0797295873250747
+            },
+            {
+              "cycle": 3,
+              "center_btjd": 1770.5767158778933,
+              "points": 20,
+              "depth": 0.0001863953993496148,
+              "error": 0.00021619049174261123,
+              "snr": 0.8621813006074781
+            },
+            {
+              "cycle": 4,
+              "center_btjd": 1796.8931750935033,
+              "points": 20,
+              "depth": 0.0005275163938852634,
+              "error": 0.00019722125175724597,
+              "snr": 2.674744172775905
+            },
+            {
+              "cycle": 6,
+              "center_btjd": 1849.5260935247234,
+              "points": 20,
+              "depth": 0.0014967964267709188,
+              "error": 0.00019082134124590852,
+              "snr": 7.8439676453275755
+            },
+            {
+              "cycle": 7,
+              "center_btjd": 1875.8425527403333,
+              "points": 20,
+              "depth": 0.0003006858297507353,
+              "error": 0.00020169468551606368,
+              "snr": 1.4907969884352141
+            },
+            {
+              "cycle": 10,
+              "center_btjd": 1954.7919303871633,
+              "points": 8,
+              "depth": -0.00021002346987386566,
+              "error": 0.000401662203522519,
+              "snr": -0.5228858180630153
+            },
+            {
+              "cycle": 65,
+              "center_btjd": 3402.1971872457143,
+              "points": 21,
+              "depth": 0.0009779915547890594,
+              "error": 0.0002245410876346697,
+              "snr": 4.355512681849391
+            },
+            {
+              "cycle": 67,
+              "center_btjd": 3454.830105676934,
+              "points": 18,
+              "depth": 0.000957153452451398,
+              "error": 0.00022464201016578848,
+              "snr": 4.26079454926978
+            },
+            {
+              "cycle": 68,
+              "center_btjd": 3481.146564892544,
+              "points": 20,
+              "depth": 6.84500584511305e-05,
+              "error": 0.00020632788714209722,
+              "snr": 0.33175378955918455
+            },
+            {
+              "cycle": 70,
+              "center_btjd": 3533.779483323764,
+              "points": 21,
+              "depth": 0.0012516077281471416,
+              "error": 0.00020044503309829344,
+              "snr": 6.244144386123966
+            },
+            {
+              "cycle": 72,
+              "center_btjd": 3586.4124017549843,
+              "points": 19,
+              "depth": 0.0021387112445392376,
+              "error": 0.00023008056527374366,
+              "snr": 9.295488482456815
+            }
+          ],
+          "fixed_ephemeris_snr": 12.187380917109893,
+          "single_event_power_fraction": 0.36213251179458605,
+          "odd_even_sigma": 2.5713224937752095
+        },
+        "central_circular_duration_days": 0.09230221809631763,
+        "in_optimistic_hz": true,
+        "event_ranking": {
+          "n_events": 11,
+          "total_snr": 12.187380917111206,
+          "leave_one_out_snr": 9.945484017938114
+        },
+        "ranking_metric": "leave_one_out_snr",
+        "holdout": {
+          "n_observed_events": 4,
+          "n_positive_events": 4,
+          "event_snr": [
+            {
+              "cycle": 2,
+              "center_btjd": 1744.2602566622834,
+              "points": 20,
+              "depth": 0.0011069233996955363,
+              "error": 0.0002082876794326275,
+              "snr": 5.314396908692722
+            },
+            {
+              "cycle": 5,
+              "center_btjd": 1823.2096343091134,
+              "points": 20,
+              "depth": 0.0012708134451739905,
+              "error": 0.000208095313682743,
+              "snr": 6.106881614409835
+            },
+            {
+              "cycle": 8,
+              "center_btjd": 1902.1590119559435,
+              "points": 20,
+              "depth": 0.0005358419511320989,
+              "error": 0.00026984423009410413,
+              "snr": 1.9857454463459605
+            },
+            {
+              "cycle": 69,
+              "center_btjd": 3507.463024108154,
+              "points": 20,
+              "depth": 0.00012835467985317095,
+              "error": 0.00020594245281462613,
+              "snr": 0.6232550797513622
+            }
+          ],
+          "fixed_ephemeris_snr": 7.142216352589796,
+          "single_event_power_fraction": 0.5337745915061495,
+          "odd_even_sigma": 0.907385478603569
+        },
+        "screening_flags": []
+      },
+      "disposition": "Unverified trial fit requiring astrophysical review; no candidate or planet promoted."
+    }
+  ],
+  "scope": "Fits from explicitly uninjected controls, not synthetic planets and not validated candidates."
+}

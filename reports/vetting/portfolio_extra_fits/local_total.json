@@ -1,0 +1,244 @@
+{
+  "tic": 233738219,
+  "method": "local_total",
+  "source": "results/portfolio_development/local_total__233738219_orbit2_radius1/frozen_search.json",
+  "source_sha256": "162aa72b4f6775f59cc5fb1ea1d1c9e90b2c051f42635886ff487bc51fcb4ffe",
+  "period_days": 35.394137501476735,
+  "epoch_btjd": 1708.7196123763397,
+  "duration_days": 0.1504906030070948,
+  "checks": {
+    "PDCSAP_FLUX": {
+      "training": {
+        "n_observed_events": 7,
+        "n_positive_events": 6,
+        "event_snr": [
+          {
+            "cycle": 0,
+            "center_btjd": 1708.7196123763397,
+            "points": 22,
+            "depth": 0.0014964939591920468,
+            "error": 0.00023108931904679774,
+            "snr": 6.475824868777223
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 1779.5078873792932,
+            "points": 22,
+            "depth": 0.0009179548300380924,
+            "error": 0.00019375097508848174,
+            "snr": 4.73780753680792
+          },
+          {
+            "cycle": 4,
+            "center_btjd": 1850.2961623822466,
+            "points": 22,
+            "depth": 0.0014469301210019436,
+            "error": 0.0001868687493536424,
+            "snr": 7.743028869228853
+          },
+          {
+            "cycle": 5,
+            "center_btjd": 1885.6902998837234,
+            "points": 22,
+            "depth": 0.0027055024395933325,
+            "error": 0.0002121797732742184,
+            "snr": 12.75099128368271
+          },
+          {
+            "cycle": 50,
+            "center_btjd": 3478.4264874501764,
+            "points": 22,
+            "depth": 0.0002841988511181892,
+            "error": 0.00020593854689333118,
+            "snr": 1.3800177548372918
+          },
+          {
+            "cycle": 52,
+            "center_btjd": 3549.21476245313,
+            "points": 21,
+            "depth": 0.00048154991698889926,
+            "error": 0.00019232871725060656,
+            "snr": 2.503785830180701
+          },
+          {
+            "cycle": 55,
+            "center_btjd": 3655.3971749575603,
+            "points": 21,
+            "depth": -0.00012310642784996162,
+            "error": 0.00022870087771835308,
+            "snr": -0.5382857690715475
+          }
+        ],
+        "fixed_ephemeris_snr": 13.303280502119517,
+        "single_event_power_fraction": 0.5509604963760164,
+        "odd_even_sigma": 2.70300354799124
+      },
+      "holdout": {
+        "n_observed_events": 5,
+        "n_positive_events": 4,
+        "event_snr": [
+          {
+            "cycle": 1,
+            "center_btjd": 1744.1137498778164,
+            "points": 22,
+            "depth": 0.001304386524160761,
+            "error": 0.00019888507651996817,
+            "snr": 6.558493713980596
+          },
+          {
+            "cycle": 6,
+            "center_btjd": 1921.0844373852,
+            "points": 12,
+            "depth": 5.999056596839303e-05,
+            "error": 0.00033359304354006535,
+            "snr": 0.17983158561035165
+          },
+          {
+            "cycle": 49,
+            "center_btjd": 3443.0323499486994,
+            "points": 21,
+            "depth": -0.00010171031783001716,
+            "error": 0.0002023668554698654,
+            "snr": -0.5026036382976901
+          },
+          {
+            "cycle": 51,
+            "center_btjd": 3513.8206249516534,
+            "points": 21,
+            "depth": 0.0008341538248056724,
+            "error": 0.00020491656645032062,
+            "snr": 4.070699793849523
+          },
+          {
+            "cycle": 54,
+            "center_btjd": 3620.0030374560833,
+            "points": 21,
+            "depth": 6.831236487481185e-05,
+            "error": 0.0001955410294308316,
+            "snr": 0.3493505433291987
+          }
+        ],
+        "fixed_ephemeris_snr": 5.0542004923983574,
+        "single_event_power_fraction": 0.7200316058065142,
+        "odd_even_sigma": 3.017348169446431
+      }
+    },
+    "SAP_FLUX": {
+      "training": {
+        "n_observed_events": 7,
+        "n_positive_events": 7,
+        "event_snr": [
+          {
+            "cycle": 0,
+            "center_btjd": 1708.7196123763397,
+            "points": 22,
+            "depth": 0.0016617274870246446,
+            "error": 0.00021834145254191628,
+            "snr": 7.610682569337735
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 1779.5078873792932,
+            "points": 22,
+            "depth": 0.0002867662254635306,
+            "error": 0.00020596441606698506,
+            "snr": 1.3923095597749595
+          },
+          {
+            "cycle": 4,
+            "center_btjd": 1850.2961623822466,
+            "points": 22,
+            "depth": 0.001772622632682297,
+            "error": 0.00018545278300472387,
+            "snr": 9.558350130756164
+          },
+          {
+            "cycle": 5,
+            "center_btjd": 1885.6902998837234,
+            "points": 22,
+            "depth": 0.0018306928857855231,
+            "error": 0.0002475176196781967,
+            "snr": 7.3962123915285245
+          },
+          {
+            "cycle": 50,
+            "center_btjd": 3478.4264874501764,
+            "points": 22,
+            "depth": 0.00062960252467259,
+            "error": 0.00020076661056249933,
+            "snr": 3.1359921996421445
+          },
+          {
+            "cycle": 52,
+            "center_btjd": 3549.21476245313,
+            "points": 21,
+            "depth": 0.00044804632637651665,
+            "error": 0.00018757257866741463,
+            "snr": 2.3886557915853395
+          },
+          {
+            "cycle": 55,
+            "center_btjd": 3655.3971749575603,
+            "points": 21,
+            "depth": 0.0001054540240368329,
+            "error": 0.0002186810268762508,
+            "snr": 0.4822275875652815
+          }
+        ],
+        "fixed_ephemeris_snr": 11.990729102425108,
+        "single_event_power_fraction": 0.4120982501772119,
+        "odd_even_sigma": 0.5155901365292518
+      },
+      "holdout": {
+        "n_observed_events": 5,
+        "n_positive_events": 4,
+        "event_snr": [
+          {
+            "cycle": 1,
+            "center_btjd": 1744.1137498778164,
+            "points": 22,
+            "depth": 0.00039364574154165943,
+            "error": 0.00019577007416014317,
+            "snr": 2.010755439667713
+          },
+          {
+            "cycle": 6,
+            "center_btjd": 1921.0844373852,
+            "points": 12,
+            "depth": 7.975078967525917e-05,
+            "error": 0.0003221324178006351,
+            "snr": 0.24757144971549006
+          },
+          {
+            "cycle": 49,
+            "center_btjd": 3443.0323499486994,
+            "points": 21,
+            "depth": -0.0001077300212214416,
+            "error": 0.00019412921409894755,
+            "snr": -0.5549397689650754
+          },
+          {
+            "cycle": 51,
+            "center_btjd": 3513.8206249516534,
+            "points": 21,
+            "depth": 0.0001753906877216549,
+            "error": 0.0001981379902034876,
+            "snr": 0.8851946441039841
+          },
+          {
+            "cycle": 54,
+            "center_btjd": 3620.0030374560833,
+            "points": 21,
+            "depth": 0.00018697002887479997,
+            "error": 0.00019708379032195848,
+            "snr": 0.948682936173307
+          }
+        ],
+        "fixed_ephemeris_snr": 1.6392106108162716,
+        "single_event_power_fraction": 0.6985381621609358,
+        "odd_even_sigma": 0.02789745196208084
+      }
+    }
+  },
+  "scope": "Fixed timing from an injected development fit, checked on original uninjected data. Exploratory vetting, not blind recovery or planet validation. SAP and PDC share pixels."
+}

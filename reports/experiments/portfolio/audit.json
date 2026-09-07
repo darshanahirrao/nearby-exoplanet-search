@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-09-07T10:21:15.711238+00:00",
+  "plan_sha256": "026ae2218c1eab80455cc40dc14f6b6bd4f44eb06433d0deda062b990dc3cd76",
+  "results_sha256": "6c2b00883382412bbb2032c0c165ef0f670150cda63e89961aceafdc057efcf7",
+  "auditor_sha256": "628a2d902e198ed0a875f89000c81f1603c455a194b396e3e51ad334985dea13",
+  "checks": 3498,
+  "failures": [],
+  "passed": true,
+  "unmodified_unflagged_fits": 2,
+  "scope": "Artifact and accounting audit; not astrophysical validity, completeness or false-alarm calibration."
+}

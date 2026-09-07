@@ -1,0 +1,75 @@
+{
+  "checked_utc": "2026-09-07T10:17:31.965470+00:00",
+  "script_sha256": "7a033a11c5c42de332cfd9301085110b8e0bfbcc8dad388be4310b5d34d5b7e6",
+  "helper_sha256": {
+    "search.py": "73eef744937f00915a353bfa3bda4753365c26b3661fb0b2be661adca6285b31",
+    "physics.py": "6045fcc37553fa01badfe7a3ff634188f7acaa3488848f2fd33003bf624ad774",
+    "variability.py": "ddec9fe378823fe9f2dd70e377d06652154311b9a14031ab84650e1f4ae25060",
+    "cycle_excluded.py": "5e6020090a07368147f7c22ecd46df8d6c50ed7efdf66366a78443cf6a3944bb",
+    "multimode_cycle_experiment.py": "a7b04afa531833d5874064ef989bbcdf831c5baed28877e00abeffb39376d2a0",
+    "longbaseline.py": "ad9f136b0d863f57fe71f5f6f50c28cfccc728a7952034bdab02613bf2af714c",
+    "vet.py": "c4fdbc5e8de05dd112aebc18f985412a5f667a22fe83707cf7062c4d61539bef"
+  },
+  "telescope_inputs_sha256": {
+    "data/lightcurves/233738219/tess2019198215352-s0014-0000000233738219-0150-s_lc.fits": "c665801b2af040c0df5c4daeb2bc0413c4534fc869aa8368fdb1606aa8b04072",
+    "data/lightcurves/233738219/tess2019253231442-s0016-0000000233738219-0152-s_lc.fits": "67a75962aa91890c1ed34f5732d42f301e7d7b7162cdd5d1dec9e743c83cf6a5",
+    "data/lightcurves/233738219/tess2019279210107-s0017-0000000233738219-0161-s_lc.fits": "d372a853da66f409b89bffe8be8daefeba87eaa1c784312df0b975959a41e27b",
+    "data/lightcurves/233738219/tess2019306063752-s0018-0000000233738219-0162-s_lc.fits": "0169004c51ab8a93957e211235f797d3124b01340c1e7e5d79cad8bc25d5162f",
+    "data/lightcurves/233738219/tess2019331140908-s0019-0000000233738219-0164-s_lc.fits": "ebd3ac891cf4b158ce1c6a1a109896913189cf9c2f7aff61b81a0bbf9d71975a",
+    "data/lightcurves/233738219/tess2019357164649-s0020-0000000233738219-0165-s_lc.fits": "b230c74ef517549e6b3fc5a40640bd7e48ce3916600d13a9f213de9ea1be2ba7",
+    "data/lightcurves/233738219/tess2020020091053-s0021-0000000233738219-0167-s_lc.fits": "7ef03a98af0683d4f9ce2db83e7d06625401b5d12cecf9a222d5a4f033a3370e",
+    "data/lightcurves/233738219/tess2020049080258-s0022-0000000233738219-0174-s_lc.fits": "ea6eca4c1eee5b7525d5cc0a28777bbbf2982479f62acc35cf13be451ec7a77f",
+    "data/lightcurves/233738219/tess2020078014623-s0023-0000000233738219-0177-s_lc.fits": "4832379942cc806a6c0fc7bbe61b112357f97e8f4f2a84c7121b974cb916dd5b",
+    "data/lightcurves/233738219/tess2024085201119-s0077-0000000233738219-0272-s_lc.fits": "c095bacbce4ba63e15f3ef27f42a74ac76ce6174bfff9e765c1cbc6ac3bc2a31",
+    "data/lightcurves/233738219/tess2024114025118-s0078-0000000233738219-0273-s_lc.fits": "32a4067af035c72acdf46df8c5674cbd42d1d4ea4e33a01fd2712fbf9977a78b",
+    "data/lightcurves/233738219/tess2024142205832-s0079-0000000233738219-0274-s_lc.fits": "74ea0449d37e5a04eb05f6015b1210664f2a0adc0842bd801efcbdd343e5159b",
+    "data/lightcurves/233738219/tess2024170053053-s0080-0000000233738219-0275-s_lc.fits": "4b4c0674cfc0a8d16375e3232357b88397cbe93ae9a4acff3e982301d431d21e",
+    "data/lightcurves/233738219/tess2024196212429-s0081-0000000233738219-0276-s_lc.fits": "3f62bcd1ebed4cf142b46783968556d85402c3f26d147273e0d3d86b244cff6a",
+    "data/lightcurves/233738219/tess2024223182411-s0082-0000000233738219-0278-s_lc.fits": "f95b8e69de7f876e89ce83c5955e2d22379de8bea13d11863a2318ad80aac822",
+    "data/lightcurves/233738219/tess2024274222008-s0084-0000000233738219-0281-s_lc.fits": "b11f6ceadb137c3cecf8ae7767666e9ea2fbeb0ecd00198aa6b36f64d84bc94f",
+    "data/lightcurves/233738219/tess2024300212641-s0085-0000000233738219-0282-s_lc.fits": "36c02f06db156db4084c05fe954d8bb2cd5764bd58ff9ce9ca4fd4077442dc7c",
+    "data/lightcurves/233738219/tess2024326142117-s0086-0000000233738219-0283-s_lc.fits": "2e96c8872f82a5f8cce015a366f904721d5116b04cb7d053395cf0a64834a971"
+  },
+  "rows": [
+    {
+      "tic": 233738219,
+      "method": "local_total",
+      "source": "results/portfolio_development/local_total__233738219_orbit2_radius1/frozen_search.json",
+      "source_sha256": "162aa72b4f6775f59cc5fb1ea1d1c9e90b2c051f42635886ff487bc51fcb4ffe",
+      "period_days": 35.394137501476735,
+      "epoch_btjd": 1708.7196123763397,
+      "duration_days": 0.1504906030070948,
+      "scope": "Fixed timing from an injected development fit, checked on original uninjected data. Exploratory vetting, not blind recovery or planet validation. SAP and PDC share pixels.",
+      "snr": {
+        "PDCSAP_FLUX": {
+          "training": 13.303280502119517,
+          "holdout": 5.0542004923983574
+        },
+        "SAP_FLUX": {
+          "training": 11.990729102425108,
+          "holdout": 1.6392106108162716
+        }
+      }
+    },
+    {
+      "tic": 233738219,
+      "method": "leave_one_out",
+      "source": "results/portfolio_development/leave_one_out__233738219_orbit2_radius1/frozen_search.json",
+      "source_sha256": "ada346e08a48c9896945023feb272063dd88082bf842aa8008a688919a08e75e",
+      "period_days": 26.316459215610013,
+      "epoch_btjd": 1691.6273382310633,
+      "duration_days": 0.13943435639852114,
+      "scope": "Fixed timing from an injected development fit, checked on original uninjected data. Exploratory vetting, not blind recovery or planet validation. SAP and PDC share pixels.",
+      "snr": {
+        "PDCSAP_FLUX": {
+          "training": 12.187380917109893,
+          "holdout": 7.142216352589796
+        },
+        "SAP_FLUX": {
+          "training": 10.729215964956634,
+          "holdout": 4.568687011448504
+        }
+      }
+    }
+  ]
+}

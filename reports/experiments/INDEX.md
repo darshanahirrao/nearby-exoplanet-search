@@ -27,7 +27,7 @@ metrics; their scores cannot be combined into a survey completeness estimate.
 | [Repeated-event coarse ranking](period_rank_diagnostic/FINDINGS.md) | Two exposed injection ranks improve from 1,316/2,108 to 84/76; the control remains first. | Selected-case diagnostic only |
 | [Two-fit repeated-event search](repeated_events/FINDINGS.md) | Six initial runs preserve the control but recover neither missed injection. | Smoke guard failed; 114 planned runs unused |
 | [Depth-consistency penalty](depth_consistency_diagnostic/FINDINGS.md) | Within eligible fine fits, one truth rank improves from 10 to 6; the other worsens from 18 to 25. | Not adopted |
-| [Larger candidate shortlist](portfolio/FINDINGS.md) | Leave-one-out ranking recovers both missed examples and the control in initial runs; equal-budget local ranking recovers only the control. | Full 120-run development comparison executing |
+| [Larger candidate shortlist](portfolio/FINDINGS.md) | All 120 new runs complete; strict recoveries 9/54 versus 7/54 for the reference, but extra unmodified fits require vetting. | Both adoption gates failed; no fresh assessment selected |
 
 Each completed experiment links to its findings, exact plan, code hashes and
 outcomes. The original production results remain unchanged. No methodological

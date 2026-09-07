@@ -222,7 +222,12 @@ moves two exposed missed injections into a tractable coarse shortlist, but a
 [two-fit recovery test](experiments/repeated_events/FINDINGS.md) still fails.
 Its 114 other planned runs remain unused. A depth-scatter penalty also fails
 to resolve the selected misses. A [larger frozen shortlist](experiments/portfolio/FINDINGS.md)
-recovers both missed injections and the control in six initial paired runs;
-the complete 120-run development comparison is executing. The additional
-passing fits that do not match the injection require particular attention in
-unmodified-star controls. No new planet or methodological breakthrough is established.
+completes all 120 new development runs and reuses 60 exact reference runs.
+Leave-one-out ranking recovers 9/54 strict injections versus 7/54 for the
+reference, with no lost reference recoveries. Both revisions fail their
+adoption gates because each adds an unflagged fit on unmodified TIC 233738219.
+The 26.316459- and 35.394150-day fits are unverified, not established false
+alarms or planet candidates. An initial uninjected-data diagnostic gives
+weaker SAP support and inconclusive profiles. No fresh assessment is selected.
+The final artifact audit passes 3,498 checks with zero failures. No new planet
+or methodological breakthrough is established.
