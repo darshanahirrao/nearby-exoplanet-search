@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-09-07T06:26:08.878545+00:00",
+  "tic": 378527773,
+  "source_result": "results/378527773_longbaseline/result.json",
+  "source_sha256": "19eab7b0f24e9de0f984e38a9da7c42baed45faaeded716efde264086d4163e6",
+  "purpose": "Post-review localization of the approximately 9-hour variability, not a planet claim or new-method validation.",
+  "period_days": 0.37769418149605544,
+  "epoch_btjd": 1767.1015066494601,
+  "duration_days": 0.06,
+  "duration_reason": "Central 1.44-hour contrast window leaves enough bracketing samples within the short cycle.",
+  "first_sector": 17,
+  "next_sector": 58,
+  "initial_nominal_offset_pixels": 1.4506535922863624,
+  "initial_peak_pixel_nominal_snr": 6.0600906354585335,
+  "limitations": "Approximate positive-core centroid from one inspected sector; needs another geometry before interpreting displacement. No precise PRF fit, source identity, novelty or planet validation."
+}

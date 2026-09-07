@@ -116,6 +116,13 @@ TIC 378527773, dimming repeats in all 14 and all 16 subdivisions of the two
 trial periods, in both training and held sectors, supporting a shorter-period
 variability interpretation. Source identity and variability type remain unclassified.
 
+A subsequent [pixel-origin diagnostic](vetting/relaxed_final_combined/378527773_short_cycle_pixels/disposition.json)
+places TIC 378527773's roughly nine-hour difference signal about 1.45 and 1.33
+pixels from the target in sectors 17 and 58. The approximate sky positions agree
+within 3.8 arcseconds. This supports a nearby source of the variability; it does
+not identify that source or establish a planet. Source-specific extraction is
+being investigated as a separate development direction.
+
 The [accelerated execution benchmark](../docs/PERFORMANCE.md) preserves all
 scientific outputs on three tested real inputs and reduces their aggregate wall
 time by about 44%. The remaining 307 combined-season result files were completed

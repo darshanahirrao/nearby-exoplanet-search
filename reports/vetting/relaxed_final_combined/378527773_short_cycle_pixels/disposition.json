@@ -1,0 +1,18 @@
+{
+  "status": "short_period_variability_displaced_from_target",
+  "period_days": 0.37769418149605544,
+  "epoch_btjd": 1767.1015066494601,
+  "contrast_duration_days": 0.06,
+  "sectors": [
+    17,
+    58
+  ],
+  "offset_pixels": [
+    1.4506535922863624,
+    1.3331906600857826
+  ],
+  "approximate_sky_consistency_arcsec": 3.7833937309982297,
+  "conclusion": "The roughly nine-hour difference signal is displaced from the target in both inspected sectors. The positive-core sky positions agree to about 3.8 arcseconds. This supports contamination by a nearby variable source and motivates source-specific extraction diagnostics.",
+  "limitations": "Approximate positive-core centroids, not precision PRF astrometry. Nominal pixel errors omit correlations. Source identity, physical type, novelty and any target planet remain unestablished.",
+  "reproduce": "python -c \"import sys,json; sys.path.insert(0,'scripts'); from pixel_vet import analyze; p=json.load(open('reports/vetting/relaxed_final_combined/378527773_short_cycle_pixels/diagnostic_plan.json')); analyze(p['tic'],p['period_days'],p['epoch_btjd'],p['duration_days'])\""
+}

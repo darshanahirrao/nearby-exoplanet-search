@@ -82,7 +82,8 @@
       "review_status": "not_promoted",
       "review": "Rejected as evidence for an additional temperate planet. The 5.28772-day fit is approximately 14 times a 9.0645-hour variation. Dimming has positive nominal scores in every one of its 14 phase subdivisions, in both training and held sectors; it is not confined to the selected long-period ephemeris.",
       "diagnostics": "relaxed_final_combined/378527773_signal_1",
-      "reproduce_subdivision_check": "python -c \"import sys; sys.path.insert(0,'scripts'); from subharmonic_check import check; check(378527773, 1, 14)\""
+      "reproduce_subdivision_check": "python -c \"import sys; sys.path.insert(0,'scripts'); from subharmonic_check import check; check(378527773, 1, 14)\"",
+      "additional_pixel_evidence": "relaxed_final_combined/378527773_short_cycle_pixels/disposition.json"
     },
     {
       "tic": 378527773,
@@ -96,7 +97,8 @@
       "review_status": "not_promoted",
       "review": "Rejected as evidence for an additional temperate planet. The 6.04298-day fit is approximately 16 times the same 9.0645-hour variation. Dimming has positive nominal scores in every one of its 16 phase subdivisions, in both training and held sectors. The heuristic Lomb\u2013Scargle alias flag alone was false, so the separate subdivision evidence is retained.",
       "diagnostics": "relaxed_final_combined/378527773_signal_2",
-      "reproduce_subdivision_check": "python -c \"import sys; sys.path.insert(0,'scripts'); from subharmonic_check import check; check(378527773, 2, 16)\""
+      "reproduce_subdivision_check": "python -c \"import sys; sys.path.insert(0,'scripts'); from subharmonic_check import check; check(378527773, 2, 16)\"",
+      "additional_pixel_evidence": "relaxed_final_combined/378527773_short_cycle_pixels/disposition.json"
     }
   ],
   "reviewed_utc": "2026-09-07T05:34:14.694247+00:00",
