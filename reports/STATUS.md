@@ -59,7 +59,7 @@ The faint, variable control TIC 232970271 yielded no recovered injections in the
 first two suites. Periodic filtering improves this limited sensitivity check;
 non-detections still cannot exclude small planets.
 
-Twenty-four offline numerical checks pass, including a test that changing final-holdout
+Twenty-six offline numerical checks pass, including a test that changing final-holdout
 flux leaves the fitted ephemeris unchanged while reversing the measured holdout
 signal. Local execution, code, data-product references and failure records are
 retained for independent inspection.
@@ -185,18 +185,22 @@ completed another 100 runs and reused 100 exact reference runs. The complete
 revision retained 22/45 strict injected recoveries, compared with 19 for the
 original, 20 for stronger harmonic cleaning, and 21 for its simpler revision.
 It lost none of those comparisons' strict recoveries and added no unflagged
-unmodified-star fit, but failed its incremental gain-of-two gate. Neither
-revision is adopted. A [separately frozen confirmation experiment](../docs/EXPERIMENT_PIPELINE_CONFIRMATION.md)
-now compares all four complete pipelines on six other stars and realistic
-transit shapes. Its 240 runs address generalization; the earlier gate remains
-failed and the earlier 180-run assessment remains unexecuted.
+unmodified-star fit, but failed its incremental gain-of-two gate. A
+[separately frozen confirmation experiment](experiments/pipeline_confirmation/FINDINGS.md)
+then completed all 240 runs on six other stars with physical transit models.
+The simpler revision recovers 7/54 strictly, the qualified revision 6/54, and
+both legacy pipelines 4/54. Neither revision loses a legacy strict recovery;
+both pass the complete-pipeline criteria, with the simpler revision selected
+by the frozen rule. Absolute sensitivity remains low, and this small shared-star
+sample cannot establish survey completeness. The earlier gate remains failed
+and the earlier 180-run assessment remains unexecuted.
 
 A [real-signal control](calibration/revised_pipeline/FINDINGS.md) finds that both
 revisions preserve the known 37.424-day TOI-700 planet under strict checks; neither
 recovers the known 27.810-day signal among its two fits. A [100-star pilot selection](../provenance/revised_pilot_selection.json)
-is frozen using only catalogue properties and observation counts. It remains
-unexecuted pending the independent confirmation outcome and does not add to the
-distinct-star count.
+is frozen using only catalogue properties and observation counts. Both conditions
+now pass, allowing [the fixed revision's exploratory execution](../docs/REVISED_PILOT_EXECUTION.md).
+It reanalyses existing targets and does not add to the distinct-star count.
 
 The initial data campaign is complete; method development continues as separate,
 bounded experiments. A non-detection does not establish that these systems lack

@@ -9,6 +9,26 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def pilot_snapshot():
+    folder = ROOT / "reports/revised_pilot"
+    result = folder / "results.json"
+    progress = folder / "progress.json"
+    path = result if result.exists() else progress
+    if not path.exists():
+        return dict(state="prepared_without_run_outputs")
+    data = json.loads(path.read_text())
+    return dict(
+        state=data.get("status", "partial_outputs"),
+        method=data["method"],
+        selected=data["selected"],
+        completed=data["completed"],
+        trial_fits=sum(r["fits"] for r in data["rows"]),
+        unflagged=sum(r["unflagged"] for r in data["rows"]),
+        errors=len(data["errors"]),
+        additional_distinct_stars=0,
+    )
+
+
 def experiment_snapshot():
     rows = []
     for path in sorted((ROOT / "reports/experiments").glob("*/plan.json")):
@@ -49,6 +69,7 @@ def experiment_snapshot():
             rows.append(dict(experiment=path.parent.name, state="snapshot_unreadable_retry"))
     return dict(
         experiments=rows,
+        revised_pilot=pilot_snapshot(),
         note="Output state only; partial files do not prove a process is still running. Synthetic recoveries are not discoveries.",
     )
 
@@ -121,6 +142,7 @@ def snapshot(limit=12):
             unreviewed, key=lambda r: (r["tic"], r["variant"], r["signal_index"])
         )[:limit],
         unreadable_files=unreadable[:limit],
+        revised_pilot=pilot_snapshot(),
         claims="Trial fits are not planet candidates or discoveries. Live snapshot; use final audits for publication.",
     )
 

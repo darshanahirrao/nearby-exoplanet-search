@@ -1,0 +1,10 @@
+{
+  "checked_utc": "2026-09-07T09:01:08.992731+00:00",
+  "plan_sha256": "a86453e8784f46c791c68bae02d10855af90e0d54f4a0835d3c34b1391ca19dd",
+  "results_sha256": "30c23452ae4b83cf12e8f1e0ca521ad55e0a62a2dbf8b3981f3ff43d7c5d5563",
+  "auditor_sha256": "3e24b63ff5b9764642235ec84c5eee3f99693a56c79d6ca0af306eabf73133ab",
+  "checks": 2205,
+  "failures": [],
+  "passed": true,
+  "scope": "Artifact and recovery accounting audit; no astrophysical validity or false-alarm calibration."
+}

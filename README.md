@@ -106,8 +106,13 @@ The first [duration-prior benchmark](reports/experiments/physical_duration/FINDI
 failed its improvement gate. [Earlier training qualification](reports/experiments/qualified_seeds/FINDINGS.md)
 then retained 22/45 strict injected recoveries versus 19 for the original search,
 with no lost original recovery, but missed its stronger incremental-component
-gate. A separately frozen comparison on six other stars is now testing whether
-either complete revision generalizes to physical transit shapes. Neither is adopted.
+gate. A [separately frozen comparison](reports/experiments/pipeline_confirmation/FINDINGS.md)
+on six other stars finished all 240 runs: the simpler revision recovered 7/54
+physical transit injections strictly, versus 4/54 for both legacy pipelines,
+without losing their four recoveries. It passes the preset pilot criteria and
+preserves the known TOI-700 d control. The [100-star exploratory reanalysis](docs/REVISED_PILOT_EXECUTION.md)
+uses that fixed revision. This limited gain does not establish completeness,
+methodological novelty or a new planet.
 Use `python scripts/progress.py --experiments-only` for compact experiment status.
 
 ## Repository map

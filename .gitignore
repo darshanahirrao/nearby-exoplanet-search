@@ -14,3 +14,4 @@ __pycache__/
 *.key
 *.part
 /reports/experiments/*/progress.json
+/reports/revised_pilot/progress.json
