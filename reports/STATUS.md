@@ -3,6 +3,12 @@
 **Initial campaign complete. No surviving planet candidate, new planet or
 demonstrated methodological breakthrough.**
 
+Latest result: the two additional TIC 233738219 trial fits
+[fail a frozen recurrence check in 21 previously unused sectors](vetting/fresh_sector_followup/FINDINGS.md).
+Injected signals of the originally estimated sizes remain measurable in those
+data. Both trial fits are rejected as credible periodic planet leads; the audit
+passes 213 checks. Research continues, and no discovery is claimed.
+
 All 1,000 selected targets have finished downloading and initial processing:
 992 targets supplied at least two sectors; eight had fewer. All 992 processed
 targets supported the configured period search. We retained 3,586 initial trial
@@ -253,3 +259,11 @@ a planetary transit. A [fresh archived-sector follow-up](vetting/fresh_sector_fo
 now has a frozen plan covering all 21 unused sectors in the existing product
 table. It fixes both trial ephemerides and the recurrence screen before download.
 This is follow-up of the same star, not expansion of the failed survey method.
+
+**The fresh-sector follow-up is complete: both trial fits fail recurrence.**
+The 26.316459-day signal has nominal original/quadratic PDC scores of −0.60/0.06
+across 15/14 measurable events; the 35.394150-day fit has −0.80/−2.73 across
+13 events. Four retrospective box and physical-transit injections are measurable
+in the same observations, supporting rejection of these two fixed periodic fits.
+The audit passes 213 checks with zero failures. Neither trial remains a credible
+planet lead; no planet is discovered and the distinct-star count stays at 1,031.

@@ -1,0 +1,1412 @@
+{
+  "completed_utc": "2026-09-07T10:58:06.554678+00:00",
+  "plan_sha256": "68e06a240370aa40a69c4dc0662bbc7f2b495fd13224b184bdfa39489f4e596b",
+  "manifest_sha256": "1a99c2cd94f10522abf223d8f3a08d67af7c77df7c0f1d2daa006966021da023",
+  "rows": [
+    {
+      "role": "primary",
+      "method": "leave_one_out",
+      "source": "results/portfolio_development/leave_one_out__233738219_unmodified/result.json",
+      "source_sha256": "9d8047a55caeb40e86be8086fa952eb4bc9f8c0bbfcaaeb2c758460fe3379440",
+      "period_days": 26.316459215610013,
+      "epoch_btjd": 1691.6273382310633,
+      "duration_days": 0.13943435639852114,
+      "recurrence_screen": {
+        "checks": {
+          "original": {
+            "enough_events": true,
+            "positive_fraction": 0.6,
+            "snr": -0.6037756082225613,
+            "passed": false
+          },
+          "quadratic": {
+            "enough_events": true,
+            "positive_fraction": 0.6428571428571429,
+            "snr": 0.05689655013319008,
+            "passed": false
+          }
+        },
+        "passed": false
+      },
+      "scores": {
+        "PDCSAP_FLUX": {
+          "before_harmonics": {
+            "original": 8.650684562660041,
+            "quadratic": 5.386400666750985
+          },
+          "after_harmonics": {
+            "original": -0.6037756082225613,
+            "quadratic": 0.05689655013319008
+          }
+        },
+        "SAP_FLUX": {
+          "before_harmonics": {
+            "original": 7.866902238946357,
+            "quadratic": 4.660481652718861
+          },
+          "after_harmonics": {
+            "original": -2.6755941197305404,
+            "quadratic": -2.4061231991472756
+          }
+        }
+      }
+    },
+    {
+      "role": "comparison",
+      "method": "local_total",
+      "source": "results/portfolio_development/local_total__233738219_unmodified/result.json",
+      "source_sha256": "6a45f8f6349a89272fb9987d52717d2ad695d5298989dc9a54b3e8054e1dd9d8",
+      "period_days": 35.394150218068546,
+      "epoch_btjd": 1708.7196123763397,
+      "duration_days": 0.1504906030070948,
+      "recurrence_screen": {
+        "checks": {
+          "original": {
+            "enough_events": true,
+            "positive_fraction": 0.5384615384615384,
+            "snr": -0.8039352766598743,
+            "passed": false
+          },
+          "quadratic": {
+            "enough_events": true,
+            "positive_fraction": 0.23076923076923078,
+            "snr": -2.7280711841583516,
+            "passed": false
+          }
+        },
+        "passed": false
+      },
+      "scores": {
+        "PDCSAP_FLUX": {
+          "before_harmonics": {
+            "original": 9.763763990601078,
+            "quadratic": -4.35039225757477
+          },
+          "after_harmonics": {
+            "original": -0.8039352766598743,
+            "quadratic": -2.7280711841583516
+          }
+        },
+        "SAP_FLUX": {
+          "before_harmonics": {
+            "original": 9.403149341259763,
+            "quadratic": -4.139373322940733
+          },
+          "after_harmonics": {
+            "original": -3.3807558382491982,
+            "quadratic": -4.324324368910829
+          }
+        }
+      }
+    }
+  ],
+  "harmonic_models": {
+    "PDCSAP_FLUX": [
+      {
+        "sector": 24,
+        "peak_fractional_power": 0.46490152808548146,
+        "applied": true,
+        "period_days": 1.3136646307935353,
+        "fractional_power": 0.4710834861381234,
+        "fit_points": 3567,
+        "original_scatter": 0.002218339057449705,
+        "corrected_scatter": 0.0010327295835937827,
+        "mode_pass": 1
+      },
+      {
+        "sector": 25,
+        "peak_fractional_power": 0.3379884805592554,
+        "applied": true,
+        "period_days": 1.3155332702107125,
+        "fractional_power": 0.33864502473068264,
+        "fit_points": 3379,
+        "original_scatter": 0.00173976175660264,
+        "corrected_scatter": 0.0010503196740337603,
+        "mode_pass": 1
+      },
+      {
+        "sector": 26,
+        "peak_fractional_power": 0.41005339247986194,
+        "applied": true,
+        "period_days": 1.3181943109661334,
+        "fractional_power": 0.4108662590443962,
+        "fit_points": 3347,
+        "original_scatter": 0.0016035878975613782,
+        "corrected_scatter": 0.0010378511762610034,
+        "mode_pass": 1
+      },
+      {
+        "sector": 40,
+        "peak_fractional_power": 0.650228694883607,
+        "applied": true,
+        "period_days": 1.3130353174901304,
+        "fractional_power": 0.6632336148092828,
+        "fit_points": 3738,
+        "original_scatter": 0.0028134911236351832,
+        "corrected_scatter": 0.0010898062363557442,
+        "mode_pass": 1
+      },
+      {
+        "sector": 41,
+        "peak_fractional_power": 0.671538189880581,
+        "applied": true,
+        "period_days": 1.3139885290859172,
+        "fractional_power": 0.6904489302176574,
+        "fit_points": 3322,
+        "original_scatter": 0.002476046730607417,
+        "corrected_scatter": 0.0010179920816278563,
+        "mode_pass": 1
+      },
+      {
+        "sector": 47,
+        "peak_fractional_power": 0.653116349588532,
+        "applied": true,
+        "period_days": 1.311946799388169,
+        "fractional_power": 0.6687702576277769,
+        "fit_points": 2987,
+        "original_scatter": 0.0030954544068483207,
+        "corrected_scatter": 0.0010890507293100898,
+        "mode_pass": 1
+      },
+      {
+        "sector": 48,
+        "peak_fractional_power": 0.6243855516478259,
+        "applied": true,
+        "period_days": 1.3195285530660807,
+        "fractional_power": 0.624498523553157,
+        "fit_points": 2872,
+        "original_scatter": 0.002299974688149375,
+        "corrected_scatter": 0.0009904110183815349,
+        "mode_pass": 1
+      },
+      {
+        "sector": 49,
+        "peak_fractional_power": 0.4604538710261477,
+        "applied": true,
+        "period_days": 1.318586924276032,
+        "fractional_power": 0.4606285794691856,
+        "fit_points": 2528,
+        "original_scatter": 0.0017545195524109626,
+        "corrected_scatter": 0.0009113098542091783,
+        "mode_pass": 1
+      },
+      {
+        "sector": 50,
+        "peak_fractional_power": 0.6020054730484248,
+        "applied": true,
+        "period_days": 1.317022810844068,
+        "fractional_power": 0.6261551718329974,
+        "fit_points": 2377,
+        "original_scatter": 0.0020572037485638113,
+        "corrected_scatter": 0.0009930963761453219,
+        "mode_pass": 1
+      },
+      {
+        "sector": 51,
+        "peak_fractional_power": 0.5776055501367311,
+        "applied": true,
+        "period_days": 1.320334625793031,
+        "fractional_power": 0.5835900505482872,
+        "fit_points": 2317,
+        "original_scatter": 0.002014311942024645,
+        "corrected_scatter": 0.0009723497856265007,
+        "mode_pass": 1
+      },
+      {
+        "sector": 52,
+        "peak_fractional_power": 0.5154463564629158,
+        "applied": true,
+        "period_days": 1.3149306953266326,
+        "fractional_power": 0.5299037410291716,
+        "fit_points": 3237,
+        "original_scatter": 0.002183536499868915,
+        "corrected_scatter": 0.0010173019617506194,
+        "mode_pass": 1
+      },
+      {
+        "sector": 53,
+        "peak_fractional_power": 0.5638185395525763,
+        "applied": true,
+        "period_days": 1.3200183052997236,
+        "fractional_power": 0.5793834028817508,
+        "fit_points": 3177,
+        "original_scatter": 0.0026312820567269265,
+        "corrected_scatter": 0.0010847588361258464,
+        "mode_pass": 1
+      },
+      {
+        "sector": 54,
+        "peak_fractional_power": 0.639863422530576,
+        "applied": true,
+        "period_days": 1.3154857933541888,
+        "fractional_power": 0.641928107833142,
+        "fit_points": 3397,
+        "original_scatter": 0.0029934507389163083,
+        "corrected_scatter": 0.0010354436925894238,
+        "mode_pass": 1
+      },
+      {
+        "sector": 55,
+        "peak_fractional_power": 0.6022864148218221,
+        "applied": true,
+        "period_days": 1.3142404642409844,
+        "fractional_power": 0.604188215248294,
+        "fit_points": 3270,
+        "original_scatter": 0.0026833656032118924,
+        "corrected_scatter": 0.0010116421030812396,
+        "mode_pass": 1
+      },
+      {
+        "sector": 57,
+        "peak_fractional_power": 0.538430985887067,
+        "applied": true,
+        "period_days": 1.3242894341312759,
+        "fractional_power": 0.55149069996518,
+        "fit_points": 3486,
+        "original_scatter": 0.0025173247379490214,
+        "corrected_scatter": 0.0011748373109569117,
+        "mode_pass": 1
+      },
+      {
+        "sector": 58,
+        "peak_fractional_power": 0.5299462444708783,
+        "applied": true,
+        "period_days": 1.3193986413284915,
+        "fractional_power": 0.5301377576036699,
+        "fit_points": 3387,
+        "original_scatter": 0.002471258572699809,
+        "corrected_scatter": 0.00101299443032284,
+        "mode_pass": 1
+      },
+      {
+        "sector": 59,
+        "peak_fractional_power": 0.43240584415463484,
+        "applied": true,
+        "period_days": 1.3246376381388856,
+        "fractional_power": 0.4446998474242556,
+        "fit_points": 2868,
+        "original_scatter": 0.002075883553527543,
+        "corrected_scatter": 0.0010384594868763657,
+        "mode_pass": 1
+      },
+      {
+        "sector": 60,
+        "peak_fractional_power": 0.3159915384585802,
+        "applied": true,
+        "period_days": 0.6590112589255852,
+        "fractional_power": 0.3220037592621486,
+        "fit_points": 2351,
+        "original_scatter": 0.0016446119771560666,
+        "corrected_scatter": 0.0012886254656257327,
+        "mode_pass": 1
+      },
+      {
+        "sector": 74,
+        "peak_fractional_power": 0.6472728852338242,
+        "applied": true,
+        "period_days": 1.315121544285821,
+        "fractional_power": 0.6669426326325499,
+        "fit_points": 3108,
+        "original_scatter": 0.0034170242667781988,
+        "corrected_scatter": 0.0012017607573808142,
+        "mode_pass": 1
+      },
+      {
+        "sector": 75,
+        "peak_fractional_power": 0.5878319734874894,
+        "applied": true,
+        "period_days": 1.314827820028549,
+        "fractional_power": 0.5904242905150893,
+        "fit_points": 3767,
+        "original_scatter": 0.0029800271560986628,
+        "corrected_scatter": 0.0011411847622735825,
+        "mode_pass": 1
+      },
+      {
+        "sector": 76,
+        "peak_fractional_power": 0.4359737032562835,
+        "applied": true,
+        "period_days": 1.315344182287308,
+        "fractional_power": 0.43604956139437806,
+        "fit_points": 3679,
+        "original_scatter": 0.002292959607850774,
+        "corrected_scatter": 0.0010242336205972375,
+        "mode_pass": 1
+      },
+      {
+        "sector": 24,
+        "peak_fractional_power": 0.011643605819696584,
+        "applied": false,
+        "mode_pass": 2
+      },
+      {
+        "sector": 25,
+        "peak_fractional_power": 0.03688933873861503,
+        "applied": true,
+        "period_days": 0.9568770037825292,
+        "fractional_power": 0.03790783713676987,
+        "fit_points": 3375,
+        "original_scatter": 0.0010503196740337603,
+        "corrected_scatter": 0.0010372703173549172,
+        "mode_pass": 2
+      },
+      {
+        "sector": 26,
+        "peak_fractional_power": 0.034250658764919874,
+        "applied": true,
+        "period_days": 1.368903449667772,
+        "fractional_power": 0.03520447900902547,
+        "fit_points": 3348,
+        "original_scatter": 0.0010378511762610034,
+        "corrected_scatter": 0.0010048429794263334,
+        "mode_pass": 2
+      },
+      {
+        "sector": 40,
+        "peak_fractional_power": 0.031434218257366475,
+        "applied": true,
+        "period_days": 1.4325816140758094,
+        "fractional_power": 0.031785202158700204,
+        "fit_points": 3742,
+        "original_scatter": 0.0010898062363557442,
+        "corrected_scatter": 0.0010638787744609438,
+        "mode_pass": 2
+      },
+      {
+        "sector": 41,
+        "peak_fractional_power": 0.05212778932080918,
+        "applied": true,
+        "period_days": 0.6459677330972514,
+        "fractional_power": 0.052575666964513185,
+        "fit_points": 3326,
+        "original_scatter": 0.0010179920816278563,
+        "corrected_scatter": 0.000997681283507503,
+        "mode_pass": 2
+      },
+      {
+        "sector": 47,
+        "peak_fractional_power": 0.04040991922178852,
+        "applied": true,
+        "period_days": 0.6442724450581945,
+        "fractional_power": 0.04056690036504068,
+        "fit_points": 2984,
+        "original_scatter": 0.0010890507293100898,
+        "corrected_scatter": 0.0010628138211759472,
+        "mode_pass": 2
+      },
+      {
+        "sector": 48,
+        "peak_fractional_power": 0.04639921941330819,
+        "applied": true,
+        "period_days": 1.3744573000982883,
+        "fractional_power": 0.0468549339337725,
+        "fit_points": 2873,
+        "original_scatter": 0.0009904110183815349,
+        "corrected_scatter": 0.0009713290931386368,
+        "mode_pass": 2
+      },
+      {
+        "sector": 49,
+        "peak_fractional_power": 0.023680990670794627,
+        "applied": true,
+        "period_days": 0.3296704421895551,
+        "fractional_power": 0.02407087001547124,
+        "fit_points": 2526,
+        "original_scatter": 0.0009113098542091783,
+        "corrected_scatter": 0.0008904056028555033,
+        "mode_pass": 2
+      },
+      {
+        "sector": 50,
+        "peak_fractional_power": 0.02135812936541527,
+        "applied": true,
+        "period_days": 1.139425046248349,
+        "fractional_power": 0.022313668524376253,
+        "fit_points": 2376,
+        "original_scatter": 0.0009930963761453219,
+        "corrected_scatter": 0.0009705750968664908,
+        "mode_pass": 2
+      },
+      {
+        "sector": 51,
+        "peak_fractional_power": 0.034290631096903924,
+        "applied": true,
+        "period_days": 1.2576023990939698,
+        "fractional_power": 0.034676179085047096,
+        "fit_points": 2318,
+        "original_scatter": 0.0009723497856265007,
+        "corrected_scatter": 0.0009722505123143962,
+        "mode_pass": 2
+      },
+      {
+        "sector": 52,
+        "peak_fractional_power": 0.01669444132523553,
+        "applied": false,
+        "mode_pass": 2
+      },
+      {
+        "sector": 53,
+        "peak_fractional_power": 0.04085576708087456,
+        "applied": true,
+        "period_days": 1.2672772968283383,
+        "fractional_power": 0.04106594945308441,
+        "fit_points": 3183,
+        "original_scatter": 0.0010847588361258464,
+        "corrected_scatter": 0.0010612884461539782,
+        "mode_pass": 2
+      },
+      {
+        "sector": 54,
+        "peak_fractional_power": 0.026984139238209016,
+        "applied": true,
+        "period_days": 1.5674979844777974,
+        "fractional_power": 0.026988423685541958,
+        "fit_points": 3406,
+        "original_scatter": 0.0010354436925894238,
+        "corrected_scatter": 0.001032461410425343,
+        "mode_pass": 2
+      },
+      {
+        "sector": 55,
+        "peak_fractional_power": 0.029427114849302285,
+        "applied": true,
+        "period_days": 1.214740820540725,
+        "fractional_power": 0.02994917654059376,
+        "fit_points": 3275,
+        "original_scatter": 0.0010116421030812396,
+        "corrected_scatter": 0.0010046076629884424,
+        "mode_pass": 2
+      },
+      {
+        "sector": 57,
+        "peak_fractional_power": 0.20354334465830448,
+        "applied": true,
+        "period_days": 0.6512195944476978,
+        "fractional_power": 0.20512395263097136,
+        "fit_points": 3467,
+        "original_scatter": 0.0011748373109569117,
+        "corrected_scatter": 0.000996508937936948,
+        "mode_pass": 2
+      },
+      {
+        "sector": 58,
+        "peak_fractional_power": 0.0358532276307419,
+        "applied": true,
+        "period_days": 0.6466008033076335,
+        "fractional_power": 0.03600869678718413,
+        "fit_points": 3382,
+        "original_scatter": 0.00101299443032284,
+        "corrected_scatter": 0.0009616151995014137,
+        "mode_pass": 2
+      },
+      {
+        "sector": 59,
+        "peak_fractional_power": 0.10233853207684024,
+        "applied": true,
+        "period_days": 0.6744755516398915,
+        "fractional_power": 0.10549160277033834,
+        "fit_points": 2861,
+        "original_scatter": 0.0010384594868763657,
+        "corrected_scatter": 0.0009659949593693995,
+        "mode_pass": 2
+      },
+      {
+        "sector": 60,
+        "peak_fractional_power": 0.3717614085285508,
+        "applied": true,
+        "period_days": 1.3219734205893454,
+        "fractional_power": 0.37839097498765484,
+        "fit_points": 2331,
+        "original_scatter": 0.0012886254656257327,
+        "corrected_scatter": 0.0009404972331462297,
+        "mode_pass": 2
+      },
+      {
+        "sector": 74,
+        "peak_fractional_power": 0.03511778531875127,
+        "applied": true,
+        "period_days": 1.3678897542392903,
+        "fractional_power": 0.03625913581257199,
+        "fit_points": 3106,
+        "original_scatter": 0.0012017607573808142,
+        "corrected_scatter": 0.0011610873979048938,
+        "mode_pass": 2
+      },
+      {
+        "sector": 75,
+        "peak_fractional_power": 0.08339733307209987,
+        "applied": true,
+        "period_days": 1.3608230712482883,
+        "fractional_power": 0.0846706746237607,
+        "fit_points": 3769,
+        "original_scatter": 0.0011411847622735825,
+        "corrected_scatter": 0.0011054375950545236,
+        "mode_pass": 2
+      },
+      {
+        "sector": 76,
+        "peak_fractional_power": 0.030015575515353502,
+        "applied": true,
+        "period_days": 1.2396630182425223,
+        "fractional_power": 0.030202705836911647,
+        "fit_points": 3673,
+        "original_scatter": 0.0010242336205972375,
+        "corrected_scatter": 0.0009931940877955848,
+        "mode_pass": 2
+      },
+      {
+        "sector": 24,
+        "peak_fractional_power": 0.011643605819696584,
+        "applied": false,
+        "mode_pass": 3
+      },
+      {
+        "sector": 25,
+        "peak_fractional_power": 0.026716099247673493,
+        "applied": true,
+        "period_days": 0.32910012502324854,
+        "fractional_power": 0.026797625461163935,
+        "fit_points": 3374,
+        "original_scatter": 0.0010372703173549172,
+        "corrected_scatter": 0.0010104623421189854,
+        "mode_pass": 3
+      },
+      {
+        "sector": 26,
+        "peak_fractional_power": 0.023850547148126563,
+        "applied": true,
+        "period_days": 0.3287702210291367,
+        "fractional_power": 0.024181731770689493,
+        "fit_points": 3343,
+        "original_scatter": 0.0010048429794263334,
+        "corrected_scatter": 0.0009858875236450923,
+        "mode_pass": 3
+      },
+      {
+        "sector": 40,
+        "peak_fractional_power": 0.03180117469583833,
+        "applied": true,
+        "period_days": 0.6677516933602723,
+        "fractional_power": 0.03284142783730358,
+        "fit_points": 3745,
+        "original_scatter": 0.0010638787744609438,
+        "corrected_scatter": 0.0010768862536532967,
+        "mode_pass": 3
+      },
+      {
+        "sector": 41,
+        "peak_fractional_power": 0.024325273149370854,
+        "applied": true,
+        "period_days": 0.6666349105679484,
+        "fractional_power": 0.024371726891326956,
+        "fit_points": 3324,
+        "original_scatter": 0.000997681283507503,
+        "corrected_scatter": 0.0009925360747088116,
+        "mode_pass": 3
+      },
+      {
+        "sector": 47,
+        "peak_fractional_power": 0.025410057515771436,
+        "applied": true,
+        "period_days": 1.4794182842245338,
+        "fractional_power": 0.02579991110482328,
+        "fit_points": 2993,
+        "original_scatter": 0.0010628138211759472,
+        "corrected_scatter": 0.0010667176363558632,
+        "mode_pass": 3
+      },
+      {
+        "sector": 48,
+        "peak_fractional_power": 0.030514088341842355,
+        "applied": true,
+        "period_days": 0.8498069729895272,
+        "fractional_power": 0.030546572263204695,
+        "fit_points": 2872,
+        "original_scatter": 0.0009713290931386368,
+        "corrected_scatter": 0.0009537187349292489,
+        "mode_pass": 3
+      },
+      {
+        "sector": 49,
+        "peak_fractional_power": 0.013663178346073666,
+        "applied": false,
+        "mode_pass": 3
+      },
+      {
+        "sector": 50,
+        "peak_fractional_power": 0.01948753968487718,
+        "applied": false,
+        "mode_pass": 3
+      },
+      {
+        "sector": 51,
+        "peak_fractional_power": 0.014000926518076199,
+        "applied": false,
+        "mode_pass": 3
+      },
+      {
+        "sector": 52,
+        "peak_fractional_power": 0.01669444132523553,
+        "applied": false,
+        "mode_pass": 3
+      },
+      {
+        "sector": 53,
+        "peak_fractional_power": 0.026376251938519536,
+        "applied": true,
+        "period_days": 0.6471797218382923,
+        "fractional_power": 0.027313776433338714,
+        "fit_points": 3190,
+        "original_scatter": 0.0010612884461539782,
+        "corrected_scatter": 0.0010780561283718708,
+        "mode_pass": 3
+      },
+      {
+        "sector": 54,
+        "peak_fractional_power": 0.024166485731911973,
+        "applied": true,
+        "period_days": 0.887662870367741,
+        "fractional_power": 0.02482483674841989,
+        "fit_points": 3408,
+        "original_scatter": 0.001032461410425343,
+        "corrected_scatter": 0.0010207295415857994,
+        "mode_pass": 3
+      },
+      {
+        "sector": 55,
+        "peak_fractional_power": 0.025821079501524246,
+        "applied": true,
+        "period_days": 0.6454411788963179,
+        "fractional_power": 0.026558964412384777,
+        "fit_points": 3270,
+        "original_scatter": 0.0010046076629884424,
+        "corrected_scatter": 0.000974423636056841,
+        "mode_pass": 3
+      },
+      {
+        "sector": 57,
+        "peak_fractional_power": 0.0476867940648813,
+        "applied": true,
+        "period_days": 0.6694141920949551,
+        "fractional_power": 0.047874467843031836,
+        "fit_points": 3471,
+        "original_scatter": 0.000996508937936948,
+        "corrected_scatter": 0.0009759273081302762,
+        "mode_pass": 3
+      },
+      {
+        "sector": 58,
+        "peak_fractional_power": 0.031052611870304583,
+        "applied": true,
+        "period_days": 1.3809700120327286,
+        "fractional_power": 0.031739254509458886,
+        "fit_points": 3374,
+        "original_scatter": 0.0009616151995014137,
+        "corrected_scatter": 0.0009414849658913783,
+        "mode_pass": 3
+      },
+      {
+        "sector": 59,
+        "peak_fractional_power": 0.04443401782490628,
+        "applied": true,
+        "period_days": 0.6527919600474442,
+        "fractional_power": 0.0449829484905985,
+        "fit_points": 2866,
+        "original_scatter": 0.0009659949593693995,
+        "corrected_scatter": 0.0009509257147229758,
+        "mode_pass": 3
+      },
+      {
+        "sector": 60,
+        "peak_fractional_power": 0.040296396416006304,
+        "applied": true,
+        "period_days": 1.475058915989092,
+        "fractional_power": 0.0404347963921483,
+        "fit_points": 2328,
+        "original_scatter": 0.0009404972331462297,
+        "corrected_scatter": 0.0009091549851238651,
+        "mode_pass": 3
+      },
+      {
+        "sector": 74,
+        "peak_fractional_power": 0.03948746025052351,
+        "applied": true,
+        "period_days": 1.2423715958066623,
+        "fractional_power": 0.04054642619287398,
+        "fit_points": 3114,
+        "original_scatter": 0.0011610873979048938,
+        "corrected_scatter": 0.0011635341637266942,
+        "mode_pass": 3
+      },
+      {
+        "sector": 75,
+        "peak_fractional_power": 0.03485108354502187,
+        "applied": true,
+        "period_days": 1.2815980324346221,
+        "fractional_power": 0.03585872291851289,
+        "fit_points": 3766,
+        "original_scatter": 0.0011054375950545236,
+        "corrected_scatter": 0.0010682435461442004,
+        "mode_pass": 3
+      },
+      {
+        "sector": 76,
+        "peak_fractional_power": 0.03020530093604746,
+        "applied": true,
+        "period_days": 0.3279226191525717,
+        "fractional_power": 0.03123817142170526,
+        "fit_points": 3681,
+        "original_scatter": 0.0009931940877955848,
+        "corrected_scatter": 0.0009923721890558173,
+        "mode_pass": 3
+      }
+    ],
+    "SAP_FLUX": [
+      {
+        "sector": 24,
+        "peak_fractional_power": 0.44049820212169105,
+        "applied": true,
+        "period_days": 1.3122153697891878,
+        "fractional_power": 0.45143556257780604,
+        "fit_points": 3556,
+        "original_scatter": 0.002200910895724547,
+        "corrected_scatter": 0.0011041306598879226,
+        "mode_pass": 1
+      },
+      {
+        "sector": 25,
+        "peak_fractional_power": 0.300903854445332,
+        "applied": true,
+        "period_days": 1.3152315545002284,
+        "fractional_power": 0.3017772565989858,
+        "fit_points": 3372,
+        "original_scatter": 0.0016618124079377686,
+        "corrected_scatter": 0.0010605574555132965,
+        "mode_pass": 1
+      },
+      {
+        "sector": 26,
+        "peak_fractional_power": 0.3804547994863003,
+        "applied": true,
+        "period_days": 1.317971549812173,
+        "fractional_power": 0.38099606990844354,
+        "fit_points": 3348,
+        "original_scatter": 0.0016548475039193532,
+        "corrected_scatter": 0.0010685597606306255,
+        "mode_pass": 1
+      },
+      {
+        "sector": 40,
+        "peak_fractional_power": 0.6330566668375418,
+        "applied": true,
+        "period_days": 1.312288204072956,
+        "fractional_power": 0.6423967498008524,
+        "fit_points": 3751,
+        "original_scatter": 0.0027242416040791813,
+        "corrected_scatter": 0.001099921070215222,
+        "mode_pass": 1
+      },
+      {
+        "sector": 41,
+        "peak_fractional_power": 0.6752167880939184,
+        "applied": true,
+        "period_days": 1.3137986944799784,
+        "fractional_power": 0.6952587610183683,
+        "fit_points": 3330,
+        "original_scatter": 0.002422459372863164,
+        "corrected_scatter": 0.0009825406753557963,
+        "mode_pass": 1
+      },
+      {
+        "sector": 47,
+        "peak_fractional_power": 0.6736530702488563,
+        "applied": true,
+        "period_days": 1.31169002016822,
+        "fractional_power": 0.6889380197937748,
+        "fit_points": 2990,
+        "original_scatter": 0.003084748398079847,
+        "corrected_scatter": 0.0010269935271830925,
+        "mode_pass": 1
+      },
+      {
+        "sector": 48,
+        "peak_fractional_power": 0.599567654448793,
+        "applied": true,
+        "period_days": 1.3197321216525426,
+        "fractional_power": 0.5996032517815229,
+        "fit_points": 2873,
+        "original_scatter": 0.0021451921357589945,
+        "corrected_scatter": 0.0009870576862738717,
+        "mode_pass": 1
+      },
+      {
+        "sector": 49,
+        "peak_fractional_power": 0.4599371207034281,
+        "applied": true,
+        "period_days": 1.3190552630714099,
+        "fractional_power": 0.46041676134002074,
+        "fit_points": 2531,
+        "original_scatter": 0.001692456584731878,
+        "corrected_scatter": 0.0009068675500337377,
+        "mode_pass": 1
+      },
+      {
+        "sector": 50,
+        "peak_fractional_power": 0.5863407168548134,
+        "applied": true,
+        "period_days": 1.3161696245329644,
+        "fractional_power": 0.6072007559147558,
+        "fit_points": 2373,
+        "original_scatter": 0.001970621773300342,
+        "corrected_scatter": 0.0009747109441067732,
+        "mode_pass": 1
+      },
+      {
+        "sector": 51,
+        "peak_fractional_power": 0.548300528112572,
+        "applied": true,
+        "period_days": 1.3189604035056886,
+        "fractional_power": 0.5584125437257045,
+        "fit_points": 2321,
+        "original_scatter": 0.0018682427971417161,
+        "corrected_scatter": 0.000977285606387499,
+        "mode_pass": 1
+      },
+      {
+        "sector": 52,
+        "peak_fractional_power": 0.5031374521661023,
+        "applied": true,
+        "period_days": 1.315509339650097,
+        "fractional_power": 0.5193980680010346,
+        "fit_points": 3233,
+        "original_scatter": 0.0020774888817664617,
+        "corrected_scatter": 0.0009853370540858957,
+        "mode_pass": 1
+      },
+      {
+        "sector": 53,
+        "peak_fractional_power": 0.5552460699074868,
+        "applied": true,
+        "period_days": 1.3194839832741283,
+        "fractional_power": 0.573320136182476,
+        "fit_points": 3191,
+        "original_scatter": 0.0025188802719861604,
+        "corrected_scatter": 0.001083372948927565,
+        "mode_pass": 1
+      },
+      {
+        "sector": 54,
+        "peak_fractional_power": 0.6403998006125634,
+        "applied": true,
+        "period_days": 1.3151997401617945,
+        "fractional_power": 0.6419485689100386,
+        "fit_points": 3398,
+        "original_scatter": 0.002906962370060774,
+        "corrected_scatter": 0.0010315434264977026,
+        "mode_pass": 1
+      },
+      {
+        "sector": 55,
+        "peak_fractional_power": 0.6302095771530073,
+        "applied": true,
+        "period_days": 1.3145356105707684,
+        "fractional_power": 0.6316778082655591,
+        "fit_points": 3284,
+        "original_scatter": 0.002710060516989392,
+        "corrected_scatter": 0.0009598103731135865,
+        "mode_pass": 1
+      },
+      {
+        "sector": 57,
+        "peak_fractional_power": 0.5368727599679688,
+        "applied": true,
+        "period_days": 1.3246160249265162,
+        "fractional_power": 0.5483992210928947,
+        "fit_points": 3491,
+        "original_scatter": 0.0023958430249336905,
+        "corrected_scatter": 0.001144670335628702,
+        "mode_pass": 1
+      },
+      {
+        "sector": 58,
+        "peak_fractional_power": 0.5417773542718889,
+        "applied": true,
+        "period_days": 1.319324346287444,
+        "fractional_power": 0.5420216255869135,
+        "fit_points": 3380,
+        "original_scatter": 0.002338649819130422,
+        "corrected_scatter": 0.00095572088633702,
+        "mode_pass": 1
+      },
+      {
+        "sector": 59,
+        "peak_fractional_power": 0.4330119062795831,
+        "applied": true,
+        "period_days": 1.3250465425194156,
+        "fractional_power": 0.44370921963929566,
+        "fit_points": 2870,
+        "original_scatter": 0.002052277678421963,
+        "corrected_scatter": 0.0010306433964678535,
+        "mode_pass": 1
+      },
+      {
+        "sector": 60,
+        "peak_fractional_power": 0.32358446983021344,
+        "applied": true,
+        "period_days": 0.6591353513369314,
+        "fractional_power": 0.3307745078914547,
+        "fit_points": 2354,
+        "original_scatter": 0.0015941169753872699,
+        "corrected_scatter": 0.0012671810989774279,
+        "mode_pass": 1
+      },
+      {
+        "sector": 74,
+        "peak_fractional_power": 0.6493181572526688,
+        "applied": true,
+        "period_days": 1.3142608960374769,
+        "fractional_power": 0.6648107670464597,
+        "fit_points": 3143,
+        "original_scatter": 0.0030650624761329025,
+        "corrected_scatter": 0.0011322756646317382,
+        "mode_pass": 1
+      },
+      {
+        "sector": 75,
+        "peak_fractional_power": 0.5915974487679911,
+        "applied": true,
+        "period_days": 1.314995849257759,
+        "fractional_power": 0.5946122031451718,
+        "fit_points": 3759,
+        "original_scatter": 0.002875666368549627,
+        "corrected_scatter": 0.0011030029098203832,
+        "mode_pass": 1
+      },
+      {
+        "sector": 76,
+        "peak_fractional_power": 0.44750895051456335,
+        "applied": true,
+        "period_days": 1.3154007995560963,
+        "fractional_power": 0.4476051392970175,
+        "fit_points": 3683,
+        "original_scatter": 0.0022385613931927236,
+        "corrected_scatter": 0.0009594335686702603,
+        "mode_pass": 1
+      },
+      {
+        "sector": 24,
+        "peak_fractional_power": 0.010190580292108732,
+        "applied": false,
+        "mode_pass": 2
+      },
+      {
+        "sector": 25,
+        "peak_fractional_power": 0.027020862504573487,
+        "applied": true,
+        "period_days": 1.2030980862439886,
+        "fractional_power": 0.027164362329165304,
+        "fit_points": 3377,
+        "original_scatter": 0.0010605574555132965,
+        "corrected_scatter": 0.001059687265461332,
+        "mode_pass": 2
+      },
+      {
+        "sector": 26,
+        "peak_fractional_power": 0.04934517993515834,
+        "applied": true,
+        "period_days": 1.3703259406970194,
+        "fractional_power": 0.050214733345926944,
+        "fit_points": 3349,
+        "original_scatter": 0.0010685597606306255,
+        "corrected_scatter": 0.001062628101156614,
+        "mode_pass": 2
+      },
+      {
+        "sector": 40,
+        "peak_fractional_power": 0.040259305603560294,
+        "applied": true,
+        "period_days": 0.6679820156795688,
+        "fractional_power": 0.04202050680713148,
+        "fit_points": 3756,
+        "original_scatter": 0.001099921070215222,
+        "corrected_scatter": 0.001087068634912135,
+        "mode_pass": 2
+      },
+      {
+        "sector": 41,
+        "peak_fractional_power": 0.049865134553729144,
+        "applied": true,
+        "period_days": 0.6458319526793644,
+        "fractional_power": 0.05047996596486782,
+        "fit_points": 3326,
+        "original_scatter": 0.0009825406753557963,
+        "corrected_scatter": 0.0009543764089356031,
+        "mode_pass": 2
+      },
+      {
+        "sector": 47,
+        "peak_fractional_power": 0.04324554139056324,
+        "applied": true,
+        "period_days": 0.6445571206136128,
+        "fractional_power": 0.043688127370892414,
+        "fit_points": 2987,
+        "original_scatter": 0.0010269935271830925,
+        "corrected_scatter": 0.0009854962436239058,
+        "mode_pass": 2
+      },
+      {
+        "sector": 48,
+        "peak_fractional_power": 0.05286866387330209,
+        "applied": true,
+        "period_days": 1.3834562927898564,
+        "fractional_power": 0.0533529311469918,
+        "fit_points": 2872,
+        "original_scatter": 0.0009870576862738717,
+        "corrected_scatter": 0.0009376169105056215,
+        "mode_pass": 2
+      },
+      {
+        "sector": 49,
+        "peak_fractional_power": 0.024606568459604804,
+        "applied": true,
+        "period_days": 0.3296942322115109,
+        "fractional_power": 0.025105838802248634,
+        "fit_points": 2529,
+        "original_scatter": 0.0009068675500337377,
+        "corrected_scatter": 0.0008671189774374027,
+        "mode_pass": 2
+      },
+      {
+        "sector": 50,
+        "peak_fractional_power": 0.018330791145895677,
+        "applied": false,
+        "mode_pass": 2
+      },
+      {
+        "sector": 51,
+        "peak_fractional_power": 0.053241937007554724,
+        "applied": true,
+        "period_days": 1.2594404411446944,
+        "fractional_power": 0.05340787984439174,
+        "fit_points": 2317,
+        "original_scatter": 0.000977285606387499,
+        "corrected_scatter": 0.0009602747220058177,
+        "mode_pass": 2
+      },
+      {
+        "sector": 52,
+        "peak_fractional_power": 0.015990141553932562,
+        "applied": false,
+        "mode_pass": 2
+      },
+      {
+        "sector": 53,
+        "peak_fractional_power": 0.04586602667858954,
+        "applied": true,
+        "period_days": 1.2653433538399426,
+        "fractional_power": 0.04665745394184667,
+        "fit_points": 3193,
+        "original_scatter": 0.001083372948927565,
+        "corrected_scatter": 0.0010551401089384312,
+        "mode_pass": 2
+      },
+      {
+        "sector": 54,
+        "peak_fractional_power": 0.02899320866940347,
+        "applied": true,
+        "period_days": 0.8861386148636015,
+        "fractional_power": 0.029158826248679773,
+        "fit_points": 3404,
+        "original_scatter": 0.0010315434264977026,
+        "corrected_scatter": 0.0010288617073668158,
+        "mode_pass": 2
+      },
+      {
+        "sector": 55,
+        "peak_fractional_power": 0.027504377853078205,
+        "applied": true,
+        "period_days": 0.6455469442765386,
+        "fractional_power": 0.028180416626572134,
+        "fit_points": 3281,
+        "original_scatter": 0.0009598103731135865,
+        "corrected_scatter": 0.0009330712875382517,
+        "mode_pass": 2
+      },
+      {
+        "sector": 57,
+        "peak_fractional_power": 0.2140137463234221,
+        "applied": true,
+        "period_days": 0.6514714235701458,
+        "fractional_power": 0.21741435699369624,
+        "fit_points": 3481,
+        "original_scatter": 0.001144670335628702,
+        "corrected_scatter": 0.0009787152449446264,
+        "mode_pass": 2
+      },
+      {
+        "sector": 58,
+        "peak_fractional_power": 0.04453190864202943,
+        "applied": true,
+        "period_days": 1.3817440791815339,
+        "fractional_power": 0.0455554431112034,
+        "fit_points": 3381,
+        "original_scatter": 0.00095572088633702,
+        "corrected_scatter": 0.0009506913203332476,
+        "mode_pass": 2
+      },
+      {
+        "sector": 59,
+        "peak_fractional_power": 0.10918074865274385,
+        "applied": true,
+        "period_days": 0.674655286988778,
+        "fractional_power": 0.11179141925239591,
+        "fit_points": 2866,
+        "original_scatter": 0.0010306433964678535,
+        "corrected_scatter": 0.000966483139855776,
+        "mode_pass": 2
+      },
+      {
+        "sector": 60,
+        "peak_fractional_power": 0.3700612856739786,
+        "applied": true,
+        "period_days": 1.322269613107061,
+        "fractional_power": 0.3773815892542188,
+        "fit_points": 2332,
+        "original_scatter": 0.0012671810989774279,
+        "corrected_scatter": 0.0009240124592006843,
+        "mode_pass": 2
+      },
+      {
+        "sector": 74,
+        "peak_fractional_power": 0.034818715220248916,
+        "applied": true,
+        "period_days": 1.3635998707844588,
+        "fractional_power": 0.03487849692624558,
+        "fit_points": 3142,
+        "original_scatter": 0.0011322756646317382,
+        "corrected_scatter": 0.0011248945768243853,
+        "mode_pass": 2
+      },
+      {
+        "sector": 75,
+        "peak_fractional_power": 0.10315690762580323,
+        "applied": true,
+        "period_days": 1.3606466809957745,
+        "fractional_power": 0.1049267725230262,
+        "fit_points": 3762,
+        "original_scatter": 0.0011030029098203832,
+        "corrected_scatter": 0.0010526171043622643,
+        "mode_pass": 2
+      },
+      {
+        "sector": 76,
+        "peak_fractional_power": 0.03073826463745444,
+        "applied": true,
+        "period_days": 1.241922965253272,
+        "fractional_power": 0.030738270355068223,
+        "fit_points": 3681,
+        "original_scatter": 0.0009594335686702603,
+        "corrected_scatter": 0.0009473859539932158,
+        "mode_pass": 2
+      },
+      {
+        "sector": 24,
+        "peak_fractional_power": 0.010190580292108732,
+        "applied": false,
+        "mode_pass": 3
+      },
+      {
+        "sector": 25,
+        "peak_fractional_power": 0.017014930161712433,
+        "applied": false,
+        "mode_pass": 3
+      },
+      {
+        "sector": 26,
+        "peak_fractional_power": 0.039191799646884205,
+        "applied": true,
+        "period_days": 1.0057591122979808,
+        "fractional_power": 0.039210300558240506,
+        "fit_points": 3349,
+        "original_scatter": 0.001062628101156614,
+        "corrected_scatter": 0.0010203491685795143,
+        "mode_pass": 3
+      },
+      {
+        "sector": 40,
+        "peak_fractional_power": 0.018276995886987665,
+        "applied": false,
+        "mode_pass": 3
+      },
+      {
+        "sector": 41,
+        "peak_fractional_power": 0.023099710865014163,
+        "applied": true,
+        "period_days": 0.6670245765961657,
+        "fractional_power": 0.023263677639028337,
+        "fit_points": 3329,
+        "original_scatter": 0.0009543764089356031,
+        "corrected_scatter": 0.0009504222561550874,
+        "mode_pass": 3
+      },
+      {
+        "sector": 47,
+        "peak_fractional_power": 0.03717702775372001,
+        "applied": true,
+        "period_days": 0.4435436559838483,
+        "fractional_power": 0.037234821422913365,
+        "fit_points": 2991,
+        "original_scatter": 0.0009854962436239058,
+        "corrected_scatter": 0.0009844487760066049,
+        "mode_pass": 3
+      },
+      {
+        "sector": 48,
+        "peak_fractional_power": 0.029733844284233535,
+        "applied": true,
+        "period_days": 0.6754847723894429,
+        "fractional_power": 0.02989885510057962,
+        "fit_points": 2867,
+        "original_scatter": 0.0009376169105056215,
+        "corrected_scatter": 0.0009377790787140543,
+        "mode_pass": 3
+      },
+      {
+        "sector": 49,
+        "peak_fractional_power": 0.011854608900333678,
+        "applied": false,
+        "mode_pass": 3
+      },
+      {
+        "sector": 50,
+        "peak_fractional_power": 0.018330791145895677,
+        "applied": false,
+        "mode_pass": 3
+      },
+      {
+        "sector": 51,
+        "peak_fractional_power": 0.013721422891066109,
+        "applied": false,
+        "mode_pass": 3
+      },
+      {
+        "sector": 52,
+        "peak_fractional_power": 0.015990141553932562,
+        "applied": false,
+        "mode_pass": 3
+      },
+      {
+        "sector": 53,
+        "peak_fractional_power": 0.02688924499075368,
+        "applied": true,
+        "period_days": 1.9793842450785146,
+        "fractional_power": 0.02744260853992824,
+        "fit_points": 3200,
+        "original_scatter": 0.0010551401089384312,
+        "corrected_scatter": 0.0010437580643877405,
+        "mode_pass": 3
+      },
+      {
+        "sector": 54,
+        "peak_fractional_power": 0.024908085253998805,
+        "applied": true,
+        "period_days": 1.4163935940424484,
+        "fractional_power": 0.02499021978955907,
+        "fit_points": 3409,
+        "original_scatter": 0.0010288617073668158,
+        "corrected_scatter": 0.0010045149292455366,
+        "mode_pass": 3
+      },
+      {
+        "sector": 55,
+        "peak_fractional_power": 0.0222967602297142,
+        "applied": true,
+        "period_days": 1.209060563118725,
+        "fractional_power": 0.022316562255201962,
+        "fit_points": 3279,
+        "original_scatter": 0.0009330712875382517,
+        "corrected_scatter": 0.0009178799808704575,
+        "mode_pass": 3
+      },
+      {
+        "sector": 57,
+        "peak_fractional_power": 0.049446032423326645,
+        "applied": true,
+        "period_days": 0.6693445420426858,
+        "fractional_power": 0.049592225135519113,
+        "fit_points": 3478,
+        "original_scatter": 0.0009787152449446264,
+        "corrected_scatter": 0.0009483586670064913,
+        "mode_pass": 3
+      },
+      {
+        "sector": 58,
+        "peak_fractional_power": 0.037872147560277146,
+        "applied": true,
+        "period_days": 0.6468824366523214,
+        "fractional_power": 0.03790377648206397,
+        "fit_points": 3384,
+        "original_scatter": 0.0009506913203332476,
+        "corrected_scatter": 0.0009271838972572101,
+        "mode_pass": 3
+      },
+      {
+        "sector": 59,
+        "peak_fractional_power": 0.052671654205739216,
+        "applied": true,
+        "period_days": 0.6528760358784297,
+        "fractional_power": 0.05320451414487183,
+        "fit_points": 2865,
+        "original_scatter": 0.000966483139855776,
+        "corrected_scatter": 0.0009490980499504988,
+        "mode_pass": 3
+      },
+      {
+        "sector": 60,
+        "peak_fractional_power": 0.03289403386364562,
+        "applied": true,
+        "period_days": 1.476518719871295,
+        "fractional_power": 0.03319860337175088,
+        "fit_points": 2331,
+        "original_scatter": 0.0009240124592006843,
+        "corrected_scatter": 0.0009187930105657274,
+        "mode_pass": 3
+      },
+      {
+        "sector": 74,
+        "peak_fractional_power": 0.02421336540431659,
+        "applied": true,
+        "period_days": 1.4396833807057074,
+        "fractional_power": 0.02446483634007157,
+        "fit_points": 3146,
+        "original_scatter": 0.0011248945768243853,
+        "corrected_scatter": 0.001126715122633422,
+        "mode_pass": 3
+      },
+      {
+        "sector": 75,
+        "peak_fractional_power": 0.04514535062463189,
+        "applied": true,
+        "period_days": 1.283187603327522,
+        "fractional_power": 0.04608824602353411,
+        "fit_points": 3759,
+        "original_scatter": 0.0010526171043622643,
+        "corrected_scatter": 0.0010104128415498704,
+        "mode_pass": 3
+      },
+      {
+        "sector": 76,
+        "peak_fractional_power": 0.027257038210405326,
+        "applied": true,
+        "period_days": 0.3280229467205083,
+        "fractional_power": 0.027754779891262706,
+        "fit_points": 3683,
+        "original_scatter": 0.0009473859539932158,
+        "corrected_scatter": 0.0009378594302867047,
+        "mode_pass": 3
+      }
+    ]
+  },
+  "original_and_fresh_sectors_disjoint": true,
+  "original_and_fresh_processed_timestamps_disjoint": true
+}

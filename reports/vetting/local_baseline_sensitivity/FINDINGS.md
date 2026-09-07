@@ -1,5 +1,9 @@
 # Local baselines: 26-day signal persists, interpretation unresolved
 
+**Subsequent outcome:** the persistence described below applies to the originally
+examined data. Both fits [fail recurrence in 21 previously unused sectors](../fresh_sector_followup/FINDINGS.md)
+and are not retained as credible periodic planet leads.
+
 The unmodified 26.316459-day trial remains above nominal event-score thresholds
 of 7 in training and 5 in held sectors under all nine local-baseline choices.
 This check does not establish a planet, source identity or calibrated significance.

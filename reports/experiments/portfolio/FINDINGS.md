@@ -1,5 +1,10 @@
 # Larger candidate shortlist: comparison complete, adoption gates failed
 
+**Follow-up outcome:** both additional unmodified fits
+[fail recurrence in 21 previously unused sectors](../../vetting/fresh_sector_followup/FINDINGS.md).
+Retrospective injections remain measurable there. Neither trial is retained
+as a credible periodic planet lead; the original adoption gates stay failed.
+
 All 120 new development runs completed without errors, with 60 exact reference
 runs reused. Each method was assessed on 54 physical injections and six
 unmodified-star controls. The six initial runs passed the smoke condition for

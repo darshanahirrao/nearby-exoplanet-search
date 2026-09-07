@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-09-07T11:07:37.643984+00:00",
+  "checks": 213,
+  "failures": [],
+  "passed": true,
+  "published_plan_commit": "98a83917fa4f25cbb6cf4f5ad448b480952d35f9",
+  "plan_sha256": "68e06a240370aa40a69c4dc0662bbc7f2b495fd13224b184bdfa39489f4e596b",
+  "results_sha256": "f593357c9b79b2e1da7db29cb9fb5356f585c2ee064a81bc7eac5fdd0bab985d",
+  "auditor_sha256": "cc40f0a36685345441b5bb5a5a3651217e1a62a10035c22e43eabd3cfd6451b1",
+  "scope": "Provenance and arithmetic audit, including raw time separation. Not proof of an astrophysical interpretation or calibrated significance."
+}

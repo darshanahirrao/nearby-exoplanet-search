@@ -1,0 +1,35 @@
+{
+  "reviewed_utc": "2026-09-07T11:12:07.618579+00:00",
+  "trials": [
+    {
+      "tic": 233738219,
+      "method": "leave_one_out",
+      "period_days": 26.316459215610013,
+      "epoch_btjd": 1691.6273382310633,
+      "duration_days": 0.13943435639852114,
+      "original_result_path": "results/portfolio_development/leave_one_out__233738219_unmodified/result.json",
+      "original_result_sha256": "9d8047a55caeb40e86be8086fa952eb4bc9f8c0bbfcaaeb2c758460fe3379440",
+      "status": "rejected_as_credible_fixed_periodic_planet_trial",
+      "reason": "Fails the frozen recurrence screen in 21 previously unused sectors; selected box and physical-transit injection controls remain measurable in those data.",
+      "evidence": "reports/vetting/fresh_sector_followup/leave_one_out.json",
+      "evidence_sha256": "85afc9b69aa3c8cbfb85879bcd97a5fd8b50a688c734f463b544cdd3b17bf125"
+    },
+    {
+      "tic": 233738219,
+      "method": "local_total",
+      "period_days": 35.394150218068546,
+      "epoch_btjd": 1708.7196123763397,
+      "duration_days": 0.1504906030070948,
+      "original_result_path": "results/portfolio_development/local_total__233738219_unmodified/result.json",
+      "original_result_sha256": "6a45f8f6349a89272fb9987d52717d2ad695d5298989dc9a54b3e8054e1dd9d8",
+      "status": "rejected_as_credible_fixed_periodic_planet_trial",
+      "reason": "Fails the frozen recurrence screen in 21 previously unused sectors; selected box and physical-transit injection controls remain measurable in those data.",
+      "evidence": "reports/vetting/fresh_sector_followup/local_total.json",
+      "evidence_sha256": "dc84846849f07162e462ddc1dfbbb0e0d8d49d0345f83e71ed2f80d4fe7ac86a"
+    }
+  ],
+  "followup_results_sha256": "f593357c9b79b2e1da7db29cb9fb5356f585c2ee064a81bc7eac5fdd0bab985d",
+  "injection_diagnostic_sha256": "b4db6d6ec061c5a318533e705dda82ba51c7f1294349cb72728ef9e8eb5fb308",
+  "artifact_audit_sha256": "0166abad2a24786c0c2ac007146284dae957e0164f3818e88d7b3eb3cf7218bf",
+  "scope": "Disposition of two experimental unmodified fits only; preserves the frozen review queue and experiment accounting. No new planet, no unique artifact cause assigned, and no assertion that this star lacks other planets."
+}

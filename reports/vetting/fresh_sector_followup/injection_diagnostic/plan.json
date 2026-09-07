@@ -1,0 +1,50 @@
+{
+  "frozen_utc": "2026-09-07T11:04:15.915208+00:00",
+  "source_sha256": {
+    "scripts/check_fresh_followup_injections.py": "a744c52a153b77ae464d673213358b44972ff3214d36901269d3495952ca506e",
+    "scripts/realistic_injections.py": "bf8340f21927828e060cedde9a8c31da3a32c6f024f92acb0c5b2afc5cb4653f",
+    "reports/experiments/portfolio/unmodified_review_queue.json": "9fa9a92febd28efac5366816e14d3082f2ff70fa2681aebb861844dadd4deba5",
+    "reports/vetting/fresh_sector_followup/plan.json": "68e06a240370aa40a69c4dc0662bbc7f2b495fd13224b184bdfa39489f4e596b",
+    "reports/vetting/fresh_sector_followup/results.json": "f593357c9b79b2e1da7db29cb9fb5356f585c2ee064a81bc7eac5fdd0bab985d",
+    "reports/vetting/fresh_sector_followup/download_manifest.json": "1a99c2cd94f10522abf223d8f3a08d67af7c77df7c0f1d2daa006966021da023"
+  },
+  "original_sources_sha256": {
+    "followup_portfolio_trials.py": "9239cb133dd4827e7d035929763e99a29388528c9dca349b93a1212baaf59240",
+    "local_baseline.py": "6c1df0f57a666286f5f62dbb70809ffd0ba36d5f0aed2802d1382370dbb5f24e",
+    "search.py": "73eef744937f00915a353bfa3bda4753365c26b3661fb0b2be661adca6285b31",
+    "physics.py": "6045fcc37553fa01badfe7a3ff634188f7acaa3488848f2fd33003bf624ad774",
+    "variability.py": "ddec9fe378823fe9f2dd70e377d06652154311b9a14031ab84650e1f4ae25060",
+    "cycle_excluded.py": "5e6020090a07368147f7c22ecd46df8d6c50ed7efdf66366a78443cf6a3944bb",
+    "multimode_cycle_experiment.py": "a7b04afa531833d5874064ef989bbcdf831c5baed28877e00abeffb39376d2a0",
+    "repeated_events.py": "0da1a5611d3cb30a9b593c12a8057cd34494af0ae5389ac9ae844e8244b0f761",
+    "vet.py": "c4fdbc5e8de05dd112aebc18f985412a5f667a22fe83707cf7062c4d61539bef"
+  },
+  "cases": [
+    {
+      "method": "leave_one_out",
+      "period_days": 26.316459215610013,
+      "epoch_btjd": 1691.6273382310633,
+      "duration_days": 0.13943435639852114,
+      "depth": 0.0007513793338950823,
+      "radius_earth_estimate": 0.7902183995172894
+    },
+    {
+      "method": "local_total",
+      "period_days": 35.394150218068546,
+      "epoch_btjd": 1708.7196123763397,
+      "duration_days": 0.1504906030070948,
+      "depth": 0.0009452957989491737,
+      "radius_earth_estimate": 0.8863421007690196
+    }
+  ],
+  "models": [
+    "fitted_box",
+    "circular_limb_darkened"
+  ],
+  "impact_parameter": 0.0,
+  "limb_darkening": [
+    0.3,
+    0.2
+  ],
+  "scope": "Retrospective sensitivity diagnostic specified after the failed fresh-sector recurrence result. Inject the fitted box or a circular central transit of the originally estimated radius into fresh SPOC PDC before our processing. Keep the supplied period, epoch and fitted window for measurement. No period search, parameter tuning, or new discovery. Four selected model injections do not measure general completeness or upstream SPOC losses."
+}

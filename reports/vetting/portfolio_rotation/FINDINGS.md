@@ -1,5 +1,10 @@
 # TIC 233738219: rotation and individual-event review
 
+**Subsequent outcome:** both fits [fail the fixed-ephemeris check in 21 unused
+sectors](../fresh_sector_followup/FINDINGS.md) and are not retained as credible
+periodic planet leads. The initial rotation evidence below remains inconclusive
+on its own and does not identify the precise source of the old fluctuations.
+
 Neither unmodified trial is promoted to a planet candidate. The rotation check
 raises a specific contamination concern for the 26.316459-day fit but does not
 by itself establish that the residual is an alias. The 35.394150-day fit is also

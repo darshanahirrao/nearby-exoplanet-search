@@ -1,0 +1,178 @@
+{
+  "completed_utc": "2026-09-07T11:04:17.866324+00:00",
+  "plan_sha256": "be208fa3f7c0bf158bce5646d79cc34221787b0c6f930f110d570593242c2233",
+  "rows": [
+    {
+      "method": "leave_one_out",
+      "model": "fitted_box",
+      "supplied_fit": {
+        "method": "leave_one_out",
+        "period_days": 26.316459215610013,
+        "epoch_btjd": 1691.6273382310633,
+        "duration_days": 0.13943435639852114,
+        "depth": 0.0007513793338950823,
+        "radius_earth_estimate": 0.7902183995172894
+      },
+      "model_duration_days": 0.13943435639852114,
+      "points": 66897,
+      "original": {
+        "n_observed_events": 15,
+        "n_positive_events": 12,
+        "fixed_ephemeris_snr": 10.290623782284634,
+        "single_event_power_fraction": 0.14852173469994925,
+        "odd_even_sigma": 1.6726276261495767
+      },
+      "quadratic": {
+        "events": 14,
+        "positive_events": 11,
+        "depth": 0.0006434260417956043,
+        "error": 6.879360120753268e-05,
+        "nominal_snr": 9.352992582181484,
+        "rejected_for_coverage": 1,
+        "left_only": {
+          "events": 14,
+          "positive_events": 12,
+          "depth": 0.0006502868381910436,
+          "error": 6.298228635013772e-05,
+          "nominal_snr": 10.324916351494466
+        },
+        "right_only": {
+          "events": 14,
+          "positive_events": 12,
+          "depth": 0.0006197420938779349,
+          "error": 6.398611028793911e-05,
+          "nominal_snr": 9.685572245118196
+        }
+      }
+    },
+    {
+      "method": "leave_one_out",
+      "model": "circular_limb_darkened",
+      "supplied_fit": {
+        "method": "leave_one_out",
+        "period_days": 26.316459215610013,
+        "epoch_btjd": 1691.6273382310633,
+        "duration_days": 0.13943435639852114,
+        "depth": 0.0007513793338950823,
+        "radius_earth_estimate": 0.7902183995172894
+      },
+      "model_duration_days": 0.09230221809631761,
+      "points": 66895,
+      "original": {
+        "n_observed_events": 15,
+        "n_positive_events": 12,
+        "fixed_ephemeris_snr": 7.227355804940152,
+        "single_event_power_fraction": 0.16227267137172963,
+        "odd_even_sigma": 1.256997335632913
+      },
+      "quadratic": {
+        "events": 14,
+        "positive_events": 11,
+        "depth": 0.00046372297484120436,
+        "error": 6.8845098395589e-05,
+        "nominal_snr": 6.735744238124522,
+        "rejected_for_coverage": 1,
+        "left_only": {
+          "events": 14,
+          "positive_events": 12,
+          "depth": 0.00047148374751081255,
+          "error": 6.303870958064096e-05,
+          "nominal_snr": 7.479273459867968
+        },
+        "right_only": {
+          "events": 14,
+          "positive_events": 10,
+          "depth": 0.00045824031123599987,
+          "error": 6.405011396480133e-05,
+          "nominal_snr": 7.154402746072011
+        }
+      }
+    },
+    {
+      "method": "local_total",
+      "model": "fitted_box",
+      "supplied_fit": {
+        "method": "local_total",
+        "period_days": 35.394150218068546,
+        "epoch_btjd": 1708.7196123763397,
+        "duration_days": 0.1504906030070948,
+        "depth": 0.0009452957989491737,
+        "radius_earth_estimate": 0.8863421007690196
+      },
+      "model_duration_days": 0.1504906030070948,
+      "points": 66893,
+      "original": {
+        "n_observed_events": 13,
+        "n_positive_events": 13,
+        "fixed_ephemeris_snr": 12.717121724471234,
+        "single_event_power_fraction": 0.20621917411678295,
+        "odd_even_sigma": 0.9671043221070668
+      },
+      "quadratic": {
+        "events": 13,
+        "positive_events": 13,
+        "depth": 0.0005973433363664608,
+        "error": 6.798516169501754e-05,
+        "nominal_snr": 8.786378107713444,
+        "rejected_for_coverage": 0,
+        "left_only": {
+          "events": 13,
+          "positive_events": 12,
+          "depth": 0.0007626059955880923,
+          "error": 6.236325404272717e-05,
+          "nominal_snr": 12.228450989193174
+        },
+        "right_only": {
+          "events": 13,
+          "positive_events": 13,
+          "depth": 0.0007146868104980297,
+          "error": 6.236756249843816e-05,
+          "nominal_snr": 11.459271163851035
+        }
+      }
+    },
+    {
+      "method": "local_total",
+      "model": "circular_limb_darkened",
+      "supplied_fit": {
+        "method": "local_total",
+        "period_days": 35.394150218068546,
+        "epoch_btjd": 1708.7196123763397,
+        "duration_days": 0.1504906030070948,
+        "depth": 0.0009452957989491737,
+        "radius_earth_estimate": 0.8863421007690196
+      },
+      "model_duration_days": 0.10221575253658824,
+      "points": 66896,
+      "original": {
+        "n_observed_events": 13,
+        "n_positive_events": 12,
+        "fixed_ephemeris_snr": 8.449258972622324,
+        "single_event_power_fraction": 0.249255665970074,
+        "odd_even_sigma": 0.8846619633036723
+      },
+      "quadratic": {
+        "events": 13,
+        "positive_events": 13,
+        "depth": 0.0003476072210821784,
+        "error": 6.791668921255268e-05,
+        "nominal_snr": 5.1181414334598045,
+        "rejected_for_coverage": 0,
+        "left_only": {
+          "events": 13,
+          "positive_events": 11,
+          "depth": 0.000518998222007475,
+          "error": 6.230126657315209e-05,
+          "nominal_snr": 8.330460206584796
+        },
+        "right_only": {
+          "events": 13,
+          "positive_events": 11,
+          "depth": 0.0004601394026698631,
+          "error": 6.230552364078192e-05,
+          "nominal_snr": 7.385210424083171
+        }
+      }
+    }
+  ]
+}
