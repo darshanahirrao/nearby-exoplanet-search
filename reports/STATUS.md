@@ -3,13 +3,14 @@
 **Initial campaign complete. No surviving planet candidate, new planet or
 demonstrated methodological breakthrough.**
 
-Latest result: the [20-star expanded-coverage pilot](coverage_pilot/FINDINGS.md)
-has completed with 750 usable sector products and 39 retained trial fits.
-All 39 fail the held-sector recurrence screen; none passes all screening checks.
-The input, frozen-parameter and arithmetic audit passes 3,561 checks with zero
-failures. These are previously searched stars, so the distinct-star count remains
-1,031. A [continuation covering the remaining 45 inventory stars](coverage_continuation/FINDINGS.md)
-has a separate plan frozen before downloading 887 additional sector products.
+Latest result: the [45-star coverage continuation](coverage_continuation/FINDINGS.md)
+completed with 1,697 usable sector products and 90 retained trial fits. Its one
+initially unflagged fit was [reviewed and not promoted](vetting/coverage_142086813/FINDINGS.md).
+The batch audit passes 8,059 checks; the review audit passes 883, both with zero
+failures. With the earlier 20-star pilot, all 65 inventory stars have now been
+reanalysed using 2,447 sector products, producing 129 retained fits and no
+promoted credible planet lead. The distinct-star count remains 1,031.
+Further research is stopped at the user's budget boundary.
 
 The two additional TIC 233738219 trial fits
 [fail a frozen recurrence check in 21 previously unused sectors](vetting/fresh_sector_followup/FINDINGS.md).

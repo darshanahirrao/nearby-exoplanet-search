@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-09-07T12:48:37.549511+00:00",
+  "tic": 142086813,
+  "signal_index": 2,
+  "period_days": 64.8279185569066,
+  "status": "not_promoted_as_credible_planet_lead",
+  "original_screening_flags": [],
+  "diagnostic_sha256": "c586c5597eb245e31bf408836729a8479111c9b25db35f8ec8622e2c9b590b05",
+  "reasons": [
+    "Held-sector score falls from 5.5238 to 1.7590 without cycle 14.",
+    "All three quadratic-baseline held-sector scores are below the original nominal cutoff: 3.5055, 4.1337, 4.3006.",
+    "Strong training windows include broad trends, incomplete two-sided coverage and a gap.",
+    "SAP shows negative fixed-timing scores; dilution-adjusted synthetic controls are measurable."
+  ],
+  "limitations": "Exploratory vetting, not a calibrated false-positive probability or unique identification of the artifact mechanism. Physical SAP injection after filtering scores 4.8969 under the original measurement, slightly below five, and 5.2872 with the quadratic baseline. Header dilution is estimated. This does not rule out other planets."
+}

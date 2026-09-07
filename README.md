@@ -9,9 +9,10 @@ candidate or new discovery.** A habitable-zone orbit
 does not establish habitability. See [research status](reports/STATUS.md),
 [methods and limitations](docs/METHODS.md), and [data sources](docs/DATA_SOURCES.md).
 
-The latest [expanded-coverage pass](reports/coverage_pilot/FINDINGS.md) reanalysed
-20 of these stars using 750 sector products. All 39 retained trial fits failed
-the held-sector recurrence screen; the artifact audit passed with zero failures.
+The completed [expanded-coverage passes](reports/coverage_continuation/FINDINGS.md)
+reanalysed 65 of these stars using 2,447 sector products. Of 129 retained fits,
+one passed the original screens; follow-up did not support promotion to a
+credible planet lead. All recorded batch and review audits passed.
 
 ## Reproduce the analysis
 

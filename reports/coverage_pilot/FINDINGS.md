@@ -44,5 +44,5 @@ and outputs.
 These checks establish artifact consistency, not astrophysical validation or
 calibrated false-alarm probabilities. This exploratory reanalysis does not
 measure survey completeness or rule out planets around these stars. The
-distinct-star count remains **1,031**. The other 45 stars in the planning
-inventory have not started this expanded-coverage analysis.
+distinct-star count remains **1,031**. The other 45 stars subsequently
+[completed the coverage continuation](../coverage_continuation/FINDINGS.md).

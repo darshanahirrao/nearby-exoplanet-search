@@ -1,0 +1,15 @@
+{
+  "checked_utc": "2026-09-07T12:45:59.918068+00:00",
+  "checks": 883,
+  "failures": [],
+  "passed": true,
+  "artifact_sha256": {
+    "diagnostics.json": "c586c5597eb245e31bf408836729a8479111c9b25db35f8ec8622e2c9b590b05",
+    "summary.json": "a40ff245463a819442b2f903d2112c9a6946bb4dd86e82e98d307c9041756cae",
+    "sap_injection_diagnostic.json": "d9f3c5d28f0e1ccda4046f1d2f6300709cf386efc72f276655440fa517242a5f",
+    "folds.png": "c1f7727784a8121857e9fa3bf2ccd69c2bdb87341c6db353de1c7294ce253247",
+    "events.png": "5e471fff707eab9d2a2e571ae12d33b63f2522a5efe7577a15074e0ee73a77ba"
+  },
+  "auditor_sha256": "51dc7e28ad552580516a1e5b513beebcaf6fab51bdf652cb646d828c13d4bf70",
+  "scope": "Provenance, original second-fit mask replay, per-sector dilution and nominal arithmetic checks. Not independent astrophysical validation or a false-alarm probability."
+}
