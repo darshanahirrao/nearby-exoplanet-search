@@ -95,34 +95,20 @@ period grid and scientific checks. Three real-input comparisons, including the
 TOI-700 control, produced identical scientific outputs and a measured aggregate
 speed ratio of 1.79. Use `python scripts/progress.py` for a compact live status.
 
-We also test original project hypotheses against existing methods. The first
-[cross-view experiment and ablation](reports/experiments/cross_view/FINDINGS.md)
-did not establish a sufficient advantage over ordinary spatial template fitting.
-The [uncertainty variant](reports/experiments/cross_view_uncertainty/FINDINGS.md)
-accepted more displaced-source signals, and
-[response-constrained pixel extraction](reports/experiments/protected_pixels/FINDINGS.md)
-increased short-timescale noise in all eight tested sectors. These negative
-results are preserved. None of these prototypes replaced the search, and no
-methodological novelty or breakthrough is established.
+We test project hypotheses against established methods and preserve failed
+experiments. The [experiment index](reports/experiments/INDEX.md) records each
+comparison, its evidence and its decision. None has established methodological
+novelty or a breakthrough. The original production results remain unchanged.
 
-Two subsequent [noise-capped](reports/experiments/relative_pixels/FINDINGS.md) and
-[transit-timescale](reports/experiments/multiscale_pixels/FINDINGS.md) extraction
-revisions reduced rapid scatter in all eight development sectors, but missed
-their predeclared transit-timescale improvement gate. They remain experimental.
-
-The [cycle-excluded variability trial](reports/experiments/cycle_excluded/FINDINGS.md)
-then gained one strict recovery in 27 paired faint-signal injections, with no lost
-comparison recoveries. That also missed its predeclared gain threshold and has
-not replaced the production method.
-
-Two [source-specific](reports/experiments/periodic_source/FINDINGS.md)
-[pixel-filter tests](reports/experiments/protected_reference/FINDINGS.md) also
-missed their improvement gates. Current work follows a measured
-[search bottleneck](reports/experiments/search_bottleneck/FINDINGS.md): broad,
+Current work follows a measured [search bottleneck](reports/experiments/search_bottleneck/FINDINGS.md):
 implausible seed fits can displace detectable injected transits before vetting.
 The first [duration-prior benchmark](reports/experiments/physical_duration/FINDINGS.md)
-completed 150 paired runs but failed its improvement gate; its prepared
-new-star assessment remains unexecuted.
+failed its improvement gate. [Earlier training qualification](reports/experiments/qualified_seeds/FINDINGS.md)
+then retained 22/45 strict injected recoveries versus 19 for the original search,
+with no lost original recovery, but missed its stronger incremental-component
+gate. A separately frozen comparison on six other stars is now testing whether
+either complete revision generalizes to physical transit shapes. Neither is adopted.
+Use `python scripts/progress.py --experiments-only` for compact experiment status.
 
 ## Repository map
 

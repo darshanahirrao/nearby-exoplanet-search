@@ -59,7 +59,7 @@ The faint, variable control TIC 232970271 yielded no recovered injections in the
 first two suites. Periodic filtering improves this limited sensitivity check;
 non-detections still cannot exclude small planets.
 
-Twenty-three offline numerical checks pass, including a test that changing final-holdout
+Twenty-four offline numerical checks pass, including a test that changing final-holdout
 flux leaves the fitted ephemeris unchanged while reversing the measured holdout
 signal. Local execution, code, data-product references and failure records are
 retained for independent inspection.
@@ -179,6 +179,17 @@ and losing one of its strict recoveries. It failed the development gate. Its
 [prepared six-star physical-transit assessment](experiments/realistic_duration/FINDINGS.md)
 remains unexecuted. The two selected diagnostic cases did not establish a
 population-level gain.
+
+An [early-training-qualification ablation](experiments/qualified_seeds/FINDINGS.md)
+completed another 100 runs and reused 100 exact reference runs. The complete
+revision retained 22/45 strict injected recoveries, compared with 19 for the
+original, 20 for stronger harmonic cleaning, and 21 for its simpler revision.
+It lost none of those comparisons' strict recoveries and added no unflagged
+unmodified-star fit, but failed its incremental gain-of-two gate. Neither
+revision is adopted. A [separately frozen confirmation experiment](../docs/EXPERIMENT_PIPELINE_CONFIRMATION.md)
+now compares all four complete pipelines on six other stars and realistic
+transit shapes. Its 240 runs address generalization; the earlier gate remains
+failed and the earlier 180-run assessment remains unexecuted.
 
 The initial data campaign is complete; method development continues as separate,
 bounded experiments. A non-detection does not establish that these systems lack

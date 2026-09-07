@@ -9,6 +9,50 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def experiment_snapshot():
+    rows = []
+    for path in sorted((ROOT / "reports/experiments").glob("*/plan.json")):
+        try:
+            plan = json.loads(path.read_text())
+            if not isinstance(plan.get("cases"), list):
+                continue
+            result_path = path.with_name("results.json")
+            progress_path = path.with_name("progress.json")
+            row = dict(
+                experiment=path.parent.name,
+                planned_new_runs=len(plan["cases"]),
+                frozen_utc=plan.get("frozen_utc"),
+            )
+            if result_path.exists():
+                result = json.loads(result_path.read_text())
+                row.update(
+                    state="completed",
+                    completed_new_runs=result.get("new_runs", len(result.get("rows", []))),
+                    reused_runs=result.get("reused_runs", 0),
+                    gate_passed=result.get(
+                        "development_gate_passed", result.get("assessment_gate_passed")
+                    ),
+                    errors=len(result.get("errors", [])),
+                    counts=result.get("counts"),
+                )
+            elif progress_path.exists():
+                progress = json.loads(progress_path.read_text())
+                row.update(
+                    state="partial_outputs",
+                    completed_new_runs=progress.get("completed"),
+                    errors=sum(r.get("status") != "finished" for r in progress.get("rows", [])),
+                )
+            else:
+                row.update(state="prepared_without_run_outputs", completed_new_runs=0)
+            rows.append(row)
+        except (OSError, json.JSONDecodeError):
+            rows.append(dict(experiment=path.parent.name, state="snapshot_unreadable_retry"))
+    return dict(
+        experiments=rows,
+        note="Output state only; partial files do not prove a process is still running. Synthetic recoveries are not discoveries.",
+    )
+
+
 def snapshot(limit=12):
     ledger = ROOT / "reports/vetting/unflagged_review.json"
     reviewed = (
@@ -84,10 +128,15 @@ def snapshot(limit=12):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=12)
+    parser.add_argument("--experiments-only", action="store_true")
     args = parser.parse_args()
     if not 1 <= args.limit <= 100:
         parser.error("limit must be between 1 and 100")
-    print(json.dumps(snapshot(args.limit), indent=2))
+    print(
+        json.dumps(
+            experiment_snapshot() if args.experiments_only else snapshot(args.limit), indent=2
+        )
+    )
 
 
 if __name__ == "__main__":
