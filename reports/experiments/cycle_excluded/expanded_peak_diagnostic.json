@@ -1,0 +1,37 @@
+{
+  "scope": "Post-result diagnostic on two selected missed injections. Increased the existing retained-fit budget from two to eight; no novel method or discovery.",
+  "rows": [
+    {
+      "case": "352617553_orbit0_radius0.6",
+      "maximum_retained_fits": 8,
+      "matches": [],
+      "elapsed_seconds": 23.444725083885714,
+      "trial_periods": [
+        29.367551847909066,
+        6.592062433941083,
+        5.00403854449578,
+        6.253015005780292,
+        6.596048337231847,
+        5.343549051331088,
+        6.597566217947623,
+        5.798325586797036
+      ]
+    },
+    {
+      "case": "352617553_orbit1_radius0.8",
+      "maximum_retained_fits": 8,
+      "matches": [],
+      "elapsed_seconds": 23.54408199992031,
+      "trial_periods": [
+        29.367551847909066,
+        6.592064436300587,
+        5.00403854449578,
+        6.253015005780292,
+        5.343549051331088,
+        11.031533792364694,
+        6.597554193796377,
+        5.117685260851796
+      ]
+    }
+  ]
+}

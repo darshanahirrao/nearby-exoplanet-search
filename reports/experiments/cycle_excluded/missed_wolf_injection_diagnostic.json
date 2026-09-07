@@ -1,0 +1,95 @@
+{
+  "scope": "Post-result forced evaluation at known synthetic ephemerides, not blind recovery.",
+  "rows": [
+    {
+      "case": "352617553_orbit0_radius0.6",
+      "blind_recovered": false,
+      "blind_strict": false,
+      "training": {
+        "n_observed_events": 11,
+        "n_positive_events": 10,
+        "fixed_ephemeris_snr": 10.09189004383981
+      },
+      "holdout": {
+        "n_observed_events": 4,
+        "n_positive_events": 4,
+        "fixed_ephemeris_snr": 5.214432918490738
+      }
+    },
+    {
+      "case": "352617553_orbit1_radius0.6",
+      "blind_recovered": false,
+      "blind_strict": false,
+      "training": {
+        "n_observed_events": 10,
+        "n_positive_events": 8,
+        "fixed_ephemeris_snr": 5.181476081300714
+      },
+      "holdout": {
+        "n_observed_events": 4,
+        "n_positive_events": 4,
+        "fixed_ephemeris_snr": 6.272162662903315
+      }
+    },
+    {
+      "case": "352617553_orbit1_radius0.8",
+      "blind_recovered": false,
+      "blind_strict": false,
+      "training": {
+        "n_observed_events": 10,
+        "n_positive_events": 10,
+        "fixed_ephemeris_snr": 11.644721278991726
+      },
+      "holdout": {
+        "n_observed_events": 4,
+        "n_positive_events": 4,
+        "fixed_ephemeris_snr": 10.219144852014212
+      }
+    },
+    {
+      "case": "352617553_orbit2_radius0.6",
+      "blind_recovered": false,
+      "blind_strict": false,
+      "training": {
+        "n_observed_events": 7,
+        "n_positive_events": 5,
+        "fixed_ephemeris_snr": 5.370864240369196
+      },
+      "holdout": {
+        "n_observed_events": 1,
+        "n_positive_events": 1,
+        "fixed_ephemeris_snr": 3.251094731444535
+      }
+    },
+    {
+      "case": "352617553_orbit2_radius0.8",
+      "blind_recovered": false,
+      "blind_strict": false,
+      "training": {
+        "n_observed_events": 7,
+        "n_positive_events": 7,
+        "fixed_ephemeris_snr": 11.649284933204614
+      },
+      "holdout": {
+        "n_observed_events": 1,
+        "n_positive_events": 1,
+        "fixed_ephemeris_snr": 5.697498176692055
+      }
+    },
+    {
+      "case": "352617553_orbit2_radius1",
+      "blind_recovered": true,
+      "blind_strict": false,
+      "training": {
+        "n_observed_events": 7,
+        "n_positive_events": 7,
+        "fixed_ephemeris_snr": 19.55040733639495
+      },
+      "holdout": {
+        "n_observed_events": 1,
+        "n_positive_events": 1,
+        "fixed_ephemeris_snr": 8.819703279176748
+      }
+    }
+  ]
+}

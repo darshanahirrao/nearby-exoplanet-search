@@ -59,7 +59,7 @@ The faint, variable control TIC 232970271 yielded no recovered injections in the
 first two suites. Periodic filtering improves this limited sensitivity check;
 non-detections still cannot exclude small planets.
 
-Fourteen offline numerical checks pass, including a test that changing final-holdout
+Fifteen offline numerical checks pass, including a test that changing final-holdout
 flux leaves the fitted ephemeris unchanged while reversing the measured holdout
 signal. Local execution, code, data-product references and failure records are
 retained for independent inspection.
@@ -141,6 +141,18 @@ rapid scatter in every development sector. The latter limited the worst reserved
 two-hour scatter increase to 4.4%, but its median improvement remained below the
 predeclared 10% gate. Both failed their full development gates and remain unused
 by the production search. These small noise experiments are not planet recoveries.
+
+An additional [cycle-excluded variability experiment](experiments/cycle_excluded/FINDINGS.md)
+completed 90 paired runs. Its median-template filter recovered six of 27 faint
+synthetic cases under strict checks, versus five for each harmonic comparison,
+with no lost comparison recoveries. It nevertheless missed the predeclared gate
+of two additional recoveries. All three methods produced one unflagged fit on
+the three unmodified-star diagnostics. This is a development result, not a new
+planet, calibrated false-alarm rate or sufficient basis for adoption.
+
+A fresh [three-pass comparison](../docs/EXPERIMENT_MULTIMODE_CYCLES.md) is running
+with the same mode budget for each filter. Its outcomes are pending; the completed
+campaign and the earlier experiment results remain unchanged.
 
 The initial data campaign is complete; method development continues as separate,
 bounded experiments. A non-detection does not establish that these systems lack

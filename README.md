@@ -110,6 +110,11 @@ Two subsequent [noise-capped](reports/experiments/relative_pixels/FINDINGS.md) a
 revisions reduced rapid scatter in all eight development sectors, but missed
 their predeclared transit-timescale improvement gate. They remain experimental.
 
+The [cycle-excluded variability trial](reports/experiments/cycle_excluded/FINDINGS.md)
+then gained one strict recovery in 27 paired faint-signal injections, with no lost
+comparison recoveries. That also missed its predeclared gain threshold and has
+not replaced the production method.
+
 ## Repository map
 
 | Path | Purpose |

@@ -1,0 +1,638 @@
+{
+  "scope": "Post-result evaluation at the known synthetic ephemeris. This is a sensitivity diagnosis, not blind recovery or fresh validation.",
+  "rows": [
+    {
+      "tic": 232970271,
+      "case": "232970271_orbit0_radius1",
+      "method": "production",
+      "period_days": 8.624204086388783,
+      "depth": 0.0071899407827503425,
+      "training": {
+        "n_observed_events": 15,
+        "n_positive_events": 14,
+        "fixed_ephemeris_snr": 10.177747639744936
+      },
+      "holdout": {
+        "n_observed_events": 8,
+        "n_positive_events": 8,
+        "fixed_ephemeris_snr": 9.281240058481696
+      },
+      "periodic_models": [
+        {
+          "sector": 14,
+          "applied": true,
+          "period_days": 0.5103805657719329,
+          "original_scatter": 0.007610001158149392,
+          "corrected_scatter": 0.004876212335353219
+        },
+        {
+          "sector": 15,
+          "applied": true,
+          "period_days": 0.5105306070473332,
+          "original_scatter": 0.00736149238201065,
+          "corrected_scatter": 0.0044598217222142494
+        },
+        {
+          "sector": 21,
+          "applied": true,
+          "period_days": 0.5105710971831627,
+          "original_scatter": 0.006767884442152846,
+          "corrected_scatter": 0.004286291962148768
+        },
+        {
+          "sector": 22,
+          "applied": true,
+          "period_days": 0.5105486330370291,
+          "original_scatter": 0.006789993896292623,
+          "corrected_scatter": 0.004494586023272612
+        },
+        {
+          "sector": 41,
+          "applied": true,
+          "period_days": 0.5103635541558726,
+          "original_scatter": 0.00586437911416274,
+          "corrected_scatter": 0.004367327254480934
+        },
+        {
+          "sector": 48,
+          "applied": true,
+          "period_days": 0.5109060558735301,
+          "original_scatter": 0.005211458259905231,
+          "corrected_scatter": 0.004097298342066778
+        },
+        {
+          "sector": 49,
+          "applied": true,
+          "period_days": 0.5101353803576193,
+          "original_scatter": 0.00609704125667697,
+          "corrected_scatter": 0.00476185418911771
+        },
+        {
+          "sector": 75,
+          "applied": true,
+          "period_days": 0.5107546158311908,
+          "original_scatter": 0.008369858852587429,
+          "corrected_scatter": 0.00486663207866089
+        },
+        {
+          "sector": 76,
+          "applied": true,
+          "period_days": 0.5107139739611766,
+          "original_scatter": 0.009236052121446944,
+          "corrected_scatter": 0.005823199462632117
+        }
+      ]
+    },
+    {
+      "tic": 232970271,
+      "case": "232970271_orbit0_radius1",
+      "method": "weak_harmonic",
+      "period_days": 8.624204086388783,
+      "depth": 0.0071899407827503425,
+      "training": {
+        "n_observed_events": 15,
+        "n_positive_events": 14,
+        "fixed_ephemeris_snr": 10.177747639744936
+      },
+      "holdout": {
+        "n_observed_events": 8,
+        "n_positive_events": 8,
+        "fixed_ephemeris_snr": 9.281240058481696
+      },
+      "periodic_models": [
+        {
+          "sector": 14,
+          "applied": true,
+          "period_days": 0.5103805657719329,
+          "original_scatter": 0.007610001158149392,
+          "corrected_scatter": 0.004876212335353219
+        },
+        {
+          "sector": 15,
+          "applied": true,
+          "period_days": 0.5105306070473332,
+          "original_scatter": 0.00736149238201065,
+          "corrected_scatter": 0.0044598217222142494
+        },
+        {
+          "sector": 21,
+          "applied": true,
+          "period_days": 0.5105710971831627,
+          "original_scatter": 0.006767884442152846,
+          "corrected_scatter": 0.004286291962148768
+        },
+        {
+          "sector": 22,
+          "applied": true,
+          "period_days": 0.5105486330370291,
+          "original_scatter": 0.006789993896292623,
+          "corrected_scatter": 0.004494586023272612
+        },
+        {
+          "sector": 41,
+          "applied": true,
+          "period_days": 0.5103635541558726,
+          "original_scatter": 0.00586437911416274,
+          "corrected_scatter": 0.004367327254480934
+        },
+        {
+          "sector": 48,
+          "applied": true,
+          "period_days": 0.5109060558735301,
+          "original_scatter": 0.005211458259905231,
+          "corrected_scatter": 0.004097298342066778
+        },
+        {
+          "sector": 49,
+          "applied": true,
+          "period_days": 0.5101353803576193,
+          "original_scatter": 0.00609704125667697,
+          "corrected_scatter": 0.00476185418911771
+        },
+        {
+          "sector": 75,
+          "applied": true,
+          "period_days": 0.5107546158311908,
+          "original_scatter": 0.008369858852587429,
+          "corrected_scatter": 0.00486663207866089
+        },
+        {
+          "sector": 76,
+          "applied": true,
+          "period_days": 0.5107139739611766,
+          "original_scatter": 0.009236052121446944,
+          "corrected_scatter": 0.005823199462632117
+        }
+      ]
+    },
+    {
+      "tic": 232970271,
+      "case": "232970271_orbit0_radius1",
+      "method": "cycle_excluded",
+      "period_days": 8.624204086388783,
+      "depth": 0.0071899407827503425,
+      "training": {
+        "n_observed_events": 15,
+        "n_positive_events": 14,
+        "fixed_ephemeris_snr": 10.303749090311396
+      },
+      "holdout": {
+        "n_observed_events": 8,
+        "n_positive_events": 8,
+        "fixed_ephemeris_snr": 9.412143311099971
+      },
+      "periodic_models": [
+        {
+          "sector": 14,
+          "applied": true,
+          "period_days": 0.5103805657719329,
+          "original_scatter": 0.007610001158149392,
+          "corrected_scatter": 0.004975581025279411
+        },
+        {
+          "sector": 15,
+          "applied": true,
+          "period_days": 0.5105306070473332,
+          "original_scatter": 0.00736149238201065,
+          "corrected_scatter": 0.0045894382283372
+        },
+        {
+          "sector": 21,
+          "applied": true,
+          "period_days": 0.5105710971831627,
+          "original_scatter": 0.006767884442152846,
+          "corrected_scatter": 0.004379685058580919
+        },
+        {
+          "sector": 22,
+          "applied": true,
+          "period_days": 0.5105486330370291,
+          "original_scatter": 0.006789993896292623,
+          "corrected_scatter": 0.004590803482110797
+        },
+        {
+          "sector": 41,
+          "applied": true,
+          "period_days": 0.5103635541558726,
+          "original_scatter": 0.00586437911416274,
+          "corrected_scatter": 0.004436832424989595
+        },
+        {
+          "sector": 48,
+          "applied": true,
+          "period_days": 0.5109060558735301,
+          "original_scatter": 0.005211458259905231,
+          "corrected_scatter": 0.0042405811850860075
+        },
+        {
+          "sector": 49,
+          "applied": true,
+          "period_days": 0.5101353803576193,
+          "original_scatter": 0.00609704125667697,
+          "corrected_scatter": 0.004781308703944386
+        },
+        {
+          "sector": 75,
+          "applied": true,
+          "period_days": 0.5107546158311908,
+          "original_scatter": 0.008369858852587429,
+          "corrected_scatter": 0.004935261462255376
+        },
+        {
+          "sector": 76,
+          "applied": true,
+          "period_days": 0.5107139739611766,
+          "original_scatter": 0.009236052121446944,
+          "corrected_scatter": 0.005965445430712027
+        }
+      ]
+    },
+    {
+      "tic": 352617553,
+      "case": "352617553_orbit0_radius1",
+      "method": "production",
+      "period_days": 13.381991210740766,
+      "depth": 0.003080384546923783,
+      "training": {
+        "n_observed_events": 11,
+        "n_positive_events": 11,
+        "fixed_ephemeris_snr": 26.405070976541243
+      },
+      "holdout": {
+        "n_observed_events": 4,
+        "n_positive_events": 4,
+        "fixed_ephemeris_snr": 15.756590841325652
+      },
+      "periodic_models": [
+        {
+          "sector": 15,
+          "applied": true,
+          "period_days": 0.11069157774029631,
+          "original_scatter": 0.0012182791077599143,
+          "corrected_scatter": 0.00109879814034146
+        },
+        {
+          "sector": 16,
+          "applied": true,
+          "period_days": 0.11067706766198883,
+          "original_scatter": 0.0011575120353924011,
+          "corrected_scatter": 0.001095259966634461
+        },
+        {
+          "sector": 17,
+          "applied": true,
+          "period_days": 0.11065954977613822,
+          "original_scatter": 0.0012102627435196956,
+          "corrected_scatter": 0.0010880422776858197
+        },
+        {
+          "sector": 41,
+          "applied": true,
+          "period_days": 0.1106690326437042,
+          "original_scatter": 0.0018132896569332756,
+          "corrected_scatter": 0.0016083858826248655
+        },
+        {
+          "sector": 55,
+          "applied": true,
+          "period_days": 0.11067009858556347,
+          "original_scatter": 0.0020425523346174266,
+          "corrected_scatter": 0.0016427536179533559
+        },
+        {
+          "sector": 56,
+          "applied": true,
+          "period_days": 0.1106826401007625,
+          "original_scatter": 0.001717743758449785,
+          "corrected_scatter": 0.001400726220505039
+        },
+        {
+          "sector": 57,
+          "applied": true,
+          "period_days": 0.11066666065919885,
+          "original_scatter": 0.0019374408688763718,
+          "corrected_scatter": 0.0015280135306682784
+        }
+      ]
+    },
+    {
+      "tic": 352617553,
+      "case": "352617553_orbit0_radius1",
+      "method": "weak_harmonic",
+      "period_days": 13.381991210740766,
+      "depth": 0.003080384546923783,
+      "training": {
+        "n_observed_events": 11,
+        "n_positive_events": 11,
+        "fixed_ephemeris_snr": 26.405070976541243
+      },
+      "holdout": {
+        "n_observed_events": 4,
+        "n_positive_events": 4,
+        "fixed_ephemeris_snr": 15.756590841325652
+      },
+      "periodic_models": [
+        {
+          "sector": 15,
+          "applied": true,
+          "period_days": 0.11069157774029631,
+          "original_scatter": 0.0012182791077599143,
+          "corrected_scatter": 0.00109879814034146
+        },
+        {
+          "sector": 16,
+          "applied": true,
+          "period_days": 0.11067706766198883,
+          "original_scatter": 0.0011575120353924011,
+          "corrected_scatter": 0.001095259966634461
+        },
+        {
+          "sector": 17,
+          "applied": true,
+          "period_days": 0.11065954977613822,
+          "original_scatter": 0.0012102627435196956,
+          "corrected_scatter": 0.0010880422776858197
+        },
+        {
+          "sector": 41,
+          "applied": true,
+          "period_days": 0.1106690326437042,
+          "original_scatter": 0.0018132896569332756,
+          "corrected_scatter": 0.0016083858826248655
+        },
+        {
+          "sector": 55,
+          "applied": true,
+          "period_days": 0.11067009858556347,
+          "original_scatter": 0.0020425523346174266,
+          "corrected_scatter": 0.0016427536179533559
+        },
+        {
+          "sector": 56,
+          "applied": true,
+          "period_days": 0.1106826401007625,
+          "original_scatter": 0.001717743758449785,
+          "corrected_scatter": 0.001400726220505039
+        },
+        {
+          "sector": 57,
+          "applied": true,
+          "period_days": 0.11066666065919885,
+          "original_scatter": 0.0019374408688763718,
+          "corrected_scatter": 0.0015280135306682784
+        }
+      ]
+    },
+    {
+      "tic": 352617553,
+      "case": "352617553_orbit0_radius1",
+      "method": "cycle_excluded",
+      "period_days": 13.381991210740766,
+      "depth": 0.003080384546923783,
+      "training": {
+        "n_observed_events": 11,
+        "n_positive_events": 11,
+        "fixed_ephemeris_snr": 26.3004810542397
+      },
+      "holdout": {
+        "n_observed_events": 4,
+        "n_positive_events": 4,
+        "fixed_ephemeris_snr": 15.528481184613124
+      },
+      "periodic_models": [
+        {
+          "sector": 15,
+          "applied": true,
+          "period_days": 0.11069157774029631,
+          "original_scatter": 0.0012182791077599143,
+          "corrected_scatter": 0.0011269171685441928
+        },
+        {
+          "sector": 16,
+          "applied": true,
+          "period_days": 0.11067706766198883,
+          "original_scatter": 0.0011575120353924011,
+          "corrected_scatter": 0.0010916011921375435
+        },
+        {
+          "sector": 17,
+          "applied": true,
+          "period_days": 0.11065954977613822,
+          "original_scatter": 0.0012102627435196956,
+          "corrected_scatter": 0.0011227131916722462
+        },
+        {
+          "sector": 41,
+          "applied": true,
+          "period_days": 0.1106690326437042,
+          "original_scatter": 0.0018132896569332756,
+          "corrected_scatter": 0.0016365956083991783
+        },
+        {
+          "sector": 55,
+          "applied": true,
+          "period_days": 0.11067009858556347,
+          "original_scatter": 0.0020425523346174266,
+          "corrected_scatter": 0.0016672359827193464
+        },
+        {
+          "sector": 56,
+          "applied": true,
+          "period_days": 0.1106826401007625,
+          "original_scatter": 0.001717743758449785,
+          "corrected_scatter": 0.001436165832698555
+        },
+        {
+          "sector": 57,
+          "applied": true,
+          "period_days": 0.11066666065919885,
+          "original_scatter": 0.0019374408688763718,
+          "corrected_scatter": 0.0015449926085914483
+        }
+      ]
+    },
+    {
+      "tic": 378527773,
+      "case": "378527773_orbit0_radius1",
+      "method": "production",
+      "period_days": 11.14091145991851,
+      "depth": 0.00323534853169245,
+      "training": {
+        "n_observed_events": 9,
+        "n_positive_events": 7,
+        "fixed_ephemeris_snr": 2.352061962351555
+      },
+      "holdout": {
+        "n_observed_events": 4,
+        "n_positive_events": 2,
+        "fixed_ephemeris_snr": 0.7070684771408895
+      },
+      "periodic_models": [
+        {
+          "sector": 17,
+          "applied": false,
+          "period_days": null,
+          "original_scatter": null,
+          "corrected_scatter": null
+        },
+        {
+          "sector": 18,
+          "applied": false,
+          "period_days": null,
+          "original_scatter": null,
+          "corrected_scatter": null
+        },
+        {
+          "sector": 24,
+          "applied": false,
+          "period_days": null,
+          "original_scatter": null,
+          "corrected_scatter": null
+        },
+        {
+          "sector": 25,
+          "applied": false,
+          "period_days": null,
+          "original_scatter": null,
+          "corrected_scatter": null
+        },
+        {
+          "sector": 52,
+          "applied": true,
+          "period_days": 0.39556261999379894,
+          "original_scatter": 0.008849776233499944,
+          "corrected_scatter": 0.007910125843347481
+        },
+        {
+          "sector": 58,
+          "applied": true,
+          "period_days": 0.39508250629375485,
+          "original_scatter": 0.008608872110589754,
+          "corrected_scatter": 0.007788601112204839
+        }
+      ]
+    },
+    {
+      "tic": 378527773,
+      "case": "378527773_orbit0_radius1",
+      "method": "weak_harmonic",
+      "period_days": 11.14091145991851,
+      "depth": 0.00323534853169245,
+      "training": {
+        "n_observed_events": 9,
+        "n_positive_events": 7,
+        "fixed_ephemeris_snr": 1.6487859569486358
+      },
+      "holdout": {
+        "n_observed_events": 4,
+        "n_positive_events": 2,
+        "fixed_ephemeris_snr": 0.9281384385755829
+      },
+      "periodic_models": [
+        {
+          "sector": 17,
+          "applied": true,
+          "period_days": 0.3953148371133245,
+          "original_scatter": 0.008148829521272934,
+          "corrected_scatter": 0.007682213117154855
+        },
+        {
+          "sector": 18,
+          "applied": true,
+          "period_days": 0.3778388352354907,
+          "original_scatter": 0.007646872983214286,
+          "corrected_scatter": 0.007283339355932104
+        },
+        {
+          "sector": 24,
+          "applied": false,
+          "period_days": null,
+          "original_scatter": null,
+          "corrected_scatter": null
+        },
+        {
+          "sector": 25,
+          "applied": false,
+          "period_days": null,
+          "original_scatter": null,
+          "corrected_scatter": null
+        },
+        {
+          "sector": 52,
+          "applied": true,
+          "period_days": 0.39556261999379894,
+          "original_scatter": 0.008849776233499944,
+          "corrected_scatter": 0.007910125843347481
+        },
+        {
+          "sector": 58,
+          "applied": true,
+          "period_days": 0.39508250629375485,
+          "original_scatter": 0.008608872110589754,
+          "corrected_scatter": 0.007788601112204839
+        }
+      ]
+    },
+    {
+      "tic": 378527773,
+      "case": "378527773_orbit0_radius1",
+      "method": "cycle_excluded",
+      "period_days": 11.14091145991851,
+      "depth": 0.00323534853169245,
+      "training": {
+        "n_observed_events": 9,
+        "n_positive_events": 7,
+        "fixed_ephemeris_snr": 1.5060812253651228
+      },
+      "holdout": {
+        "n_observed_events": 4,
+        "n_positive_events": 2,
+        "fixed_ephemeris_snr": 0.9078716875864149
+      },
+      "periodic_models": [
+        {
+          "sector": 17,
+          "applied": true,
+          "period_days": 0.3953148371133245,
+          "original_scatter": 0.008148829521272934,
+          "corrected_scatter": 0.007888383031680796
+        },
+        {
+          "sector": 18,
+          "applied": true,
+          "period_days": 0.3778388352354907,
+          "original_scatter": 0.007646872983214286,
+          "corrected_scatter": 0.007402873198398586
+        },
+        {
+          "sector": 24,
+          "applied": false,
+          "period_days": null,
+          "original_scatter": null,
+          "corrected_scatter": null
+        },
+        {
+          "sector": 25,
+          "applied": false,
+          "period_days": null,
+          "original_scatter": null,
+          "corrected_scatter": null
+        },
+        {
+          "sector": 52,
+          "applied": true,
+          "period_days": 0.39556261999379894,
+          "original_scatter": 0.008849776233499944,
+          "corrected_scatter": 0.008047498307540599
+        },
+        {
+          "sector": 58,
+          "applied": true,
+          "period_days": 0.39508250629375485,
+          "original_scatter": 0.008608872110589754,
+          "corrected_scatter": 0.007896122376385184
+        }
+      ]
+    }
+  ]
+}
