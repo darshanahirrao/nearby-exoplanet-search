@@ -239,3 +239,10 @@ the supplied phase remains strongest afterward; this does not conclusively
 reject the residual as an alias. Nearby flares and incomplete local baselines
 require further checks. Fresh exact-TIC TOI, CTOI and confirmed-planet queries
 return no matches, which does not establish novelty. Both trials remain unverified.
+
+A [controlled local-baseline check](vetting/local_baseline_sensitivity/FINDINGS.md)
+finds that the 26.316459-day trial remains above nominal training/held scores
+of 7/5 under all nine specified flat, linear and quadratic continuum choices.
+The 35.394150-day trial is less stable, but quadratic choices also weaken an
+injected planet control. Both therefore remain unverified. The 26-day fit is
+prioritized for pixel-source diagnostics. No new search or adoption gate changes.

@@ -55,6 +55,11 @@ The already examined holdout sectors are not new independent validation data.
 
 Reproduce with `python scripts/vet_portfolio_rotation.py`.
 
+A subsequent [local-baseline sensitivity check](../local_baseline_sensitivity/FINDINGS.md)
+retains the 26-day PDC signal under all nine specified continuum choices.
+The 35-day signal weakens, but some choices also weaken the injected control;
+neither result settles the astrophysical interpretation.
+
 ![26-day rotation phase classes](leave_one_out_classes.png)
 
 ![Every measurable 26-day event](leave_one_out_events.png)

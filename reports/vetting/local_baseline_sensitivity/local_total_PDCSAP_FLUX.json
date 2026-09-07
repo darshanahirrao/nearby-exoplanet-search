@@ -1,0 +1,3792 @@
+{
+  "id": "local_total_PDCSAP_FLUX",
+  "tic": 233738219,
+  "kind": "unmodified_trial",
+  "period_days": 35.394150218068546,
+  "epoch_btjd": 1708.7196123763397,
+  "duration_days": 0.1504906030070948,
+  "parts": {
+    "training": {
+      "original": {
+        "n_observed_events": 7,
+        "n_positive_events": 6,
+        "event_snr": [
+          {
+            "cycle": 0,
+            "center_btjd": 1708.7196123763397,
+            "points": 22,
+            "depth": 0.0014964939591920468,
+            "error": 0.00023108931904679774,
+            "snr": 6.475824868777223
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 1779.5079128124767,
+            "points": 22,
+            "depth": 0.0009179548300380924,
+            "error": 0.00019375097508848174,
+            "snr": 4.73780753680792
+          },
+          {
+            "cycle": 4,
+            "center_btjd": 1850.2962132486139,
+            "points": 22,
+            "depth": 0.0014469301210019436,
+            "error": 0.0001868687493536424,
+            "snr": 7.743028869228853
+          },
+          {
+            "cycle": 5,
+            "center_btjd": 1885.6903634666824,
+            "points": 22,
+            "depth": 0.0027055024395933325,
+            "error": 0.0002121797732742184,
+            "snr": 12.75099128368271
+          },
+          {
+            "cycle": 50,
+            "center_btjd": 3478.427123279767,
+            "points": 22,
+            "depth": 0.0002841988511181892,
+            "error": 0.00020593854689333118,
+            "snr": 1.3800177548372918
+          },
+          {
+            "cycle": 52,
+            "center_btjd": 3549.215423715904,
+            "points": 21,
+            "depth": 0.00048154991698889926,
+            "error": 0.00019232871725060656,
+            "snr": 2.503785830180701
+          },
+          {
+            "cycle": 55,
+            "center_btjd": 3655.39787437011,
+            "points": 21,
+            "depth": -0.00012310642784996162,
+            "error": 0.00022870087771835308,
+            "snr": -0.5382857690715475
+          }
+        ],
+        "fixed_ephemeris_snr": 13.303280502119517,
+        "single_event_power_fraction": 0.5509604963760164,
+        "odd_even_sigma": 2.70300354799124
+      },
+      "baselines": [
+        {
+          "events": 6,
+          "positive_events": 5,
+          "depth": 0.0006687711696098934,
+          "error": 8.622858352057996e-05,
+          "nominal_snr": 7.755794451271247,
+          "event_measurements": [
+            {
+              "cycle": 0,
+              "center_btjd": 1708.7196123763397,
+              "degree": 0,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 43,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0014214185994149981,
+              "error": 0.00023939494200857944,
+              "snr": 5.937546497386137,
+              "coefficients": [
+                0.00028115519920294185
+              ],
+              "nominal_baseline_reduced_chi2": 1.5341077856036116,
+              "flanks": {
+                "left": {
+                  "depth": 0.0009511420521099581,
+                  "error": 0.000261296564246369,
+                  "snr": 3.640086331993075
+                },
+                "right": {
+                  "depth": 0.001916603977088563,
+                  "error": 0.0002635684199922729,
+                  "snr": 7.271751210348921
+                }
+              }
+            },
+            {
+              "cycle": 2,
+              "center_btjd": 1779.5079128124767,
+              "degree": 0,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 43,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0009832355998019623,
+              "error": 0.000200840081771958,
+              "snr": 4.895614416839204,
+              "coefficients": [
+                0.00020732882940959334
+              ],
+              "nominal_baseline_reduced_chi2": 2.1795435179490608,
+              "flanks": {
+                "left": {
+                  "depth": 0.001361288236965339,
+                  "error": 0.00022061550494066018,
+                  "snr": 6.170410539964044
+                },
+                "right": {
+                  "depth": 0.0006090131930731428,
+                  "error": 0.00022023436549591528,
+                  "snr": 2.7652959232851346
+                }
+              }
+            },
+            {
+              "cycle": 4,
+              "center_btjd": 1850.2962132486139,
+              "degree": 0,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 34,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0009283197352918808,
+              "error": 0.00019440620448774596,
+              "snr": 4.775154876038926,
+              "coefficients": [
+                0.00019777303538852828
+              ],
+              "nominal_baseline_reduced_chi2": 1.1061825396756664,
+              "flanks": {
+                "left": {
+                  "depth": 0.0009470088009147775,
+                  "error": 0.00021983860829829013,
+                  "snr": 4.307745615046014
+                },
+                "right": {
+                  "depth": 0.0009138068271037988,
+                  "error": 0.00021011131064675148,
+                  "snr": 4.349155808371171
+                }
+              }
+            },
+            {
+              "cycle": 5,
+              "center_btjd": 1885.6903634666824,
+              "degree": 0,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 0,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "insufficient_two_sided_coverage"
+            },
+            {
+              "cycle": 50,
+              "center_btjd": 3478.427123279767,
+              "degree": 0,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 43,
+              "right_points": 42,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.00030487648994420244,
+              "error": 0.0002125419870334994,
+              "snr": 1.4344294706163159,
+              "coefficients": [
+                9.298576812123492e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.2190161311257852,
+              "flanks": {
+                "left": {
+                  "depth": -1.4116482974479419e-06,
+                  "error": 0.0002329081903314636,
+                  "snr": -0.0060609646034300154
+                },
+                "right": {
+                  "depth": 0.0006184572029058921,
+                  "error": 0.00023384476515501986,
+                  "snr": 2.644734007605027
+                }
+              }
+            },
+            {
+              "cycle": 52,
+              "center_btjd": 3549.215423715904,
+              "degree": 0,
+              "width_scale": 0.75,
+              "inside_points": 21,
+              "left_points": 44,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0004582287215600877,
+              "error": 0.00019872184566911144,
+              "snr": 2.3058799600879163,
+              "coefficients": [
+                4.488130115288088e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.9905349864329791,
+              "flanks": {
+                "left": {
+                  "depth": 5.557373631056076e-05,
+                  "error": 0.00021678224061836613,
+                  "snr": 0.2563574218627781
+                },
+                "right": {
+                  "depth": 0.0008702477762340224,
+                  "error": 0.00021759510429570242,
+                  "snr": 3.9993904231015827
+                }
+              }
+            },
+            {
+              "cycle": 55,
+              "center_btjd": 3655.39787437011,
+              "degree": 0,
+              "width_scale": 0.75,
+              "inside_points": 21,
+              "left_points": 43,
+              "right_points": 41,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": -0.00011719830468129972,
+              "error": 0.00023354891813721668,
+              "snr": -0.5018148044361411,
+              "coefficients": [
+                0.00011726560766430345
+              ],
+              "nominal_baseline_reduced_chi2": 0.9042736674429026,
+              "flanks": {
+                "left": {
+                  "depth": -0.0002849704481744648,
+                  "error": 0.0002556897221677406,
+                  "snr": -1.114516632731585
+                },
+                "right": {
+                  "depth": 5.440106169054122e-05,
+                  "error": 0.0002566653014480455,
+                  "snr": 0.21195331579151205
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 1,
+          "left_only": {
+            "events": 6,
+            "positive_events": 4,
+            "depth": 0.0005256638940040543,
+            "error": 9.49614229569154e-05,
+            "nominal_snr": 5.535551991913088
+          },
+          "right_only": {
+            "events": 6,
+            "positive_events": 6,
+            "depth": 0.0008138939674197268,
+            "error": 9.438531462385542e-05,
+            "nominal_snr": 8.623099585600354
+          },
+          "degree": 0,
+          "width_scale": 0.75
+        },
+        {
+          "events": 6,
+          "positive_events": 5,
+          "depth": 0.0007741936016606245,
+          "error": 8.341058136131459e-05,
+          "nominal_snr": 9.281719285794257,
+          "event_measurements": [
+            {
+              "cycle": 0,
+              "center_btjd": 1708.7196123763397,
+              "degree": 0,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 65,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0014964939591921357,
+              "error": 0.00023108931904679774,
+              "snr": 6.475824868777607,
+              "coefficients": [
+                0.0003562305589800795
+              ],
+              "nominal_baseline_reduced_chi2": 1.4602439745187474,
+              "flanks": {
+                "left": {
+                  "depth": 0.0010986225862151732,
+                  "error": 0.00024633236988306844,
+                  "snr": 4.459919687926839
+                },
+                "right": {
+                  "depth": 0.0019141433642522894,
+                  "error": 0.0002478328649650318,
+                  "snr": 7.72352514474772
+                }
+              }
+            },
+            {
+              "cycle": 2,
+              "center_btjd": 1779.5079128124767,
+              "degree": 0,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 65,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0009179548300347942,
+              "error": 0.0001937509750884817,
+              "snr": 4.737807536790898,
+              "coefficients": [
+                0.00014204805964242534
+              ],
+              "nominal_baseline_reduced_chi2": 1.8749692793749906,
+              "flanks": {
+                "left": {
+                  "depth": 0.0011226953916504457,
+                  "error": 0.00020741290987947537,
+                  "snr": 5.412852036562371
+                },
+                "right": {
+                  "depth": 0.0007142584195020222,
+                  "error": 0.00020727845094684576,
+                  "snr": 3.445888447348469
+                }
+              }
+            },
+            {
+              "cycle": 4,
+              "center_btjd": 1850.2962132486139,
+              "degree": 0,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 56,
+              "right_points": 62,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0014469301210027477,
+              "error": 0.00018686874935364242,
+              "snr": 7.743028869233155,
+              "coefficients": [
+                0.0007163834210993951
+              ],
+              "nominal_baseline_reduced_chi2": 3.6056206314145,
+              "flanks": {
+                "left": {
+                  "depth": 0.0017453398130249207,
+                  "error": 0.00020207685326801444,
+                  "snr": 8.637010052359026
+                },
+                "right": {
+                  "depth": 0.0011791868446675657,
+                  "error": 0.00019920284704140422,
+                  "snr": 5.919528069909926
+                }
+              }
+            },
+            {
+              "cycle": 5,
+              "center_btjd": 1885.6903634666824,
+              "degree": 0,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 0,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "insufficient_two_sided_coverage"
+            },
+            {
+              "cycle": 50,
+              "center_btjd": 3478.427123279767,
+              "degree": 0,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 64,
+              "right_points": 57,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0002841988511216015,
+              "error": 0.0002059385468933312,
+              "snr": 1.380017754853861,
+              "coefficients": [
+                7.230812929863396e-05
+              ],
+              "nominal_baseline_reduced_chi2": 2.482538254392275,
+              "flanks": {
+                "left": {
+                  "depth": 4.8971725124136655e-05,
+                  "error": 0.00021959454579943542,
+                  "snr": 0.22300975165778714
+                },
+                "right": {
+                  "depth": 0.0005483135189082288,
+                  "error": 0.00022301723561289827,
+                  "snr": 2.45861499180253
+                }
+              }
+            },
+            {
+              "cycle": 52,
+              "center_btjd": 3549.215423715904,
+              "degree": 0,
+              "width_scale": 1.0,
+              "inside_points": 21,
+              "left_points": 65,
+              "right_points": 64,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0004815499169889386,
+              "error": 0.00019232871725060656,
+              "snr": 2.5037858301809055,
+              "coefficients": [
+                6.820249658173177e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.006897030461241,
+              "flanks": {
+                "left": {
+                  "depth": 0.00015705797177552875,
+                  "error": 0.00020515679602333236,
+                  "snr": 0.7655509094500903
+                },
+                "right": {
+                  "depth": 0.000811112048846308,
+                  "error": 0.00020554780175234563,
+                  "snr": 3.9460993595230796
+                }
+              }
+            },
+            {
+              "cycle": 55,
+              "center_btjd": 3655.39787437011,
+              "degree": 0,
+              "width_scale": 1.0,
+              "inside_points": 21,
+              "left_points": 65,
+              "right_points": 41,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": -0.0001231064278496827,
+              "error": 0.00022870087771835308,
+              "snr": -0.5382857690703279,
+              "coefficients": [
+                0.00011135748449592045
+              ],
+              "nominal_baseline_reduced_chi2": 0.9898105089204725,
+              "flanks": {
+                "left": {
+                  "depth": -0.00023869284478028092,
+                  "error": 0.00024095482544297104,
+                  "snr": -0.9906124284561154
+                },
+                "right": {
+                  "depth": 5.440106169054122e-05,
+                  "error": 0.0002566653014480455,
+                  "snr": 0.21195331579151205
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 1,
+          "left_only": {
+            "events": 6,
+            "positive_events": 5,
+            "depth": 0.0006954387381926621,
+            "error": 8.91104174312505e-05,
+            "nominal_snr": 7.804236117838854
+          },
+          "right_only": {
+            "events": 6,
+            "positive_events": 6,
+            "depth": 0.0008774713585257292,
+            "error": 8.990748294500042e-05,
+            "nominal_snr": 9.759714428469868
+          },
+          "degree": 0,
+          "width_scale": 1.0
+        },
+        {
+          "events": 6,
+          "positive_events": 5,
+          "depth": 0.0007509286512090369,
+          "error": 8.183693867175657e-05,
+          "nominal_snr": 9.175913266024896,
+          "event_measurements": [
+            {
+              "cycle": 0,
+              "center_btjd": 1708.7196123763397,
+              "degree": 0,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 86,
+              "right_points": 86,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0014672311788283734,
+              "error": 0.0002269796643084638,
+              "snr": 6.4641525631759515,
+              "coefficients": [
+                0.000326967778616317
+              ],
+              "nominal_baseline_reduced_chi2": 1.4655453647209649,
+              "flanks": {
+                "left": {
+                  "depth": 0.001278361201884722,
+                  "error": 0.00023884365475733535,
+                  "snr": 5.352292918074522
+                },
+                "right": {
+                  "depth": 0.0016639644975476502,
+                  "error": 0.00023982503887333694,
+                  "snr": 6.938243418471703
+                }
+              }
+            },
+            {
+              "cycle": 2,
+              "center_btjd": 1779.5079128124767,
+              "degree": 0,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 87,
+              "right_points": 86,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0008371291564556909,
+              "error": 0.00019021684981992092,
+              "snr": 4.400920093294598,
+              "coefficients": [
+                6.122238606332202e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.6921028800311142,
+              "flanks": {
+                "left": {
+                  "depth": 0.0010401629391601065,
+                  "error": 0.00020062798981728257,
+                  "snr": 5.18453551823657
+                },
+                "right": {
+                  "depth": 0.000632768472227635,
+                  "error": 0.00020076092945673697,
+                  "snr": 3.151850681006105
+                }
+              }
+            },
+            {
+              "cycle": 4,
+              "center_btjd": 1850.2962132486139,
+              "degree": 0,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 71,
+              "right_points": 83,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0013547616260069259,
+              "error": 0.00018347626093614543,
+              "snr": 7.383852380109373,
+              "coefficients": [
+                0.0006242149261035733
+              ],
+              "nominal_baseline_reduced_chi2": 3.9871220363280746,
+              "flanks": {
+                "left": {
+                  "depth": 0.0015183524548226756,
+                  "error": 0.00019602753180105424,
+                  "snr": 7.7456081850973435
+                },
+                "right": {
+                  "depth": 0.0012156375500252785,
+                  "error": 0.0001926357922472669,
+                  "snr": 6.310548708751324
+                }
+              }
+            },
+            {
+              "cycle": 5,
+              "center_btjd": 1885.6903634666824,
+              "degree": 0,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 0,
+              "right_points": 87,
+              "outer_days": 0.752453015035474,
+              "status": "insufficient_two_sided_coverage"
+            },
+            {
+              "cycle": 50,
+              "center_btjd": 3478.427123279767,
+              "degree": 0,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 85,
+              "right_points": 76,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0004277669206096806,
+              "error": 0.0002019644435402645,
+              "snr": 2.118030843010241,
+              "coefficients": [
+                0.0002158761987867131
+              ],
+              "nominal_baseline_reduced_chi2": 2.4586411778210904,
+              "flanks": {
+                "left": {
+                  "depth": 0.0001020406708307536,
+                  "error": 0.0002125419870334994,
+                  "snr": 0.4800965317721935
+                },
+                "right": {
+                  "depth": 0.0007920660157571647,
+                  "error": 0.00021511393867768724,
+                  "snr": 3.6820766735341355
+                }
+              }
+            },
+            {
+              "cycle": 52,
+              "center_btjd": 3549.215423715904,
+              "degree": 0,
+              "width_scale": 1.25,
+              "inside_points": 21,
+              "left_points": 87,
+              "right_points": 86,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0004844207363870318,
+              "error": 0.00018887356341171802,
+              "snr": 2.5647884629097732,
+              "coefficients": [
+                7.107331597982502e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.9854482580366565,
+              "flanks": {
+                "left": {
+                  "depth": 0.00022606497471375794,
+                  "error": 0.00019872184566911144,
+                  "snr": 1.1375949833425718
+                },
+                "right": {
+                  "depth": 0.0007457806348239484,
+                  "error": 0.00019894637207753307,
+                  "snr": 3.7486515940753318
+                }
+              }
+            },
+            {
+              "cycle": 55,
+              "center_btjd": 3655.39787437011,
+              "degree": 0,
+              "width_scale": 1.25,
+              "inside_points": 21,
+              "left_points": 87,
+              "right_points": 57,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": -0.00018996626268754122,
+              "error": 0.00022353683168664087,
+              "snr": -0.8498208606349058,
+              "coefficients": [
+                4.4497649658061956e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.0221190977993988,
+              "flanks": {
+                "left": {
+                  "depth": -0.000224429759067421,
+                  "error": 0.00023333844195524823,
+                  "snr": -0.9618207663804672
+                },
+                "right": {
+                  "depth": -0.00013992036198282894,
+                  "error": 0.00024374533843300465,
+                  "snr": -0.5740432325079611
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 1,
+          "left_only": {
+            "events": 6,
+            "positive_events": 5,
+            "depth": 0.0006826343890248232,
+            "error": 8.631517208083553e-05,
+            "nominal_snr": 7.908625709342562
+          },
+          "right_only": {
+            "events": 6,
+            "positive_events": 5,
+            "depth": 0.0008354598135353496,
+            "error": 8.675900440132223e-05,
+            "nominal_snr": 9.629661143536786
+          },
+          "degree": 0,
+          "width_scale": 1.25
+        },
+        {
+          "events": 6,
+          "positive_events": 5,
+          "depth": 0.0006726192981341373,
+          "error": 8.624829078394733e-05,
+          "nominal_snr": 7.798639161662393,
+          "event_measurements": [
+            {
+              "cycle": 0,
+              "center_btjd": 1708.7196123763397,
+              "degree": 1,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 43,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0014303509011275512,
+              "error": 0.0002394078403293606,
+              "snr": 5.9745365864366615,
+              "coefficients": [
+                0.0002912119860948821,
+                0.0001849364937246906
+              ],
+              "nominal_baseline_reduced_chi2": 1.3985705104487534,
+              "flanks": {
+                "left": {
+                  "depth": 0.0009511420521099581,
+                  "error": 0.000261296564246369,
+                  "snr": 3.640086331993075
+                },
+                "right": {
+                  "depth": 0.001916603977088563,
+                  "error": 0.0002635684199922729,
+                  "snr": 7.271751210348921
+                }
+              }
+            },
+            {
+              "cycle": 2,
+              "center_btjd": 1779.5079128124767,
+              "degree": 1,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 43,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0009845052410911508,
+              "error": 0.00020084063094204385,
+              "snr": 4.901922666112553,
+              "coefficients": [
+                0.0002094082845308817,
+                -0.00011765278596017443
+              ],
+              "nominal_baseline_reduced_chi2": 2.1184953354287583,
+              "flanks": {
+                "left": {
+                  "depth": 0.001361288236965339,
+                  "error": 0.00022061550494066018,
+                  "snr": 6.170410539964044
+                },
+                "right": {
+                  "depth": 0.0006090131930731428,
+                  "error": 0.00022023436549591528,
+                  "snr": 2.7652959232851346
+                }
+              }
+            },
+            {
+              "cycle": 4,
+              "center_btjd": 1850.2962132486139,
+              "degree": 1,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 34,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.000934131979456881,
+              "error": 0.00019461259014631933,
+              "snr": 4.799956563727735,
+              "coefficients": [
+                0.00020362141671604619,
+                -2.758214452206127e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.1153214661220325,
+              "flanks": {
+                "left": {
+                  "depth": 0.0009470088009147775,
+                  "error": 0.00021983860829829013,
+                  "snr": 4.307745615046014
+                },
+                "right": {
+                  "depth": 0.0009138068271037988,
+                  "error": 0.00021011131064675148,
+                  "snr": 4.349155808371171
+                }
+              }
+            },
+            {
+              "cycle": 5,
+              "center_btjd": 1885.6903634666824,
+              "degree": 1,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 0,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "insufficient_two_sided_coverage"
+            },
+            {
+              "cycle": 50,
+              "center_btjd": 3478.427123279767,
+              "degree": 1,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 43,
+              "right_points": 42,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.00030690175177251766,
+              "error": 0.00021254335316489383,
+              "snr": 1.4439489506614653,
+              "coefficients": [
+                9.505080897015487e-05,
+                0.00012231357327117262
+              ],
+              "nominal_baseline_reduced_chi2": 1.1486057956287254,
+              "flanks": {
+                "left": {
+                  "depth": -1.4116482974479419e-06,
+                  "error": 0.0002329081903314636,
+                  "snr": -0.0060609646034300154
+                },
+                "right": {
+                  "depth": 0.0006184572029058921,
+                  "error": 0.00023384476515501986,
+                  "snr": 2.644734007605027
+                }
+              }
+            },
+            {
+              "cycle": 52,
+              "center_btjd": 3549.215423715904,
+              "degree": 1,
+              "width_scale": 0.75,
+              "inside_points": 21,
+              "left_points": 44,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.00046127693164148503,
+              "error": 0.00019872281330990312,
+              "snr": 2.321207736336419,
+              "coefficients": [
+                4.785424478514175e-05,
+                0.0002052540308203101
+              ],
+              "nominal_baseline_reduced_chi2": 0.7179517184745738,
+              "flanks": {
+                "left": {
+                  "depth": 5.557373631056076e-05,
+                  "error": 0.00021678224061836613,
+                  "snr": 0.2563574218627781
+                },
+                "right": {
+                  "depth": 0.0008702477762340224,
+                  "error": 0.00021759510429570242,
+                  "snr": 3.9993904231015827
+                }
+              }
+            },
+            {
+              "cycle": 55,
+              "center_btjd": 3655.39787437011,
+              "degree": 1,
+              "width_scale": 0.75,
+              "inside_points": 21,
+              "left_points": 43,
+              "right_points": 41,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": -0.00011348034608689702,
+              "error": 0.00023356686500444724,
+              "snr": -0.4858580693144821,
+              "coefficients": [
+                0.0001211684041373676,
+                6.656223371822189e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.8951927849773098,
+              "flanks": {
+                "left": {
+                  "depth": -0.0002849704481744648,
+                  "error": 0.0002556897221677406,
+                  "snr": -1.114516632731585
+                },
+                "right": {
+                  "depth": 5.440106169054122e-05,
+                  "error": 0.0002566653014480455,
+                  "snr": 0.21195331579151205
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 1,
+          "left_only": {
+            "events": 6,
+            "positive_events": 4,
+            "depth": 0.0005256638940040543,
+            "error": 9.49614229569154e-05,
+            "nominal_snr": 5.535551991913088
+          },
+          "right_only": {
+            "events": 6,
+            "positive_events": 6,
+            "depth": 0.0008138939674197268,
+            "error": 9.438531462385542e-05,
+            "nominal_snr": 8.623099585600354
+          },
+          "degree": 1,
+          "width_scale": 0.75
+        },
+        {
+          "events": 6,
+          "positive_events": 5,
+          "depth": 0.0007850824534646008,
+          "error": 8.351671187520733e-05,
+          "nominal_snr": 9.400303673804709,
+          "event_measurements": [
+            {
+              "cycle": 0,
+              "center_btjd": 1708.7196123763397,
+              "degree": 1,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 65,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0015033660902123256,
+              "error": 0.00023109693372196056,
+              "snr": 6.505348495973854,
+              "coefficients": [
+                0.0003638345300521531,
+                0.00012036079767317254
+              ],
+              "nominal_baseline_reduced_chi2": 1.3668175680666645,
+              "flanks": {
+                "left": {
+                  "depth": 0.0010986225862151732,
+                  "error": 0.00024633236988306844,
+                  "snr": 4.459919687926839
+                },
+                "right": {
+                  "depth": 0.0019141433642522894,
+                  "error": 0.0002478328649650318,
+                  "snr": 7.72352514474772
+                }
+              }
+            },
+            {
+              "cycle": 2,
+              "center_btjd": 1779.5079128124767,
+              "degree": 1,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 65,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0009180844738889114,
+              "error": 0.00019375101737891722,
+              "snr": 4.738475628715907,
+              "coefficients": [
+                0.0001423711508145109,
+                -2.8104750738184127e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.8816047968504677,
+              "flanks": {
+                "left": {
+                  "depth": 0.0011226953916504457,
+                  "error": 0.00020741290987947537,
+                  "snr": 5.412852036562371
+                },
+                "right": {
+                  "depth": 0.0007142584195020222,
+                  "error": 0.00020727845094684576,
+                  "snr": 3.445888447348469
+                }
+              }
+            },
+            {
+              "cycle": 4,
+              "center_btjd": 1850.2962132486139,
+              "degree": 1,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 56,
+              "right_points": 62,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0014515025582421872,
+              "error": 0.00018687124379965879,
+              "snr": 7.7673938950088885,
+              "coefficients": [
+                0.000721123271558537,
+                -0.0001277802488912559
+              ],
+              "nominal_baseline_reduced_chi2": 3.4433759792085317,
+              "flanks": {
+                "left": {
+                  "depth": 0.0017453398130249207,
+                  "error": 0.00020207685326801444,
+                  "snr": 8.637010052359026
+                },
+                "right": {
+                  "depth": 0.0011791868446675657,
+                  "error": 0.00019920284704140422,
+                  "snr": 5.919528069909926
+                }
+              }
+            },
+            {
+              "cycle": 5,
+              "center_btjd": 1885.6903634666824,
+              "degree": 1,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 0,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "insufficient_two_sided_coverage"
+            },
+            {
+              "cycle": 50,
+              "center_btjd": 3478.427123279767,
+              "degree": 1,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 64,
+              "right_points": 57,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.00029934423651688816,
+              "error": 0.00020602884445627127,
+              "snr": 1.452923920953324,
+              "coefficients": [
+                8.747886442159559e-05,
+                7.79460058654047e-05
+              ],
+              "nominal_baseline_reduced_chi2": 2.451582614887373,
+              "flanks": {
+                "left": {
+                  "depth": 4.8971725124136655e-05,
+                  "error": 0.00021959454579943542,
+                  "snr": 0.22300975165778714
+                },
+                "right": {
+                  "depth": 0.0005483135189082288,
+                  "error": 0.00022301723561289827,
+                  "snr": 2.45861499180253
+                }
+              }
+            },
+            {
+              "cycle": 52,
+              "center_btjd": 3549.215423715904,
+              "degree": 1,
+              "width_scale": 1.0,
+              "inside_points": 21,
+              "left_points": 65,
+              "right_points": 64,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0004825923216524072,
+              "error": 0.00019232887711901004,
+              "snr": 2.509203656161247,
+              "coefficients": [
+                6.920299402369416e-05,
+                0.00011428234270794122
+              ],
+              "nominal_baseline_reduced_chi2": 0.8756917539146173,
+              "flanks": {
+                "left": {
+                  "depth": 0.00015705797177552875,
+                  "error": 0.00020515679602333236,
+                  "snr": 0.7655509094500903
+                },
+                "right": {
+                  "depth": 0.000811112048846308,
+                  "error": 0.00020554780175234563,
+                  "snr": 3.9460993595230796
+                }
+              }
+            },
+            {
+              "cycle": 55,
+              "center_btjd": 3655.39787437011,
+              "degree": 1,
+              "width_scale": 1.0,
+              "inside_points": 21,
+              "left_points": 65,
+              "right_points": 41,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": -9.130389514728566e-05,
+              "error": 0.00023077640707539255,
+              "snr": -0.3956379090235923,
+              "coefficients": [
+                0.00014327788223095266,
+                4.244454603288123e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.9891303369833876,
+              "flanks": {
+                "left": {
+                  "depth": -0.00023869284478028092,
+                  "error": 0.00024095482544297104,
+                  "snr": -0.9906124284561154
+                },
+                "right": {
+                  "depth": 5.440106169054122e-05,
+                  "error": 0.0002566653014480455,
+                  "snr": 0.21195331579151205
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 1,
+          "left_only": {
+            "events": 6,
+            "positive_events": 5,
+            "depth": 0.0006954387381926621,
+            "error": 8.91104174312505e-05,
+            "nominal_snr": 7.804236117838854
+          },
+          "right_only": {
+            "events": 6,
+            "positive_events": 6,
+            "depth": 0.0008774713585257292,
+            "error": 8.990748294500042e-05,
+            "nominal_snr": 9.759714428469868
+          },
+          "degree": 1,
+          "width_scale": 1.0
+        },
+        {
+          "events": 6,
+          "positive_events": 5,
+          "depth": 0.0007555592662052958,
+          "error": 8.187748199561924e-05,
+          "nominal_snr": 9.227925038604889,
+          "event_measurements": [
+            {
+              "cycle": 0,
+              "center_btjd": 1708.7196123763397,
+              "degree": 1,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 86,
+              "right_points": 86,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0014680075745419061,
+              "error": 0.00022698293563404095,
+              "snr": 6.467479903021164,
+              "coefficients": [
+                0.00032783556810863366,
+                1.5030918420568341e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.4717785542608763,
+              "flanks": {
+                "left": {
+                  "depth": 0.001278361201884722,
+                  "error": 0.00023884365475733535,
+                  "snr": 5.352292918074522
+                },
+                "right": {
+                  "depth": 0.0016639644975476502,
+                  "error": 0.00023982503887333694,
+                  "snr": 6.938243418471703
+                }
+              }
+            },
+            {
+              "cycle": 2,
+              "center_btjd": 1779.5079128124767,
+              "degree": 1,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 87,
+              "right_points": 86,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.000836299616823697,
+              "error": 0.00019021739683638337,
+              "snr": 4.396546429152561,
+              "coefficients": [
+                6.064118440515e-05,
+                -3.6079470764396864e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.6826608146677393,
+              "flanks": {
+                "left": {
+                  "depth": 0.0010401629391601065,
+                  "error": 0.00020062798981728257,
+                  "snr": 5.18453551823657
+                },
+                "right": {
+                  "depth": 0.000632768472227635,
+                  "error": 0.00020076092945673697,
+                  "snr": 3.151850681006105
+                }
+              }
+            },
+            {
+              "cycle": 4,
+              "center_btjd": 1850.2962132486139,
+              "degree": 1,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 71,
+              "right_points": 83,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0013620061708249157,
+              "error": 0.00018351540320507857,
+              "snr": 7.4217539619978,
+              "coefficients": [
+                0.0006315087931928789,
+                -3.7645844908962614e-05
+              ],
+              "nominal_baseline_reduced_chi2": 3.9893163149270454,
+              "flanks": {
+                "left": {
+                  "depth": 0.0015183524548226756,
+                  "error": 0.00019602753180105424,
+                  "snr": 7.7456081850973435
+                },
+                "right": {
+                  "depth": 0.0012156375500252785,
+                  "error": 0.0001926357922472669,
+                  "snr": 6.310548708751324
+                }
+              }
+            },
+            {
+              "cycle": 5,
+              "center_btjd": 1885.6903634666824,
+              "degree": 1,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 0,
+              "right_points": 87,
+              "outer_days": 0.752453015035474,
+              "status": "insufficient_two_sided_coverage"
+            },
+            {
+              "cycle": 50,
+              "center_btjd": 3478.427123279767,
+              "degree": 1,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 85,
+              "right_points": 76,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.000448544349894722,
+              "error": 0.00020201130303921418,
+              "snr": 2.2203923401635164,
+              "coefficients": [
+                0.000236687920663741,
+                0.00010544375901765538
+              ],
+              "nominal_baseline_reduced_chi2": 2.330676453352516,
+              "flanks": {
+                "left": {
+                  "depth": 0.0001020406708307536,
+                  "error": 0.0002125419870334994,
+                  "snr": 0.4800965317721935
+                },
+                "right": {
+                  "depth": 0.0007920660157571647,
+                  "error": 0.00021511393867768724,
+                  "snr": 3.6820766735341355
+                }
+              }
+            },
+            {
+              "cycle": 52,
+              "center_btjd": 3549.215423715904,
+              "degree": 1,
+              "width_scale": 1.25,
+              "inside_points": 21,
+              "left_points": 87,
+              "right_points": 86,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.00048477585932291025,
+              "error": 0.0001888735945238354,
+              "snr": 2.566668255269175,
+              "coefficients": [
+                7.140529813347583e-05,
+                6.310565840475803e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.9284586815384209,
+              "flanks": {
+                "left": {
+                  "depth": 0.00022606497471375794,
+                  "error": 0.00019872184566911144,
+                  "snr": 1.1375949833425718
+                },
+                "right": {
+                  "depth": 0.0007457806348239484,
+                  "error": 0.00019894637207753307,
+                  "snr": 3.7486515940753318
+                }
+              }
+            },
+            {
+              "cycle": 55,
+              "center_btjd": 3655.39787437011,
+              "degree": 1,
+              "width_scale": 1.25,
+              "inside_points": 21,
+              "left_points": 87,
+              "right_points": 57,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": -0.00019735838920123736,
+              "error": 0.00022422732536478708,
+              "snr": -0.8801710000338377,
+              "coefficients": [
+                3.707468627831596e-05,
+                -1.110470808262876e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.0280724863468935,
+              "flanks": {
+                "left": {
+                  "depth": -0.000224429759067421,
+                  "error": 0.00023333844195524823,
+                  "snr": -0.9618207663804672
+                },
+                "right": {
+                  "depth": -0.00013992036198282894,
+                  "error": 0.00024374533843300465,
+                  "snr": -0.5740432325079611
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 1,
+          "left_only": {
+            "events": 6,
+            "positive_events": 5,
+            "depth": 0.0006826343890248232,
+            "error": 8.631517208083553e-05,
+            "nominal_snr": 7.908625709342562
+          },
+          "right_only": {
+            "events": 6,
+            "positive_events": 5,
+            "depth": 0.0008354598135353496,
+            "error": 8.675900440132223e-05,
+            "nominal_snr": 9.629661143536786
+          },
+          "degree": 1,
+          "width_scale": 1.25
+        },
+        {
+          "events": 6,
+          "positive_events": 5,
+          "depth": 0.0007640849914339669,
+          "error": 0.00011257138476442472,
+          "nominal_snr": 6.787559671873524,
+          "event_measurements": [
+            {
+              "cycle": 0,
+              "center_btjd": 1708.7196123763397,
+              "degree": 2,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 43,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0011837060657200074,
+              "error": 0.0003109916049105202,
+              "snr": 3.8062315735519237,
+              "coefficients": [
+                3.9622548788136334e-05,
+                0.00018563983481802417,
+                5.765160292672008e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.3968181665473693,
+              "flanks": {
+                "left": {
+                  "depth": 0.0009511420521099581,
+                  "error": 0.000261296564246369,
+                  "snr": 3.640086331993075
+                },
+                "right": {
+                  "depth": 0.001916603977088563,
+                  "error": 0.0002635684199922729,
+                  "snr": 7.271751210348921
+                }
+              }
+            },
+            {
+              "cycle": 2,
+              "center_btjd": 1779.5079128124767,
+              "degree": 2,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 43,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0014849026152668752,
+              "error": 0.00026130174849876993,
+              "snr": 5.682712128020319,
+              "coefficients": [
+                0.000719842830055564,
+                -0.00011583376047965936,
+                -0.00011719561319100591
+              ],
+              "nominal_baseline_reduced_chi2": 2.036050150290339,
+              "flanks": {
+                "left": {
+                  "depth": 0.001361288236965339,
+                  "error": 0.00022061550494066018,
+                  "snr": 6.170410539964044
+                },
+                "right": {
+                  "depth": 0.0006090131930731428,
+                  "error": 0.00022023436549591528,
+                  "snr": 2.7652959232851346
+                }
+              }
+            },
+            {
+              "cycle": 4,
+              "center_btjd": 1850.2962132486139,
+              "degree": 2,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 34,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0011203883334567248,
+              "error": 0.0002600843642430018,
+              "snr": 4.307788116051162,
+              "coefficients": [
+                0.00039354612740287193,
+                -3.031451659214042e-05,
+                -4.143504349832727e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.114645779800957,
+              "flanks": {
+                "left": {
+                  "depth": 0.0009470088009147775,
+                  "error": 0.00021983860829829013,
+                  "snr": 4.307745615046014
+                },
+                "right": {
+                  "depth": 0.0009138068271037988,
+                  "error": 0.00021011131064675148,
+                  "snr": 4.349155808371171
+                }
+              }
+            },
+            {
+              "cycle": 5,
+              "center_btjd": 1885.6903634666824,
+              "degree": 2,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 0,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "insufficient_two_sided_coverage"
+            },
+            {
+              "cycle": 50,
+              "center_btjd": 3478.427123279767,
+              "degree": 2,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 43,
+              "right_points": 42,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0006536048203098561,
+              "error": 0.0002777945364867719,
+              "snr": 2.3528354033736716,
+              "coefficients": [
+                0.0004486651852817273,
+                0.00012299306028353918,
+                -8.063336247398676e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.1167971303294304,
+              "flanks": {
+                "left": {
+                  "depth": -1.4116482974479419e-06,
+                  "error": 0.0002329081903314636,
+                  "snr": -0.0060609646034300154
+                },
+                "right": {
+                  "depth": 0.0006184572029058921,
+                  "error": 0.00023384476515501986,
+                  "snr": 2.644734007605027
+                }
+              }
+            },
+            {
+              "cycle": 52,
+              "center_btjd": 3549.215423715904,
+              "degree": 2,
+              "width_scale": 0.75,
+              "inside_points": 21,
+              "left_points": 44,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.00025058761456814575,
+              "error": 0.00025517586639038636,
+              "snr": 0.9820192564165877,
+              "coefficients": [
+                -0.00016663759650834036,
+                0.00020476912868989892,
+                4.870499860414543e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.7058754042548728,
+              "flanks": {
+                "left": {
+                  "depth": 5.557373631056076e-05,
+                  "error": 0.00021678224061836613,
+                  "snr": 0.2563574218627781
+                },
+                "right": {
+                  "depth": 0.0008702477762340224,
+                  "error": 0.00021759510429570242,
+                  "snr": 3.9993904231015827
+                }
+              }
+            },
+            {
+              "cycle": 55,
+              "center_btjd": 3655.39787437011,
+              "degree": 2,
+              "width_scale": 0.75,
+              "inside_points": 21,
+              "left_points": 43,
+              "right_points": 41,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": -0.00023756735116918374,
+              "error": 0.00030390409094373954,
+              "snr": -0.7817181744130044,
+              "coefficients": [
+                -5.3007555602230075e-06,
+                6.976580144723954e-05,
+                3.069143117654805e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.9012161763277514,
+              "flanks": {
+                "left": {
+                  "depth": -0.0002849704481744648,
+                  "error": 0.0002556897221677406,
+                  "snr": -1.114516632731585
+                },
+                "right": {
+                  "depth": 5.440106169054122e-05,
+                  "error": 0.0002566653014480455,
+                  "snr": 0.21195331579151205
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 1,
+          "left_only": {
+            "events": 6,
+            "positive_events": 4,
+            "depth": 0.0005256638940040543,
+            "error": 9.49614229569154e-05,
+            "nominal_snr": 5.535551991913088
+          },
+          "right_only": {
+            "events": 6,
+            "positive_events": 6,
+            "depth": 0.0008138939674197268,
+            "error": 9.438531462385542e-05,
+            "nominal_snr": 8.623099585600354
+          },
+          "degree": 2,
+          "width_scale": 0.75
+        },
+        {
+          "events": 6,
+          "positive_events": 5,
+          "depth": 0.0004979037436351319,
+          "error": 9.809147607040724e-05,
+          "nominal_snr": 5.07591243991222,
+          "event_measurements": [
+            {
+              "cycle": 0,
+              "center_btjd": 1708.7196123763397,
+              "degree": 2,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 65,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0013282379018395684,
+              "error": 0.00026957502218339735,
+              "snr": 4.927154938471789,
+              "coefficients": [
+                0.00018655952906199524,
+                0.00012084132532922975,
+                2.50431759529346e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.3650444118930078,
+              "flanks": {
+                "left": {
+                  "depth": 0.0010986225862151732,
+                  "error": 0.00024633236988306844,
+                  "snr": 4.459919687926839
+                },
+                "right": {
+                  "depth": 0.0019141433642522894,
+                  "error": 0.0002478328649650318,
+                  "snr": 7.72352514474772
+                }
+              }
+            },
+            {
+              "cycle": 2,
+              "center_btjd": 1779.5079128124767,
+              "degree": 2,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 65,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0011688356424775907,
+              "error": 0.0002263824312266902,
+              "snr": 5.1631022608250285,
+              "coefficients": [
+                0.000396193836114594,
+                -2.7717587774556178e-05,
+                -3.584991473982058e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.8603079574791144,
+              "flanks": {
+                "left": {
+                  "depth": 0.0011226953916504457,
+                  "error": 0.00020741290987947537,
+                  "snr": 5.412852036562371
+                },
+                "right": {
+                  "depth": 0.0007142584195020222,
+                  "error": 0.00020727845094684576,
+                  "snr": 3.445888447348469
+                }
+              }
+            },
+            {
+              "cycle": 4,
+              "center_btjd": 1850.2962132486139,
+              "degree": 2,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 56,
+              "right_points": 62,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.00017923273749705332,
+              "error": 0.0002229265754541867,
+              "snr": 0.8039989720018248,
+              "coefficients": [
+                -0.0005667951901183484,
+                -9.91317932300775e-05,
+                0.0001765037590282987
+              ],
+              "nominal_baseline_reduced_chi2": 2.520694479597714,
+              "flanks": {
+                "left": {
+                  "depth": 0.0017453398130249207,
+                  "error": 0.00020207685326801444,
+                  "snr": 8.637010052359026
+                },
+                "right": {
+                  "depth": 0.0011791868446675657,
+                  "error": 0.00019920284704140422,
+                  "snr": 5.919528069909926
+                }
+              }
+            },
+            {
+              "cycle": 5,
+              "center_btjd": 1885.6903634666824,
+              "degree": 2,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 0,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "insufficient_two_sided_coverage"
+            },
+            {
+              "cycle": 50,
+              "center_btjd": 3478.427123279767,
+              "degree": 2,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 64,
+              "right_points": 57,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0001121207134637752,
+              "error": 0.00024250014165285897,
+              "snr": 0.4623531875056674,
+              "coefficients": [
+                -0.00010219711791402013,
+                8.319618922991121e-05,
+                2.8633371796591017e-05
+              ],
+              "nominal_baseline_reduced_chi2": 2.4541995227500073,
+              "flanks": {
+                "left": {
+                  "depth": 4.8971725124136655e-05,
+                  "error": 0.00021959454579943542,
+                  "snr": 0.22300975165778714
+                },
+                "right": {
+                  "depth": 0.0005483135189082288,
+                  "error": 0.00022301723561289827,
+                  "snr": 2.45861499180253
+                }
+              }
+            },
+            {
+              "cycle": 52,
+              "center_btjd": 3549.215423715904,
+              "degree": 2,
+              "width_scale": 1.0,
+              "inside_points": 21,
+              "left_points": 65,
+              "right_points": 64,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.00043307364477122276,
+              "error": 0.00022364386747251075,
+              "snr": 1.9364431927669743,
+              "coefficients": [
+                1.9126331920057157e-05,
+                0.00011419126866579173,
+                7.147101148624005e-06
+              ],
+              "nominal_baseline_reduced_chi2": 0.8811476892831758,
+              "flanks": {
+                "left": {
+                  "depth": 0.00015705797177552875,
+                  "error": 0.00020515679602333236,
+                  "snr": 0.7655509094500903
+                },
+                "right": {
+                  "depth": 0.000811112048846308,
+                  "error": 0.00020554780175234563,
+                  "snr": 3.9460993595230796
+                }
+              }
+            },
+            {
+              "cycle": 55,
+              "center_btjd": 3655.39787437011,
+              "degree": 2,
+              "width_scale": 1.0,
+              "inside_points": 21,
+              "left_points": 65,
+              "right_points": 41,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": -0.0002592874754326091,
+              "error": 0.00027181033364158304,
+              "snr": -0.9539279539478916,
+              "coefficients": [
+                -2.7245835805161173e-05,
+                7.458166089096088e-05,
+                3.375061568383752e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.9854491320816091,
+              "flanks": {
+                "left": {
+                  "depth": -0.00023869284478028092,
+                  "error": 0.00024095482544297104,
+                  "snr": -0.9906124284561154
+                },
+                "right": {
+                  "depth": 5.440106169054122e-05,
+                  "error": 0.0002566653014480455,
+                  "snr": 0.21195331579151205
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 1,
+          "left_only": {
+            "events": 6,
+            "positive_events": 5,
+            "depth": 0.0006954387381926621,
+            "error": 8.91104174312505e-05,
+            "nominal_snr": 7.804236117838854
+          },
+          "right_only": {
+            "events": 6,
+            "positive_events": 6,
+            "depth": 0.0008774713585257292,
+            "error": 8.990748294500042e-05,
+            "nominal_snr": 9.759714428469868
+          },
+          "degree": 2,
+          "width_scale": 1.0
+        },
+        {
+          "events": 6,
+          "positive_events": 5,
+          "depth": 0.0006938526036936617,
+          "error": 9.116464040547805e-05,
+          "nominal_snr": 7.610983826707097,
+          "event_measurements": [
+            {
+              "cycle": 0,
+              "center_btjd": 1708.7196123763397,
+              "degree": 2,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 86,
+              "right_points": 86,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0014678549111734772,
+              "error": 0.0002528664188420736,
+              "snr": 5.8048629703188,
+              "coefficients": [
+                0.0003276816280468789,
+                1.5031024534538679e-05,
+                1.4880263179978554e-08
+              ],
+              "nominal_baseline_reduced_chi2": 1.480487291999273,
+              "flanks": {
+                "left": {
+                  "depth": 0.001278361201884722,
+                  "error": 0.00023884365475733535,
+                  "snr": 5.352292918074522
+                },
+                "right": {
+                  "depth": 0.0016639644975476502,
+                  "error": 0.00023982503887333694,
+                  "snr": 6.938243418471703
+                }
+              }
+            },
+            {
+              "cycle": 2,
+              "center_btjd": 1779.5079128124767,
+              "degree": 2,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 87,
+              "right_points": 86,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.001063644026333186,
+              "error": 0.00021206212299481732,
+              "snr": 5.015719032291216,
+              "coefficients": [
+                0.0002898792845718436,
+                -3.6698617123661404e-05,
+                -2.203378929991548e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.6579612883035526,
+              "flanks": {
+                "left": {
+                  "depth": 0.0010401629391601065,
+                  "error": 0.00020062798981728257,
+                  "snr": 5.18453551823657
+                },
+                "right": {
+                  "depth": 0.000632768472227635,
+                  "error": 0.00020076092945673697,
+                  "snr": 3.151850681006105
+                }
+              }
+            },
+            {
+              "cycle": 4,
+              "center_btjd": 1850.2962132486139,
+              "degree": 2,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 71,
+              "right_points": 83,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0011164418323867215,
+              "error": 0.0002065778026990632,
+              "snr": 5.404461746614292,
+              "coefficients": [
+                0.00038385438145360307,
+                -3.804726931470676e-05,
+                2.3636929129248988e-05
+              ],
+              "nominal_baseline_reduced_chi2": 3.9713460753954353,
+              "flanks": {
+                "left": {
+                  "depth": 0.0015183524548226756,
+                  "error": 0.00019602753180105424,
+                  "snr": 7.7456081850973435
+                },
+                "right": {
+                  "depth": 0.0012156375500252785,
+                  "error": 0.0001926357922472669,
+                  "snr": 6.310548708751324
+                }
+              }
+            },
+            {
+              "cycle": 5,
+              "center_btjd": 1885.6903634666824,
+              "degree": 2,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 0,
+              "right_points": 87,
+              "outer_days": 0.752453015035474,
+              "status": "insufficient_two_sided_coverage"
+            },
+            {
+              "cycle": 50,
+              "center_btjd": 3478.427123279767,
+              "degree": 2,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 85,
+              "right_points": 76,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 9.14963340551132e-05,
+              "error": 0.0002248972191232377,
+              "snr": 0.40683621794796687,
+              "coefficients": [
+                -0.0001234205977766696,
+                0.00010814036139494261,
+                3.571787447924372e-05
+              ],
+              "nominal_baseline_reduced_chi2": 2.2628441176013663,
+              "flanks": {
+                "left": {
+                  "depth": 0.0001020406708307536,
+                  "error": 0.0002125419870334994,
+                  "snr": 0.4800965317721935
+                },
+                "right": {
+                  "depth": 0.0007920660157571647,
+                  "error": 0.00021511393867768724,
+                  "snr": 3.6820766735341355
+                }
+              }
+            },
+            {
+              "cycle": 52,
+              "center_btjd": 3549.215423715904,
+              "degree": 2,
+              "width_scale": 1.25,
+              "inside_points": 21,
+              "left_points": 87,
+              "right_points": 86,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0004428202344857646,
+              "error": 0.00020959961821141767,
+              "snr": 2.1126958067218586,
+              "coefficients": [
+                2.9132500896903668e-05,
+                6.304591417937982e-05,
+                4.062623937529303e-06
+              ],
+              "nominal_baseline_reduced_chi2": 0.9326664376119037,
+              "flanks": {
+                "left": {
+                  "depth": 0.00022606497471375794,
+                  "error": 0.00019872184566911144,
+                  "snr": 1.1375949833425718
+                },
+                "right": {
+                  "depth": 0.0007457806348239484,
+                  "error": 0.00019894637207753307,
+                  "snr": 3.7486515940753318
+                }
+              }
+            },
+            {
+              "cycle": 55,
+              "center_btjd": 3655.39787437011,
+              "degree": 2,
+              "width_scale": 1.25,
+              "inside_points": 21,
+              "left_points": 87,
+              "right_points": 57,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": -7.116444464687352e-05,
+              "error": 0.0002463357632552197,
+              "snr": -0.28889205410723323,
+              "coefficients": [
+                0.00016429097400330294,
+                -1.407828983068484e-05,
+                -1.3228747845374307e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.0245074763980169,
+              "flanks": {
+                "left": {
+                  "depth": -0.000224429759067421,
+                  "error": 0.00023333844195524823,
+                  "snr": -0.9618207663804672
+                },
+                "right": {
+                  "depth": -0.00013992036198282894,
+                  "error": 0.00024374533843300465,
+                  "snr": -0.5740432325079611
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 1,
+          "left_only": {
+            "events": 6,
+            "positive_events": 5,
+            "depth": 0.0006826343890248232,
+            "error": 8.631517208083553e-05,
+            "nominal_snr": 7.908625709342562
+          },
+          "right_only": {
+            "events": 6,
+            "positive_events": 5,
+            "depth": 0.0008354598135353496,
+            "error": 8.675900440132223e-05,
+            "nominal_snr": 9.629661143536786
+          },
+          "degree": 2,
+          "width_scale": 1.25
+        }
+      ],
+      "points": 36836,
+      "sectors": [
+        14,
+        17,
+        18,
+        20,
+        21,
+        23,
+        77,
+        79,
+        80,
+        82,
+        84,
+        86
+      ]
+    },
+    "holdout": {
+      "original": {
+        "n_observed_events": 5,
+        "n_positive_events": 4,
+        "event_snr": [
+          {
+            "cycle": 1,
+            "center_btjd": 1744.1137625944082,
+            "points": 22,
+            "depth": 0.001304386524160761,
+            "error": 0.00019888507651996817,
+            "snr": 6.558493713980596
+          },
+          {
+            "cycle": 6,
+            "center_btjd": 1921.084513684751,
+            "points": 12,
+            "depth": 6.0033239779100356e-05,
+            "error": 0.0003334848369917338,
+            "snr": 0.18001789922637
+          },
+          {
+            "cycle": 49,
+            "center_btjd": 3443.0329730616986,
+            "points": 22,
+            "depth": -0.00012112893629301347,
+            "error": 0.00019837854876171823,
+            "snr": -0.6105949309998588
+          },
+          {
+            "cycle": 51,
+            "center_btjd": 3513.8212734978356,
+            "points": 22,
+            "depth": 0.0008746426268086971,
+            "error": 0.00020103793636672542,
+            "snr": 4.3506347240513294
+          },
+          {
+            "cycle": 54,
+            "center_btjd": 3620.0037241520413,
+            "points": 21,
+            "depth": 6.831236487481185e-05,
+            "error": 0.0001955410294308316,
+            "snr": 0.3493505433291987
+          }
+        ],
+        "fixed_ephemeris_snr": 5.122424033170518,
+        "single_event_power_fraction": 0.6926955345380686,
+        "odd_even_sigma": 3.021300760984642
+      },
+      "baselines": [
+        {
+          "events": 5,
+          "positive_events": 4,
+          "depth": 0.0003944251917530071,
+          "error": 9.905650707485079e-05,
+          "nominal_snr": 3.9818201085463745,
+          "event_measurements": [
+            {
+              "cycle": 1,
+              "center_btjd": 1744.1137625944082,
+              "degree": 0,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 44,
+              "right_points": 41,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0013911984079990716,
+              "error": 0.000206155533469701,
+              "snr": 6.748295253513232,
+              "coefficients": [
+                0.0006428553573989012
+              ],
+              "nominal_baseline_reduced_chi2": 1.7421078339586835,
+              "flanks": {
+                "left": {
+                  "depth": 0.0011724502264694105,
+                  "error": 0.0002246706067414835,
+                  "snr": 5.218529666492985
+                },
+                "right": {
+                  "depth": 0.0016338615324272008,
+                  "error": 0.00022872771179433609,
+                  "snr": 7.143260078150528
+                }
+              }
+            },
+            {
+              "cycle": 6,
+              "center_btjd": 1921.084513684751,
+              "degree": 0,
+              "width_scale": 0.75,
+              "inside_points": 12,
+              "left_points": 44,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 7.739353942225657e-05,
+              "error": 0.0003405365722192534,
+              "snr": 0.22726939111969152,
+              "coefficients": [
+                0.00039351000509891816
+              ],
+              "nominal_baseline_reduced_chi2": 0.7678658615434066,
+              "flanks": {
+                "left": {
+                  "depth": 0.0001772819338758144,
+                  "error": 0.00036020783758491557,
+                  "snr": 0.4921656759731717
+                },
+                "right": {
+                  "depth": -2.483648616643261e-05,
+                  "error": 0.00036111431498806655,
+                  "snr": -0.06877735148010779
+                }
+              }
+            },
+            {
+              "cycle": 49,
+              "center_btjd": 3443.0329730616986,
+              "degree": 0,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 43,
+              "right_points": 44,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": -0.0002649514343705002,
+              "error": 0.000205297055197604,
+              "snr": -1.290575912623185,
+              "coefficients": [
+                -5.933502982953965e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.3597214314810506,
+              "flanks": {
+                "left": {
+                  "depth": -3.017611366613735e-05,
+                  "error": 0.00022553993410472553,
+                  "snr": -0.133794991941984
+                },
+                "right": {
+                  "depth": -0.0004920548105254435,
+                  "error": 0.00022429352099018565,
+                  "snr": -2.1937985919217624
+                }
+              }
+            },
+            {
+              "cycle": 51,
+              "center_btjd": 3513.8212734978356,
+              "degree": 0,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 12,
+              "right_points": 44,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0005634707930949046,
+              "error": 0.00021459048111272696,
+              "snr": 2.6257958422624843,
+              "coefficients": [
+                -0.0001152929708397703
+              ],
+              "nominal_baseline_reduced_chi2": 1.2325457409239562,
+              "flanks": {
+                "left": {
+                  "depth": 0.0006424778807167162,
+                  "error": 0.00030600139836060484,
+                  "snr": 2.0995913226500793
+                },
+                "right": {
+                  "depth": 0.0005418973003880293,
+                  "error": 0.0002227043856779179,
+                  "snr": 2.4332583246552595
+                }
+              }
+            },
+            {
+              "cycle": 54,
+              "center_btjd": 3620.0037241520413,
+              "degree": 0,
+              "width_scale": 0.75,
+              "inside_points": 21,
+              "left_points": 43,
+              "right_points": 39,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 3.479382731816742e-05,
+              "error": 0.00020278142095999708,
+              "snr": 0.17158291500990733,
+              "coefficients": [
+                -6.6590480673004215e-06
+              ],
+              "nominal_baseline_reduced_chi2": 1.0212917113986808,
+              "flanks": {
+                "left": {
+                  "depth": 0.00021164631758427316,
+                  "error": 0.00022073552562406406,
+                  "snr": 0.9588230847114715
+                },
+                "right": {
+                  "depth": -0.00016019737989830834,
+                  "error": 0.0002244190902534032,
+                  "snr": -0.7138313399159635
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 0,
+          "left_only": {
+            "events": 5,
+            "positive_events": 4,
+            "depth": 0.0004491668496924593,
+            "error": 0.0001129528455523037,
+            "nominal_snr": 3.9765872873425674
+          },
+          "right_only": {
+            "events": 5,
+            "positive_events": 2,
+            "depth": 0.0003346176183600875,
+            "error": 0.00010740984232663706,
+            "nominal_snr": 3.1153347878726394
+          },
+          "degree": 0,
+          "width_scale": 0.75
+        },
+        {
+          "events": 5,
+          "positive_events": 4,
+          "depth": 0.0004871237759689143,
+          "error": 9.509633970465365e-05,
+          "nominal_snr": 5.122424033162617,
+          "event_measurements": [
+            {
+              "cycle": 1,
+              "center_btjd": 1744.1137625944082,
+              "degree": 0,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 65,
+              "right_points": 63,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0013043865241574538,
+              "error": 0.00019888507651996811,
+              "snr": 6.558493713963969,
+              "coefficients": [
+                0.0005560434735572833
+              ],
+              "nominal_baseline_reduced_chi2": 1.591029760057195,
+              "flanks": {
+                "left": {
+                  "depth": 0.0011818447205191695,
+                  "error": 0.00021222843748216965,
+                  "snr": 5.568738735205842
+                },
+                "right": {
+                  "depth": 0.0014362744534210015,
+                  "error": 0.00021426522322888058,
+                  "snr": 6.703255114278422
+                }
+              }
+            },
+            {
+              "cycle": 6,
+              "center_btjd": 1921.084513684751,
+              "degree": 0,
+              "width_scale": 1.0,
+              "inside_points": 12,
+              "left_points": 66,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 6.003323978120799e-05,
+              "error": 0.00033348483699173384,
+              "snr": 0.18001789923269,
+              "coefficients": [
+                0.0003761497054578696
+              ],
+              "nominal_baseline_reduced_chi2": 0.6825983223748097,
+              "flanks": {
+                "left": {
+                  "depth": 0.0001597042850044397,
+                  "error": 0.00034702178509423483,
+                  "snr": 0.46021400345534935
+                },
+                "right": {
+                  "depth": -4.118144763320475e-05,
+                  "error": 0.0003474358468057505,
+                  "snr": -0.11852964514691852
+                }
+              }
+            },
+            {
+              "cycle": 49,
+              "center_btjd": 3443.0329730616986,
+              "degree": 0,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 65,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": -0.00012112893629329743,
+              "error": 0.00019837854876171823,
+              "snr": -0.6105949310012903,
+              "coefficients": [
+                8.448746824766316e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.3617355797541606,
+              "flanks": {
+                "left": {
+                  "depth": -5.390367213682938e-05,
+                  "error": 0.0002122407637038715,
+                  "snr": -0.2539741715782665
+                },
+                "right": {
+                  "depth": -0.00018778092777311622,
+                  "error": 0.00021201291351444354,
+                  "snr": -0.8857051424856888
+                }
+              }
+            },
+            {
+              "cycle": 51,
+              "center_btjd": 3513.8212734978356,
+              "degree": 0,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 34,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.000874642626806777,
+              "error": 0.0002010379363667254,
+              "snr": 4.350634724041779,
+              "coefficients": [
+                0.00019587886287210205
+              ],
+              "nominal_baseline_reduced_chi2": 1.881070913379791,
+              "flanks": {
+                "left": {
+                  "depth": 0.0012681762141086629,
+                  "error": 0.000233316832097539,
+                  "snr": 5.43542530861424
+                },
+                "right": {
+                  "depth": 0.0006680198564527145,
+                  "error": 0.0002104312473161055,
+                  "snr": 3.1745278563559944
+                }
+              }
+            },
+            {
+              "cycle": 54,
+              "center_btjd": 3620.0037241520413,
+              "degree": 0,
+              "width_scale": 1.0,
+              "inside_points": 21,
+              "left_points": 65,
+              "right_points": 60,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 6.831236487619848e-05,
+              "error": 0.00019554102943083164,
+              "snr": 0.34935054333628984,
+              "coefficients": [
+                2.6859489490730628e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.868459726891647,
+              "flanks": {
+                "left": {
+                  "depth": 0.0002411363589930253,
+                  "error": 0.00020811770261162794,
+                  "snr": 1.1586537616312922
+                },
+                "right": {
+                  "depth": -0.00011891362875036395,
+                  "error": 0.00021022451541523386,
+                  "snr": -0.5656506260246892
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 0,
+          "left_only": {
+            "events": 5,
+            "positive_events": 4,
+            "depth": 0.0005865618593196643,
+            "error": 0.00010305270742840859,
+            "nominal_snr": 5.69186267839836
+          },
+          "right_only": {
+            "events": 5,
+            "positive_events": 2,
+            "depth": 0.000401556429609109,
+            "error": 0.0001012616993814255,
+            "nominal_snr": 3.9655312133026155
+          },
+          "degree": 0,
+          "width_scale": 1.0
+        },
+        {
+          "events": 5,
+          "positive_events": 4,
+          "depth": 0.0004582247063214806,
+          "error": 9.317956085416965e-05,
+          "nominal_snr": 4.917652563727184,
+          "event_measurements": [
+            {
+              "cycle": 1,
+              "center_btjd": 1744.1137625944082,
+              "degree": 0,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 87,
+              "right_points": 85,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0011863773996977811,
+              "error": 0.00019499982963036184,
+              "snr": 6.083991980642531,
+              "coefficients": [
+                0.0004380343490976107
+              ],
+              "nominal_baseline_reduced_chi2": 1.4547861129316502,
+              "flanks": {
+                "left": {
+                  "depth": 0.0011059962092641968,
+                  "error": 0.00020533087189077194,
+                  "snr": 5.386409744816863
+                },
+                "right": {
+                  "depth": 0.001271381196286934,
+                  "error": 0.00020651909531390613,
+                  "snr": 6.156240391981441
+                }
+              }
+            },
+            {
+              "cycle": 6,
+              "center_btjd": 1921.084513684751,
+              "degree": 0,
+              "width_scale": 1.25,
+              "inside_points": 12,
+              "left_points": 87,
+              "right_points": 87,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 3.301922989537635e-05,
+              "error": 0.0003300913313113669,
+              "snr": 0.1000305877897476,
+              "coefficients": [
+                0.00034913569557203794
+              ],
+              "nominal_baseline_reduced_chi2": 1.078057270810401,
+              "flanks": {
+                "left": {
+                  "depth": 0.00018899935444412186,
+                  "error": 0.00034082642647908053,
+                  "snr": 0.5545325707181405
+                },
+                "right": {
+                  "depth": -0.0001208046736861733,
+                  "error": 0.00034053619890106647,
+                  "snr": -0.3547484058259246
+                }
+              }
+            },
+            {
+              "cycle": 49,
+              "center_btjd": 3443.0329730616986,
+              "degree": 0,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 87,
+              "right_points": 87,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": -4.718477522179388e-05,
+              "error": 0.00019474620078135813,
+              "snr": -0.24228855316550335,
+              "coefficients": [
+                0.0001584316293191667
+              ],
+              "nominal_baseline_reduced_chi2": 1.4122076292422503,
+              "flanks": {
+                "left": {
+                  "depth": -8.8212313664309e-06,
+                  "error": 0.00020534261042491172,
+                  "snr": -0.042958601471839115
+                },
+                "right": {
+                  "depth": -8.5331885732714e-05,
+                  "error": 0.00020522642875920504,
+                  "snr": -0.4157938441390268
+                }
+              }
+            },
+            {
+              "cycle": 51,
+              "center_btjd": 3513.8212734978356,
+              "degree": 0,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 55,
+              "right_points": 87,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0007629322536240635,
+              "error": 0.00019551100121567447,
+              "snr": 3.902247182410203,
+              "coefficients": [
+                8.416848968938855e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.7071636832850534,
+              "flanks": {
+                "left": {
+                  "depth": 0.0010174651658005178,
+                  "error": 0.00021553529942156725,
+                  "snr": 4.7206428298802665
+                },
+                "right": {
+                  "depth": 0.0006030647809853242,
+                  "error": 0.0002036456168944837,
+                  "snr": 2.961344271395707
+                }
+              }
+            },
+            {
+              "cycle": 54,
+              "center_btjd": 3620.0037241520413,
+              "degree": 0,
+              "width_scale": 1.25,
+              "inside_points": 21,
+              "left_points": 87,
+              "right_points": 82,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 9.414440545589515e-05,
+              "error": 0.0001918447522721209,
+              "snr": 0.49073224229952694,
+              "coefficients": [
+                5.2691530070427304e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.866095431879324,
+              "flanks": {
+                "left": {
+                  "depth": 0.0002140984191677016,
+                  "error": 0.0002015898804283061,
+                  "snr": 1.0620494377635392
+                },
+                "right": {
+                  "depth": -3.312387738468017e-05,
+                  "error": 0.00020278142095999708,
+                  "snr": -0.16334769343200606
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 0,
+          "left_only": {
+            "events": 5,
+            "positive_events": 4,
+            "depth": 0.000536531554097032,
+            "error": 9.892915626600234e-05,
+            "nominal_snr": 5.4233915899817955
+          },
+          "right_only": {
+            "events": 5,
+            "positive_events": 2,
+            "depth": 0.00038829747948093864,
+            "error": 9.794297064947596e-05,
+            "nominal_snr": 3.964526263662151
+          },
+          "degree": 0,
+          "width_scale": 1.25
+        },
+        {
+          "events": 5,
+          "positive_events": 4,
+          "depth": 0.00038036699893681503,
+          "error": 0.00010068215326332838,
+          "nominal_snr": 3.7778989285418545,
+          "event_measurements": [
+            {
+              "cycle": 1,
+              "center_btjd": 1744.1137625944082,
+              "degree": 1,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 44,
+              "right_points": 41,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0014055705225518597,
+              "error": 0.00020621560808572616,
+              "snr": 6.816023945033046,
+              "coefficients": [
+                0.0006588945563218985,
+                0.0001319210907383264
+              ],
+              "nominal_baseline_reduced_chi2": 1.662639211835066,
+              "flanks": {
+                "left": {
+                  "depth": 0.0011724502264694105,
+                  "error": 0.0002246706067414835,
+                  "snr": 5.218529666492985
+                },
+                "right": {
+                  "depth": 0.0016338615324272008,
+                  "error": 0.00022872771179433609,
+                  "snr": 7.143260078150528
+                }
+              }
+            },
+            {
+              "cycle": 6,
+              "center_btjd": 1921.084513684751,
+              "degree": 1,
+              "width_scale": 0.75,
+              "inside_points": 12,
+              "left_points": 44,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 7.89001523012214e-05,
+              "error": 0.00034054009774070845,
+              "snr": 0.23169122468889694,
+              "coefficients": [
+                0.0003924447879189632,
+                -5.553311335810043e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.7657780341974578,
+              "flanks": {
+                "left": {
+                  "depth": 0.0001772819338758144,
+                  "error": 0.00036020783758491557,
+                  "snr": 0.4921656759731717
+                },
+                "right": {
+                  "depth": -2.483648616643261e-05,
+                  "error": 0.00036111431498806655,
+                  "snr": -0.06877735148010779
+                }
+              }
+            },
+            {
+              "cycle": 49,
+              "center_btjd": 3443.0329730616986,
+              "degree": 1,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 43,
+              "right_points": 44,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": -0.00026222239956430135,
+              "error": 0.00020530005166410632,
+              "snr": -1.2772641674407677,
+              "coefficients": [
+                -5.5054895317558866e-05,
+                -0.00010857522591478557
+              ],
+              "nominal_baseline_reduced_chi2": 1.3045027552270494,
+              "flanks": {
+                "left": {
+                  "depth": -3.017611366613735e-05,
+                  "error": 0.00022553993410472553,
+                  "snr": -0.133794991941984
+                },
+                "right": {
+                  "depth": -0.0004920548105254435,
+                  "error": 0.00022429352099018565,
+                  "snr": -2.1937985919217624
+                }
+              }
+            },
+            {
+              "cycle": 51,
+              "center_btjd": 3513.8212734978356,
+              "degree": 1,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 12,
+              "right_points": 44,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0005104520531517982,
+              "error": 0.00023260774714048185,
+              "snr": 2.1944757190030915,
+              "coefficients": [
+                -0.0001688201955267453,
+                4.3093296947875234e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.2489100140653084,
+              "flanks": {
+                "left": {
+                  "depth": 0.0006424778807167162,
+                  "error": 0.00030600139836060484,
+                  "snr": 2.0995913226500793
+                },
+                "right": {
+                  "depth": 0.0005418973003880293,
+                  "error": 0.0002227043856779179,
+                  "snr": 2.4332583246552595
+                }
+              }
+            },
+            {
+              "cycle": 54,
+              "center_btjd": 3620.0037241520413,
+              "degree": 1,
+              "width_scale": 0.75,
+              "inside_points": 21,
+              "left_points": 43,
+              "right_points": 39,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 2.3741206872327555e-05,
+              "error": 0.00020284848086450955,
+              "snr": 0.11703911595071416,
+              "coefficients": [
+                -1.834483080682462e-05,
+                -9.488285829515557e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.9779210603877949,
+              "flanks": {
+                "left": {
+                  "depth": 0.00021164631758427316,
+                  "error": 0.00022073552562406406,
+                  "snr": 0.9588230847114715
+                },
+                "right": {
+                  "depth": -0.00016019737989830834,
+                  "error": 0.0002244190902534032,
+                  "snr": -0.7138313399159635
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 0,
+          "left_only": {
+            "events": 5,
+            "positive_events": 4,
+            "depth": 0.0004491668496924593,
+            "error": 0.0001129528455523037,
+            "nominal_snr": 3.9765872873425674
+          },
+          "right_only": {
+            "events": 5,
+            "positive_events": 2,
+            "depth": 0.0003346176183600875,
+            "error": 0.00010740984232663706,
+            "nominal_snr": 3.1153347878726394
+          },
+          "degree": 1,
+          "width_scale": 0.75
+        },
+        {
+          "events": 5,
+          "positive_events": 4,
+          "depth": 0.000498187801739419,
+          "error": 9.521344755980282e-05,
+          "nominal_snr": 5.232326047499868,
+          "event_measurements": [
+            {
+              "cycle": 1,
+              "center_btjd": 1744.1137625944082,
+              "degree": 1,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 65,
+              "right_points": 63,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.001307545363955087,
+              "error": 0.0001988972286479088,
+              "snr": 6.573974775031811,
+              "coefficients": [
+                0.0005597322047077303,
+                4.1931798105230615e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.5872742281343273,
+              "flanks": {
+                "left": {
+                  "depth": 0.0011818447205191695,
+                  "error": 0.00021222843748216965,
+                  "snr": 5.568738735205842
+                },
+                "right": {
+                  "depth": 0.0014362744534210015,
+                  "error": 0.00021426522322888058,
+                  "snr": 6.703255114278422
+                }
+              }
+            },
+            {
+              "cycle": 6,
+              "center_btjd": 1921.084513684751,
+              "degree": 1,
+              "width_scale": 1.0,
+              "inside_points": 12,
+              "left_points": 66,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 6.117545871700927e-05,
+              "error": 0.0003334867394627861,
+              "snr": 0.18344195279115694,
+              "coefficients": [
+                0.0003755801469368755,
+                -3.6962135667697206e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.679919318006228,
+              "flanks": {
+                "left": {
+                  "depth": 0.0001597042850044397,
+                  "error": 0.00034702178509423483,
+                  "snr": 0.46021400345534935
+                },
+                "right": {
+                  "depth": -4.118144763320475e-05,
+                  "error": 0.0003474358468057505,
+                  "snr": -0.11852964514691852
+                }
+              }
+            },
+            {
+              "cycle": 49,
+              "center_btjd": 3443.0329730616986,
+              "degree": 1,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 65,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": -0.00012117752717260555,
+              "error": 0.00019837879639462354,
+              "snr": -0.6108391086895902,
+              "coefficients": [
+                8.450189185093716e-05,
+                -4.410942544024126e-06
+              ],
+              "nominal_baseline_reduced_chi2": 1.3721863949054287,
+              "flanks": {
+                "left": {
+                  "depth": -5.390367213682938e-05,
+                  "error": 0.0002122407637038715,
+                  "snr": -0.2539741715782665
+                },
+                "right": {
+                  "depth": -0.00018778092777311622,
+                  "error": 0.00021201291351444354,
+                  "snr": -0.8857051424856888
+                }
+              }
+            },
+            {
+              "cycle": 51,
+              "center_btjd": 3513.8212734978356,
+              "degree": 1,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 34,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.0009321701889729053,
+              "error": 0.00020211562545899904,
+              "snr": 4.612063945357873,
+              "coefficients": [
+                0.0002544513724404071,
+                -8.855767894692006e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.8219369011344304,
+              "flanks": {
+                "left": {
+                  "depth": 0.0012681762141086629,
+                  "error": 0.000233316832097539,
+                  "snr": 5.43542530861424
+                },
+                "right": {
+                  "depth": 0.0006680198564527145,
+                  "error": 0.0002104312473161055,
+                  "snr": 3.1745278563559944
+                }
+              }
+            },
+            {
+              "cycle": 54,
+              "center_btjd": 3620.0037241520413,
+              "degree": 1,
+              "width_scale": 1.0,
+              "inside_points": 21,
+              "left_points": 65,
+              "right_points": 60,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 6.163715955706513e-05,
+              "error": 0.00019556136171933221,
+              "snr": 0.31518066255606353,
+              "coefficients": [
+                1.9740662915720084e-05,
+                -6.64790894498546e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.8299641834675759,
+              "flanks": {
+                "left": {
+                  "depth": 0.0002411363589930253,
+                  "error": 0.00020811770261162794,
+                  "snr": 1.1586537616312922
+                },
+                "right": {
+                  "depth": -0.00011891362875036395,
+                  "error": 0.00021022451541523386,
+                  "snr": -0.5656506260246892
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 0,
+          "left_only": {
+            "events": 5,
+            "positive_events": 4,
+            "depth": 0.0005865618593196643,
+            "error": 0.00010305270742840859,
+            "nominal_snr": 5.69186267839836
+          },
+          "right_only": {
+            "events": 5,
+            "positive_events": 2,
+            "depth": 0.000401556429609109,
+            "error": 0.0001012616993814255,
+            "nominal_snr": 3.9655312133026155
+          },
+          "degree": 1,
+          "width_scale": 1.0
+        },
+        {
+          "events": 5,
+          "positive_events": 4,
+          "depth": 0.0004633044013386405,
+          "error": 9.32124284105151e-05,
+          "nominal_snr": 4.9704144526544285,
+          "event_measurements": [
+            {
+              "cycle": 1,
+              "center_btjd": 1744.1137625944082,
+              "degree": 1,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 87,
+              "right_points": 85,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0011872756511830242,
+              "error": 0.00019500287895670118,
+              "snr": 6.088503193056186,
+              "coefficients": [
+                0.0004391460082849553,
+                1.6887553705304974e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.4593527360999878,
+              "flanks": {
+                "left": {
+                  "depth": 0.0011059962092641968,
+                  "error": 0.00020533087189077194,
+                  "snr": 5.386409744816863
+                },
+                "right": {
+                  "depth": 0.001271381196286934,
+                  "error": 0.00020651909531390613,
+                  "snr": 6.156240391981441
+                }
+              }
+            },
+            {
+              "cycle": 6,
+              "center_btjd": 1921.084513684751,
+              "degree": 1,
+              "width_scale": 1.25,
+              "inside_points": 12,
+              "left_points": 87,
+              "right_points": 87,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 3.769957620321934e-05,
+              "error": 0.00033010086244387397,
+              "snr": 0.11420623358604307,
+              "coefficients": [
+                0.0003515397100218242,
+                -4.915246817171629e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.064084946382819,
+              "flanks": {
+                "left": {
+                  "depth": 0.00018899935444412186,
+                  "error": 0.00034082642647908053,
+                  "snr": 0.5545325707181405
+                },
+                "right": {
+                  "depth": -0.0001208046736861733,
+                  "error": 0.00034053619890106647,
+                  "snr": -0.3547484058259246
+                }
+              }
+            },
+            {
+              "cycle": 49,
+              "center_btjd": 3443.0329730616986,
+              "degree": 1,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 87,
+              "right_points": 87,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": -4.716946577489468e-05,
+              "error": 0.0001947464563579434,
+              "snr": -0.24220962299923623,
+              "coefficients": [
+                0.00015843294874776993,
+                9.792854652577583e-07
+              ],
+              "nominal_baseline_reduced_chi2": 1.4204044497620816,
+              "flanks": {
+                "left": {
+                  "depth": -8.8212313664309e-06,
+                  "error": 0.00020534261042491172,
+                  "snr": -0.042958601471839115
+                },
+                "right": {
+                  "depth": -8.5331885732714e-05,
+                  "error": 0.00020522642875920504,
+                  "snr": -0.4157938441390268
+                }
+              }
+            },
+            {
+              "cycle": 51,
+              "center_btjd": 3513.8212734978356,
+              "degree": 1,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 55,
+              "right_points": 87,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0007859347691614344,
+              "error": 0.0001958038758594036,
+              "snr": 4.013887701210637,
+              "coefficients": [
+                0.00010771839772845367,
+                -4.639066935044525e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.6863804549981378,
+              "flanks": {
+                "left": {
+                  "depth": 0.0010174651658005178,
+                  "error": 0.00021553529942156725,
+                  "snr": 4.7206428298802665
+                },
+                "right": {
+                  "depth": 0.0006030647809853242,
+                  "error": 0.0002036456168944837,
+                  "snr": 2.961344271395707
+                }
+              }
+            },
+            {
+              "cycle": 54,
+              "center_btjd": 3620.0037241520413,
+              "degree": 1,
+              "width_scale": 1.25,
+              "inside_points": 21,
+              "left_points": 87,
+              "right_points": 82,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 9.198313942326355e-05,
+              "error": 0.0001918503470223719,
+              "snr": 0.47945255690643745,
+              "coefficients": [
+                5.033607098418512e-05,
+                -2.9100899045045014e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.8582519737252315,
+              "flanks": {
+                "left": {
+                  "depth": 0.0002140984191677016,
+                  "error": 0.0002015898804283061,
+                  "snr": 1.0620494377635392
+                },
+                "right": {
+                  "depth": -3.312387738468017e-05,
+                  "error": 0.00020278142095999708,
+                  "snr": -0.16334769343200606
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 0,
+          "left_only": {
+            "events": 5,
+            "positive_events": 4,
+            "depth": 0.000536531554097032,
+            "error": 9.892915626600234e-05,
+            "nominal_snr": 5.4233915899817955
+          },
+          "right_only": {
+            "events": 5,
+            "positive_events": 2,
+            "depth": 0.00038829747948093864,
+            "error": 9.794297064947596e-05,
+            "nominal_snr": 3.964526263662151
+          },
+          "degree": 1,
+          "width_scale": 1.25
+        },
+        {
+          "events": 5,
+          "positive_events": 3,
+          "depth": 0.0002503981534722794,
+          "error": 0.00012662403167864353,
+          "nominal_snr": 1.9774931358034755,
+          "event_measurements": [
+            {
+              "cycle": 1,
+              "center_btjd": 1744.1137625944082,
+              "degree": 2,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 44,
+              "right_points": 41,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.0009840547720929053,
+              "error": 0.00026568653425529214,
+              "snr": 3.703818768426365,
+              "coefficients": [
+                0.00022875861310412476,
+                0.000137954446596584,
+                0.00010127766852709207
+              ],
+              "nominal_baseline_reduced_chi2": 1.6057082227225852,
+              "flanks": {
+                "left": {
+                  "depth": 0.0011724502264694105,
+                  "error": 0.0002246706067414835,
+                  "snr": 5.218529666492985
+                },
+                "right": {
+                  "depth": 0.0016338615324272008,
+                  "error": 0.00022872771179433609,
+                  "snr": 7.143260078150528
+                }
+              }
+            },
+            {
+              "cycle": 6,
+              "center_btjd": 1921.084513684751,
+              "degree": 2,
+              "width_scale": 0.75,
+              "inside_points": 12,
+              "left_points": 44,
+              "right_points": 43,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": -0.00024557608284671317,
+              "error": 0.00040201554500034155,
+              "snr": -0.6108621567021856,
+              "coefficients": [
+                5.844323063068419e-05,
+                -5.5012469573778124e-05,
+                7.723056483954951e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.7474372674633811,
+              "flanks": {
+                "left": {
+                  "depth": 0.0001772819338758144,
+                  "error": 0.00036020783758491557,
+                  "snr": 0.4921656759731717
+                },
+                "right": {
+                  "depth": -2.483648616643261e-05,
+                  "error": 0.00036111431498806655,
+                  "snr": -0.06877735148010779
+                }
+              }
+            },
+            {
+              "cycle": 49,
+              "center_btjd": 3443.0329730616986,
+              "degree": 2,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 43,
+              "right_points": 44,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": -7.091475082277287e-05,
+              "error": 0.00026487773159586283,
+              "snr": -0.2677263596132386,
+              "coefficients": [
+                0.0001401036795268272,
+                -0.00010733967196561531,
+                -4.504561140292861e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.3044786360152458,
+              "flanks": {
+                "left": {
+                  "depth": -3.017611366613735e-05,
+                  "error": 0.00022553993410472553,
+                  "snr": -0.133794991941984
+                },
+                "right": {
+                  "depth": -0.0004920548105254435,
+                  "error": 0.00022429352099018565,
+                  "snr": -2.1937985919217624
+                }
+              }
+            },
+            {
+              "cycle": 51,
+              "center_btjd": 3513.8212734978356,
+              "degree": 2,
+              "width_scale": 0.75,
+              "inside_points": 22,
+              "left_points": 12,
+              "right_points": 44,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.00014266970871708534,
+              "error": 0.000278386065140571,
+              "snr": 0.5124886859730005,
+              "coefficients": [
+                -0.0005459494114286067,
+                -3.839763608265129e-05,
+                0.00012006638361537024
+              ],
+              "nominal_baseline_reduced_chi2": 1.1633729319038255,
+              "flanks": {
+                "left": {
+                  "depth": 0.0006424778807167162,
+                  "error": 0.00030600139836060484,
+                  "snr": 2.0995913226500793
+                },
+                "right": {
+                  "depth": 0.0005418973003880293,
+                  "error": 0.0002227043856779179,
+                  "snr": 2.4332583246552595
+                }
+              }
+            },
+            {
+              "cycle": 54,
+              "center_btjd": 3620.0037241520413,
+              "degree": 2,
+              "width_scale": 0.75,
+              "inside_points": 21,
+              "left_points": 43,
+              "right_points": 39,
+              "outer_days": 0.45147180902128436,
+              "status": "measured",
+              "depth": 0.00015922383620012035,
+              "error": 0.00025942630797449995,
+              "snr": 0.6137536221491118,
+              "coefficients": [
+                0.00011969942067473883,
+                -9.665718267164065e-05,
+                -3.2940673457329155e-05
+              ],
+              "nominal_baseline_reduced_chi2": 0.9814161123979122,
+              "flanks": {
+                "left": {
+                  "depth": 0.00021164631758427316,
+                  "error": 0.00022073552562406406,
+                  "snr": 0.9588230847114715
+                },
+                "right": {
+                  "depth": -0.00016019737989830834,
+                  "error": 0.0002244190902534032,
+                  "snr": -0.7138313399159635
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 0,
+          "left_only": {
+            "events": 5,
+            "positive_events": 4,
+            "depth": 0.0004491668496924593,
+            "error": 0.0001129528455523037,
+            "nominal_snr": 3.9765872873425674
+          },
+          "right_only": {
+            "events": 5,
+            "positive_events": 2,
+            "depth": 0.0003346176183600875,
+            "error": 0.00010740984232663706,
+            "nominal_snr": 3.1153347878726394
+          },
+          "degree": 2,
+          "width_scale": 0.75
+        },
+        {
+          "events": 5,
+          "positive_events": 3,
+          "depth": 0.0003339781359449958,
+          "error": 0.00011135473263146964,
+          "nominal_snr": 2.9992271370297483,
+          "event_measurements": [
+            {
+              "cycle": 1,
+              "center_btjd": 1744.1137625944082,
+              "degree": 2,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 65,
+              "right_points": 63,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.001348630760908561,
+              "error": 0.00023202143871402752,
+              "snr": 5.812526499203307,
+              "coefficients": [
+                0.0006013327738270273,
+                4.19655090528309e-05,
+                -5.994673002073179e-06
+              ],
+              "nominal_baseline_reduced_chi2": 1.5990263501028976,
+              "flanks": {
+                "left": {
+                  "depth": 0.0011818447205191695,
+                  "error": 0.00021222843748216965,
+                  "snr": 5.568738735205842
+                },
+                "right": {
+                  "depth": 0.0014362744534210015,
+                  "error": 0.00021426522322888058,
+                  "snr": 6.703255114278422
+                }
+              }
+            },
+            {
+              "cycle": 6,
+              "center_btjd": 1921.084513684751,
+              "degree": 2,
+              "width_scale": 1.0,
+              "inside_points": 12,
+              "left_points": 66,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": -1.3830568773377295e-06,
+              "error": 0.00036620000932909317,
+              "snr": -0.003776780016667932,
+              "coefficients": [
+                0.0003119072558753201,
+                -3.6877837617474485e-05,
+                9.044028512628294e-06
+              ],
+              "nominal_baseline_reduced_chi2": 0.6838954065753313,
+              "flanks": {
+                "left": {
+                  "depth": 0.0001597042850044397,
+                  "error": 0.00034702178509423483,
+                  "snr": 0.46021400345534935
+                },
+                "right": {
+                  "depth": -4.118144763320475e-05,
+                  "error": 0.0003474358468057505,
+                  "snr": -0.11852964514691852
+                }
+              }
+            },
+            {
+              "cycle": 49,
+              "center_btjd": 3443.0329730616986,
+              "degree": 2,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 65,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": -0.00033919220128763504,
+              "error": 0.00023113068472540224,
+              "snr": -1.467534272615584,
+              "coefficients": [
+                -0.00013623965340828028,
+                -3.905436160791e-06,
+                3.1667527842258204e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.3563862959265216,
+              "flanks": {
+                "left": {
+                  "depth": -5.390367213682938e-05,
+                  "error": 0.0002122407637038715,
+                  "snr": -0.2539741715782665
+                },
+                "right": {
+                  "depth": -0.00018778092777311622,
+                  "error": 0.00021201291351444354,
+                  "snr": -0.8857051424856888
+                }
+              }
+            },
+            {
+              "cycle": 51,
+              "center_btjd": 3513.8212734978356,
+              "degree": 2,
+              "width_scale": 1.0,
+              "inside_points": 22,
+              "left_points": 34,
+              "right_points": 65,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 0.00040870853631854906,
+              "error": 0.0002463052628289302,
+              "snr": 1.659357707684935,
+              "coefficients": [
+                -0.0002750774279260404,
+                -7.115326348212405e-05,
+                6.827448167945461e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.696872383753096,
+              "flanks": {
+                "left": {
+                  "depth": 0.0012681762141086629,
+                  "error": 0.000233316832097539,
+                  "snr": 5.43542530861424
+                },
+                "right": {
+                  "depth": 0.0006680198564527145,
+                  "error": 0.0002104312473161055,
+                  "snr": 3.1745278563559944
+                }
+              }
+            },
+            {
+              "cycle": 54,
+              "center_btjd": 3620.0037241520413,
+              "degree": 2,
+              "width_scale": 1.0,
+              "inside_points": 21,
+              "left_points": 65,
+              "right_points": 60,
+              "outer_days": 0.6019624120283792,
+              "status": "measured",
+              "depth": 7.753471643217406e-05,
+              "error": 0.0002269761486596125,
+              "snr": 0.34159851988875684,
+              "coefficients": [
+                3.5817977725464866e-05,
+                -6.649213788471031e-05,
+                -2.302040904499356e-06
+              ],
+              "nominal_baseline_reduced_chi2": 0.8366111050011038,
+              "flanks": {
+                "left": {
+                  "depth": 0.0002411363589930253,
+                  "error": 0.00020811770261162794,
+                  "snr": 1.1586537616312922
+                },
+                "right": {
+                  "depth": -0.00011891362875036395,
+                  "error": 0.00021022451541523386,
+                  "snr": -0.5656506260246892
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 0,
+          "left_only": {
+            "events": 5,
+            "positive_events": 4,
+            "depth": 0.0005865618593196643,
+            "error": 0.00010305270742840859,
+            "nominal_snr": 5.69186267839836
+          },
+          "right_only": {
+            "events": 5,
+            "positive_events": 2,
+            "depth": 0.000401556429609109,
+            "error": 0.0001012616993814255,
+            "nominal_snr": 3.9655312133026155
+          },
+          "degree": 2,
+          "width_scale": 1.0
+        },
+        {
+          "events": 5,
+          "positive_events": 4,
+          "depth": 0.0004601706255690037,
+          "error": 0.00010428557695373539,
+          "nominal_snr": 4.412600850577362,
+          "event_measurements": [
+            {
+              "cycle": 1,
+              "center_btjd": 1744.1137625944082,
+              "degree": 2,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 87,
+              "right_points": 85,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0014801571053454088,
+              "error": 0.00021734848725919704,
+              "snr": 6.810063985309731,
+              "coefficients": [
+                0.0007344754488258032,
+                1.7860824114961716e-05,
+                -2.836572522590072e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.4129024436151227,
+              "flanks": {
+                "left": {
+                  "depth": 0.0011059962092641968,
+                  "error": 0.00020533087189077194,
+                  "snr": 5.386409744816863
+                },
+                "right": {
+                  "depth": 0.001271381196286934,
+                  "error": 0.00020651909531390613,
+                  "snr": 6.156240391981441
+                }
+              }
+            },
+            {
+              "cycle": 6,
+              "center_btjd": 1921.084513684751,
+              "degree": 2,
+              "width_scale": 1.25,
+              "inside_points": 12,
+              "left_points": 87,
+              "right_points": 87,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 3.6163313946072344e-05,
+              "error": 0.00035197847978431235,
+              "snr": 0.10274296874125013,
+              "coefficients": [
+                0.0003499841397142937,
+                -4.916354148428813e-05,
+                1.520054483779432e-07
+              ],
+              "nominal_baseline_reduced_chi2": 1.0703067404570494,
+              "flanks": {
+                "left": {
+                  "depth": 0.00018899935444412186,
+                  "error": 0.00034082642647908053,
+                  "snr": 0.5545325707181405
+                },
+                "right": {
+                  "depth": -0.0001208046736861733,
+                  "error": 0.00034053619890106647,
+                  "snr": -0.3547484058259246
+                }
+              }
+            },
+            {
+              "cycle": 49,
+              "center_btjd": 3443.0329730616986,
+              "degree": 2,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 87,
+              "right_points": 87,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": -0.00025245642514733815,
+              "error": 0.0002164868425596352,
+              "snr": -1.1661513566478963,
+              "coefficients": [
+                -4.857770583076461e-05,
+                1.3969652095825724e-06,
+                2.0001182955296316e-05
+              ],
+              "nominal_baseline_reduced_chi2": 1.4011450777686936,
+              "flanks": {
+                "left": {
+                  "depth": -8.8212313664309e-06,
+                  "error": 0.00020534261042491172,
+                  "snr": -0.042958601471839115
+                },
+                "right": {
+                  "depth": -8.5331885732714e-05,
+                  "error": 0.00020522642875920504,
+                  "snr": -0.4157938441390268
+                }
+              }
+            },
+            {
+              "cycle": 51,
+              "center_btjd": 3513.8212734978356,
+              "degree": 2,
+              "width_scale": 1.25,
+              "inside_points": 22,
+              "left_points": 55,
+              "right_points": 87,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 0.0007507130091468461,
+              "error": 0.00022720446646140358,
+              "snr": 3.304129627550142,
+              "coefficients": [
+                7.222220221770927e-05,
+                -4.565168451363251e-05,
+                3.094895858266822e-06
+              ],
+              "nominal_baseline_reduced_chi2": 1.6978407638615989,
+              "flanks": {
+                "left": {
+                  "depth": 0.0010174651658005178,
+                  "error": 0.00021553529942156725,
+                  "snr": 4.7206428298802665
+                },
+                "right": {
+                  "depth": 0.0006030647809853242,
+                  "error": 0.0002036456168944837,
+                  "snr": 2.961344271395707
+                }
+              }
+            },
+            {
+              "cycle": 54,
+              "center_btjd": 3620.0037241520413,
+              "degree": 2,
+              "width_scale": 1.25,
+              "inside_points": 21,
+              "left_points": 87,
+              "right_points": 82,
+              "outer_days": 0.752453015035474,
+              "status": "measured",
+              "depth": 6.965437825819759e-05,
+              "error": 0.00021319563307898903,
+              "snr": 0.3267157833030784,
+              "coefficients": [
+                2.7839063397370174e-05,
+                -2.9133443466722156e-05,
+                2.150797568402692e-06
+              ],
+              "nominal_baseline_reduced_chi2": 0.8630747782974373,
+              "flanks": {
+                "left": {
+                  "depth": 0.0002140984191677016,
+                  "error": 0.0002015898804283061,
+                  "snr": 1.0620494377635392
+                },
+                "right": {
+                  "depth": -3.312387738468017e-05,
+                  "error": 0.00020278142095999708,
+                  "snr": -0.16334769343200606
+                }
+              }
+            }
+          ],
+          "rejected_for_coverage": 0,
+          "left_only": {
+            "events": 5,
+            "positive_events": 4,
+            "depth": 0.000536531554097032,
+            "error": 9.892915626600234e-05,
+            "nominal_snr": 5.4233915899817955
+          },
+          "right_only": {
+            "events": 5,
+            "positive_events": 2,
+            "depth": 0.00038829747948093864,
+            "error": 9.794297064947596e-05,
+            "nominal_snr": 3.964526263662151
+          },
+          "degree": 2,
+          "width_scale": 1.25
+        }
+      ],
+      "points": 17482,
+      "sectors": [
+        16,
+        19,
+        22,
+        78,
+        81,
+        85
+      ]
+    }
+  }
+}

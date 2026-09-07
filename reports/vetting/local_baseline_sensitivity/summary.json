@@ -1,0 +1,2731 @@
+{
+  "completed_utc": "2026-09-07T10:43:47.550385+00:00",
+  "plan_sha256": "308d71024318c2d3b61db6d6d064a21c2f86e05afdac4ee584b5784e8f788a6e",
+  "direct_checks": 206,
+  "rows": [
+    {
+      "id": "local_total_PDCSAP_FLUX",
+      "tic": 233738219,
+      "kind": "unmodified_trial",
+      "period_days": 35.394150218068546,
+      "epoch_btjd": 1708.7196123763397,
+      "duration_days": 0.1504906030070948,
+      "parts": {
+        "training": {
+          "original_snr": 13.303280502119517,
+          "original_events": 7,
+          "baselines": [
+            {
+              "events": 6,
+              "positive_events": 5,
+              "depth": 0.0006687711696098934,
+              "error": 8.622858352057996e-05,
+              "nominal_snr": 7.755794451271247,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 4,
+                "depth": 0.0005256638940040543,
+                "error": 9.49614229569154e-05,
+                "nominal_snr": 5.535551991913088
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0008138939674197268,
+                "error": 9.438531462385542e-05,
+                "nominal_snr": 8.623099585600354
+              },
+              "degree": 0,
+              "width_scale": 0.75
+            },
+            {
+              "events": 6,
+              "positive_events": 5,
+              "depth": 0.0007741936016606245,
+              "error": 8.341058136131459e-05,
+              "nominal_snr": 9.281719285794257,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0006954387381926621,
+                "error": 8.91104174312505e-05,
+                "nominal_snr": 7.804236117838854
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0008774713585257292,
+                "error": 8.990748294500042e-05,
+                "nominal_snr": 9.759714428469868
+              },
+              "degree": 0,
+              "width_scale": 1.0
+            },
+            {
+              "events": 6,
+              "positive_events": 5,
+              "depth": 0.0007509286512090369,
+              "error": 8.183693867175657e-05,
+              "nominal_snr": 9.175913266024896,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0006826343890248232,
+                "error": 8.631517208083553e-05,
+                "nominal_snr": 7.908625709342562
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0008354598135353496,
+                "error": 8.675900440132223e-05,
+                "nominal_snr": 9.629661143536786
+              },
+              "degree": 0,
+              "width_scale": 1.25
+            },
+            {
+              "events": 6,
+              "positive_events": 5,
+              "depth": 0.0006726192981341373,
+              "error": 8.624829078394733e-05,
+              "nominal_snr": 7.798639161662393,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 4,
+                "depth": 0.0005256638940040543,
+                "error": 9.49614229569154e-05,
+                "nominal_snr": 5.535551991913088
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0008138939674197268,
+                "error": 9.438531462385542e-05,
+                "nominal_snr": 8.623099585600354
+              },
+              "degree": 1,
+              "width_scale": 0.75
+            },
+            {
+              "events": 6,
+              "positive_events": 5,
+              "depth": 0.0007850824534646008,
+              "error": 8.351671187520733e-05,
+              "nominal_snr": 9.400303673804709,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0006954387381926621,
+                "error": 8.91104174312505e-05,
+                "nominal_snr": 7.804236117838854
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0008774713585257292,
+                "error": 8.990748294500042e-05,
+                "nominal_snr": 9.759714428469868
+              },
+              "degree": 1,
+              "width_scale": 1.0
+            },
+            {
+              "events": 6,
+              "positive_events": 5,
+              "depth": 0.0007555592662052958,
+              "error": 8.187748199561924e-05,
+              "nominal_snr": 9.227925038604889,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0006826343890248232,
+                "error": 8.631517208083553e-05,
+                "nominal_snr": 7.908625709342562
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0008354598135353496,
+                "error": 8.675900440132223e-05,
+                "nominal_snr": 9.629661143536786
+              },
+              "degree": 1,
+              "width_scale": 1.25
+            },
+            {
+              "events": 6,
+              "positive_events": 5,
+              "depth": 0.0007640849914339669,
+              "error": 0.00011257138476442472,
+              "nominal_snr": 6.787559671873524,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 4,
+                "depth": 0.0005256638940040543,
+                "error": 9.49614229569154e-05,
+                "nominal_snr": 5.535551991913088
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0008138939674197268,
+                "error": 9.438531462385542e-05,
+                "nominal_snr": 8.623099585600354
+              },
+              "degree": 2,
+              "width_scale": 0.75
+            },
+            {
+              "events": 6,
+              "positive_events": 5,
+              "depth": 0.0004979037436351319,
+              "error": 9.809147607040724e-05,
+              "nominal_snr": 5.07591243991222,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0006954387381926621,
+                "error": 8.91104174312505e-05,
+                "nominal_snr": 7.804236117838854
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0008774713585257292,
+                "error": 8.990748294500042e-05,
+                "nominal_snr": 9.759714428469868
+              },
+              "degree": 2,
+              "width_scale": 1.0
+            },
+            {
+              "events": 6,
+              "positive_events": 5,
+              "depth": 0.0006938526036936617,
+              "error": 9.116464040547805e-05,
+              "nominal_snr": 7.610983826707097,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0006826343890248232,
+                "error": 8.631517208083553e-05,
+                "nominal_snr": 7.908625709342562
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0008354598135353496,
+                "error": 8.675900440132223e-05,
+                "nominal_snr": 9.629661143536786
+              },
+              "degree": 2,
+              "width_scale": 1.25
+            }
+          ]
+        },
+        "holdout": {
+          "original_snr": 5.122424033170518,
+          "original_events": 5,
+          "baselines": [
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 0.0003944251917530071,
+              "error": 9.905650707485079e-05,
+              "nominal_snr": 3.9818201085463745,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.0004491668496924593,
+                "error": 0.0001129528455523037,
+                "nominal_snr": 3.9765872873425674
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 2,
+                "depth": 0.0003346176183600875,
+                "error": 0.00010740984232663706,
+                "nominal_snr": 3.1153347878726394
+              },
+              "degree": 0,
+              "width_scale": 0.75
+            },
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 0.0004871237759689143,
+              "error": 9.509633970465365e-05,
+              "nominal_snr": 5.122424033162617,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.0005865618593196643,
+                "error": 0.00010305270742840859,
+                "nominal_snr": 5.69186267839836
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 2,
+                "depth": 0.000401556429609109,
+                "error": 0.0001012616993814255,
+                "nominal_snr": 3.9655312133026155
+              },
+              "degree": 0,
+              "width_scale": 1.0
+            },
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 0.0004582247063214806,
+              "error": 9.317956085416965e-05,
+              "nominal_snr": 4.917652563727184,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.000536531554097032,
+                "error": 9.892915626600234e-05,
+                "nominal_snr": 5.4233915899817955
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 2,
+                "depth": 0.00038829747948093864,
+                "error": 9.794297064947596e-05,
+                "nominal_snr": 3.964526263662151
+              },
+              "degree": 0,
+              "width_scale": 1.25
+            },
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 0.00038036699893681503,
+              "error": 0.00010068215326332838,
+              "nominal_snr": 3.7778989285418545,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.0004491668496924593,
+                "error": 0.0001129528455523037,
+                "nominal_snr": 3.9765872873425674
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 2,
+                "depth": 0.0003346176183600875,
+                "error": 0.00010740984232663706,
+                "nominal_snr": 3.1153347878726394
+              },
+              "degree": 1,
+              "width_scale": 0.75
+            },
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 0.000498187801739419,
+              "error": 9.521344755980282e-05,
+              "nominal_snr": 5.232326047499868,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.0005865618593196643,
+                "error": 0.00010305270742840859,
+                "nominal_snr": 5.69186267839836
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 2,
+                "depth": 0.000401556429609109,
+                "error": 0.0001012616993814255,
+                "nominal_snr": 3.9655312133026155
+              },
+              "degree": 1,
+              "width_scale": 1.0
+            },
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 0.0004633044013386405,
+              "error": 9.32124284105151e-05,
+              "nominal_snr": 4.9704144526544285,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.000536531554097032,
+                "error": 9.892915626600234e-05,
+                "nominal_snr": 5.4233915899817955
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 2,
+                "depth": 0.00038829747948093864,
+                "error": 9.794297064947596e-05,
+                "nominal_snr": 3.964526263662151
+              },
+              "degree": 1,
+              "width_scale": 1.25
+            },
+            {
+              "events": 5,
+              "positive_events": 3,
+              "depth": 0.0002503981534722794,
+              "error": 0.00012662403167864353,
+              "nominal_snr": 1.9774931358034755,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.0004491668496924593,
+                "error": 0.0001129528455523037,
+                "nominal_snr": 3.9765872873425674
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 2,
+                "depth": 0.0003346176183600875,
+                "error": 0.00010740984232663706,
+                "nominal_snr": 3.1153347878726394
+              },
+              "degree": 2,
+              "width_scale": 0.75
+            },
+            {
+              "events": 5,
+              "positive_events": 3,
+              "depth": 0.0003339781359449958,
+              "error": 0.00011135473263146964,
+              "nominal_snr": 2.9992271370297483,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.0005865618593196643,
+                "error": 0.00010305270742840859,
+                "nominal_snr": 5.69186267839836
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 2,
+                "depth": 0.000401556429609109,
+                "error": 0.0001012616993814255,
+                "nominal_snr": 3.9655312133026155
+              },
+              "degree": 2,
+              "width_scale": 1.0
+            },
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 0.0004601706255690037,
+              "error": 0.00010428557695373539,
+              "nominal_snr": 4.412600850577362,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.000536531554097032,
+                "error": 9.892915626600234e-05,
+                "nominal_snr": 5.4233915899817955
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 2,
+                "depth": 0.00038829747948093864,
+                "error": 9.794297064947596e-05,
+                "nominal_snr": 3.964526263662151
+              },
+              "degree": 2,
+              "width_scale": 1.25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "local_total_SAP_FLUX",
+      "tic": 233738219,
+      "kind": "unmodified_trial",
+      "period_days": 35.394150218068546,
+      "epoch_btjd": 1708.7196123763397,
+      "duration_days": 0.1504906030070948,
+      "parts": {
+        "training": {
+          "original_snr": 11.990729102425108,
+          "original_events": 7,
+          "baselines": [
+            {
+              "events": 6,
+              "positive_events": 6,
+              "depth": 0.0007575691686802884,
+              "error": 8.500716478729809e-05,
+              "nominal_snr": 8.911827262747218,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0005843566148450365,
+                "error": 9.344990418456261e-05,
+                "nominal_snr": 6.253153707797689
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0009368068246135262,
+                "error": 9.313615814547413e-05,
+                "nominal_snr": 10.058465404491773
+              },
+              "degree": 0,
+              "width_scale": 0.75
+            },
+            {
+              "events": 6,
+              "positive_events": 6,
+              "depth": 0.0008372381076087593,
+              "error": 8.226393726272716e-05,
+              "nominal_snr": 10.1774621476585,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0007344520383258267,
+                "error": 8.781067933671923e-05,
+                "nominal_snr": 8.364040044713622
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0009652830286409753,
+                "error": 8.875254873837682e-05,
+                "nominal_snr": 10.87611614948005
+              },
+              "degree": 0,
+              "width_scale": 1.0
+            },
+            {
+              "events": 6,
+              "positive_events": 6,
+              "depth": 0.0007879711475751815,
+              "error": 8.071532602803058e-05,
+              "nominal_snr": 9.762348569360139,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.000706672514322307,
+                "error": 8.508557815396843e-05,
+                "nominal_snr": 8.305432361798525
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0008874968874963426,
+                "error": 8.562436315424683e-05,
+                "nominal_snr": 10.36500424414922
+              },
+              "degree": 0,
+              "width_scale": 1.25
+            },
+            {
+              "events": 6,
+              "positive_events": 6,
+              "depth": 0.000764365440631268,
+              "error": 8.501821711412088e-05,
+              "nominal_snr": 8.990607737695228,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0005843566148450365,
+                "error": 9.344990418456261e-05,
+                "nominal_snr": 6.253153707797689
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0009368068246135262,
+                "error": 9.313615814547413e-05,
+                "nominal_snr": 10.058465404491773
+              },
+              "degree": 1,
+              "width_scale": 0.75
+            },
+            {
+              "events": 6,
+              "positive_events": 6,
+              "depth": 0.0008484832958281503,
+              "error": 8.237502360149027e-05,
+              "nominal_snr": 10.300249501995896,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0007344520383258267,
+                "error": 8.781067933671923e-05,
+                "nominal_snr": 8.364040044713622
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0009652830286409753,
+                "error": 8.875254873837682e-05,
+                "nominal_snr": 10.87611614948005
+              },
+              "degree": 1,
+              "width_scale": 1.0
+            },
+            {
+              "events": 6,
+              "positive_events": 6,
+              "depth": 0.000795317976836758,
+              "error": 8.075677298632016e-05,
+              "nominal_snr": 9.848312995016299,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.000706672514322307,
+                "error": 8.508557815396843e-05,
+                "nominal_snr": 8.305432361798525
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0008874968874963426,
+                "error": 8.562436315424683e-05,
+                "nominal_snr": 10.36500424414922
+              },
+              "degree": 1,
+              "width_scale": 1.25
+            },
+            {
+              "events": 6,
+              "positive_events": 6,
+              "depth": 0.0009044872310860474,
+              "error": 0.0001109359705802072,
+              "nominal_snr": 8.153236739674973,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0005843566148450365,
+                "error": 9.344990418456261e-05,
+                "nominal_snr": 6.253153707797689
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0009368068246135262,
+                "error": 9.313615814547413e-05,
+                "nominal_snr": 10.058465404491773
+              },
+              "degree": 2,
+              "width_scale": 0.75
+            },
+            {
+              "events": 6,
+              "positive_events": 6,
+              "depth": 0.0006443146667386257,
+              "error": 9.668813025511371e-05,
+              "nominal_snr": 6.66384451781814,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0007344520383258267,
+                "error": 8.781067933671923e-05,
+                "nominal_snr": 8.364040044713622
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0009652830286409753,
+                "error": 8.875254873837682e-05,
+                "nominal_snr": 10.87611614948005
+              },
+              "degree": 2,
+              "width_scale": 1.0
+            },
+            {
+              "events": 6,
+              "positive_events": 6,
+              "depth": 0.000817301789482384,
+              "error": 8.986483737012931e-05,
+              "nominal_snr": 9.094789612939884,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.000706672514322307,
+                "error": 8.508557815396843e-05,
+                "nominal_snr": 8.305432361798525
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 5,
+                "depth": 0.0008874968874963426,
+                "error": 8.562436315424683e-05,
+                "nominal_snr": 10.36500424414922
+              },
+              "degree": 2,
+              "width_scale": 1.25
+            }
+          ]
+        },
+        "holdout": {
+          "original_snr": 1.7271951146613564,
+          "original_events": 5,
+          "baselines": [
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 9.845719222847558e-05,
+              "error": 9.684225272929487e-05,
+              "nominal_snr": 1.0166759803047434,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 3,
+                "depth": 0.00013514295519972174,
+                "error": 0.00011072084084886142,
+                "nominal_snr": 1.2205737796391696
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 6.310006443146672e-05,
+                "error": 0.00010460132786143407,
+                "nominal_snr": 0.6032434360207712
+              },
+              "degree": 0,
+              "width_scale": 0.75
+            },
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 0.00016067284137658353,
+              "error": 9.302529865500483e-05,
+              "nominal_snr": 1.7271951146586209,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.00016878701840915936,
+                "error": 0.0001009256364101845,
+                "nominal_snr": 1.672389933942759
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.00015774056282273456,
+                "error": 9.884713222560239e-05,
+                "nominal_snr": 1.5958031282356029
+              },
+              "degree": 0,
+              "width_scale": 1.0
+            },
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 0.00012995601010023976,
+              "error": 9.117095281820237e-05,
+              "nominal_snr": 1.425410243977333,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 5,
+                "depth": 0.00016527052444533503,
+                "error": 9.68605576258481e-05,
+                "nominal_snr": 1.7062726923763973
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 3,
+                "depth": 9.531083248878692e-05,
+                "error": 9.570529792378629e-05,
+                "nominal_snr": 0.995878332301797
+              },
+              "degree": 0,
+              "width_scale": 1.25
+            },
+            {
+              "events": 5,
+              "positive_events": 3,
+              "depth": 7.826835322616535e-05,
+              "error": 9.845664473897779e-05,
+              "nominal_snr": 0.7949524730775216,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 3,
+                "depth": 0.00013514295519972174,
+                "error": 0.00011072084084886142,
+                "nominal_snr": 1.2205737796391696
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 6.310006443146672e-05,
+                "error": 0.00010460132786143407,
+                "nominal_snr": 0.6032434360207712
+              },
+              "degree": 1,
+              "width_scale": 0.75
+            },
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 0.00016219521345810304,
+              "error": 9.313981597540029e-05,
+              "nominal_snr": 1.7414165119345026,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.00016878701840915936,
+                "error": 0.0001009256364101845,
+                "nominal_snr": 1.672389933942759
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.00015774056282273456,
+                "error": 9.884713222560239e-05,
+                "nominal_snr": 1.5958031282356029
+              },
+              "degree": 1,
+              "width_scale": 1.0
+            },
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 0.00012940556689736068,
+              "error": 9.120401766223192e-05,
+              "nominal_snr": 1.4188581842590058,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 5,
+                "depth": 0.00016527052444533503,
+                "error": 9.68605576258481e-05,
+                "nominal_snr": 1.7062726923763973
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 3,
+                "depth": 9.531083248878692e-05,
+                "error": 9.570529792378629e-05,
+                "nominal_snr": 0.995878332301797
+              },
+              "degree": 1,
+              "width_scale": 1.25
+            },
+            {
+              "events": 5,
+              "positive_events": 2,
+              "depth": 3.933552983664241e-05,
+              "error": 0.00012383532228714793,
+              "nominal_snr": 0.31764386049266,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 3,
+                "depth": 0.00013514295519972174,
+                "error": 0.00011072084084886142,
+                "nominal_snr": 1.2205737796391696
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 6.310006443146672e-05,
+                "error": 0.00010460132786143407,
+                "nominal_snr": 0.6032434360207712
+              },
+              "degree": 2,
+              "width_scale": 0.75
+            },
+            {
+              "events": 5,
+              "positive_events": 3,
+              "depth": 7.585558139968943e-05,
+              "error": 0.0001089131940153847,
+              "nominal_snr": 0.6964774294377442,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.00016878701840915936,
+                "error": 0.0001009256364101845,
+                "nominal_snr": 1.672389933942759
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 4,
+                "depth": 0.00015774056282273456,
+                "error": 9.884713222560239e-05,
+                "nominal_snr": 1.5958031282356029
+              },
+              "degree": 2,
+              "width_scale": 1.0
+            },
+            {
+              "events": 5,
+              "positive_events": 4,
+              "depth": 0.00015522518188582025,
+              "error": 0.00010197017278911785,
+              "nominal_snr": 1.5222606536799526,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 5,
+                "positive_events": 5,
+                "depth": 0.00016527052444533503,
+                "error": 9.68605576258481e-05,
+                "nominal_snr": 1.7062726923763973
+              },
+              "right_only": {
+                "events": 5,
+                "positive_events": 3,
+                "depth": 9.531083248878692e-05,
+                "error": 9.570529792378629e-05,
+                "nominal_snr": 0.995878332301797
+              },
+              "degree": 2,
+              "width_scale": 1.25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "leave_one_out_PDCSAP_FLUX",
+      "tic": 233738219,
+      "kind": "unmodified_trial",
+      "period_days": 26.316459215610013,
+      "epoch_btjd": 1691.6273382310633,
+      "duration_days": 0.13943435639852114,
+      "parts": {
+        "training": {
+          "original_snr": 12.187380917109893,
+          "original_events": 11,
+          "baselines": [
+            {
+              "events": 9,
+              "positive_events": 9,
+              "depth": 0.0007135539746808503,
+              "error": 7.225689770677312e-05,
+              "nominal_snr": 9.875236791600647,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 9,
+                "depth": 0.0005812384566490879,
+                "error": 7.968350668610319e-05,
+                "nominal_snr": 7.294338324476072
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 6,
+                "depth": 0.0007765934364513779,
+                "error": 8.049232841122748e-05,
+                "nominal_snr": 9.648042885327376
+              },
+              "degree": 0,
+              "width_scale": 0.75
+            },
+            {
+              "events": 9,
+              "positive_events": 9,
+              "depth": 0.0007093177506565195,
+              "error": 6.964642687309563e-05,
+              "nominal_snr": 10.18455335761853,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 9,
+                "depth": 0.0006054376454659174,
+                "error": 7.548060542017637e-05,
+                "nominal_snr": 8.021102137372107
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.0007294699500262064,
+                "error": 7.514065607835549e-05,
+                "nominal_snr": 9.7080593662308
+              },
+              "degree": 0,
+              "width_scale": 1.0
+            },
+            {
+              "events": 9,
+              "positive_events": 9,
+              "depth": 0.0006916416401290288,
+              "error": 6.824622984290478e-05,
+              "nominal_snr": 10.134503279098505,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 9,
+                "depth": 0.0006127176312657496,
+                "error": 7.328992206677833e-05,
+                "nominal_snr": 8.360189422871402
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 8,
+                "depth": 0.0006921072549929168,
+                "error": 7.223380022117541e-05,
+                "nominal_snr": 9.5814875151761
+              },
+              "degree": 0,
+              "width_scale": 1.25
+            },
+            {
+              "events": 9,
+              "positive_events": 9,
+              "depth": 0.0006452961000459891,
+              "error": 7.27090690710185e-05,
+              "nominal_snr": 8.875042801272794,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 9,
+                "depth": 0.0005812384566490879,
+                "error": 7.968350668610319e-05,
+                "nominal_snr": 7.294338324476072
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 6,
+                "depth": 0.0007765934364513779,
+                "error": 8.049232841122748e-05,
+                "nominal_snr": 9.648042885327376
+              },
+              "degree": 1,
+              "width_scale": 0.75
+            },
+            {
+              "events": 9,
+              "positive_events": 9,
+              "depth": 0.0006384335168021314,
+              "error": 7.018341976253941e-05,
+              "nominal_snr": 9.096643038515728,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 9,
+                "depth": 0.0006054376454659174,
+                "error": 7.548060542017637e-05,
+                "nominal_snr": 8.021102137372107
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.0007294699500262064,
+                "error": 7.514065607835549e-05,
+                "nominal_snr": 9.7080593662308
+              },
+              "degree": 1,
+              "width_scale": 1.0
+            },
+            {
+              "events": 9,
+              "positive_events": 9,
+              "depth": 0.0006427878142914687,
+              "error": 6.888757953318933e-05,
+              "nominal_snr": 9.330968204243264,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 9,
+                "depth": 0.0006127176312657496,
+                "error": 7.328992206677833e-05,
+                "nominal_snr": 8.360189422871402
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 8,
+                "depth": 0.0006921072549929168,
+                "error": 7.223380022117541e-05,
+                "nominal_snr": 9.5814875151761
+              },
+              "degree": 1,
+              "width_scale": 1.25
+            },
+            {
+              "events": 9,
+              "positive_events": 9,
+              "depth": 0.0009224466690713236,
+              "error": 9.570607063350997e-05,
+              "nominal_snr": 9.638329762838925,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 9,
+                "depth": 0.0005812384566490879,
+                "error": 7.968350668610319e-05,
+                "nominal_snr": 7.294338324476072
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 6,
+                "depth": 0.0007765934364513779,
+                "error": 8.049232841122748e-05,
+                "nominal_snr": 9.648042885327376
+              },
+              "degree": 2,
+              "width_scale": 0.75
+            },
+            {
+              "events": 9,
+              "positive_events": 9,
+              "depth": 0.0008005041092705888,
+              "error": 8.247742415833232e-05,
+              "nominal_snr": 9.70573605370916,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 9,
+                "depth": 0.0006054376454659174,
+                "error": 7.548060542017637e-05,
+                "nominal_snr": 8.021102137372107
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.0007294699500262064,
+                "error": 7.514065607835549e-05,
+                "nominal_snr": 9.7080593662308
+              },
+              "degree": 2,
+              "width_scale": 1.0
+            },
+            {
+              "events": 9,
+              "positive_events": 9,
+              "depth": 0.0007523173773301483,
+              "error": 7.658042296738098e-05,
+              "nominal_snr": 9.82388642134549,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 9,
+                "depth": 0.0006127176312657496,
+                "error": 7.328992206677833e-05,
+                "nominal_snr": 8.360189422871402
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 8,
+                "depth": 0.0006921072549929168,
+                "error": 7.223380022117541e-05,
+                "nominal_snr": 9.5814875151761
+              },
+              "degree": 2,
+              "width_scale": 1.25
+            }
+          ]
+        },
+        "holdout": {
+          "original_snr": 7.142216352589796,
+          "original_events": 4,
+          "baselines": [
+            {
+              "events": 4,
+              "positive_events": 4,
+              "depth": 0.0008389444502351152,
+              "error": 0.00011317476765896069,
+              "nominal_snr": 7.412822377185514,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0004447863648820202,
+                "error": 0.00012379663738120643,
+                "nominal_snr": 3.5928792113503984
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0012456432661625816,
+                "error": 0.00012443031652558637,
+                "nominal_snr": 10.010769890683694
+              },
+              "degree": 0,
+              "width_scale": 0.75
+            },
+            {
+              "events": 4,
+              "positive_events": 4,
+              "depth": 0.0007818239704370118,
+              "error": 0.00010946517605189692,
+              "nominal_snr": 7.142216352590095,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0005299828864814529,
+                "error": 0.00011673313570354552,
+                "nominal_snr": 4.540123789935644
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0010585795458057969,
+                "error": 0.000117858858328406,
+                "nominal_snr": 8.9817563212443
+              },
+              "degree": 0,
+              "width_scale": 1.0
+            },
+            {
+              "events": 4,
+              "positive_events": 3,
+              "depth": 0.0006779715208576308,
+              "error": 0.00010751650561200675,
+              "nominal_snr": 6.305743634416624,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.0004916310242366737,
+                "error": 0.00011332996155422101,
+                "nominal_snr": 4.338049863375805
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0008717367766244451,
+                "error": 0.00011388029907005438,
+                "nominal_snr": 7.654851486543684
+              },
+              "degree": 0,
+              "width_scale": 1.25
+            },
+            {
+              "events": 4,
+              "positive_events": 4,
+              "depth": 0.000843234405871418,
+              "error": 0.00011318147674627138,
+              "nominal_snr": 7.450286302252168,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0004447863648820202,
+                "error": 0.00012379663738120643,
+                "nominal_snr": 3.5928792113503984
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0012456432661625816,
+                "error": 0.00012443031652558637,
+                "nominal_snr": 10.010769890683694
+              },
+              "degree": 1,
+              "width_scale": 0.75
+            },
+            {
+              "events": 4,
+              "positive_events": 4,
+              "depth": 0.0007980244184530371,
+              "error": 0.00010951413506691162,
+              "nominal_snr": 7.286953578781911,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0005299828864814529,
+                "error": 0.00011673313570354552,
+                "nominal_snr": 4.540123789935644
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0010585795458057969,
+                "error": 0.000117858858328406,
+                "nominal_snr": 8.9817563212443
+              },
+              "degree": 1,
+              "width_scale": 1.0
+            },
+            {
+              "events": 4,
+              "positive_events": 3,
+              "depth": 0.0006810025603653955,
+              "error": 0.0001075246138690161,
+              "nominal_snr": 6.3334573904629545,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.0004916310242366737,
+                "error": 0.00011332996155422101,
+                "nominal_snr": 4.338049863375805
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0008717367766244451,
+                "error": 0.00011388029907005438,
+                "nominal_snr": 7.654851486543684
+              },
+              "degree": 1,
+              "width_scale": 1.25
+            },
+            {
+              "events": 4,
+              "positive_events": 4,
+              "depth": 0.0008409167649061593,
+              "error": 0.0001465440297373906,
+              "nominal_snr": 5.738321557098549,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0004447863648820202,
+                "error": 0.00012379663738120643,
+                "nominal_snr": 3.5928792113503984
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0012456432661625816,
+                "error": 0.00012443031652558637,
+                "nominal_snr": 10.010769890683694
+              },
+              "degree": 2,
+              "width_scale": 0.75
+            },
+            {
+              "events": 4,
+              "positive_events": 4,
+              "depth": 0.0008659937022134233,
+              "error": 0.0001278837583102362,
+              "nominal_snr": 6.771725461122194,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0005299828864814529,
+                "error": 0.00011673313570354552,
+                "nominal_snr": 4.540123789935644
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0010585795458057969,
+                "error": 0.000117858858328406,
+                "nominal_snr": 8.9817563212443
+              },
+              "degree": 2,
+              "width_scale": 1.0
+            },
+            {
+              "events": 4,
+              "positive_events": 4,
+              "depth": 0.0009651086256437962,
+              "error": 0.00011970025792615828,
+              "nominal_snr": 8.062711328819029,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.0004916310242366737,
+                "error": 0.00011332996155422101,
+                "nominal_snr": 4.338049863375805
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 4,
+                "depth": 0.0008717367766244451,
+                "error": 0.00011388029907005438,
+                "nominal_snr": 7.654851486543684
+              },
+              "degree": 2,
+              "width_scale": 1.25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "leave_one_out_SAP_FLUX",
+      "tic": 233738219,
+      "kind": "unmodified_trial",
+      "period_days": 26.316459215610013,
+      "epoch_btjd": 1691.6273382310633,
+      "duration_days": 0.13943435639852114,
+      "parts": {
+        "training": {
+          "original_snr": 10.729215964956634,
+          "original_events": 11,
+          "baselines": [
+            {
+              "events": 9,
+              "positive_events": 7,
+              "depth": 0.0006626738063488414,
+              "error": 7.248469185188515e-05,
+              "nominal_snr": 9.14225872275136,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 8,
+                "depth": 0.0004356603631657427,
+                "error": 7.995336877452995e-05,
+                "nominal_snr": 5.448930668503954
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.0008497850929563619,
+                "error": 8.081782867077776e-05,
+                "nominal_snr": 10.514822124435875
+              },
+              "degree": 0,
+              "width_scale": 0.75
+            },
+            {
+              "events": 9,
+              "positive_events": 7,
+              "depth": 0.0005906777537533901,
+              "error": 6.983412488154367e-05,
+              "nominal_snr": 8.458296781914699,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.0004112508187084698,
+                "error": 7.579753315769735e-05,
+                "nominal_snr": 5.425649115161298
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.0007293511893278385,
+                "error": 7.519449769965846e-05,
+                "nominal_snr": 9.699528710744367
+              },
+              "degree": 0,
+              "width_scale": 1.0
+            },
+            {
+              "events": 9,
+              "positive_events": 8,
+              "depth": 0.0005670876910134525,
+              "error": 6.845208705628551e-05,
+              "nominal_snr": 8.284447054874429,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 8,
+                "depth": 0.0004506639446500637,
+                "error": 7.36111301047488e-05,
+                "nominal_snr": 6.122225592906506
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.000652984742888594,
+                "error": 7.236492726377266e-05,
+                "nominal_snr": 9.023497536430073
+              },
+              "degree": 0,
+              "width_scale": 1.25
+            },
+            {
+              "events": 9,
+              "positive_events": 7,
+              "depth": 0.0006253847701455044,
+              "error": 7.298567762282602e-05,
+              "nominal_snr": 8.568595791866944,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 8,
+                "depth": 0.0004356603631657427,
+                "error": 7.995336877452995e-05,
+                "nominal_snr": 5.448930668503954
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.0008497850929563619,
+                "error": 8.081782867077776e-05,
+                "nominal_snr": 10.514822124435875
+              },
+              "degree": 1,
+              "width_scale": 0.75
+            },
+            {
+              "events": 9,
+              "positive_events": 7,
+              "depth": 0.000561750134683183,
+              "error": 7.039101583361642e-05,
+              "nominal_snr": 7.980423751959972,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.0004112508187084698,
+                "error": 7.579753315769735e-05,
+                "nominal_snr": 5.425649115161298
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.0007293511893278385,
+                "error": 7.519449769965846e-05,
+                "nominal_snr": 9.699528710744367
+              },
+              "degree": 1,
+              "width_scale": 1.0
+            },
+            {
+              "events": 9,
+              "positive_events": 8,
+              "depth": 0.0005583828372303038,
+              "error": 6.913019748040049e-05,
+              "nominal_snr": 8.077263736858471,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 8,
+                "depth": 0.0004506639446500637,
+                "error": 7.36111301047488e-05,
+                "nominal_snr": 6.122225592906506
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.000652984742888594,
+                "error": 7.236492726377266e-05,
+                "nominal_snr": 9.023497536430073
+              },
+              "degree": 1,
+              "width_scale": 1.25
+            },
+            {
+              "events": 9,
+              "positive_events": 9,
+              "depth": 0.0009912456277807139,
+              "error": 9.614220635305372e-05,
+              "nominal_snr": 10.310202619447473,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 8,
+                "depth": 0.0004356603631657427,
+                "error": 7.995336877452995e-05,
+                "nominal_snr": 5.448930668503954
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.0008497850929563619,
+                "error": 8.081782867077776e-05,
+                "nominal_snr": 10.514822124435875
+              },
+              "degree": 2,
+              "width_scale": 0.75
+            },
+            {
+              "events": 9,
+              "positive_events": 8,
+              "depth": 0.0008474157095434014,
+              "error": 8.266280279474172e-05,
+              "nominal_snr": 10.251475644342735,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.0004112508187084698,
+                "error": 7.579753315769735e-05,
+                "nominal_snr": 5.425649115161298
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.0007293511893278385,
+                "error": 7.519449769965846e-05,
+                "nominal_snr": 9.699528710744367
+              },
+              "degree": 2,
+              "width_scale": 1.0
+            },
+            {
+              "events": 9,
+              "positive_events": 7,
+              "depth": 0.0007143430474345458,
+              "error": 7.681939605444092e-05,
+              "nominal_snr": 9.29899327675396,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 9,
+                "positive_events": 8,
+                "depth": 0.0004506639446500637,
+                "error": 7.36111301047488e-05,
+                "nominal_snr": 6.122225592906506
+              },
+              "right_only": {
+                "events": 9,
+                "positive_events": 7,
+                "depth": 0.000652984742888594,
+                "error": 7.236492726377266e-05,
+                "nominal_snr": 9.023497536430073
+              },
+              "degree": 2,
+              "width_scale": 1.25
+            }
+          ]
+        },
+        "holdout": {
+          "original_snr": 4.568687011448504,
+          "original_events": 4,
+          "baselines": [
+            {
+              "events": 4,
+              "positive_events": 3,
+              "depth": 0.0005551940391172044,
+              "error": 0.00010907124255131535,
+              "nominal_snr": 5.090196335262242,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.00013236513111008794,
+                "error": 0.00011940828426795731,
+                "nominal_snr": 1.1085087766025925
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.0009828177767204696,
+                "error": 0.00011965325188665598,
+                "nominal_snr": 8.213882708774719
+              },
+              "degree": 0,
+              "width_scale": 0.75
+            },
+            {
+              "events": 4,
+              "positive_events": 3,
+              "depth": 0.00048195033533299334,
+              "error": 0.00010548989986070177,
+              "nominal_snr": 4.568687011452313,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.00023784955992261838,
+                "error": 0.00011259593733022151,
+                "nominal_snr": 2.112416891428799
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.0007398906939058927,
+                "error": 0.00011327287204726128,
+                "nominal_snr": 6.531931966880696
+              },
+              "degree": 0,
+              "width_scale": 1.0
+            },
+            {
+              "events": 4,
+              "positive_events": 3,
+              "depth": 0.0003938664648183496,
+              "error": 0.00010366892900971208,
+              "nominal_snr": 3.799272053649274,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.00017999100052501203,
+                "error": 0.00010942326991891201,
+                "nominal_snr": 1.6449060666747957
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.0006049566647094478,
+                "error": 0.00010955677634447917,
+                "nominal_snr": 5.521855287228274
+              },
+              "degree": 0,
+              "width_scale": 1.25
+            },
+            {
+              "events": 4,
+              "positive_events": 3,
+              "depth": 0.0005571136652147012,
+              "error": 0.00010907279830610911,
+              "nominal_snr": 5.107723225832903,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.00013236513111008794,
+                "error": 0.00011940828426795731,
+                "nominal_snr": 1.1085087766025925
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.0009828177767204696,
+                "error": 0.00011965325188665598,
+                "nominal_snr": 8.213882708774719
+              },
+              "degree": 1,
+              "width_scale": 0.75
+            },
+            {
+              "events": 4,
+              "positive_events": 3,
+              "depth": 0.00049101894823478,
+              "error": 0.00010551316196244262,
+              "nominal_snr": 4.653627463174292,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.00023784955992261838,
+                "error": 0.00011259593733022151,
+                "nominal_snr": 2.112416891428799
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.0007398906939058927,
+                "error": 0.00011327287204726128,
+                "nominal_snr": 6.531931966880696
+              },
+              "degree": 1,
+              "width_scale": 1.0
+            },
+            {
+              "events": 4,
+              "positive_events": 3,
+              "depth": 0.0003933639066108335,
+              "error": 0.00010366924318749347,
+              "nominal_snr": 3.7944128317731214,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.00017999100052501203,
+                "error": 0.00010942326991891201,
+                "nominal_snr": 1.6449060666747957
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.0006049566647094478,
+                "error": 0.00010955677634447917,
+                "nominal_snr": 5.521855287228274
+              },
+              "degree": 1,
+              "width_scale": 1.25
+            },
+            {
+              "events": 4,
+              "positive_events": 3,
+              "depth": 0.0005224873592676593,
+              "error": 0.0001407879147298573,
+              "nominal_snr": 3.71116626217672,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.00013236513111008794,
+                "error": 0.00011940828426795731,
+                "nominal_snr": 1.1085087766025925
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.0009828177767204696,
+                "error": 0.00011965325188665598,
+                "nominal_snr": 8.213882708774719
+              },
+              "degree": 2,
+              "width_scale": 0.75
+            },
+            {
+              "events": 4,
+              "positive_events": 3,
+              "depth": 0.0006102430969297766,
+              "error": 0.00012292877979891117,
+              "nominal_snr": 4.96420039252014,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.00023784955992261838,
+                "error": 0.00011259593733022151,
+                "nominal_snr": 2.112416891428799
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.0007398906939058927,
+                "error": 0.00011327287204726128,
+                "nominal_snr": 6.531931966880696
+              },
+              "degree": 2,
+              "width_scale": 1.0
+            },
+            {
+              "events": 4,
+              "positive_events": 3,
+              "depth": 0.0006545642266082778,
+              "error": 0.00011536300556138905,
+              "nominal_snr": 5.673952610917017,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.00017999100052501203,
+                "error": 0.00010942326991891201,
+                "nominal_snr": 1.6449060666747957
+              },
+              "right_only": {
+                "events": 4,
+                "positive_events": 3,
+                "depth": 0.0006049566647094478,
+                "error": 0.00010955677634447917,
+                "nominal_snr": 5.521855287228274
+              },
+              "degree": 2,
+              "width_scale": 1.25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "known_TOI700d_PDCSAP",
+      "tic": 150428135,
+      "kind": "known_planet_control",
+      "period_days": 37.42331592031815,
+      "epoch_btjd": 1330.4987966663405,
+      "duration_days": 0.13586587743581455,
+      "parts": {
+        "training": {
+          "original_snr": 13.357947664215622,
+          "original_events": 17,
+          "baselines": [
+            {
+              "events": 16,
+              "positive_events": 16,
+              "depth": 0.000620913967541751,
+              "error": 4.914371027209267e-05,
+              "nominal_snr": 12.634657906453404,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 16,
+                "positive_events": 16,
+                "depth": 0.0006624876516511717,
+                "error": 5.4066708543597425e-05,
+                "nominal_snr": 12.25315299371268
+              },
+              "right_only": {
+                "events": 16,
+                "positive_events": 15,
+                "depth": 0.0005594672905718023,
+                "error": 5.396649279438785e-05,
+                "nominal_snr": 10.366938105527272
+              },
+              "degree": 0,
+              "width_scale": 0.75
+            },
+            {
+              "events": 16,
+              "positive_events": 16,
+              "depth": 0.0006331662583062679,
+              "error": 4.7442215695331216e-05,
+              "nominal_snr": 13.346051591949102,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 16,
+                "positive_events": 16,
+                "depth": 0.0006684947074861588,
+                "error": 5.093084892651833e-05,
+                "nominal_snr": 13.1255363218203
+              },
+              "right_only": {
+                "events": 16,
+                "positive_events": 15,
+                "depth": 0.000589057427852733,
+                "error": 5.070640494787543e-05,
+                "nominal_snr": 11.617022118966338
+              },
+              "degree": 0,
+              "width_scale": 1.0
+            },
+            {
+              "events": 16,
+              "positive_events": 16,
+              "depth": 0.0006475263776568157,
+              "error": 4.659506450397089e-05,
+              "nominal_snr": 13.896887675767307,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 16,
+                "positive_events": 16,
+                "depth": 0.0006692418213273174,
+                "error": 4.9215854979154724e-05,
+                "nominal_snr": 13.598093980299101
+              },
+              "right_only": {
+                "events": 16,
+                "positive_events": 16,
+                "depth": 0.0006231449371131913,
+                "error": 4.9174408412543355e-05,
+                "nominal_snr": 12.672138968818588
+              },
+              "degree": 0,
+              "width_scale": 1.25
+            },
+            {
+              "events": 16,
+              "positive_events": 15,
+              "depth": 0.0006097117020900332,
+              "error": 4.925959915558963e-05,
+              "nominal_snr": 12.377520575517057,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 16,
+                "positive_events": 16,
+                "depth": 0.0006624876516511717,
+                "error": 5.4066708543597425e-05,
+                "nominal_snr": 12.25315299371268
+              },
+              "right_only": {
+                "events": 16,
+                "positive_events": 15,
+                "depth": 0.0005594672905718023,
+                "error": 5.396649279438785e-05,
+                "nominal_snr": 10.366938105527272
+              },
+              "degree": 1,
+              "width_scale": 0.75
+            },
+            {
+              "events": 16,
+              "positive_events": 16,
+              "depth": 0.0006319485439686039,
+              "error": 4.747376426174303e-05,
+              "nominal_snr": 13.311532249357837,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 16,
+                "positive_events": 16,
+                "depth": 0.0006684947074861588,
+                "error": 5.093084892651833e-05,
+                "nominal_snr": 13.1255363218203
+              },
+              "right_only": {
+                "events": 16,
+                "positive_events": 15,
+                "depth": 0.000589057427852733,
+                "error": 5.070640494787543e-05,
+                "nominal_snr": 11.617022118966338
+              },
+              "degree": 1,
+              "width_scale": 1.0
+            },
+            {
+              "events": 16,
+              "positive_events": 16,
+              "depth": 0.0006478011766259194,
+              "error": 4.660141569220534e-05,
+              "nominal_snr": 13.90089049878955,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 16,
+                "positive_events": 16,
+                "depth": 0.0006692418213273174,
+                "error": 4.9215854979154724e-05,
+                "nominal_snr": 13.598093980299101
+              },
+              "right_only": {
+                "events": 16,
+                "positive_events": 16,
+                "depth": 0.0006231449371131913,
+                "error": 4.9174408412543355e-05,
+                "nominal_snr": 12.672138968818588
+              },
+              "degree": 1,
+              "width_scale": 1.25
+            },
+            {
+              "events": 16,
+              "positive_events": 16,
+              "depth": 0.0005426395628953164,
+              "error": 6.382865202495626e-05,
+              "nominal_snr": 8.501504350791409,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 16,
+                "positive_events": 16,
+                "depth": 0.0006624876516511717,
+                "error": 5.4066708543597425e-05,
+                "nominal_snr": 12.25315299371268
+              },
+              "right_only": {
+                "events": 16,
+                "positive_events": 15,
+                "depth": 0.0005594672905718023,
+                "error": 5.396649279438785e-05,
+                "nominal_snr": 10.366938105527272
+              },
+              "degree": 2,
+              "width_scale": 0.75
+            },
+            {
+              "events": 16,
+              "positive_events": 15,
+              "depth": 0.0005865797357852672,
+              "error": 5.544682942688572e-05,
+              "nominal_snr": 10.579139363753042,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 16,
+                "positive_events": 16,
+                "depth": 0.0006684947074861588,
+                "error": 5.093084892651833e-05,
+                "nominal_snr": 13.1255363218203
+              },
+              "right_only": {
+                "events": 16,
+                "positive_events": 15,
+                "depth": 0.000589057427852733,
+                "error": 5.070640494787543e-05,
+                "nominal_snr": 11.617022118966338
+              },
+              "degree": 2,
+              "width_scale": 1.0
+            },
+            {
+              "events": 16,
+              "positive_events": 15,
+              "depth": 0.0005975835770145043,
+              "error": 5.194674257463602e-05,
+              "nominal_snr": 11.503773815189824,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 16,
+                "positive_events": 16,
+                "depth": 0.0006692418213273174,
+                "error": 4.9215854979154724e-05,
+                "nominal_snr": 13.598093980299101
+              },
+              "right_only": {
+                "events": 16,
+                "positive_events": 16,
+                "depth": 0.0006231449371131913,
+                "error": 4.9174408412543355e-05,
+                "nominal_snr": 12.672138968818588
+              },
+              "degree": 2,
+              "width_scale": 1.25
+            }
+          ]
+        },
+        "holdout": {
+          "original_snr": 9.601310006153097,
+          "original_events": 7,
+          "baselines": [
+            {
+              "events": 6,
+              "positive_events": 6,
+              "depth": 0.0007856741125176695,
+              "error": 8.046071966746334e-05,
+              "nominal_snr": 9.76469158820338,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.000697198041791985,
+                "error": 8.714061147468515e-05,
+                "nominal_snr": 8.000839447798976
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0008979058294433747,
+                "error": 9.180987032466892e-05,
+                "nominal_snr": 9.780057702598794
+              },
+              "degree": 0,
+              "width_scale": 0.75
+            },
+            {
+              "events": 7,
+              "positive_events": 6,
+              "depth": 0.0007327174436370679,
+              "error": 7.631431993834437e-05,
+              "nominal_snr": 9.601310006156677,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 7,
+                "positive_events": 6,
+                "depth": 0.0006603432937204788,
+                "error": 8.115257398502006e-05,
+                "nominal_snr": 8.137059138042515
+              },
+              "right_only": {
+                "events": 7,
+                "positive_events": 6,
+                "depth": 0.0008148958172470501,
+                "error": 8.463573326987019e-05,
+                "nominal_snr": 9.628271484913668
+              },
+              "degree": 0,
+              "width_scale": 1.0
+            },
+            {
+              "events": 7,
+              "positive_events": 6,
+              "depth": 0.0006972758290396014,
+              "error": 7.491926783913963e-05,
+              "nominal_snr": 9.307029408465839,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 7,
+                "positive_events": 6,
+                "depth": 0.0006438688928457601,
+                "error": 7.899381319046606e-05,
+                "nominal_snr": 8.15087747812977
+              },
+              "right_only": {
+                "events": 7,
+                "positive_events": 6,
+                "depth": 0.0007520563058873066,
+                "error": 8.194822260807487e-05,
+                "nominal_snr": 9.177213146941417
+              },
+              "degree": 0,
+              "width_scale": 1.25
+            },
+            {
+              "events": 6,
+              "positive_events": 6,
+              "depth": 0.0007940199329095475,
+              "error": 8.110348904747233e-05,
+              "nominal_snr": 9.790206836166858,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.000697198041791985,
+                "error": 8.714061147468515e-05,
+                "nominal_snr": 8.000839447798976
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0008979058294433747,
+                "error": 9.180987032466892e-05,
+                "nominal_snr": 9.780057702598794
+              },
+              "degree": 1,
+              "width_scale": 0.75
+            },
+            {
+              "events": 7,
+              "positive_events": 6,
+              "depth": 0.0007413979223226064,
+              "error": 7.708771706379144e-05,
+              "nominal_snr": 9.617588256104233,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 7,
+                "positive_events": 6,
+                "depth": 0.0006603432937204788,
+                "error": 8.115257398502006e-05,
+                "nominal_snr": 8.137059138042515
+              },
+              "right_only": {
+                "events": 7,
+                "positive_events": 6,
+                "depth": 0.0008148958172470501,
+                "error": 8.463573326987019e-05,
+                "nominal_snr": 9.628271484913668
+              },
+              "degree": 1,
+              "width_scale": 1.0
+            },
+            {
+              "events": 7,
+              "positive_events": 6,
+              "depth": 0.0007061864155401249,
+              "error": 7.609670998244176e-05,
+              "nominal_snr": 9.280117572797398,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 7,
+                "positive_events": 6,
+                "depth": 0.0006438688928457601,
+                "error": 7.899381319046606e-05,
+                "nominal_snr": 8.15087747812977
+              },
+              "right_only": {
+                "events": 7,
+                "positive_events": 6,
+                "depth": 0.0007520563058873066,
+                "error": 8.194822260807487e-05,
+                "nominal_snr": 9.177213146941417
+              },
+              "degree": 1,
+              "width_scale": 1.25
+            },
+            {
+              "events": 6,
+              "positive_events": 6,
+              "depth": 0.0008508505107878624,
+              "error": 0.00010546932572321293,
+              "nominal_snr": 8.067279324614068,
+              "rejected_for_coverage": 2,
+              "left_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.000697198041791985,
+                "error": 8.714061147468515e-05,
+                "nominal_snr": 8.000839447798976
+              },
+              "right_only": {
+                "events": 6,
+                "positive_events": 6,
+                "depth": 0.0008979058294433747,
+                "error": 9.180987032466892e-05,
+                "nominal_snr": 9.780057702598794
+              },
+              "degree": 2,
+              "width_scale": 0.75
+            },
+            {
+              "events": 7,
+              "positive_events": 7,
+              "depth": 0.0007837168192261578,
+              "error": 9.02570546970006e-05,
+              "nominal_snr": 8.683164123371311,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 7,
+                "positive_events": 6,
+                "depth": 0.0006603432937204788,
+                "error": 8.115257398502006e-05,
+                "nominal_snr": 8.137059138042515
+              },
+              "right_only": {
+                "events": 7,
+                "positive_events": 6,
+                "depth": 0.0008148958172470501,
+                "error": 8.463573326987019e-05,
+                "nominal_snr": 9.628271484913668
+              },
+              "degree": 2,
+              "width_scale": 1.0
+            },
+            {
+              "events": 7,
+              "positive_events": 6,
+              "depth": 0.0007875900945682362,
+              "error": 8.406433508335883e-05,
+              "nominal_snr": 9.368896973814827,
+              "rejected_for_coverage": 1,
+              "left_only": {
+                "events": 7,
+                "positive_events": 6,
+                "depth": 0.0006438688928457601,
+                "error": 7.899381319046606e-05,
+                "nominal_snr": 8.15087747812977
+              },
+              "right_only": {
+                "events": 7,
+                "positive_events": 6,
+                "depth": 0.0007520563058873066,
+                "error": 8.194822260807487e-05,
+                "nominal_snr": 9.177213146941417
+              },
+              "degree": 2,
+              "width_scale": 1.25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "injected_233738219_orbit2_radius1",
+      "tic": 233738219,
+      "kind": "physical_injection_control",
+      "period_days": 15.775225102089479,
+      "epoch_btjd": 1685.0386740056272,
+      "duration_days": 0.039304538446231024,
+      "parts": {
+        "training": {
+          "original_snr": 11.681690006338739,
+          "original_events": 20,
+          "baselines": [
+            {
+              "events": 20,
+              "positive_events": 18,
+              "depth": 0.0010675284981326047,
+              "error": 8.725789427316936e-05,
+              "nominal_snr": 12.234176712889752,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 20,
+                "positive_events": 19,
+                "depth": 0.0011047826513158267,
+                "error": 9.146808871818778e-05,
+                "nominal_snr": 12.078339744472528
+              },
+              "right_only": {
+                "events": 20,
+                "positive_events": 18,
+                "depth": 0.0010386729179669135,
+                "error": 9.126224532466695e-05,
+                "nominal_snr": 11.38118960663106
+              },
+              "degree": 0,
+              "width_scale": 0.75
+            },
+            {
+              "events": 20,
+              "positive_events": 18,
+              "depth": 0.0010057697624577151,
+              "error": 8.609796715304405e-05,
+              "nominal_snr": 11.681690006337803,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 20,
+                "positive_events": 18,
+                "depth": 0.0010349674928862517,
+                "error": 8.928140957967949e-05,
+                "nominal_snr": 11.592194811424786
+              },
+              "right_only": {
+                "events": 20,
+                "positive_events": 18,
+                "depth": 0.0009889814730697332,
+                "error": 8.906664965975804e-05,
+                "nominal_snr": 11.103836024457237
+              },
+              "degree": 0,
+              "width_scale": 1.0
+            },
+            {
+              "events": 20,
+              "positive_events": 18,
+              "depth": 0.0010258359415508149,
+              "error": 8.543340803813114e-05,
+              "nominal_snr": 12.00743321737742,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 20,
+                "positive_events": 17,
+                "depth": 0.0010228764844576457,
+                "error": 8.804819113502085e-05,
+                "nominal_snr": 11.61723450841911
+              },
+              "right_only": {
+                "events": 20,
+                "positive_events": 18,
+                "depth": 0.0010311091148126166,
+                "error": 8.778498379857265e-05,
+                "nominal_snr": 11.745848437798333
+              },
+              "degree": 0,
+              "width_scale": 1.25
+            },
+            {
+              "events": 20,
+              "positive_events": 18,
+              "depth": 0.001077923053898895,
+              "error": 8.728604806511538e-05,
+              "nominal_snr": 12.349316732666882,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 20,
+                "positive_events": 19,
+                "depth": 0.0011047826513158267,
+                "error": 9.146808871818778e-05,
+                "nominal_snr": 12.078339744472528
+              },
+              "right_only": {
+                "events": 20,
+                "positive_events": 18,
+                "depth": 0.0010386729179669135,
+                "error": 9.126224532466695e-05,
+                "nominal_snr": 11.38118960663106
+              },
+              "degree": 1,
+              "width_scale": 0.75
+            },
+            {
+              "events": 20,
+              "positive_events": 18,
+              "depth": 0.0010191649743928393,
+              "error": 8.617436191197766e-05,
+              "nominal_snr": 11.82677715019068,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 20,
+                "positive_events": 18,
+                "depth": 0.0010349674928862517,
+                "error": 8.928140957967949e-05,
+                "nominal_snr": 11.592194811424786
+              },
+              "right_only": {
+                "events": 20,
+                "positive_events": 18,
+                "depth": 0.0009889814730697332,
+                "error": 8.906664965975804e-05,
+                "nominal_snr": 11.103836024457237
+              },
+              "degree": 1,
+              "width_scale": 1.0
+            },
+            {
+              "events": 20,
+              "positive_events": 18,
+              "depth": 0.0010145582294912407,
+              "error": 8.554156969160289e-05,
+              "nominal_snr": 11.860411647213832,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 20,
+                "positive_events": 17,
+                "depth": 0.0010228764844576457,
+                "error": 8.804819113502085e-05,
+                "nominal_snr": 11.61723450841911
+              },
+              "right_only": {
+                "events": 20,
+                "positive_events": 18,
+                "depth": 0.0010311091148126166,
+                "error": 8.778498379857265e-05,
+                "nominal_snr": 11.745848437798333
+              },
+              "degree": 1,
+              "width_scale": 1.25
+            },
+            {
+              "events": 20,
+              "positive_events": 19,
+              "depth": 0.0011286278439343138,
+              "error": 9.512078343977944e-05,
+              "nominal_snr": 11.86520761415767,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 20,
+                "positive_events": 19,
+                "depth": 0.0011047826513158267,
+                "error": 9.146808871818778e-05,
+                "nominal_snr": 12.078339744472528
+              },
+              "right_only": {
+                "events": 20,
+                "positive_events": 18,
+                "depth": 0.0010386729179669135,
+                "error": 9.126224532466695e-05,
+                "nominal_snr": 11.38118960663106
+              },
+              "degree": 2,
+              "width_scale": 0.75
+            },
+            {
+              "events": 20,
+              "positive_events": 19,
+              "depth": 0.0011290975338278488,
+              "error": 9.118741456687858e-05,
+              "nominal_snr": 12.382164130772095,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 20,
+                "positive_events": 18,
+                "depth": 0.0010349674928862517,
+                "error": 8.928140957967949e-05,
+                "nominal_snr": 11.592194811424786
+              },
+              "right_only": {
+                "events": 20,
+                "positive_events": 18,
+                "depth": 0.0009889814730697332,
+                "error": 8.906664965975804e-05,
+                "nominal_snr": 11.103836024457237
+              },
+              "degree": 2,
+              "width_scale": 1.0
+            },
+            {
+              "events": 20,
+              "positive_events": 17,
+              "depth": 0.0010294038665728848,
+              "error": 8.912869316530795e-05,
+              "nominal_snr": 11.549634915701482,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 20,
+                "positive_events": 17,
+                "depth": 0.0010228764844576457,
+                "error": 8.804819113502085e-05,
+                "nominal_snr": 11.61723450841911
+              },
+              "right_only": {
+                "events": 20,
+                "positive_events": 18,
+                "depth": 0.0010311091148126166,
+                "error": 8.778498379857265e-05,
+                "nominal_snr": 11.745848437798333
+              },
+              "degree": 2,
+              "width_scale": 1.25
+            }
+          ]
+        },
+        "holdout": {
+          "original_snr": 5.924974150971972,
+          "original_events": 8,
+          "baselines": [
+            {
+              "events": 8,
+              "positive_events": 7,
+              "depth": 0.0007742993062189171,
+              "error": 0.00014239840552809278,
+              "nominal_snr": 5.437556012986121,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0008281405437413602,
+                "error": 0.00014898516773179327,
+                "nominal_snr": 5.5585435540281365
+              },
+              "right_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0007147155120827852,
+                "error": 0.00014958803464202528,
+                "nominal_snr": 4.777892254505181
+              },
+              "degree": 0,
+              "width_scale": 0.75
+            },
+            {
+              "events": 8,
+              "positive_events": 7,
+              "depth": 0.000831400050616341,
+              "error": 0.0001403212958288067,
+              "nominal_snr": 5.924974150970334,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0008948491597668617,
+                "error": 0.00014512530278679723,
+                "nominal_snr": 6.166045083685232
+              },
+              "right_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0007651029058851785,
+                "error": 0.00014546003119644032,
+                "nominal_snr": 5.259884104190279
+              },
+              "degree": 0,
+              "width_scale": 1.0
+            },
+            {
+              "events": 8,
+              "positive_events": 7,
+              "depth": 0.0008356299519459724,
+              "error": 0.000139273012802502,
+              "nominal_snr": 5.999941662287071,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0009156471452923318,
+                "error": 0.00014297290557330555,
+                "nominal_snr": 6.404340330223324
+              },
+              "right_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0007563973336061502,
+                "error": 0.00014359830078989588,
+                "nominal_snr": 5.267453232004909
+              },
+              "degree": 0,
+              "width_scale": 1.25
+            },
+            {
+              "events": 8,
+              "positive_events": 7,
+              "depth": 0.0007720651169134701,
+              "error": 0.00014240278733834802,
+              "nominal_snr": 5.421699471928514,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0008281405437413602,
+                "error": 0.00014898516773179327,
+                "nominal_snr": 5.5585435540281365
+              },
+              "right_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0007147155120827852,
+                "error": 0.00014958803464202528,
+                "nominal_snr": 4.777892254505181
+              },
+              "degree": 1,
+              "width_scale": 0.75
+            },
+            {
+              "events": 8,
+              "positive_events": 7,
+              "depth": 0.00083169430095073,
+              "error": 0.00014032241549414036,
+              "nominal_snr": 5.927023833091444,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0008948491597668617,
+                "error": 0.00014512530278679723,
+                "nominal_snr": 6.166045083685232
+              },
+              "right_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0007651029058851785,
+                "error": 0.00014546003119644032,
+                "nominal_snr": 5.259884104190279
+              },
+              "degree": 1,
+              "width_scale": 1.0
+            },
+            {
+              "events": 8,
+              "positive_events": 7,
+              "depth": 0.0008424265908246602,
+              "error": 0.00013931510902475788,
+              "nominal_snr": 6.046914772718237,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0009156471452923318,
+                "error": 0.00014297290557330555,
+                "nominal_snr": 6.404340330223324
+              },
+              "right_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0007563973336061502,
+                "error": 0.00014359830078989588,
+                "nominal_snr": 5.267453232004909
+              },
+              "degree": 1,
+              "width_scale": 1.25
+            },
+            {
+              "events": 8,
+              "positive_events": 7,
+              "depth": 0.0006637044460066607,
+              "error": 0.0001560546503860353,
+              "nominal_snr": 4.253025746844728,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0008281405437413602,
+                "error": 0.00014898516773179327,
+                "nominal_snr": 5.5585435540281365
+              },
+              "right_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0007147155120827852,
+                "error": 0.00014958803464202528,
+                "nominal_snr": 4.777892254505181
+              },
+              "degree": 2,
+              "width_scale": 0.75
+            },
+            {
+              "events": 8,
+              "positive_events": 7,
+              "depth": 0.0006883108406255232,
+              "error": 0.0001490953237637126,
+              "nominal_snr": 4.616582353155243,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0008948491597668617,
+                "error": 0.00014512530278679723,
+                "nominal_snr": 6.166045083685232
+              },
+              "right_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0007651029058851785,
+                "error": 0.00014546003119644032,
+                "nominal_snr": 5.259884104190279
+              },
+              "degree": 2,
+              "width_scale": 1.0
+            },
+            {
+              "events": 8,
+              "positive_events": 7,
+              "depth": 0.0007443700177464265,
+              "error": 0.00014578040121086643,
+              "nominal_snr": 5.106104878046812,
+              "rejected_for_coverage": 0,
+              "left_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0009156471452923318,
+                "error": 0.00014297290557330555,
+                "nominal_snr": 6.404340330223324
+              },
+              "right_only": {
+                "events": 8,
+                "positive_events": 7,
+                "depth": 0.0007563973336061502,
+                "error": 0.00014359830078989588,
+                "nominal_snr": 5.267453232004909
+              },
+              "degree": 2,
+              "width_scale": 1.25
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
