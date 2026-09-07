@@ -59,7 +59,7 @@ The faint, variable control TIC 232970271 yielded no recovered injections in the
 first two suites. Periodic filtering improves this limited sensitivity check;
 non-detections still cannot exclude small planets.
 
-Fifteen offline numerical checks pass, including a test that changing final-holdout
+Twenty offline numerical checks pass, including a test that changing final-holdout
 flux leaves the fitted ephemeris unchanged while reversing the measured holdout
 signal. Local execution, code, data-product references and failure records are
 retained for independent inspection.
@@ -162,6 +162,21 @@ another 90 runs with identical mode budgets. The cycle-excluded method recovered
 six strict cases versus seven for the stronger harmonic comparison and lost one
 of its recoveries. All three filters removed the previously unflagged fit in the
 unmodified-star diagnostics. The new variant failed its gate and remains unused.
+
+Two source-specific pixel experiments also failed. [Static periodic-source
+suppression](experiments/periodic_source/FINDINGS.md) reduced the modeled periodic
+component by about 14%, with insufficient improvement over the stronger pixel
+comparisons. A [spatially protected temporal reference](experiments/protected_reference/FINDINGS.md)
+preserved at least 99.7% of depth in the fresh finite-model tests, but improved
+median two-hour scatter by only about 4% and underperformed direct harmonic
+subtraction. Neither was applied to the four additional pixel views or adopted.
+
+A [search-bottleneck diagnostic](experiments/search_bottleneck/FINDINGS.md)
+shows that broad, physically implausible seed fits can crowd out measurable
+synthetic transits. A fresh paired experiment will test whether enforcing the
+duration prior during the search, after equal-budget variability correction,
+improves actual period recovery. The two selected diagnostic cases do not
+establish a population-level gain.
 
 The initial data campaign is complete; method development continues as separate,
 bounded experiments. A non-detection does not establish that these systems lack

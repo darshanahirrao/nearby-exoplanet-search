@@ -1,0 +1,75 @@
+{
+  "frozen_utc": "2026-09-07T07:14:59.036128+00:00",
+  "seed": 202609082,
+  "period_days": 0.37769418149605544,
+  "neighbor_radec": [
+    0.440267096131202,
+    69.5015238397358
+  ],
+  "stages": {
+    "development": [
+      17,
+      58
+    ],
+    "assessment": [
+      18,
+      24,
+      25,
+      52
+    ]
+  },
+  "source_sha256": {
+    "docs/EXPERIMENT_PROTECTED_REFERENCE.md": "351bcc4921fa7f0a3b8ef1422e9fbd023d89718d6cb0b5dce93230bc4155fa9d",
+    "scripts/protected_reference_experiment.py": "2def3729508776fbccf77496a200a3ac48c396ed6dd0fbe6d328b81d211341a3",
+    "scripts/periodic_source_experiment.py": "9532c654cfd9123ec59e0f03c45053da87c7d83d3ebd7cabc4ba3b78b4389a1a",
+    "scripts/relative_pixel_experiment.py": "c3ae06e7bcd9b137096893895a126fac3a242e9cd522b5e1fd40c5262e646f70",
+    "scripts/multiscale_pixel_experiment.py": "47f259ab76264262e9cb63cee49073ab24ce6ac5148673694f9df9a86971d4e6",
+    "scripts/protected_pixel_experiment.py": "6be0d35eace58af350e14ed19606c80e1983cbb0cf4c0d6ba2c429fc3328f266",
+    "scripts/cross_view_experiment.py": "a9a5647487183cda0dff848a88c0a9704ef8ac6d10c3bfee9c7a4d7536b888da"
+  },
+  "inputs": [
+    {
+      "path": "data/targetpixels/378527773/tess2019279210107-s0017-0000000378527773-0161-s_tp.fits",
+      "sector": 17,
+      "uri": "mast:TESS/product/tess2019279210107-s0017-0000000378527773-0161-s_tp.fits",
+      "bytes": 44133120,
+      "sha256": "b2b5e64e909c21c59ef29530636db89d837b1baf4a5bb34f2407f81a4766e929"
+    },
+    {
+      "path": "data/targetpixels/378527773/tess2019306063752-s0018-0000000378527773-0162-s_tp.fits",
+      "sector": 18,
+      "uri": "mast:TESS/product/tess2019306063752-s0018-0000000378527773-0162-s_tp.fits",
+      "bytes": 43009920,
+      "sha256": "7eaa94f987b3224d61afab68f79319ac1e7862f86851fb50aacb3ce52a17f05e"
+    },
+    {
+      "path": "data/targetpixels/378527773/tess2020106103520-s0024-0000000378527773-0180-s_tp.fits",
+      "sector": 24,
+      "uri": "mast:TESS/product/tess2020106103520-s0024-0000000378527773-0180-s_tp.fits",
+      "bytes": 46730880,
+      "sha256": "81f70dfb559dd2d0cf851ff2296debac224cd740c0570a11ea7cfa8e6e3f1c29"
+    },
+    {
+      "path": "data/targetpixels/378527773/tess2020133194932-s0025-0000000378527773-0182-s_tp.fits",
+      "sector": 25,
+      "uri": "mast:TESS/product/tess2020133194932-s0025-0000000378527773-0182-s_tp.fits",
+      "bytes": 45299520,
+      "sha256": "edd9f002003b9a1f4abb5c28707d953c3f3e46df879c60cd02de23a37f4fce48"
+    },
+    {
+      "path": "data/targetpixels/378527773/tess2022138205153-s0052-0000000378527773-0224-s_tp.fits",
+      "sector": 52,
+      "uri": "mast:TESS/product/tess2022138205153-s0052-0000000378527773-0224-s_tp.fits",
+      "bytes": 43128000,
+      "sha256": "1ebc9a015722fe55dd4792f0f6193c7ccb202ef5f85afe73cdd477a4f6eef2de"
+    },
+    {
+      "path": "data/targetpixels/378527773/tess2022302161335-s0058-0000000378527773-0247-s_tp.fits",
+      "sector": 58,
+      "uri": "mast:TESS/product/tess2022302161335-s0058-0000000378527773-0247-s_tp.fits",
+      "bytes": 48905280,
+      "sha256": "1d7300a374e68f4b6dd8bfc36ee4f4c8bc6412df6f94888e2290a3b17c0a76ec"
+    }
+  ],
+  "scope": "Conditional development and finite-model certificate, not general transit validation or novelty."
+}

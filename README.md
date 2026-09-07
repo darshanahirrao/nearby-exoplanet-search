@@ -115,6 +115,12 @@ then gained one strict recovery in 27 paired faint-signal injections, with no lo
 comparison recoveries. That also missed its predeclared gain threshold and has
 not replaced the production method.
 
+Two [source-specific](reports/experiments/periodic_source/FINDINGS.md)
+[pixel-filter tests](reports/experiments/protected_reference/FINDINGS.md) also
+missed their improvement gates. Current work follows a measured
+[search bottleneck](reports/experiments/search_bottleneck/FINDINGS.md): broad,
+implausible seed fits can displace detectable injected transits before vetting.
+
 ## Repository map
 
 | Path | Purpose |

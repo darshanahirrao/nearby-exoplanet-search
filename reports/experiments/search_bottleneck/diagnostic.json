@@ -1,0 +1,1528 @@
+{
+  "scope": "Post-result diagnostic on two selected known injections; no blind recovery or calibrated significance.",
+  "created_utc": "2026-09-07T07:18:27.735072+00:00",
+  "source_plan_sha256": "4c0ada1f72147fa960bae676d3185d6652ee608e1972f9fe18e35382703554e9",
+  "code_sha256": "800ce6960e80b61ca77f1069b239fe36b2926fb2768d93ec932bbaf9980edb07",
+  "rows": [
+    {
+      "case": "production_harmonic__352617553_orbit0_radius0.6",
+      "period_days": 13.381991210740766,
+      "duration_days": 0.045647727758022595,
+      "cleaning_passes": 1,
+      "models": [
+        {
+          "sector": 15,
+          "peak_fractional_power": 0.16428985660328066,
+          "applied": true,
+          "period_days": 0.11069027049754263,
+          "fractional_power": 0.16921135370550777,
+          "fit_points": 3169,
+          "original_scatter": 0.0012173113114499938,
+          "corrected_scatter": 0.0010981517441800298
+        },
+        {
+          "sector": 16,
+          "peak_fractional_power": 0.1204197792638777,
+          "applied": true,
+          "period_days": 0.11067558839160505,
+          "fractional_power": 0.12104247615239645,
+          "fit_points": 2854,
+          "original_scatter": 0.0011552901577600028,
+          "corrected_scatter": 0.0010945556501757306
+        },
+        {
+          "sector": 17,
+          "peak_fractional_power": 0.19163611466928468,
+          "applied": true,
+          "period_days": 0.11065962682269995,
+          "fractional_power": 0.19736324114234888,
+          "fit_points": 2854,
+          "original_scatter": 0.001207603801162232,
+          "corrected_scatter": 0.001088750443829212
+        },
+        {
+          "sector": 41,
+          "peak_fractional_power": 0.27719024234826056,
+          "applied": true,
+          "period_days": 0.11066851967984491,
+          "fractional_power": 0.28055733723215054,
+          "fit_points": 3602,
+          "original_scatter": 0.0018224426091617248,
+          "corrected_scatter": 0.0015982064952420225
+        },
+        {
+          "sector": 55,
+          "peak_fractional_power": 0.32444599264742785,
+          "applied": true,
+          "period_days": 0.11067050084034293,
+          "fractional_power": 0.32846142555176105,
+          "fit_points": 3489,
+          "original_scatter": 0.0020406682824900394,
+          "corrected_scatter": 0.0016393537167098612
+        },
+        {
+          "sector": 56,
+          "peak_fractional_power": 0.31785341612687285,
+          "applied": true,
+          "period_days": 0.11068347404501742,
+          "fractional_power": 0.32169465099072303,
+          "fit_points": 3633,
+          "original_scatter": 0.00170784601961978,
+          "corrected_scatter": 0.0013847608666648027
+        },
+        {
+          "sector": 57,
+          "peak_fractional_power": 0.3360334506564772,
+          "applied": true,
+          "period_days": 0.11066743487129399,
+          "fractional_power": 0.3397765939661427,
+          "fit_points": 3532,
+          "original_scatter": 0.0019369305881323806,
+          "corrected_scatter": 0.0015254582851659398
+        }
+      ],
+      "forced_training": {
+        "n_observed_events": 11,
+        "n_positive_events": 10,
+        "event_snr": [
+          {
+            "cycle": -81,
+            "center_btjd": 1717.582620332485,
+            "points": 6,
+            "depth": 0.0005253082717264768,
+            "error": 0.0004107550911565394,
+            "snr": 1.2788843839948436
+          },
+          {
+            "cycle": -80,
+            "center_btjd": 1730.9646115432256,
+            "points": 6,
+            "depth": 0.0018246180562437875,
+            "error": 0.00039502756426039215,
+            "snr": 4.618963893469078
+          },
+          {
+            "cycle": -77,
+            "center_btjd": 1771.110585175448,
+            "points": 6,
+            "depth": 0.0016161246660346684,
+            "error": 0.00035431982409447687,
+            "snr": 4.561203060441067
+          },
+          {
+            "cycle": -76,
+            "center_btjd": 1784.4925763861888,
+            "points": 7,
+            "depth": 0.002087666139548472,
+            "error": 0.0003511518630619248,
+            "snr": 5.945194541600131
+          },
+          {
+            "cycle": -28,
+            "center_btjd": 2426.8281545017453,
+            "points": 7,
+            "depth": 0.0008239495100847982,
+            "error": 0.00042718598257014814,
+            "snr": 1.9287840512170775
+          },
+          {
+            "cycle": -27,
+            "center_btjd": 2440.2101457124863,
+            "points": 7,
+            "depth": -0.000780014649040095,
+            "error": 0.0004475873638138594,
+            "snr": -1.7427092722047532
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 2828.2878908239686,
+            "points": 6,
+            "depth": 0.0021099394186545606,
+            "error": 0.00041852120721683103,
+            "snr": 5.041415780781271
+          },
+          {
+            "cycle": 3,
+            "center_btjd": 2841.669882034709,
+            "points": 7,
+            "depth": 0.00032339111293289147,
+            "error": 0.00038061466182914475,
+            "snr": 0.8496549013081883
+          },
+          {
+            "cycle": 4,
+            "center_btjd": 2855.05187324545,
+            "points": 6,
+            "depth": 0.0011394278527014912,
+            "error": 0.00041109230350535285,
+            "snr": 2.7717080640665768
+          },
+          {
+            "cycle": 5,
+            "center_btjd": 2868.433864456191,
+            "points": 7,
+            "depth": 0.0023447008912524936,
+            "error": 0.0003896059633241537,
+            "snr": 6.018133991706111
+          },
+          {
+            "cycle": 6,
+            "center_btjd": 2881.8158556669314,
+            "points": 7,
+            "depth": 0.0004659847988892629,
+            "error": 0.0003939895597445601,
+            "snr": 1.182733875464569
+          }
+        ],
+        "fixed_ephemeris_snr": 10.09189004383981,
+        "single_event_power_fraction": 0.23475847567811045,
+        "odd_even_sigma": 2.189068123388072
+      },
+      "forced_coarse": {
+        "n_observed_events": 3,
+        "n_positive_events": 2,
+        "event_snr": [
+          {
+            "cycle": -76,
+            "center_btjd": 1784.4925763861888,
+            "points": 3,
+            "depth": 0.0015902079385798906,
+            "error": 0.00031396401452013457,
+            "snr": 5.064936951485917
+          },
+          {
+            "cycle": -27,
+            "center_btjd": 2440.2101457124863,
+            "points": 3,
+            "depth": -0.00047698565801723714,
+            "error": 0.0004002559882237345,
+            "snr": -1.1917014911732249
+          },
+          {
+            "cycle": 5,
+            "center_btjd": 2868.433864456191,
+            "points": 3,
+            "depth": 0.001684475897356097,
+            "error": 0.000348405992830981,
+            "snr": 4.834807471791311
+          }
+        ],
+        "fixed_ephemeris_snr": 5.447386283696621,
+        "single_event_power_fraction": 0.5232334472926305,
+        "odd_even_sigma": 2.045477538513983
+      },
+      "variants": {
+        "production_coarse": {
+          "top_distinct_peaks": [
+            {
+              "period_days": 29.367141510941362,
+              "duration_days": 0.248,
+              "snr": 15.189932777834295,
+              "epoch_btjd": 1735.4685047980965,
+              "circular_duration_days": 0.06996709094776339
+            },
+            {
+              "period_days": 27.86133116258992,
+              "duration_days": 0.184,
+              "snr": 14.553723907061046,
+              "epoch_btjd": 1737.0045047980966,
+              "circular_duration_days": 0.06875023300527797
+            },
+            {
+              "period_days": 27.898805000740644,
+              "duration_days": 0.248,
+              "snr": 14.382425160514455,
+              "epoch_btjd": 1735.4365047980964,
+              "circular_duration_days": 0.06878104126995617
+            },
+            {
+              "period_days": 22.63675570711887,
+              "duration_days": 0.184,
+              "snr": 13.720474603871367,
+              "epoch_btjd": 1719.6205047980966,
+              "circular_duration_days": 0.06415241393077085
+            },
+            {
+              "period_days": 27.21982748345963,
+              "duration_days": 0.248,
+              "snr": 13.7176404103449,
+              "epoch_btjd": 1735.4285047980966,
+              "circular_duration_days": 0.0682184970340797
+            },
+            {
+              "period_days": 5.003971665667517,
+              "duration_days": 0.04,
+              "snr": 13.671547429865164,
+              "epoch_btjd": 1714.5805047980964,
+              "circular_duration_days": 0.03879273676495188
+            },
+            {
+              "period_days": 6.592056426862573,
+              "duration_days": 0.04,
+              "snr": 13.652143310104456,
+              "epoch_btjd": 1713.3485047980964,
+              "circular_duration_days": 0.04252450214115165
+            },
+            {
+              "period_days": 5.002432929262373,
+              "duration_days": 0.04,
+              "snr": 13.63506617417014,
+              "epoch_btjd": 1714.9245047980965,
+              "circular_duration_days": 0.03878876163588182
+            }
+          ],
+          "injected_period_neighborhood": {
+            "period_days": 13.382053395670491,
+            "snr": 9.573626075408045,
+            "duration_days": 0.04,
+            "epoch_btjd": 1717.5805047980964,
+            "grid_points_above": 12103
+          }
+        },
+        "short_durations": {
+          "top_distinct_peaks": [
+            {
+              "period_days": 6.592056426862573,
+              "duration_days": 0.04,
+              "snr": 14.178156142383497,
+              "epoch_btjd": 1713.3445047980965,
+              "circular_duration_days": 0.04252450214115165
+            },
+            {
+              "period_days": 5.003971665667517,
+              "duration_days": 0.04,
+              "snr": 14.006829548881587,
+              "epoch_btjd": 1714.5765047980965,
+              "circular_duration_days": 0.03879273676495188
+            },
+            {
+              "period_days": 5.002432929262373,
+              "duration_days": 0.04,
+              "snr": 13.635066174169964,
+              "epoch_btjd": 1714.9245047980965,
+              "circular_duration_days": 0.03878876163588182
+            },
+            {
+              "period_days": 5.232530842373996,
+              "duration_days": 0.032,
+              "snr": 13.516349722035754,
+              "epoch_btjd": 1716.0365047980965,
+              "circular_duration_days": 0.039374367316874576
+            },
+            {
+              "period_days": 6.597540165619923,
+              "duration_days": 0.032,
+              "snr": 13.451339070400046,
+              "epoch_btjd": 1713.3085047980965,
+              "circular_duration_days": 0.04253628727550183
+            },
+            {
+              "period_days": 7.5013428085335985,
+              "duration_days": 0.032,
+              "snr": 13.36421470286151,
+              "epoch_btjd": 1712.6565047980964,
+              "circular_duration_days": 0.04439566488061104
+            },
+            {
+              "period_days": 5.345061202612229,
+              "duration_days": 0.06,
+              "snr": 13.261210090061343,
+              "epoch_btjd": 1712.7705047980965,
+              "circular_duration_days": 0.0396545249791148
+            },
+            {
+              "period_days": 6.252977968180277,
+              "duration_days": 0.032,
+              "snr": 13.239196236859796,
+              "epoch_btjd": 1712.5405047980964,
+              "circular_duration_days": 0.041782722467295516
+            }
+          ],
+          "injected_period_neighborhood": {
+            "period_days": 13.382205828193074,
+            "snr": 9.92076544496864,
+            "duration_days": 0.06,
+            "epoch_btjd": 1717.5745047980965,
+            "grid_points_above": 3353
+          }
+        }
+      }
+    },
+    {
+      "case": "production_harmonic__352617553_orbit0_radius0.6",
+      "period_days": 13.381991210740766,
+      "duration_days": 0.045647727758022595,
+      "cleaning_passes": 3,
+      "models": [
+        {
+          "sector": 15,
+          "peak_fractional_power": 0.16428985660328066,
+          "applied": true,
+          "period_days": 0.11069027049754263,
+          "fractional_power": 0.16921135370550777,
+          "fit_points": 3169,
+          "original_scatter": 0.0012173113114499938,
+          "corrected_scatter": 0.0010981517441800298
+        },
+        {
+          "sector": 16,
+          "peak_fractional_power": 0.1204197792638777,
+          "applied": true,
+          "period_days": 0.11067558839160505,
+          "fractional_power": 0.12104247615239645,
+          "fit_points": 2854,
+          "original_scatter": 0.0011552901577600028,
+          "corrected_scatter": 0.0010945556501757306
+        },
+        {
+          "sector": 17,
+          "peak_fractional_power": 0.19163611466928468,
+          "applied": true,
+          "period_days": 0.11065962682269995,
+          "fractional_power": 0.19736324114234888,
+          "fit_points": 2854,
+          "original_scatter": 0.001207603801162232,
+          "corrected_scatter": 0.001088750443829212
+        },
+        {
+          "sector": 41,
+          "peak_fractional_power": 0.27719024234826056,
+          "applied": true,
+          "period_days": 0.11066851967984491,
+          "fractional_power": 0.28055733723215054,
+          "fit_points": 3602,
+          "original_scatter": 0.0018224426091617248,
+          "corrected_scatter": 0.0015982064952420225
+        },
+        {
+          "sector": 55,
+          "peak_fractional_power": 0.32444599264742785,
+          "applied": true,
+          "period_days": 0.11067050084034293,
+          "fractional_power": 0.32846142555176105,
+          "fit_points": 3489,
+          "original_scatter": 0.0020406682824900394,
+          "corrected_scatter": 0.0016393537167098612
+        },
+        {
+          "sector": 56,
+          "peak_fractional_power": 0.31785341612687285,
+          "applied": true,
+          "period_days": 0.11068347404501742,
+          "fractional_power": 0.32169465099072303,
+          "fit_points": 3633,
+          "original_scatter": 0.00170784601961978,
+          "corrected_scatter": 0.0013847608666648027
+        },
+        {
+          "sector": 57,
+          "peak_fractional_power": 0.3360334506564772,
+          "applied": true,
+          "period_days": 0.11066743487129399,
+          "fractional_power": 0.3397765939661427,
+          "fit_points": 3532,
+          "original_scatter": 0.0019369305881323806,
+          "corrected_scatter": 0.0015254582851659398
+        },
+        {
+          "sector": 15,
+          "peak_fractional_power": 0.15301265017787585,
+          "applied": true,
+          "period_days": 0.11369493240682292,
+          "fractional_power": 0.15566006520972528,
+          "fit_points": 3161,
+          "original_scatter": 0.0010981517441800298,
+          "corrected_scatter": 0.0010029243688050248
+        },
+        {
+          "sector": 16,
+          "peak_fractional_power": 0.12318176296516034,
+          "applied": true,
+          "period_days": 0.11368964503542377,
+          "fractional_power": 0.12780776660040227,
+          "fit_points": 2852,
+          "original_scatter": 0.0010945556501757306,
+          "corrected_scatter": 0.0010017736316014875
+        },
+        {
+          "sector": 17,
+          "peak_fractional_power": 0.18925586900338928,
+          "applied": true,
+          "period_days": 0.11369013012401513,
+          "fractional_power": 0.1931705803013071,
+          "fit_points": 2855,
+          "original_scatter": 0.001088750443829212,
+          "corrected_scatter": 0.000977860047795698
+        },
+        {
+          "sector": 41,
+          "peak_fractional_power": 0.3318570273433523,
+          "applied": true,
+          "period_days": 0.11368608888563711,
+          "fractional_power": 0.3321092427200044,
+          "fit_points": 3599,
+          "original_scatter": 0.0015982064952420225,
+          "corrected_scatter": 0.0012715500977104667
+        },
+        {
+          "sector": 55,
+          "peak_fractional_power": 0.34302003348276916,
+          "applied": true,
+          "period_days": 0.11369367460022888,
+          "fractional_power": 0.3435223117462229,
+          "fit_points": 3474,
+          "original_scatter": 0.0016393537167098612,
+          "corrected_scatter": 0.0012595374671898018
+        },
+        {
+          "sector": 56,
+          "peak_fractional_power": 0.3202348838033655,
+          "applied": true,
+          "period_days": 0.11369952115875356,
+          "fractional_power": 0.3290716334149747,
+          "fit_points": 3624,
+          "original_scatter": 0.0013847608666648027,
+          "corrected_scatter": 0.0011230028776733083
+        },
+        {
+          "sector": 57,
+          "peak_fractional_power": 0.3829323712240445,
+          "applied": true,
+          "period_days": 0.11368918805292001,
+          "fractional_power": 0.38293630411175317,
+          "fit_points": 3529,
+          "original_scatter": 0.0015254582851659398,
+          "corrected_scatter": 0.0011781387437005744
+        },
+        {
+          "sector": 15,
+          "peak_fractional_power": 0.025476214790748675,
+          "applied": false
+        },
+        {
+          "sector": 16,
+          "peak_fractional_power": 0.02480942241130008,
+          "applied": false
+        },
+        {
+          "sector": 17,
+          "peak_fractional_power": 0.041355336522994716,
+          "applied": false
+        },
+        {
+          "sector": 41,
+          "peak_fractional_power": 0.06409968320967423,
+          "applied": false
+        },
+        {
+          "sector": 55,
+          "peak_fractional_power": 0.0574428934470091,
+          "applied": false
+        },
+        {
+          "sector": 56,
+          "peak_fractional_power": 0.05359385632512331,
+          "applied": false
+        },
+        {
+          "sector": 57,
+          "peak_fractional_power": 0.06432033222351148,
+          "applied": false
+        }
+      ],
+      "forced_training": {
+        "n_observed_events": 11,
+        "n_positive_events": 11,
+        "event_snr": [
+          {
+            "cycle": -81,
+            "center_btjd": 1717.582620332485,
+            "points": 6,
+            "depth": 0.0009478152286245267,
+            "error": 0.0004107550911565394,
+            "snr": 2.30749477981105
+          },
+          {
+            "cycle": -80,
+            "center_btjd": 1730.9646115432256,
+            "points": 6,
+            "depth": 0.0013233518544122358,
+            "error": 0.00039502756426039215,
+            "snr": 3.350024084749478
+          },
+          {
+            "cycle": -77,
+            "center_btjd": 1771.110585175448,
+            "points": 6,
+            "depth": 0.0014071402040053416,
+            "error": 0.00035431982409447687,
+            "snr": 3.97138434915834
+          },
+          {
+            "cycle": -76,
+            "center_btjd": 1784.4925763861888,
+            "points": 7,
+            "depth": 0.001634997630403312,
+            "error": 0.0003511518630619248,
+            "snr": 4.656098407528551
+          },
+          {
+            "cycle": -28,
+            "center_btjd": 2426.8281545017453,
+            "points": 7,
+            "depth": 0.0011109012459961098,
+            "error": 0.00042718598257014814,
+            "snr": 2.6005095937661973
+          },
+          {
+            "cycle": -27,
+            "center_btjd": 2440.2101457124863,
+            "points": 7,
+            "depth": 0.00013620765178767869,
+            "error": 0.0004475873638138594,
+            "snr": 0.3043152304995011
+          },
+          {
+            "cycle": 2,
+            "center_btjd": 2828.2878908239686,
+            "points": 6,
+            "depth": 0.0015860760672005147,
+            "error": 0.00041852120721683103,
+            "snr": 3.7897149292575443
+          },
+          {
+            "cycle": 3,
+            "center_btjd": 2841.669882034709,
+            "points": 7,
+            "depth": 0.0012010094762315848,
+            "error": 0.00038061466182914475,
+            "snr": 3.155447219137106
+          },
+          {
+            "cycle": 4,
+            "center_btjd": 2855.05187324545,
+            "points": 6,
+            "depth": 0.0011051070160777998,
+            "error": 0.00041109230350535285,
+            "snr": 2.68822112857535
+          },
+          {
+            "cycle": 5,
+            "center_btjd": 2868.433864456191,
+            "points": 7,
+            "depth": 0.0013441676027519112,
+            "error": 0.0003896059633241537,
+            "snr": 3.4500693759493575
+          },
+          {
+            "cycle": 6,
+            "center_btjd": 2881.8158556669314,
+            "points": 7,
+            "depth": 0.001076751960508271,
+            "error": 0.0003939895597445601,
+            "snr": 2.732945414102786
+          }
+        ],
+        "fixed_ephemeris_snr": 10.12877200057301,
+        "single_event_power_fraction": 0.19396153282943143,
+        "odd_even_sigma": 1.056468939321004
+      },
+      "forced_coarse": {
+        "n_observed_events": 3,
+        "n_positive_events": 3,
+        "event_snr": [
+          {
+            "cycle": -76,
+            "center_btjd": 1784.4925763861888,
+            "points": 3,
+            "depth": 0.0012210132385307437,
+            "error": 0.00031396401452013457,
+            "snr": 3.889022888170644
+          },
+          {
+            "cycle": -27,
+            "center_btjd": 2440.2101457124863,
+            "points": 3,
+            "depth": 0.00023079921532664915,
+            "error": 0.0004002559882237345,
+            "snr": 0.5766290127248199
+          },
+          {
+            "cycle": 5,
+            "center_btjd": 2868.433864456191,
+            "points": 3,
+            "depth": 0.000881386954561636,
+            "error": 0.000348405992830981,
+            "snr": 2.529769787826856
+          }
+        ],
+        "fixed_ephemeris_snr": 4.249699905516273,
+        "single_event_power_fraction": 0.6919834490739539,
+        "odd_even_sigma": 1.5144871838814624
+      },
+      "variants": {
+        "production_coarse": {
+          "top_distinct_peaks": [
+            {
+              "period_days": 29.368145069585278,
+              "duration_days": 0.248,
+              "snr": 15.079827528382598,
+              "epoch_btjd": 1735.4445047980964,
+              "circular_duration_days": 0.06996788790033283
+            },
+            {
+              "period_days": 27.898805000740644,
+              "duration_days": 0.248,
+              "snr": 14.755081593760304,
+              "epoch_btjd": 1735.4525047980965,
+              "circular_duration_days": 0.06878104126995617
+            },
+            {
+              "period_days": 27.86133116258992,
+              "duration_days": 0.248,
+              "snr": 14.581296749776905,
+              "epoch_btjd": 1736.9725047980965,
+              "circular_duration_days": 0.06875023300527797
+            },
+            {
+              "period_days": 27.21982748345963,
+              "duration_days": 0.248,
+              "snr": 14.152889165066545,
+              "epoch_btjd": 1735.4285047980966,
+              "circular_duration_days": 0.0682184970340797
+            },
+            {
+              "period_days": 19.928414922546793,
+              "duration_days": 0.248,
+              "snr": 13.457970184595958,
+              "epoch_btjd": 1715.5005047980965,
+              "circular_duration_days": 0.06148468082550225
+            },
+            {
+              "period_days": 27.885143446619534,
+              "duration_days": 0.248,
+              "snr": 13.223873081084719,
+              "epoch_btjd": 1735.9965047980966,
+              "circular_duration_days": 0.06876981293070075
+            },
+            {
+              "period_days": 27.86894888027589,
+              "duration_days": 0.248,
+              "snr": 13.223873081084022,
+              "epoch_btjd": 1736.6605047980966,
+              "circular_duration_days": 0.06875649797470891
+            },
+            {
+              "period_days": 27.8784739563897,
+              "duration_days": 0.248,
+              "snr": 13.223873081083147,
+              "epoch_btjd": 1736.2685047980965,
+              "circular_duration_days": 0.06876432998946733
+            }
+          ],
+          "injected_period_neighborhood": {
+            "period_days": 13.381900964884219,
+            "snr": 9.591213077349309,
+            "duration_days": 0.04,
+            "epoch_btjd": 1717.5885047980964,
+            "grid_points_above": 6973
+          }
+        },
+        "short_durations": {
+          "top_distinct_peaks": [
+            {
+              "period_days": 27.86196589285953,
+              "duration_days": 0.092,
+              "snr": 12.147907880076188,
+              "epoch_btjd": 1737.0225047980964,
+              "circular_duration_days": 0.06875075506425626
+            },
+            {
+              "period_days": 29.366806999014177,
+              "duration_days": 0.092,
+              "snr": 11.970436453813605,
+              "epoch_btjd": 1735.4825047980964,
+              "circular_duration_days": 0.06996682529892445
+            },
+            {
+              "period_days": 22.63778712931734,
+              "duration_days": 0.092,
+              "snr": 11.551162090332753,
+              "epoch_btjd": 1719.6145047980965,
+              "circular_duration_days": 0.06415338821234895
+            },
+            {
+              "period_days": 27.900393987864593,
+              "duration_days": 0.092,
+              "snr": 11.562194565195577,
+              "epoch_btjd": 1735.4665047980966,
+              "circular_duration_days": 0.06878234700979412
+            },
+            {
+              "period_days": 28.617528253844103,
+              "duration_days": 0.092,
+              "snr": 11.382355730605939,
+              "epoch_btjd": 1735.4025047980965,
+              "circular_duration_days": 0.06936665851394147
+            },
+            {
+              "period_days": 11.318474255114111,
+              "duration_days": 0.092,
+              "snr": 11.345618367481674,
+              "epoch_btjd": 1719.6345047980965,
+              "circular_duration_days": 0.05091897169567723
+            },
+            {
+              "period_days": 27.885143446619534,
+              "duration_days": 0.092,
+              "snr": 11.218542551654227,
+              "epoch_btjd": 1736.0745047980965,
+              "circular_duration_days": 0.06876981293070075
+            },
+            {
+              "period_days": 27.86926633037521,
+              "duration_days": 0.092,
+              "snr": 11.218542551652721,
+              "epoch_btjd": 1736.7145047980964,
+              "circular_duration_days": 0.06875675902749294
+            }
+          ],
+          "injected_period_neighborhood": {
+            "period_days": 13.381900964884219,
+            "snr": 9.59121307734931,
+            "duration_days": 0.04,
+            "epoch_btjd": 1717.5885047980964,
+            "grid_points_above": 845
+          }
+        }
+      }
+    },
+    {
+      "case": "production_harmonic__352617553_orbit1_radius0.8",
+      "period_days": 9.886310344652726,
+      "duration_days": 0.04170966798948408,
+      "cleaning_passes": 1,
+      "models": [
+        {
+          "sector": 15,
+          "peak_fractional_power": 0.16935706277490054,
+          "applied": true,
+          "period_days": 0.11069184362726897,
+          "fractional_power": 0.17405075724934835,
+          "fit_points": 3169,
+          "original_scatter": 0.0012149648676899345,
+          "corrected_scatter": 0.0010991282962350705
+        },
+        {
+          "sector": 16,
+          "peak_fractional_power": 0.12414632919771024,
+          "applied": true,
+          "period_days": 0.11067852143038538,
+          "fractional_power": 0.12461164857019198,
+          "fit_points": 2853,
+          "original_scatter": 0.001159605504261378,
+          "corrected_scatter": 0.0010860264965258464
+        },
+        {
+          "sector": 17,
+          "peak_fractional_power": 0.18972321458835206,
+          "applied": true,
+          "period_days": 0.11066336288505599,
+          "fractional_power": 0.19447188590219816,
+          "fit_points": 2853,
+          "original_scatter": 0.001201878206443139,
+          "corrected_scatter": 0.0010885525302654782
+        },
+        {
+          "sector": 41,
+          "peak_fractional_power": 0.27970283941224694,
+          "applied": true,
+          "period_days": 0.11066909760598036,
+          "fractional_power": 0.28323342620535324,
+          "fit_points": 3602,
+          "original_scatter": 0.0018207659621536226,
+          "corrected_scatter": 0.0016026022048603035
+        },
+        {
+          "sector": 55,
+          "peak_fractional_power": 0.32430731954252484,
+          "applied": true,
+          "period_days": 0.11067127914063081,
+          "fractional_power": 0.3280663850050443,
+          "fit_points": 3489,
+          "original_scatter": 0.0020478038256120765,
+          "corrected_scatter": 0.001641080722667399
+        },
+        {
+          "sector": 56,
+          "peak_fractional_power": 0.31660215441165196,
+          "applied": true,
+          "period_days": 0.11068450154887473,
+          "fractional_power": 0.32073581820804237,
+          "fit_points": 3634,
+          "original_scatter": 0.0017226850305894822,
+          "corrected_scatter": 0.0013957144067670377
+        },
+        {
+          "sector": 57,
+          "peak_fractional_power": 0.33384881262266675,
+          "applied": true,
+          "period_days": 0.11066714413846994,
+          "fractional_power": 0.33763536673403605,
+          "fit_points": 3532,
+          "original_scatter": 0.001931593340311719,
+          "corrected_scatter": 0.0015258839428689158
+        }
+      ],
+      "forced_training": {
+        "n_observed_events": 10,
+        "n_positive_events": 10,
+        "event_snr": [
+          {
+            "cycle": -110,
+            "center_btjd": 1717.6168487192285,
+            "points": 6,
+            "depth": 0.0019243065500603729,
+            "error": 0.0004101434569202633,
+            "snr": 4.691788976739621
+          },
+          {
+            "cycle": -109,
+            "center_btjd": 1727.5031590638814,
+            "points": 6,
+            "depth": 0.00036850211870353977,
+            "error": 0.00039327313058744746,
+            "snr": 0.9370132105213843
+          },
+          {
+            "cycle": -105,
+            "center_btjd": 1767.0484004424923,
+            "points": 6,
+            "depth": 0.0014363311524636657,
+            "error": 0.0003539828446403397,
+            "snr": 4.057629272749175
+          },
+          {
+            "cycle": -103,
+            "center_btjd": 1786.8210211317978,
+            "points": 6,
+            "depth": 0.0016614180612573026,
+            "error": 0.0003790491339189123,
+            "snr": 4.383120584079001
+          },
+          {
+            "cycle": -38,
+            "center_btjd": 2429.431193534225,
+            "points": 6,
+            "depth": 0.0009309441018554576,
+            "error": 0.0004584102502941375,
+            "snr": 2.030809959546324
+          },
+          {
+            "cycle": -37,
+            "center_btjd": 2439.3175038788777,
+            "points": 6,
+            "depth": 4.173471742774382e-05,
+            "error": 0.00048069031237237247,
+            "snr": 0.08682246418025068
+          },
+          {
+            "cycle": 3,
+            "center_btjd": 2834.7699176649867,
+            "points": 6,
+            "depth": 0.0028037205100467366,
+            "error": 0.00041852188106606596,
+            "snr": 6.699101377698707
+          },
+          {
+            "cycle": 4,
+            "center_btjd": 2844.6562280096396,
+            "points": 6,
+            "depth": 0.0014123993807352297,
+            "error": 0.0004104164267070151,
+            "snr": 3.4413812138750055
+          },
+          {
+            "cycle": 5,
+            "center_btjd": 2854.542538354292,
+            "points": 6,
+            "depth": 0.002635561979515866,
+            "error": 0.00041023115557240034,
+            "snr": 6.424577811108557
+          },
+          {
+            "cycle": 7,
+            "center_btjd": 2874.3151590435978,
+            "points": 6,
+            "depth": 0.0014840769380720653,
+            "error": 0.0004177397074619759,
+            "snr": 3.552635556453898
+          }
+        ],
+        "fixed_ephemeris_snr": 11.644721278991726,
+        "single_event_power_fraction": 0.2589369140222375,
+        "odd_even_sigma": 0.23436877535025574
+      },
+      "forced_coarse": {
+        "n_observed_events": 0,
+        "n_positive_events": 0,
+        "event_snr": [],
+        "fixed_ephemeris_snr": 0.0,
+        "single_event_power_fraction": null,
+        "odd_even_sigma": null
+      },
+      "variants": {
+        "production_coarse": {
+          "top_distinct_peaks": [
+            {
+              "period_days": 29.367141510941362,
+              "duration_days": 0.248,
+              "snr": 14.653744812110848,
+              "epoch_btjd": 1735.4685047980965,
+              "circular_duration_days": 0.06996709094776339
+            },
+            {
+              "period_days": 27.86133116258992,
+              "duration_days": 0.184,
+              "snr": 14.4576431708202,
+              "epoch_btjd": 1737.0045047980966,
+              "circular_duration_days": 0.06875023300527797
+            },
+            {
+              "period_days": 27.898805000740644,
+              "duration_days": 0.248,
+              "snr": 14.310659036853384,
+              "epoch_btjd": 1735.4365047980964,
+              "circular_duration_days": 0.06878104126995617
+            },
+            {
+              "period_days": 27.21982748345963,
+              "duration_days": 0.248,
+              "snr": 13.63496393590197,
+              "epoch_btjd": 1735.4285047980966,
+              "circular_duration_days": 0.0682184970340797
+            },
+            {
+              "period_days": 5.003971665667517,
+              "duration_days": 0.04,
+              "snr": 13.633186217464063,
+              "epoch_btjd": 1714.5805047980964,
+              "circular_duration_days": 0.03879273676495188
+            },
+            {
+              "period_days": 6.592056426862573,
+              "duration_days": 0.04,
+              "snr": 13.612774995275688,
+              "epoch_btjd": 1713.3485047980964,
+              "circular_duration_days": 0.04252450214115165
+            },
+            {
+              "period_days": 22.636497858912094,
+              "duration_days": 0.184,
+              "snr": 13.549431045885804,
+              "epoch_btjd": 1719.6205047980966,
+              "circular_duration_days": 0.06415217036268875
+            },
+            {
+              "period_days": 5.002432929262373,
+              "duration_days": 0.04,
+              "snr": 13.555041569540132,
+              "epoch_btjd": 1714.9245047980965,
+              "circular_duration_days": 0.03878876163588182
+            }
+          ],
+          "injected_period_neighborhood": {
+            "period_days": 9.886283747817867,
+            "snr": 11.479610051306926,
+            "duration_days": 0.04,
+            "epoch_btjd": 1717.6205047980966,
+            "grid_points_above": 1037
+          }
+        },
+        "short_durations": {
+          "top_distinct_peaks": [
+            {
+              "period_days": 6.592056426862573,
+              "duration_days": 0.04,
+              "snr": 14.146815688241691,
+              "epoch_btjd": 1713.3445047980965,
+              "circular_duration_days": 0.04252450214115165
+            },
+            {
+              "period_days": 5.003971665667517,
+              "duration_days": 0.04,
+              "snr": 13.963415210874317,
+              "epoch_btjd": 1714.5765047980965,
+              "circular_duration_days": 0.03879273676495188
+            },
+            {
+              "period_days": 5.798205822294405,
+              "duration_days": 0.032,
+              "snr": 13.934141021213401,
+              "epoch_btjd": 1712.3085047980965,
+              "circular_duration_days": 0.04074450286293247
+            },
+            {
+              "period_days": 5.002432929262373,
+              "duration_days": 0.04,
+              "snr": 13.555041569540132,
+              "epoch_btjd": 1714.9245047980965,
+              "circular_duration_days": 0.03878876163588182
+            },
+            {
+              "period_days": 5.232530842373996,
+              "duration_days": 0.032,
+              "snr": 13.471205592318574,
+              "epoch_btjd": 1716.0365047980965,
+              "circular_duration_days": 0.039374367316874576
+            },
+            {
+              "period_days": 7.5013428085335985,
+              "duration_days": 0.032,
+              "snr": 13.335019195376633,
+              "epoch_btjd": 1712.6565047980964,
+              "circular_duration_days": 0.04439566488061104
+            },
+            {
+              "period_days": 6.252977968180277,
+              "duration_days": 0.032,
+              "snr": 13.229625303356285,
+              "epoch_btjd": 1712.5405047980964,
+              "circular_duration_days": 0.041782722467295516
+            },
+            {
+              "period_days": 5.345061202612229,
+              "duration_days": 0.06,
+              "snr": 13.182546969757537,
+              "epoch_btjd": 1712.7705047980965,
+              "circular_duration_days": 0.0396545249791148
+            }
+          ],
+          "injected_period_neighborhood": {
+            "period_days": 9.886396360667787,
+            "snr": 11.836695639451538,
+            "duration_days": 0.032,
+            "epoch_btjd": 1717.6125047980966,
+            "grid_points_above": 198
+          }
+        }
+      }
+    },
+    {
+      "case": "production_harmonic__352617553_orbit1_radius0.8",
+      "period_days": 9.886310344652726,
+      "duration_days": 0.04170966798948408,
+      "cleaning_passes": 3,
+      "models": [
+        {
+          "sector": 15,
+          "peak_fractional_power": 0.16935706277490054,
+          "applied": true,
+          "period_days": 0.11069184362726897,
+          "fractional_power": 0.17405075724934835,
+          "fit_points": 3169,
+          "original_scatter": 0.0012149648676899345,
+          "corrected_scatter": 0.0010991282962350705
+        },
+        {
+          "sector": 16,
+          "peak_fractional_power": 0.12414632919771024,
+          "applied": true,
+          "period_days": 0.11067852143038538,
+          "fractional_power": 0.12461164857019198,
+          "fit_points": 2853,
+          "original_scatter": 0.001159605504261378,
+          "corrected_scatter": 0.0010860264965258464
+        },
+        {
+          "sector": 17,
+          "peak_fractional_power": 0.18972321458835206,
+          "applied": true,
+          "period_days": 0.11066336288505599,
+          "fractional_power": 0.19447188590219816,
+          "fit_points": 2853,
+          "original_scatter": 0.001201878206443139,
+          "corrected_scatter": 0.0010885525302654782
+        },
+        {
+          "sector": 41,
+          "peak_fractional_power": 0.27970283941224694,
+          "applied": true,
+          "period_days": 0.11066909760598036,
+          "fractional_power": 0.28323342620535324,
+          "fit_points": 3602,
+          "original_scatter": 0.0018207659621536226,
+          "corrected_scatter": 0.0016026022048603035
+        },
+        {
+          "sector": 55,
+          "peak_fractional_power": 0.32430731954252484,
+          "applied": true,
+          "period_days": 0.11067127914063081,
+          "fractional_power": 0.3280663850050443,
+          "fit_points": 3489,
+          "original_scatter": 0.0020478038256120765,
+          "corrected_scatter": 0.001641080722667399
+        },
+        {
+          "sector": 56,
+          "peak_fractional_power": 0.31660215441165196,
+          "applied": true,
+          "period_days": 0.11068450154887473,
+          "fractional_power": 0.32073581820804237,
+          "fit_points": 3634,
+          "original_scatter": 0.0017226850305894822,
+          "corrected_scatter": 0.0013957144067670377
+        },
+        {
+          "sector": 57,
+          "peak_fractional_power": 0.33384881262266675,
+          "applied": true,
+          "period_days": 0.11066714413846994,
+          "fractional_power": 0.33763536673403605,
+          "fit_points": 3532,
+          "original_scatter": 0.001931593340311719,
+          "corrected_scatter": 0.0015258839428689158
+        },
+        {
+          "sector": 15,
+          "peak_fractional_power": 0.1495923088347094,
+          "applied": true,
+          "period_days": 0.11369667548362897,
+          "fractional_power": 0.15243447254671907,
+          "fit_points": 3159,
+          "original_scatter": 0.0010991282962350705,
+          "corrected_scatter": 0.0010031524135908554
+        },
+        {
+          "sector": 16,
+          "peak_fractional_power": 0.11920219269422049,
+          "applied": true,
+          "period_days": 0.11368856664375245,
+          "fractional_power": 0.12355707307015873,
+          "fit_points": 2851,
+          "original_scatter": 0.0010860264965258464,
+          "corrected_scatter": 0.001002666752362929
+        },
+        {
+          "sector": 17,
+          "peak_fractional_power": 0.1798154561193225,
+          "applied": true,
+          "period_days": 0.11369405804798866,
+          "fractional_power": 0.18421827833736376,
+          "fit_points": 2853,
+          "original_scatter": 0.0010885525302654782,
+          "corrected_scatter": 0.0009740629577755629
+        },
+        {
+          "sector": 41,
+          "peak_fractional_power": 0.32893099071536297,
+          "applied": true,
+          "period_days": 0.11368534488772794,
+          "fractional_power": 0.3292355746176723,
+          "fit_points": 3599,
+          "original_scatter": 0.0016026022048603035,
+          "corrected_scatter": 0.0012771430229822278
+        },
+        {
+          "sector": 55,
+          "peak_fractional_power": 0.3460769983328036,
+          "applied": true,
+          "period_days": 0.11369340667087682,
+          "fractional_power": 0.34655471281915984,
+          "fit_points": 3473,
+          "original_scatter": 0.001641080722667399,
+          "corrected_scatter": 0.0012727586406790785
+        },
+        {
+          "sector": 56,
+          "peak_fractional_power": 0.3228052744542671,
+          "applied": true,
+          "period_days": 0.11369833186385137,
+          "fractional_power": 0.3311579706312317,
+          "fit_points": 3624,
+          "original_scatter": 0.0013957144067670377,
+          "corrected_scatter": 0.001136091124184425
+        },
+        {
+          "sector": 57,
+          "peak_fractional_power": 0.38088750031819346,
+          "applied": true,
+          "period_days": 0.11369128617845428,
+          "fractional_power": 0.3809454667205313,
+          "fit_points": 3526,
+          "original_scatter": 0.0015258839428689158,
+          "corrected_scatter": 0.0011770690339049505
+        },
+        {
+          "sector": 15,
+          "peak_fractional_power": 0.02502014009977966,
+          "applied": false
+        },
+        {
+          "sector": 16,
+          "peak_fractional_power": 0.02434217689127355,
+          "applied": false
+        },
+        {
+          "sector": 17,
+          "peak_fractional_power": 0.041026631894482024,
+          "applied": false
+        },
+        {
+          "sector": 41,
+          "peak_fractional_power": 0.06382055451156257,
+          "applied": false
+        },
+        {
+          "sector": 55,
+          "peak_fractional_power": 0.0573927951786155,
+          "applied": false
+        },
+        {
+          "sector": 56,
+          "peak_fractional_power": 0.05363409324281196,
+          "applied": false
+        },
+        {
+          "sector": 57,
+          "peak_fractional_power": 0.06385511208410259,
+          "applied": false
+        }
+      ],
+      "forced_training": {
+        "n_observed_events": 10,
+        "n_positive_events": 10,
+        "event_snr": [
+          {
+            "cycle": -110,
+            "center_btjd": 1717.6168487192285,
+            "points": 6,
+            "depth": 0.0021301127599409053,
+            "error": 0.0004101434569202633,
+            "snr": 5.193579768249294
+          },
+          {
+            "cycle": -109,
+            "center_btjd": 1727.5031590638814,
+            "points": 6,
+            "depth": 0.0006474447735491662,
+            "error": 0.00039327313058744746,
+            "snr": 1.6462980132460425
+          },
+          {
+            "cycle": -105,
+            "center_btjd": 1767.0484004424923,
+            "points": 6,
+            "depth": 0.0020190334628592543,
+            "error": 0.0003539828446403397,
+            "snr": 5.70376077097937
+          },
+          {
+            "cycle": -103,
+            "center_btjd": 1786.8210211317978,
+            "points": 6,
+            "depth": 0.002137489190158326,
+            "error": 0.0003790491339189123,
+            "snr": 5.639082110699627
+          },
+          {
+            "cycle": -38,
+            "center_btjd": 2429.431193534225,
+            "points": 6,
+            "depth": 0.0019179509446376475,
+            "error": 0.0004584102502941375,
+            "snr": 4.183918102631868
+          },
+          {
+            "cycle": -37,
+            "center_btjd": 2439.3175038788777,
+            "points": 6,
+            "depth": 0.001075354996151634,
+            "error": 0.00048069031237237247,
+            "snr": 2.2371056134757246
+          },
+          {
+            "cycle": 3,
+            "center_btjd": 2834.7699176649867,
+            "points": 6,
+            "depth": 0.0020560639604181308,
+            "error": 0.00041852188106606596,
+            "snr": 4.912679726997523
+          },
+          {
+            "cycle": 4,
+            "center_btjd": 2844.6562280096396,
+            "points": 6,
+            "depth": 0.0011176658913198967,
+            "error": 0.0004104164267070151,
+            "snr": 2.723248434005219
+          },
+          {
+            "cycle": 5,
+            "center_btjd": 2854.542538354292,
+            "points": 6,
+            "depth": 0.0023374912098230727,
+            "error": 0.00041023115557240034,
+            "snr": 5.697985582205583
+          },
+          {
+            "cycle": 7,
+            "center_btjd": 2874.3151590435978,
+            "points": 6,
+            "depth": 0.0017569768497750493,
+            "error": 0.0004177397074619759,
+            "snr": 4.205912960608312
+          }
+        ],
+        "fixed_ephemeris_snr": 13.44745456541679,
+        "single_event_power_fraction": 0.1641145824449583,
+        "odd_even_sigma": 0.1506800327148553
+      },
+      "forced_coarse": {
+        "n_observed_events": 0,
+        "n_positive_events": 0,
+        "event_snr": [],
+        "fixed_ephemeris_snr": 0.0,
+        "single_event_power_fraction": null,
+        "odd_even_sigma": null
+      },
+      "variants": {
+        "production_coarse": {
+          "top_distinct_peaks": [
+            {
+              "period_days": 27.898805000740644,
+              "duration_days": 0.248,
+              "snr": 14.67522853117783,
+              "epoch_btjd": 1735.4525047980965,
+              "circular_duration_days": 0.06878104126995617
+            },
+            {
+              "period_days": 29.368145069585278,
+              "duration_days": 0.248,
+              "snr": 14.55264051801676,
+              "epoch_btjd": 1735.4445047980964,
+              "circular_duration_days": 0.06996788790033283
+            },
+            {
+              "period_days": 27.86133116258992,
+              "duration_days": 0.248,
+              "snr": 14.479864908553626,
+              "epoch_btjd": 1736.9725047980965,
+              "circular_duration_days": 0.06875023300527797
+            },
+            {
+              "period_days": 27.21982748345963,
+              "duration_days": 0.248,
+              "snr": 14.07683182834312,
+              "epoch_btjd": 1735.4285047980966,
+              "circular_duration_days": 0.0682184970340797
+            },
+            {
+              "period_days": 9.886171136250686,
+              "duration_days": 0.04,
+              "snr": 13.409940434371537,
+              "epoch_btjd": 1717.6205047980966,
+              "circular_duration_days": 0.04867387196687711
+            },
+            {
+              "period_days": 19.928414922546793,
+              "duration_days": 0.248,
+              "snr": 13.363312453276007,
+              "epoch_btjd": 1715.5005047980965,
+              "circular_duration_days": 0.06148468082550225
+            },
+            {
+              "period_days": 27.885143446619534,
+              "duration_days": 0.248,
+              "snr": 13.145560939727337,
+              "epoch_btjd": 1735.9965047980966,
+              "circular_duration_days": 0.06876981293070075
+            },
+            {
+              "period_days": 27.86894888027589,
+              "duration_days": 0.248,
+              "snr": 13.145560939726641,
+              "epoch_btjd": 1736.6605047980966,
+              "circular_duration_days": 0.06875649797470891
+            }
+          ],
+          "injected_period_neighborhood": {
+            "period_days": 9.886171136250686,
+            "snr": 13.409940434371537,
+            "duration_days": 0.04,
+            "epoch_btjd": 1717.6205047980966,
+            "grid_points_above": 60
+          }
+        },
+        "short_durations": {
+          "top_distinct_peaks": [
+            {
+              "period_days": 9.886283747817867,
+              "duration_days": 0.04,
+              "snr": 13.76017795526569,
+              "epoch_btjd": 1717.6085047980964,
+              "circular_duration_days": 0.04867405674842081
+            },
+            {
+              "period_days": 27.86196589285953,
+              "duration_days": 0.092,
+              "snr": 12.05660654531556,
+              "epoch_btjd": 1737.0225047980964,
+              "circular_duration_days": 0.06875075506425626
+            },
+            {
+              "period_days": 29.366806999014177,
+              "duration_days": 0.092,
+              "snr": 11.897089842072832,
+              "epoch_btjd": 1735.4825047980964,
+              "circular_duration_days": 0.06996682529892445
+            },
+            {
+              "period_days": 19.772399088993325,
+              "duration_days": 0.032,
+              "snr": 11.636270812638553,
+              "epoch_btjd": 1727.5005047980965,
+              "circular_duration_days": 0.061323819708558866
+            },
+            {
+              "period_days": 27.900393987864593,
+              "duration_days": 0.092,
+              "snr": 11.47435796583296,
+              "epoch_btjd": 1735.4665047980966,
+              "circular_duration_days": 0.06878234700979412
+            },
+            {
+              "period_days": 22.63778712931734,
+              "duration_days": 0.092,
+              "snr": 11.399077972736816,
+              "epoch_btjd": 1719.6145047980965,
+              "circular_duration_days": 0.06415338821234895
+            },
+            {
+              "period_days": 28.617528253844103,
+              "duration_days": 0.092,
+              "snr": 11.334942026591118,
+              "epoch_btjd": 1735.4025047980965,
+              "circular_duration_days": 0.06936665851394147
+            },
+            {
+              "period_days": 27.885143446619534,
+              "duration_days": 0.092,
+              "snr": 11.14603896907051,
+              "epoch_btjd": 1736.0745047980965,
+              "circular_duration_days": 0.06876981293070075
+            }
+          ],
+          "injected_period_neighborhood": {
+            "period_days": 9.886283747817867,
+            "snr": 13.76017795526569,
+            "duration_days": 0.04,
+            "epoch_btjd": 1717.6085047980964,
+            "grid_points_above": 0
+          }
+        }
+      }
+    }
+  ]
+}
