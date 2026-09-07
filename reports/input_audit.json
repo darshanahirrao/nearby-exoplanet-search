@@ -1,8 +1,8 @@
 {
-  "checked_utc": "2026-09-07T05:46:40.124186+00:00",
-  "files": 7507,
+  "checked_utc": "2026-09-07T06:37:42.932850+00:00",
+  "files": 7513,
   "distinct_tics": 1039,
-  "bytes": 14941978560,
+  "bytes": 15213185280,
   "identity_or_time_failures": [],
   "scope": "Every downloaded light-curve and target-pixel FITS input present at this checkpoint. Includes calibration data and files unused by a particular search variant.",
   "code_sha256": "916a1df865c217f32f21dae84213510d5526f48e8630b3bcb7d05f9eb104bc3c"

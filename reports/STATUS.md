@@ -79,7 +79,7 @@ Downloads and all configured search passes are complete. The final
 [result audit](result_audit.json) passed with 4,023 result files, no failed
 consistency checks, no pending execution stages and no unreviewed unflagged fits.
 It covers main results plus specified controls and diagnostics, so its file count
-is not a star count. The [input audit](input_audit.json) recorded 7,507 FITS files
+is not a star count. The [input audit](input_audit.json) recorded 7,513 FITS files
 with no target-identity or time-reference failures. These audits establish
 artifact consistency, not astrophysical validity or comprehensive sensitivity.
 
