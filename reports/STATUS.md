@@ -150,9 +150,11 @@ of two additional recoveries. All three methods produced one unflagged fit on
 the three unmodified-star diagnostics. This is a development result, not a new
 planet, calibrated false-alarm rate or sufficient basis for adoption.
 
-A fresh [three-pass comparison](../docs/EXPERIMENT_MULTIMODE_CYCLES.md) is running
-with the same mode budget for each filter. Its outcomes are pending; the completed
-campaign and the earlier experiment results remain unchanged.
+A fresh [three-pass comparison](experiments/multimode_cycles/FINDINGS.md) completed
+another 90 runs with identical mode budgets. The cycle-excluded method recovered
+six strict cases versus seven for the stronger harmonic comparison and lost one
+of its recoveries. All three filters removed the previously unflagged fit in the
+unmodified-star diagnostics. The new variant failed its gate and remains unused.
 
 The initial data campaign is complete; method development continues as separate,
 bounded experiments. A non-detection does not establish that these systems lack
