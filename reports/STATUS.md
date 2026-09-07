@@ -9,6 +9,10 @@ Injected signals of the originally estimated sizes remain measurable in those
 data. Both trial fits are rejected as credible periodic planet leads; the audit
 passes 213 checks. Research continues, and no discovery is claimed.
 
+A [20-star coverage pilot](coverage_pilot/FINDINGS.md) is frozen before download,
+adding 390 unused sector products to 360 existing sectors. It retains the
+previously qualified simpler search revision and all screening criteria.
+
 All 1,000 selected targets have finished downloading and initial processing:
 992 targets supplied at least two sectors; eight had fewer. All 992 processed
 targets supported the configured period search. We retained 3,586 initial trial
