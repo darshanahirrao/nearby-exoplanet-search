@@ -17,3 +17,5 @@ __pycache__/
 /reports/revised_pilot/progress.json
 /reports/coverage_pilot/progress.json
 /reports/coverage_pilot/download_progress.json
+/reports/coverage_continuation/progress.json
+/reports/coverage_continuation/download_progress.json

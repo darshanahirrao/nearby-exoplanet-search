@@ -8,7 +8,8 @@ has completed with 750 usable sector products and 39 retained trial fits.
 All 39 fail the held-sector recurrence screen; none passes all screening checks.
 The input, frozen-parameter and arithmetic audit passes 3,561 checks with zero
 failures. These are previously searched stars, so the distinct-star count remains
-1,031. The remaining 45 stars in the inventory have not started this reanalysis.
+1,031. A [continuation covering the remaining 45 inventory stars](coverage_continuation/FINDINGS.md)
+has a separate plan frozen before downloading 887 additional sector products.
 
 The two additional TIC 233738219 trial fits
 [fail a frozen recurrence check in 21 previously unused sectors](vetting/fresh_sector_followup/FINDINGS.md).
