@@ -1,0 +1,183 @@
+{
+  "exported_utc": "2026-09-07T11:46:56.003922+00:00",
+  "reanalysed_stars": 20,
+  "additional_distinct_stars": 0,
+  "selected_sector_products": 750,
+  "usable_sectors": 750,
+  "trial_fits": 39,
+  "unflagged": 0,
+  "flags": {
+    "dominated_by_one_event": 1,
+    "inconsistent_holdout_depth_signs": 22,
+    "long_relative_to_circular_transit": 2,
+    "low_nominal_training_snr": 20,
+    "not_recovered_in_sector_holdout": 39,
+    "odd_even_discrepancy": 2,
+    "outside_initial_small_planet_radius_range": 16,
+    "outside_nominal_optimistic_hz": 12
+  },
+  "stars": [
+    {
+      "tic": 176935123,
+      "selected_sectors": 40,
+      "processed_sectors": 40,
+      "unused_after_quality_cuts": [],
+      "training_points": 86620,
+      "holdout_points": 38701
+    },
+    {
+      "tic": 149423103,
+      "selected_sectors": 42,
+      "processed_sectors": 42,
+      "unused_after_quality_cuts": [],
+      "training_points": 85875,
+      "holdout_points": 42003
+    },
+    {
+      "tic": 289589923,
+      "selected_sectors": 40,
+      "processed_sectors": 40,
+      "unused_after_quality_cuts": [],
+      "training_points": 81909,
+      "holdout_points": 38223
+    },
+    {
+      "tic": 349374765,
+      "selected_sectors": 40,
+      "processed_sectors": 40,
+      "unused_after_quality_cuts": [],
+      "training_points": 87025,
+      "holdout_points": 39944
+    },
+    {
+      "tic": 232607684,
+      "selected_sectors": 30,
+      "processed_sectors": 30,
+      "unused_after_quality_cuts": [],
+      "training_points": 60215,
+      "holdout_points": 30500
+    },
+    {
+      "tic": 441803471,
+      "selected_sectors": 39,
+      "processed_sectors": 39,
+      "unused_after_quality_cuts": [],
+      "training_points": 77474,
+      "holdout_points": 40072
+    },
+    {
+      "tic": 441721594,
+      "selected_sectors": 40,
+      "processed_sectors": 40,
+      "unused_after_quality_cuts": [],
+      "training_points": 82706,
+      "holdout_points": 38186
+    },
+    {
+      "tic": 219775481,
+      "selected_sectors": 30,
+      "processed_sectors": 30,
+      "unused_after_quality_cuts": [],
+      "training_points": 62902,
+      "holdout_points": 31090
+    },
+    {
+      "tic": 141154638,
+      "selected_sectors": 41,
+      "processed_sectors": 41,
+      "unused_after_quality_cuts": [],
+      "training_points": 84763,
+      "holdout_points": 45433
+    },
+    {
+      "tic": 32050414,
+      "selected_sectors": 35,
+      "processed_sectors": 35,
+      "unused_after_quality_cuts": [],
+      "training_points": 70199,
+      "holdout_points": 37717
+    },
+    {
+      "tic": 219884888,
+      "selected_sectors": 41,
+      "processed_sectors": 41,
+      "unused_after_quality_cuts": [],
+      "training_points": 84379,
+      "holdout_points": 42558
+    },
+    {
+      "tic": 232612888,
+      "selected_sectors": 30,
+      "processed_sectors": 30,
+      "unused_after_quality_cuts": [],
+      "training_points": 62546,
+      "holdout_points": 31136
+    },
+    {
+      "tic": 229647609,
+      "selected_sectors": 31,
+      "processed_sectors": 31,
+      "unused_after_quality_cuts": [],
+      "training_points": 65151,
+      "holdout_points": 30743
+    },
+    {
+      "tic": 294093302,
+      "selected_sectors": 36,
+      "processed_sectors": 36,
+      "unused_after_quality_cuts": [],
+      "training_points": 77043,
+      "holdout_points": 36633
+    },
+    {
+      "tic": 349683816,
+      "selected_sectors": 43,
+      "processed_sectors": 43,
+      "unused_after_quality_cuts": [],
+      "training_points": 91902,
+      "holdout_points": 42474
+    },
+    {
+      "tic": 261333545,
+      "selected_sectors": 32,
+      "processed_sectors": 32,
+      "unused_after_quality_cuts": [],
+      "training_points": 66831,
+      "holdout_points": 36742
+    },
+    {
+      "tic": 31381302,
+      "selected_sectors": 41,
+      "processed_sectors": 41,
+      "unused_after_quality_cuts": [],
+      "training_points": 85628,
+      "holdout_points": 46138
+    },
+    {
+      "tic": 271642286,
+      "selected_sectors": 41,
+      "processed_sectors": 41,
+      "unused_after_quality_cuts": [],
+      "training_points": 83514,
+      "holdout_points": 43480
+    },
+    {
+      "tic": 149988104,
+      "selected_sectors": 40,
+      "processed_sectors": 40,
+      "unused_after_quality_cuts": [],
+      "training_points": 79288,
+      "holdout_points": 39253
+    },
+    {
+      "tic": 349645035,
+      "selected_sectors": 38,
+      "processed_sectors": 38,
+      "unused_after_quality_cuts": [],
+      "training_points": 75749,
+      "holdout_points": 39977
+    }
+  ],
+  "queue": [],
+  "scope": "All retained fits disclosed. Flags overlap. Exploratory old-plus-new data reanalysis, not an independent completeness study. Every unflagged fit needs astrophysical vetting."
+}

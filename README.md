@@ -9,6 +9,10 @@ candidate or new discovery.** A habitable-zone orbit
 does not establish habitability. See [research status](reports/STATUS.md),
 [methods and limitations](docs/METHODS.md), and [data sources](docs/DATA_SOURCES.md).
 
+The latest [expanded-coverage pass](reports/coverage_pilot/FINDINGS.md) reanalysed
+20 of these stars using 750 sector products. All 39 retained trial fits failed
+the held-sector recurrence screen; the artifact audit passed with zero failures.
+
 ## Reproduce the analysis
 
 Use Python 3.12. `requirements.lock.txt` records the full environment;

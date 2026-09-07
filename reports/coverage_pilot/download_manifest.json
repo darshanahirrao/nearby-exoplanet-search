@@ -1,0 +1,3520 @@
+{
+  "started_utc": "2026-09-07T11:32:40.617203+00:00",
+  "plan_sha256": "c975c8399a15e8aeb06a28a7999b36213d9f89276c80b59566e3e13d5f7f3f62",
+  "files": [
+    {
+      "tic": 31381302,
+      "sector": 11,
+      "filename": "tess2019112060037-s0011-0000000031381302-0143-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019112060037-s0011-0000000031381302-0143-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2019112060037-s0011-0000000031381302-0143-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "484d4fd22d96dea82803ecabcbb10c4f5017d6f0d6b349d8b7eb6b4957b23478"
+    },
+    {
+      "tic": 31381302,
+      "sector": 12,
+      "filename": "tess2019140104343-s0012-0000000031381302-0144-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019140104343-s0012-0000000031381302-0144-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2019140104343-s0012-0000000031381302-0144-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "a6e9513b8acf4c08ad0fb614e42802a2716ff8aa2a6b19172e481ec642c49c86"
+    },
+    {
+      "tic": 31381302,
+      "sector": 13,
+      "filename": "tess2019169103026-s0013-0000000031381302-0146-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019169103026-s0013-0000000031381302-0146-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2019169103026-s0013-0000000031381302-0146-s_lc.fits",
+      "bytes": 2079360,
+      "sha256": "8951380e19758ef934c35d9b11242b74a4207d22f90e89ad3f9da82d2b1bc695"
+    },
+    {
+      "tic": 31381302,
+      "sector": 27,
+      "filename": "tess2020186164531-s0027-0000000031381302-0189-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020186164531-s0027-0000000031381302-0189-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2020186164531-s0027-0000000031381302-0189-s_lc.fits",
+      "bytes": 1785600,
+      "sha256": "56500ec6689589312f68069a7bf888269eeb0f9adc076fe5c18a1bfd8ccf27bc"
+    },
+    {
+      "tic": 31381302,
+      "sector": 28,
+      "filename": "tess2020212050318-s0028-0000000031381302-0190-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020212050318-s0028-0000000031381302-0190-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2020212050318-s0028-0000000031381302-0190-s_lc.fits",
+      "bytes": 1848960,
+      "sha256": "c482bf6d5fb4b0a36d90fa5f82720838fc784e13ff2b98217d9030a7162dd5f0"
+    },
+    {
+      "tic": 31381302,
+      "sector": 29,
+      "filename": "tess2020238165205-s0029-0000000031381302-0193-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020238165205-s0029-0000000031381302-0193-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2020238165205-s0029-0000000031381302-0193-s_lc.fits",
+      "bytes": 1915200,
+      "sha256": "fd62e368e5f5e82486daeda39e96e9ffc3f1f8ca3f3dde8e65fc8802710d93c9"
+    },
+    {
+      "tic": 31381302,
+      "sector": 30,
+      "filename": "tess2020266004630-s0030-0000000031381302-0195-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020266004630-s0030-0000000031381302-0195-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2020266004630-s0030-0000000031381302-0195-s_lc.fits",
+      "bytes": 1998720,
+      "sha256": "140ffbcf5391771839e09ce3f2696684c771b5b2b8c4507922e6a1a73c565d38"
+    },
+    {
+      "tic": 31381302,
+      "sector": 31,
+      "filename": "tess2020294194027-s0031-0000000031381302-0198-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020294194027-s0031-0000000031381302-0198-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2020294194027-s0031-0000000031381302-0198-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "9d5e12b0078ed83fb7b35857810ae18176fb64cda53de92d332d73c729ba7c20"
+    },
+    {
+      "tic": 31381302,
+      "sector": 32,
+      "filename": "tess2020324010417-s0032-0000000031381302-0200-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020324010417-s0032-0000000031381302-0200-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2020324010417-s0032-0000000031381302-0200-s_lc.fits",
+      "bytes": 1903680,
+      "sha256": "a92359b8321e2933c0b9a16a6b504f99876eebacbe690cd0f8d5d95c42426b80"
+    },
+    {
+      "tic": 31381302,
+      "sector": 34,
+      "filename": "tess2021014023720-s0034-0000000031381302-0204-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021014023720-s0034-0000000031381302-0204-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2021014023720-s0034-0000000031381302-0204-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "62928a8ebce4c43a692735c2ba841222975f323834c460d7df7c10ed6381e4ac"
+    },
+    {
+      "tic": 31381302,
+      "sector": 35,
+      "filename": "tess2021039152502-s0035-0000000031381302-0205-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021039152502-s0035-0000000031381302-0205-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2021039152502-s0035-0000000031381302-0205-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "74f0004e3e98916ff93617c34937488593933bf0400d1556a249f0add62f2daa"
+    },
+    {
+      "tic": 31381302,
+      "sector": 36,
+      "filename": "tess2021065132309-s0036-0000000031381302-0207-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021065132309-s0036-0000000031381302-0207-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2021065132309-s0036-0000000031381302-0207-s_lc.fits",
+      "bytes": 1837440,
+      "sha256": "1a9d62b4829b63e7c5b8c846d38fc4e7e45ef386ca8a7aa9c88199225167dff4"
+    },
+    {
+      "tic": 31381302,
+      "sector": 37,
+      "filename": "tess2021091135823-s0037-0000000031381302-0208-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021091135823-s0037-0000000031381302-0208-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2021091135823-s0037-0000000031381302-0208-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "e8e59e29de92d975db3497b938f47c3391142f46a334bede1792519d2880e033"
+    },
+    {
+      "tic": 31381302,
+      "sector": 38,
+      "filename": "tess2021118034608-s0038-0000000031381302-0209-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021118034608-s0038-0000000031381302-0209-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2021118034608-s0038-0000000031381302-0209-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "0ec01874345668d2ed74331e48e901a453a07b56a43b18b351cba7edbdc757e4"
+    },
+    {
+      "tic": 31381302,
+      "sector": 39,
+      "filename": "tess2021146024351-s0039-0000000031381302-0210-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021146024351-s0039-0000000031381302-0210-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2021146024351-s0039-0000000031381302-0210-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "cf4e2619d8ac71c6cde12401f4bfb2a2011b0fe18c3a18ba4697350ae4e80342"
+    },
+    {
+      "tic": 31381302,
+      "sector": 61,
+      "filename": "tess2023018032328-s0061-0000000031381302-0250-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023018032328-s0061-0000000031381302-0250-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2023018032328-s0061-0000000031381302-0250-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "a65a9fd9f049c1c8c633a972566a9153833832d706307e06e994dd83d5b26113"
+    },
+    {
+      "tic": 31381302,
+      "sector": 62,
+      "filename": "tess2023043185947-s0062-0000000031381302-0254-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023043185947-s0062-0000000031381302-0254-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2023043185947-s0062-0000000031381302-0254-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "a57ea83768ab80bbe44b2a0ad12bce0e0d5e279e2232c43dcbe6ae83e7314843"
+    },
+    {
+      "tic": 31381302,
+      "sector": 63,
+      "filename": "tess2023069172124-s0063-0000000031381302-0255-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023069172124-s0063-0000000031381302-0255-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2023069172124-s0063-0000000031381302-0255-s_lc.fits",
+      "bytes": 1941120,
+      "sha256": "4c8dfd4de19243effcaf2d99a28b880f02911413923df039422068ca10c3445d"
+    },
+    {
+      "tic": 31381302,
+      "sector": 64,
+      "filename": "tess2023096110322-s0064-0000000031381302-0257-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023096110322-s0064-0000000031381302-0257-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2023096110322-s0064-0000000031381302-0257-s_lc.fits",
+      "bytes": 1969920,
+      "sha256": "898145db15989a8c80f3f5f4891ce7cb46d8ff9dc9aef37f0b5d2bda10e0b3f5"
+    },
+    {
+      "tic": 31381302,
+      "sector": 65,
+      "filename": "tess2023124020739-s0065-0000000031381302-0259-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023124020739-s0065-0000000031381302-0259-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2023124020739-s0065-0000000031381302-0259-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "a51ae5e337a939f12032e922d2dae9517d894dda6c24551effbe35927af1a87f"
+    },
+    {
+      "tic": 31381302,
+      "sector": 67,
+      "filename": "tess2023181235917-s0067-0000000031381302-0261-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023181235917-s0067-0000000031381302-0261-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2023181235917-s0067-0000000031381302-0261-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "d41c566d15836b13927460048209a4fdb28748ba53a62adf306716eb27443b3d"
+    },
+    {
+      "tic": 31381302,
+      "sector": 68,
+      "filename": "tess2023209231226-s0068-0000000031381302-0262-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023209231226-s0068-0000000031381302-0262-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2023209231226-s0068-0000000031381302-0262-s_lc.fits",
+      "bytes": 2013120,
+      "sha256": "40823fb5e126c4e8b40d5b5d342986ce20f9bbb2862783e2b74cd7de139160c7"
+    },
+    {
+      "tic": 31381302,
+      "sector": 69,
+      "filename": "tess2023237165326-s0069-0000000031381302-0264-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023237165326-s0069-0000000031381302-0264-s_lc.fits",
+      "path": "data/coverage_lightcurves/31381302/tess2023237165326-s0069-0000000031381302-0264-s_lc.fits",
+      "bytes": 1886400,
+      "sha256": "2b8d35ff837a8defddf0340b4ca740bc491eea8df007ec3e201fb83f61bfcf87"
+    },
+    {
+      "tic": 32050414,
+      "sector": 13,
+      "filename": "tess2019169103026-s0013-0000000032050414-0146-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019169103026-s0013-0000000032050414-0146-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2019169103026-s0013-0000000032050414-0146-s_lc.fits",
+      "bytes": 2079360,
+      "sha256": "1b02c2aa32eec2080e86d642332421a242ab4e8400248d7266190d99c153c57e"
+    },
+    {
+      "tic": 32050414,
+      "sector": 27,
+      "filename": "tess2020186164531-s0027-0000000032050414-0189-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020186164531-s0027-0000000032050414-0189-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2020186164531-s0027-0000000032050414-0189-s_lc.fits",
+      "bytes": 1785600,
+      "sha256": "ea3d098f509452cd22796527a657e3ecbee47a7c955e20a0ed3a6b3e4b3b35a7"
+    },
+    {
+      "tic": 32050414,
+      "sector": 28,
+      "filename": "tess2020212050318-s0028-0000000032050414-0190-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020212050318-s0028-0000000032050414-0190-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2020212050318-s0028-0000000032050414-0190-s_lc.fits",
+      "bytes": 1848960,
+      "sha256": "9cf5c90a1e45f483f4c5c687e03680370af070b86e6b4fc0a592338ee3a2ff46"
+    },
+    {
+      "tic": 32050414,
+      "sector": 29,
+      "filename": "tess2020238165205-s0029-0000000032050414-0193-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020238165205-s0029-0000000032050414-0193-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2020238165205-s0029-0000000032050414-0193-s_lc.fits",
+      "bytes": 1915200,
+      "sha256": "2f3042254581e8f1f997a9343969979e181814dff2bee6eeb7494d967599da8b"
+    },
+    {
+      "tic": 32050414,
+      "sector": 30,
+      "filename": "tess2020266004630-s0030-0000000032050414-0195-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020266004630-s0030-0000000032050414-0195-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2020266004630-s0030-0000000032050414-0195-s_lc.fits",
+      "bytes": 1998720,
+      "sha256": "fc6923fac47cfbc972016618fb7d406b4747e325c5fa85d4a6e20d7e6fc8f40e"
+    },
+    {
+      "tic": 32050414,
+      "sector": 31,
+      "filename": "tess2020294194027-s0031-0000000032050414-0198-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020294194027-s0031-0000000032050414-0198-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2020294194027-s0031-0000000032050414-0198-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "140e52de2f21bd91873e3a30aa1864038435f9bbcb2dee463230add376252870"
+    },
+    {
+      "tic": 32050414,
+      "sector": 33,
+      "filename": "tess2020351194500-s0033-0000000032050414-0203-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020351194500-s0033-0000000032050414-0203-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2020351194500-s0033-0000000032050414-0203-s_lc.fits",
+      "bytes": 1892160,
+      "sha256": "fc395b2303bf09db78e9fc3e234e379d0f75b6229d5fd4e20cf098190a34940a"
+    },
+    {
+      "tic": 32050414,
+      "sector": 34,
+      "filename": "tess2021014023720-s0034-0000000032050414-0204-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021014023720-s0034-0000000032050414-0204-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2021014023720-s0034-0000000032050414-0204-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "d487d1d5fd2b5bdba5ada7454b14ec82c299c92c41efe5719ca398cb18974ec8"
+    },
+    {
+      "tic": 32050414,
+      "sector": 36,
+      "filename": "tess2021065132309-s0036-0000000032050414-0207-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021065132309-s0036-0000000032050414-0207-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2021065132309-s0036-0000000032050414-0207-s_lc.fits",
+      "bytes": 1837440,
+      "sha256": "b297a3da66c37d49f5ba39f8f37671d3d87c86f59217643aa34485efb3323269"
+    },
+    {
+      "tic": 32050414,
+      "sector": 37,
+      "filename": "tess2021091135823-s0037-0000000032050414-0208-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021091135823-s0037-0000000032050414-0208-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2021091135823-s0037-0000000032050414-0208-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "51047869c48ecbc3d3c64b30e115f9ada9843e717f5b592ded8a9602cdc5a3e7"
+    },
+    {
+      "tic": 32050414,
+      "sector": 61,
+      "filename": "tess2023018032328-s0061-0000000032050414-0250-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023018032328-s0061-0000000032050414-0250-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2023018032328-s0061-0000000032050414-0250-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "52aa5c43237d72de3e016f346cb2c40a70d1718fc946bcfe104b02bfb77558e8"
+    },
+    {
+      "tic": 32050414,
+      "sector": 62,
+      "filename": "tess2023043185947-s0062-0000000032050414-0254-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023043185947-s0062-0000000032050414-0254-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2023043185947-s0062-0000000032050414-0254-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "ff8a68d8b03cdebdb26e57b1b1b773fe7454d6e0c6316fd4d7b7b59e6758ce0e"
+    },
+    {
+      "tic": 32050414,
+      "sector": 63,
+      "filename": "tess2023069172124-s0063-0000000032050414-0255-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023069172124-s0063-0000000032050414-0255-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2023069172124-s0063-0000000032050414-0255-s_lc.fits",
+      "bytes": 1941120,
+      "sha256": "5edce63cb699d0101896b59d13be0ecdc6967040765663cc00988b7ceaf640c7"
+    },
+    {
+      "tic": 32050414,
+      "sector": 64,
+      "filename": "tess2023096110322-s0064-0000000032050414-0257-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023096110322-s0064-0000000032050414-0257-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2023096110322-s0064-0000000032050414-0257-s_lc.fits",
+      "bytes": 1969920,
+      "sha256": "3ee5b8a508349bb6b2b40320da34d282f245ade280b0646d9723414d72ac855c"
+    },
+    {
+      "tic": 32050414,
+      "sector": 66,
+      "filename": "tess2023153011303-s0066-0000000032050414-0260-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023153011303-s0066-0000000032050414-0260-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2023153011303-s0066-0000000032050414-0260-s_lc.fits",
+      "bytes": 2099520,
+      "sha256": "b90cae19decf09d19f564d7ef0fc8b092dd5baea45e8d392be2a3898cbc2c554"
+    },
+    {
+      "tic": 32050414,
+      "sector": 67,
+      "filename": "tess2023181235917-s0067-0000000032050414-0261-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023181235917-s0067-0000000032050414-0261-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2023181235917-s0067-0000000032050414-0261-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "7e3a2e27387773bd2b2aff47a240ab28a28306e7ab9171afe336c34e29a2f4fc"
+    },
+    {
+      "tic": 32050414,
+      "sector": 68,
+      "filename": "tess2023209231226-s0068-0000000032050414-0262-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023209231226-s0068-0000000032050414-0262-s_lc.fits",
+      "path": "data/coverage_lightcurves/32050414/tess2023209231226-s0068-0000000032050414-0262-s_lc.fits",
+      "bytes": 2013120,
+      "sha256": "f62dbf21e4e6edfb6d4989a0e6a76b145b3637850ffc2b45a3de9e14d59525fc"
+    },
+    {
+      "tic": 141154638,
+      "sector": 11,
+      "filename": "tess2019112060037-s0011-0000000141154638-0143-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019112060037-s0011-0000000141154638-0143-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2019112060037-s0011-0000000141154638-0143-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "752141f759fe9f8fb4713c13238fb2d13112f73d19683080522887f302765f9f"
+    },
+    {
+      "tic": 141154638,
+      "sector": 12,
+      "filename": "tess2019140104343-s0012-0000000141154638-0144-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019140104343-s0012-0000000141154638-0144-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2019140104343-s0012-0000000141154638-0144-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "9bb6ee914d73b3dca0127d7bec1e39a283551f36c68a1210b76164d29e476a9c"
+    },
+    {
+      "tic": 141154638,
+      "sector": 27,
+      "filename": "tess2020186164531-s0027-0000000141154638-0189-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020186164531-s0027-0000000141154638-0189-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2020186164531-s0027-0000000141154638-0189-s_lc.fits",
+      "bytes": 1785600,
+      "sha256": "8c92a3f4e11a1feb30684a87cbf962ac3a73aad35b183916f4bdd75527b43de0"
+    },
+    {
+      "tic": 141154638,
+      "sector": 28,
+      "filename": "tess2020212050318-s0028-0000000141154638-0190-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020212050318-s0028-0000000141154638-0190-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2020212050318-s0028-0000000141154638-0190-s_lc.fits",
+      "bytes": 1848960,
+      "sha256": "d29bfe17833bc082b24befc751c6a53cdb49fe063c49b4230f4a3510882eda77"
+    },
+    {
+      "tic": 141154638,
+      "sector": 29,
+      "filename": "tess2020238165205-s0029-0000000141154638-0193-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020238165205-s0029-0000000141154638-0193-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2020238165205-s0029-0000000141154638-0193-s_lc.fits",
+      "bytes": 1915200,
+      "sha256": "f235c3380da11aac898a8dc8e368b53099044f6aaa0e054b86fb0f1dc781e4ba"
+    },
+    {
+      "tic": 141154638,
+      "sector": 30,
+      "filename": "tess2020266004630-s0030-0000000141154638-0195-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020266004630-s0030-0000000141154638-0195-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2020266004630-s0030-0000000141154638-0195-s_lc.fits",
+      "bytes": 1998720,
+      "sha256": "d3001f99a83da55c52841ff4b5b808df3104eaa390a30b73137a038206ee723b"
+    },
+    {
+      "tic": 141154638,
+      "sector": 31,
+      "filename": "tess2020294194027-s0031-0000000141154638-0198-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020294194027-s0031-0000000141154638-0198-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2020294194027-s0031-0000000141154638-0198-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "b6cb3c345b5234d926ad214dd5a45be344ed2d4dc91ff7fbbf8d63c0f176f280"
+    },
+    {
+      "tic": 141154638,
+      "sector": 32,
+      "filename": "tess2020324010417-s0032-0000000141154638-0200-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020324010417-s0032-0000000141154638-0200-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2020324010417-s0032-0000000141154638-0200-s_lc.fits",
+      "bytes": 1903680,
+      "sha256": "ae497deeeda569cbee74a0133cd32e9771dd885f46e53bdf690b7f038a0deda1"
+    },
+    {
+      "tic": 141154638,
+      "sector": 34,
+      "filename": "tess2021014023720-s0034-0000000141154638-0204-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021014023720-s0034-0000000141154638-0204-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2021014023720-s0034-0000000141154638-0204-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "63b4fa59fb03be433bf1f56d4969e094e84b2cf4a71aacd1b2b64500f4cfa664"
+    },
+    {
+      "tic": 141154638,
+      "sector": 35,
+      "filename": "tess2021039152502-s0035-0000000141154638-0205-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021039152502-s0035-0000000141154638-0205-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2021039152502-s0035-0000000141154638-0205-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "6e2c9dfca74ced27adeabb25e87d8c9e77697edfbc482c329e270c991d3b81e4"
+    },
+    {
+      "tic": 141154638,
+      "sector": 36,
+      "filename": "tess2021065132309-s0036-0000000141154638-0207-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021065132309-s0036-0000000141154638-0207-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2021065132309-s0036-0000000141154638-0207-s_lc.fits",
+      "bytes": 1837440,
+      "sha256": "1201a3d36f2e5009796b1ea1cfa68077cf41f088f2499bcdd54c8e0bd33e3da5"
+    },
+    {
+      "tic": 141154638,
+      "sector": 37,
+      "filename": "tess2021091135823-s0037-0000000141154638-0208-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021091135823-s0037-0000000141154638-0208-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2021091135823-s0037-0000000141154638-0208-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "f76787692bcbb85f481266cb53420a638d729938d8c6ae0b6f69caf8e07b36d7"
+    },
+    {
+      "tic": 141154638,
+      "sector": 38,
+      "filename": "tess2021118034608-s0038-0000000141154638-0209-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021118034608-s0038-0000000141154638-0209-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2021118034608-s0038-0000000141154638-0209-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "7f727b86c449c5b74554937801154c4c7e35445fa98a4b3ad7268bf1c9746907"
+    },
+    {
+      "tic": 141154638,
+      "sector": 39,
+      "filename": "tess2021146024351-s0039-0000000141154638-0210-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021146024351-s0039-0000000141154638-0210-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2021146024351-s0039-0000000141154638-0210-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "5e10a8b514165da21c6a23d8a7a1c64014b813bed8ce3eecf83a4dc76532d6da"
+    },
+    {
+      "tic": 141154638,
+      "sector": 61,
+      "filename": "tess2023018032328-s0061-0000000141154638-0250-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023018032328-s0061-0000000141154638-0250-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2023018032328-s0061-0000000141154638-0250-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "6db4cd394ff955b9db5e6256e6f1799bc72adbe94470e04561afa4ad381ccd99"
+    },
+    {
+      "tic": 141154638,
+      "sector": 62,
+      "filename": "tess2023043185947-s0062-0000000141154638-0254-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023043185947-s0062-0000000141154638-0254-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2023043185947-s0062-0000000141154638-0254-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "1fdbe131c93cb996f1ab6de1f0952b7ef5704d980c8753eaa85e1b1659fb6a3b"
+    },
+    {
+      "tic": 141154638,
+      "sector": 64,
+      "filename": "tess2023096110322-s0064-0000000141154638-0257-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023096110322-s0064-0000000141154638-0257-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2023096110322-s0064-0000000141154638-0257-s_lc.fits",
+      "bytes": 1969920,
+      "sha256": "81729a9c6c25de90270fd12e53af7eb6f63a833b8a2cf05f7f7050a87cfe446f"
+    },
+    {
+      "tic": 141154638,
+      "sector": 65,
+      "filename": "tess2023124020739-s0065-0000000141154638-0259-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023124020739-s0065-0000000141154638-0259-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2023124020739-s0065-0000000141154638-0259-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "a93edccabac969fca6f4340a8192e736de8cf8b0994abbb1917aea1aebf4bffb"
+    },
+    {
+      "tic": 141154638,
+      "sector": 66,
+      "filename": "tess2023153011303-s0066-0000000141154638-0260-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023153011303-s0066-0000000141154638-0260-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2023153011303-s0066-0000000141154638-0260-s_lc.fits",
+      "bytes": 2099520,
+      "sha256": "19dddf4b6bd49020c1de82c139aaac8bc7e414b053b52d50891de9eb9ef32cd9"
+    },
+    {
+      "tic": 141154638,
+      "sector": 67,
+      "filename": "tess2023181235917-s0067-0000000141154638-0261-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023181235917-s0067-0000000141154638-0261-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2023181235917-s0067-0000000141154638-0261-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "8b91f02fb611a5b3c18506ab02a133dce186193099c96cd503570e643c690630"
+    },
+    {
+      "tic": 141154638,
+      "sector": 68,
+      "filename": "tess2023209231226-s0068-0000000141154638-0262-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023209231226-s0068-0000000141154638-0262-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2023209231226-s0068-0000000141154638-0262-s_lc.fits",
+      "bytes": 2013120,
+      "sha256": "a0606882d12c39ed482a65adf4bd3362f348c8f4452f7f311ba268e8145f1314"
+    },
+    {
+      "tic": 141154638,
+      "sector": 69,
+      "filename": "tess2023237165326-s0069-0000000141154638-0264-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023237165326-s0069-0000000141154638-0264-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2023237165326-s0069-0000000141154638-0264-s_lc.fits",
+      "bytes": 1886400,
+      "sha256": "50800b18c7e9f4f3b363478af2060f32152894af220a869f2e208ef00d22967d"
+    },
+    {
+      "tic": 141154638,
+      "sector": 87,
+      "filename": "tess2024353092137-s0087-0000000141154638-0284-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024353092137-s0087-0000000141154638-0284-s_lc.fits",
+      "path": "data/coverage_lightcurves/141154638/tess2024353092137-s0087-0000000141154638-0284-s_lc.fits",
+      "bytes": 1967040,
+      "sha256": "56a0ceb01d44cce854186101a2931383dd0c8903ffea33d31a3fa0b35c48c1cb"
+    },
+    {
+      "tic": 149423103,
+      "sector": 10,
+      "filename": "tess2019085135100-s0010-0000000149423103-0140-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019085135100-s0010-0000000149423103-0140-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2019085135100-s0010-0000000149423103-0140-s_lc.fits",
+      "bytes": 1920960,
+      "sha256": "8a2867986cfa52722c0d208065b8fcb57822c9b6cf8b23dbd1fd9e7f1105d482"
+    },
+    {
+      "tic": 149423103,
+      "sector": 11,
+      "filename": "tess2019112060037-s0011-0000000149423103-0143-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019112060037-s0011-0000000149423103-0143-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2019112060037-s0011-0000000149423103-0143-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "14ca2a431196000b87a6195697aa70868bfa84f7b476ba76b0bfac605a53260d"
+    },
+    {
+      "tic": 149423103,
+      "sector": 12,
+      "filename": "tess2019140104343-s0012-0000000149423103-0144-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019140104343-s0012-0000000149423103-0144-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2019140104343-s0012-0000000149423103-0144-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "f025599a596dfd93307a52637a6a9baff0437187d23ccc627c104a111ed0494f"
+    },
+    {
+      "tic": 149423103,
+      "sector": 13,
+      "filename": "tess2019169103026-s0013-0000000149423103-0146-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019169103026-s0013-0000000149423103-0146-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2019169103026-s0013-0000000149423103-0146-s_lc.fits",
+      "bytes": 2079360,
+      "sha256": "b173b6d455f327ef65a999582c25191d54c5e90ce3aa6548fa80ff2e4686ffcd"
+    },
+    {
+      "tic": 149423103,
+      "sector": 27,
+      "filename": "tess2020186164531-s0027-0000000149423103-0189-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020186164531-s0027-0000000149423103-0189-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2020186164531-s0027-0000000149423103-0189-s_lc.fits",
+      "bytes": 1785600,
+      "sha256": "6709c775c677f0e4fd8efe82bde786bae61e5f914f00745a1357b960c61f5559"
+    },
+    {
+      "tic": 149423103,
+      "sector": 28,
+      "filename": "tess2020212050318-s0028-0000000149423103-0190-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020212050318-s0028-0000000149423103-0190-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2020212050318-s0028-0000000149423103-0190-s_lc.fits",
+      "bytes": 1848960,
+      "sha256": "5bd9c0bfcd3bb2960aee33fef8fa148f1d9224533897091b362ef58e1c7232f7"
+    },
+    {
+      "tic": 149423103,
+      "sector": 29,
+      "filename": "tess2020238165205-s0029-0000000149423103-0193-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020238165205-s0029-0000000149423103-0193-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2020238165205-s0029-0000000149423103-0193-s_lc.fits",
+      "bytes": 1915200,
+      "sha256": "a7038fd44151889dc58427e44af743066ccf094f1eacfebca5e18bb71a2976fb"
+    },
+    {
+      "tic": 149423103,
+      "sector": 30,
+      "filename": "tess2020266004630-s0030-0000000149423103-0195-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020266004630-s0030-0000000149423103-0195-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2020266004630-s0030-0000000149423103-0195-s_lc.fits",
+      "bytes": 1998720,
+      "sha256": "713414ea73ee83c2f7a96c57f81ecf197824316de2473d943e399457b980c745"
+    },
+    {
+      "tic": 149423103,
+      "sector": 31,
+      "filename": "tess2020294194027-s0031-0000000149423103-0198-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020294194027-s0031-0000000149423103-0198-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2020294194027-s0031-0000000149423103-0198-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "52fa83fa29b9c9fa651893e4d487c44fa42fa27dd482354450b450876771d9e7"
+    },
+    {
+      "tic": 149423103,
+      "sector": 32,
+      "filename": "tess2020324010417-s0032-0000000149423103-0200-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020324010417-s0032-0000000149423103-0200-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2020324010417-s0032-0000000149423103-0200-s_lc.fits",
+      "bytes": 1903680,
+      "sha256": "8522bd796330214e80cf55673ef7ea2269d35f986946624633114ac66df55452"
+    },
+    {
+      "tic": 149423103,
+      "sector": 33,
+      "filename": "tess2020351194500-s0033-0000000149423103-0203-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020351194500-s0033-0000000149423103-0203-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2020351194500-s0033-0000000149423103-0203-s_lc.fits",
+      "bytes": 1892160,
+      "sha256": "16a9a52f6c532363e26f497812bd0a78eb7d1abd61f95928f2d3bcd28e1412c8"
+    },
+    {
+      "tic": 149423103,
+      "sector": 34,
+      "filename": "tess2021014023720-s0034-0000000149423103-0204-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021014023720-s0034-0000000149423103-0204-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2021014023720-s0034-0000000149423103-0204-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "7127c8769bb5e4b7b88f7149a0c8ba50ae94fc38d14068ace8a5338778ec82a8"
+    },
+    {
+      "tic": 149423103,
+      "sector": 36,
+      "filename": "tess2021065132309-s0036-0000000149423103-0207-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021065132309-s0036-0000000149423103-0207-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2021065132309-s0036-0000000149423103-0207-s_lc.fits",
+      "bytes": 1837440,
+      "sha256": "b8b6c658c5902afeaacf1a24f31a3e0f65cd036e4dcb280cc3f3d6e9ffacb73f"
+    },
+    {
+      "tic": 149423103,
+      "sector": 37,
+      "filename": "tess2021091135823-s0037-0000000149423103-0208-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021091135823-s0037-0000000149423103-0208-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2021091135823-s0037-0000000149423103-0208-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "5955ce974a6099dfab144c9f052c04eb6d92b5b0b3c2ff1484300a52fa8d77ae"
+    },
+    {
+      "tic": 149423103,
+      "sector": 38,
+      "filename": "tess2021118034608-s0038-0000000149423103-0209-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021118034608-s0038-0000000149423103-0209-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2021118034608-s0038-0000000149423103-0209-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "a61615adf3eb61a71d9c336bfd4d4d31310e6bb8127ac9bba09f672cae868520"
+    },
+    {
+      "tic": 149423103,
+      "sector": 39,
+      "filename": "tess2021146024351-s0039-0000000149423103-0210-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021146024351-s0039-0000000149423103-0210-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2021146024351-s0039-0000000149423103-0210-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "d6792276c9d2f1685f4c622eb352c1a33ace62f0d7c4407ff387d49e9a4ec8b7"
+    },
+    {
+      "tic": 149423103,
+      "sector": 61,
+      "filename": "tess2023018032328-s0061-0000000149423103-0250-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023018032328-s0061-0000000149423103-0250-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2023018032328-s0061-0000000149423103-0250-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "fb8e3fc42b6dba39ccb43fdea77ad4a93721f40cf89469060dcae3c3b9c20c68"
+    },
+    {
+      "tic": 149423103,
+      "sector": 62,
+      "filename": "tess2023043185947-s0062-0000000149423103-0254-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023043185947-s0062-0000000149423103-0254-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2023043185947-s0062-0000000149423103-0254-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "ee1f88a8f54c058a24a6c32159de904071912bc96a5537ba79e60fe5dcebbc78"
+    },
+    {
+      "tic": 149423103,
+      "sector": 63,
+      "filename": "tess2023069172124-s0063-0000000149423103-0255-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023069172124-s0063-0000000149423103-0255-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2023069172124-s0063-0000000149423103-0255-s_lc.fits",
+      "bytes": 1941120,
+      "sha256": "929d2ee065935e20f4b31f001a5029d2dac0ef94e09e828fb2b0ed5c53533219"
+    },
+    {
+      "tic": 149423103,
+      "sector": 64,
+      "filename": "tess2023096110322-s0064-0000000149423103-0257-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023096110322-s0064-0000000149423103-0257-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2023096110322-s0064-0000000149423103-0257-s_lc.fits",
+      "bytes": 1969920,
+      "sha256": "f87a5e4100d33085229004a1ec9e41a44ef512434d77c544205f7249ebb1be37"
+    },
+    {
+      "tic": 149423103,
+      "sector": 65,
+      "filename": "tess2023124020739-s0065-0000000149423103-0259-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023124020739-s0065-0000000149423103-0259-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2023124020739-s0065-0000000149423103-0259-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "26cae8279e90a53a41c37c50e435f5a6666704746de018e234772e9b98cae404"
+    },
+    {
+      "tic": 149423103,
+      "sector": 66,
+      "filename": "tess2023153011303-s0066-0000000149423103-0260-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023153011303-s0066-0000000149423103-0260-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2023153011303-s0066-0000000149423103-0260-s_lc.fits",
+      "bytes": 2099520,
+      "sha256": "e7f23d800732caa4b2c320a7bebd48c3b4802f38410deb4082c2317f632a129b"
+    },
+    {
+      "tic": 149423103,
+      "sector": 67,
+      "filename": "tess2023181235917-s0067-0000000149423103-0261-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023181235917-s0067-0000000149423103-0261-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2023181235917-s0067-0000000149423103-0261-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "5f98c2b6bfbaf9ac23ce8ee3555000d803116ed225b4dfc1c2e594f759aa36f3"
+    },
+    {
+      "tic": 149423103,
+      "sector": 68,
+      "filename": "tess2023209231226-s0068-0000000149423103-0262-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023209231226-s0068-0000000149423103-0262-s_lc.fits",
+      "path": "data/coverage_lightcurves/149423103/tess2023209231226-s0068-0000000149423103-0262-s_lc.fits",
+      "bytes": 2013120,
+      "sha256": "455414b4bace1ff93b5b4f78778375f782369f7e07299fc309bde2389204a1c2"
+    },
+    {
+      "tic": 149988104,
+      "sector": 11,
+      "filename": "tess2019112060037-s0011-0000000149988104-0143-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019112060037-s0011-0000000149988104-0143-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2019112060037-s0011-0000000149988104-0143-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "11b53347a88785dbeb4f3fb1720fec08c2914282131f15252b3645d7bfedf3bd"
+    },
+    {
+      "tic": 149988104,
+      "sector": 12,
+      "filename": "tess2019140104343-s0012-0000000149988104-0144-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019140104343-s0012-0000000149988104-0144-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2019140104343-s0012-0000000149988104-0144-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "a8dac8df9279f78e5764220d1a1f65ebc9986fdf1dc8ed2b14c7a19a42a7ca95"
+    },
+    {
+      "tic": 149988104,
+      "sector": 13,
+      "filename": "tess2019169103026-s0013-0000000149988104-0146-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019169103026-s0013-0000000149988104-0146-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2019169103026-s0013-0000000149988104-0146-s_lc.fits",
+      "bytes": 2079360,
+      "sha256": "8e79a814319dc7cfef15f46abe8cacf17468b2d0592171865cf61fc307c5e1b9"
+    },
+    {
+      "tic": 149988104,
+      "sector": 27,
+      "filename": "tess2020186164531-s0027-0000000149988104-0189-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020186164531-s0027-0000000149988104-0189-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2020186164531-s0027-0000000149988104-0189-s_lc.fits",
+      "bytes": 1785600,
+      "sha256": "bf1f1b839960b683953ded85534449e140e71ed61eb216d77f120c9c42d57a75"
+    },
+    {
+      "tic": 149988104,
+      "sector": 28,
+      "filename": "tess2020212050318-s0028-0000000149988104-0190-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020212050318-s0028-0000000149988104-0190-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2020212050318-s0028-0000000149988104-0190-s_lc.fits",
+      "bytes": 1848960,
+      "sha256": "cd9ff2e541f89fc253e5bc46b0a5be4e5b9244b440b873504c931437de52d9c0"
+    },
+    {
+      "tic": 149988104,
+      "sector": 29,
+      "filename": "tess2020238165205-s0029-0000000149988104-0193-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020238165205-s0029-0000000149988104-0193-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2020238165205-s0029-0000000149988104-0193-s_lc.fits",
+      "bytes": 1915200,
+      "sha256": "18c69c9dd9f60d3d44bb12f0d8eb44e37d80e4fd1d5635fbd2959f5fb5f6a14d"
+    },
+    {
+      "tic": 149988104,
+      "sector": 30,
+      "filename": "tess2020266004630-s0030-0000000149988104-0195-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020266004630-s0030-0000000149988104-0195-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2020266004630-s0030-0000000149988104-0195-s_lc.fits",
+      "bytes": 1998720,
+      "sha256": "01945ed76972c50d798e83c8d1d7f7bd37a6caeafbc8ad7f4961e3bf888fdd5c"
+    },
+    {
+      "tic": 149988104,
+      "sector": 31,
+      "filename": "tess2020294194027-s0031-0000000149988104-0198-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020294194027-s0031-0000000149988104-0198-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2020294194027-s0031-0000000149988104-0198-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "2b3446f92db97b7cabd01945a00d3b6ba763803b3835e1cf2920c68e892e352d"
+    },
+    {
+      "tic": 149988104,
+      "sector": 32,
+      "filename": "tess2020324010417-s0032-0000000149988104-0200-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020324010417-s0032-0000000149988104-0200-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2020324010417-s0032-0000000149988104-0200-s_lc.fits",
+      "bytes": 1903680,
+      "sha256": "2d6641aa6830793ed2df36003e6f81ae252fcff4584d5337b3f8222b619a9adf"
+    },
+    {
+      "tic": 149988104,
+      "sector": 33,
+      "filename": "tess2020351194500-s0033-0000000149988104-0203-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020351194500-s0033-0000000149988104-0203-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2020351194500-s0033-0000000149988104-0203-s_lc.fits",
+      "bytes": 1892160,
+      "sha256": "8e9fa9b4cf51d5db981ff049cf632f78cdddef2ca9c522d54e4e0347353b9d9c"
+    },
+    {
+      "tic": 149988104,
+      "sector": 34,
+      "filename": "tess2021014023720-s0034-0000000149988104-0204-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021014023720-s0034-0000000149988104-0204-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2021014023720-s0034-0000000149988104-0204-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "04966dc33663753fdc25c682e2b6a1df07db49515c190fb249a3ffdda8fa48a1"
+    },
+    {
+      "tic": 149988104,
+      "sector": 35,
+      "filename": "tess2021039152502-s0035-0000000149988104-0205-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021039152502-s0035-0000000149988104-0205-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2021039152502-s0035-0000000149988104-0205-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "80ca52e7ac39f3aeffb2b69688b73598fb0e9e98febefcd1667e54030bb2bcee"
+    },
+    {
+      "tic": 149988104,
+      "sector": 37,
+      "filename": "tess2021091135823-s0037-0000000149988104-0208-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021091135823-s0037-0000000149988104-0208-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2021091135823-s0037-0000000149988104-0208-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "14f3bec0db485a6af131a0a3c108c4d76bcb5122bb10347472ce7da6569dbdeb"
+    },
+    {
+      "tic": 149988104,
+      "sector": 38,
+      "filename": "tess2021118034608-s0038-0000000149988104-0209-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021118034608-s0038-0000000149988104-0209-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2021118034608-s0038-0000000149988104-0209-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "4199bac3ee372d08f32c3b69ca2c7fa84a31a2b3060438d8ef795680cdcd628f"
+    },
+    {
+      "tic": 149988104,
+      "sector": 39,
+      "filename": "tess2021146024351-s0039-0000000149988104-0210-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021146024351-s0039-0000000149988104-0210-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2021146024351-s0039-0000000149988104-0210-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "72581e379627aca56fdd27bcc90caf08ae88ea885b65937d6a16e884f97cce76"
+    },
+    {
+      "tic": 149988104,
+      "sector": 61,
+      "filename": "tess2023018032328-s0061-0000000149988104-0250-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023018032328-s0061-0000000149988104-0250-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2023018032328-s0061-0000000149988104-0250-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "52dbdf9f98f1244625f984de14a79642c48fa9754510a1bd528f9e48ffb95c74"
+    },
+    {
+      "tic": 149988104,
+      "sector": 62,
+      "filename": "tess2023043185947-s0062-0000000149988104-0254-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023043185947-s0062-0000000149988104-0254-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2023043185947-s0062-0000000149988104-0254-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "8db2987b4b1838759b132c558ffdbd6432d6b2620db8c4398ccb6ebc221c71cb"
+    },
+    {
+      "tic": 149988104,
+      "sector": 63,
+      "filename": "tess2023069172124-s0063-0000000149988104-0255-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023069172124-s0063-0000000149988104-0255-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2023069172124-s0063-0000000149988104-0255-s_lc.fits",
+      "bytes": 1941120,
+      "sha256": "8cf99ecbca646edcbe84c884e975da94aab5bad287f52c3c5c0afc7180ddc3ee"
+    },
+    {
+      "tic": 149988104,
+      "sector": 64,
+      "filename": "tess2023096110322-s0064-0000000149988104-0257-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023096110322-s0064-0000000149988104-0257-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2023096110322-s0064-0000000149988104-0257-s_lc.fits",
+      "bytes": 1969920,
+      "sha256": "0f387c735e163a7f556527034cae6e2f6c99d14e78e03be29a6e93e1bc177713"
+    },
+    {
+      "tic": 149988104,
+      "sector": 65,
+      "filename": "tess2023124020739-s0065-0000000149988104-0259-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023124020739-s0065-0000000149988104-0259-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2023124020739-s0065-0000000149988104-0259-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "83dc4c9a532f292fa0521e1803bf2b352f14c9c2b913cf10a40d1b6556b383d3"
+    },
+    {
+      "tic": 149988104,
+      "sector": 66,
+      "filename": "tess2023153011303-s0066-0000000149988104-0260-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023153011303-s0066-0000000149988104-0260-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2023153011303-s0066-0000000149988104-0260-s_lc.fits",
+      "bytes": 2099520,
+      "sha256": "70e3251461d9baf12e1c66902d3b5525bf5ca0886c64bd01ee2732214028d0f4"
+    },
+    {
+      "tic": 149988104,
+      "sector": 67,
+      "filename": "tess2023181235917-s0067-0000000149988104-0261-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023181235917-s0067-0000000149988104-0261-s_lc.fits",
+      "path": "data/coverage_lightcurves/149988104/tess2023181235917-s0067-0000000149988104-0261-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "c08ebab22fd8e0945cdc95e98b80bd4808e793e7a68695bf46c1132de7f2fa46"
+    },
+    {
+      "tic": 176935123,
+      "sector": 11,
+      "filename": "tess2019112060037-s0011-0000000176935123-0143-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019112060037-s0011-0000000176935123-0143-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2019112060037-s0011-0000000176935123-0143-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "ba22e5ba4f60723271ae73adc08a7510a31e7c6676c8e96e4a98d8416ed26915"
+    },
+    {
+      "tic": 176935123,
+      "sector": 12,
+      "filename": "tess2019140104343-s0012-0000000176935123-0144-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019140104343-s0012-0000000176935123-0144-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2019140104343-s0012-0000000176935123-0144-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "dc1a5c95c6302b91ae337ec155c4a03070c294a27a319da9f1bb4ac076b23b19"
+    },
+    {
+      "tic": 176935123,
+      "sector": 27,
+      "filename": "tess2020186164531-s0027-0000000176935123-0189-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020186164531-s0027-0000000176935123-0189-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2020186164531-s0027-0000000176935123-0189-s_lc.fits",
+      "bytes": 1785600,
+      "sha256": "65cdd54ee314c266bfb6640deeb23a4eb2d4d1ce89e1205af3199e9ae9b4031f"
+    },
+    {
+      "tic": 176935123,
+      "sector": 28,
+      "filename": "tess2020212050318-s0028-0000000176935123-0190-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020212050318-s0028-0000000176935123-0190-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2020212050318-s0028-0000000176935123-0190-s_lc.fits",
+      "bytes": 1848960,
+      "sha256": "cdeaf4ef24cc7cc602f9d5e2e49c0472ffce148e7c41bf1ce78ae3daff35a17b"
+    },
+    {
+      "tic": 176935123,
+      "sector": 29,
+      "filename": "tess2020238165205-s0029-0000000176935123-0193-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020238165205-s0029-0000000176935123-0193-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2020238165205-s0029-0000000176935123-0193-s_lc.fits",
+      "bytes": 1915200,
+      "sha256": "261a4bf49d050309781df9121589174311034493e0f289ee52ce6a69bb9bd4f4"
+    },
+    {
+      "tic": 176935123,
+      "sector": 31,
+      "filename": "tess2020294194027-s0031-0000000176935123-0198-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020294194027-s0031-0000000176935123-0198-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2020294194027-s0031-0000000176935123-0198-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "d806c86e021b34f477e688ad2c8a4f16b33d60080b413d5b268bb0d344b742b9"
+    },
+    {
+      "tic": 176935123,
+      "sector": 32,
+      "filename": "tess2020324010417-s0032-0000000176935123-0200-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020324010417-s0032-0000000176935123-0200-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2020324010417-s0032-0000000176935123-0200-s_lc.fits",
+      "bytes": 1903680,
+      "sha256": "fa347560576a0e7a15301cd99b84604a3130413d94592976f899554ba36fca48"
+    },
+    {
+      "tic": 176935123,
+      "sector": 34,
+      "filename": "tess2021014023720-s0034-0000000176935123-0204-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021014023720-s0034-0000000176935123-0204-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2021014023720-s0034-0000000176935123-0204-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "b76e3ef6b564e160ea2ee1c8f430b8392770a5eaee32d0f410ba29baccf399b3"
+    },
+    {
+      "tic": 176935123,
+      "sector": 35,
+      "filename": "tess2021039152502-s0035-0000000176935123-0205-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021039152502-s0035-0000000176935123-0205-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2021039152502-s0035-0000000176935123-0205-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "4f8d1d0eba62d09413ce28cfa6cd7c2f39147b390f9badf493ffd3832f2dcb0f"
+    },
+    {
+      "tic": 176935123,
+      "sector": 36,
+      "filename": "tess2021065132309-s0036-0000000176935123-0207-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021065132309-s0036-0000000176935123-0207-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2021065132309-s0036-0000000176935123-0207-s_lc.fits",
+      "bytes": 1837440,
+      "sha256": "5bf27c6c59bd8719ac9503995850526de82c5ee6728dc76555eedbc299cbf720"
+    },
+    {
+      "tic": 176935123,
+      "sector": 37,
+      "filename": "tess2021091135823-s0037-0000000176935123-0208-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021091135823-s0037-0000000176935123-0208-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2021091135823-s0037-0000000176935123-0208-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "87e79c7e8ca02a171245d953265f080a42573f6dbb13227d8a4291493bf34ded"
+    },
+    {
+      "tic": 176935123,
+      "sector": 38,
+      "filename": "tess2021118034608-s0038-0000000176935123-0209-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021118034608-s0038-0000000176935123-0209-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2021118034608-s0038-0000000176935123-0209-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "b4900acd90921f091c5da8e62bb2c5c6fb27445f538c718791205e09ed6d69af"
+    },
+    {
+      "tic": 176935123,
+      "sector": 39,
+      "filename": "tess2021146024351-s0039-0000000176935123-0210-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021146024351-s0039-0000000176935123-0210-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2021146024351-s0039-0000000176935123-0210-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "2ee9915c1d08ccb5b6326fdd300b765d6b4db0a76f4737ffd813403745eac32f"
+    },
+    {
+      "tic": 176935123,
+      "sector": 61,
+      "filename": "tess2023018032328-s0061-0000000176935123-0250-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023018032328-s0061-0000000176935123-0250-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2023018032328-s0061-0000000176935123-0250-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "35e4cc85d162b757a33fbb7491193759afc63372e3a4c384ea49b8591ec34fcc"
+    },
+    {
+      "tic": 176935123,
+      "sector": 62,
+      "filename": "tess2023043185947-s0062-0000000176935123-0254-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023043185947-s0062-0000000176935123-0254-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2023043185947-s0062-0000000176935123-0254-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "302732b338460143123ce7dcd5bf363b11e8b685da792fb9d4fecaddfd57e738"
+    },
+    {
+      "tic": 176935123,
+      "sector": 64,
+      "filename": "tess2023096110322-s0064-0000000176935123-0257-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023096110322-s0064-0000000176935123-0257-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2023096110322-s0064-0000000176935123-0257-s_lc.fits",
+      "bytes": 1969920,
+      "sha256": "d035cf4e6acb3fb7387d88087f585fc3dc593cf086eac9d819b8f10982c23773"
+    },
+    {
+      "tic": 176935123,
+      "sector": 65,
+      "filename": "tess2023124020739-s0065-0000000176935123-0259-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023124020739-s0065-0000000176935123-0259-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2023124020739-s0065-0000000176935123-0259-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "2bc73cf6f6ba3b4c9523d4dbdfaae0fe78fc40767a2542b1438fc21a4040a342"
+    },
+    {
+      "tic": 176935123,
+      "sector": 66,
+      "filename": "tess2023153011303-s0066-0000000176935123-0260-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023153011303-s0066-0000000176935123-0260-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2023153011303-s0066-0000000176935123-0260-s_lc.fits",
+      "bytes": 2099520,
+      "sha256": "f0f823e9cdc350a2c9c1ff574740f0903676de9aa28277dab65688b6b0d3d057"
+    },
+    {
+      "tic": 176935123,
+      "sector": 67,
+      "filename": "tess2023181235917-s0067-0000000176935123-0261-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023181235917-s0067-0000000176935123-0261-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2023181235917-s0067-0000000176935123-0261-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "01dafd5a2d0428b9656d87fb403a7f698a1ae883177a51979299d004d6496e10"
+    },
+    {
+      "tic": 176935123,
+      "sector": 68,
+      "filename": "tess2023209231226-s0068-0000000176935123-0262-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023209231226-s0068-0000000176935123-0262-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2023209231226-s0068-0000000176935123-0262-s_lc.fits",
+      "bytes": 2013120,
+      "sha256": "c306fac242d8b4999e2d531ec5eb787b8358ca7b6556557c09a7269423c5912b"
+    },
+    {
+      "tic": 176935123,
+      "sector": 69,
+      "filename": "tess2023237165326-s0069-0000000176935123-0264-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023237165326-s0069-0000000176935123-0264-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2023237165326-s0069-0000000176935123-0264-s_lc.fits",
+      "bytes": 1886400,
+      "sha256": "f5f5dc64ef55d73fbc50a3755a0fa904c05927e8888f771af72247c7d19945ad"
+    },
+    {
+      "tic": 176935123,
+      "sector": 87,
+      "filename": "tess2024353092137-s0087-0000000176935123-0284-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024353092137-s0087-0000000176935123-0284-s_lc.fits",
+      "path": "data/coverage_lightcurves/176935123/tess2024353092137-s0087-0000000176935123-0284-s_lc.fits",
+      "bytes": 1967040,
+      "sha256": "f3e121983359974961c617441e7e39005f98a2e39aada20f83e92a0a200a58fa"
+    },
+    {
+      "tic": 219775481,
+      "sector": 24,
+      "filename": "tess2020106103520-s0024-0000000219775481-0180-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020106103520-s0024-0000000219775481-0180-s_lc.fits",
+      "path": "data/coverage_lightcurves/219775481/tess2020106103520-s0024-0000000219775481-0180-s_lc.fits",
+      "bytes": 1938240,
+      "sha256": "fd07d6fb9b23c437febe86ed3d268baac4e2d88a2ebf220e3457d7dc3f29a8ff"
+    },
+    {
+      "tic": 219775481,
+      "sector": 25,
+      "filename": "tess2020133194932-s0025-0000000219775481-0182-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020133194932-s0025-0000000219775481-0182-s_lc.fits",
+      "path": "data/coverage_lightcurves/219775481/tess2020133194932-s0025-0000000219775481-0182-s_lc.fits",
+      "bytes": 1877760,
+      "sha256": "f63ce35d085b02bf1ce52e94c9cda3aac249f2d64d2f80ad96886dff6799154f"
+    },
+    {
+      "tic": 219775481,
+      "sector": 26,
+      "filename": "tess2020160202036-s0026-0000000219775481-0188-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020160202036-s0026-0000000219775481-0188-s_lc.fits",
+      "path": "data/coverage_lightcurves/219775481/tess2020160202036-s0026-0000000219775481-0188-s_lc.fits",
+      "bytes": 1820160,
+      "sha256": "f30024bd966dd3fbd79ab3bbcb37d8d50c99fa6de422f9236e0f9646d8ee4487"
+    },
+    {
+      "tic": 219775481,
+      "sector": 40,
+      "filename": "tess2021175071901-s0040-0000000219775481-0211-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021175071901-s0040-0000000219775481-0211-s_lc.fits",
+      "path": "data/coverage_lightcurves/219775481/tess2021175071901-s0040-0000000219775481-0211-s_lc.fits",
+      "bytes": 2062080,
+      "sha256": "444fb00e47528560c1b264b6f392c1b1d7334a5bafaf34e537fa89c3d719e609"
+    },
+    {
+      "tic": 219775481,
+      "sector": 41,
+      "filename": "tess2021204101404-s0041-0000000219775481-0212-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021204101404-s0041-0000000219775481-0212-s_lc.fits",
+      "path": "data/coverage_lightcurves/219775481/tess2021204101404-s0041-0000000219775481-0212-s_lc.fits",
+      "bytes": 1944000,
+      "sha256": "c5b847134d9a0cf91e4a8ce0ea559eda2856f59d128ae3ef350a3b77d741aeab"
+    },
+    {
+      "tic": 219775481,
+      "sector": 47,
+      "filename": "tess2021364111932-s0047-0000000219775481-0218-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021364111932-s0047-0000000219775481-0218-s_lc.fits",
+      "path": "data/coverage_lightcurves/219775481/tess2021364111932-s0047-0000000219775481-0218-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "b0c83bce0f2830c12b1d99dbbd75dcc14e2a3576bf26fb7af7e8c253deaccb6d"
+    },
+    {
+      "tic": 219775481,
+      "sector": 48,
+      "filename": "tess2022027120115-s0048-0000000219775481-0219-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022027120115-s0048-0000000219775481-0219-s_lc.fits",
+      "path": "data/coverage_lightcurves/219775481/tess2022027120115-s0048-0000000219775481-0219-s_lc.fits",
+      "bytes": 2050560,
+      "sha256": "c89f4a84f43c7e9b668aa1a7a8de8207f31cb5da13601491da283e68c6563344"
+    },
+    {
+      "tic": 219775481,
+      "sector": 49,
+      "filename": "tess2022057073128-s0049-0000000219775481-0221-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022057073128-s0049-0000000219775481-0221-s_lc.fits",
+      "path": "data/coverage_lightcurves/219775481/tess2022057073128-s0049-0000000219775481-0221-s_lc.fits",
+      "bytes": 1964160,
+      "sha256": "ac78b9959584ed5e6bc475e2cbb0a6a285f4f8f512e2b3e55dd941841c94b174"
+    },
+    {
+      "tic": 219775481,
+      "sector": 50,
+      "filename": "tess2022085151738-s0050-0000000219775481-0222-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022085151738-s0050-0000000219775481-0222-s_lc.fits",
+      "path": "data/coverage_lightcurves/219775481/tess2022085151738-s0050-0000000219775481-0222-s_lc.fits",
+      "bytes": 1920960,
+      "sha256": "5ab9305952d89a088a70ec0e22ab588b736329fd5ad1f50e317d179cdc0b8c1d"
+    },
+    {
+      "tic": 219775481,
+      "sector": 52,
+      "filename": "tess2022138205153-s0052-0000000219775481-0224-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022138205153-s0052-0000000219775481-0224-s_lc.fits",
+      "path": "data/coverage_lightcurves/219775481/tess2022138205153-s0052-0000000219775481-0224-s_lc.fits",
+      "bytes": 1791360,
+      "sha256": "4521fb577819df2e5dbecd4b293a5cdaf947daddb3b9e124509131f2e1855bbe"
+    },
+    {
+      "tic": 219775481,
+      "sector": 53,
+      "filename": "tess2022164095748-s0053-0000000219775481-0226-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022164095748-s0053-0000000219775481-0226-s_lc.fits",
+      "path": "data/coverage_lightcurves/219775481/tess2022164095748-s0053-0000000219775481-0226-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "afd8295bee768801e644244b3788ecedfa20f25293e5a6482809d7897ca1b1a3"
+    },
+    {
+      "tic": 219775481,
+      "sector": 54,
+      "filename": "tess2022190063128-s0054-0000000219775481-0227-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022190063128-s0054-0000000219775481-0227-s_lc.fits",
+      "path": "data/coverage_lightcurves/219775481/tess2022190063128-s0054-0000000219775481-0227-s_lc.fits",
+      "bytes": 1918080,
+      "sha256": "2224eaf1e14ce61bb406dfade4d3cfc3fc75ebeb2d0afb5721c5394e26595120"
+    },
+    {
+      "tic": 219884888,
+      "sector": 24,
+      "filename": "tess2020106103520-s0024-0000000219884888-0180-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020106103520-s0024-0000000219884888-0180-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2020106103520-s0024-0000000219884888-0180-s_lc.fits",
+      "bytes": 1938240,
+      "sha256": "4ff900e602386fa9ea20e767002c8a4b70b3a657552cf399725bf0c9ab8ae6b6"
+    },
+    {
+      "tic": 219884888,
+      "sector": 25,
+      "filename": "tess2020133194932-s0025-0000000219884888-0182-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020133194932-s0025-0000000219884888-0182-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2020133194932-s0025-0000000219884888-0182-s_lc.fits",
+      "bytes": 1877760,
+      "sha256": "1bf2d3ff49b02dad4d113d3de5cefa0e6eb0c87fccc11563150373c5cfea4a0a"
+    },
+    {
+      "tic": 219884888,
+      "sector": 26,
+      "filename": "tess2020160202036-s0026-0000000219884888-0188-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020160202036-s0026-0000000219884888-0188-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2020160202036-s0026-0000000219884888-0188-s_lc.fits",
+      "bytes": 1820160,
+      "sha256": "036ddfbdfd658e31722d30f3234530cb96be3c34c10bc6201b378e418beb71c3"
+    },
+    {
+      "tic": 219884888,
+      "sector": 40,
+      "filename": "tess2021175071901-s0040-0000000219884888-0211-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021175071901-s0040-0000000219884888-0211-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2021175071901-s0040-0000000219884888-0211-s_lc.fits",
+      "bytes": 2062080,
+      "sha256": "660fef9bb8d9643be1066ac3fe9bc694f6442dcc371309515b8ef069017a5c5a"
+    },
+    {
+      "tic": 219884888,
+      "sector": 41,
+      "filename": "tess2021204101404-s0041-0000000219884888-0212-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021204101404-s0041-0000000219884888-0212-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2021204101404-s0041-0000000219884888-0212-s_lc.fits",
+      "bytes": 1944000,
+      "sha256": "35b410eda2a8db2f16095b1b9f9c43f7ea0d797ffe6be1cfc009be98f52a72f6"
+    },
+    {
+      "tic": 219884888,
+      "sector": 47,
+      "filename": "tess2021364111932-s0047-0000000219884888-0218-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021364111932-s0047-0000000219884888-0218-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2021364111932-s0047-0000000219884888-0218-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "35ec2023acec73300b246a34e15e7b1b02a2f41935df093ded814ee1081e298f"
+    },
+    {
+      "tic": 219884888,
+      "sector": 48,
+      "filename": "tess2022027120115-s0048-0000000219884888-0219-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022027120115-s0048-0000000219884888-0219-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2022027120115-s0048-0000000219884888-0219-s_lc.fits",
+      "bytes": 2050560,
+      "sha256": "7d0dc6c8989bb3fb0c75f209ac3e313488318e638fdaf0b29ae0f005e2e66aee"
+    },
+    {
+      "tic": 219884888,
+      "sector": 49,
+      "filename": "tess2022057073128-s0049-0000000219884888-0221-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022057073128-s0049-0000000219884888-0221-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2022057073128-s0049-0000000219884888-0221-s_lc.fits",
+      "bytes": 1964160,
+      "sha256": "d7ba105a86441f477a4533986990a4a27a53ced5748b73854465b6971e0a13e6"
+    },
+    {
+      "tic": 219884888,
+      "sector": 50,
+      "filename": "tess2022085151738-s0050-0000000219884888-0222-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022085151738-s0050-0000000219884888-0222-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2022085151738-s0050-0000000219884888-0222-s_lc.fits",
+      "bytes": 1920960,
+      "sha256": "dafcf371494e08cc09bf9b7d1b0f12a19dd8e31f59d81699b4778b9abb1ce6f7"
+    },
+    {
+      "tic": 219884888,
+      "sector": 51,
+      "filename": "tess2022112184951-s0051-0000000219884888-0223-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022112184951-s0051-0000000219884888-0223-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2022112184951-s0051-0000000219884888-0223-s_lc.fits",
+      "bytes": 1800000,
+      "sha256": "1a1a0f3cb5b0dd40a4e2d794a3b16e250bc48c0b03fa4322bdea8f335b381e13"
+    },
+    {
+      "tic": 219884888,
+      "sector": 52,
+      "filename": "tess2022138205153-s0052-0000000219884888-0224-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022138205153-s0052-0000000219884888-0224-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2022138205153-s0052-0000000219884888-0224-s_lc.fits",
+      "bytes": 1791360,
+      "sha256": "39fe0c716c44121beadfc801d48c27d6b85f6c28b5811ae0734145876a7af089"
+    },
+    {
+      "tic": 219884888,
+      "sector": 53,
+      "filename": "tess2022164095748-s0053-0000000219884888-0226-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022164095748-s0053-0000000219884888-0226-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2022164095748-s0053-0000000219884888-0226-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "a1d62810fbb2bde850ad217bfe40e9e538b77c533502c001143b34bbf0fa28cd"
+    },
+    {
+      "tic": 219884888,
+      "sector": 55,
+      "filename": "tess2022217014003-s0055-0000000219884888-0242-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022217014003-s0055-0000000219884888-0242-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2022217014003-s0055-0000000219884888-0242-s_lc.fits",
+      "bytes": 1987200,
+      "sha256": "62988035c7f959728d1a7e2380a279c2cfc093034990e2170d72c4fc9c171300"
+    },
+    {
+      "tic": 219884888,
+      "sector": 56,
+      "filename": "tess2022244194134-s0056-0000000219884888-0243-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022244194134-s0056-0000000219884888-0243-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2022244194134-s0056-0000000219884888-0243-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "8072fddba0a063a13e0b16b19422a23259a50f327c905901dc820496f42dfec2"
+    },
+    {
+      "tic": 219884888,
+      "sector": 57,
+      "filename": "tess2022273165103-s0057-0000000219884888-0245-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022273165103-s0057-0000000219884888-0245-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2022273165103-s0057-0000000219884888-0245-s_lc.fits",
+      "bytes": 2102400,
+      "sha256": "3e5f6b35d6d186472ef05349b1427c8409f1acf837ad08bd80c4940220cefb8c"
+    },
+    {
+      "tic": 219884888,
+      "sector": 58,
+      "filename": "tess2022302161335-s0058-0000000219884888-0247-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022302161335-s0058-0000000219884888-0247-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2022302161335-s0058-0000000219884888-0247-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "e24e5dc587ce96684beb7b24a2b9ac1fff5931248e12c301405d6f0aaafcc465"
+    },
+    {
+      "tic": 219884888,
+      "sector": 59,
+      "filename": "tess2022330142927-s0059-0000000219884888-0248-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022330142927-s0059-0000000219884888-0248-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2022330142927-s0059-0000000219884888-0248-s_lc.fits",
+      "bytes": 1932480,
+      "sha256": "971fcc025c8158a984e7d7f12f979abeaf67c31f211534174e2366b5abc64382"
+    },
+    {
+      "tic": 219884888,
+      "sector": 60,
+      "filename": "tess2022357055054-s0060-0000000219884888-0249-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022357055054-s0060-0000000219884888-0249-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2022357055054-s0060-0000000219884888-0249-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "fa1a115ce91be16fa305786315e25c7de248ff7852bce2306a6210466721af75"
+    },
+    {
+      "tic": 219884888,
+      "sector": 73,
+      "filename": "tess2023341045131-s0073-0000000219884888-0268-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023341045131-s0073-0000000219884888-0268-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2023341045131-s0073-0000000219884888-0268-s_lc.fits",
+      "bytes": 1964160,
+      "sha256": "53bf862e0577b5d5912436ad0986f34f5ca60fc62d9a34d029df3d69c094e495"
+    },
+    {
+      "tic": 219884888,
+      "sector": 74,
+      "filename": "tess2024003055635-s0074-0000000219884888-0269-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024003055635-s0074-0000000219884888-0269-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2024003055635-s0074-0000000219884888-0269-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "fdc7e1d6e9c4b3b029fb5404030c079e654b6e504459b0f673649a116279f9d1"
+    },
+    {
+      "tic": 219884888,
+      "sector": 75,
+      "filename": "tess2024030031500-s0075-0000000219884888-0270-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024030031500-s0075-0000000219884888-0270-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2024030031500-s0075-0000000219884888-0270-s_lc.fits",
+      "bytes": 2024640,
+      "sha256": "292ca26e6b6910f4fbafe970656cf7982b0459d9bc1cb63a603e7c87552452b2"
+    },
+    {
+      "tic": 219884888,
+      "sector": 76,
+      "filename": "tess2024058030222-s0076-0000000219884888-0271-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024058030222-s0076-0000000219884888-0271-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2024058030222-s0076-0000000219884888-0271-s_lc.fits",
+      "bytes": 1981440,
+      "sha256": "4bdce5d405ceb5c81c7ab7ac800eb0836b483178371d68a5078a9c59dc37743d"
+    },
+    {
+      "tic": 219884888,
+      "sector": 77,
+      "filename": "tess2024085201119-s0077-0000000219884888-0272-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024085201119-s0077-0000000219884888-0272-s_lc.fits",
+      "path": "data/coverage_lightcurves/219884888/tess2024085201119-s0077-0000000219884888-0272-s_lc.fits",
+      "bytes": 2050560,
+      "sha256": "712c28b2292ea8ebd9b0dbc61ea3b807eb7712280d4ee3aefb9bfea5a3d2646c"
+    },
+    {
+      "tic": 229647609,
+      "sector": 24,
+      "filename": "tess2020106103520-s0024-0000000229647609-0180-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020106103520-s0024-0000000229647609-0180-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2020106103520-s0024-0000000229647609-0180-s_lc.fits",
+      "bytes": 1938240,
+      "sha256": "d554facc2626777f4fc9160d42762a78a79f3335f0eabd8e5e7ec428ff14e446"
+    },
+    {
+      "tic": 229647609,
+      "sector": 25,
+      "filename": "tess2020133194932-s0025-0000000229647609-0182-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020133194932-s0025-0000000229647609-0182-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2020133194932-s0025-0000000229647609-0182-s_lc.fits",
+      "bytes": 1877760,
+      "sha256": "6e0832dcad3f25a76ccfa200f60a6bc2448227fcd6f1e4c4a514eb0bef4bdade"
+    },
+    {
+      "tic": 229647609,
+      "sector": 26,
+      "filename": "tess2020160202036-s0026-0000000229647609-0188-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020160202036-s0026-0000000229647609-0188-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2020160202036-s0026-0000000229647609-0188-s_lc.fits",
+      "bytes": 1820160,
+      "sha256": "64388c98aef4496103f313653ead9082e2d62fd0501e18ac8b9517a615cb10c7"
+    },
+    {
+      "tic": 229647609,
+      "sector": 40,
+      "filename": "tess2021175071901-s0040-0000000229647609-0211-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021175071901-s0040-0000000229647609-0211-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2021175071901-s0040-0000000229647609-0211-s_lc.fits",
+      "bytes": 2062080,
+      "sha256": "3627dfbded9c757a7fe93bc918f3fa0c59c239d27400823a2f59f7a90aead799"
+    },
+    {
+      "tic": 229647609,
+      "sector": 41,
+      "filename": "tess2021204101404-s0041-0000000229647609-0212-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021204101404-s0041-0000000229647609-0212-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2021204101404-s0041-0000000229647609-0212-s_lc.fits",
+      "bytes": 1944000,
+      "sha256": "56a51c2982685ac922cc49581da32e493f91e9fbb473a9c23c6089a05b69e524"
+    },
+    {
+      "tic": 229647609,
+      "sector": 47,
+      "filename": "tess2021364111932-s0047-0000000229647609-0218-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021364111932-s0047-0000000229647609-0218-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2021364111932-s0047-0000000229647609-0218-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "ce99f6da8de806197078fc9147505709d08b441b7ad51bac134a3153e84d3edf"
+    },
+    {
+      "tic": 229647609,
+      "sector": 48,
+      "filename": "tess2022027120115-s0048-0000000229647609-0219-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022027120115-s0048-0000000229647609-0219-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2022027120115-s0048-0000000229647609-0219-s_lc.fits",
+      "bytes": 2050560,
+      "sha256": "b1ef065e7f45b2cadf9bbd26181c598677877660559f5adcc9cb57cb444d01e1"
+    },
+    {
+      "tic": 229647609,
+      "sector": 49,
+      "filename": "tess2022057073128-s0049-0000000229647609-0221-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022057073128-s0049-0000000229647609-0221-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2022057073128-s0049-0000000229647609-0221-s_lc.fits",
+      "bytes": 1964160,
+      "sha256": "6dc6f2483f3e91c4387a86272806cc678dbde5bde4adbe76f6e739bf44a81082"
+    },
+    {
+      "tic": 229647609,
+      "sector": 50,
+      "filename": "tess2022085151738-s0050-0000000229647609-0222-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022085151738-s0050-0000000229647609-0222-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2022085151738-s0050-0000000229647609-0222-s_lc.fits",
+      "bytes": 1920960,
+      "sha256": "ec7d60ee210dd693b24314f6a90748248854aa02294c84b6bd7c6e390af31bb4"
+    },
+    {
+      "tic": 229647609,
+      "sector": 51,
+      "filename": "tess2022112184951-s0051-0000000229647609-0223-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022112184951-s0051-0000000229647609-0223-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2022112184951-s0051-0000000229647609-0223-s_lc.fits",
+      "bytes": 1800000,
+      "sha256": "d6ce75408f25daba453898335bf31d18f10e3521f3d238cf73b5250c44c2f015"
+    },
+    {
+      "tic": 229647609,
+      "sector": 52,
+      "filename": "tess2022138205153-s0052-0000000229647609-0224-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022138205153-s0052-0000000229647609-0224-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2022138205153-s0052-0000000229647609-0224-s_lc.fits",
+      "bytes": 1791360,
+      "sha256": "b91d9a6714c7d1ea2b278c6bcc4b9627536c5e893bd13b67114e99462bfbdbd7"
+    },
+    {
+      "tic": 229647609,
+      "sector": 53,
+      "filename": "tess2022164095748-s0053-0000000229647609-0226-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022164095748-s0053-0000000229647609-0226-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2022164095748-s0053-0000000229647609-0226-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "0e151983e51ec56dc00ce0b62266a604159db8bf3e0a6fdc5754e2173ab4434a"
+    },
+    {
+      "tic": 229647609,
+      "sector": 54,
+      "filename": "tess2022190063128-s0054-0000000229647609-0227-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022190063128-s0054-0000000229647609-0227-s_lc.fits",
+      "path": "data/coverage_lightcurves/229647609/tess2022190063128-s0054-0000000229647609-0227-s_lc.fits",
+      "bytes": 1918080,
+      "sha256": "6e6505cf953c0a42d6cb97ebd16788878900137b332b4babd5f9711f72c5c491"
+    },
+    {
+      "tic": 232607684,
+      "sector": 24,
+      "filename": "tess2020106103520-s0024-0000000232607684-0180-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020106103520-s0024-0000000232607684-0180-s_lc.fits",
+      "path": "data/coverage_lightcurves/232607684/tess2020106103520-s0024-0000000232607684-0180-s_lc.fits",
+      "bytes": 1938240,
+      "sha256": "31ae7b8841509b135114dde227666bba54c7b89d94b6e8d3ca84da48f6da1e2f"
+    },
+    {
+      "tic": 232607684,
+      "sector": 25,
+      "filename": "tess2020133194932-s0025-0000000232607684-0182-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020133194932-s0025-0000000232607684-0182-s_lc.fits",
+      "path": "data/coverage_lightcurves/232607684/tess2020133194932-s0025-0000000232607684-0182-s_lc.fits",
+      "bytes": 1877760,
+      "sha256": "ac76f58f56831463db2e2d32f228f235a9495a61e3e94e3c6128963f40383521"
+    },
+    {
+      "tic": 232607684,
+      "sector": 26,
+      "filename": "tess2020160202036-s0026-0000000232607684-0188-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020160202036-s0026-0000000232607684-0188-s_lc.fits",
+      "path": "data/coverage_lightcurves/232607684/tess2020160202036-s0026-0000000232607684-0188-s_lc.fits",
+      "bytes": 1820160,
+      "sha256": "346b46e28876f7784d08f24e2db94c89e8d2bb430d69d1556639465814c3be0b"
+    },
+    {
+      "tic": 232607684,
+      "sector": 40,
+      "filename": "tess2021175071901-s0040-0000000232607684-0211-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021175071901-s0040-0000000232607684-0211-s_lc.fits",
+      "path": "data/coverage_lightcurves/232607684/tess2021175071901-s0040-0000000232607684-0211-s_lc.fits",
+      "bytes": 2062080,
+      "sha256": "1f2b96f230aeea0684a5fd67d83046ab7ee2fb42b38b6b64bdafbd9fdc499536"
+    },
+    {
+      "tic": 232607684,
+      "sector": 41,
+      "filename": "tess2021204101404-s0041-0000000232607684-0212-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021204101404-s0041-0000000232607684-0212-s_lc.fits",
+      "path": "data/coverage_lightcurves/232607684/tess2021204101404-s0041-0000000232607684-0212-s_lc.fits",
+      "bytes": 1944000,
+      "sha256": "b1e3784e470e450a94efe51b3745589cf7407f6205cf2a23d4cbafcb98504469"
+    },
+    {
+      "tic": 232607684,
+      "sector": 47,
+      "filename": "tess2021364111932-s0047-0000000232607684-0218-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021364111932-s0047-0000000232607684-0218-s_lc.fits",
+      "path": "data/coverage_lightcurves/232607684/tess2021364111932-s0047-0000000232607684-0218-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "f02b0b9616885bebec185b37e11f5f08f9a4a2edec071bde7c32885b8bc5f63a"
+    },
+    {
+      "tic": 232607684,
+      "sector": 48,
+      "filename": "tess2022027120115-s0048-0000000232607684-0219-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022027120115-s0048-0000000232607684-0219-s_lc.fits",
+      "path": "data/coverage_lightcurves/232607684/tess2022027120115-s0048-0000000232607684-0219-s_lc.fits",
+      "bytes": 2050560,
+      "sha256": "6d0ae6490730c3de3fc801c82f1006325a8056cedaa6bb5635551f1c85ef3c87"
+    },
+    {
+      "tic": 232607684,
+      "sector": 49,
+      "filename": "tess2022057073128-s0049-0000000232607684-0221-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022057073128-s0049-0000000232607684-0221-s_lc.fits",
+      "path": "data/coverage_lightcurves/232607684/tess2022057073128-s0049-0000000232607684-0221-s_lc.fits",
+      "bytes": 1964160,
+      "sha256": "cee1147f47d4169bf7fce9489200ba0668bbb9b7f0cb3ec1acaa0bf53d1778a3"
+    },
+    {
+      "tic": 232607684,
+      "sector": 50,
+      "filename": "tess2022085151738-s0050-0000000232607684-0222-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022085151738-s0050-0000000232607684-0222-s_lc.fits",
+      "path": "data/coverage_lightcurves/232607684/tess2022085151738-s0050-0000000232607684-0222-s_lc.fits",
+      "bytes": 1920960,
+      "sha256": "e846cd3b546d54b19c4e15e13e88b745ab18df63fcacaa4403283d4a55f701b6"
+    },
+    {
+      "tic": 232607684,
+      "sector": 52,
+      "filename": "tess2022138205153-s0052-0000000232607684-0224-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022138205153-s0052-0000000232607684-0224-s_lc.fits",
+      "path": "data/coverage_lightcurves/232607684/tess2022138205153-s0052-0000000232607684-0224-s_lc.fits",
+      "bytes": 1791360,
+      "sha256": "b5ca6276ccc382e6aeb95e7e52d7ced42afad04d32aeecb857e8afd9404930b4"
+    },
+    {
+      "tic": 232607684,
+      "sector": 53,
+      "filename": "tess2022164095748-s0053-0000000232607684-0226-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022164095748-s0053-0000000232607684-0226-s_lc.fits",
+      "path": "data/coverage_lightcurves/232607684/tess2022164095748-s0053-0000000232607684-0226-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "a8d59de5cb3cd3b8fcbeba11406293bad90b39c62202a9defae4e57e220979cf"
+    },
+    {
+      "tic": 232607684,
+      "sector": 54,
+      "filename": "tess2022190063128-s0054-0000000232607684-0227-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022190063128-s0054-0000000232607684-0227-s_lc.fits",
+      "path": "data/coverage_lightcurves/232607684/tess2022190063128-s0054-0000000232607684-0227-s_lc.fits",
+      "bytes": 1918080,
+      "sha256": "62fdda0a23ba6961a0d7759142536061f10e25bf021da44e2c4f5a8f91d6ca54"
+    },
+    {
+      "tic": 232612888,
+      "sector": 24,
+      "filename": "tess2020106103520-s0024-0000000232612888-0180-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020106103520-s0024-0000000232612888-0180-s_lc.fits",
+      "path": "data/coverage_lightcurves/232612888/tess2020106103520-s0024-0000000232612888-0180-s_lc.fits",
+      "bytes": 1938240,
+      "sha256": "f91cc174ebafe74db8a79dc93bbdec04f6703274870badc0271ed4004159422d"
+    },
+    {
+      "tic": 232612888,
+      "sector": 25,
+      "filename": "tess2020133194932-s0025-0000000232612888-0182-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020133194932-s0025-0000000232612888-0182-s_lc.fits",
+      "path": "data/coverage_lightcurves/232612888/tess2020133194932-s0025-0000000232612888-0182-s_lc.fits",
+      "bytes": 1877760,
+      "sha256": "af05a13a89087b5aaa4a7587d1e15db6a2c44b989ca030bd32f5809750384a53"
+    },
+    {
+      "tic": 232612888,
+      "sector": 26,
+      "filename": "tess2020160202036-s0026-0000000232612888-0188-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020160202036-s0026-0000000232612888-0188-s_lc.fits",
+      "path": "data/coverage_lightcurves/232612888/tess2020160202036-s0026-0000000232612888-0188-s_lc.fits",
+      "bytes": 1820160,
+      "sha256": "58e986f1016b7b260b4e23be823b04d9445c1961627428192f1ed8b32aac6584"
+    },
+    {
+      "tic": 232612888,
+      "sector": 40,
+      "filename": "tess2021175071901-s0040-0000000232612888-0211-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021175071901-s0040-0000000232612888-0211-s_lc.fits",
+      "path": "data/coverage_lightcurves/232612888/tess2021175071901-s0040-0000000232612888-0211-s_lc.fits",
+      "bytes": 2062080,
+      "sha256": "611d61e406596f0451b4de19e9111cafaef440154317f652e3debc0e740fe5fa"
+    },
+    {
+      "tic": 232612888,
+      "sector": 41,
+      "filename": "tess2021204101404-s0041-0000000232612888-0212-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021204101404-s0041-0000000232612888-0212-s_lc.fits",
+      "path": "data/coverage_lightcurves/232612888/tess2021204101404-s0041-0000000232612888-0212-s_lc.fits",
+      "bytes": 1944000,
+      "sha256": "9c605c005f930e82684ca7aa44a1a44dc422a346145125ff307ae4fa0d5f58e3"
+    },
+    {
+      "tic": 232612888,
+      "sector": 47,
+      "filename": "tess2021364111932-s0047-0000000232612888-0218-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021364111932-s0047-0000000232612888-0218-s_lc.fits",
+      "path": "data/coverage_lightcurves/232612888/tess2021364111932-s0047-0000000232612888-0218-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "5f627e9b8a2325aabc4285499206892cca20df563a9c558dafc13be449405b31"
+    },
+    {
+      "tic": 232612888,
+      "sector": 48,
+      "filename": "tess2022027120115-s0048-0000000232612888-0219-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022027120115-s0048-0000000232612888-0219-s_lc.fits",
+      "path": "data/coverage_lightcurves/232612888/tess2022027120115-s0048-0000000232612888-0219-s_lc.fits",
+      "bytes": 2050560,
+      "sha256": "f65febfa32edc72884e8f73c24c54e58f130a04434e8b06227fe01824cd33863"
+    },
+    {
+      "tic": 232612888,
+      "sector": 49,
+      "filename": "tess2022057073128-s0049-0000000232612888-0221-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022057073128-s0049-0000000232612888-0221-s_lc.fits",
+      "path": "data/coverage_lightcurves/232612888/tess2022057073128-s0049-0000000232612888-0221-s_lc.fits",
+      "bytes": 1964160,
+      "sha256": "3467abbc8d04c401a49f0066df25861fcf641e77a04659005f259ee14093d667"
+    },
+    {
+      "tic": 232612888,
+      "sector": 51,
+      "filename": "tess2022112184951-s0051-0000000232612888-0223-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022112184951-s0051-0000000232612888-0223-s_lc.fits",
+      "path": "data/coverage_lightcurves/232612888/tess2022112184951-s0051-0000000232612888-0223-s_lc.fits",
+      "bytes": 1800000,
+      "sha256": "9153c24e6add115ff42c20e5a700bdab54ac3422451474b181abe0d19c4bd060"
+    },
+    {
+      "tic": 232612888,
+      "sector": 52,
+      "filename": "tess2022138205153-s0052-0000000232612888-0224-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022138205153-s0052-0000000232612888-0224-s_lc.fits",
+      "path": "data/coverage_lightcurves/232612888/tess2022138205153-s0052-0000000232612888-0224-s_lc.fits",
+      "bytes": 1791360,
+      "sha256": "aa31d3ffe2ae013f5c41126973b9c5dc90a8ee6963f64cfb923fcd40fc75ae97"
+    },
+    {
+      "tic": 232612888,
+      "sector": 53,
+      "filename": "tess2022164095748-s0053-0000000232612888-0226-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022164095748-s0053-0000000232612888-0226-s_lc.fits",
+      "path": "data/coverage_lightcurves/232612888/tess2022164095748-s0053-0000000232612888-0226-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "0bf9e5adc788368a38263fe46a4b908a2e9d633c368d392bbad324dc624bd1ed"
+    },
+    {
+      "tic": 232612888,
+      "sector": 54,
+      "filename": "tess2022190063128-s0054-0000000232612888-0227-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022190063128-s0054-0000000232612888-0227-s_lc.fits",
+      "path": "data/coverage_lightcurves/232612888/tess2022190063128-s0054-0000000232612888-0227-s_lc.fits",
+      "bytes": 1918080,
+      "sha256": "a61685e600c3a991a19e70c396ea3483b5dabc1b7d9e886c697ee2017f0f6a4b"
+    },
+    {
+      "tic": 261333545,
+      "sector": 27,
+      "filename": "tess2020186164531-s0027-0000000261333545-0189-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020186164531-s0027-0000000261333545-0189-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2020186164531-s0027-0000000261333545-0189-s_lc.fits",
+      "bytes": 1785600,
+      "sha256": "33c1144dee1e8f7462ffe7d8ad018655c0708d97f5c2af4b9681657353aadbf0"
+    },
+    {
+      "tic": 261333545,
+      "sector": 28,
+      "filename": "tess2020212050318-s0028-0000000261333545-0190-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020212050318-s0028-0000000261333545-0190-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2020212050318-s0028-0000000261333545-0190-s_lc.fits",
+      "bytes": 1848960,
+      "sha256": "7b1f8e80ba6c049ca92a32bd955fb0899ea35a463a3974401e5f1faaafd2d03d"
+    },
+    {
+      "tic": 261333545,
+      "sector": 31,
+      "filename": "tess2020294194027-s0031-0000000261333545-0198-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020294194027-s0031-0000000261333545-0198-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2020294194027-s0031-0000000261333545-0198-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "bdf33fe460e396705fb820a8c89b22cef8cb01cfc009956f8eee74dbd697de36"
+    },
+    {
+      "tic": 261333545,
+      "sector": 32,
+      "filename": "tess2020324010417-s0032-0000000261333545-0200-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020324010417-s0032-0000000261333545-0200-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2020324010417-s0032-0000000261333545-0200-s_lc.fits",
+      "bytes": 1903680,
+      "sha256": "fecdf58b29d1dfbe5c19a27377a7fa62885ab3b6b8f58a15f1c7d795b4baa5c4"
+    },
+    {
+      "tic": 261333545,
+      "sector": 34,
+      "filename": "tess2021014023720-s0034-0000000261333545-0204-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021014023720-s0034-0000000261333545-0204-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2021014023720-s0034-0000000261333545-0204-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "8c0ccfa70b04180d3250ca2d693c6572954a4b4197a00adce5ab0fa9606bb913"
+    },
+    {
+      "tic": 261333545,
+      "sector": 35,
+      "filename": "tess2021039152502-s0035-0000000261333545-0205-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021039152502-s0035-0000000261333545-0205-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2021039152502-s0035-0000000261333545-0205-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "13c875d265263da207f290be4580b644b5d5b12cd847b4704ad738f19a74b815"
+    },
+    {
+      "tic": 261333545,
+      "sector": 37,
+      "filename": "tess2021091135823-s0037-0000000261333545-0208-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021091135823-s0037-0000000261333545-0208-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2021091135823-s0037-0000000261333545-0208-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "fa23d054c137389c2e3465fc53238d0481cbbf61c259636be71a4455d038353d"
+    },
+    {
+      "tic": 261333545,
+      "sector": 38,
+      "filename": "tess2021118034608-s0038-0000000261333545-0209-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021118034608-s0038-0000000261333545-0209-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2021118034608-s0038-0000000261333545-0209-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "e84ca8b1f922aa69ea8d8c1a9894c1b33c344cf7356c047e0c32a7d0c45148db"
+    },
+    {
+      "tic": 261333545,
+      "sector": 39,
+      "filename": "tess2021146024351-s0039-0000000261333545-0210-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021146024351-s0039-0000000261333545-0210-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2021146024351-s0039-0000000261333545-0210-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "954ba1ce524fe317556001ff0660ff000be5ef45d0447dee89b5b2d4b9fc5030"
+    },
+    {
+      "tic": 261333545,
+      "sector": 61,
+      "filename": "tess2023018032328-s0061-0000000261333545-0250-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023018032328-s0061-0000000261333545-0250-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2023018032328-s0061-0000000261333545-0250-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "2ec7c7df8c3a0b106c95c248551204b3c2880efb9bc78f5aac94d0307e8cb70a"
+    },
+    {
+      "tic": 261333545,
+      "sector": 62,
+      "filename": "tess2023043185947-s0062-0000000261333545-0254-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023043185947-s0062-0000000261333545-0254-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2023043185947-s0062-0000000261333545-0254-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "7578585fb3fcd06440def6cd3449252600f9105836c7794b56072a2761c26b3c"
+    },
+    {
+      "tic": 261333545,
+      "sector": 63,
+      "filename": "tess2023069172124-s0063-0000000261333545-0255-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023069172124-s0063-0000000261333545-0255-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2023069172124-s0063-0000000261333545-0255-s_lc.fits",
+      "bytes": 1941120,
+      "sha256": "7d8d778744dad92b66c0a632b05246936d9239554b0112cb9c8a2d14315d5981"
+    },
+    {
+      "tic": 261333545,
+      "sector": 64,
+      "filename": "tess2023096110322-s0064-0000000261333545-0257-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023096110322-s0064-0000000261333545-0257-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2023096110322-s0064-0000000261333545-0257-s_lc.fits",
+      "bytes": 1969920,
+      "sha256": "9f06f40093273a4feb92fdd4a2b8485fce0268455c31ea0d4dc6d9918d8b4623"
+    },
+    {
+      "tic": 261333545,
+      "sector": 65,
+      "filename": "tess2023124020739-s0065-0000000261333545-0259-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023124020739-s0065-0000000261333545-0259-s_lc.fits",
+      "path": "data/coverage_lightcurves/261333545/tess2023124020739-s0065-0000000261333545-0259-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "0f0bbcbc488a629f52f1678d2fd1292b22a240a7e9465a113fc992db439d9bde"
+    },
+    {
+      "tic": 271642286,
+      "sector": 10,
+      "filename": "tess2019085135100-s0010-0000000271642286-0140-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019085135100-s0010-0000000271642286-0140-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2019085135100-s0010-0000000271642286-0140-s_lc.fits",
+      "bytes": 1920960,
+      "sha256": "b9d77c425e6ef5f77e5d8285d2930dc8b5a70819ff0b9be65dc949da594e75a5"
+    },
+    {
+      "tic": 271642286,
+      "sector": 11,
+      "filename": "tess2019112060037-s0011-0000000271642286-0143-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019112060037-s0011-0000000271642286-0143-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2019112060037-s0011-0000000271642286-0143-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "29b77bfe7a0dd7e0d189fcf53b44662f7c873ad8a29cf47c24bf65771f639b9d"
+    },
+    {
+      "tic": 271642286,
+      "sector": 12,
+      "filename": "tess2019140104343-s0012-0000000271642286-0144-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019140104343-s0012-0000000271642286-0144-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2019140104343-s0012-0000000271642286-0144-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "7103f205f8c97d386c8258753000ef3544d29159cc95e9c791813f45f2baa730"
+    },
+    {
+      "tic": 271642286,
+      "sector": 13,
+      "filename": "tess2019169103026-s0013-0000000271642286-0146-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019169103026-s0013-0000000271642286-0146-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2019169103026-s0013-0000000271642286-0146-s_lc.fits",
+      "bytes": 2079360,
+      "sha256": "3bda07fc7945429def6ab3ca7224d785131f1adcf924c79b281179f73ed89a10"
+    },
+    {
+      "tic": 271642286,
+      "sector": 27,
+      "filename": "tess2020186164531-s0027-0000000271642286-0189-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020186164531-s0027-0000000271642286-0189-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2020186164531-s0027-0000000271642286-0189-s_lc.fits",
+      "bytes": 1785600,
+      "sha256": "7895ccfb0eb6f004528582116f74e2cb885d05db8f71ce57b9a706e171f98163"
+    },
+    {
+      "tic": 271642286,
+      "sector": 28,
+      "filename": "tess2020212050318-s0028-0000000271642286-0190-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020212050318-s0028-0000000271642286-0190-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2020212050318-s0028-0000000271642286-0190-s_lc.fits",
+      "bytes": 1848960,
+      "sha256": "41d351343014d720a29266d96f569e0388478a591acac927fb2cd7a6fcf8ce54"
+    },
+    {
+      "tic": 271642286,
+      "sector": 29,
+      "filename": "tess2020238165205-s0029-0000000271642286-0193-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020238165205-s0029-0000000271642286-0193-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2020238165205-s0029-0000000271642286-0193-s_lc.fits",
+      "bytes": 1915200,
+      "sha256": "0b4b24626baf8105880fd5816a36b0a8dfa05941c2bfac6f57fad71d355d95bb"
+    },
+    {
+      "tic": 271642286,
+      "sector": 30,
+      "filename": "tess2020266004630-s0030-0000000271642286-0195-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020266004630-s0030-0000000271642286-0195-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2020266004630-s0030-0000000271642286-0195-s_lc.fits",
+      "bytes": 1998720,
+      "sha256": "e9f7cb4e359b6711d6d4bf85fc0326c7dbe2cef3746c2674f2e4b0c875db9d70"
+    },
+    {
+      "tic": 271642286,
+      "sector": 31,
+      "filename": "tess2020294194027-s0031-0000000271642286-0198-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020294194027-s0031-0000000271642286-0198-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2020294194027-s0031-0000000271642286-0198-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "03d4b3cc205b7ca32ff880a4dd977fd323f7c6c47524d6d6d216f9845336b0f1"
+    },
+    {
+      "tic": 271642286,
+      "sector": 32,
+      "filename": "tess2020324010417-s0032-0000000271642286-0200-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020324010417-s0032-0000000271642286-0200-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2020324010417-s0032-0000000271642286-0200-s_lc.fits",
+      "bytes": 1903680,
+      "sha256": "daac6387eb33ea54989f3bb8e1dc0be0905440bf22f8723e9450418f77e55d4a"
+    },
+    {
+      "tic": 271642286,
+      "sector": 33,
+      "filename": "tess2020351194500-s0033-0000000271642286-0203-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020351194500-s0033-0000000271642286-0203-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2020351194500-s0033-0000000271642286-0203-s_lc.fits",
+      "bytes": 1892160,
+      "sha256": "560c4262e930793a625a1c387f49b5e48cb01802ae16e427fe1080cac8cbd2e4"
+    },
+    {
+      "tic": 271642286,
+      "sector": 34,
+      "filename": "tess2021014023720-s0034-0000000271642286-0204-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021014023720-s0034-0000000271642286-0204-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2021014023720-s0034-0000000271642286-0204-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "6e613390b27e9012100641e8b78f70bf7c94ab7a3a23586b498534bbde23142a"
+    },
+    {
+      "tic": 271642286,
+      "sector": 35,
+      "filename": "tess2021039152502-s0035-0000000271642286-0205-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021039152502-s0035-0000000271642286-0205-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2021039152502-s0035-0000000271642286-0205-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "d48ab6b41aeafe4b526a9bc81fd47cff635843db35d023f2f8034dc770332284"
+    },
+    {
+      "tic": 271642286,
+      "sector": 36,
+      "filename": "tess2021065132309-s0036-0000000271642286-0207-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021065132309-s0036-0000000271642286-0207-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2021065132309-s0036-0000000271642286-0207-s_lc.fits",
+      "bytes": 1837440,
+      "sha256": "2515e63f931571979a0356fd6f2aae07fc5fd68f2cfbdde89a822a4635298bf5"
+    },
+    {
+      "tic": 271642286,
+      "sector": 37,
+      "filename": "tess2021091135823-s0037-0000000271642286-0208-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021091135823-s0037-0000000271642286-0208-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2021091135823-s0037-0000000271642286-0208-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "a0590798cdc72cdad9aaf36cd430442b8e5f00348058ab6f29e11108989fff45"
+    },
+    {
+      "tic": 271642286,
+      "sector": 38,
+      "filename": "tess2021118034608-s0038-0000000271642286-0209-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021118034608-s0038-0000000271642286-0209-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2021118034608-s0038-0000000271642286-0209-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "c3bb43429713424c304c280892d6cb632a3993ef62b905d18a976830dd9550f9"
+    },
+    {
+      "tic": 271642286,
+      "sector": 39,
+      "filename": "tess2021146024351-s0039-0000000271642286-0210-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021146024351-s0039-0000000271642286-0210-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2021146024351-s0039-0000000271642286-0210-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "05ad2ae6e34f7ba699f7fd1d4dd0aa97ff88a5fb778d0a9b2bf24303605fe376"
+    },
+    {
+      "tic": 271642286,
+      "sector": 61,
+      "filename": "tess2023018032328-s0061-0000000271642286-0250-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023018032328-s0061-0000000271642286-0250-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2023018032328-s0061-0000000271642286-0250-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "d6b1a7a4547f27c7cdf3ed8c0fd6c522920eae0bb9fafcb361601fd69992d46a"
+    },
+    {
+      "tic": 271642286,
+      "sector": 62,
+      "filename": "tess2023043185947-s0062-0000000271642286-0254-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023043185947-s0062-0000000271642286-0254-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2023043185947-s0062-0000000271642286-0254-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "530ba3f5db5597580418f8fc8739329e7af662cdac895c3342441157ba4d5f81"
+    },
+    {
+      "tic": 271642286,
+      "sector": 63,
+      "filename": "tess2023069172124-s0063-0000000271642286-0255-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023069172124-s0063-0000000271642286-0255-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2023069172124-s0063-0000000271642286-0255-s_lc.fits",
+      "bytes": 1941120,
+      "sha256": "6d752638f3dc175f8445e8120a547731df4138c39cc5c469303241b0b5444a2f"
+    },
+    {
+      "tic": 271642286,
+      "sector": 64,
+      "filename": "tess2023096110322-s0064-0000000271642286-0257-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023096110322-s0064-0000000271642286-0257-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2023096110322-s0064-0000000271642286-0257-s_lc.fits",
+      "bytes": 1969920,
+      "sha256": "c242e9e1684d4b9de44135050339a3eb941565b6b19826be876f83ccf730cae2"
+    },
+    {
+      "tic": 271642286,
+      "sector": 66,
+      "filename": "tess2023153011303-s0066-0000000271642286-0260-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023153011303-s0066-0000000271642286-0260-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2023153011303-s0066-0000000271642286-0260-s_lc.fits",
+      "bytes": 2099520,
+      "sha256": "62b9fd75c280b07315ab3f74b3766653ca5e695305526f989a55f52e81a26803"
+    },
+    {
+      "tic": 271642286,
+      "sector": 67,
+      "filename": "tess2023181235917-s0067-0000000271642286-0261-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023181235917-s0067-0000000271642286-0261-s_lc.fits",
+      "path": "data/coverage_lightcurves/271642286/tess2023181235917-s0067-0000000271642286-0261-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "0e4591ae5cdf8644aba4e2c2be5ed619aa96f8d84013e5192f44b6ff54ea5979"
+    },
+    {
+      "tic": 289589923,
+      "sector": 24,
+      "filename": "tess2020106103520-s0024-0000000289589923-0180-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020106103520-s0024-0000000289589923-0180-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2020106103520-s0024-0000000289589923-0180-s_lc.fits",
+      "bytes": 1938240,
+      "sha256": "6496b191bc3a4f777c0f8690fabc7bfab1ecc36e8c3fd7a06d8c075b556cc9ec"
+    },
+    {
+      "tic": 289589923,
+      "sector": 25,
+      "filename": "tess2020133194932-s0025-0000000289589923-0182-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020133194932-s0025-0000000289589923-0182-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2020133194932-s0025-0000000289589923-0182-s_lc.fits",
+      "bytes": 1877760,
+      "sha256": "fb9d60e099cffe80c995108b5c4f2fef318053ca2723a8e81bd1eefb3eed92a3"
+    },
+    {
+      "tic": 289589923,
+      "sector": 26,
+      "filename": "tess2020160202036-s0026-0000000289589923-0188-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020160202036-s0026-0000000289589923-0188-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2020160202036-s0026-0000000289589923-0188-s_lc.fits",
+      "bytes": 1820160,
+      "sha256": "cd724dc0aca91d747a4bf89d53c55e9290a166493f96d226e6cff6e4e8c1bfac"
+    },
+    {
+      "tic": 289589923,
+      "sector": 40,
+      "filename": "tess2021175071901-s0040-0000000289589923-0211-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021175071901-s0040-0000000289589923-0211-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2021175071901-s0040-0000000289589923-0211-s_lc.fits",
+      "bytes": 2062080,
+      "sha256": "c30b4cdaf35e5591d28113e1579c03ff2de320526b244e15e456d79684366d02"
+    },
+    {
+      "tic": 289589923,
+      "sector": 41,
+      "filename": "tess2021204101404-s0041-0000000289589923-0212-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021204101404-s0041-0000000289589923-0212-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2021204101404-s0041-0000000289589923-0212-s_lc.fits",
+      "bytes": 1944000,
+      "sha256": "e5803a8f7e7b1c60d2b5de039483e3c7a553e3ed85b5607372c1df2d95a9b8b4"
+    },
+    {
+      "tic": 289589923,
+      "sector": 47,
+      "filename": "tess2021364111932-s0047-0000000289589923-0218-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021364111932-s0047-0000000289589923-0218-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2021364111932-s0047-0000000289589923-0218-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "ad5a95f7a1e4c662f741bea7b38d9123d8f18a212e77f863a904e9650e0b26bf"
+    },
+    {
+      "tic": 289589923,
+      "sector": 48,
+      "filename": "tess2022027120115-s0048-0000000289589923-0219-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022027120115-s0048-0000000289589923-0219-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2022027120115-s0048-0000000289589923-0219-s_lc.fits",
+      "bytes": 2050560,
+      "sha256": "48e40428b71573a272d746fb97c2b8c0caee022beef8880011e94cea7e8ab78e"
+    },
+    {
+      "tic": 289589923,
+      "sector": 49,
+      "filename": "tess2022057073128-s0049-0000000289589923-0221-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022057073128-s0049-0000000289589923-0221-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2022057073128-s0049-0000000289589923-0221-s_lc.fits",
+      "bytes": 1964160,
+      "sha256": "0818b977291812220913df3efb529a35642233bd643bd5f686e6e15aa1ece03d"
+    },
+    {
+      "tic": 289589923,
+      "sector": 51,
+      "filename": "tess2022112184951-s0051-0000000289589923-0223-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022112184951-s0051-0000000289589923-0223-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2022112184951-s0051-0000000289589923-0223-s_lc.fits",
+      "bytes": 1800000,
+      "sha256": "8c5a86a95f781e527926ae2837f00d006548b46092b553e86e6a3f8b6c779b46"
+    },
+    {
+      "tic": 289589923,
+      "sector": 52,
+      "filename": "tess2022138205153-s0052-0000000289589923-0224-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022138205153-s0052-0000000289589923-0224-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2022138205153-s0052-0000000289589923-0224-s_lc.fits",
+      "bytes": 1791360,
+      "sha256": "af107ecb3e508a9a0555a7c4e06a526d1c323af198e02f4d76e53a00385acd17"
+    },
+    {
+      "tic": 289589923,
+      "sector": 53,
+      "filename": "tess2022164095748-s0053-0000000289589923-0226-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022164095748-s0053-0000000289589923-0226-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2022164095748-s0053-0000000289589923-0226-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "258cbfb42ddd74d01dbd41066ae539d8d1e0e0728b4aa341583f35a63916ee7e"
+    },
+    {
+      "tic": 289589923,
+      "sector": 54,
+      "filename": "tess2022190063128-s0054-0000000289589923-0227-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022190063128-s0054-0000000289589923-0227-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2022190063128-s0054-0000000289589923-0227-s_lc.fits",
+      "bytes": 1918080,
+      "sha256": "05c4885bb9bea8d457098a92793c7d87582018ac458caffce9ddc2018a2cf53c"
+    },
+    {
+      "tic": 289589923,
+      "sector": 55,
+      "filename": "tess2022217014003-s0055-0000000289589923-0242-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022217014003-s0055-0000000289589923-0242-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2022217014003-s0055-0000000289589923-0242-s_lc.fits",
+      "bytes": 1987200,
+      "sha256": "797262f62d403fa2bf67cfbbb2cb5d892c5e6ba8a5d5a0386327c0774f7120d8"
+    },
+    {
+      "tic": 289589923,
+      "sector": 56,
+      "filename": "tess2022244194134-s0056-0000000289589923-0243-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022244194134-s0056-0000000289589923-0243-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2022244194134-s0056-0000000289589923-0243-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "3835cf553e7d31b171ab0a76b11cb9c4ce8c33cd2cdce346d8cfe7840479cc99"
+    },
+    {
+      "tic": 289589923,
+      "sector": 57,
+      "filename": "tess2022273165103-s0057-0000000289589923-0245-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022273165103-s0057-0000000289589923-0245-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2022273165103-s0057-0000000289589923-0245-s_lc.fits",
+      "bytes": 2102400,
+      "sha256": "f7f0f4d2b19691d8cdcb8a6752d612ae6390f5462f1217b0506dab3fdfb30fd1"
+    },
+    {
+      "tic": 289589923,
+      "sector": 58,
+      "filename": "tess2022302161335-s0058-0000000289589923-0247-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022302161335-s0058-0000000289589923-0247-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2022302161335-s0058-0000000289589923-0247-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "6d7a27ce8f51919cc0e3929642e5d4b4f1ba4db23802005bce61a79f9bca4866"
+    },
+    {
+      "tic": 289589923,
+      "sector": 59,
+      "filename": "tess2022330142927-s0059-0000000289589923-0248-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022330142927-s0059-0000000289589923-0248-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2022330142927-s0059-0000000289589923-0248-s_lc.fits",
+      "bytes": 1932480,
+      "sha256": "ab1b79370426ce4070deb9775eaa2df4b379cd5716e1c57d936bd2d7fdf10e2e"
+    },
+    {
+      "tic": 289589923,
+      "sector": 60,
+      "filename": "tess2022357055054-s0060-0000000289589923-0249-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022357055054-s0060-0000000289589923-0249-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2022357055054-s0060-0000000289589923-0249-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "f2dbff18e093e60ca19fcda3e3e34384aaf73fc950c68f94a1a5e9f5f2a1d295"
+    },
+    {
+      "tic": 289589923,
+      "sector": 73,
+      "filename": "tess2023341045131-s0073-0000000289589923-0268-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023341045131-s0073-0000000289589923-0268-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2023341045131-s0073-0000000289589923-0268-s_lc.fits",
+      "bytes": 1964160,
+      "sha256": "c24ed83806a624c6720e9aad02acd575bd69937881782345bf0fae518574aae8"
+    },
+    {
+      "tic": 289589923,
+      "sector": 74,
+      "filename": "tess2024003055635-s0074-0000000289589923-0269-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024003055635-s0074-0000000289589923-0269-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2024003055635-s0074-0000000289589923-0269-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "fac4fe9799400061c40cf7e9269a0b5cc60dc2e783c31fe9bfadaa7f55694c30"
+    },
+    {
+      "tic": 289589923,
+      "sector": 75,
+      "filename": "tess2024030031500-s0075-0000000289589923-0270-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024030031500-s0075-0000000289589923-0270-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2024030031500-s0075-0000000289589923-0270-s_lc.fits",
+      "bytes": 2024640,
+      "sha256": "f06d0eccceaed4f7e3d00787b3bcb336244c59a0a03eebbf81920fdf9d32c351"
+    },
+    {
+      "tic": 289589923,
+      "sector": 76,
+      "filename": "tess2024058030222-s0076-0000000289589923-0271-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024058030222-s0076-0000000289589923-0271-s_lc.fits",
+      "path": "data/coverage_lightcurves/289589923/tess2024058030222-s0076-0000000289589923-0271-s_lc.fits",
+      "bytes": 1981440,
+      "sha256": "7f30564453d417545cf8040468d728348abc84a780286ae489e06884f45cbd6a"
+    },
+    {
+      "tic": 294093302,
+      "sector": 13,
+      "filename": "tess2019169103026-s0013-0000000294093302-0146-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019169103026-s0013-0000000294093302-0146-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2019169103026-s0013-0000000294093302-0146-s_lc.fits",
+      "bytes": 2079360,
+      "sha256": "f1ef5f975198977f73da30a62fa7257a5e70c105405de16fa6a2764179775fd4"
+    },
+    {
+      "tic": 294093302,
+      "sector": 27,
+      "filename": "tess2020186164531-s0027-0000000294093302-0189-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020186164531-s0027-0000000294093302-0189-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2020186164531-s0027-0000000294093302-0189-s_lc.fits",
+      "bytes": 1785600,
+      "sha256": "5a1066d2f0aaeae22fe16ab2c0ccd60af1dc3afbf3db1d893e539463df8a5f89"
+    },
+    {
+      "tic": 294093302,
+      "sector": 29,
+      "filename": "tess2020238165205-s0029-0000000294093302-0193-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020238165205-s0029-0000000294093302-0193-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2020238165205-s0029-0000000294093302-0193-s_lc.fits",
+      "bytes": 1915200,
+      "sha256": "3eb1eaf4662b9c55a67a8389374aeed8cf9fa492bdad692f17fea29a89689788"
+    },
+    {
+      "tic": 294093302,
+      "sector": 30,
+      "filename": "tess2020266004630-s0030-0000000294093302-0195-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020266004630-s0030-0000000294093302-0195-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2020266004630-s0030-0000000294093302-0195-s_lc.fits",
+      "bytes": 1998720,
+      "sha256": "7af477ad71c2fd9383ea7f3bd1eb3d262c8939fe84107e5c0e6a14adc69b5225"
+    },
+    {
+      "tic": 294093302,
+      "sector": 32,
+      "filename": "tess2020324010417-s0032-0000000294093302-0200-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020324010417-s0032-0000000294093302-0200-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2020324010417-s0032-0000000294093302-0200-s_lc.fits",
+      "bytes": 1903680,
+      "sha256": "99b355306ddfbc90dc4c5ded880730480a0f3142b78b8bbd7fb125bfc77dd9c2"
+    },
+    {
+      "tic": 294093302,
+      "sector": 33,
+      "filename": "tess2020351194500-s0033-0000000294093302-0203-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020351194500-s0033-0000000294093302-0203-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2020351194500-s0033-0000000294093302-0203-s_lc.fits",
+      "bytes": 1892160,
+      "sha256": "9cdb4c21b4fd3fe060692c102c20fcd3721b6dbb5a0c6cc2d0cdef9c917416e1"
+    },
+    {
+      "tic": 294093302,
+      "sector": 34,
+      "filename": "tess2021014023720-s0034-0000000294093302-0204-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021014023720-s0034-0000000294093302-0204-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2021014023720-s0034-0000000294093302-0204-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "84257be7c9f9d62ba6573f161dea8cf76cc3e7c0f11e0ef0229e2991efa0f05f"
+    },
+    {
+      "tic": 294093302,
+      "sector": 35,
+      "filename": "tess2021039152502-s0035-0000000294093302-0205-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021039152502-s0035-0000000294093302-0205-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2021039152502-s0035-0000000294093302-0205-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "08913275b728e354333c63759878ee54974db0791f41f175a813e0520bbf62fe"
+    },
+    {
+      "tic": 294093302,
+      "sector": 36,
+      "filename": "tess2021065132309-s0036-0000000294093302-0207-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021065132309-s0036-0000000294093302-0207-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2021065132309-s0036-0000000294093302-0207-s_lc.fits",
+      "bytes": 1837440,
+      "sha256": "fe50600c9d9f9306e3767643180940d8c5469a65557eaf3ba73eb3107debff20"
+    },
+    {
+      "tic": 294093302,
+      "sector": 37,
+      "filename": "tess2021091135823-s0037-0000000294093302-0208-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021091135823-s0037-0000000294093302-0208-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2021091135823-s0037-0000000294093302-0208-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "44b490e15b14fb817834808547fcdbf63609b500d31692f8a767250b2ac42727"
+    },
+    {
+      "tic": 294093302,
+      "sector": 39,
+      "filename": "tess2021146024351-s0039-0000000294093302-0210-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021146024351-s0039-0000000294093302-0210-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2021146024351-s0039-0000000294093302-0210-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "3f9cbc9b2910d77b6055b0383083328cda028b02fce0501e5bae4502cd7ac759"
+    },
+    {
+      "tic": 294093302,
+      "sector": 61,
+      "filename": "tess2023018032328-s0061-0000000294093302-0250-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023018032328-s0061-0000000294093302-0250-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2023018032328-s0061-0000000294093302-0250-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "25c01a171b9a8cc94a10d3326715b9907ada643c16970b13531efe868ad3d389"
+    },
+    {
+      "tic": 294093302,
+      "sector": 62,
+      "filename": "tess2023043185947-s0062-0000000294093302-0254-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023043185947-s0062-0000000294093302-0254-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2023043185947-s0062-0000000294093302-0254-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "c9808b086fa0e28434da1b048337d0c920958de022c3e1f30a58146884e6b574"
+    },
+    {
+      "tic": 294093302,
+      "sector": 63,
+      "filename": "tess2023069172124-s0063-0000000294093302-0255-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023069172124-s0063-0000000294093302-0255-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2023069172124-s0063-0000000294093302-0255-s_lc.fits",
+      "bytes": 1941120,
+      "sha256": "c37f9f527743228f1b749e182b434e950f91d24334de66795b34241d6b22fc97"
+    },
+    {
+      "tic": 294093302,
+      "sector": 66,
+      "filename": "tess2023153011303-s0066-0000000294093302-0260-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023153011303-s0066-0000000294093302-0260-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2023153011303-s0066-0000000294093302-0260-s_lc.fits",
+      "bytes": 2099520,
+      "sha256": "ce936f872d116a055e6de306f962dd45aee9bba551fac307703672c0080e785c"
+    },
+    {
+      "tic": 294093302,
+      "sector": 67,
+      "filename": "tess2023181235917-s0067-0000000294093302-0261-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023181235917-s0067-0000000294093302-0261-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2023181235917-s0067-0000000294093302-0261-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "d30b19f45a5fb51b9d332954d6f2ae95a4b8e9a45b111725d302db146a5fda71"
+    },
+    {
+      "tic": 294093302,
+      "sector": 68,
+      "filename": "tess2023209231226-s0068-0000000294093302-0262-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023209231226-s0068-0000000294093302-0262-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2023209231226-s0068-0000000294093302-0262-s_lc.fits",
+      "bytes": 2013120,
+      "sha256": "67b2ae76418cf374b9c73a8576081a7d4762dc47f0e9aa2a151c5e7b3fc23cb7"
+    },
+    {
+      "tic": 294093302,
+      "sector": 69,
+      "filename": "tess2023237165326-s0069-0000000294093302-0264-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023237165326-s0069-0000000294093302-0264-s_lc.fits",
+      "path": "data/coverage_lightcurves/294093302/tess2023237165326-s0069-0000000294093302-0264-s_lc.fits",
+      "bytes": 1886400,
+      "sha256": "7c6912735399de6d29d6f3657f0f518626e9619e7415b2e4b3cb46518acc2c16"
+    },
+    {
+      "tic": 349374765,
+      "sector": 11,
+      "filename": "tess2019112060037-s0011-0000000349374765-0143-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019112060037-s0011-0000000349374765-0143-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2019112060037-s0011-0000000349374765-0143-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "726a1cbc1392089a72ec2ba4aa308a0c6e99a0ee3fd89f97c5f35111b0d200dd"
+    },
+    {
+      "tic": 349374765,
+      "sector": 13,
+      "filename": "tess2019169103026-s0013-0000000349374765-0146-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019169103026-s0013-0000000349374765-0146-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2019169103026-s0013-0000000349374765-0146-s_lc.fits",
+      "bytes": 2079360,
+      "sha256": "b2617506d026d7448373879385e1471aeb9b8ed06ec8f28282d47bd838c90d7c"
+    },
+    {
+      "tic": 349374765,
+      "sector": 27,
+      "filename": "tess2020186164531-s0027-0000000349374765-0189-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020186164531-s0027-0000000349374765-0189-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2020186164531-s0027-0000000349374765-0189-s_lc.fits",
+      "bytes": 1785600,
+      "sha256": "2f40ed58d8e48d78187c7227c85597ecfda96478389f573646ba0ea682953815"
+    },
+    {
+      "tic": 349374765,
+      "sector": 28,
+      "filename": "tess2020212050318-s0028-0000000349374765-0190-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020212050318-s0028-0000000349374765-0190-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2020212050318-s0028-0000000349374765-0190-s_lc.fits",
+      "bytes": 1848960,
+      "sha256": "dc340ed4995833b195530282d61140947867908f34f003552d90ea3a08485e0b"
+    },
+    {
+      "tic": 349374765,
+      "sector": 29,
+      "filename": "tess2020238165205-s0029-0000000349374765-0193-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020238165205-s0029-0000000349374765-0193-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2020238165205-s0029-0000000349374765-0193-s_lc.fits",
+      "bytes": 1915200,
+      "sha256": "c2e0336678852ed2316804fc99dc694a65b1e9156fca439c115ba55fddeaf8e6"
+    },
+    {
+      "tic": 349374765,
+      "sector": 30,
+      "filename": "tess2020266004630-s0030-0000000349374765-0195-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020266004630-s0030-0000000349374765-0195-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2020266004630-s0030-0000000349374765-0195-s_lc.fits",
+      "bytes": 1998720,
+      "sha256": "616fd4778b5588d2cf19c6afcb1ddc6581fd7311599c46e317786e9f24b1c101"
+    },
+    {
+      "tic": 349374765,
+      "sector": 31,
+      "filename": "tess2020294194027-s0031-0000000349374765-0198-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020294194027-s0031-0000000349374765-0198-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2020294194027-s0031-0000000349374765-0198-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "9554fdb73c50fa667072edd8e20cf7dfcfa9ffb7576cc3833b3bb3b57fa1de64"
+    },
+    {
+      "tic": 349374765,
+      "sector": 33,
+      "filename": "tess2020351194500-s0033-0000000349374765-0203-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020351194500-s0033-0000000349374765-0203-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2020351194500-s0033-0000000349374765-0203-s_lc.fits",
+      "bytes": 1892160,
+      "sha256": "92bd84fb6f671f7ffe67355647261dbc3c249ac0eaeef1c961b511de8b4e1332"
+    },
+    {
+      "tic": 349374765,
+      "sector": 34,
+      "filename": "tess2021014023720-s0034-0000000349374765-0204-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021014023720-s0034-0000000349374765-0204-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2021014023720-s0034-0000000349374765-0204-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "f749d591a444669081142cff9d73935a2f51022ea442400f00726e3ad2cdfeba"
+    },
+    {
+      "tic": 349374765,
+      "sector": 35,
+      "filename": "tess2021039152502-s0035-0000000349374765-0205-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021039152502-s0035-0000000349374765-0205-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2021039152502-s0035-0000000349374765-0205-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "6658b36943bc2ec80baf9af6524ad56795c81f96d3324da8aed503aada8c0c74"
+    },
+    {
+      "tic": 349374765,
+      "sector": 36,
+      "filename": "tess2021065132309-s0036-0000000349374765-0207-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021065132309-s0036-0000000349374765-0207-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2021065132309-s0036-0000000349374765-0207-s_lc.fits",
+      "bytes": 1837440,
+      "sha256": "379518c586825a4725eed673af860eef1c8338d6ad83fad998206878fc131e5d"
+    },
+    {
+      "tic": 349374765,
+      "sector": 37,
+      "filename": "tess2021091135823-s0037-0000000349374765-0208-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021091135823-s0037-0000000349374765-0208-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2021091135823-s0037-0000000349374765-0208-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "a0b1b0dfde7ac832480bcaa454b63911f70503cd6cf8fea63bf0a742e23c19ab"
+    },
+    {
+      "tic": 349374765,
+      "sector": 38,
+      "filename": "tess2021118034608-s0038-0000000349374765-0209-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021118034608-s0038-0000000349374765-0209-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2021118034608-s0038-0000000349374765-0209-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "ea06f749fa1ce380ddd00e8af8c2ff9c235f6be8a10c0130efc306968fc9a7f4"
+    },
+    {
+      "tic": 349374765,
+      "sector": 39,
+      "filename": "tess2021146024351-s0039-0000000349374765-0210-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021146024351-s0039-0000000349374765-0210-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2021146024351-s0039-0000000349374765-0210-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "7ec0aa5674654790da0e0e6188d8cf6612f31e337f35339eb5b764f538a4c6eb"
+    },
+    {
+      "tic": 349374765,
+      "sector": 61,
+      "filename": "tess2023018032328-s0061-0000000349374765-0250-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023018032328-s0061-0000000349374765-0250-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2023018032328-s0061-0000000349374765-0250-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "bba2246885756948bf68faf40a326e9eaa2fd94b15e9035627fc311e07dbcc1d"
+    },
+    {
+      "tic": 349374765,
+      "sector": 63,
+      "filename": "tess2023069172124-s0063-0000000349374765-0255-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023069172124-s0063-0000000349374765-0255-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2023069172124-s0063-0000000349374765-0255-s_lc.fits",
+      "bytes": 1941120,
+      "sha256": "a27973f67840293cb095e16aca9ccde9223be85f9bc964870c3feadf5b60b408"
+    },
+    {
+      "tic": 349374765,
+      "sector": 64,
+      "filename": "tess2023096110322-s0064-0000000349374765-0257-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023096110322-s0064-0000000349374765-0257-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2023096110322-s0064-0000000349374765-0257-s_lc.fits",
+      "bytes": 1969920,
+      "sha256": "530c0225a1f40a10ce978b6f66ec6adfb3dde79a04afbc4cabc4a394f46dcb42"
+    },
+    {
+      "tic": 349374765,
+      "sector": 65,
+      "filename": "tess2023124020739-s0065-0000000349374765-0259-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023124020739-s0065-0000000349374765-0259-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2023124020739-s0065-0000000349374765-0259-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "beb05e65815f718e2206975de4255db337eeec3169c08dd4cf20f3a542ef42cd"
+    },
+    {
+      "tic": 349374765,
+      "sector": 66,
+      "filename": "tess2023153011303-s0066-0000000349374765-0260-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023153011303-s0066-0000000349374765-0260-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2023153011303-s0066-0000000349374765-0260-s_lc.fits",
+      "bytes": 2099520,
+      "sha256": "3180a61b2101b4799711a56129d5dd5ed832bd9790b2e883fb79493f5b5ec26e"
+    },
+    {
+      "tic": 349374765,
+      "sector": 67,
+      "filename": "tess2023181235917-s0067-0000000349374765-0261-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023181235917-s0067-0000000349374765-0261-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2023181235917-s0067-0000000349374765-0261-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "20b41228c378cdf724b7155854abb0c3937028780069066fd376e4a298a3e68d"
+    },
+    {
+      "tic": 349374765,
+      "sector": 68,
+      "filename": "tess2023209231226-s0068-0000000349374765-0262-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023209231226-s0068-0000000349374765-0262-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2023209231226-s0068-0000000349374765-0262-s_lc.fits",
+      "bytes": 2013120,
+      "sha256": "d0ffbcafb300d003f007bd3f5e95a8fe55a03ef90aa4ab0d9452819b89764137"
+    },
+    {
+      "tic": 349374765,
+      "sector": 69,
+      "filename": "tess2023237165326-s0069-0000000349374765-0264-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023237165326-s0069-0000000349374765-0264-s_lc.fits",
+      "path": "data/coverage_lightcurves/349374765/tess2023237165326-s0069-0000000349374765-0264-s_lc.fits",
+      "bytes": 1886400,
+      "sha256": "2ba1bd34fc4b4b204bb1812dfa51e77068515b3db20f99241d4f9f42c0fa47ec"
+    },
+    {
+      "tic": 349645035,
+      "sector": 11,
+      "filename": "tess2019112060037-s0011-0000000349645035-0143-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019112060037-s0011-0000000349645035-0143-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2019112060037-s0011-0000000349645035-0143-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "59027ba5dd339924e17e77fb636e94208edb93d9d3c7a3da37595dc3bff8bab6"
+    },
+    {
+      "tic": 349645035,
+      "sector": 13,
+      "filename": "tess2019169103026-s0013-0000000349645035-0146-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019169103026-s0013-0000000349645035-0146-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2019169103026-s0013-0000000349645035-0146-s_lc.fits",
+      "bytes": 2079360,
+      "sha256": "d58ec43c896823313d0a92f761aaa05d650e66c17d53f75fb8078781b1ef95f3"
+    },
+    {
+      "tic": 349645035,
+      "sector": 27,
+      "filename": "tess2020186164531-s0027-0000000349645035-0189-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020186164531-s0027-0000000349645035-0189-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2020186164531-s0027-0000000349645035-0189-s_lc.fits",
+      "bytes": 1785600,
+      "sha256": "5e002926019e5d13ea188cad3462f82182c69f9aa12937763f107da1b47bbe62"
+    },
+    {
+      "tic": 349645035,
+      "sector": 28,
+      "filename": "tess2020212050318-s0028-0000000349645035-0190-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020212050318-s0028-0000000349645035-0190-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2020212050318-s0028-0000000349645035-0190-s_lc.fits",
+      "bytes": 1848960,
+      "sha256": "002722dc6700cd826bd9c86ec0b901e63c27c4b444cc16dc90acb87c8bc6d9f4"
+    },
+    {
+      "tic": 349645035,
+      "sector": 29,
+      "filename": "tess2020238165205-s0029-0000000349645035-0193-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020238165205-s0029-0000000349645035-0193-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2020238165205-s0029-0000000349645035-0193-s_lc.fits",
+      "bytes": 1915200,
+      "sha256": "a50e9b265de790393ff07ffb0a26c9d33e49a2a9c7500d961f1116456decf635"
+    },
+    {
+      "tic": 349645035,
+      "sector": 30,
+      "filename": "tess2020266004630-s0030-0000000349645035-0195-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020266004630-s0030-0000000349645035-0195-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2020266004630-s0030-0000000349645035-0195-s_lc.fits",
+      "bytes": 1998720,
+      "sha256": "9c24c1b09201f36a48775cbb5f314fa837578ca6825facb94939a6a1d9518e52"
+    },
+    {
+      "tic": 349645035,
+      "sector": 31,
+      "filename": "tess2020294194027-s0031-0000000349645035-0198-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020294194027-s0031-0000000349645035-0198-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2020294194027-s0031-0000000349645035-0198-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "5062195472d999fdf1aee2a99ad92ebe0584e4e7f89f08a9a1e36a589e4b5fd5"
+    },
+    {
+      "tic": 349645035,
+      "sector": 33,
+      "filename": "tess2020351194500-s0033-0000000349645035-0203-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020351194500-s0033-0000000349645035-0203-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2020351194500-s0033-0000000349645035-0203-s_lc.fits",
+      "bytes": 1892160,
+      "sha256": "0883b9a29ef4ef3fb668df2583cb2cb29262c5c2808215653c121ab32e91fb08"
+    },
+    {
+      "tic": 349645035,
+      "sector": 34,
+      "filename": "tess2021014023720-s0034-0000000349645035-0204-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021014023720-s0034-0000000349645035-0204-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2021014023720-s0034-0000000349645035-0204-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "c8605501002f0c753c4e6e181ab8b617bf05e3e178bebd5916819f256290224d"
+    },
+    {
+      "tic": 349645035,
+      "sector": 35,
+      "filename": "tess2021039152502-s0035-0000000349645035-0205-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021039152502-s0035-0000000349645035-0205-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2021039152502-s0035-0000000349645035-0205-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "62014d96caab9f3397d3001b4392227db04813d69b66286443fe3484866ebfff"
+    },
+    {
+      "tic": 349645035,
+      "sector": 36,
+      "filename": "tess2021065132309-s0036-0000000349645035-0207-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021065132309-s0036-0000000349645035-0207-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2021065132309-s0036-0000000349645035-0207-s_lc.fits",
+      "bytes": 1837440,
+      "sha256": "312afe36e51326b041b3c87a9e228ff74c8c0b49ca1f5c99770784332e7145b5"
+    },
+    {
+      "tic": 349645035,
+      "sector": 37,
+      "filename": "tess2021091135823-s0037-0000000349645035-0208-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021091135823-s0037-0000000349645035-0208-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2021091135823-s0037-0000000349645035-0208-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "e8ccb9c4ce4e30214f94d9a19ced31f3d7c4dc47add64e9a3c87cb2a30528ca1"
+    },
+    {
+      "tic": 349645035,
+      "sector": 38,
+      "filename": "tess2021118034608-s0038-0000000349645035-0209-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021118034608-s0038-0000000349645035-0209-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2021118034608-s0038-0000000349645035-0209-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "ba0b205f24cdb2e01990cad2309abcba3f07c3ba0271e824f54a3267ed403654"
+    },
+    {
+      "tic": 349645035,
+      "sector": 39,
+      "filename": "tess2021146024351-s0039-0000000349645035-0210-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021146024351-s0039-0000000349645035-0210-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2021146024351-s0039-0000000349645035-0210-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "bf432e160ef23d7168b0eaa880d1eea64f24d99e5fb8e553d8a170799dab2a53"
+    },
+    {
+      "tic": 349645035,
+      "sector": 61,
+      "filename": "tess2023018032328-s0061-0000000349645035-0250-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023018032328-s0061-0000000349645035-0250-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2023018032328-s0061-0000000349645035-0250-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "28436d5768d9fbb223d1ae9c5cc24e8716a3317a0fc63cc4761fad1f119956f2"
+    },
+    {
+      "tic": 349645035,
+      "sector": 63,
+      "filename": "tess2023069172124-s0063-0000000349645035-0255-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023069172124-s0063-0000000349645035-0255-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2023069172124-s0063-0000000349645035-0255-s_lc.fits",
+      "bytes": 1941120,
+      "sha256": "a929091da4206eaa454b50a8c653484c76ba19cd9dabfb53190d84048065542f"
+    },
+    {
+      "tic": 349645035,
+      "sector": 64,
+      "filename": "tess2023096110322-s0064-0000000349645035-0257-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023096110322-s0064-0000000349645035-0257-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2023096110322-s0064-0000000349645035-0257-s_lc.fits",
+      "bytes": 1969920,
+      "sha256": "8f45b2bccfadcba86a11027bc5211de08321ac2cf7e1837587c3ce8739935511"
+    },
+    {
+      "tic": 349645035,
+      "sector": 65,
+      "filename": "tess2023124020739-s0065-0000000349645035-0259-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023124020739-s0065-0000000349645035-0259-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2023124020739-s0065-0000000349645035-0259-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "449955c7559ad73e5595825a5b46b7084a1493f37c61697d54bd47b28dd7ea53"
+    },
+    {
+      "tic": 349645035,
+      "sector": 66,
+      "filename": "tess2023153011303-s0066-0000000349645035-0260-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023153011303-s0066-0000000349645035-0260-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2023153011303-s0066-0000000349645035-0260-s_lc.fits",
+      "bytes": 2099520,
+      "sha256": "f6a572d28656d42904a8821f6034661095c79e10eb522d9b11182b5c5e61a7ac"
+    },
+    {
+      "tic": 349645035,
+      "sector": 67,
+      "filename": "tess2023181235917-s0067-0000000349645035-0261-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023181235917-s0067-0000000349645035-0261-s_lc.fits",
+      "path": "data/coverage_lightcurves/349645035/tess2023181235917-s0067-0000000349645035-0261-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "829e2ebb984a7925add0bb505b0101502ae99a21d105e959c00f3342b11a5c1c"
+    },
+    {
+      "tic": 349683816,
+      "sector": 11,
+      "filename": "tess2019112060037-s0011-0000000349683816-0143-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019112060037-s0011-0000000349683816-0143-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2019112060037-s0011-0000000349683816-0143-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "910d421663ecfac1611a9507d0391c3af8f0751d87fad4dda79b81bbefc39006"
+    },
+    {
+      "tic": 349683816,
+      "sector": 12,
+      "filename": "tess2019140104343-s0012-0000000349683816-0144-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019140104343-s0012-0000000349683816-0144-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2019140104343-s0012-0000000349683816-0144-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "8b9919f64168011d2d8bb54412050011a6d51ab794ed7dda8cd428f289a3acfd"
+    },
+    {
+      "tic": 349683816,
+      "sector": 13,
+      "filename": "tess2019169103026-s0013-0000000349683816-0146-s_lc.fits",
+      "uri": "mast:TESS/product/tess2019169103026-s0013-0000000349683816-0146-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2019169103026-s0013-0000000349683816-0146-s_lc.fits",
+      "bytes": 2079360,
+      "sha256": "955e2e71dfc376dd8cb88c6f6fa5a5ad8a6b1e73803a279fc5d6bb919c096a30"
+    },
+    {
+      "tic": 349683816,
+      "sector": 27,
+      "filename": "tess2020186164531-s0027-0000000349683816-0189-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020186164531-s0027-0000000349683816-0189-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2020186164531-s0027-0000000349683816-0189-s_lc.fits",
+      "bytes": 1785600,
+      "sha256": "aeea454808d37ba002432020a3eb960d5f9d4b7bfcdcfe0594631542ab7f7626"
+    },
+    {
+      "tic": 349683816,
+      "sector": 28,
+      "filename": "tess2020212050318-s0028-0000000349683816-0190-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020212050318-s0028-0000000349683816-0190-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2020212050318-s0028-0000000349683816-0190-s_lc.fits",
+      "bytes": 1848960,
+      "sha256": "c52887ef1b86f8684018ee01b98fbd6ec363bdaec6638bd21a384a0fe5381c8a"
+    },
+    {
+      "tic": 349683816,
+      "sector": 29,
+      "filename": "tess2020238165205-s0029-0000000349683816-0193-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020238165205-s0029-0000000349683816-0193-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2020238165205-s0029-0000000349683816-0193-s_lc.fits",
+      "bytes": 1915200,
+      "sha256": "1d1278dd484945b4f04b754aea09287cecc9b2a164161d5ad8699dc704a70285"
+    },
+    {
+      "tic": 349683816,
+      "sector": 30,
+      "filename": "tess2020266004630-s0030-0000000349683816-0195-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020266004630-s0030-0000000349683816-0195-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2020266004630-s0030-0000000349683816-0195-s_lc.fits",
+      "bytes": 1998720,
+      "sha256": "7fb588e60edc5ca7aa90d33803201b439165d03ead6b79cfefa572e82acea539"
+    },
+    {
+      "tic": 349683816,
+      "sector": 31,
+      "filename": "tess2020294194027-s0031-0000000349683816-0198-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020294194027-s0031-0000000349683816-0198-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2020294194027-s0031-0000000349683816-0198-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "ab533b2bec5e624d5c51a12feaf8931a99cba5957fceb6bcd0dd62a912bbcd58"
+    },
+    {
+      "tic": 349683816,
+      "sector": 32,
+      "filename": "tess2020324010417-s0032-0000000349683816-0200-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020324010417-s0032-0000000349683816-0200-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2020324010417-s0032-0000000349683816-0200-s_lc.fits",
+      "bytes": 1903680,
+      "sha256": "77b0d45f533b82b57747b2823a1a7d083e9a39cf2beb75b5a3a85b8563922f56"
+    },
+    {
+      "tic": 349683816,
+      "sector": 33,
+      "filename": "tess2020351194500-s0033-0000000349683816-0203-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020351194500-s0033-0000000349683816-0203-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2020351194500-s0033-0000000349683816-0203-s_lc.fits",
+      "bytes": 1892160,
+      "sha256": "f39ca4fc587709f22ce61c05681a7015c8d373b8ebae4d422056bd62f2e6151d"
+    },
+    {
+      "tic": 349683816,
+      "sector": 34,
+      "filename": "tess2021014023720-s0034-0000000349683816-0204-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021014023720-s0034-0000000349683816-0204-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2021014023720-s0034-0000000349683816-0204-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "29e1572ff3bd9168b718b204f26e9c905ca2af2d8a2325e6d23cff7cb60eb11b"
+    },
+    {
+      "tic": 349683816,
+      "sector": 35,
+      "filename": "tess2021039152502-s0035-0000000349683816-0205-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021039152502-s0035-0000000349683816-0205-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2021039152502-s0035-0000000349683816-0205-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "a0ca2537d67f75ab69d3be83448bc32550ea0cc1a401c8163f4812fb76e8a6ef"
+    },
+    {
+      "tic": 349683816,
+      "sector": 36,
+      "filename": "tess2021065132309-s0036-0000000349683816-0207-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021065132309-s0036-0000000349683816-0207-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2021065132309-s0036-0000000349683816-0207-s_lc.fits",
+      "bytes": 1837440,
+      "sha256": "bfde8e528f115c3ff73c09f2171ff1d2d51026425d12db952aeb78eba80a6310"
+    },
+    {
+      "tic": 349683816,
+      "sector": 37,
+      "filename": "tess2021091135823-s0037-0000000349683816-0208-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021091135823-s0037-0000000349683816-0208-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2021091135823-s0037-0000000349683816-0208-s_lc.fits",
+      "bytes": 1854720,
+      "sha256": "021a23f50303ece875445b03273c603803b4ffe497541aa40407fa09e8766cfb"
+    },
+    {
+      "tic": 349683816,
+      "sector": 38,
+      "filename": "tess2021118034608-s0038-0000000349683816-0209-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021118034608-s0038-0000000349683816-0209-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2021118034608-s0038-0000000349683816-0209-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "5f750dc5e85c34b52233f9759e10f303bcd2c3dc16747b35e6ed47421595c8e7"
+    },
+    {
+      "tic": 349683816,
+      "sector": 39,
+      "filename": "tess2021146024351-s0039-0000000349683816-0210-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021146024351-s0039-0000000349683816-0210-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2021146024351-s0039-0000000349683816-0210-s_lc.fits",
+      "bytes": 2041920,
+      "sha256": "5de4ff45cf37d20d8b3109115767536aef94a694337120b360e00eca0df1eb34"
+    },
+    {
+      "tic": 349683816,
+      "sector": 61,
+      "filename": "tess2023018032328-s0061-0000000349683816-0250-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023018032328-s0061-0000000349683816-0250-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2023018032328-s0061-0000000349683816-0250-s_lc.fits",
+      "bytes": 1860480,
+      "sha256": "8118800b6eac952f84bcb60d9ec03c41d5b79290781dcf2371ab276dc9aa8a01"
+    },
+    {
+      "tic": 349683816,
+      "sector": 62,
+      "filename": "tess2023043185947-s0062-0000000349683816-0254-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023043185947-s0062-0000000349683816-0254-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2023043185947-s0062-0000000349683816-0254-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "c96c35283c6f7f281b644a053f1c9e75215e683eadd1c345efacaa4e235f23d9"
+    },
+    {
+      "tic": 349683816,
+      "sector": 63,
+      "filename": "tess2023069172124-s0063-0000000349683816-0255-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023069172124-s0063-0000000349683816-0255-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2023069172124-s0063-0000000349683816-0255-s_lc.fits",
+      "bytes": 1941120,
+      "sha256": "b730c0f734925c5eceffa65c44dd31abdabf93eed91ef34a5fe365e255adae53"
+    },
+    {
+      "tic": 349683816,
+      "sector": 64,
+      "filename": "tess2023096110322-s0064-0000000349683816-0257-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023096110322-s0064-0000000349683816-0257-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2023096110322-s0064-0000000349683816-0257-s_lc.fits",
+      "bytes": 1969920,
+      "sha256": "a6e26daa56ab00f36949c4041bc5a740cd3d66112dafcdd59e4d5aabef72d88a"
+    },
+    {
+      "tic": 349683816,
+      "sector": 65,
+      "filename": "tess2023124020739-s0065-0000000349683816-0259-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023124020739-s0065-0000000349683816-0259-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2023124020739-s0065-0000000349683816-0259-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "3a48a38e423c5dc899230101033b41cc58c9ff1a83b356642dc8705e70363554"
+    },
+    {
+      "tic": 349683816,
+      "sector": 66,
+      "filename": "tess2023153011303-s0066-0000000349683816-0260-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023153011303-s0066-0000000349683816-0260-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2023153011303-s0066-0000000349683816-0260-s_lc.fits",
+      "bytes": 2099520,
+      "sha256": "2e71acb34e0b139e1a525b372c2223520b9c1c33a30e1e3a85c20f35615d9272"
+    },
+    {
+      "tic": 349683816,
+      "sector": 67,
+      "filename": "tess2023181235917-s0067-0000000349683816-0261-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023181235917-s0067-0000000349683816-0261-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2023181235917-s0067-0000000349683816-0261-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "90fcdc67c38c489347428d67e0044336b5b90411f9b43c511145c664752e539c"
+    },
+    {
+      "tic": 349683816,
+      "sector": 68,
+      "filename": "tess2023209231226-s0068-0000000349683816-0262-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023209231226-s0068-0000000349683816-0262-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2023209231226-s0068-0000000349683816-0262-s_lc.fits",
+      "bytes": 2013120,
+      "sha256": "9dec46367656e289c3939a2b22edd3b8658c09eb287769f6d29af594ff6e744d"
+    },
+    {
+      "tic": 349683816,
+      "sector": 69,
+      "filename": "tess2023237165326-s0069-0000000349683816-0264-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023237165326-s0069-0000000349683816-0264-s_lc.fits",
+      "path": "data/coverage_lightcurves/349683816/tess2023237165326-s0069-0000000349683816-0264-s_lc.fits",
+      "bytes": 1886400,
+      "sha256": "2f61edee89f11c9b29b4bf5f7d0a31ae877e93ca77d2ed06bca78d437bdc7f5e"
+    },
+    {
+      "tic": 441721594,
+      "sector": 25,
+      "filename": "tess2020133194932-s0025-0000000441721594-0182-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020133194932-s0025-0000000441721594-0182-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2020133194932-s0025-0000000441721594-0182-s_lc.fits",
+      "bytes": 1877760,
+      "sha256": "8b19c0915c3506775adbda491b6f12043e5d3a9e2e06b3a1146fff34d6c18dfe"
+    },
+    {
+      "tic": 441721594,
+      "sector": 26,
+      "filename": "tess2020160202036-s0026-0000000441721594-0188-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020160202036-s0026-0000000441721594-0188-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2020160202036-s0026-0000000441721594-0188-s_lc.fits",
+      "bytes": 1820160,
+      "sha256": "328c23daea1681666af44022452a00f686719b68e084de1cba0d2a91ea03a753"
+    },
+    {
+      "tic": 441721594,
+      "sector": 40,
+      "filename": "tess2021175071901-s0040-0000000441721594-0211-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021175071901-s0040-0000000441721594-0211-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2021175071901-s0040-0000000441721594-0211-s_lc.fits",
+      "bytes": 2062080,
+      "sha256": "5233987b30456c71466e3830dffc66fe863e233abd748f7046f5e40f291193e1"
+    },
+    {
+      "tic": 441721594,
+      "sector": 41,
+      "filename": "tess2021204101404-s0041-0000000441721594-0212-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021204101404-s0041-0000000441721594-0212-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2021204101404-s0041-0000000441721594-0212-s_lc.fits",
+      "bytes": 1944000,
+      "sha256": "e57b5ddf0a02b92ea61a89989264cf7a6a221282d92c0893d740ad44797f81d4"
+    },
+    {
+      "tic": 441721594,
+      "sector": 47,
+      "filename": "tess2021364111932-s0047-0000000441721594-0218-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021364111932-s0047-0000000441721594-0218-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2021364111932-s0047-0000000441721594-0218-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "54616d44d084607d27e00962a059ed3e19a1f20af02473a70cd14a66cc8c5e63"
+    },
+    {
+      "tic": 441721594,
+      "sector": 48,
+      "filename": "tess2022027120115-s0048-0000000441721594-0219-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022027120115-s0048-0000000441721594-0219-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022027120115-s0048-0000000441721594-0219-s_lc.fits",
+      "bytes": 2050560,
+      "sha256": "6f2c30029a8cb8dd2650b6b49ad873bfa1ecd42c232498c3da2442071d2c1c7c"
+    },
+    {
+      "tic": 441721594,
+      "sector": 49,
+      "filename": "tess2022057073128-s0049-0000000441721594-0221-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022057073128-s0049-0000000441721594-0221-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022057073128-s0049-0000000441721594-0221-s_lc.fits",
+      "bytes": 1964160,
+      "sha256": "6e571a74bc33e5e13e46ff8900847f376de28ca8fe731847e93c4e13facfaf36"
+    },
+    {
+      "tic": 441721594,
+      "sector": 50,
+      "filename": "tess2022085151738-s0050-0000000441721594-0222-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022085151738-s0050-0000000441721594-0222-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022085151738-s0050-0000000441721594-0222-s_lc.fits",
+      "bytes": 1920960,
+      "sha256": "82fb1e0bc7ed692dc42276cdfcbfdf2bcc9fbc91236727655c70e318d99b6654"
+    },
+    {
+      "tic": 441721594,
+      "sector": 51,
+      "filename": "tess2022112184951-s0051-0000000441721594-0223-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022112184951-s0051-0000000441721594-0223-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022112184951-s0051-0000000441721594-0223-s_lc.fits",
+      "bytes": 1800000,
+      "sha256": "53d5dbc8d425548493b68e445f2d07375f64607ffd504b06af28bf11f37c41b8"
+    },
+    {
+      "tic": 441721594,
+      "sector": 52,
+      "filename": "tess2022138205153-s0052-0000000441721594-0224-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022138205153-s0052-0000000441721594-0224-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022138205153-s0052-0000000441721594-0224-s_lc.fits",
+      "bytes": 1791360,
+      "sha256": "f65725a8b026761c36e260541ba5bd97a66558e571c8b92e3f6a5f819c178c77"
+    },
+    {
+      "tic": 441721594,
+      "sector": 53,
+      "filename": "tess2022164095748-s0053-0000000441721594-0226-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022164095748-s0053-0000000441721594-0226-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022164095748-s0053-0000000441721594-0226-s_lc.fits",
+      "bytes": 1828800,
+      "sha256": "ed85523504c7c811b6c9a743e46aebd3c3467f78c1253dcda76bc1cb018f2a04"
+    },
+    {
+      "tic": 441721594,
+      "sector": 54,
+      "filename": "tess2022190063128-s0054-0000000441721594-0227-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022190063128-s0054-0000000441721594-0227-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022190063128-s0054-0000000441721594-0227-s_lc.fits",
+      "bytes": 1918080,
+      "sha256": "39f495814f62e4009a0c58c18d6f36a56b03d56a757670079c366f9b50e83cf4"
+    },
+    {
+      "tic": 441721594,
+      "sector": 55,
+      "filename": "tess2022217014003-s0055-0000000441721594-0242-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022217014003-s0055-0000000441721594-0242-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022217014003-s0055-0000000441721594-0242-s_lc.fits",
+      "bytes": 1987200,
+      "sha256": "065250c3deb6d801432cfcbecf43b4ed40bd6fec731efa0b8d7e734d3c9df4dc"
+    },
+    {
+      "tic": 441721594,
+      "sector": 56,
+      "filename": "tess2022244194134-s0056-0000000441721594-0243-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022244194134-s0056-0000000441721594-0243-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022244194134-s0056-0000000441721594-0243-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "54524af0210d0deda63a16204cf1e26826950b1b93a515a24aa4e1c97d4f7b0e"
+    },
+    {
+      "tic": 441721594,
+      "sector": 57,
+      "filename": "tess2022273165103-s0057-0000000441721594-0245-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022273165103-s0057-0000000441721594-0245-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022273165103-s0057-0000000441721594-0245-s_lc.fits",
+      "bytes": 2102400,
+      "sha256": "6decd6b1ab7d5eb5b70ead00b22d72c364968096cf7db6d531662984420eee27"
+    },
+    {
+      "tic": 441721594,
+      "sector": 58,
+      "filename": "tess2022302161335-s0058-0000000441721594-0247-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022302161335-s0058-0000000441721594-0247-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022302161335-s0058-0000000441721594-0247-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "82063c723e7d20d22f9afdceff7a3be07118a8f48771f4d69981913238cfd208"
+    },
+    {
+      "tic": 441721594,
+      "sector": 59,
+      "filename": "tess2022330142927-s0059-0000000441721594-0248-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022330142927-s0059-0000000441721594-0248-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022330142927-s0059-0000000441721594-0248-s_lc.fits",
+      "bytes": 1932480,
+      "sha256": "3b1ec84bbe035da27d6e9f405647cc920526e81abc32d09bd30518ff537c518d"
+    },
+    {
+      "tic": 441721594,
+      "sector": 60,
+      "filename": "tess2022357055054-s0060-0000000441721594-0249-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022357055054-s0060-0000000441721594-0249-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2022357055054-s0060-0000000441721594-0249-s_lc.fits",
+      "bytes": 1880640,
+      "sha256": "f5eccb71807815531a90e4fb9b0de03d882b3eabde5c36bde858ba4e411d09a0"
+    },
+    {
+      "tic": 441721594,
+      "sector": 73,
+      "filename": "tess2023341045131-s0073-0000000441721594-0268-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023341045131-s0073-0000000441721594-0268-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2023341045131-s0073-0000000441721594-0268-s_lc.fits",
+      "bytes": 1964160,
+      "sha256": "82d853745fdb02876cf82ecb37750757969b33a235cf96b97b756c65f684525c"
+    },
+    {
+      "tic": 441721594,
+      "sector": 75,
+      "filename": "tess2024030031500-s0075-0000000441721594-0270-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024030031500-s0075-0000000441721594-0270-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2024030031500-s0075-0000000441721594-0270-s_lc.fits",
+      "bytes": 2024640,
+      "sha256": "b4c3b45cd0fd0feb78e990eed420a17b347dd858e10cd5ad5aabb98027662161"
+    },
+    {
+      "tic": 441721594,
+      "sector": 76,
+      "filename": "tess2024058030222-s0076-0000000441721594-0271-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024058030222-s0076-0000000441721594-0271-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2024058030222-s0076-0000000441721594-0271-s_lc.fits",
+      "bytes": 1981440,
+      "sha256": "aeb6967038ede7bfbede666b5648c6ac0d9d913b8aa13ca4105368d92d9b7a69"
+    },
+    {
+      "tic": 441721594,
+      "sector": 77,
+      "filename": "tess2024085201119-s0077-0000000441721594-0272-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024085201119-s0077-0000000441721594-0272-s_lc.fits",
+      "path": "data/coverage_lightcurves/441721594/tess2024085201119-s0077-0000000441721594-0272-s_lc.fits",
+      "bytes": 2050560,
+      "sha256": "13f817f2b6cabc58b68c3503b3cbbecb019f9a7ee0af2c8d6981228679b25115"
+    },
+    {
+      "tic": 441803471,
+      "sector": 23,
+      "filename": "tess2020078014623-s0023-0000000441803471-0177-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020078014623-s0023-0000000441803471-0177-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2020078014623-s0023-0000000441803471-0177-s_lc.fits",
+      "bytes": 1958400,
+      "sha256": "6bf9a447327b11e12c3bd77a916b3417df856539ba989ffa29333dff6e762cd7"
+    },
+    {
+      "tic": 441803471,
+      "sector": 24,
+      "filename": "tess2020106103520-s0024-0000000441803471-0180-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020106103520-s0024-0000000441803471-0180-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2020106103520-s0024-0000000441803471-0180-s_lc.fits",
+      "bytes": 1938240,
+      "sha256": "b3c442460b20fbff0b16fea17a980ac014e3c44537f02a82eb8c421061ee8b7d"
+    },
+    {
+      "tic": 441803471,
+      "sector": 25,
+      "filename": "tess2020133194932-s0025-0000000441803471-0182-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020133194932-s0025-0000000441803471-0182-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2020133194932-s0025-0000000441803471-0182-s_lc.fits",
+      "bytes": 1877760,
+      "sha256": "4b822bab6f388f7266dedae1574646fcbb22397703210665db714d1e4a6d5e1e"
+    },
+    {
+      "tic": 441803471,
+      "sector": 26,
+      "filename": "tess2020160202036-s0026-0000000441803471-0188-s_lc.fits",
+      "uri": "mast:TESS/product/tess2020160202036-s0026-0000000441803471-0188-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2020160202036-s0026-0000000441803471-0188-s_lc.fits",
+      "bytes": 1820160,
+      "sha256": "910ff7a307bd66e055aae0ca7cb310fd82a5e7571ca0fc7d8eb818fe463b111a"
+    },
+    {
+      "tic": 441803471,
+      "sector": 40,
+      "filename": "tess2021175071901-s0040-0000000441803471-0211-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021175071901-s0040-0000000441803471-0211-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2021175071901-s0040-0000000441803471-0211-s_lc.fits",
+      "bytes": 2062080,
+      "sha256": "1a269bb95a5e779583b626e0c730268d5b049ee02575b332116aa327de89f45d"
+    },
+    {
+      "tic": 441803471,
+      "sector": 47,
+      "filename": "tess2021364111932-s0047-0000000441803471-0218-s_lc.fits",
+      "uri": "mast:TESS/product/tess2021364111932-s0047-0000000441803471-0218-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2021364111932-s0047-0000000441803471-0218-s_lc.fits",
+      "bytes": 1984320,
+      "sha256": "a2234478142db4d89f12077aaf44d24f1ae918fb31c6a71f61f84b8971732651"
+    },
+    {
+      "tic": 441803471,
+      "sector": 48,
+      "filename": "tess2022027120115-s0048-0000000441803471-0219-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022027120115-s0048-0000000441803471-0219-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2022027120115-s0048-0000000441803471-0219-s_lc.fits",
+      "bytes": 2050560,
+      "sha256": "6fad7c020d852bbf5fcbe077c9e4c26b66abd0d0671699ba437ce9ae4539fa56"
+    },
+    {
+      "tic": 441803471,
+      "sector": 49,
+      "filename": "tess2022057073128-s0049-0000000441803471-0221-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022057073128-s0049-0000000441803471-0221-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2022057073128-s0049-0000000441803471-0221-s_lc.fits",
+      "bytes": 1964160,
+      "sha256": "84e5316a9ae9c8a35154876d4bc03627c4f1a4e0f092c7c5d98bed6a0bf5c000"
+    },
+    {
+      "tic": 441803471,
+      "sector": 50,
+      "filename": "tess2022085151738-s0050-0000000441803471-0222-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022085151738-s0050-0000000441803471-0222-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2022085151738-s0050-0000000441803471-0222-s_lc.fits",
+      "bytes": 1920960,
+      "sha256": "7026f574684597b777b9cbf7dabab25020254661a86c5ecb31dad569845db43f"
+    },
+    {
+      "tic": 441803471,
+      "sector": 51,
+      "filename": "tess2022112184951-s0051-0000000441803471-0223-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022112184951-s0051-0000000441803471-0223-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2022112184951-s0051-0000000441803471-0223-s_lc.fits",
+      "bytes": 1800000,
+      "sha256": "3a3c11ba4fb39b20bc79baea114c86efb0a0a406d56bae64485b6f93f4a984d9"
+    },
+    {
+      "tic": 441803471,
+      "sector": 52,
+      "filename": "tess2022138205153-s0052-0000000441803471-0224-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022138205153-s0052-0000000441803471-0224-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2022138205153-s0052-0000000441803471-0224-s_lc.fits",
+      "bytes": 1791360,
+      "sha256": "d8869190c137902c3fa125ff12bea6cfe88c9bde55a848dcf9658aac41bf5673"
+    },
+    {
+      "tic": 441803471,
+      "sector": 54,
+      "filename": "tess2022190063128-s0054-0000000441803471-0227-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022190063128-s0054-0000000441803471-0227-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2022190063128-s0054-0000000441803471-0227-s_lc.fits",
+      "bytes": 1918080,
+      "sha256": "98bced9041b7d4bfddbd3651d930348012fc90eecf74e8fff23043ad0b0cc9a3"
+    },
+    {
+      "tic": 441803471,
+      "sector": 55,
+      "filename": "tess2022217014003-s0055-0000000441803471-0242-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022217014003-s0055-0000000441803471-0242-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2022217014003-s0055-0000000441803471-0242-s_lc.fits",
+      "bytes": 1987200,
+      "sha256": "4912e185eff42543e5a344352986c9a8d127d167c279455cbfa7c09b20fcaccd"
+    },
+    {
+      "tic": 441803471,
+      "sector": 56,
+      "filename": "tess2022244194134-s0056-0000000441803471-0243-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022244194134-s0056-0000000441803471-0243-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2022244194134-s0056-0000000441803471-0243-s_lc.fits",
+      "bytes": 2039040,
+      "sha256": "fec746faa8e994d1ef6a3bbe1ab193c835e3a57d8e9f9694d10a4017664f0681"
+    },
+    {
+      "tic": 441803471,
+      "sector": 57,
+      "filename": "tess2022273165103-s0057-0000000441803471-0245-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022273165103-s0057-0000000441803471-0245-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2022273165103-s0057-0000000441803471-0245-s_lc.fits",
+      "bytes": 2102400,
+      "sha256": "c99ccfd52886c47ef8f8a1e81f5f627bc66932d21a339ed1ebe750612427e04a"
+    },
+    {
+      "tic": 441803471,
+      "sector": 58,
+      "filename": "tess2022302161335-s0058-0000000441803471-0247-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022302161335-s0058-0000000441803471-0247-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2022302161335-s0058-0000000441803471-0247-s_lc.fits",
+      "bytes": 2027520,
+      "sha256": "c472b10adb033ec8351828aed08ba1e7a3885d583f3e13ca6ce699b5aaebb497"
+    },
+    {
+      "tic": 441803471,
+      "sector": 59,
+      "filename": "tess2022330142927-s0059-0000000441803471-0248-s_lc.fits",
+      "uri": "mast:TESS/product/tess2022330142927-s0059-0000000441803471-0248-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2022330142927-s0059-0000000441803471-0248-s_lc.fits",
+      "bytes": 1932480,
+      "sha256": "63feb7fe4d50d60317b5e5a57ee108aa75dcf8fc3efe491ebaed35de679849e2"
+    },
+    {
+      "tic": 441803471,
+      "sector": 73,
+      "filename": "tess2023341045131-s0073-0000000441803471-0268-s_lc.fits",
+      "uri": "mast:TESS/product/tess2023341045131-s0073-0000000441803471-0268-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2023341045131-s0073-0000000441803471-0268-s_lc.fits",
+      "bytes": 1964160,
+      "sha256": "c4ac88c19b40c96784c6de7e1bfad97ad9c6b7df1593a759b03abe3e544de063"
+    },
+    {
+      "tic": 441803471,
+      "sector": 74,
+      "filename": "tess2024003055635-s0074-0000000441803471-0269-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024003055635-s0074-0000000441803471-0269-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2024003055635-s0074-0000000441803471-0269-s_lc.fits",
+      "bytes": 1952640,
+      "sha256": "9e7d1805c6e47e574690b65bfbedf98705c6fabe342e3ecb0bfdeed001d7fb43"
+    },
+    {
+      "tic": 441803471,
+      "sector": 75,
+      "filename": "tess2024030031500-s0075-0000000441803471-0270-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024030031500-s0075-0000000441803471-0270-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2024030031500-s0075-0000000441803471-0270-s_lc.fits",
+      "bytes": 2024640,
+      "sha256": "b3a990dfe1feebe998713e2fc73120a115251ea81c55dcdb1133c776c7404efe"
+    },
+    {
+      "tic": 441803471,
+      "sector": 76,
+      "filename": "tess2024058030222-s0076-0000000441803471-0271-s_lc.fits",
+      "uri": "mast:TESS/product/tess2024058030222-s0076-0000000441803471-0271-s_lc.fits",
+      "path": "data/coverage_lightcurves/441803471/tess2024058030222-s0076-0000000441803471-0271-s_lc.fits",
+      "bytes": 1981440,
+      "sha256": "868124e61658b962c7ddf0a6304251db590d88e4b222fdc8f63368110591d269"
+    }
+  ],
+  "errors": [],
+  "updated_utc": "2026-09-07T11:39:12.713867+00:00",
+  "completed_utc": "2026-09-07T11:39:12.718202+00:00",
+  "complete": true
+}

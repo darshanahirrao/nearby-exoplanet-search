@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-09-07T11:46:56.003087+00:00",
+  "checks": 3561,
+  "failures": [],
+  "passed": true,
+  "products_checked": 750,
+  "completed_receipts": 20,
+  "selection_plan_sha256": "c975c8399a15e8aeb06a28a7999b36213d9f89276c80b59566e3e13d5f7f3f62",
+  "execution_plan_sha256": "7a4142169a312bf50967401cfc61b0deea32c2c3ec72c8ec59ff86eb196450d9",
+  "results_sha256": "523d58a82bb71bd72c9f00d0a2580263d1bfc00edd6325166936d6bac891181f",
+  "exporter_sha256": "92682e818e0f5cca18244271b27cb9ed3eaf0c757c717f263b58ffa2e478e79f",
+  "scope": "Input, timing separation, frozen-parameter and arithmetic audit. Does not establish astrophysical validity or calibrated significance."
+}

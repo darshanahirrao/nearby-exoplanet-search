@@ -3,15 +3,18 @@
 **Initial campaign complete. No surviving planet candidate, new planet or
 demonstrated methodological breakthrough.**
 
-Latest result: the two additional TIC 233738219 trial fits
+Latest result: the [20-star expanded-coverage pilot](coverage_pilot/FINDINGS.md)
+has completed with 750 usable sector products and 39 retained trial fits.
+All 39 fail the held-sector recurrence screen; none passes all screening checks.
+The input, frozen-parameter and arithmetic audit passes 3,561 checks with zero
+failures. These are previously searched stars, so the distinct-star count remains
+1,031. The remaining 45 stars in the inventory have not started this reanalysis.
+
+The two additional TIC 233738219 trial fits
 [fail a frozen recurrence check in 21 previously unused sectors](vetting/fresh_sector_followup/FINDINGS.md).
 Injected signals of the originally estimated sizes remain measurable in those
 data. Both trial fits are rejected as credible periodic planet leads; the audit
-passes 213 checks. Research continues, and no discovery is claimed.
-
-A [20-star coverage pilot](coverage_pilot/FINDINGS.md) is frozen before download,
-adding 390 unused sector products to 360 existing sectors. It retains the
-previously qualified simpler search revision and all screening criteria.
+passes 213 checks. No discovery is claimed.
 
 All 1,000 selected targets have finished downloading and initial processing:
 992 targets supplied at least two sectors; eight had fewer. All 992 processed
@@ -69,7 +72,7 @@ The faint, variable control TIC 232970271 yielded no recovered injections in the
 first two suites. Periodic filtering improves this limited sensitivity check;
 non-detections still cannot exclude small planets.
 
-Thirty offline numerical checks pass, including a test that changing final-holdout
+Thirty-three offline numerical checks pass, including a test that changing final-holdout
 flux leaves the fitted ephemeris unchanged while reversing the measured holdout
 signal. Local execution, code, data-product references and failure records are
 retained for independent inspection.
@@ -236,8 +239,8 @@ completes all 120 new development runs and reuses 60 exact reference runs.
 Leave-one-out ranking recovers 9/54 strict injections versus 7/54 for the
 reference, with no lost reference recoveries. Both revisions fail their
 adoption gates because each adds an unflagged fit on unmodified TIC 233738219.
-The 26.316459- and 35.394150-day fits are unverified, not established false
-alarms or planet candidates. An initial uninjected-data diagnostic gives
+At this stage, the 26.316459- and 35.394150-day fits were unverified, not established
+false alarms or planet candidates. An initial uninjected-data diagnostic gives
 weaker SAP support and inconclusive profiles. No fresh assessment is selected.
 The final artifact audit passes 3,498 checks with zero failures. No new planet
 or methodological breakthrough is established.
@@ -248,20 +251,22 @@ period. Strong dips exist across those rotation phases before filtering, while
 the supplied phase remains strongest afterward; this does not conclusively
 reject the residual as an alias. Nearby flares and incomplete local baselines
 require further checks. Fresh exact-TIC TOI, CTOI and confirmed-planet queries
-return no matches, which does not establish novelty. Both trials remain unverified.
+return no matches, which does not establish novelty. Both trials remained unverified
+after this check; their subsequent fresh-sector rejection is recorded below.
 
 A [controlled local-baseline check](vetting/local_baseline_sensitivity/FINDINGS.md)
 finds that the 26.316459-day trial remains above nominal training/held scores
 of 7/5 under all nine specified flat, linear and quadratic continuum choices.
 The 35.394150-day trial is less stable, but quadratic choices also weaken an
-injected planet control. Both therefore remain unverified. The 26-day fit is
-prioritized for pixel-source diagnostics. No new search or adoption gate changes.
+injected planet control. Both therefore remained unverified at this stage. The
+26-day fit was prioritized for pixel-source diagnostics. No search or adoption
+gate was changed.
 
 [Two pixel sectors](vetting/portfolio_pixels/FINDINGS.md) show a changing component
 near the target, but retain the strong stellar variability and do not isolate
 a planetary transit. A [fresh archived-sector follow-up](vetting/fresh_sector_followup/FINDINGS.md)
-now has a frozen plan covering all 21 unused sectors in the existing product
-table. It fixes both trial ephemerides and the recurrence screen before download.
+used a frozen plan covering all 21 unused sectors in the existing product
+table. It fixed both trial ephemerides and the recurrence screen before download.
 This is follow-up of the same star, not expansion of the failed survey method.
 
 **The fresh-sector follow-up is complete: both trial fits fail recurrence.**
