@@ -59,9 +59,20 @@ def experiment_snapshot():
                 progress = json.loads(progress_path.read_text())
                 row.update(
                     state="partial_outputs",
+                    stage=progress.get("stage"),
                     completed_new_runs=progress.get("completed"),
                     errors=sum(r.get("status") != "finished" for r in progress.get("rows", [])),
                 )
+                smoke_path = path.with_name("smoke_results.json")
+                if smoke_path.exists():
+                    smoke = json.loads(smoke_path.read_text())
+                    if smoke.get("full_comparison_allowed") is False:
+                        row.update(
+                            state="stopped_smoke_gate_failed",
+                            completed_new_runs=len(smoke["rows"]),
+                            unused_planned_runs=len(plan["cases"]) - len(smoke["rows"]),
+                            smoke_gates=smoke["smoke_gates"],
+                        )
             else:
                 row.update(state="prepared_without_run_outputs", completed_new_runs=0)
             rows.append(row)

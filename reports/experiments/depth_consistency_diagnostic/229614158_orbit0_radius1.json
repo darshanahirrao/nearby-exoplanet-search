@@ -1,0 +1,3699 @@
+{
+  "id": "coarse_only__229614158_orbit0_radius1",
+  "replayed_fine_fits": 128,
+  "eligible_fine_fits": 100,
+  "ranking": {
+    "leave_one_out_snr": {
+      "first_matching_rank": 18,
+      "best": {
+        "period_days": 41.65912958231228,
+        "duration_days": 0.15199871314453278,
+        "consistency": {
+          "n_events": 9,
+          "total_snr": 11.92397614794444,
+          "leave_one_out_snr": 10.54767477285595,
+          "reduced_depth_chi2": 3.2303111083491247,
+          "consistent_total_snr": 6.634358308457135,
+          "consistent_leave_one_out_snr": 5.86860061576556
+        },
+        "true_timing_match": false
+      }
+    },
+    "consistent_total_snr": {
+      "first_matching_rank": 28,
+      "best": {
+        "period_days": 39.54727765891653,
+        "duration_days": 0.14274653698707104,
+        "consistency": {
+          "n_events": 5,
+          "total_snr": 10.59350668721255,
+          "leave_one_out_snr": 8.74312790858555,
+          "reduced_depth_chi2": 1.2473676351498384,
+          "consistent_total_snr": 9.485113003904004,
+          "consistent_leave_one_out_snr": 7.828338497263168
+        },
+        "true_timing_match": false
+      }
+    },
+    "consistent_leave_one_out_snr": {
+      "first_matching_rank": 25,
+      "best": {
+        "period_days": 39.54727765891653,
+        "duration_days": 0.14274653698707104,
+        "consistency": {
+          "n_events": 5,
+          "total_snr": 10.59350668721255,
+          "leave_one_out_snr": 8.74312790858555,
+          "reduced_depth_chi2": 1.2473676351498384,
+          "consistent_total_snr": 9.485113003904004,
+          "consistent_leave_one_out_snr": 7.828338497263168
+        },
+        "true_timing_match": false
+      }
+    }
+  },
+  "all_fits": [
+    {
+      "iteration": 1,
+      "rank": 1,
+      "global_rank": 358,
+      "coarse_period_days": 41.65906222945285,
+      "coarse_ranking_score": 10.295891350701407,
+      "period_days": 41.65912958231228,
+      "duration_days": 0.15199871314453278,
+      "nominal_training_snr": 11.333125299435947,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 11.92397614794444,
+        "leave_one_out_snr": 10.54767477285595
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": true,
+      "epoch_btjd": 1702.2959432940377,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 11.92397614794444,
+        "leave_one_out_snr": 10.54767477285595,
+        "reduced_depth_chi2": 3.2303111083491247,
+        "consistent_total_snr": 6.634358308457135,
+        "consistent_leave_one_out_snr": 5.86860061576556
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 2,
+      "global_rank": 3267,
+      "coarse_period_days": 26.811464099909116,
+      "coarse_ranking_score": 9.54218282189385,
+      "period_days": 26.81120401309831,
+      "duration_days": 0.11373629181111533,
+      "nominal_training_snr": 8.756025675409278,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 11.40018179844604,
+        "leave_one_out_snr": 9.844646355436279
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1706.2902983309493,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 11.40018179844604,
+        "leave_one_out_snr": 9.844646355436279,
+        "reduced_depth_chi2": 1.9442878179210226,
+        "consistent_total_snr": 8.175823353389186,
+        "consistent_leave_one_out_snr": 7.060246143583868
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 3,
+      "global_rank": 549,
+      "coarse_period_days": 42.611893637912075,
+      "coarse_ranking_score": 9.13657509991895,
+      "period_days": 42.6119166023663,
+      "duration_days": 0.1531487890511885,
+      "nominal_training_snr": 10.65427236234066,
+      "event_ranking": {
+        "n_events": 7,
+        "total_snr": 10.75784120381747,
+        "leave_one_out_snr": 9.080594725264072
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1719.101051504884,
+      "consistency": {
+        "n_events": 7,
+        "total_snr": 10.75784120381747,
+        "leave_one_out_snr": 9.080594725264072,
+        "reduced_depth_chi2": 2.8081618291610027,
+        "consistent_total_snr": 6.419690096757629,
+        "consistent_leave_one_out_snr": 5.41880131208492
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 4,
+      "global_rank": 572,
+      "coarse_period_days": 40.21715663128287,
+      "coarse_ranking_score": 9.055218778858572,
+      "period_days": 40.21722165292168,
+      "duration_days": 0.10682630411002846,
+      "nominal_training_snr": 10.76295327229518,
+      "event_ranking": {
+        "n_events": 5,
+        "total_snr": 9.797611080113347,
+        "leave_one_out_snr": 7.705119402040076
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1719.6974103335726,
+      "consistency": {
+        "n_events": 5,
+        "total_snr": 9.797611080113347,
+        "leave_one_out_snr": 7.705119402040076,
+        "reduced_depth_chi2": 1.637009129970228,
+        "consistent_total_snr": 7.657634704917367,
+        "consistent_leave_one_out_snr": 6.022181249708438
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 5,
+      "global_rank": 182,
+      "coarse_period_days": 39.14028587698602,
+      "coarse_ranking_score": 8.884115733994307,
+      "period_days": 39.139378855149175,
+      "duration_days": 0.12902203044532426,
+      "nominal_training_snr": 11.617470954127688,
+      "event_ranking": {
+        "n_events": 5,
+        "total_snr": 11.676101878993853,
+        "leave_one_out_snr": 7.845754638547135
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1718.8334650000088,
+      "consistency": {
+        "n_events": 5,
+        "total_snr": 11.676101878993853,
+        "leave_one_out_snr": 7.845754638547135,
+        "reduced_depth_chi2": 15.262483129785263,
+        "consistent_total_snr": 2.988720326698198,
+        "consistent_leave_one_out_snr": 2.008270106712456
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 6,
+      "global_rank": 130,
+      "coarse_period_days": 39.547384223541684,
+      "coarse_ranking_score": 8.757267228194419,
+      "period_days": 39.54727765891653,
+      "duration_days": 0.14274653698707104,
+      "nominal_training_snr": 11.875895812955552,
+      "event_ranking": {
+        "n_events": 5,
+        "total_snr": 10.59350668721255,
+        "leave_one_out_snr": 8.74312790858555
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1695.7278279498705,
+      "consistency": {
+        "n_events": 5,
+        "total_snr": 10.59350668721255,
+        "leave_one_out_snr": 8.74312790858555,
+        "reduced_depth_chi2": 1.2473676351498384,
+        "consistent_total_snr": 9.485113003904004,
+        "consistent_leave_one_out_snr": 7.828338497263168
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 7,
+      "global_rank": 189,
+      "coarse_period_days": 41.58868188257593,
+      "coarse_ranking_score": 8.708935635540257,
+      "period_days": 41.58918244010482,
+      "duration_days": 0.15191307083321764,
+      "nominal_training_snr": 11.738767717403013,
+      "event_ranking": {
+        "n_events": 7,
+        "total_snr": 10.94437061270172,
+        "leave_one_out_snr": 9.22585658718918
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1718.3307264345094,
+      "consistency": {
+        "n_events": 7,
+        "total_snr": 10.94437061270172,
+        "leave_one_out_snr": 9.22585658718918,
+        "reduced_depth_chi2": 8.690691957204157,
+        "consistent_total_snr": 3.71247564300263,
+        "consistent_leave_one_out_snr": 3.129532896667877
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 8,
+      "global_rank": 51,
+      "coarse_period_days": 28.1373167576525,
+      "coarse_ranking_score": 8.686181147545508,
+      "period_days": 28.137508832419755,
+      "duration_days": 0.1333625467657278,
+      "nominal_training_snr": 12.818305656571333,
+      "event_ranking": {
+        "n_events": 8,
+        "total_snr": 11.548379326011329,
+        "leave_one_out_snr": 8.824215387970359
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1700.4666133110297,
+      "consistency": {
+        "n_events": 8,
+        "total_snr": 11.548379326011329,
+        "leave_one_out_snr": 8.824215387970359,
+        "reduced_depth_chi2": 9.749112449109605,
+        "consistent_total_snr": 3.698609669471887,
+        "consistent_leave_one_out_snr": 2.826139273580852
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 9,
+      "global_rank": 740,
+      "coarse_period_days": 16.754066342436673,
+      "coarse_ranking_score": 8.676961255128203,
+      "period_days": 16.754108478339695,
+      "duration_days": 0.11469174362212826,
+      "nominal_training_snr": 10.657415629377509,
+      "event_ranking": {
+        "n_events": 16,
+        "total_snr": 9.929676938050138,
+        "leave_one_out_snr": 8.771238035983469
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1691.7651032037556,
+      "consistency": {
+        "n_events": 16,
+        "total_snr": 9.929676938050138,
+        "leave_one_out_snr": 8.771238035983469,
+        "reduced_depth_chi2": 4.4345886535807075,
+        "consistent_total_snr": 4.7152904378521985,
+        "consistent_leave_one_out_snr": 4.1651843355258125
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 10,
+      "global_rank": 516,
+      "coarse_period_days": 27.90288090371885,
+      "coarse_ranking_score": 8.650665013185533,
+      "period_days": 27.902820753899025,
+      "duration_days": 0.13299115231440023,
+      "nominal_training_snr": 11.225472049062992,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 10.015611391952348,
+        "leave_one_out_snr": 8.846931360308266
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1707.7928728213737,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 10.015611391952348,
+        "leave_one_out_snr": 8.846931360308266,
+        "reduced_depth_chi2": 2.483817026027196,
+        "consistent_total_snr": 6.355030885804609,
+        "consistent_leave_one_out_snr": 5.613488766599693
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 11,
+      "global_rank": 403,
+      "coarse_period_days": 37.180320387341276,
+      "coarse_ranking_score": 8.599295531644955,
+      "period_days": 37.18074116988681,
+      "duration_days": 0.14309198624773994,
+      "nominal_training_snr": 11.30762903511145,
+      "event_ranking": {
+        "n_events": 6,
+        "total_snr": 10.946789437474179,
+        "leave_one_out_snr": 8.83394151207133
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1699.3496396409412,
+      "consistency": {
+        "n_events": 6,
+        "total_snr": 10.946789437474179,
+        "leave_one_out_snr": 8.83394151207133,
+        "reduced_depth_chi2": 6.638329501769007,
+        "consistent_total_snr": 4.248712669780703,
+        "consistent_leave_one_out_snr": 3.4286654951042306
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 12,
+      "global_rank": 4,
+      "coarse_period_days": 28.12424102154667,
+      "coarse_ranking_score": 8.561168887000196,
+      "period_days": 28.123811580279018,
+      "duration_days": 0.13334188655058335,
+      "nominal_training_snr": 14.433065141636307,
+      "event_ranking": {
+        "n_events": 8,
+        "total_snr": 12.425886167908338,
+        "leave_one_out_snr": 9.677585793380734
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1701.3440351257168,
+      "consistency": {
+        "n_events": 8,
+        "total_snr": 12.425886167908338,
+        "leave_one_out_snr": 9.677585793380734,
+        "reduced_depth_chi2": 9.582205809471033,
+        "consistent_total_snr": 4.0141594871408985,
+        "consistent_leave_one_out_snr": 3.126326146898742
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 13,
+      "global_rank": 30,
+      "coarse_period_days": 20.86281659006247,
+      "coarse_ranking_score": 8.54563407440606,
+      "period_days": 20.863071440798425,
+      "duration_days": 0.11266030078036847,
+      "nominal_training_snr": 13.062687601317023,
+      "event_ranking": {
+        "n_events": 15,
+        "total_snr": 10.608599363377815,
+        "leave_one_out_snr": 8.813109890801833
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1702.25273611166,
+      "consistency": {
+        "n_events": 15,
+        "total_snr": 10.608599363377815,
+        "leave_one_out_snr": 8.813109890801833,
+        "reduced_depth_chi2": 6.498051775018291,
+        "consistent_total_snr": 4.161658740069256,
+        "consistent_leave_one_out_snr": 3.457304263073624
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 14,
+      "global_rank": 349,
+      "coarse_period_days": 33.16051581101782,
+      "coarse_ranking_score": 8.406190749784752,
+      "period_days": 33.16022391955253,
+      "duration_days": 0.14399828770689221,
+      "nominal_training_snr": 11.133488671426512,
+      "event_ranking": {
+        "n_events": 8,
+        "total_snr": 10.863351847551042,
+        "leave_one_out_snr": 8.701812487195454
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1710.5816894360862,
+      "consistency": {
+        "n_events": 8,
+        "total_snr": 10.863351847551042,
+        "leave_one_out_snr": 8.701812487195454,
+        "reduced_depth_chi2": 7.528452048091852,
+        "consistent_total_snr": 3.9592324620938553,
+        "consistent_leave_one_out_snr": 3.1714427519094524
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 15,
+      "global_rank": 726,
+      "coarse_period_days": 41.61558620964353,
+      "coarse_ranking_score": 8.394315859682488,
+      "period_days": 41.61591514664745,
+      "duration_days": 0.1316863779897208,
+      "nominal_training_snr": 10.529715839383526,
+      "event_ranking": {
+        "n_events": 7,
+        "total_snr": 10.397470207659548,
+        "leave_one_out_snr": 9.029569715621273
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1718.250453078995,
+      "consistency": {
+        "n_events": 7,
+        "total_snr": 10.397470207659548,
+        "leave_one_out_snr": 9.029569715621273,
+        "reduced_depth_chi2": 5.535560440679995,
+        "consistent_total_snr": 4.419232859360734,
+        "consistent_leave_one_out_snr": 3.8378346267119863
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 16,
+      "global_rank": 413,
+      "coarse_period_days": 42.58864847054283,
+      "coarse_ranking_score": 8.260125184858964,
+      "period_days": 42.58947473991149,
+      "duration_days": 0.15312093702898064,
+      "nominal_training_snr": 11.397240676201886,
+      "event_ranking": {
+        "n_events": 6,
+        "total_snr": 10.339530064502377,
+        "leave_one_out_snr": 8.766429929214643
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1720.081349092347,
+      "consistency": {
+        "n_events": 6,
+        "total_snr": 10.339530064502377,
+        "leave_one_out_snr": 8.766429929214643,
+        "reduced_depth_chi2": 3.8642233367854404,
+        "consistent_total_snr": 5.259805572758875,
+        "consistent_leave_one_out_snr": 4.45955635384117
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 17,
+      "global_rank": 1648,
+      "coarse_period_days": 25.639983559142017,
+      "coarse_ranking_score": 8.228652489272664,
+      "period_days": 25.639615080967868,
+      "duration_days": 0.08619629192405016,
+      "nominal_training_snr": 9.463936021823901,
+      "event_ranking": {
+        "n_events": 10,
+        "total_snr": 8.833296762337465,
+        "leave_one_out_snr": 7.695816247036995
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1689.2379497548911,
+      "consistency": {
+        "n_events": 10,
+        "total_snr": 8.833296762337465,
+        "leave_one_out_snr": 7.695816247036995,
+        "reduced_depth_chi2": 1.5354718326817869,
+        "consistent_total_snr": 7.128561392761352,
+        "consistent_leave_one_out_snr": 6.210602910831722
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 18,
+      "global_rank": 101,
+      "coarse_period_days": 41.63577587623057,
+      "coarse_ranking_score": 8.221073440185569,
+      "period_days": 41.63635179525719,
+      "duration_days": 0.15197038783447045,
+      "nominal_training_snr": 12.227178060895088,
+      "event_ranking": {
+        "n_events": 5,
+        "total_snr": 10.61224836757757,
+        "leave_one_out_snr": 8.271925533813777
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1723.2271983628002,
+      "consistency": {
+        "n_events": 5,
+        "total_snr": 10.61224836757757,
+        "leave_one_out_snr": 8.271925533813777,
+        "reduced_depth_chi2": 9.586257241382654,
+        "consistent_total_snr": 3.4275426390871493,
+        "consistent_leave_one_out_snr": 2.671665465456155
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 19,
+      "global_rank": 50,
+      "coarse_period_days": 10.235046254185775,
+      "coarse_ranking_score": 8.214836661024764,
+      "period_days": 10.234917550231891,
+      "duration_days": 0.0825103994391419,
+      "nominal_training_snr": 12.937668511361093,
+      "event_ranking": {
+        "n_events": 26,
+        "total_snr": 10.0767379135548,
+        "leave_one_out_snr": 9.076592065555028
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1684.455338907688,
+      "consistency": {
+        "n_events": 26,
+        "total_snr": 10.0767379135548,
+        "leave_one_out_snr": 9.076592065555028,
+        "reduced_depth_chi2": 2.285338074226236,
+        "consistent_total_snr": 6.665684219986298,
+        "consistent_leave_one_out_snr": 6.004095474314032
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 20,
+      "global_rank": 298,
+      "coarse_period_days": 41.1489264801691,
+      "coarse_ranking_score": 8.201722652644559,
+      "period_days": 41.14918520052095,
+      "duration_days": 0.15473966028043984,
+      "nominal_training_snr": 11.409022928880006,
+      "event_ranking": {
+        "n_events": 7,
+        "total_snr": 10.076784293735805,
+        "leave_one_out_snr": 8.375532238669011
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1724.408748564375,
+      "consistency": {
+        "n_events": 7,
+        "total_snr": 10.076784293735805,
+        "leave_one_out_snr": 8.375532238669011,
+        "reduced_depth_chi2": 4.360809679164324,
+        "consistent_total_snr": 4.825456395663318,
+        "consistent_leave_one_out_snr": 4.010780069321718
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 21,
+      "global_rank": 185,
+      "coarse_period_days": 19.27198971463661,
+      "coarse_ranking_score": 8.191378617707446,
+      "period_days": 19.27209357548103,
+      "duration_days": 0.11494586421559341,
+      "nominal_training_snr": 11.620498720652735,
+      "event_ranking": {
+        "n_events": 13,
+        "total_snr": 10.839999463487183,
+        "leave_one_out_snr": 8.351297776442415
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1687.7625576763191,
+      "consistency": {
+        "n_events": 13,
+        "total_snr": 10.839999463487183,
+        "leave_one_out_snr": 8.351297776442415,
+        "reduced_depth_chi2": 10.634797930218118,
+        "consistent_total_snr": 3.324027740602523,
+        "consistent_leave_one_out_snr": 2.5608807059845087
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 22,
+      "global_rank": 992,
+      "coarse_period_days": 21.30422806705531,
+      "coarse_ranking_score": 8.159991666243625,
+      "period_days": 21.3043046090609,
+      "duration_days": 0.12155275072779728,
+      "nominal_training_snr": 10.67301562602132,
+      "event_ranking": {
+        "n_events": 13,
+        "total_snr": 10.308046605509173,
+        "leave_one_out_snr": 8.844916677562376
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1684.4120882002835,
+      "consistency": {
+        "n_events": 13,
+        "total_snr": 10.308046605509173,
+        "leave_one_out_snr": 8.844916677562376,
+        "reduced_depth_chi2": 4.531064914479614,
+        "consistent_total_snr": 4.842573614367795,
+        "consistent_leave_one_out_snr": 4.155215994187824
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 23,
+      "global_rank": 17,
+      "coarse_period_days": 26.388047860485766,
+      "coarse_ranking_score": 8.149437250694318,
+      "period_days": 26.38798623580895,
+      "duration_days": 0.11313443322089091,
+      "nominal_training_snr": 13.699038654454178,
+      "event_ranking": {
+        "n_events": 8,
+        "total_snr": 11.686432151903754,
+        "leave_one_out_snr": 8.342774170897357
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1685.6689473169595,
+      "consistency": {
+        "n_events": 8,
+        "total_snr": 11.686432151903754,
+        "leave_one_out_snr": 8.342774170897357,
+        "reduced_depth_chi2": 11.08385747168339,
+        "consistent_total_snr": 3.5102372920372003,
+        "consistent_leave_one_out_snr": 2.505907417513908
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 24,
+      "global_rank": 1333,
+      "coarse_period_days": 36.676570887547406,
+      "coarse_ranking_score": 8.06705733417461,
+      "period_days": 36.67603062281831,
+      "duration_days": 0.14244283252248435,
+      "nominal_training_snr": 9.60787227427295,
+      "event_ranking": {
+        "n_events": 8,
+        "total_snr": 9.90667400001118,
+        "leave_one_out_snr": 8.481047859418549
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1701.4724686261377,
+      "consistency": {
+        "n_events": 8,
+        "total_snr": 9.90667400001118,
+        "leave_one_out_snr": 8.481047859418549,
+        "reduced_depth_chi2": 1.6002329679501348,
+        "consistent_total_snr": 7.8313433487017985,
+        "consistent_leave_one_out_snr": 6.704368968213159
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 25,
+      "global_rank": 73,
+      "coarse_period_days": 39.15874706909064,
+      "coarse_ranking_score": 8.052428789117194,
+      "period_days": 39.15806472323026,
+      "duration_days": 0.14227742043315256,
+      "nominal_training_snr": 12.41499602303587,
+      "event_ranking": {
+        "n_events": 5,
+        "total_snr": 13.304423245975974,
+        "leave_one_out_snr": 8.143390526904044
+      },
+      "training_flags": [
+        "dominated_by_one_event"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1717.9522731096304,
+      "consistency": {
+        "n_events": 5,
+        "total_snr": 13.304423245975974,
+        "leave_one_out_snr": 8.143390526904044,
+        "reduced_depth_chi2": 24.72318059663264,
+        "consistent_total_snr": 2.6757398196666733,
+        "consistent_leave_one_out_snr": 1.6377706795011917
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 26,
+      "global_rank": 3099,
+      "coarse_period_days": 14.19470239933266,
+      "coarse_ranking_score": 8.028941726286549,
+      "period_days": 14.194549402802535,
+      "duration_days": 0.09201200056102786,
+      "nominal_training_snr": 8.886261864288258,
+      "event_ranking": {
+        "n_events": 17,
+        "total_snr": 8.758776594611534,
+        "leave_one_out_snr": 7.562327094878709
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1688.936998301696,
+      "consistency": {
+        "n_events": 17,
+        "total_snr": 8.758776594611534,
+        "leave_one_out_snr": 7.562327094878709,
+        "reduced_depth_chi2": 3.0765663346162184,
+        "consistent_total_snr": 4.993560401762732,
+        "consistent_leave_one_out_snr": 4.311439699169375
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 27,
+      "global_rank": 767,
+      "coarse_period_days": 21.295618831430996,
+      "coarse_ranking_score": 8.014558397077614,
+      "period_days": 21.29511003278717,
+      "duration_days": 0.1215363765507572,
+      "nominal_training_snr": 10.78817807507304,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.474441844806982,
+        "leave_one_out_snr": 8.328693533117342
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1698.7694572190928,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.474441844806982,
+        "leave_one_out_snr": 8.328693533117342,
+        "reduced_depth_chi2": 2.576379868365521,
+        "consistent_total_snr": 5.902672474496894,
+        "consistent_leave_one_out_snr": 5.188859763110781
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 28,
+      "global_rank": 1634,
+      "coarse_period_days": 14.957883649477631,
+      "coarse_ranking_score": 8.00377040494819,
+      "period_days": 14.957859466114373,
+      "duration_days": 0.10563616619669619,
+      "nominal_training_snr": 10.040646233260244,
+      "event_ranking": {
+        "n_events": 13,
+        "total_snr": 9.420058790763424,
+        "leave_one_out_snr": 8.134913214635683
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1691.4066456705914,
+      "consistency": {
+        "n_events": 13,
+        "total_snr": 9.420058790763424,
+        "leave_one_out_snr": 8.134913214635683,
+        "reduced_depth_chi2": 3.2379010311494176,
+        "consistent_total_snr": 5.235061984411644,
+        "consistent_leave_one_out_snr": 4.520860841992245
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 29,
+      "global_rank": 777,
+      "coarse_period_days": 32.895527146041815,
+      "coarse_ranking_score": 7.980123660584513,
+      "period_days": 32.895580330335875,
+      "duration_days": 0.14361371405980572,
+      "nominal_training_snr": 10.709348486212363,
+      "event_ranking": {
+        "n_events": 6,
+        "total_snr": 10.47167607613461,
+        "leave_one_out_snr": 8.188776746911026
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1684.4121463512108,
+      "consistency": {
+        "n_events": 6,
+        "total_snr": 10.47167607613461,
+        "leave_one_out_snr": 8.188776746911026,
+        "reduced_depth_chi2": 5.072448555728589,
+        "consistent_total_snr": 4.649512011444014,
+        "consistent_leave_one_out_snr": 3.635885560914941
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 30,
+      "global_rank": 42,
+      "coarse_period_days": 41.49968547206221,
+      "coarse_ranking_score": 7.9624120853570135,
+      "period_days": 41.499364906178904,
+      "duration_days": 0.15517807350770033,
+      "nominal_training_snr": 13.064278387697735,
+      "event_ranking": {
+        "n_events": 6,
+        "total_snr": 10.942634956929394,
+        "leave_one_out_snr": 8.702974045806089
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1723.3676773687728,
+      "consistency": {
+        "n_events": 6,
+        "total_snr": 10.942634956929394,
+        "leave_one_out_snr": 8.702974045806089,
+        "reduced_depth_chi2": 2.068370626199937,
+        "consistent_total_snr": 7.608652169997321,
+        "consistent_leave_one_out_snr": 6.051367209057865
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 31,
+      "global_rank": 3888,
+      "coarse_period_days": 30.081877878421597,
+      "coarse_ranking_score": 7.91938732430355,
+      "period_days": 30.08195353331415,
+      "duration_days": 0.11818420922485388,
+      "nominal_training_snr": 8.972846908991453,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 9.134210303507434,
+        "leave_one_out_snr": 8.085685264246141
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1707.880116012877,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 9.134210303507434,
+        "leave_one_out_snr": 8.085685264246141,
+        "reduced_depth_chi2": 2.05164549855677,
+        "consistent_total_snr": 6.377050344812013,
+        "consistent_leave_one_out_snr": 5.645022425485728
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 32,
+      "global_rank": 43,
+      "coarse_period_days": 27.664434110556495,
+      "coarse_ranking_score": 7.9062610869491605,
+      "period_days": 27.664175688740617,
+      "duration_days": 0.1326112637755549,
+      "nominal_training_snr": 12.71040284699885,
+      "event_ranking": {
+        "n_events": 8,
+        "total_snr": 10.017956844363239,
+        "leave_one_out_snr": 8.219489302288117
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1704.9296885915114,
+      "consistency": {
+        "n_events": 8,
+        "total_snr": 10.017956844363239,
+        "leave_one_out_snr": 8.219489302288117,
+        "reduced_depth_chi2": 10.142878014964761,
+        "consistent_total_snr": 3.1455642134898376,
+        "consistent_leave_one_out_snr": 2.58085873238591
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 33,
+      "global_rank": 1444,
+      "coarse_period_days": 20.819434068144393,
+      "coarse_ranking_score": 7.8756265202495825,
+      "period_days": 20.819527568436555,
+      "duration_days": 0.1045405817422968,
+      "nominal_training_snr": 9.716897498736543,
+      "event_ranking": {
+        "n_events": 14,
+        "total_snr": 9.184228481163272,
+        "leave_one_out_snr": 7.665059614308273
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1702.3643468513144,
+      "consistency": {
+        "n_events": 14,
+        "total_snr": 9.184228481163272,
+        "leave_one_out_snr": 7.665059614308273,
+        "reduced_depth_chi2": 6.134755834473869,
+        "consistent_total_snr": 3.708036822273002,
+        "consistent_leave_one_out_snr": 3.094688176918352
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 34,
+      "global_rank": 836,
+      "coarse_period_days": 34.974248712129196,
+      "coarse_ranking_score": 7.858756746803858,
+      "period_days": 34.97453772039571,
+      "duration_days": 0.14339059147403446,
+      "nominal_training_snr": 10.533576033438015,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 9.280256821517614,
+        "leave_one_out_snr": 8.197197759582316
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1691.6634600473578,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 9.280256821517614,
+        "leave_one_out_snr": 8.197197759582316,
+        "reduced_depth_chi2": 1.4580148196443838,
+        "consistent_total_snr": 7.685622089094059,
+        "consistent_leave_one_out_snr": 6.78866602308271
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 35,
+      "global_rank": 417,
+      "coarse_period_days": 40.35257493353505,
+      "coarse_ranking_score": 7.853916821072448,
+      "period_days": 40.3523284691285,
+      "duration_days": 0.1437087761158528,
+      "nominal_training_snr": 10.94378510017484,
+      "event_ranking": {
+        "n_events": 7,
+        "total_snr": 9.36651700942107,
+        "leave_one_out_snr": 7.832787586054851
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1692.5119068492672,
+      "consistency": {
+        "n_events": 7,
+        "total_snr": 9.36651700942107,
+        "leave_one_out_snr": 7.832787586054851,
+        "reduced_depth_chi2": 2.530171760192134,
+        "consistent_total_snr": 5.888478911453051,
+        "consistent_leave_one_out_snr": 4.924264213899724
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 36,
+      "global_rank": 152,
+      "coarse_period_days": 11.857853495355085,
+      "coarse_ranking_score": 7.845451011468641,
+      "period_days": 11.857781070266242,
+      "duration_days": 0.0977681251798325,
+      "nominal_training_snr": 11.521602237672006,
+      "event_ranking": {
+        "n_events": 24,
+        "total_snr": 8.983704005302824,
+        "leave_one_out_snr": 8.19656286154692
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1684.9086708411864,
+      "consistency": {
+        "n_events": 24,
+        "total_snr": 8.983704005302824,
+        "leave_one_out_snr": 8.19656286154692,
+        "reduced_depth_chi2": 3.3339801053604607,
+        "consistent_total_snr": 4.920100029345328,
+        "consistent_leave_one_out_snr": 4.489006889788822
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 37,
+      "global_rank": 146,
+      "coarse_period_days": 22.276259062291032,
+      "coarse_ranking_score": 7.830135342063302,
+      "period_days": 22.275790861480793,
+      "duration_days": 0.12337382043186708,
+      "nominal_training_snr": 11.844420439444193,
+      "event_ranking": {
+        "n_events": 12,
+        "total_snr": 10.806062169151353,
+        "leave_one_out_snr": 8.0519706222897
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1698.000215134258,
+      "consistency": {
+        "n_events": 12,
+        "total_snr": 10.806062169151353,
+        "leave_one_out_snr": 8.0519706222897,
+        "reduced_depth_chi2": 11.609915200483615,
+        "consistent_total_snr": 3.17141399224893,
+        "consistent_leave_one_out_snr": 2.3631302408759267
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 38,
+      "global_rank": 15,
+      "coarse_period_days": 28.148881529159496,
+      "coarse_ranking_score": 7.796559778267851,
+      "period_days": 28.148628695327567,
+      "duration_days": 0.13338081426022003,
+      "nominal_training_snr": 13.593633719258877,
+      "event_ranking": {
+        "n_events": 10,
+        "total_snr": 10.323355156583773,
+        "leave_one_out_snr": 7.972821586921938
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1699.7694345521793,
+      "consistency": {
+        "n_events": 10,
+        "total_snr": 10.323355156583773,
+        "leave_one_out_snr": 7.972821586921938,
+        "reduced_depth_chi2": 11.59400106015326,
+        "consistent_total_snr": 3.0318254962280435,
+        "consistent_leave_one_out_snr": 2.3415065545518225
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 39,
+      "global_rank": 169,
+      "coarse_period_days": 23.597932944336538,
+      "coarse_ranking_score": 7.768762005183689,
+      "period_days": 23.597305551266402,
+      "duration_days": 0.12297203404964198,
+      "nominal_training_snr": 12.017391828426511,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.751634844993553,
+        "leave_one_out_snr": 8.214963808761993
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1706.4892331810001,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.751634844993553,
+        "leave_one_out_snr": 8.214963808761993,
+        "reduced_depth_chi2": 5.462187305702463,
+        "consistent_total_snr": 4.172478775887668,
+        "consistent_leave_one_out_snr": 3.514975968808171
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 40,
+      "global_rank": 383,
+      "coarse_period_days": 39.134485585758355,
+      "coarse_ranking_score": 7.76689492701077,
+      "period_days": 39.134724610350496,
+      "duration_days": 0.12901565704053208,
+      "nominal_training_snr": 11.219331884349677,
+      "event_ranking": {
+        "n_events": 5,
+        "total_snr": 11.443654814240237,
+        "leave_one_out_snr": 7.480509421156958
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1719.0500518136994,
+      "consistency": {
+        "n_events": 5,
+        "total_snr": 11.443654814240237,
+        "leave_one_out_snr": 7.480509421156958,
+        "reduced_depth_chi2": 16.769312476945206,
+        "consistent_total_snr": 2.79451934659843,
+        "consistent_leave_one_out_snr": 1.826726569366801
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 41,
+      "global_rank": 1008,
+      "coarse_period_days": 14.969274317899192,
+      "coarse_ranking_score": 7.7472219343970306,
+      "period_days": 14.969586251943205,
+      "duration_days": 0.1056629698497121,
+      "nominal_training_snr": 10.287637222593943,
+      "event_ranking": {
+        "n_events": 14,
+        "total_snr": 9.835486921132517,
+        "leave_one_out_snr": 8.134191333886113
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1689.9942190990005,
+      "consistency": {
+        "n_events": 14,
+        "total_snr": 9.835486921132517,
+        "leave_one_out_snr": 8.134191333886113,
+        "reduced_depth_chi2": 6.395870410028687,
+        "consistent_total_snr": 3.8890724823746,
+        "consistent_leave_one_out_snr": 3.216359285173432
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 42,
+      "global_rank": 23,
+      "coarse_period_days": 31.1858131289074,
+      "coarse_ranking_score": 7.744889283395976,
+      "period_days": 31.18577391328145,
+      "duration_days": 0.11347851415930356,
+      "nominal_training_snr": 13.288767864977507,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 11.416893566396155,
+        "leave_one_out_snr": 8.095142105498981
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1702.461442134194,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 11.416893566396155,
+        "leave_one_out_snr": 8.095142105498981,
+        "reduced_depth_chi2": 13.0431052231057,
+        "consistent_total_snr": 3.1612398899952385,
+        "consistent_leave_one_out_snr": 2.2414754057448354
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 43,
+      "global_rank": 422,
+      "coarse_period_days": 38.5478680521117,
+      "coarse_ranking_score": 7.741293360114277,
+      "period_days": 38.547722632259884,
+      "duration_days": 0.14153372552983412,
+      "nominal_training_snr": 11.14302866006853,
+      "event_ranking": {
+        "n_events": 7,
+        "total_snr": 9.592044847264923,
+        "leave_one_out_snr": 7.855070293308762
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1704.1024542806758,
+      "consistency": {
+        "n_events": 7,
+        "total_snr": 9.592044847264923,
+        "leave_one_out_snr": 7.855070293308762,
+        "reduced_depth_chi2": 2.389640597182239,
+        "consistent_total_snr": 6.20504458991245,
+        "consistent_leave_one_out_snr": 5.081404664280273
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 44,
+      "global_rank": 239,
+      "coarse_period_days": 22.244168425487047,
+      "coarse_ranking_score": 7.730630581166231,
+      "period_days": 22.244060534795153,
+      "duration_days": 0.12331455417376569,
+      "nominal_training_snr": 11.563440047123294,
+      "event_ranking": {
+        "n_events": 10,
+        "total_snr": 9.641067043375555,
+        "leave_one_out_snr": 7.8061900332156196
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1698.1247658009358,
+      "consistency": {
+        "n_events": 10,
+        "total_snr": 9.641067043375555,
+        "leave_one_out_snr": 7.8061900332156196,
+        "reduced_depth_chi2": 5.735958114403788,
+        "consistent_total_snr": 4.025521191760739,
+        "consistent_leave_one_out_snr": 3.2593885369993965
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 45,
+      "global_rank": 67,
+      "coarse_period_days": 39.16587014143771,
+      "coarse_ranking_score": 7.721335019195422,
+      "period_days": 39.165321351143895,
+      "duration_days": 0.12905013512172872,
+      "nominal_training_snr": 12.326090860883351,
+      "event_ranking": {
+        "n_events": 5,
+        "total_snr": 12.274709238631177,
+        "leave_one_out_snr": 7.438248286722855
+      },
+      "training_flags": [
+        "dominated_by_one_event"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1717.6036126594172,
+      "consistency": {
+        "n_events": 5,
+        "total_snr": 12.274709238631177,
+        "leave_one_out_snr": 7.438248286722855,
+        "reduced_depth_chi2": 24.382467108384077,
+        "consistent_total_snr": 2.485835523208142,
+        "consistent_leave_one_out_snr": 1.506370657105661
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 46,
+      "global_rank": 106,
+      "coarse_period_days": 43.46952075641898,
+      "coarse_ranking_score": 7.7212341160260305,
+      "period_days": 43.469380196532875,
+      "duration_days": 0.13361346463798532,
+      "nominal_training_snr": 12.426175567156589,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 10.754928965157774,
+        "leave_one_out_snr": 7.961901721675394
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1693.36616429396,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 10.754928965157774,
+        "leave_one_out_snr": 7.961901721675394,
+        "reduced_depth_chi2": 10.615994173452604,
+        "consistent_total_snr": 3.300860802783942,
+        "consistent_leave_one_out_snr": 2.443635787259777
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 47,
+      "global_rank": 1145,
+      "coarse_period_days": 22.13519689417422,
+      "coarse_ranking_score": 7.699184747568685,
+      "period_days": 22.135081579274253,
+      "duration_days": 0.12311287485236715,
+      "nominal_training_snr": 10.163182452342367,
+      "event_ranking": {
+        "n_events": 14,
+        "total_snr": 9.023274946213856,
+        "leave_one_out_snr": 8.13445182030742
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1690.1504257740594,
+      "consistency": {
+        "n_events": 14,
+        "total_snr": 9.023274946213856,
+        "leave_one_out_snr": 8.13445182030742,
+        "reduced_depth_chi2": 2.2521738675231053,
+        "consistent_total_snr": 6.012612749027241,
+        "consistent_leave_one_out_snr": 5.42035004060809
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 48,
+      "global_rank": 780,
+      "coarse_period_days": 14.960100622053549,
+      "coarse_ranking_score": 7.694232888421237,
+      "period_days": 14.960202744721103,
+      "duration_days": 0.10564138407362013,
+      "nominal_training_snr": 10.653899340153439,
+      "event_ranking": {
+        "n_events": 16,
+        "total_snr": 9.651393584646499,
+        "leave_one_out_snr": 8.323877971462178
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1689.152555023489,
+      "consistency": {
+        "n_events": 16,
+        "total_snr": 9.651393584646499,
+        "leave_one_out_snr": 8.323877971462178,
+        "reduced_depth_chi2": 4.43002110725462,
+        "consistent_total_snr": 4.585504551077682,
+        "consistent_leave_one_out_snr": 3.9547843517100856
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 49,
+      "global_rank": 126,
+      "coarse_period_days": 21.175311548010427,
+      "coarse_ranking_score": 7.670336738230712,
+      "period_days": 21.175345783485394,
+      "duration_days": 0.10513281762369951,
+      "nominal_training_snr": 11.900934575761315,
+      "event_ranking": {
+        "n_events": 10,
+        "total_snr": 10.843150443352302,
+        "leave_one_out_snr": 8.3308157877713
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1701.3284604123694,
+      "consistency": {
+        "n_events": 10,
+        "total_snr": 10.843150443352302,
+        "leave_one_out_snr": 8.3308157877713,
+        "reduced_depth_chi2": 11.922052294509953,
+        "consistent_total_snr": 3.140363870415432,
+        "consistent_leave_one_out_snr": 2.412748310343945
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 50,
+      "global_rank": 175,
+      "coarse_period_days": 29.938947065293664,
+      "coarse_ranking_score": 7.658840683849627,
+      "period_days": 29.938705044280063,
+      "duration_days": 0.13312453103541408,
+      "nominal_training_snr": 12.352927218170072,
+      "event_ranking": {
+        "n_events": 7,
+        "total_snr": 10.727717128921906,
+        "leave_one_out_snr": 8.336327150979022
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1704.9595367484683,
+      "consistency": {
+        "n_events": 7,
+        "total_snr": 10.727717128921906,
+        "leave_one_out_snr": 8.336327150979022,
+        "reduced_depth_chi2": 12.2973099477328,
+        "consistent_total_snr": 3.0591604346897485,
+        "consistent_leave_one_out_snr": 2.3772217224250958
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 51,
+      "global_rank": 1586,
+      "coarse_period_days": 28.40910525346678,
+      "coarse_ranking_score": 7.632056486590037,
+      "period_days": 28.40856939401657,
+      "duration_days": 0.13081741939853483,
+      "nominal_training_snr": 9.534970182108488,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.09915360294034,
+        "leave_one_out_snr": 7.875097727833267
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1704.8872236590953,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.09915360294034,
+        "leave_one_out_snr": 7.875097727833267,
+        "reduced_depth_chi2": 5.239018668168427,
+        "consistent_total_snr": 3.9753559714688738,
+        "consistent_leave_one_out_snr": 3.4405746011504275
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 52,
+      "global_rank": 730,
+      "coarse_period_days": 14.952745567461545,
+      "coarse_ranking_score": 7.629871492303358,
+      "period_days": 14.952409802792193,
+      "duration_days": 0.10562407120108809,
+      "nominal_training_snr": 9.814294820425234,
+      "event_ranking": {
+        "n_events": 17,
+        "total_snr": 9.102534566247492,
+        "leave_one_out_snr": 7.470886053369949
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1690.0758327187534,
+      "consistency": {
+        "n_events": 17,
+        "total_snr": 9.102534566247492,
+        "leave_one_out_snr": 7.470886053369949,
+        "reduced_depth_chi2": 4.294655281453244,
+        "consistent_total_snr": 4.392362567563162,
+        "consistent_leave_one_out_snr": 3.605022316424965
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 53,
+      "global_rank": 3749,
+      "coarse_period_days": 23.509237028949812,
+      "coarse_ranking_score": 7.5486461039465995,
+      "period_days": 23.509173680814886,
+      "duration_days": 0.12281778463357128,
+      "nominal_training_snr": 9.119167384038773,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.227395841728914,
+        "leave_one_out_snr": 7.988162024776212
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1706.937661044271,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.227395841728914,
+        "leave_one_out_snr": 7.988162024776212,
+        "reduced_depth_chi2": 1.7610658560875407,
+        "consistent_total_snr": 6.953306175364927,
+        "consistent_leave_one_out_snr": 6.019481258786539
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 54,
+      "global_rank": 1152,
+      "coarse_period_days": 44.0262170198546,
+      "coarse_ranking_score": 7.547061644028734,
+      "period_days": 44.025141411126455,
+      "duration_days": 0.15482469662738507,
+      "nominal_training_snr": 10.093584491635916,
+      "event_ranking": {
+        "n_events": 4,
+        "total_snr": 10.403244119361426,
+        "leave_one_out_snr": 7.630412779483624
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1715.850971795105,
+      "consistency": {
+        "n_events": 4,
+        "total_snr": 10.403244119361426,
+        "leave_one_out_snr": 7.630412779483624,
+        "reduced_depth_chi2": 10.27194386037551,
+        "consistent_total_snr": 3.2459548229868163,
+        "consistent_leave_one_out_snr": 2.3807934216260054
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 55,
+      "global_rank": 7,
+      "coarse_period_days": 35.31635970677056,
+      "coarse_ranking_score": 7.527882157472299,
+      "period_days": 35.3163533625252,
+      "duration_days": 0.1438565916601576,
+      "nominal_training_snr": 14.023729611932284,
+      "event_ranking": {
+        "n_events": 6,
+        "total_snr": 12.635692394195058,
+        "leave_one_out_snr": 7.6140445954661065
+      },
+      "training_flags": [
+        "dominated_by_one_event",
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1714.2500308212448,
+      "consistency": {
+        "n_events": 6,
+        "total_snr": 12.635692394195058,
+        "leave_one_out_snr": 7.6140445954661065,
+        "reduced_depth_chi2": 17.550228643328552,
+        "consistent_total_snr": 3.016182774907012,
+        "consistent_leave_one_out_snr": 1.817498356225352
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 56,
+      "global_rank": 3130,
+      "coarse_period_days": 41.15724333184898,
+      "coarse_ranking_score": 7.522847413526635,
+      "period_days": 41.15709546176707,
+      "duration_days": 0.15475008428008855,
+      "nominal_training_snr": 8.897387353140301,
+      "event_ranking": {
+        "n_events": 7,
+        "total_snr": 9.929835596750971,
+        "leave_one_out_snr": 7.831346901016433
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1706.3461167983673,
+      "consistency": {
+        "n_events": 7,
+        "total_snr": 9.929835596750971,
+        "leave_one_out_snr": 7.831346901016433,
+        "reduced_depth_chi2": 5.0835475809967505,
+        "consistent_total_snr": 4.404114604809814,
+        "consistent_leave_one_out_snr": 3.4733857299091313
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 57,
+      "global_rank": 3355,
+      "coarse_period_days": 31.194217609612423,
+      "coarse_ranking_score": 7.51518897328327,
+      "period_days": 31.193982252445792,
+      "duration_days": 0.11962323138308058,
+      "nominal_training_snr": 9.40798512977879,
+      "event_ranking": {
+        "n_events": 8,
+        "total_snr": 9.134307962361849,
+        "leave_one_out_snr": 8.01476925672814
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1688.1697063141648,
+      "consistency": {
+        "n_events": 8,
+        "total_snr": 9.134307962361849,
+        "leave_one_out_snr": 8.01476925672814,
+        "reduced_depth_chi2": 2.7490492038179988,
+        "consistent_total_snr": 5.5091474108856575,
+        "consistent_leave_one_out_snr": 4.833923432567606
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 58,
+      "global_rank": 110,
+      "coarse_period_days": 26.673648398756743,
+      "coarse_ranking_score": 7.50340667082385,
+      "period_days": 26.67415152359783,
+      "duration_days": 0.13100895661928563,
+      "nominal_training_snr": 12.13950450060863,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.497397693108118,
+        "leave_one_out_snr": 8.166366664507283
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1688.1078316360865,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.497397693108118,
+        "leave_one_out_snr": 8.166366664507283,
+        "reduced_depth_chi2": 2.935731052143326,
+        "consistent_total_snr": 5.54302057604893,
+        "consistent_leave_one_out_snr": 4.766183318381193
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 59,
+      "global_rank": 1502,
+      "coarse_period_days": 20.851435737863074,
+      "coarse_ranking_score": 7.492809569752215,
+      "period_days": 20.8513945344978,
+      "duration_days": 0.11532171364557539,
+      "nominal_training_snr": 9.750916142621234,
+      "event_ranking": {
+        "n_events": 14,
+        "total_snr": 9.26262016519176,
+        "leave_one_out_snr": 7.339930806324208
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1702.293569964762,
+      "consistency": {
+        "n_events": 14,
+        "total_snr": 9.26262016519176,
+        "leave_one_out_snr": 7.339930806324208,
+        "reduced_depth_chi2": 4.735987038962545,
+        "consistent_total_snr": 4.256264439293942,
+        "consistent_leave_one_out_snr": 3.3727698988711667
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 60,
+      "global_rank": 2864,
+      "coarse_period_days": 20.83149910037568,
+      "coarse_ranking_score": 7.485471820641099,
+      "period_days": 20.830993906203407,
+      "duration_days": 0.1152849514301345,
+      "nominal_training_snr": 9.4502621067785,
+      "event_ranking": {
+        "n_events": 13,
+        "total_snr": 8.34595382399767,
+        "leave_one_out_snr": 6.508787069231332
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1702.338506044279,
+      "consistency": {
+        "n_events": 13,
+        "total_snr": 8.34595382399767,
+        "leave_one_out_snr": 6.508787069231332,
+        "reduced_depth_chi2": 5.436733250846136,
+        "consistent_total_snr": 3.5793730589446486,
+        "consistent_leave_one_out_snr": 2.791457701937608
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 61,
+      "global_rank": 3643,
+      "coarse_period_days": 43.13667900395835,
+      "coarse_ranking_score": 7.480237292231284,
+      "period_days": 43.13739192030573,
+      "duration_days": 0.15377490176268077,
+      "nominal_training_snr": 8.940773883068449,
+      "event_ranking": {
+        "n_events": 7,
+        "total_snr": 10.118717951269408,
+        "leave_one_out_snr": 8.139309061392716
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1699.4713094797833,
+      "consistency": {
+        "n_events": 7,
+        "total_snr": 10.118717951269408,
+        "leave_one_out_snr": 8.139309061392716,
+        "reduced_depth_chi2": 3.2101540113151223,
+        "consistent_total_snr": 5.647582140774223,
+        "consistent_leave_one_out_snr": 4.542810335729995
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 62,
+      "global_rank": 1831,
+      "coarse_period_days": 18.347185228447817,
+      "coarse_ranking_score": 7.461046962052952,
+      "period_days": 18.347132494113584,
+      "duration_days": 0.10022753385669161,
+      "nominal_training_snr": 9.483181434916258,
+      "event_ranking": {
+        "n_events": 14,
+        "total_snr": 8.677404134120351,
+        "leave_one_out_snr": 7.665207175991798
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1700.5050305838004,
+      "consistency": {
+        "n_events": 14,
+        "total_snr": 8.677404134120351,
+        "leave_one_out_snr": 7.665207175991798,
+        "reduced_depth_chi2": 2.641828650034223,
+        "consistent_total_snr": 5.338724395208199,
+        "consistent_leave_one_out_snr": 4.715975873923124
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 63,
+      "global_rank": 878,
+      "coarse_period_days": 43.623530311850644,
+      "coarse_ranking_score": 7.449723639895988,
+      "period_days": 43.62469795763694,
+      "duration_days": 0.15435123154317196,
+      "nominal_training_snr": 10.744978427049135,
+      "event_ranking": {
+        "n_events": 6,
+        "total_snr": 9.556588825996581,
+        "leave_one_out_snr": 7.253426065612066
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1721.2433914543337,
+      "consistency": {
+        "n_events": 6,
+        "total_snr": 9.556588825996581,
+        "leave_one_out_snr": 7.253426065612066,
+        "reduced_depth_chi2": 5.482282591540287,
+        "consistent_total_snr": 4.081522470132742,
+        "consistent_leave_one_out_snr": 3.0978649402293295
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 64,
+      "global_rank": 119,
+      "coarse_period_days": 17.425155495515565,
+      "coarse_ranking_score": 7.449069313059446,
+      "period_days": 17.425233752067808,
+      "duration_days": 0.11367673410706859,
+      "nominal_training_snr": 12.223455757116678,
+      "event_ranking": {
+        "n_events": 15,
+        "total_snr": 9.273230682185641,
+        "leave_one_out_snr": 7.910921322146927
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1689.0742925763147,
+      "consistency": {
+        "n_events": 15,
+        "total_snr": 9.273230682185641,
+        "leave_one_out_snr": 7.910921322146927,
+        "reduced_depth_chi2": 7.652705904619027,
+        "consistent_total_snr": 3.352150831622377,
+        "consistent_leave_one_out_snr": 2.859693929525298
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 65,
+      "global_rank": 1840,
+      "coarse_period_days": 20.794904703006786,
+      "coarse_ranking_score": 7.431470322347182,
+      "period_days": 20.795248378687145,
+      "duration_days": 0.10449951322503379,
+      "nominal_training_snr": 9.40525259821919,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 8.89874272056247,
+        "leave_one_out_snr": 7.396557482078802
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1702.3274460727637,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 8.89874272056247,
+        "leave_one_out_snr": 7.396557482078802,
+        "reduced_depth_chi2": 2.644756491435361,
+        "consistent_total_snr": 5.471870426844149,
+        "consistent_leave_one_out_snr": 4.548171063887282
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 66,
+      "global_rank": 396,
+      "coarse_period_days": 41.69584189156272,
+      "coarse_ranking_score": 7.427722550387497,
+      "period_days": 41.69489062877617,
+      "duration_days": 0.15204343010096072,
+      "nominal_training_snr": 10.97109592649027,
+      "event_ranking": {
+        "n_events": 6,
+        "total_snr": 12.83293955922792,
+        "leave_one_out_snr": 8.374940196927861
+      },
+      "training_flags": [
+        "dominated_by_one_event",
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1687.1545803377023,
+      "consistency": {
+        "n_events": 6,
+        "total_snr": 12.83293955922792,
+        "leave_one_out_snr": 8.374940196927861,
+        "reduced_depth_chi2": 23.778343380249115,
+        "consistent_total_snr": 2.631693765624134,
+        "consistent_leave_one_out_snr": 1.7174769507802496
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 67,
+      "global_rank": 483,
+      "coarse_period_days": 20.56074978588844,
+      "coarse_ranking_score": 7.4161836183546175,
+      "period_days": 20.56101572087902,
+      "duration_days": 0.11478336424833316,
+      "nominal_training_snr": 11.18253733537815,
+      "event_ranking": {
+        "n_events": 12,
+        "total_snr": 9.90087717302223,
+        "leave_one_out_snr": 8.639950232308712
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1684.4542692463071,
+      "consistency": {
+        "n_events": 12,
+        "total_snr": 9.90087717302223,
+        "leave_one_out_snr": 8.639950232308712,
+        "reduced_depth_chi2": 3.214143012579994,
+        "consistent_total_snr": 5.522568030424825,
+        "consistent_leave_one_out_snr": 4.819240972650586
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 68,
+      "global_rank": 603,
+      "coarse_period_days": 26.093549558267615,
+      "coarse_ranking_score": 7.413665012454959,
+      "period_days": 26.09362455756296,
+      "duration_days": 0.1127120170844143,
+      "nominal_training_snr": 10.630698680255655,
+      "event_ranking": {
+        "n_events": 10,
+        "total_snr": 9.528877665198213,
+        "leave_one_out_snr": 7.0612481845803226
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1705.7552289810621,
+      "consistency": {
+        "n_events": 10,
+        "total_snr": 9.528877665198213,
+        "leave_one_out_snr": 7.0612481845803226,
+        "reduced_depth_chi2": 9.610778429361424,
+        "consistent_total_snr": 3.0737070191928955,
+        "consistent_leave_one_out_snr": 2.2777297465447264
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 69,
+      "global_rank": 1884,
+      "coarse_period_days": 16.20678488457272,
+      "coarse_ranking_score": 7.395153527323753,
+      "period_days": 16.206802352933675,
+      "duration_days": 0.09616826649098728,
+      "nominal_training_snr": 9.440025852281238,
+      "event_ranking": {
+        "n_events": 16,
+        "total_snr": 8.15584911750843,
+        "leave_one_out_snr": 7.397463197954179
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1686.9133520944702,
+      "consistency": {
+        "n_events": 16,
+        "total_snr": 8.15584911750843,
+        "leave_one_out_snr": 7.397463197954179,
+        "reduced_depth_chi2": 2.094796994843874,
+        "consistent_total_snr": 5.635055680036586,
+        "consistent_leave_one_out_snr": 5.11107015479314
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 70,
+      "global_rank": 1578,
+      "coarse_period_days": 36.54068640409248,
+      "coarse_ranking_score": 7.3933931316563175,
+      "period_days": 36.54058137714988,
+      "duration_days": 0.1422667089304813,
+      "nominal_training_snr": 9.584203442696982,
+      "event_ranking": {
+        "n_events": 10,
+        "total_snr": 9.186184781571137,
+        "leave_one_out_snr": 7.675702112271204
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1707.7842988790674,
+      "consistency": {
+        "n_events": 10,
+        "total_snr": 9.186184781571137,
+        "leave_one_out_snr": 7.675702112271204,
+        "reduced_depth_chi2": 5.168069971642762,
+        "consistent_total_snr": 4.040833765861933,
+        "consistent_leave_one_out_snr": 3.3764002150475414
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 71,
+      "global_rank": 1238,
+      "coarse_period_days": 23.167136666724176,
+      "coarse_ranking_score": 7.380545988092682,
+      "period_days": 23.167419665992472,
+      "duration_days": 0.12221918412780698,
+      "nominal_training_snr": 10.368972873886719,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.206357428437647,
+        "leave_one_out_snr": 7.710899873427975
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1691.4625038378902,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.206357428437647,
+        "leave_one_out_snr": 7.710899873427975,
+        "reduced_depth_chi2": 3.2264018863085306,
+        "consistent_total_snr": 5.125409865716043,
+        "consistent_leave_one_out_snr": 4.292851172901211
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 72,
+      "global_rank": 176,
+      "coarse_period_days": 35.14192863400924,
+      "coarse_ranking_score": 7.36493154593256,
+      "period_days": 35.142433666848646,
+      "duration_days": 0.14361937144726333,
+      "nominal_training_snr": 11.656355907048367,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.300168660715139,
+        "leave_one_out_snr": 7.423035797460207
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1707.500211995727,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.300168660715139,
+        "leave_one_out_snr": 7.423035797460207,
+        "reduced_depth_chi2": 2.987818531172848,
+        "consistent_total_snr": 5.3803894988667755,
+        "consistent_leave_one_out_snr": 4.294419306939317
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 73,
+      "global_rank": 470,
+      "coarse_period_days": 14.13287385171766,
+      "coarse_ranking_score": 7.363469344671083,
+      "period_days": 14.132924628422922,
+      "duration_days": 0.09187823436191803,
+      "nominal_training_snr": 11.553844829731426,
+      "event_ranking": {
+        "n_events": 18,
+        "total_snr": 8.727045794024088,
+        "leave_one_out_snr": 7.538128121553125
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1685.9135450141448,
+      "consistency": {
+        "n_events": 18,
+        "total_snr": 8.727045794024088,
+        "leave_one_out_snr": 7.538128121553125,
+        "reduced_depth_chi2": 2.985420688006584,
+        "consistent_total_snr": 5.05085017247705,
+        "consistent_leave_one_out_snr": 4.362754203601423
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 74,
+      "global_rank": 1176,
+      "coarse_period_days": 42.46975162436737,
+      "coarse_ranking_score": 7.356102618575478,
+      "period_days": 42.46924046236456,
+      "duration_days": 0.10198554523025143,
+      "nominal_training_snr": 10.301124295965863,
+      "event_ranking": {
+        "n_events": 6,
+        "total_snr": 8.636993035744256,
+        "leave_one_out_snr": 6.2838351476217245
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1722.3844080824617,
+      "consistency": {
+        "n_events": 6,
+        "total_snr": 8.636993035744256,
+        "leave_one_out_snr": 6.2838351476217245,
+        "reduced_depth_chi2": 6.682313700338936,
+        "consistent_total_snr": 3.3411743567811163,
+        "consistent_leave_one_out_snr": 2.4308678692438472
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 75,
+      "global_rank": 2564,
+      "coarse_period_days": 22.25570972863781,
+      "coarse_ranking_score": 7.355611870803986,
+      "period_days": 22.255585789867894,
+      "duration_days": 0.12333587566795166,
+      "nominal_training_snr": 9.127900953402483,
+      "event_ranking": {
+        "n_events": 12,
+        "total_snr": 9.206079466329589,
+        "leave_one_out_snr": 7.789771053394173
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1698.1163382114573,
+      "consistency": {
+        "n_events": 12,
+        "total_snr": 9.206079466329589,
+        "leave_one_out_snr": 7.789771053394173,
+        "reduced_depth_chi2": 4.311307806054405,
+        "consistent_total_snr": 4.433739818273179,
+        "consistent_leave_one_out_snr": 3.751631540981644
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 76,
+      "global_rank": 2108,
+      "coarse_period_days": 15.972239039763531,
+      "coarse_ranking_score": 7.341376857760106,
+      "period_days": 15.97233085607012,
+      "duration_days": 0.07055019392404921,
+      "nominal_training_snr": 10.190319686442614,
+      "event_ranking": {
+        "n_events": 16,
+        "total_snr": 9.488553697271813,
+        "leave_one_out_snr": 8.346928914144335
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1696.013156158468,
+      "consistency": {
+        "n_events": 16,
+        "total_snr": 9.488553697271813,
+        "leave_one_out_snr": 8.346928914144335,
+        "reduced_depth_chi2": 3.140184378894499,
+        "consistent_total_snr": 5.354543428048606,
+        "consistent_leave_one_out_snr": 4.710306205514865
+      },
+      "true_timing_match": true
+    },
+    {
+      "iteration": 1,
+      "rank": 77,
+      "global_rank": 1684,
+      "coarse_period_days": 19.5298463310576,
+      "coarse_ranking_score": 7.3303698307341785,
+      "period_days": 19.529765639016436,
+      "duration_days": 0.10233617093598874,
+      "nominal_training_snr": 10.006077408619031,
+      "event_ranking": {
+        "n_events": 16,
+        "total_snr": 8.586547196485466,
+        "leave_one_out_snr": 7.289403606125349
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1683.5294611023978,
+      "consistency": {
+        "n_events": 16,
+        "total_snr": 8.586547196485466,
+        "leave_one_out_snr": 7.289403606125349,
+        "reduced_depth_chi2": 3.274420438649725,
+        "consistent_total_snr": 4.745165237499412,
+        "consistent_leave_one_out_snr": 4.028327545680592
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 78,
+      "global_rank": 4034,
+      "coarse_period_days": 14.233386639902095,
+      "coarse_ranking_score": 7.324279574915814,
+      "period_days": 14.233355957205037,
+      "duration_days": 0.10626403455231088,
+      "nominal_training_snr": 8.585351363875976,
+      "event_ranking": {
+        "n_events": 18,
+        "total_snr": 8.682960390204153,
+        "leave_one_out_snr": 7.653488935514802
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1684.426927700675,
+      "consistency": {
+        "n_events": 18,
+        "total_snr": 8.682960390204153,
+        "leave_one_out_snr": 7.653488935514802,
+        "reduced_depth_chi2": 3.7662980670620563,
+        "consistent_total_snr": 4.474149341285822,
+        "consistent_leave_one_out_snr": 3.943684059414069
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 79,
+      "global_rank": 116,
+      "coarse_period_days": 30.54933171803675,
+      "coarse_ranking_score": 7.311449724009215,
+      "period_days": 30.5495622096056,
+      "duration_days": 0.1187931990056263,
+      "nominal_training_snr": 12.066382752707957,
+      "event_ranking": {
+        "n_events": 8,
+        "total_snr": 9.62371775011558,
+        "leave_one_out_snr": 7.684585558094497
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1698.8223224012459,
+      "consistency": {
+        "n_events": 8,
+        "total_snr": 9.62371775011558,
+        "leave_one_out_snr": 7.684585558094497,
+        "reduced_depth_chi2": 9.84200827309447,
+        "consistent_total_snr": 3.067616142079715,
+        "consistent_leave_one_out_snr": 2.4495064501367176
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 80,
+      "global_rank": 3273,
+      "coarse_period_days": 25.29923786195924,
+      "coarse_ranking_score": 7.305038806841156,
+      "period_days": 25.29895154173401,
+      "duration_days": 0.12299831487441756,
+      "nominal_training_snr": 8.96882769529689,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.1630256475759,
+        "leave_one_out_snr": 7.826081357930368
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1693.7531676856813,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.1630256475759,
+        "leave_one_out_snr": 7.826081357930368,
+        "reduced_depth_chi2": 3.3393003411315663,
+        "consistent_total_snr": 5.014309785064839,
+        "consistent_leave_one_out_snr": 4.282689784041523
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 81,
+      "global_rank": 576,
+      "coarse_period_days": 17.85302697479462,
+      "coarse_ranking_score": 7.302672479222854,
+      "period_days": 17.85299490354364,
+      "duration_days": 0.11459954434283376,
+      "nominal_training_snr": 10.8286323860263,
+      "event_ranking": {
+        "n_events": 17,
+        "total_snr": 9.907003457512667,
+        "leave_one_out_snr": 7.658202553603586
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1694.7454334474771,
+      "consistency": {
+        "n_events": 17,
+        "total_snr": 9.907003457512667,
+        "leave_one_out_snr": 7.658202553603586,
+        "reduced_depth_chi2": 7.355148641722016,
+        "consistent_total_snr": 3.6529740544487868,
+        "consistent_leave_one_out_snr": 2.8237817168432713
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 82,
+      "global_rank": 3301,
+      "coarse_period_days": 12.373266546123373,
+      "coarse_ranking_score": 7.2789514024455615,
+      "period_days": 12.373157631927857,
+      "duration_days": 0.09916432758121296,
+      "nominal_training_snr": 9.047432721156904,
+      "event_ranking": {
+        "n_events": 21,
+        "total_snr": 8.808924337223262,
+        "leave_one_out_snr": 7.766807277012419
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1693.6986418090091,
+      "consistency": {
+        "n_events": 21,
+        "total_snr": 8.808924337223262,
+        "leave_one_out_snr": 7.766807277012419,
+        "reduced_depth_chi2": 2.7226095105188097,
+        "consistent_total_snr": 5.338634652353585,
+        "consistent_leave_one_out_snr": 4.707061257411228
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 83,
+      "global_rank": 543,
+      "coarse_period_days": 20.77530202081214,
+      "coarse_ranking_score": 7.275669939249616,
+      "period_days": 20.775339341650014,
+      "duration_days": 0.11518120029206408,
+      "nominal_training_snr": 10.760360355223469,
+      "event_ranking": {
+        "n_events": 12,
+        "total_snr": 9.32480798434258,
+        "leave_one_out_snr": 7.676633045519048
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1702.4581264530273,
+      "consistency": {
+        "n_events": 12,
+        "total_snr": 9.32480798434258,
+        "leave_one_out_snr": 7.676633045519048,
+        "reduced_depth_chi2": 5.542069295779469,
+        "consistent_total_snr": 3.9609916032063865,
+        "consistent_leave_one_out_snr": 3.2608799114421
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 84,
+      "global_rank": 1437,
+      "coarse_period_days": 21.292606420965164,
+      "coarse_ranking_score": 7.26837263258637,
+      "period_days": 21.292392220261675,
+      "duration_days": 0.1215306461101128,
+      "nominal_training_snr": 9.804516874467277,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 8.68807115018724,
+        "leave_one_out_snr": 7.1104497472694765
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1699.0280007529545,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 8.68807115018724,
+        "leave_one_out_snr": 7.1104497472694765,
+        "reduced_depth_chi2": 4.435845026667058,
+        "consistent_total_snr": 4.125106699039576,
+        "consistent_leave_one_out_snr": 3.3760501472197832
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 85,
+      "global_rank": 135,
+      "coarse_period_days": 33.509933032969876,
+      "coarse_ranking_score": 7.265087681266129,
+      "period_days": 33.509933032969876,
+      "duration_days": 0.14136091838048784,
+      "nominal_training_snr": 12.34693693005079,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 9.886111857476552,
+        "leave_one_out_snr": 7.533011023787606
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1691.7326800652493,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 9.886111857476552,
+        "leave_one_out_snr": 7.533011023787606,
+        "reduced_depth_chi2": 11.538746138734702,
+        "consistent_total_snr": 2.91035663516198,
+        "consistent_leave_one_out_snr": 2.2176310496879887
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 86,
+      "global_rank": 174,
+      "coarse_period_days": 24.311791151367515,
+      "coarse_ranking_score": 7.2488586940256665,
+      "period_days": 24.31181298826825,
+      "duration_days": 0.12419963985293482,
+      "nominal_training_snr": 12.064505950135352,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 9.854238962013131,
+        "leave_one_out_snr": 7.6927804000497995
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1702.2168933231296,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 9.854238962013131,
+        "leave_one_out_snr": 7.6927804000497995,
+        "reduced_depth_chi2": 9.253475537421803,
+        "consistent_total_snr": 3.239445284692213,
+        "consistent_leave_one_out_snr": 2.5288955635416213
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 87,
+      "global_rank": 157,
+      "coarse_period_days": 31.253322966011552,
+      "coarse_ranking_score": 7.23724200381099,
+      "period_days": 31.253160149578125,
+      "duration_days": 0.1319755245623493,
+      "nominal_training_snr": 12.023835607559459,
+      "event_ranking": {
+        "n_events": 8,
+        "total_snr": 9.381356615143082,
+        "leave_one_out_snr": 7.515196258528189
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1712.4070682399652,
+      "consistency": {
+        "n_events": 8,
+        "total_snr": 9.381356615143082,
+        "leave_one_out_snr": 7.515196258528189,
+        "reduced_depth_chi2": 3.4366094959188738,
+        "consistent_total_snr": 5.060583000694403,
+        "consistent_leave_one_out_snr": 4.053920556798905
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 88,
+      "global_rank": 832,
+      "coarse_period_days": 39.11392784218667,
+      "coarse_ranking_score": 7.221526490103481,
+      "period_days": 39.11495370272767,
+      "duration_days": 0.14222312070029847,
+      "nominal_training_snr": 10.769629885319619,
+      "event_ranking": {
+        "n_events": 5,
+        "total_snr": 11.473537636844352,
+        "leave_one_out_snr": 7.729139652267751
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1719.9633080469198,
+      "consistency": {
+        "n_events": 5,
+        "total_snr": 11.473537636844352,
+        "leave_one_out_snr": 7.729139652267751,
+        "reduced_depth_chi2": 16.479020743486373,
+        "consistent_total_snr": 2.8263871139131806,
+        "consistent_leave_one_out_snr": 1.9039934679478079
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 89,
+      "global_rank": 2201,
+      "coarse_period_days": 32.960742465575905,
+      "coarse_ranking_score": 7.21635385396711,
+      "period_days": 32.960931940177936,
+      "duration_days": 0.14370855099631516,
+      "nominal_training_snr": 8.917174122191891,
+      "event_ranking": {
+        "n_events": 7,
+        "total_snr": 9.36851261419227,
+        "leave_one_out_snr": 7.525784128981142
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1707.8278966769285,
+      "consistency": {
+        "n_events": 7,
+        "total_snr": 9.36851261419227,
+        "leave_one_out_snr": 7.525784128981142,
+        "reduced_depth_chi2": 5.7933185126289475,
+        "consistent_total_snr": 3.8923057041379314,
+        "consistent_leave_one_out_snr": 3.1267132467718364
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 90,
+      "global_rank": 2895,
+      "coarse_period_days": 25.625651462310767,
+      "coarse_ranking_score": 7.21540621147376,
+      "period_days": 25.625812581400126,
+      "duration_days": 0.123524995782932,
+      "nominal_training_snr": 9.211240834379016,
+      "event_ranking": {
+        "n_events": 12,
+        "total_snr": 9.234892025647197,
+        "leave_one_out_snr": 7.489627450132094
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1689.2756541481688,
+      "consistency": {
+        "n_events": 12,
+        "total_snr": 9.234892025647197,
+        "leave_one_out_snr": 7.489627450132094,
+        "reduced_depth_chi2": 2.5656138803650794,
+        "consistent_total_snr": 5.76548934368539,
+        "consistent_leave_one_out_snr": 4.675893029608426
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 91,
+      "global_rank": 2765,
+      "coarse_period_days": 17.80162675187647,
+      "coarse_ranking_score": 7.212960942148553,
+      "period_days": 17.801559596154114,
+      "duration_days": 0.09922420875676863,
+      "nominal_training_snr": 9.084851916853998,
+      "event_ranking": {
+        "n_events": 16,
+        "total_snr": 8.545063229070067,
+        "leave_one_out_snr": 7.273367532018047
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1689.2314664622677,
+      "consistency": {
+        "n_events": 16,
+        "total_snr": 8.545063229070067,
+        "leave_one_out_snr": 7.273367532018047,
+        "reduced_depth_chi2": 4.712618987323604,
+        "consistent_total_snr": 3.9362630753379553,
+        "consistent_leave_one_out_snr": 3.3504594737516404
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 92,
+      "global_rank": 303,
+      "coarse_period_days": 41.642507941514125,
+      "coarse_ranking_score": 7.205283548336319,
+      "period_days": 41.643136318401375,
+      "duration_days": 0.15197857774296136,
+      "nominal_training_snr": 11.420820584088752,
+      "event_ranking": {
+        "n_events": 5,
+        "total_snr": 10.044801173077985,
+        "leave_one_out_snr": 7.493546814926474
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1723.1854365573954,
+      "consistency": {
+        "n_events": 5,
+        "total_snr": 10.044801173077985,
+        "leave_one_out_snr": 7.493546814926474,
+        "reduced_depth_chi2": 4.4337465965092875,
+        "consistent_total_snr": 4.770412240322561,
+        "consistent_leave_one_out_snr": 3.5587869618728853
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 93,
+      "global_rank": 547,
+      "coarse_period_days": 33.1808501987215,
+      "coarse_ranking_score": 7.194911111236372,
+      "period_days": 33.180725025668806,
+      "duration_days": 0.14402771391026972,
+      "nominal_training_snr": 10.984871057937697,
+      "event_ranking": {
+        "n_events": 8,
+        "total_snr": 9.81973741686427,
+        "leave_one_out_snr": 7.5556744217293215
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1709.478844607865,
+      "consistency": {
+        "n_events": 8,
+        "total_snr": 9.81973741686427,
+        "leave_one_out_snr": 7.5556744217293215,
+        "reduced_depth_chi2": 7.989828267834663,
+        "consistent_total_snr": 3.474010705089119,
+        "consistent_leave_one_out_snr": 2.6730341872662433
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 94,
+      "global_rank": 450,
+      "coarse_period_days": 27.08978281997197,
+      "coarse_ranking_score": 7.193048181604319,
+      "period_days": 27.08966115947918,
+      "duration_days": 0.13168668497948827,
+      "nominal_training_snr": 10.937002983727169,
+      "event_ranking": {
+        "n_events": 10,
+        "total_snr": 8.340505474298922,
+        "leave_one_out_snr": 7.120075914843772
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1684.4036795619354,
+      "consistency": {
+        "n_events": 10,
+        "total_snr": 8.340505474298922,
+        "leave_one_out_snr": 7.120075914843772,
+        "reduced_depth_chi2": 3.9111811610186447,
+        "consistent_total_snr": 4.2173379656138685,
+        "consistent_leave_one_out_snr": 3.600233411062845
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 95,
+      "global_rank": 1334,
+      "coarse_period_days": 35.40950482160876,
+      "coarse_ranking_score": 7.188270273638142,
+      "period_days": 35.409479377696805,
+      "duration_days": 0.1439829460101127,
+      "nominal_training_snr": 10.291586547369425,
+      "event_ranking": {
+        "n_events": 10,
+        "total_snr": 9.196790721000589,
+        "leave_one_out_snr": 7.8135848993660035
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1712.2901102090073,
+      "consistency": {
+        "n_events": 10,
+        "total_snr": 9.196790721000589,
+        "leave_one_out_snr": 7.8135848993660035,
+        "reduced_depth_chi2": 2.5230985429949104,
+        "consistent_total_snr": 5.789875131649522,
+        "consistent_leave_one_out_snr": 4.919072562406801
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 96,
+      "global_rank": 225,
+      "coarse_period_days": 21.181588982045295,
+      "coarse_ranking_score": 7.185036101514237,
+      "period_days": 21.1816498631548,
+      "duration_days": 0.12401506171372262,
+      "nominal_training_snr": 11.587573115214434,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 10.975385571995451,
+        "leave_one_out_snr": 7.636078598311511
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1700.7896818709405,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 10.975385571995451,
+        "leave_one_out_snr": 7.636078598311511,
+        "reduced_depth_chi2": 14.965864871042958,
+        "consistent_total_snr": 2.8370623241414408,
+        "consistent_leave_one_out_snr": 1.9738742437194943
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 97,
+      "global_rank": 380,
+      "coarse_period_days": 20.7492870380797,
+      "coarse_ranking_score": 7.1838865158539065,
+      "period_days": 20.749070848273877,
+      "duration_days": 0.11513310803934798,
+      "nominal_training_snr": 10.834881885197056,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 8.705335205005133,
+        "leave_one_out_snr": 7.149917929080977
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1702.6831377576095,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 8.705335205005133,
+        "leave_one_out_snr": 7.149917929080977,
+        "reduced_depth_chi2": 5.598899728522999,
+        "consistent_total_snr": 3.679036984594401,
+        "consistent_leave_one_out_snr": 3.021688640177758
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 98,
+      "global_rank": 448,
+      "coarse_period_days": 38.780198436068474,
+      "coarse_ranking_score": 7.175028127650649,
+      "period_days": 38.78062339200569,
+      "duration_days": 0.1418174881374018,
+      "nominal_training_snr": 10.99443440918153,
+      "event_ranking": {
+        "n_events": 5,
+        "total_snr": 9.87570604586363,
+        "leave_one_out_snr": 7.428148126826932
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1721.132256573446,
+      "consistency": {
+        "n_events": 5,
+        "total_snr": 9.87570604586363,
+        "leave_one_out_snr": 7.428148126826932,
+        "reduced_depth_chi2": 9.98027295834121,
+        "consistent_total_snr": 3.1260573760841335,
+        "consistent_leave_one_out_snr": 2.351307049305983
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 99,
+      "global_rank": 2020,
+      "coarse_period_days": 21.274397588916933,
+      "coarse_ranking_score": 7.1709910491314055,
+      "period_days": 21.2747682978444,
+      "duration_days": 0.12149599634779189,
+      "nominal_training_snr": 9.829179883958085,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 9.30089409298626,
+        "leave_one_out_snr": 8.050973373580385
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1700.5598114944432,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 9.30089409298626,
+        "leave_one_out_snr": 8.050973373580385,
+        "reduced_depth_chi2": 4.7462868882182665,
+        "consistent_total_snr": 4.269211852195759,
+        "consistent_leave_one_out_snr": 3.695484606595082
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 100,
+      "global_rank": 1643,
+      "coarse_period_days": 22.272507769126644,
+      "coarse_ranking_score": 7.161605366697605,
+      "period_days": 22.272663809781914,
+      "duration_days": 0.12336689533390273,
+      "nominal_training_snr": 9.801266914988982,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.607519312819283,
+        "leave_one_out_snr": 7.732457160848118
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1698.018589378931,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.607519312819283,
+        "leave_one_out_snr": 7.732457160848118,
+        "reduced_depth_chi2": 4.7094041541692295,
+        "consistent_total_snr": 4.427191264460911,
+        "consistent_leave_one_out_snr": 3.5631535759337924
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 101,
+      "global_rank": 1247,
+      "coarse_period_days": 29.49215535572645,
+      "coarse_ranking_score": 7.1544403646067485,
+      "period_days": 29.492118269846145,
+      "duration_days": 0.13245902501603884,
+      "nominal_training_snr": 9.914729204340217,
+      "event_ranking": {
+        "n_events": 7,
+        "total_snr": 9.349552482505036,
+        "leave_one_out_snr": 7.446949920376064
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1706.4566179884655,
+      "consistency": {
+        "n_events": 7,
+        "total_snr": 9.349552482505036,
+        "leave_one_out_snr": 7.446949920376064,
+        "reduced_depth_chi2": 4.502233420403,
+        "consistent_total_snr": 4.406327978511532,
+        "consistent_leave_one_out_snr": 3.509655018261951
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 102,
+      "global_rank": 716,
+      "coarse_period_days": 28.28136119068017,
+      "coarse_ranking_score": 7.144294443215124,
+      "period_days": 28.281452639236274,
+      "duration_days": 0.13358972061428684,
+      "nominal_training_snr": 10.392801819094837,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 9.02941237345716,
+        "leave_one_out_snr": 7.543255278205788
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1699.9849734262364,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 9.02941237345716,
+        "leave_one_out_snr": 7.543255278205788,
+        "reduced_depth_chi2": 5.5342455574738505,
+        "consistent_total_snr": 3.83822363280001,
+        "consistent_leave_one_out_snr": 3.206487806688524
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 103,
+      "global_rank": 147,
+      "coarse_period_days": 36.764634175339545,
+      "coarse_ranking_score": 7.142833903660465,
+      "period_days": 36.764462460576,
+      "duration_days": 0.14255674157420264,
+      "nominal_training_snr": 12.041443175412471,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 8.949184265271235,
+        "leave_one_out_snr": 7.3711914902525
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1699.8831096007862,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 8.949184265271235,
+        "leave_one_out_snr": 7.3711914902525,
+        "reduced_depth_chi2": 5.7987076904466734,
+        "consistent_total_snr": 3.7163605559590844,
+        "consistent_leave_one_out_snr": 3.0610617116358356
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 104,
+      "global_rank": 1019,
+      "coarse_period_days": 20.828973282654324,
+      "coarse_ranking_score": 7.136495052255699,
+      "period_days": 20.82873381223417,
+      "duration_days": 0.11528029226830878,
+      "nominal_training_snr": 10.155965619570596,
+      "event_ranking": {
+        "n_events": 13,
+        "total_snr": 9.049767179787175,
+        "leave_one_out_snr": 7.2558901130648445
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1702.353828701619,
+      "consistency": {
+        "n_events": 13,
+        "total_snr": 9.049767179787175,
+        "leave_one_out_snr": 7.2558901130648445,
+        "reduced_depth_chi2": 6.488082640696366,
+        "consistent_total_snr": 3.5528692067115126,
+        "consistent_leave_one_out_snr": 2.848606824667158
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 105,
+      "global_rank": 31,
+      "coarse_period_days": 39.18143988312096,
+      "coarse_ranking_score": 7.134209974787014,
+      "period_days": 39.18164400164957,
+      "duration_days": 0.14230489760713294,
+      "nominal_training_snr": 13.265049232532597,
+      "event_ranking": {
+        "n_events": 5,
+        "total_snr": 12.65062026757359,
+        "leave_one_out_snr": 7.4903945453416645
+      },
+      "training_flags": [
+        "dominated_by_one_event"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1716.8899929671434,
+      "consistency": {
+        "n_events": 5,
+        "total_snr": 12.65062026757359,
+        "leave_one_out_snr": 7.4903945453416645,
+        "reduced_depth_chi2": 22.783539765140215,
+        "consistent_total_snr": 2.6503377360034928,
+        "consistent_leave_one_out_snr": 1.5692570720788381
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 106,
+      "global_rank": 1407,
+      "coarse_period_days": 22.828630350121156,
+      "coarse_ranking_score": 7.127260242069507,
+      "period_days": 22.828466312339884,
+      "duration_days": 0.10503635653341799,
+      "nominal_training_snr": 9.68713612581342,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.94200353160448,
+        "leave_one_out_snr": 7.577642306884982
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1699.4558564404304,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.94200353160448,
+        "leave_one_out_snr": 7.577642306884982,
+        "reduced_depth_chi2": 7.03025641242281,
+        "consistent_total_snr": 3.749629268268169,
+        "consistent_leave_one_out_snr": 2.857909805406959
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 107,
+      "global_rank": 795,
+      "coarse_period_days": 43.27580533229246,
+      "coarse_ranking_score": 7.12078658844671,
+      "period_days": 43.27542440220374,
+      "duration_days": 0.1539400387621376,
+      "nominal_training_snr": 10.458752898943535,
+      "event_ranking": {
+        "n_events": 8,
+        "total_snr": 9.690913429571145,
+        "leave_one_out_snr": 7.2962103165026
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1701.0450087475106,
+      "consistency": {
+        "n_events": 8,
+        "total_snr": 9.690913429571145,
+        "leave_one_out_snr": 7.2962103165026,
+        "reduced_depth_chi2": 8.00608418834864,
+        "consistent_total_snr": 3.424953169738458,
+        "consistent_leave_one_out_snr": 2.5786195318112415
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 108,
+      "global_rank": 3920,
+      "coarse_period_days": 15.217256539839232,
+      "coarse_ranking_score": 7.120584562477625,
+      "period_days": 15.217292077084021,
+      "duration_days": 0.07243852043015321,
+      "nominal_training_snr": 8.789676321870145,
+      "event_ranking": {
+        "n_events": 15,
+        "total_snr": 6.9968822731625355,
+        "leave_one_out_snr": 6.257118757849443
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1691.8000133051073,
+      "consistency": {
+        "n_events": 15,
+        "total_snr": 6.9968822731625355,
+        "leave_one_out_snr": 6.257118757849443,
+        "reduced_depth_chi2": 0.8579781372171312,
+        "consistent_total_snr": 6.9968822731625355,
+        "consistent_leave_one_out_snr": 6.257118757849443
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 109,
+      "global_rank": 3500,
+      "coarse_period_days": 15.05016468739727,
+      "coarse_ranking_score": 7.113311525214856,
+      "period_days": 15.050234981459175,
+      "duration_days": 0.1058529249569766,
+      "nominal_training_snr": 9.070857677207481,
+      "event_ranking": {
+        "n_events": 17,
+        "total_snr": 8.34737095310625,
+        "leave_one_out_snr": 7.1099974467950595
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1688.0861789565279,
+      "consistency": {
+        "n_events": 17,
+        "total_snr": 8.34737095310625,
+        "leave_one_out_snr": 7.1099974467950595,
+        "reduced_depth_chi2": 4.0073354979430835,
+        "consistent_total_snr": 4.1698637245571195,
+        "consistent_leave_one_out_snr": 3.551743489254165
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 110,
+      "global_rank": 1994,
+      "coarse_period_days": 33.515577012715184,
+      "coarse_ranking_score": 7.102062967740892,
+      "period_days": 33.51528801661825,
+      "duration_days": 0.14136885385697295,
+      "nominal_training_snr": 9.606975535168594,
+      "event_ranking": {
+        "n_events": 8,
+        "total_snr": 8.952125781148858,
+        "leave_one_out_snr": 7.402113908688964
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1691.7080122262819,
+      "consistency": {
+        "n_events": 8,
+        "total_snr": 8.952125781148858,
+        "leave_one_out_snr": 7.402113908688964,
+        "reduced_depth_chi2": 4.94473329341701,
+        "consistent_total_snr": 4.025823583746841,
+        "consistent_leave_one_out_snr": 3.328774133841119
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 111,
+      "global_rank": 2486,
+      "coarse_period_days": 22.061062496970347,
+      "coarse_ranking_score": 7.098198403355602,
+      "period_days": 22.061264612945045,
+      "duration_days": 0.12297529187423083,
+      "nominal_training_snr": 9.46123511327141,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.165199532165436,
+        "leave_one_out_snr": 7.57354090026949
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1693.736560210539,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.165199532165436,
+        "leave_one_out_snr": 7.57354090026949,
+        "reduced_depth_chi2": 5.6191021073821075,
+        "consistent_total_snr": 3.866414958062618,
+        "consistent_leave_one_out_snr": 3.1949606464685987
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 112,
+      "global_rank": 802,
+      "coarse_period_days": 19.2097738505451,
+      "coarse_ranking_score": 7.097823824737571,
+      "period_days": 19.20975314543512,
+      "duration_days": 0.1017740905913253,
+      "nominal_training_snr": 10.815624289398293,
+      "event_ranking": {
+        "n_events": 16,
+        "total_snr": 8.173521538805444,
+        "leave_one_out_snr": 7.01157415099382
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1688.1219612129516,
+      "consistency": {
+        "n_events": 16,
+        "total_snr": 8.173521538805444,
+        "leave_one_out_snr": 7.01157415099382,
+        "reduced_depth_chi2": 3.299103135849071,
+        "consistent_total_snr": 4.499987061932235,
+        "consistent_leave_one_out_snr": 3.8602691402293643
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 113,
+      "global_rank": 1724,
+      "coarse_period_days": 28.067460601362374,
+      "coarse_ranking_score": 7.080555118579333,
+      "period_days": 28.067707661819707,
+      "duration_days": 0.13325209674119115,
+      "nominal_training_snr": 9.706425009634742,
+      "event_ranking": {
+        "n_events": 12,
+        "total_snr": 8.479252753574825,
+        "leave_one_out_snr": 7.312067284507516
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1685.4542647008088,
+      "consistency": {
+        "n_events": 12,
+        "total_snr": 8.479252753574825,
+        "leave_one_out_snr": 7.312067284507516,
+        "reduced_depth_chi2": 1.6831640353613897,
+        "consistent_total_snr": 6.535733868824245,
+        "consistent_leave_one_out_snr": 5.636077516657291
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 114,
+      "global_rank": 442,
+      "coarse_period_days": 39.14608702789988,
+      "coarse_ranking_score": 7.077665473772739,
+      "period_days": 39.14503219502724,
+      "duration_days": 0.14226208664348075,
+      "nominal_training_snr": 11.19860983116426,
+      "event_ranking": {
+        "n_events": 5,
+        "total_snr": 11.950019649171132,
+        "leave_one_out_snr": 7.012250229045606
+      },
+      "training_flags": [
+        "dominated_by_one_event"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1718.553996708824,
+      "consistency": {
+        "n_events": 5,
+        "total_snr": 11.950019649171132,
+        "leave_one_out_snr": 7.012250229045606,
+        "reduced_depth_chi2": 24.60260172311255,
+        "consistent_total_snr": 2.40922910631554,
+        "consistent_leave_one_out_snr": 1.4137313450991928
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 115,
+      "global_rank": 582,
+      "coarse_period_days": 30.99021094386974,
+      "coarse_ranking_score": 7.070583345807611,
+      "period_days": 30.99023877934085,
+      "duration_days": 0.11936190169525794,
+      "nominal_training_snr": 10.926040701963899,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 8.432487426377717,
+        "leave_one_out_snr": 6.76433647565656
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1698.9631996795138,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 8.432487426377717,
+        "leave_one_out_snr": 6.76433647565656,
+        "reduced_depth_chi2": 4.536313510776254,
+        "consistent_total_snr": 3.9591701957361645,
+        "consistent_leave_one_out_snr": 3.1759501098781535
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 116,
+      "global_rank": 3200,
+      "coarse_period_days": 35.5505215125001,
+      "coarse_ranking_score": 7.062294368857097,
+      "period_days": 35.550508739879525,
+      "duration_days": 0.14096995609922233,
+      "nominal_training_snr": 8.964368621855062,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 8.925561984469267,
+        "leave_one_out_snr": 7.1839876075611295
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1705.7171587367332,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 8.925561984469267,
+        "leave_one_out_snr": 7.1839876075611295,
+        "reduced_depth_chi2": 5.405698668188142,
+        "consistent_total_snr": 3.838925232704757,
+        "consistent_leave_one_out_snr": 3.089866088666751
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 117,
+      "global_rank": 94,
+      "coarse_period_days": 21.191294131584897,
+      "coarse_ranking_score": 7.0593230560506885,
+      "period_days": 21.191221802142056,
+      "duration_days": 0.1051592589553552,
+      "nominal_training_snr": 12.36346567671307,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 10.740920616481114,
+        "leave_one_out_snr": 7.9501810739415415
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1700.0413830105042,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 10.740920616481114,
+        "leave_one_out_snr": 7.9501810739415415,
+        "reduced_depth_chi2": 7.762563204306086,
+        "consistent_total_snr": 3.855129152868056,
+        "consistent_leave_one_out_snr": 2.853477455340599
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 118,
+      "global_rank": 1026,
+      "coarse_period_days": 26.792506142216904,
+      "coarse_ranking_score": 7.057488063867339,
+      "period_days": 26.792405068863957,
+      "duration_days": 0.1312032465365937,
+      "nominal_training_snr": 9.989743723131019,
+      "event_ranking": {
+        "n_events": 10,
+        "total_snr": 8.988933971090058,
+        "leave_one_out_snr": 7.61253326383027
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1706.4015415500976,
+      "consistency": {
+        "n_events": 10,
+        "total_snr": 8.988933971090058,
+        "leave_one_out_snr": 7.61253326383027,
+        "reduced_depth_chi2": 3.798161015571386,
+        "consistent_total_snr": 4.612342022332152,
+        "consistent_leave_one_out_snr": 3.9060924445646825
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 119,
+      "global_rank": 1207,
+      "coarse_period_days": 23.744637494005957,
+      "coarse_ranking_score": 7.055102335373439,
+      "period_days": 23.74436450223435,
+      "duration_days": 0.12322631916802836,
+      "nominal_training_snr": 10.074603565284443,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.241605122595493,
+        "leave_one_out_snr": 7.426226683307261
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1706.4696394927155,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.241605122595493,
+        "leave_one_out_snr": 7.426226683307261,
+        "reduced_depth_chi2": 6.76512230460604,
+        "consistent_total_snr": 3.5531175986156294,
+        "consistent_leave_one_out_snr": 2.8551595063561277
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 120,
+      "global_rank": 99,
+      "coarse_period_days": 42.2822004956256,
+      "coarse_ranking_score": 7.04577873241043,
+      "period_days": 42.28269420909664,
+      "duration_days": 0.1527528043843702,
+      "nominal_training_snr": 12.35538686163545,
+      "event_ranking": {
+        "n_events": 10,
+        "total_snr": 9.468529036628068,
+        "leave_one_out_snr": 7.651015999034745
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1699.5414007811592,
+      "consistency": {
+        "n_events": 10,
+        "total_snr": 9.468529036628068,
+        "leave_one_out_snr": 7.651015999034745,
+        "reduced_depth_chi2": 4.581486654060016,
+        "consistent_total_snr": 4.423635171946695,
+        "consistent_leave_one_out_snr": 3.574504903932783
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 121,
+      "global_rank": 768,
+      "coarse_period_days": 36.02521193253245,
+      "coarse_ranking_score": 7.014639316851397,
+      "period_days": 36.02451300147482,
+      "duration_days": 0.12665899764715222,
+      "nominal_training_snr": 10.688824840459834,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 8.539324731332991,
+        "leave_one_out_snr": 6.335448973758661
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1700.0522536780259,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 8.539324731332991,
+        "leave_one_out_snr": 6.335448973758661,
+        "reduced_depth_chi2": 7.862328793895899,
+        "consistent_total_snr": 3.04542513864145,
+        "consistent_leave_one_out_snr": 2.2594451173017966
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 122,
+      "global_rank": 545,
+      "coarse_period_days": 20.57280349700433,
+      "coarse_ranking_score": 7.007832782479421,
+      "period_days": 20.572703712918855,
+      "duration_days": 0.0987863758569108,
+      "nominal_training_snr": 10.813225009828981,
+      "event_ranking": {
+        "n_events": 15,
+        "total_snr": 8.316864605809814,
+        "leave_one_out_snr": 7.247358622340882
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1704.014165919612,
+      "consistency": {
+        "n_events": 15,
+        "total_snr": 8.316864605809814,
+        "leave_one_out_snr": 7.247358622340882,
+        "reduced_depth_chi2": 1.9194239798915718,
+        "consistent_total_snr": 6.003080584795233,
+        "consistent_leave_one_out_snr": 5.2311153179566094
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 123,
+      "global_rank": 2409,
+      "coarse_period_days": 22.180872868630768,
+      "coarse_ranking_score": 6.999341718230012,
+      "period_days": 22.181131866403035,
+      "duration_days": 0.12319749015590871,
+      "nominal_training_snr": 9.366719955127872,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 8.455445228801516,
+        "leave_one_out_snr": 7.299027605236989
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1703.0743342800713,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 8.455445228801516,
+        "leave_one_out_snr": 7.299027605236989,
+        "reduced_depth_chi2": 2.275624233505426,
+        "consistent_total_snr": 5.605136660087638,
+        "consistent_leave_one_out_snr": 4.838544406124011
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 124,
+      "global_rank": 24,
+      "coarse_period_days": 43.43088396858842,
+      "coarse_ranking_score": 6.980833521095076,
+      "period_days": 43.43097759189042,
+      "duration_days": 0.1335738680409298,
+      "nominal_training_snr": 13.376815156448163,
+      "event_ranking": {
+        "n_events": 9,
+        "total_snr": 10.4749785063582,
+        "leave_one_out_snr": 7.721770569430328
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1694.9455651522812,
+      "consistency": {
+        "n_events": 9,
+        "total_snr": 10.4749785063582,
+        "leave_one_out_snr": 7.721770569430328,
+        "reduced_depth_chi2": 15.734347124133851,
+        "consistent_total_snr": 2.640759050748433,
+        "consistent_leave_one_out_snr": 1.9466708696966488
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 125,
+      "global_rank": 199,
+      "coarse_period_days": 17.41213064985927,
+      "coarse_ranking_score": 6.9771829447759615,
+      "period_days": 17.41227453428512,
+      "duration_days": 0.11364840711781375,
+      "nominal_training_snr": 11.447080314982047,
+      "event_ranking": {
+        "n_events": 17,
+        "total_snr": 8.696152004459531,
+        "leave_one_out_snr": 7.78714820395401
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1690.4720317054182,
+      "consistency": {
+        "n_events": 17,
+        "total_snr": 8.696152004459531,
+        "leave_one_out_snr": 7.78714820395401,
+        "reduced_depth_chi2": 5.255431488600825,
+        "consistent_total_snr": 3.7933501527006097,
+        "consistent_leave_one_out_snr": 3.3968334285581645
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 126,
+      "global_rank": 2869,
+      "coarse_period_days": 25.311341194285685,
+      "coarse_ranking_score": 6.974497485534479,
+      "period_days": 25.31142303920078,
+      "duration_days": 0.12301792468107743,
+      "nominal_training_snr": 9.101867061113804,
+      "event_ranking": {
+        "n_events": 11,
+        "total_snr": 9.339154033229908,
+        "leave_one_out_snr": 7.650348680004571
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1691.4661031774117,
+      "consistency": {
+        "n_events": 11,
+        "total_snr": 9.339154033229908,
+        "leave_one_out_snr": 7.650348680004571,
+        "reduced_depth_chi2": 3.2744763012401124,
+        "consistent_total_snr": 5.161032722032015,
+        "consistent_leave_one_out_snr": 4.227759787660633
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 127,
+      "global_rank": 2259,
+      "coarse_period_days": 18.63643168923647,
+      "coarse_ranking_score": 6.968815947102186,
+      "period_days": 18.636140425743363,
+      "duration_days": 0.11366828101907218,
+      "nominal_training_snr": 9.682215333308557,
+      "event_ranking": {
+        "n_events": 14,
+        "total_snr": 9.156693044413647,
+        "leave_one_out_snr": 8.1245974890991
+      },
+      "training_flags": [
+        "odd_even_discrepancy"
+      ],
+      "eligible": false,
+      "accepted": false,
+      "epoch_btjd": 1691.6207908894137,
+      "consistency": {
+        "n_events": 14,
+        "total_snr": 9.156693044413647,
+        "leave_one_out_snr": 8.1245974890991,
+        "reduced_depth_chi2": 2.600945080098886,
+        "consistent_total_snr": 5.677708149421756,
+        "consistent_leave_one_out_snr": 5.037745958162497
+      },
+      "true_timing_match": false
+    },
+    {
+      "iteration": 1,
+      "rank": 128,
+      "global_rank": 172,
+      "coarse_period_days": 37.31732652387577,
+      "coarse_ranking_score": 6.964407773028469,
+      "period_days": 37.31719915357837,
+      "duration_days": 0.14326752322924666,
+      "nominal_training_snr": 12.0538774141747,
+      "event_ranking": {
+        "n_events": 7,
+        "total_snr": 9.228585829131429,
+        "leave_one_out_snr": 7.205281701370004
+      },
+      "training_flags": [],
+      "eligible": true,
+      "accepted": false,
+      "epoch_btjd": 1698.7732695714114,
+      "consistency": {
+        "n_events": 7,
+        "total_snr": 9.228585829131429,
+        "leave_one_out_snr": 7.205281701370004,
+        "reduced_depth_chi2": 6.14612151667545,
+        "consistent_total_snr": 3.72249895396819,
+        "consistent_leave_one_out_snr": 2.9063665975483883
+      },
+      "true_timing_match": false
+    }
+  ]
+}

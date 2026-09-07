@@ -59,7 +59,7 @@ The faint, variable control TIC 232970271 yielded no recovered injections in the
 first two suites. Periodic filtering improves this limited sensitivity check;
 non-detections still cannot exclude small planets.
 
-Twenty-six offline numerical checks pass, including a test that changing final-holdout
+Thirty offline numerical checks pass, including a test that changing final-holdout
 flux leaves the fitted ephemeris unchanged while reversing the measured holdout
 signal. Local execution, code, data-product references and failure records are
 retained for independent inspection.
@@ -216,3 +216,13 @@ The initial data campaign is complete; method development continues as separate,
 bounded experiments. A non-detection does not establish that these systems lack
 planets. Adopting another method requires a measurable advantage and independent
 validation. The completed campaign does not justify a discovery claim.
+
+Subsequent [repeated-event ranking](experiments/period_rank_diagnostic/FINDINGS.md)
+moves two exposed missed injections into a tractable coarse shortlist, but a
+[two-fit recovery test](experiments/repeated_events/FINDINGS.md) still fails.
+Its 114 other planned runs remain unused. A depth-scatter penalty also fails
+to resolve the selected misses. A [larger frozen shortlist](experiments/portfolio/FINDINGS.md)
+recovers both missed injections and the control in six initial paired runs;
+the complete 120-run development comparison is executing. The additional
+passing fits that do not match the injection require particular attention in
+unmodified-star controls. No new planet or methodological breakthrough is established.

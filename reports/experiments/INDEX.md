@@ -24,6 +24,10 @@ metrics; their scores cannot be combined into a survey completeness estimate.
 | [Known-timing sensitivity diagnostic](confirmation_diagnostic/FINDINGS.md) | 11/54 cases meet reference event SNRs when given their true timing; five of those are not strict blind recoveries. | Retrospective diagnostic; no changed gates |
 | [Real TOI-700 control](../calibration/revised_pipeline/FINDINGS.md) | All four methods recover the known 37.424-day planet strictly; none retains the known 27.810-day signal. | Existing real recovery preserved |
 | [Conditional 100-star pilot](../revised_pilot/STATUS.md) | 100/100 finished; 200 trial fits; none passes held-sector checks. All inputs and receipts audited. | No candidate; all fits exported |
+| [Repeated-event coarse ranking](period_rank_diagnostic/FINDINGS.md) | Two exposed injection ranks improve from 1,316/2,108 to 84/76; the control remains first. | Selected-case diagnostic only |
+| [Two-fit repeated-event search](repeated_events/FINDINGS.md) | Six initial runs preserve the control but recover neither missed injection. | Smoke guard failed; 114 planned runs unused |
+| [Depth-consistency penalty](depth_consistency_diagnostic/FINDINGS.md) | Within eligible fine fits, one truth rank improves from 10 to 6; the other worsens from 18 to 25. | Not adopted |
+| [Larger candidate shortlist](portfolio/FINDINGS.md) | Leave-one-out ranking recovers both missed examples and the control in initial runs; equal-budget local ranking recovers only the control. | Full 120-run development comparison executing |
 
 Each completed experiment links to its findings, exact plan, code hashes and
 outcomes. The original production results remain unchanged. No methodological

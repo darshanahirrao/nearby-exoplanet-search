@@ -1,0 +1,171 @@
+{
+  "rows": [
+    {
+      "id": "coarse_only__233738219_orbit2_radius1",
+      "replayed_fine_fits": 128,
+      "eligible_fine_fits": 94,
+      "ranking": {
+        "leave_one_out_snr": {
+          "first_matching_rank": 10,
+          "best": {
+            "period_days": 46.33420350730399,
+            "duration_days": 0.16462522952986924,
+            "consistency": {
+              "n_events": 7,
+              "total_snr": 15.502066163119412,
+              "leave_one_out_snr": 11.404013209338743,
+              "reduced_depth_chi2": 15.109720094318936,
+              "consistent_total_snr": 3.9880571803451716,
+              "consistent_leave_one_out_snr": 2.9337932302504663
+            },
+            "true_timing_match": false
+          }
+        },
+        "consistent_total_snr": {
+          "first_matching_rank": 7,
+          "best": {
+            "period_days": 39.42500454889426,
+            "duration_days": 0.15245214504686935,
+            "consistency": {
+              "n_events": 5,
+              "total_snr": 12.007785650559665,
+              "leave_one_out_snr": 9.847822219313647,
+              "reduced_depth_chi2": 1.3678319835615307,
+              "consistent_total_snr": 10.267070626835922,
+              "consistent_leave_one_out_snr": 8.420227441477087
+            },
+            "true_timing_match": false
+          }
+        },
+        "consistent_leave_one_out_snr": {
+          "first_matching_rank": 6,
+          "best": {
+            "period_days": 39.42500454889426,
+            "duration_days": 0.15245214504686935,
+            "consistency": {
+              "n_events": 5,
+              "total_snr": 12.007785650559665,
+              "leave_one_out_snr": 9.847822219313647,
+              "reduced_depth_chi2": 1.3678319835615307,
+              "consistent_total_snr": 10.267070626835922,
+              "consistent_leave_one_out_snr": 8.420227441477087
+            },
+            "true_timing_match": false
+          }
+        }
+      }
+    },
+    {
+      "id": "coarse_only__328799321_orbit1_radius1",
+      "replayed_fine_fits": 128,
+      "eligible_fine_fits": 4,
+      "ranking": {
+        "leave_one_out_snr": {
+          "first_matching_rank": 1,
+          "best": {
+            "period_days": 14.703310650777855,
+            "duration_days": 0.05430834878246651,
+            "consistency": {
+              "n_events": 5,
+              "total_snr": 9.001372947474986,
+              "leave_one_out_snr": 7.140574278703723,
+              "reduced_depth_chi2": 1.2978568850829406,
+              "consistent_total_snr": 7.901241810579717,
+              "consistent_leave_one_out_snr": 6.267866510105041
+            },
+            "true_timing_match": true
+          }
+        },
+        "consistent_total_snr": {
+          "first_matching_rank": 1,
+          "best": {
+            "period_days": 14.703310650777855,
+            "duration_days": 0.05430834878246651,
+            "consistency": {
+              "n_events": 5,
+              "total_snr": 9.001372947474986,
+              "leave_one_out_snr": 7.140574278703723,
+              "reduced_depth_chi2": 1.2978568850829406,
+              "consistent_total_snr": 7.901241810579717,
+              "consistent_leave_one_out_snr": 6.267866510105041
+            },
+            "true_timing_match": true
+          }
+        },
+        "consistent_leave_one_out_snr": {
+          "first_matching_rank": 1,
+          "best": {
+            "period_days": 14.703310650777855,
+            "duration_days": 0.05430834878246651,
+            "consistency": {
+              "n_events": 5,
+              "total_snr": 9.001372947474986,
+              "leave_one_out_snr": 7.140574278703723,
+              "reduced_depth_chi2": 1.2978568850829406,
+              "consistent_total_snr": 7.901241810579717,
+              "consistent_leave_one_out_snr": 6.267866510105041
+            },
+            "true_timing_match": true
+          }
+        }
+      }
+    },
+    {
+      "id": "coarse_only__229614158_orbit0_radius1",
+      "replayed_fine_fits": 128,
+      "eligible_fine_fits": 100,
+      "ranking": {
+        "leave_one_out_snr": {
+          "first_matching_rank": 18,
+          "best": {
+            "period_days": 41.65912958231228,
+            "duration_days": 0.15199871314453278,
+            "consistency": {
+              "n_events": 9,
+              "total_snr": 11.92397614794444,
+              "leave_one_out_snr": 10.54767477285595,
+              "reduced_depth_chi2": 3.2303111083491247,
+              "consistent_total_snr": 6.634358308457135,
+              "consistent_leave_one_out_snr": 5.86860061576556
+            },
+            "true_timing_match": false
+          }
+        },
+        "consistent_total_snr": {
+          "first_matching_rank": 28,
+          "best": {
+            "period_days": 39.54727765891653,
+            "duration_days": 0.14274653698707104,
+            "consistency": {
+              "n_events": 5,
+              "total_snr": 10.59350668721255,
+              "leave_one_out_snr": 8.74312790858555,
+              "reduced_depth_chi2": 1.2473676351498384,
+              "consistent_total_snr": 9.485113003904004,
+              "consistent_leave_one_out_snr": 7.828338497263168
+            },
+            "true_timing_match": false
+          }
+        },
+        "consistent_leave_one_out_snr": {
+          "first_matching_rank": 25,
+          "best": {
+            "period_days": 39.54727765891653,
+            "duration_days": 0.14274653698707104,
+            "consistency": {
+              "n_events": 5,
+              "total_snr": 10.59350668721255,
+              "leave_one_out_snr": 8.74312790858555,
+              "reduced_depth_chi2": 1.2473676351498384,
+              "consistent_total_snr": 9.485113003904004,
+              "consistent_leave_one_out_snr": 7.828338497263168
+            },
+            "true_timing_match": false
+          }
+        }
+      }
+    }
+  ],
+  "completed_utc": "2026-09-07T09:46:52.449658+00:00",
+  "scope": "Rescore already fitted training candidates; this is exposed development data."
+}

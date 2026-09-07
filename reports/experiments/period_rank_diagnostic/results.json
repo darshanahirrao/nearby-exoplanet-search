@@ -1,0 +1,152 @@
+{
+  "rows": [
+    {
+      "id": "coarse_only__233738219_orbit2_radius1",
+      "seeds": 4096,
+      "true_period": 15.775198225715297,
+      "first_global_match": {
+        "global_rank": 1316,
+        "period_days": 15.775060739854608,
+        "epoch_btjd": 1685.0491921775915,
+        "duration_days": 0.05359709788122412,
+        "n_events": 20,
+        "total_snr": 10.03941368219494,
+        "leave_one_out_snr": 9.181830269288563,
+        "true_timing_match": true
+      },
+      "ranking": {
+        "total_snr": {
+          "first_matching_rank": 571,
+          "best": {
+            "global_rank": 14,
+            "period_days": 35.40395911113991,
+            "epoch_btjd": 1708.708447067582,
+            "duration_days": 0.15155046599777644,
+            "n_events": 7,
+            "total_snr": 16.448303270945335,
+            "leave_one_out_snr": 12.963479418673542,
+            "true_timing_match": false
+          }
+        },
+        "leave_one_out_snr": {
+          "first_matching_rank": 84,
+          "best": {
+            "global_rank": 14,
+            "period_days": 35.40395911113991,
+            "epoch_btjd": 1708.708447067582,
+            "duration_days": 0.15155046599777644,
+            "n_events": 7,
+            "total_snr": 16.448303270945335,
+            "leave_one_out_snr": 12.963479418673542,
+            "true_timing_match": false
+          }
+        }
+      },
+      "supplied_truth": {
+        "n_events": 20,
+        "total_snr": 11.130990916639025,
+        "leave_one_out_snr": 10.255485647806855
+      },
+      "scope": "Selected-case development diagnostic; known injection truth is used for scoring only."
+    },
+    {
+      "id": "coarse_only__328799321_orbit1_radius1",
+      "seeds": 4096,
+      "true_period": 14.703362446638138,
+      "first_global_match": {
+        "global_rank": 1,
+        "period_days": 14.703310650777855,
+        "epoch_btjd": 1816.9426675673367,
+        "duration_days": 0.05430834878246651,
+        "n_events": 5,
+        "total_snr": 8.646810943985276,
+        "leave_one_out_snr": 7.062855166138261,
+        "true_timing_match": true
+      },
+      "ranking": {
+        "total_snr": {
+          "first_matching_rank": 1,
+          "best": {
+            "global_rank": 1,
+            "period_days": 14.703310650777855,
+            "epoch_btjd": 1816.9426675673367,
+            "duration_days": 0.05430834878246651,
+            "n_events": 5,
+            "total_snr": 8.646810943985276,
+            "leave_one_out_snr": 7.062855166138261,
+            "true_timing_match": true
+          }
+        },
+        "leave_one_out_snr": {
+          "first_matching_rank": 1,
+          "best": {
+            "global_rank": 1,
+            "period_days": 14.703310650777855,
+            "epoch_btjd": 1816.9426675673367,
+            "duration_days": 0.05430834878246651,
+            "n_events": 5,
+            "total_snr": 8.646810943985276,
+            "leave_one_out_snr": 7.062855166138261,
+            "true_timing_match": true
+          }
+        }
+      },
+      "supplied_truth": {
+        "n_events": 5,
+        "total_snr": 8.197490278213065,
+        "leave_one_out_snr": 6.572551220399808
+      },
+      "scope": "Selected-case development diagnostic; known injection truth is used for scoring only."
+    },
+    {
+      "id": "coarse_only__229614158_orbit0_radius1",
+      "seeds": 4096,
+      "true_period": 15.97233066279306,
+      "first_global_match": {
+        "global_rank": 2108,
+        "period_days": 15.972239039763531,
+        "epoch_btjd": 1696.019764751769,
+        "duration_days": 0.07055019392404921,
+        "n_events": 16,
+        "total_snr": 8.422968088985556,
+        "leave_one_out_snr": 7.341376857760106,
+        "true_timing_match": true
+      },
+      "ranking": {
+        "total_snr": {
+          "first_matching_rank": 401,
+          "best": {
+            "global_rank": 10,
+            "period_days": 39.61751256955924,
+            "epoch_btjd": 1697.2715693924863,
+            "duration_days": 0.14249137235304626,
+            "n_events": 1,
+            "total_snr": 13.049102838743273,
+            "leave_one_out_snr": null,
+            "true_timing_match": false
+          }
+        },
+        "leave_one_out_snr": {
+          "first_matching_rank": 76,
+          "best": {
+            "global_rank": 358,
+            "period_days": 41.65906222945285,
+            "epoch_btjd": 1702.2990954476372,
+            "duration_days": 0.1534937877781661,
+            "n_events": 9,
+            "total_snr": 11.65048039247598,
+            "leave_one_out_snr": 10.295891350701407,
+            "true_timing_match": false
+          }
+        }
+      },
+      "supplied_truth": {
+        "n_events": 16,
+        "total_snr": 9.290052391801327,
+        "leave_one_out_snr": 8.143511363830141
+      },
+      "scope": "Selected-case development diagnostic; known injection truth is used for scoring only."
+    }
+  ],
+  "completed_utc": "2026-09-07T09:32:28.045240+00:00"
+}
