@@ -1,0 +1,93 @@
+{
+  "completed_utc": "2026-09-07T08:31:11.724860+00:00",
+  "rows": [
+    {
+      "method": "production",
+      "matches": [
+        {
+          "toi": 700.02,
+          "period_days": 37.42339587315371,
+          "edge_timing_errors_days": [
+            0.003537929114372673,
+            0.016906823515277836
+          ],
+          "strict": true,
+          "all_screening_checks": true
+        }
+      ],
+      "periods": [
+        37.42339587315371,
+        68.56765801782936
+      ],
+      "total_elapsed_seconds": 166.09757587499917,
+      "result_path": "reports/calibration/revised_pipeline/production/result.json",
+      "result_sha256": "65fc6b622987280f6fc76b3282b26803dac90071f263a2652ace865db0355a0e"
+    },
+    {
+      "method": "harmonic_three",
+      "matches": [
+        {
+          "toi": 700.02,
+          "period_days": 37.42339587315371,
+          "edge_timing_errors_days": [
+            0.003537929114372673,
+            0.016906823515277836
+          ],
+          "strict": true,
+          "all_screening_checks": true
+        }
+      ],
+      "periods": [
+        37.42339587315371,
+        68.56876586202407
+      ],
+      "total_elapsed_seconds": 166.09769170801155,
+      "result_path": "reports/calibration/revised_pipeline/harmonic_three/result.json",
+      "result_sha256": "839ac9d7ff1ab9269dbe571eb8d9584f6c71e6a212bc13751ee9de56863f5c31"
+    },
+    {
+      "method": "coarse_only",
+      "matches": [
+        {
+          "toi": 700.02,
+          "period_days": 37.42331592031815,
+          "edge_timing_errors_days": [
+            0.012641666290846842,
+            0.013479737663423919
+          ],
+          "strict": true,
+          "all_screening_checks": true
+        }
+      ],
+      "periods": [
+        37.42331592031815,
+        68.57023997238142
+      ],
+      "total_elapsed_seconds": 135.77060650009662,
+      "result_path": "reports/calibration/revised_pipeline/coarse_only/result.json",
+      "result_sha256": "2494570d21e02261ac7326a563cc0ca59f2b763138aeafc464423cdb39832528"
+    },
+    {
+      "method": "qualified_seeds",
+      "matches": [
+        {
+          "toi": 700.02,
+          "period_days": 37.42331592031815,
+          "edge_timing_errors_days": [
+            0.012641666290846842,
+            0.013479737663423919
+          ],
+          "strict": true,
+          "all_screening_checks": true
+        }
+      ],
+      "periods": [
+        37.42331592031815,
+        68.57023997238142
+      ],
+      "total_elapsed_seconds": 139.49442212516442,
+      "result_path": "reports/calibration/revised_pipeline/qualified_seeds/result.json",
+      "result_sha256": "b5e4b1fbee20e5f661fa9d0509ef01ef8db35a7bd5cc165ffeb552dd1be7660c"
+    }
+  ]
+}

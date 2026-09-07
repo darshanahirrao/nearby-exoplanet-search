@@ -191,6 +191,13 @@ now compares all four complete pipelines on six other stars and realistic
 transit shapes. Its 240 runs address generalization; the earlier gate remains
 failed and the earlier 180-run assessment remains unexecuted.
 
+A [real-signal control](calibration/revised_pipeline/FINDINGS.md) finds that both
+revisions preserve the known 37.424-day TOI-700 planet under strict checks; neither
+recovers the known 27.810-day signal among its two fits. A [100-star pilot selection](../provenance/revised_pilot_selection.json)
+is frozen using only catalogue properties and observation counts. It remains
+unexecuted pending the independent confirmation outcome and does not add to the
+distinct-star count.
+
 The initial data campaign is complete; method development continues as separate,
 bounded experiments. A non-detection does not establish that these systems lack
 planets. Adopting another method requires a measurable advantage and independent

@@ -21,6 +21,8 @@ metrics; their scores cannot be combined into a survey completeness estimate.
 | [Physical-transit follow-up](realistic_duration/FINDINGS.md) | 180 method runs were prepared on six other stars; none executed because the prerequisite failed. | Remains unused |
 | [Early training qualification](qualified_seeds/FINDINGS.md) | 22/45 strict recoveries versus 19 for the original and 21 for the strongest simpler revision; no lost strict recovery. | Incremental-gain gate failed; independent comparison needed |
 | [Complete-pipeline confirmation](../../docs/EXPERIMENT_PIPELINE_CONFIRMATION.md) | Separately frozen 240-run comparison of four unchanged pipelines on six other stars and physical transit models. | Outputs in progress; no result yet |
+| [Real TOI-700 control](../calibration/revised_pipeline/FINDINGS.md) | All four methods recover the known 37.424-day planet strictly; none retains the known 27.810-day signal. | Existing real recovery preserved |
+| [Conditional 100-star pilot](../../docs/REVISED_SEARCH_PILOT.md) | Metadata-only target selection is frozen; execution requires both confirmation and known-planet checks. | Selection prepared; not executed |
 
 Each completed experiment links to its findings, exact plan, code hashes and
 outcomes. The original production results remain unchanged. No methodological

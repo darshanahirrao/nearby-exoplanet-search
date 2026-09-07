@@ -1,0 +1,68 @@
+{
+  "frozen_utc": "2026-09-07T08:21:04.125885+00:00",
+  "methods": [
+    "production",
+    "harmonic_three",
+    "coarse_only",
+    "qualified_seeds"
+  ],
+  "source_sha256": {
+    "docs/EXPERIMENT_PHYSICAL_DURATION.md": "0803a83a262752d6e35f4b235597d1a63bab4e81d17f35c402e5a248cf5a01e4",
+    "docs/EXPERIMENT_PIPELINE_CONFIRMATION.md": "8be832233e36af1b1d09bff02229bbdc96086bc4bbe1717985d4d9bb92cb6a07",
+    "docs/EXPERIMENT_QUALIFIED_SEEDS.md": "7deecba5d87d0a5f0f8c5df8ee260855e9bc96473aab09e434b302c9923332a3",
+    "docs/EXPERIMENT_REALISTIC_DURATION.md": "8c1c1eacf7c8de0fd3a9a3eb722a562c6f6b0d1be95ba8b8bb87cfe2d4125fca",
+    "requirements-experiments.txt": "3f88dae427bc764d32c28059155354cd0e44b85b0b13b18c6e28e40799bde4f2",
+    "scripts/cycle_excluded.py": "5e6020090a07368147f7c22ecd46df8d6c50ed7efdf66366a78443cf6a3944bb",
+    "scripts/cycle_excluded_experiment.py": "0672406d04ee480775db8d9d0c4231efa14d63b1c11b0c9c186da0de7c0c6267",
+    "scripts/injections.py": "b62af810b2c3596bf0442f032aef287b163769d9de5a933b787c15bbf2c46520",
+    "scripts/longbaseline.py": "ad9f136b0d863f57fe71f5f6f50c28cfccc728a7952034bdab02613bf2af714c",
+    "scripts/multimode_cycle_experiment.py": "a7b04afa531833d5874064ef989bbcdf831c5baed28877e00abeffb39376d2a0",
+    "scripts/parallel_bls.py": "aec4e8d6065ee65c703273ccf20708b69a353436cd858bb31709e1b4b24caad1",
+    "scripts/physical_duration.py": "47115f45e26f87227bd30b43e59b5948af57041df0e84b7679dbc465460422d6",
+    "scripts/physical_duration_experiment.py": "3bf16fa84ca40c469dc2d60b5653c1ec7707a01b1ed28dc731ba4af27826c8d5",
+    "scripts/physics.py": "6045fcc37553fa01badfe7a3ff634188f7acaa3488848f2fd33003bf624ad774",
+    "scripts/pipeline_confirmation.py": "ba00c55343c5ce23ab89d4327e26678ab475eb431301f01c9ab511e7ef6da194",
+    "scripts/qualified_seed_experiment.py": "eb1be4c16e30ebc8a035c0b64579f133a60acc68672ce77b6e0017ff0c2ad6e5",
+    "scripts/qualified_seeds.py": "e2f3c4c2844e53d198493090582a7b32c92cad5536f44993c7a5973f112dabc3",
+    "scripts/realistic_duration_experiment.py": "066af906f21e11418d62df57ad80bcf4dc13e477d7c516e0d869a3cff1ee51d1",
+    "scripts/realistic_injections.py": "bf8340f21927828e060cedde9a8c31da3a32c6f024f92acb0c5b2afc5cb4653f",
+    "scripts/search.py": "73eef744937f00915a353bfa3bda4753365c26b3661fb0b2be661adca6285b31",
+    "scripts/variability.py": "ddec9fe378823fe9f2dd70e377d06652154311b9a14031ab84650e1f4ae25060",
+    "docs/CALIBRATION_REVISED_PIPELINE.md": "65f0a5fbe43067627439a072625ebefa82a928c322c8323f2cff5454bd083d46",
+    "scripts/pipeline_control.py": "359c19fc2c8d6af6894bc73a63a654872e5e72ed884f0345c7d81cb08409333c"
+  },
+  "input_sha256": {
+    "results/150428135_calibration_v2/lightcurve.csv.gz": "354ef7819257ee886c149acc13a045acb421b74979101a34fef88b4e272bcf4c",
+    "results/150428135_calibration_v2/result.json": "217ae88afff2afa16e3cc766d9ec7e7fb282f367cde1c9997e4a356960ccc488",
+    "data/catalogs/exofop_toi.csv": "4fb03d3382ab5b279f5ad0a99b91a7fd9ea5e73b9a38aa97a2379ec99249a8df",
+    "reports/calibration/150428135_longbaseline.json": "0b2588dbe8414512db4748bfb65bfa07a297df3fdd2940d74bcde5fb7f924cf7"
+  },
+  "catalogue_truth": [
+    {
+      "toi": 700.01,
+      "period_days": 16.0511059784547,
+      "epoch_btjd": 2303.1570620001294,
+      "duration_days": 0.05820095243199792
+    },
+    {
+      "toi": 700.02,
+      "period_days": 37.4236838274161,
+      "epoch_btjd": 1330.4861550000496,
+      "duration_days": 0.14020875520349627
+    },
+    {
+      "toi": 700.03,
+      "period_days": 9.97727296315733,
+      "epoch_btjd": 1331.3496449999511,
+      "duration_days": 0.09409846248493416
+    },
+    {
+      "toi": 700.04,
+      "period_days": 27.8096897573547,
+      "epoch_btjd": 1352.9995200000703,
+      "duration_days": 0.12316176421206208
+    }
+  ],
+  "bls_threads": 1,
+  "scope": "Previously inspected real known-planet control; not independent selection or discovery."
+}

@@ -1,0 +1,43 @@
+{
+  "original_control_sha256": "0b2588dbe8414512db4748bfb65bfa07a297df3fdd2940d74bcde5fb7f924cf7",
+  "replayed_control_sha256": "65fc6b622987280f6fc76b3282b26803dac90071f263a2652ace865db0355a0e",
+  "replay_equalities": {
+    "training_sectors": true,
+    "holdout_sectors": true,
+    "training_points": true,
+    "holdout_points": true,
+    "search_config": false,
+    "signals": false
+  },
+  "rows": [
+    {
+      "method": "harmonic_three",
+      "training_ephemerides_preserved": true,
+      "result_sha256": "839ac9d7ff1ab9269dbe571eb8d9584f6c71e6a212bc13751ee9de56863f5c31",
+      "frozen_training_sha256": "a75df7ec1621e37f019ccbb2fd27039bfd3f2b49bbbfe74e8f34aaf65e7f88a5"
+    },
+    {
+      "method": "coarse_only",
+      "training_ephemerides_preserved": true,
+      "result_sha256": "2494570d21e02261ac7326a563cc0ca59f2b763138aeafc464423cdb39832528",
+      "frozen_training_sha256": "1729b35a9611f12ade0926cc0e0135ac6a2bb22e0bc5fb59d59eae729f5d3ab9"
+    },
+    {
+      "method": "qualified_seeds",
+      "training_ephemerides_preserved": true,
+      "result_sha256": "b5e4b1fbee20e5f661fa9d0509ef01ef8db35a7bd5cc165ffeb552dd1be7660c",
+      "frozen_training_sha256": "207fe33103bbd1e146b9714f79d11ad0a351c2c2ee3be30de72ea92a657502c0"
+    },
+    {
+      "method": "production",
+      "training_ephemerides_preserved": true,
+      "result_sha256": "65fc6b622987280f6fc76b3282b26803dac90071f263a2652ace865db0355a0e",
+      "frozen_training_sha256": "8978e539b67fe90d5ade386fc9a6172c79ab1b3c1916491ddba766245859d4a7"
+    }
+  ],
+  "core_blind_signal_fields_exact": true,
+  "expected_metadata_differences": [
+    "The current search config includes maximum_trial_fits=2; the older control omitted this field.",
+    "The older report added catalogue matches and the known-signal annotation after searching; the replay scores catalogue truth separately."
+  ]
+}
