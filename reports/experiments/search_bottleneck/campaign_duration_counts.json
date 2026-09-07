@@ -1,0 +1,8 @@
+{
+  "scope": "Retrospective count of existing main combined-season trial fits; no new candidate inference.",
+  "source": "reports/tables/longbaseline_screening.csv",
+  "source_sha256": "c709830ff761a37ac892dc4a7d37e1b6ac94e9ddb6abf576931fecb8d85871e2",
+  "trial_fits": 1816,
+  "long_duration_flagged": 1665,
+  "targets_with_both_fits_long": 779
+}

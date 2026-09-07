@@ -1,0 +1,4 @@
+# Additional transit-shape validation; install after requirements.lock.txt.
+batman-package==2.5.3
+# Supplies distutils for batman's OpenMP probe on Python 3.12.
+setuptools==80.9.0

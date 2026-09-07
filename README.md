@@ -120,6 +120,9 @@ Two [source-specific](reports/experiments/periodic_source/FINDINGS.md)
 missed their improvement gates. Current work follows a measured
 [search bottleneck](reports/experiments/search_bottleneck/FINDINGS.md): broad,
 implausible seed fits can displace detectable injected transits before vetting.
+The first [duration-prior benchmark](reports/experiments/physical_duration/FINDINGS.md)
+completed 150 paired runs but failed its improvement gate; its prepared
+new-star assessment remains unexecuted.
 
 ## Repository map
 

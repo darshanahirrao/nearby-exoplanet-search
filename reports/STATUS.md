@@ -59,7 +59,7 @@ The faint, variable control TIC 232970271 yielded no recovered injections in the
 first two suites. Periodic filtering improves this limited sensitivity check;
 non-detections still cannot exclude small planets.
 
-Twenty offline numerical checks pass, including a test that changing final-holdout
+Twenty-three offline numerical checks pass, including a test that changing final-holdout
 flux leaves the fitted ephemeris unchanged while reversing the measured holdout
 signal. Local execution, code, data-product references and failure records are
 retained for independent inspection.
@@ -173,10 +173,12 @@ subtraction. Neither was applied to the four additional pixel views or adopted.
 
 A [search-bottleneck diagnostic](experiments/search_bottleneck/FINDINGS.md)
 shows that broad, physically implausible seed fits can crowd out measurable
-synthetic transits. A fresh paired experiment will test whether enforcing the
-duration prior during the search, after equal-budget variability correction,
-improves actual period recovery. The two selected diagnostic cases do not
-establish a population-level gain.
+synthetic transits. The subsequent [150-run duration-prior experiment](experiments/physical_duration/FINDINGS.md)
+recovered 20 of 45 injections under strict checks, tying the stronger comparison
+and losing one of its strict recoveries. It failed the development gate. Its
+[prepared six-star physical-transit assessment](experiments/realistic_duration/FINDINGS.md)
+remains unexecuted. The two selected diagnostic cases did not establish a
+population-level gain.
 
 The initial data campaign is complete; method development continues as separate,
 bounded experiments. A non-detection does not establish that these systems lack
